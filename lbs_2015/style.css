@@ -1,0 +1,652 @@
+/*
+Theme Name: LBS 2015
+Theme URI: http://businessschool.luiss.it/
+Author: Roberto e Fabrizio  (ev)
+Author URI: http://businessschool.luiss.it/
+Version: 1.0.beta
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+
+
+@font-face{font-family:"ITC Officina Sans W01";src:url(Fonts/e4f88d1f-2f5e-49a0-9361-9fcdc5bfc795.eot?#iefix);src:url(Fonts/e4f88d1f-2f5e-49a0-9361-9fcdc5bfc795.eot?#iefix) format("eot"),url(Fonts/60567f88-1ef5-4f2c-9951-3ce3845f9967.woff) format("woff"),url(Fonts/ec8c3086-5408-4f25-97d0-f1f4c7014668.ttf) format("truetype"),url(Fonts/d29fed54-ae01-49ef-94e2-3e3fb9df3f70.svg#d29fed54-ae01-49ef-94e2-3e3fb9df3f70) format("svg");font-weight:300;font-style:normal}
+@font-face{font-family:"ITC Officina Sans W01 Bold";src:url(Fonts/2f0ec777-1dee-443a-8545-9f7f99463c7c.eot?#iefix);src:url(Fonts/2f0ec777-1dee-443a-8545-9f7f99463c7c.eot?#iefix) format("eot"),url(Fonts/de07363b-ce31-46ce-aea6-f035147ac203.woff) format("woff"),url(Fonts/c2aa6294-4649-4459-8985-3ea6c56ca7a9.ttf) format("truetype"),url(Fonts/d6cda294-df79-4dd0-9a04-87653b44cb98.svg#d6cda294-df79-4dd0-9a04-87653b44cb98) format("svg");font-weight:700;font-style:normal}
+@font-face{font-family:"ITC Officina Serif W01";src:url(Fonts/d29a1003-aa62-4492-a4ab-3b649c7efccd.eot?#iefix);src:url(Fonts/d29a1003-aa62-4492-a4ab-3b649c7efccd.eot?#iefix) format("eot"),url(Fonts/d8999082-96b7-4355-bab1-d135f4e4bee7.woff) format("woff"),url(Fonts/e0a4e45b-0b2e-4b30-82d9-808d85415dc9.ttf) format("truetype"),url(Fonts/9e9b325c-b638-44e5-9889-91dd0d826f86.svg#9e9b325c-b638-44e5-9889-91dd0d826f86) format("svg");font-weight:300;font-style:Regular}
+@font-face{font-family:"Droid Sans Mono W01";src:url(Fonts/da99e021-1adc-402e-9724-4a7a508c0ca9.eot?#iefix);src:url(Fonts/da99e021-1adc-402e-9724-4a7a508c0ca9.eot?#iefix) format("eot"),url(Fonts/b9064a23-9ce3-4444-8334-a3040698c81f.woff) format("woff"),url(Fonts/1479c6cd-a01e-45c3-92f1-64276599c820.ttf) format("truetype"),url(Fonts/5dfbdeaa-66ad-4913-87c5-a6f779651dd9.svg#5dfbdeaa-66ad-4913-87c5-a6f779651dd9) format("svg");font-weight:400;font-style:Regular}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;font-family:inherit;font-size:100%;font-style:inherit;font-weight:inherit;margin:0;outline:0;padding:0;vertical-align:baseline}
+html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;font-size:62.5%;overflow-y:scroll;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
+*,:before,:after{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}
+body{font-family:"ITC Officina Sans W01"}
+article,aside,details,figcaption,figure,footer,header,main,nav,section{display:block}
+ol,ul{list-style:none}
+table{border-collapse:separate;border-spacing:0}
+caption,th,td{font-weight:400;text-align:left}
+blockquote:before,blockquote:after,q:before,q:after{content:""}
+blockquote,q{-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none;quotes:none}
+a:focus{outline:2px solid #c1c1c1;outline:2px solid rgba(51,51,51,0.3)}
+a:hover,a:active{outline:0;}
+a img{border:0}
+.container{position:relative;width:100%}
+.column.large-centered:last-child,.columns.large-centered:last-child{float:none}
+.column.large-centered,.columns.large-centered{float:none;margin-left:auto;margin-right:auto}
+.large-10{width:83.3333%}
+#site-canvas{width:100%;height:100%;position:relative;-webkit-transform:translateX(0);transform:translateX(0);-webkit-transition:.3s ease all;transition:.3s ease all;padding:0}
+#masthead{padding:20px 15px 60px}
+#mobile-menu-trigger{display:none}
+#nav-main{padding:0;position:relative}
+#secondary-nav{float:left}
+#secondary-nav ul{line-height:14px;list-style:none;margin-top:14px;float:right}
+#secondary-nav li{display:inline-block;font-size:14px;color:#fff}
+#secondary-nav a{color:#fff;padding:0 10px}
+#network-offcanvas-trigger{position:relative}
+#network-container-offcanvas{background-color:#f7f7f7;padding:0;transition:all .3s ease 0;z-index:20;position:absolute;top:-210px;left:0;width:100%}
+#network-container-offcanvas-ul{height:210px;position:relative}
+#site-canvas.show-network #network-offcanvas-trigger:before{right:26px;top:-35px;border:solid transparent;content:" ";height:0;width:0;position:absolute;pointer-events:none;border-color:rgba(247,247,247,0);border-top-color:#f7f7f7;border-width:15px;margin-left:-15px}
+#network-container-offcanvas ul{list-style:none;margin:30px 0 0}
+#network-container-offcanvas a{font-family:"ITC Officina Sans W01 Bold","Georgia","Times New Roman",serif;color:#3c3c3c;font-size:14px;text-transform:uppercase}
+#network-container-offcanvas button.close-menu{background-color:#ebebeb;color:#333;font-size:28px;font-family:"ITC Officina Sans W01 Bold","Georgia","Times New Roman",serif;height:210px;position:absolute;right:0;top:0;width:210px;border:none}
+#site-wrapper.show-network #site-canvas{-webkit-transform:translateY(210px);transform:translateY(210px)}
+#menu-main{background:none;width:100%;border:1px solid #333;float:left;line-height:2;list-style:none;margin:0;padding:0;position:relative}
+#menu-main li{display:inline-block;float:left;font-family:"ITC Officina Sans W01";font-size:14px;font-weight:400;text-transform:uppercase}
+#menu-main li a{color:#2A2A2A;display:inline-block;padding:16px;text-decoration:none;-o-transition:all .3s linear;-webkit-transition:all .3s linear;-moz-transition:all .3s linear;transition:all .3s linear}
+#menu-main .current-menu-item a,#menu-main .current-page-ancestor a,#menu-main li:hover > a,.sub-menu{background:#111;color:#fff}
+#menu-main .sub-menu{list-style:none;margin:0;padding:0;display:none;position:absolute;width:calc(100% + 2px);left:-1px;z-index:99999;background:#111;border-left:1px solid #333;border-right:1px solid #333;-o-transition:all .3s linear;-webkit-transition:all .3s linear;-moz-transition:all .3s linear;transition:all .3s linear}
+#menu-main li:hover .sub-menu{display:block}
+#menu-main .sub-menu{-webkit-column-count:2;-moz-column-count:2;column-count:2;padding:0}
+#menu-main .sub-menu li{float:none;display:inline;text-transform:none}
+#menu-main .sub-menu li a{background:#111;color:#F7F7F7;float:none;display:block;padding:20px 28px;border-bottom:1px solid #3c3c3c;position:relative}
+#menu-main .sub-menu li a:after{color:#F7F7F7;content:"\f105";position:absolute;right:14px;font-family:"FontAwesome"}
+#menu-main .sub-menu li a:hover{color:#fff;background:rgba(60,60,60,0.5);text-decoration:none}
+#nav-main .searchbar{border-left:1px solid #333;position:absolute;right:20px;top:1px;float:right;display:block}
+#nav-main .searchbar a{padding:20px 22px;display:block;width:100%;color:#2A2A2A;font-size:14px;min-height:20px}
+#nav-main .searchbar a:hover{cursor:pointer}
+#nav-main .drop-open a{background:#111;color:#fff}
+#sb-search{display:none;float:right;width:100%;margin-top:-1px}
+#sb-search .sb-search-input{height:5rem}
+h1,h2,h3,h4,h5,h6{color:#222;font-style:normal;font-weight:700;line-height:1.4;margin-bottom:9px;margin-top:4px;text-rendering:optimizelegibility;font-family:"ITC Officina Sans W01 Bold"}
+h1,.h1{color:#fff;font-size:36px;padding-top:20px;padding-bottom:20px;margin:0;font-weight:700}
+h2,.h2{font-size:30px;font-weight:700}
+h3,.h3,.cards h2{font-size:24px}
+h4{font-size:19px}
+h5{font-size:18px}
+h6{font-size:18px}
+p{font-family:inherit;font-size:18px;font-weight:400;line-height:1.6;margin:0 0 20px;text-rendering:optimizelegibility}
+ul,ol{font-family:inherit;font-size:18px;line-height:1.8;list-style-position:outside;margin-bottom:10px;list-style:disc;margin-left:20px}
+ul{list-style:disc}
+.page #masthead,.page #nav-main,.page #content-title,.page #breadcrumb-top{background:#fdbb4d}
+.single #masthead,.single #nav-main,.single #content-title,.single #breadcrumb-top{background:#fdbb4d}
+.error404 #masthead,.error404 #nav-main,.error404 #content-title,.error404 #breadcrumb-top{background:#fdbb4d}
+#breadcrumb-top .breadcrumb{border-bottom:1px solid #fff}
+.notransform{transform:none!important}
+.back-to-top{padding:10px;color:#fff;border:1px solid #fff;float:right;display:none}
+.fixed{width:100%;left:0;position:fixed;top:0;z-index:99;padding:0;-webkit-backface-visibility:hidden;-webkit-transform:translateZ(0)}
+.fixed .back-to-top{display:inline-block;float:right}
+.page-template-chi-siamo #breadcrumb-top .breadcrumb,.page-template-offerta #breadcrumb-top .breadcrumb,.page-template-faculty #breadcrumb-top .breadcrumb,.page-template-agevolazioni-servizi #breadcrumb-top .breadcrumb,.page-template-alumni #breadcrumb-top .breadcrumb,.page-template-eventi #breadcrumb-top .breadcrumb,.page-template-mba #breadcrumb-top .breadcrumb,.page-template-corsi-laurea #breadcrumb-top .breadcrumb,.page-template-executive-program #breadcrumb-top .breadcrumb,.page-template-master #breadcrumb-top .breadcrumb,.page-template-doctoral #breadcrumb-top .breadcrumb,.page-template-formazione-specialistica #breadcrumb-top .breadcrumb,.page-template-taxonomy-afc
+
+#breadcrumb-top .breadcrumb,.page-template-taxonomy-banche 
+#breadcrumb-top .breadcrumb,.page-template-taxonomy-corporate
+#breadcrumb-top .breadcrumb,.page-template-taxonomy-soft
+#breadcrumb-top .breadcrumb,.page-template-taxonomy-management
+#breadcrumb-top .breadcrumb,.page-template-taxonomy-marketing
+#breadcrumb-top .breadcrumb,.page-template-taxonomy-people
+#breadcrumb-top .breadcrumb,.page-template-taxonomy-project
+#breadcrumb-top .breadcrumb,.page-template-taxonomy-sanita
+#breadcrumb-top .breadcrumb,.page-template-taxonomy-real
+#breadcrumb-top .breadcrumb,.page-template-taxonomy-sport
+#breadcrumb-top .breadcrumb,.page-template-taxonomy-tax
+#breadcrumb-top .breadcrumb,.page-template-roma
+#breadcrumb-top .breadcrumb,.page-template-progetti-speciali
+
+
+ #breadcrumb-top .breadcrumb {border-bottom:none}
+.breadcrumb{margin:0;font-family:"ITC Officina Sans W01";font-size:14px;line-height:14px;background:none;padding:20px 10px}
+.breadcrumb div{color:#fff;float:left;font-size:14px;line-height:14px;padding:0 5px}
+.breadcrumb a{color:#fff}
+#breadcrumb-top.fixed .breadcrumb{border-bottom:none}
+.fixed .breadcrumb .home span{display:none}
+.fixed .breadcrumb .home{background-image:url(http://www.luiss.it/sites/all/themes/LUISSdigital/images/capitello.png);display:block;float:left;height:32px;margin-top:0;width:37px}
+.fixed .breadcrumb div{margin-top:10px}
+.fixed .breadcrumb div:first-child{margin-top:0}
+#page-content{padding-top:20px;padding-bottom:20px}
+#menu-local{background-color:#f7f7f7;margin-top:-60px;padding-top:40px}
+#menu-local h2{color:#333;font-size:16px;font-weight:700;margin:0;padding-left:10px;text-transform:uppercase}
+#menu-local h2 a{color:#333}
+#menu-local ul.menu{padding:20px 0;list-style:none;margin-left:0}
+#menu-local ul.menu li{font-size:14px;font-family:"ITC Officina Sans W01 Bold","Georgia","Times New Roman",serif}
+#menu-local ul.menu a{padding:5px 25px;color:#3c3c3c;display:block;margin-left:-15px;margin-right:-15px;-o-transition:all .3s linear;-webkit-transition:all .3s linear;-moz-transition:all .3s linear;transition:all .3s linear}
+#menu-local ul.menu a:hover{background:#3c3c3c;text-decoration:none;color:#fff}
+#menu-local ul.menu .current-menu-item a{background:#3c3c3c;color:#fff}
+#menu-local ul.menu .sub-menu{display:none;list-style:none;margin:0;padding:0;background:none}
+#menu-local ul.menu .current-menu-item .sub-menu,#menu-local ul.menu .current-menu-parent .sub-menu{display:block}
+#menu-local ul.menu .sub-menu li{background:none;font-style:italic;font-weight:400;font-family:"ITC Officina Sans W01"}
+#menu-local ul.menu .current-menu-item .sub-menu a{background:none;color:#3c3c3c}
+#menu-local ul.menu .current-menu-item .sub-menu a:hover{background:#3c3c3c;text-decoration:none;color:#fff}
+#menu-local ul.menu .current-menu-item .sub-menu .sub-menu{display:none}
+#menu-local ul.menu .current_page_ancestor .sub-menu{display:block}
+#menu-local ul.menu .current_page_ancestor .sub-menu .sub-menu{display:none}
+#menu-local ul.menu .current_page_ancestor .sub-menu .current_page_item .sub-menu, #menu-local ul.menu .current_page_ancestor .sub-menu .current_page_ancestor .sub-menu{display:block}
+#menu-local ul.menu .sub-menu li .sub-menu a{padding-left:40px}
+#menu-local ul.menu .sub-menu li .sub-menu li .sub-menu a{padding-left:60px}
+aside#sidebar{background:#3c3c3c;color:#ddd;font-size:14px;margin:-62px 0 0;padding-top:40px;position:relative;min-height:200px}
+.space{margin:20px auto;padding:16px;position:relative}
+input[type="text"],input[type="password"],input[type="date"],textarea{background-color:#fff;border:1px solid #333;box-shadow:0 1px 2px rgba(0,0,0,0.6);color:rgba(0,0,0,1);display:block;font-family:inherit;font-size:16px;height:2.9em;margin:0;padding:10px;transition:box-shadow .3s ease 0s,border-color .3s ease-in-out 0;width:100%;font-family:"ITC Officina Sans W01"}
+.lang_selector{color:#fff;position:relative}
+.lang_selector ul{line-height:14px;list-style:none;margin-top:14px;float:right}
+.lang_selector li{display:inline-block;font-size:16px;color:#fff}
+.lang_selector a{color:#fff;padding:5px 8px}
+.lang_selector li a.active{border-bottom:1px solid #fff}
+.home-headline{font-weight:400;padding-top:9px;text-transform:uppercase;font-family:"ITC Officina Sans W01","Georgia","Times New Roman",serif;color:#222;font-size:17px;}
+.home-headline a{color:#222;text-decoration:none}
+.sub-home{position:relative;color:#fff;margin:0;padding:0;border:0;overflow:hidden;*zoom:1;margin:0 auto 0}
+.sub-home-heading{padding:40px 20px}
+.sub-home h1,.sub-home h2.h1{color:#fff;font-size:46px;line-height:46px;text-transform:uppercase;font-weight:700}
+.sub-home .h1-sub{color:#fff;font-size:26px;line-height:32px;font-style:italic;font-family:"ITC Officina Sans W01 Bold"}
+.sub-home p{color:#fff;font-size:18px}
+.sub-home-grid{margin:0;padding:0;border:0;overflow:hidden;*zoom:1;margin:0 auto;background-color:#fdbb4d;height:100%}
+.vid{position:relative;padding-bottom:53%;padding-top:30px;height:0;overflow:hidden}
+.vid iframe,.vid object,.vid embed{position:absolute;top:0;left:0;width:100%;height:100%}
+.nopadding{padding:0!important;margin:0!important}
+.Flexible-container{position:relative;padding-bottom:56.25%;padding-top:30px;height:0;overflow:hidden}
+.Flexible-container iframe,.Flexible-container object,.Flexible-container embed{position:absolute;top:0;left:0;width:100%;height:100%}
+.img-responsive{max-width:100%;display:block}
+.embed-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; max-width: 100%; height: auto; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+button,.button,.pagination-nav a{-webkit-appearance:none;-webkit-transition:background-color 300ms ease-out;background-color:#feba4d;border:0 solid #feba4d;border-radius:0;color:#FFF;cursor:pointer;display:inline-block;font-family:'ITC Officina Sans W01',Georgia,'Times New Roman',serif;font-size:16px;font-weight:400;line-height:normal;margin:0 0 19px;padding:16px 32px;position:relative;text-align:center;text-decoration:none;transition:background-color 300ms ease-out}
+.pagination-nav a{margin-right:10px}
+.white{background-color:#fff;color:#feba4d;margin-top:5px;font-weight:700}
+strong,b{font-weight:700;line-height:inherit}
+em,i{font-style:italic;line-height:inherit}
+#main a{line-height:inherit;text-decoration:none;font-weight:800;text-rendering:optimizelegibility;color:#FDBB4D}
+#main a.button{color:#fff;transition:background-color 300ms ease-out 0;font-weight:400}
+img.left{margin-right:10px}
+.left{float:left!important}
+img.right{margin-left:10px}
+.right{float:right!important}
+img{display:inline-block;vertical-align:middle;height:auto;}
+hr{border-color:#DDD;border-style:solid;border-width:1px 0 0;clear:both;height:0;margin:19px 0}
+.live-search-results{background:#FFF;position:absolute;border-left:1px solid #fdbb4d;border-right:1px solid #fdbb4d;border-bottom:1px solid #fdbb4d;border-top:none;margin-top:-1px;width:98%;z-index:100000}
+.live-search-results ul{margin:0;padding:0;list-style:none;text-align:left}
+.live-search-results ul li{font-size:18px;line-height:18px;font-weight:700}
+.live-search-results ul li span{font-size:14px;font-weight:400;display:block;line-height:14px}
+.live-search-results ul a{padding:10px;text-decoration:none;color:#333;border-bottom:1px solid #333;display:block}
+.live-search-results ul a:hover{background-color:#fdbb4d;color:#fff}
+.nav-alphabet{width:100%;background-color:#ebebeb;border-bottom:1px solid #a8a8a8}
+.nav-alphabet ul{margin:0;padding:0;list-style:none}
+.nav-alphabet ul li{float:left;margin-right:15px;padding-bottom:5px}
+.nav-alphabet ul li a{float:left;border:1px solid #a8a8a8;color:#3c3c3c!important;text-decoration:none;text-transform:uppercase;padding:5px 10px}
+.nav-alphabet ul li.disabled a{color:#999!important}
+.nav-alphabet ul li a:hover{float:left;border:1px solid #a8a8a8;background:#3c3c3c;color:#fff!important}
+.nav-alphabet ul li.disabled a:hover{background:none;color:#999!important}
+.finder-text{min-height:300px;position:relative;right:0;top:0;padding:40px;background-color:#ebebeb;font-weight:700}
+.finder-title,.finder-description{color:#3c3c3c!important;line-height:1.25em;text-transform:uppercase;font-family:"ITC Officina Sans W01"}
+.finder-title{font-size:35px}
+.finder-description{font-size:30px;font-weight:400}
+.finder-button,.finder-send-button{background-color:#feba4d;border:1px solid #e3a745;color:#fff;cursor:pointer;display:block;font-size:15px;font-weight:700;padding:10px 20px;text-align:center;text-decoration:none;text-transform:uppercase;width:100%}
+.close-finder-form{background-color:#666}
+.finder-button:hover{color:#fff;text-decoration:none}
+#form-course-finder{display:none;margin-bottom:10px}
+#form-course-finder ul{list-style:none;margin:0;padding:0}
+#form-course-finder label{display:block;padding:0 0 10px;border-bottom:1px solid #fff;color:#3c3c3c}
+#form-course-finder select{display:block;width:100%;padding:5px;font-size:16px;font-weight:400}
+.pleft{padding-left:0}
+strong,b{font-weight:700;line-height:inherit}
+#main a{line-height:inherit;text-decoration:none;font-weight:800;text-rendering:optimizelegibility;color:#FDBB4D}
+#main a:hover{text-decoration: underline}
+#main a.button{color:#fff;transition:background-color 300ms ease-out 0;font-weight:400}
+img.left{margin-right:10px}
+.left{float:left!important}
+hr{border-color:#DDD;border-style:solid;border-width:1px 0 0;clear:both;height:0;margin:1.11111rem 0 1.05556rem}
+.offerta{background:url(http://businessschool.luiss.it/wp-content/uploads/2015/03/bg-offerta-finder.jpg) no-repeat scroll 0 0 / cover #feba4d;min-height:528px; margin:0 !important}
+#offerta-nav{background:#3c3c3c}
+#offerta-nav ul{padding:0;margin:0}
+#offerta-nav ul li{font-family:'ITC Officina Sans W01',Georgia,'Times New Roman',serif;font-style:normal;font-weight:400;font-size:18px;text-transform:uppercase;text-align:center;height:100px;line-height:1.1;padding:35px 10px;list-style:none;color:#fff}
+#offerta-nav ul li.active{background:none repeat scroll 0 0 #ebebeb}
+#offerta-nav a{color:#fff;text-decoration:none}
+#offerta-nav ul li.active a{color:#3c3c3c}
+.tematiche-desktop{display:block}
+.tematiche-mobile{display:none}
+#sub-offerta-nav{background:none repeat scroll 0 0 #ebebeb;display:block}
+#sub-offerta-nav ul{margin:0;padding:0}
+#sub-offerta-nav ul li{font-family:"ITC Officina Sans W01",Georgia,"Times New Roman",serif;font-size:14px;font-style:normal;font-weight:400;height:100px;line-height:1.1;list-style:outside none none;padding:35px 10px;text-align:center;text-transform:uppercase}
+#sub-offerta-nav ul li.active, #menu-tematiche .current_page_item {background:#666;color:#fff}
+#sub-offerta-nav a{color:#3b3b3b;text-decoration:none}
+#sub-offerta-nav ul li.active a, #menu-tematiche .current_page_item a{color:#fff}
+.footer{background:none repeat scroll 0 0 #f7f7f7;padding:40px 0;font-family:"ITC Officina Sans W01"}
+.footer p{color:#222;font-size:16px}
+.footer .footer h2{color:#222;font-weight:700}
+.footer .headline{display:block;margin:10px 0 25px;font-size:18px;font-weight:700;font-family:"ITC Officina Sans W01"}
+.list-unstyled{list-style:outside none none;padding-left:0}
+.footer .link-list li{display:block;text-decoration:none;color:#3c3c3c;font-size:13px;font-weight:700;padding:2px;text-transform:uppercase}
+.footer address,.footer .link-list a,.footer .link-list i{color:#3C3C3C}
+.footer address{line-height:23px}
+address{font-style:normal;line-height:1.42857;margin-bottom:20px;height:150px;font-size:16px}
+.footer .list-unstyled{list-style:outside none none;padding-left:0;margin-left:0}
+.link-list li i{color:#bbb;float:right;margin-top:10px}
+.link-list a{color:#eee;display:inline-block;font-size:13px;padding:6px 0;text-transform:uppercase;text-decoration:none}
+.footer .link-list li{border-top:1px solid #353535}
+.footer-logo{margin:17px 0 20px}
+.copyright{background:#3C3C3C;border-top:medium none;padding:10px 0 5px}
+.copyright p{color:#fff;margin-top:14px;font-size:12px}
+.copyright a{margin:0 2px}
+.footer-socials{margin-top:12px;text-align:right}
+.footer-socials li a{color:#777;font-size:16px}
+
+.social-icon {
+	background:url(img/social-sprite.png);
+	background-repeat:no-repeat;
+	width:48px;
+	height:48px;
+	display:block
+}
+
+.icon-facebook {
+	background-position:0 0;
+}
+.icon-twitter {
+	background-position:-48px 0;
+}
+.icon-instagram {
+	background-position:-96px 0;
+}
+.icon-flickr {
+	background-position:-144px 0;
+}
+.icon-youtube {
+	background-position:-192px 0;
+}
+
+.icon-google-plus {
+	background-position:-240px 0;
+}
+.icon-linkedin {
+	background-position:-288px 0;
+}
+
+.footer .map-img{background:url(img/map-img.png) no-repeat scroll 5px 60px rgba(0,0,0,0)}
+.footer .footer-logos{float:left;position:relative}
+.footer .footer-logos ul{border:0 none;margin:0;overflow:hidden;padding:0}
+.footer .footer-logos ul li{display:inline-block;list-style-image:none;list-style-type:none;margin-left:0;vertical-align:middle;white-space:nowrap}
+.footer.footer-logos ul li{margin-left:2em}
+.footer .footer-logos ul li:first-child{margin-left:0}
+.footer .footer-logos ul a{display:inline-block}
+.footer .footer-logos .equis a{background-image:url(img/logo_equis.png);background-position:50% 50%;background-repeat:no-repeat;height:56px;overflow:hidden;text-align:left;text-indent:-119988px;width:86px}
+.footer .footer-logos .aacsb a{background-image:url(img/logo_aacsb.png);background-position:50% 50%;background-repeat:no-repeat;height:56px;overflow:hidden;text-align:left;text-indent:-119988px;width:64px}
+.footer .footer-logos .amba a{background-image:url(img/amba_mini2.png);background-position:50% 50%;background-repeat:no-repeat;height:56px;overflow:hidden;text-align:left;text-indent:-119988px;width:135px}
+.link-conf{background:url(img/confindustria.png) no-repeat center center;display:block;width:120px;height:64px;text-indent:-9999px;margin-top:80px}
+.md-margin-bottom-40{margin-bottom:40px}
+.link-h2 {color:#3c3c3c; text-decoration:none}
+.link-h2:hover{color:#FDBB4D;text-decoration:none}
+table {
+	width: 100%;
+}
+table {
+	background: none repeat scroll 0 0 #fff;
+	margin-bottom: 19px;
+	table-layout: auto;
+}
+table caption {
+	background: none repeat scroll 0 0 transparent;
+	color: #222;
+	font-size: 18px;
+	font-weight: bold;
+}
+table thead {
+	background: none repeat scroll 0 0 #f5f5f5;
+}
+table thead tr th, table thead tr td {
+	color: #222;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 7px 10px 10px;
+}
+table tfoot {
+	background: none repeat scroll 0 0 #f5f5f5;
+}
+table tfoot tr th, table tfoot tr td {
+	color: #222;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 7px 10px 10px;
+}
+table tr th, table tr td {
+	color: #222;
+	font-size: 18px;
+	padding: 9px 10px;
+	text-align: left;
+}
+table tr.even, table tr.alt, table tr:nth-of-type(2n) {
+	background: none repeat scroll 0 0 #f9f9f9;
+}
+table thead tr th, table tfoot tr th, table tfoot tr td, table tbody tr th, table tbody tr td, table tr td {
+	display: table-cell;
+	line-height: 18px;
+}
+footer .fa {font-size:20px}
+.text-decoration a ,a:hover{ text-decoration:none;}
+
+
+pre {
+    color: #333;
+    display: block;
+    font-size: 14px;
+    line-height: 1.42857;
+    margin: 0 0 10px;
+    word-break: break-all;
+    word-wrap: break-word;
+	background-color: #fff;
+}
+li#menu-item-16186 a {text-indent :-9999px; IMPORTANT}
+li#menu-item-16188 a {text-indent :-9999px; IMPORTANT}
+@media (min-width: 1024px) {
+.footer .footer-logos{text-align:left}
+}
+@media (min-width: 100px) and (max-width: 499px) {
+.footer .footer-logos{float:none;text-align:center}
+.link-conf{margin-left:auto;margin-right:auto}
+}
+@media (min-width: 500px) and (max-width: 971px) {
+.footer .footer-logos{float:none;text-align:center}
+.link-conf{margin-left:auto;margin-right:auto}
+}
+@media (max-width: 991px) {
+.footer .copyright,.footer .footer-socials{text-align:left;margin-left:5px}
+}
+section > .wide-row h2{color:#3C3C3C;font-size:35px;font-weight:700;text-transform:uppercase;font-family:"ITC Officina Sans W01 Bold"}
+.section-black{background:none repeat scroll 0 0 #3c3c3c;display:block;padding:20px 0;position:relative}
+.section-black .item{border-left:1px solid #313131;color:#fff;line-height:1.1;height:133px;background:none repeat scroll 0 0 #3c3c3c}
+.section-black .item a{text-decoration:none}
+.section-black .active{background-color:#ebebeb}
+.section-black .item-desc{font-family:"ITC Officina Serif W01";color:#fff;font-size:14px;font-style:italic;padding:5px;text-transform:none;word-wrap:break-word;display:block}
+.section-black .headline{padding:5px;color:#fff;font-size:16px;text-transform:uppercase;font-family:"ITC Officina Sans W01"}
+.section-black .headline a{display:block;height:100%;padding:30px 10px;text-align:center;width:100%;color:#fff}
+.section-grey{background:none repeat scroll 0 0 #f7f7f7;display:block;font-family:"ITC Officina Sans W01";padding:20px 0}
+.section-grey h3{font-family:'ITC Officina Sans W01',Georgia,'Times New Roman',serif;font-size:26px;font-weight:700}
+.section-grey .title{text-align:center;margin-bottom:30px;margin-top:30px;font-weight:700;font-size:26px;text-transform:uppercase}
+.section-grey .item{color:#3c3c3c;line-height:1.1}
+.section-grey .item-desc{color:#3c3c3c;font-size:12px;font-style:italic;text-align:center;padding:5px;text-transform:none;word-wrap:break-word;display:block;color:#a8a8a8;font-family:"ITC Officina Sans W01"}
+.section-grey img{text-align:center;background-repeat:no-repeat;background-position:center center;display:block}
+.section-grey .headline{display:block;height:100%;padding:5px;color:#fff;font-size:14px;word-wrap:break-word;font-family:"ITC Officina Sans W01";text-transform:uppercase;font-weight:300}
+.section-grey .headline a{display:block;height:100%;padding:30px 10px;text-align:center;width:100%;color:#5a5a5a}
+.featurette-divider{margin:30px 0}
+.faq{background-color:#fdbb4d; padding-top:10px;}
+.faq .title{text-align:center;margin-bottom:20px;margin-top:30px;font-weight:700;font-size:26px;color:#FFF;text-transform:uppercase}
+.whitehr{border-color:#fff;border-style:solid;border-width:4px 0 0;width:100%;text-align:center;display:block}
+.yellowhr{border-color:#fdbb4d;border-style:solid;border-width:4px 0 0;width:10%;float:left;display:block}
+a.arr::after,a.button.arr::after{content:"";font-family:"FontAwesome";margin-left:.55556rem;position:relative}
+.panel-default > .panel-heading{background:#FFF;border-top-color:#DDD;border-top-style:solid;border-top-width:1px}
+.panel-default > .panel-heading:hover,.nav > li > a:hover,.nav > li > a:focus{color:#febf35}
+.panel-default > .panel-heading:hover a,.panel-default > .panel-heading:hover a::after,.nav > li > a:hover{color:#525252}
+.panel-title > a{color:#333}
+.panel-title > a:hover{text-decoration:none}
+.panel-body{background:#FDFDFD}
+.panel-body > p{font-size:18px}
+.panel-group{margin-top:30px}
+.accordion .panel-heading{border:none;padding:0}
+.accordion .accordion-toggle{display:block;font-size:18px;font-weight:400;padding:15px 5px;text-decoration:none;border-top-color:#DDD;border-top-style:solid;border-top-width:1px; }
+.accordion .accordion-toggle:focus{outline:none}
+.accordion .accordion-toggle:hover{background-color:#fdbb4d;}
+.accordion .accordion-toggle.collapsed{background-color:#fdbb4d;}
+.accordion .accordion-toggle.collapsed::before{-webkit-font-smoothing:antialiased;content:'';font-family:FontAwesome;font-style:normal;font-weight:400;text-decoration:inherit;color:#3c3c3c;}
+.accordion .accordion-toggle.collapsed:hover{background-color:#fdbb4d;}
+.accordion .panel{-webkit-box-shadow:none;border:none;box-shadow:none;background-color:#FFF}
+.accordion .panel .panel-body{border-style:none solid solid}
+.accordion.accordion-bordered .panel-heading{background-color:transparent}
+.accordion.accordion-bordered .accordion-toggle{background-color:transparent}
+.accordion.accordion-bordered .accordion-toggle.collapsed{color:#3c3c3c;}
+.accordion.accordion-bordered .accordion-toggle.collapsed:hover{background-color:transparent;color:#fdbb4d}
+.accordion.accordion-bordered .panel{-webkit-box-shadow:none;border-color:transparent;box-shadow:none}
+.accordion.accordion-bordered .panel .panel-body{border-color:transparent}
+.tagline{z-index:100;position:absolute;color:#fff;font-weight:700;text-align:center;width:auto;background-color:#feba4d;padding:10px 20px;font-family:"ITC Officina Sans W01";font-size:23px;text-transform:uppercase;margin-top:0}
+.panel{background:none repeat scroll 0 0 #f2f2f2;border-color:#d8d8d8;border-style:solid;border-width:0;margin-bottom:22px;padding:22px}
+.cards item{height:220px}
+.cards .items .columns{padding:0}
+.cards .panel{margin-bottom:0;padding-top:44px;text-align:center}
+.cards .course-short-course{padding-top:34px}
+.cards .course-part-time{padding-top:24px}
+.cards .panel-search-result{margin-bottom:20px;padding-top:10px;text-align:center}
+.cards .panel a{padding-right:16px;padding-left:16px;color:#3c3c3c!important;text-decoration:none}
+.cards article .description p{font-size:15px}
+.cards .items .columns{padding:0}
+.cards .more{margin-top:10px}
+.cards .headline{padding-top:22px;font-family:'Droid Sans Mono W01',courier,monospace;font-size:18px}
+.cards .nome{font-family:"ITC Officina Serif W01","Georgia","Times New Roman",serif;font-size:18px;padding-top:22px}
+.docente-features{font-family:"ITC Officina Serif W01","Georgia","Times New Roman",serif;font-size:14px;color:#000;display:block}
+.cards .address{padding-top:10px;font-family:"ITC Officina Sans W01";font-size:12px;color:#a8a8a8;font-style:italic}
+.cards .wide-row,.drawers .wide-row,.numbers .wide-row{background:#EBEBEB;padding:20px 0}
+.cards .more{margin-top:16px}
+.cards .button.more{background:none repeat scroll 0 0 rgba(0,0,0,0);border:1px solid #a8a8a8;color:#3c3c3c;text-transform:uppercase;text-decoration:none}
+.cards article{overflow:hidden;position:relative}
+.cards article a{color:#3c3c3c}
+.cards .text{padding-left:17px;padding-right:17px}
+.cards .titolo-corso{font-size:21px}
+.stories-cards img{width:100%}
+.stories-cards .big{height:480px}
+.stories-cards .big img{height:480px;width:auto}
+.stories-cards .with-img .text{background:#fff;bottom:0;color:#333;min-height:50%;position:absolute;right:0;width:50%}
+.stories-cards .with-img .text:before{border-color:transparent #fff transparent transparent;border-style:solid;border-width:16px;content:"";left:0;position:absolute;top:50%;transform:translateY(-50%) translateX(-100%);width:50%}
+.stories-cards .black{background-color:#3c3c3c}
+.stories-cards .small{display:table;height:240px;width:100.1%}
+.stories-cards .yellow{background-color:#feba4d}
+.stories-cards .small .headline{color:#fff;text-align:center;margin:0}
+.stories-cards .small a{display:block;height:240px;text-align:center;width:100%;text-decoration:none}
+.stories-cards .medium a{display:block;height:240px;text-align:center;width:100%}
+.stories-cards .medium article .headline{display:table-cell;height:240px;padding:0;vertical-align:middle}
+.stories-cards .medium img{width:240px;height:auto}
+.stories-cards article p,.faculty-cards article p{font-size:15px;line-height:1.6}
+.faculty-cards article .text{background:#fdbb4d;border-bottom:1px solid #fff;bottom:0;min-height:50%;position:absolute;right:0;width:calc(50% - 7px);height:241px}
+.faculty-cards article .text:before{border-color:transparent #fdbb4d transparent transparent;border-style:solid;border-width:16px;content:"";left:0;position:absolute;top:50%;transform:translateY(-50%) translateX(-100%);width:50%}
+.faculty-cards article img{border-bottom:1px solid #fff}
+.faculty-cards article h2,.faculty-cards article a{color:#fff;text-decoration:none}
+.az-chapter{clear:both}
+
+.highlight{
+     background: yellow;
+}
+
+.highlight_2{
+     background: #202020;
+}
+
+@media only screen and (max-width: 768px) {
+.faculty-cards article .text{width:60%}
+}
+@media only screen and (max-width: 1024px) {
+.faculty-cards article .text{width:77%}
+
+}
+@media only screen and (max-width: 640px) {
+.faculty-cards article .text{width:50%}
+.faculty-cards article .text:before{ display:none}
+}
+.courses-cards .panel{border-color:#fff;border:1px solid #dbd9ca;min-height:300px}
+.courses-cards hr{width:33%;margin-right:auto;margin-left:auto;border-style:solid;border-color:#ffbb40;border-width:8px 0 0}
+.courses-cards hr.yellow{border-color:#fdba4d}
+.courses-cards hr.grey{border-color:#999}
+
+.courses-cards hr.part_time{border-color:#fdba4d}
+.courses-cards hr.short_course{border-color:#999}
+
+.courses-cards .course-english{background:#fdba4d;color:#FFF;font-family:'ITC Officina Sans W01',Georgia,'Times New Roman',serif;font-size:14px;padding:4px;text-transform:uppercase}
+.courses-cards .course-type{color:#222;font-family:'ITC Officina Sans W01',Georgia,'Times New Roman',serif;font-size:14px;padding:5px;text-transform:uppercase;display:block}
+.courses-cards .course-start-date{color:#222;font-family:'Droid Sans Mono W01',courier,monospace;font-size:14px;padding:2px;display:block}
+.courses-cards dl{margin:0;padding:0}
+.courses-cards dt{font-size:18px;font-weight:700;margin-top:5px}
+.courses-cards dd{font-size:18px;font-weight:400;padding:0 0 5px;border-bottom:1px solid #dbd9ca}
+.iframe-rwd{position:relative;padding-bottom:40%;padding-top:30px;height:0;overflow:hidden}
+.iframe-rwd iframe{position:absolute;top:0;left:0;width:100%;height:100%}
+.ricerca-col .row{background:none repeat scroll 0 0 #feba4d}
+.ricerca-col h2{color:#202020;font-family:"ITC Officina Serif W01","Georgia","Times New Roman",serif;margin-top:20px;text-transform:uppercase}
+.ricerca-col{background:none repeat scroll 0 0 #feba4d;padding-bottom:50px;padding-top:0}
+.ricerca-col label{color:#202020;font-family:"ITC Officina Serif W01","Georgia","Times New Roman",serif;font-size:22px;padding-bottom:10px}
+aside#sidebar{background:#3c3c3c;margin:-62px 0 20px;padding-top:40px;font-size:14px;color:#ddd;position:relative}
+aside#sidebar a{color:#fff;font-family:"ITC Officina Serif W01","Georgia","Times New Roman",serif}
+aside#sidebar a.button{font-family:"ITC Officina Sans W01","Georgia","Times New Roman",serif;font-weight:700;width:100%;color:#202020;text-decoration:none}
+aside#sidebar .block{margin:0;padding:0}
+aside#sidebar .block .content{margin:22px auto}
+aside#sidebar h2{color:#fff;font-weight:700;font-size:16px;text-transform:uppercase;margin:0;padding-bottom:20px;font-family:"ITC Officina Sans W01","Georgia","Times New Roman",serif}
+aside#sidebar .block a h5,aside#sidebar .block h5 a{color:#fff;font-size:19px;font-family:"ITC Officina Serif W01","Georgia","Times New Roman",serif}
+aside#sidebar .block{border-bottom:1px #000 solid}
+aside#sidebar .block .content ul{list-style:outside none none;margin-bottom:5px;padding:0}
+aside#sidebar .block .content ul li{padding:0}
+aside#sidebar .block .content .number ul li::before{display:none}
+aside#sidebar .block .content .number ul{margin-left:0}
+aside#sidebar .block .content .number ul li{font-family:"Droid Sans Mono W01","courier",monospace;font-size:20px;padding-top:5px;padding-left:0;list-style:outside none none;color:#fdbb4d}
+aside#sidebar .block .content .number p{font-family:"Droid Sans Mono W01","courier",monospace;font-size:30px;padding-top:5px;padding-left:0;list-style:outside none none;color:#fdbb4d}
+aside#sidebar .block .content ul li:before{font-family:FontAwesome;display:inline-block;content:"\f105";color:#fff;margin:auto 3px 3px 5px;font-size:12px;vertical-align:middle}
+aside#sidebar .block .content ul li a{font-size:18px;font-weight:700}
+aside#sidebar .block .content h3{font-family:"ITC Officina Sans W01","Georgia","Times New Roman",serif;font-size:19px;text-transform:uppercase;color:#FFF;font-weight:400}
+aside#sidebar .block .article,aside#sidebar .block .views-row{margin-bottom:36px}
+aside#sidebar .block .date{display:inline-block;margin-bottom:9px}
+aside#sidebar .block .desc,aside#sidebar .block p{font-size:16px;font-style:italic;font-family:"ITC Officina Sans W01","Georgia","Times New Roman",serif;text-transform:none;padding-top:4px;color:#ccc;line-height:1.1}
+.widget_text{list-style-type:none;margin-top:20px}
+#main .accordion.accordion-bordered .accordion-toggle.collapsed{color:#3C3C3C}
+#main .accordion.accordion-bordered .accordion-toggle.collapsed p{font-size:18px}
+.panel.triangle{background-color:#fff}
+.triangle:after{content:'';height:0;width:0;position:absolute;right:0;bottom:0;border-left:18px solid transparent;border-top:18px solid transparent;border-right:18px solid #feba4d;border-bottom:18px solid #feba4d}
+.events-cards .panel{border-color:#333;border-radius:0;text-align:left}
+.events-cards article{min-height:360px;border:1px solid #dbd9ca}
+.events-cards article time{font-size:14px;display:block;padding-top:50px;font-family:'Droid Sans Mono W01',courier,monospace;font-weight:400}
+.news-cards .panel{text-align:left}
+.news-cards .panel a{padding:0}
+.news-cards article .text{height:100%}
+.news-cards article time{color:#A8A8A8;display:block;font-family:'Droid Sans Mono W01',courier,monospace;font-size:14px;padding-top:14px}
+.news-cards article.img .text{position:absolute;top:0;background:rgba(0,0,0,0.50)}
+.news-cards article.img .text > .headline,.news-cards article.img .text > .description > p{color:#fff}
+#course-finder-wrapper{margin:20px 0px 20px 0px;}
+@media only screen and (min-width: 1279px) {
+.cards *,.drawers *{-webkit-transition:all .4s ease-out;-moz-transition:all .4s ease-out;-o-transition:all .4s ease-out;transition:all .4s ease-out}
+.cards .panel:hover{-webkit-box-shadow:4px 4px 5px 0 rgba(0,0,0,0.55);-moz-box-shadow:4px 4px 5px 0 rgba(0,0,0,0.55);box-shadow:4px 4px 5px 0 rgba(0,0,0,0.55);-webkit-transform:scale(1.05);-moz-transform:scale(1.05);-o-transform:scale(1.05);transform:scale(1.05);z-index:2}
+.drawers article{height:600px}
+.drawers article.img img{height:100%}
+.drawers article:hover .description{-webkit-transform:translateY(0);transform:translateY(0)}
+}
+.drawers .columns.panel{padding:0}
+.drawers .panel{margin-bottom:0;border:none}
+.drawers article{position:relative;overflow:hidden;background:rgba(254,184,72,1)}
+.drawers .panel:nth-child(2) article{background:rgba(254,184,72,0.8)}
+.drawers .panel:nth-child(3) article{background:rgba(254,184,72,0.6)}
+.drawers .panel:nth-child(4) article{background:rgba(254,184,72,0.4)}
+.drawers .text{padding-right:16px;padding-left:16px}
+.drawers .headline{padding-top:59px;font-family:"ITC Officina Sans W01";color:#fff}
+.drawers a{color:#fff;line-height:inherit;text-decoration:none}
+.drawers .description{position:absolute;top:0;left:0;color:#fff;z-index:10;background:#3c3c3c;height:100%;padding:1.333rem;-webkit-transform:translateY(600px);transform:translateY(600px)}
+.drawers .description p{color:#fff}
+.drawers .description .button{background-color:transparent;border:1px solid #fff;display:inline-block;margin:18px 25%;text-transform:uppercase;width:50%}
+@media (max-width: 1040px) {
+#masthead{padding:0;position:relative}
+.page #masthead,#masthead{background:#111;height:48px}
+.single #masthead,#masthead{background:#111}
+.error404 #masthead,#masthead{background:#111}
+#logo-img{display:none}
+#logo a{background:#111 url(img/logo-luiss-bianco-mob.png) no-repeat 46px 14px!important;display:block;padding:20px;min-height:48px;z-index:2}
+#mobile-menu-trigger{border-right:1px solid #999;height:100%;left:0;position:absolute;top:0;width:48px;height:48px;z-index:1;display:block}
+.menu-icon{background:url(img/uiicons.png) no-repeat center 8px;width:48px;height:48px;display:block}
+#nav-main{padding:0}
+#secondary-nav{display:none}
+#menu-main-container{position:relative;left:0;background:#2d2d2d;padding:0;width:100%;display:none}
+#menu-main-container-offcanvas{width:250px;height:100%;position:absolute;top:-43px;left:-250px;background:#2d2d2d;padding:0}
+#site-wrapper.show-nav #site-canvas{-webkit-transform:translateX(250px);transform:translateX(250px)}
+#network-container-offcanvas{display:none}
+#menu-main li:hover .sub-menu{display:none}
+#menu-main li{display:block!important;float:none}
+#menu-main li a{display:block!important;padding:14px 12px;color:#fff;float:none;border-bottom:1px solid #3c3c3c;background:#2d2d2d}
+#nav-main .searchbar{border-left:1px solid #999;display:block!important;float:none!important;position:absolute;right:0;top:-56px}
+#nav-main .searchbar a{border-bottom:none;display:block!important;height:56px;width:40px;color:#fff;padding:22px 16px 16px 16px}
+#sb-search{background:#2d2d2d;padding:10px}
+#nav-main .drop-open a{background:#2d2d2d;color:#fff}
+.lang_selector{position:absolute;right:56px;margin:0;top:4px}
+.lang_selector li a{padding:8px 8px 5px 8px;border-radius:2px}
+.lang_selector li a.active{border-bottom:none;background-color:#666}
+.page-template-chi-siamo #breadcrumb-top .breadcrumb,.page-template-offerta #breadcrumb-top .breadcrumb,.page-template-faculty #breadcrumb-top .breadcrumb,.page-template-agevolazioni-servizi #breadcrumb-top .breadcrumb,.page-template-alumni #breadcrumb-top .breadcrumb,.page-template-eventi #breadcrumb-top .breadcrumb,.page-template-mba #breadcrumb-top .breadcrumb,.page-template-corsi-laurea #breadcrumb-top .breadcrumb,.page-template-executive-program #breadcrumb-top .breadcrumb,.page-template-master #breadcrumb-top .breadcrumb,.page-template-doctoral #breadcrumb-top .breadcrumb,.page-template-formazione-specialistica #breadcrumb-top .breadcrumb{border-bottom:1px solid #fff}
+.breadcrumb{padding:10px}
+.breadcrumb div{line-height:14px;margin-bottom:5px;padding:0 2px}
+.fixed{display:none}
+.sub-home-heading{padding:15px 0 0}
+h1,.h1{color:#fff;font-size:32px;font-weight:700;line-height:32px;margin:0;padding-bottom:10px;padding-top:10px}
+.sub-home h1,.sub-home h2.h1{margin:0;padding:0;font-size:32px;line-height:32px}
+.sub-home .h1-sub{font-size:18px;line-height:22px}
+.sub-home p{font-size:18px;line-height:22px;margin:15px 0}
+.cards .panel{ margin: 0;padding:10px;min-height:50px;}
+.cards.panel-search-result { margin: 15px 0;}
+#page-content{padding-bottom:20px;padding-top:10px}
+#menu-local{border-top:1px solid #3c3c3c;margin-top:0;padding-top:20px}
+#menu-local h2{font-size:20px;padding-left:0}
+#menu-local ul.menu li{font-size:18px}
+*,::before,::after{box-sizing:inherit}
+::before,::after{box-sizing:border-box}
+*,::before,::after{box-sizing:inherit}
+::before,::after{box-sizing:border-box}
+#menu-local{position:relative;min-height:64px}
+#menu-local ul.menu a{margin-left:0;margin-right:0;padding:10px;border-top:1px solid #ccc}
+.menu-local-toggle{display:block;position:absolute;right:10px;top:14px;width:32px}
+.menu-local-toggle:after{display:block;position:absolute;content:"+";font-size:28px;font-weight:700}
+.menu-local-toggle:hover{cursor:pointer}
+#menu-local-menu{display:none}
+.cards .wide-row, .drawers .wide-row, .numbers .wide-row {padding: 10px 0px;text-align: center;}
+.space {margin: 0 auto;padding: 0 10px;
+}
+aside#sidebar{margin:20px 0;padding-top:20px}
+#offerta-nav li{border-bottom:1px solid #313131}
+.tematiche-desktop{display:none}
+.tematiche-mobile{display:block;-webkit-border-radius:5px;-moz-border-radius:5px;color:#555;border:1px solid #E5E5E5;font-size:18px;line-height:18px;padding:10px;width:100%}
+.tematiche-mobile select{margin-bottom:26px}
+.section-black .headline{font-size:20px;padding:0;margin:0}
+.cards .panel p{margin-bottom:0;line-height:22px}
+.finder-text{padding:20px}
+.section-black{padding:0}
+.section-black .item{border-bottom:1px solid #313131;border-left:medium none;height:auto;min-height:48px;padding:20px 10px}
+.section-black .item-desc{padding:0;margin:0;line-height:14px}
+.link-list a{font-size:14px;padding:10px 0}
+.link-conf{margin-top:10px}
+section {margin:10px 0 0 0}
+.stories-cards .big {height: auto;}
+.stories-cards .big img {height: auto;width: auto;}
+.stories-cards .small {display: table;height: auto; width: 100.1%;}
+.stories-cards .small a {display: block;height: auto;padding: 10px 10px 20px;text-align: center;text-decoration: none;width: 100%;}
+.stories-cards .with-img .text::before { display:none;}
+.stories-cards article p, .faculty-cards article p {line-height: 20px;}
+.cards .headline {line-height: 22px;}
+.section-grey .item-desc {color: #202020; padding: 0; margin:0;}
+.yellowhr { width: 100%;}
+section.offerta{margin:0 !important}
+.docente-features li {line-height:18px;}
+#page-content img { display:block; float:none !important; margin-bottom:10px;}
+aside#sidebar .block .content{margin:0px auto; padding-top:10px;}
+}
+@media only screen and (min-width: 0px) and (max-width: 1024px) {
+#offerta-nav ul li{width:100%}
+#sub-offerta-nav ul li{width:100%}
+.finder-button,.finder-send-button{font-size:16px;padding:14px 20px;}
+}
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+#offerta-nav ul li{width:50%}
+#sub-offerta-nav ul li{width:50%}
+}
+.data .panel{border:none;margin-bottom:0}
+.data .data-text{padding:34px 39px}
+.data .data-number{font-size:84px}
+.data .data-description{font-size:14px;display:inline-block}
+.data-compare .panel{border-color:#fff;margin-bottom:0;text-align:center}
+.data-compare h5{text-transform:uppercase;padding-bottom:30px;font-size:18px}
+.data-compare .data-text{padding:0}
+.data-compare .data-text > div > div{padding:18px}
+.data-compare .data-luiss{border-right:0 solid #bcbcbc}
+.data-compare .data-number{font-size:64px}
+.data-compare .data-national > .data-number{color:#9c9c9c}
+.data-compare .data-label{text-transform:uppercase;display:block}
+.data .data-description{font-size:14px;display:inline-block}
+@media only screen and (min-width: 1279px) {
+.data .panel:hover{-webkit-transform:none;-moz-transform:none;-o-transform:none;transform:none}
+.data .data-number{padding-top:10px}
+.data .data-description{font-size:17px;display:inline-block;padding:36px 0 36px 36px;margin-left:16px;border:1px solid #3c3c3c;border-width:0 0 0 1px;position:relative;background:transparent}
+.data .data-description:after,.data .data-description:before{right:100%;top:50%;border:solid transparent;content:" ";height:0;width:0;position:absolute;pointer-events:none}
+.data .data-description:after{border-color:rgba(242,242,242,0);border-right-color:#f2f2f2;border-width:18px;margin-top:-18px}
+.data .data-description:before{border-color:rgba(60,60,60,0);border-right-color:#3c3c3c;border-width:19px;margin-top:-19px}
+}
+@media only screen and (min-width: 767px) and (max-width: 1279px) {
+.news-cards article.img{background:#3c3c3c}
+.news-cards article.img img{float:right}
+.news-cards article.img .text{position:static;background:#3c3c3c}
+.events-cards article,.courses-cards article{min-height:inherit}
+}
+

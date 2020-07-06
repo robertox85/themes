@@ -1,0 +1,88 @@
+.navigazione {
+	border:none;
+	border:0px;
+	margin:0px;
+	padding:0px;
+	position:relative;
+	top:75px;
+	font-size:12px;
+
+}
+.navigazione ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.navigazione li {
+	float:left;
+	padding:0px;
+	background-image:none;
+	margin: 4px 0px 4px 14px;
+	width:auto;
+}
+.navigazione li a {
+	/*background: url("../images/seperator.gif") bottom right no-repeat; */
+	display:block;
+	font-weight:normal;
+	line-height:50px;
+	padding:0px 10px 0px  10px;
+	color:#FFF;
+	text-transform:uppercase;
+	text-decoration:none; /*letter-spacing:-1px;*/
+	letter-spacing:normal;
+}
+.navigazione li a:hover, .navigazione ul li:hover a {
+	background: #000000 url(/mba/wp-content/themes/master/images/hover_tullia.gif) bottom center no-repeat;
+	color:#FFFFFF;
+	text-decoration:none;
+	height:55px;
+}
+.navigazione li ul {
+	background:#333333;
+	display:none;
+	height:auto;
+	padding:0px;
+	margin:0px;
+	border:0px;
+	position:absolute;
+	width:240px;
+	z-index:200;
+	opacity: .90; filter: alpha(opacity=90); -moz-opacity:.9;
+	
+	/*top:1em;
+	
+		/*left:0;*/
+		}
+.navigazione li:hover ul {
+	display:block;
+}
+.navigazione li li {
+	background:url(/mba/wp-content/themes/master/images/sub_sep.gif) bottom left no-repeat;
+	display:block;
+	float:none;
+	margin:0px;
+	padding:0px;
+	width:240px;
+}
+.navigazione li:hover li a {
+	background:none;
+}
+.navigazione li ul a {
+	display:block;
+	height:37px;
+	font-size:11px;
+	margin:0px;
+	padding:0px 10px 0px 10px;
+	text-align:left;
+}
+.navigazione li ul a:hover, .navigazione li ul li:hover a {
+	background:#000000 url(/mba/wp-content/themes/master/images/hover_sub_tullia.gif) center left no-repeat;
+	border:0px;
+	color:#ffffff;
+	text-decoration:none;
+	opacity: .90; filter: alpha(opacity=90); -moz-opacity:.9;
+}
+.navigazione p {
+	clear:left;
+}
+
