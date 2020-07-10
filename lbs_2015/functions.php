@@ -1154,3 +1154,17 @@ wp_deregister_script( 'wp-embed' );
 }
 add_action('init', 'my_init');  */
 
+function pco_style()
+{
+    wp_enqueue_style('pco_style', get_stylesheet_directory_uri() . '/pco/main.css', array(), time(), 'all' );
+}
+add_action('wp_enqueue_scripts', 'pco_style');
+
+
+add_filter( 'body_class', 'theme_color_class' );
+function theme_color_class( $classes ) {
+    if ( get_theme_mod( 'theme_color' ) ) {
+        $classes[] = 'theme-blue';
+    }
+    return $classes;
+}

@@ -1,0 +1,60 @@
+body.theme-red {
+  color: #d50032;
+}
+
+body.theme-red a {
+  color: #d50032;
+}
+
+body.theme-red a,
+body.theme-red p {
+  color: #d50032;
+}
+
+body.theme-red .cta {
+  color: #d50032;
+}
+
+body.theme-red .meta {
+  color: #d50032;
+}
+
+body.theme-red h1 {
+  color: #d50032;
+}
+
+body.theme-red h2 {
+  color: #d50032;
+}
+
+body.theme-red h3 {
+  color: #d50032;
+}
+
+body.theme-red h4 {
+  color: #d50032;
+}
+
+body.theme-red h5 {
+  color: #d50032;
+}
+
+body.theme-red h6 {
+  color: #d50032;
+}
+
+body.theme-red .button.button__primary {
+  background: #d50032;
+  color: #ffffff;
+}
+
+body.theme-red .button.button__primary:hover {
+  background: #ffffff;
+  border: 1px solid #d50032;
+  color: #d50032;
+}
+
+body.theme-red .button.button__secondary {
+  border: 1px solid #d50032;
+  color: #d50032;
+}
