@@ -8276,6 +8276,26 @@ body.theme-blue .sidebar_navigation li:hover a {
   color: #ffffff;
 }
 
+body.theme-blue .sidebar-master .block-dark {
+  background: rgba(0, 58, 112, 0.3);
+  font-size: 36px;
+  color: #003A70;
+  text-align: left;
+  line-height: 40px;
+}
+
+body.theme-blue .sidebar-master .block-dark a,
+body.theme-blue .sidebar-master .block-dark p {
+  color: #003A70;
+}
+
+body.theme-blue .sidebar-master .block-dark h3 {
+  font-family: "Luiss Sans", sans-serif !important;
+  font-weight: normal;
+  color: #003A70;
+  text-transform: capitalize;
+}
+
 body.theme-blue .sidebar-master > h2 {
   display: none;
 }
@@ -8429,6 +8449,26 @@ body.theme-light_blue .sidebar_navigation li:hover {
 
 body.theme-light_blue .sidebar_navigation li:hover a {
   color: #ffffff;
+}
+
+body.theme-light_blue .sidebar-master .block-dark {
+  background: rgba(0, 119, 200, 0.3);
+  font-size: 36px;
+  color: #0077C8;
+  text-align: left;
+  line-height: 40px;
+}
+
+body.theme-light_blue .sidebar-master .block-dark a,
+body.theme-light_blue .sidebar-master .block-dark p {
+  color: #0077C8;
+}
+
+body.theme-light_blue .sidebar-master .block-dark h3 {
+  font-family: "Luiss Sans", sans-serif !important;
+  font-weight: normal;
+  color: #0077C8;
+  text-transform: capitalize;
 }
 
 body.theme-light_blue .sidebar-master > h2 {
@@ -8586,6 +8626,26 @@ body.theme-green .sidebar_navigation li:hover a {
   color: #ffffff;
 }
 
+body.theme-green .sidebar-master .block-dark {
+  background: rgba(0, 150, 143, 0.3);
+  font-size: 36px;
+  color: #00968F;
+  text-align: left;
+  line-height: 40px;
+}
+
+body.theme-green .sidebar-master .block-dark a,
+body.theme-green .sidebar-master .block-dark p {
+  color: #00968F;
+}
+
+body.theme-green .sidebar-master .block-dark h3 {
+  font-family: "Luiss Sans", sans-serif !important;
+  font-weight: normal;
+  color: #00968F;
+  text-transform: capitalize;
+}
+
 body.theme-green .sidebar-master > h2 {
   display: none;
 }
@@ -8739,6 +8799,26 @@ body.theme-red .sidebar_navigation li:hover {
 
 body.theme-red .sidebar_navigation li:hover a {
   color: #ffffff;
+}
+
+body.theme-red .sidebar-master .block-dark {
+  background: rgba(213, 0, 50, 0.3);
+  font-size: 36px;
+  color: #D50032;
+  text-align: left;
+  line-height: 40px;
+}
+
+body.theme-red .sidebar-master .block-dark a,
+body.theme-red .sidebar-master .block-dark p {
+  color: #D50032;
+}
+
+body.theme-red .sidebar-master .block-dark h3 {
+  font-family: "Luiss Sans", sans-serif !important;
+  font-weight: normal;
+  color: #D50032;
+  text-transform: capitalize;
 }
 
 body.theme-red .sidebar-master > h2 {
@@ -8896,6 +8976,26 @@ body.theme-orange .sidebar_navigation li:hover a {
   color: #ffffff;
 }
 
+body.theme-orange .sidebar-master .block-dark {
+  background: rgba(212, 93, 0, 0.3);
+  font-size: 36px;
+  color: #D45D00;
+  text-align: left;
+  line-height: 40px;
+}
+
+body.theme-orange .sidebar-master .block-dark a,
+body.theme-orange .sidebar-master .block-dark p {
+  color: #D45D00;
+}
+
+body.theme-orange .sidebar-master .block-dark h3 {
+  font-family: "Luiss Sans", sans-serif !important;
+  font-weight: normal;
+  color: #D45D00;
+  text-transform: capitalize;
+}
+
 body.theme-orange .sidebar-master > h2 {
   display: none;
 }
@@ -9049,6 +9149,26 @@ body.theme-gold .sidebar_navigation li:hover {
 
 body.theme-gold .sidebar_navigation li:hover a {
   color: #ffffff;
+}
+
+body.theme-gold .sidebar-master .block-dark {
+  background: rgba(204, 138, 0, 0.3);
+  font-size: 36px;
+  color: #CC8A00;
+  text-align: left;
+  line-height: 40px;
+}
+
+body.theme-gold .sidebar-master .block-dark a,
+body.theme-gold .sidebar-master .block-dark p {
+  color: #CC8A00;
+}
+
+body.theme-gold .sidebar-master .block-dark h3 {
+  font-family: "Luiss Sans", sans-serif !important;
+  font-weight: normal;
+  color: #CC8A00;
+  text-transform: capitalize;
 }
 
 body.theme-gold .sidebar-master > h2 {
