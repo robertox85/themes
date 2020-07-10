@@ -23,7 +23,7 @@ while ( have_posts() ) : the_post();
 		}
 	}
 </style>
-<div class="container">
+<div class="container container-header">
 	<header id="header-master" class="row">
 
 		<div class="row">
@@ -40,9 +40,9 @@ while ( have_posts() ) : the_post();
 			</div>
 			<div class="col-md-8">
 				<?php 
-   $image = get_field('images');
+   					$image = get_field('images');
    
-if( !empty($image) ): ?>
+					if( !empty($image) ): ?>
 
 				<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="img-responsive"/>
 
@@ -56,7 +56,7 @@ if( !empty($image) ): ?>
 
 		<div class="menu-master-toggle-container">
 			<span class="navbar-toggle" data-toggle="collapse" data-target="#menu-master-container" aria-expanded="false" aria-controls="navbar">
-<span class="sr-only">Toggle navigation</span>
+			<span class="sr-only">Toggle navigation</span>
 		
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
@@ -67,28 +67,48 @@ if( !empty($image) ): ?>
 	</header>
 </div>
 <!--END .container --> 
-<div class="container">
-	<div class="row">
-		<nav class="navbar navbar-default navbar-master">
 
-			<?php wp_nav_menu(array(
-'menu' => 'Master',
-'container_id'    => 'menu-master-container',
-'container_class'    => 'menu-master-container navbar-collapse collapse',
-'container' => 'div',
-'menu_class' => 'menu-master nav navbar-nav',
-));           ?>
-		</nav>
+
+<div class="container-fluid colonna_key_facts">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10 py-32">
+				<h5>Key Facts</h5>
+				<div class="colonna_key_facts-container">
+					<?php if ( function_exists('dynamic_sidebar')  ) : ?>
+						<?php  dynamic_sidebar('Custom') ?>
+					<?php endif; ?>
+				</div>	
+			</div>
+		</div>
 	</div>
 </div>
-
 <div class="container">
 	<div class="row">
-		<main id="main" class="site-main site-master col-lg-9 col-md-8" role="main">
+
+	
+	
+
+		<nav class="col-lg-3 col-md-3 pl-0">
+
+				<?php 
+				
+				wp_nav_menu(array(
+					'menu' => 'Master',
+					'container_id'    => '',
+					'container_class'    => 'bg__white',
+					'container' => 'div',
+					'menu_class' => 'list-unstyled sidebar_navigation m-0 ',
+				));           
+				
+				?>
+		</nav>
+		
+		<main id="main" class="site-main site-master col-lg-6 col-md-6" role="main">
 			<div id="page-content" class="columns  space">
 
 				<?php    
-if ( is_front_page() ) { ?>
+				if ( is_front_page() ) { ?>
 				<?php  } else { ?>
 				<h2>
 					<?php echo the_title(); ?>
@@ -103,11 +123,9 @@ if ( is_front_page() ) { ?>
 				<?php edit_post_link('<strong>Modifica Pagina</strong>', ''); ?>
 			</p>
 		</main>
-		<aside class="col-lg-3 col-md-4 col-sm-12 space sidebar-master">
+		<aside class="col-lg-3 col-md-3 col-sm-12 space sidebar-master">
 
 			<?php get_sidebar(); ?>
-
-
 
 		</aside>
 

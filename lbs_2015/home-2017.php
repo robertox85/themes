@@ -4,7 +4,7 @@
  * @file home.php
  */
 $finder_description = get_field('finder_description');
-//  wp_enqueue_style('Home_Styles','/wp-content/themes/lbs_2015/css/home-new.css');
+ wp_enqueue_style('Home_Styles','/wp-content/themes/lbs_2015/css/home-new.css');
  get_header(2017); 
 
 

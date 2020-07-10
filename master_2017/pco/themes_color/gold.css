@@ -1,0 +1,61 @@
+body.theme-gold {
+    color: #CC8A00;
+  }
+  
+  body.theme-gold a {
+    color: #CC8A00;
+  }
+  
+  body.theme-gold a,
+  body.theme-gold p {
+    color: #CC8A00;
+  }
+  
+  body.theme-gold .cta {
+    color: #CC8A00;
+  }
+  
+  body.theme-gold .meta {
+    color: #CC8A00;
+  }
+  
+  body.theme-gold h1 {
+    color: #CC8A00;
+  }
+  
+  body.theme-gold h2 {
+    color: #CC8A00;
+  }
+  
+  body.theme-gold h3 {
+    color: #CC8A00;
+  }
+  
+  body.theme-gold h4 {
+    color: #CC8A00;
+  }
+  
+  body.theme-gold h5 {
+    color: #CC8A00;
+  }
+  
+  body.theme-gold h6 {
+    color: #CC8A00;
+  }
+  
+  body.theme-gold .button.button__primary {
+    background: #CC8A00;
+    color: #ffffff;
+  }
+  
+  body.theme-gold .button.button__primary:hover {
+    background: #ffffff;
+    border: 1px solid #CC8A00;
+    color: #CC8A00;
+  }
+  
+  body.theme-gold .button.button__secondary {
+    border: 1px solid #CC8A00;
+    color: #CC8A00;
+  }
+  
