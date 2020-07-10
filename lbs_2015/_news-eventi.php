@@ -5,8 +5,6 @@ if ( !defined('ABSPATH')) exit;
 Template Name: News ed Eventi
 */
 
-
-
 get_header(); 
 ?>
 <?php   $titolo_news = array();
