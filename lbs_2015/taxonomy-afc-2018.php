@@ -218,26 +218,26 @@ $titolo_sede[ 'en' ] = 'Location';
             <div class="col-md-4 col-sm-6">
     <span><?php the_terms($post->ID, 'lunghezza_corsi', $before = '', $sep = ', ', $after = '' ); ?></span>
     <h6><?php the_title(); ?></h6>
-    <p><strong><?php $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php $durata ?></p>
+    <p><strong>Durata</strong> <?php $durata ?></p>
     <!-- Sede/Inizio Roma -->
     <?php if( get_field('testo_inizio') ): ?>
-    <p><strong><?php $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php the_field('testo_inizio'); ?></p>
+    <p><strong>Sede</strong> <?php the_field('testo_inizio'); ?></p>
     <?php if( get_field('data_inizio') ): ?>
-    <p><strong><?php $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php the_field('data_inizio'); ?></p>
+    <p><strong>Inizio</strong> <?php the_field('data_inizio'); ?></p>
     <?php endif; ?>
     <?php endif; ?>
     <!-- Sede/Inizio Milano -->
     <?php if( get_field('data_inizio_testuale') ): ?>
-    <p><strong><?php $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php the_field('data_inizio_testuale'); ?></p>
+    <p><strong>Sede</strong> <?php the_field('data_inizio_testuale'); ?></p>
     <?php if( get_field('data_fine') ): ?>
-    <p><strong><?php $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php the_field('data_fine'); ?></p>
+    <p><strong>Inizio</strong> <?php the_field('data_fine'); ?></p>
     <?php endif; ?>
     <?php endif; ?>
     <!-- Sede/Inizio Belluno -->
     <?php if( get_field('veneto') ): ?>
-    <p><strong><?php $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php the_field('veneto'); ?></p>
+    <p><strong>Sede</strong> <?php the_field('veneto'); ?></p>
     <?php if( get_field('data_veneto') ): ?>
-    <p><strong><?php $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php the_field('data_veneto'); ?></p>
+    <p><strong>Inizio</strong> <?php the_field('data_veneto'); ?></p>
     <?php endif; ?>
     <?php endif; ?>
     <p><strong><?php $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php $lingua_corso_ ?></p>
