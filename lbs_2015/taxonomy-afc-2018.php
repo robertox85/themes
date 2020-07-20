@@ -218,11 +218,13 @@ $titolo_sede[ 'en' ] = 'Location';
             <div class="col-md-4 col-sm-6">
     <span><?php the_terms($post->ID, 'lunghezza_corsi', $before = '', $sep = ', ', $after = '' ); ?></span>
     <h6><?php the_title(); ?></h6>
+                <?php if( get_field('durata') ): ?>
     <p><strong>
         <?php if (ICL_LANGUAGE_CODE=='it') : ?>Durata
                         <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Duration
                         <?php else : ?>
-                        <?php endif; ?></strong> <?php $durata ?></p>
+                        <?php endif; ?></strong> <?php the_field('durata'); ?></p>
+                <?php endif; ?>
     <!-- Sede/Inizio Roma -->
     <?php if( get_field('testo_inizio') ): ?>
     <p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Sede
@@ -239,26 +241,46 @@ $date = DateTime::createFromFormat('Ymd', $date_string);
 <p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Inizio
                         <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Start
                         <?php else : ?>
-                        <?php endif; ?> </strong> <?php echo $date->format('j M Y'); ?></p>
-
-                
-                
-                
+                        <?php endif; ?> </strong> <?php echo $date->format('j M Y'); ?></p>                
     <?php endif; ?>
-    <!-- Sede/Inizio Milano -->
+                
+                <!-- Sede/Inizio Milano -->
     <?php if( get_field('data_inizio_testuale') ): ?>
-    <p><strong>Sede</strong> <?php the_field('data_inizio_testuale'); ?></p>
-    <?php if( get_field('data_fine') ): ?>
-    <p><strong>Inizio</strong> <?php the_field('data_fine'); ?></p>
+    <p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Sede
+                        <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Location
+                        <?php else : ?>
+                        <?php endif; ?></strong> <?php the_field('data_inizio_testuale'); ?></p>
+    <?php 
+// Load field value.
+$date_string = get_field('data_fine');
+// Create DateTime object from value (formats must match).
+$date = DateTime::createFromFormat('Ymd', $date_string);
+// Output current date in custom format.
+?>
+<p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Inizio
+                        <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Start
+                        <?php else : ?>
+                        <?php endif; ?> </strong> <?php echo $date->format('j M Y'); ?></p>                
     <?php endif; ?>
-    <?php endif; ?>
-    <!-- Sede/Inizio Belluno -->
+                <!-- Sede/Inizio Belluno -->
     <?php if( get_field('veneto') ): ?>
-    <p><strong>Sede</strong> <?php the_field('veneto'); ?></p>
-    <?php if( get_field('data_veneto') ): ?>
-    <p><strong>Inizio</strong> <?php the_field('data_veneto'); ?></p>
+    <p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Sede
+                        <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Location
+                        <?php else : ?>
+                        <?php endif; ?></strong> <?php the_field('veneto'); ?></p>
+    <?php 
+// Load field value.
+$date_string = get_field('data_veneto');
+// Create DateTime object from value (formats must match).
+$date = DateTime::createFromFormat('Ymd', $date_string);
+// Output current date in custom format.
+?>
+<p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Inizio
+                        <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Start
+                        <?php else : ?>
+                        <?php endif; ?> </strong> <?php echo $date->format('j M Y'); ?></p>                
     <?php endif; ?>
-    <?php endif; ?>
+
     <p><strong><?php $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php $lingua_corso_ ?></p>
     <div class="row">
         <a href="<?php $link_master_ ?>">Scopri</a>
