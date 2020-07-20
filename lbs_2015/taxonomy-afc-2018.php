@@ -217,7 +217,7 @@ $titolo_sede[ 'en' ] = 'Location';
 
             <div class="col-md-4 col-sm-6">
     <span><?php the_terms($post->ID, 'lunghezza_corsi', $before = '', $sep = ', ', $after = '' ); ?></span>
-    <h6><?php the_title(); ?></h6>
+    <h6><?php strip_tags(the_title()); ?></h6>
                 <?php if( get_field('durata') ): ?>
     <p><strong>
         <?php if (ICL_LANGUAGE_CODE=='it') : ?>Durata
