@@ -36,7 +36,60 @@ Full time - 24
 
 -->
 
+<!-- Variabili -->
 
+<!-- Lingua -->
+<!-- Label -->
+<?php $lingua = array();
+$lingua[ 'it' ] = 'Lingua';
+$lingua[ 'en' ] = 'Language';
+?>
+
+<!-- Dato -->
+<?php $lingua_corso_it = array();
+$lingua_corso_it[ 'it' ] = 'Italiano';
+$lingua_corso_it[ 'en' ] = 'Italian';
+?>
+
+<?php $lingua_corso_en = array();
+$lingua_corso_en[ 'it' ] = 'Inglese';
+$lingua_corso_en[ 'en' ] = 'English';
+?>
+
+<!-- Durata -->
+
+<!-- Label -->
+<?php $titolo_durata = array();
+$titolo_durata[ 'it' ] = 'Durata';
+$titolo_durata[ 'en' ] = 'Duration';
+?>
+
+<!-- Dato -->
+<?php $durata = array();
+$durata[ 'it' ] = '12 mesi Full-time';
+$durata[ 'en' ] = '12 months Full-time study';
+?>
+
+<?php $durata_part = array();
+$durata_part[ 'it' ] = '12 mesi part-time';
+$durata_part[ 'en' ] = '12 monts of part-time study';
+?>
+
+<!-- Inizio -->
+
+<!-- Label -->
+<?php $titolo_inizio = array();
+$titolo_inizio[ 'it' ] = 'Inizio';
+$titolo_inizio[ 'en' ] = 'Start';
+?>
+
+<!-- Sede -->
+
+<!-- Label -->
+<?php $titolo_sede = array();
+$titolo_sede[ 'it' ] = 'Sede';
+$titolo_sede[ 'en' ] = 'Location';
+?>
 
 <!-- FINE MODIFICHE -->
 
