@@ -285,10 +285,8 @@ $date = DateTime::createFromFormat('Ymd', $date_string);
                         <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Language
                         <?php else : ?>
                         <?php endif; ?></strong> <?php 
-                if(has_term('', 'lingue')) : 
-                $term_descrip = strip_tags(term_description());
-                ?>
-        <?php echo $term_descrip; ?></p>
+                $term_descrip = strip_tags(term_description('', 'lingue'));
+echo $term_descrip; ?></p>
     <div class="row">
         <a href="<?php $link_master_ ?>">Scopri</a>
         <a href="<?php $link_brochure_ ?>">Download Brochure</a>
