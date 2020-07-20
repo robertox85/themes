@@ -225,10 +225,22 @@ $titolo_sede[ 'en' ] = 'Location';
                         <?php endif; ?></strong> <?php $durata ?></p>
     <!-- Sede/Inizio Roma -->
     <?php if( get_field('testo_inizio') ): ?>
-    <p><strong>Sede</strong> <?php the_field('testo_inizio'); ?></p>
-    <?php if( get_field('data_inizio') ): ?>
-    <p><strong>Inizio</strong> <?php the_field('data_inizio'); ?></p>
-    <?php endif; ?>
+    <p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Sede
+                        <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Location
+                        <?php else : ?>
+                        <?php endif; ?></strong> <?php the_field('testo_inizio'); ?></p>
+    <?php 
+// Load field value.
+$date_string = get_field('data_inizio');
+// Create DateTime object from value (formats must match).
+$date = DateTime::createFromFormat('Ymd', $date_string);
+// Output current date in custom format.
+?>
+<p><strong>Sede</strong> <?php echo $date->format('j M Y'); ?></p>
+
+                
+                
+                
     <?php endif; ?>
     <!-- Sede/Inizio Milano -->
     <?php if( get_field('data_inizio_testuale') ): ?>
