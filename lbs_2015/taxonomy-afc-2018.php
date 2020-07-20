@@ -225,8 +225,8 @@ $titolo_sede[ 'en' ] = 'Location';
                         <?php endif; ?></strong> <?php $durata ?></p>
     <!-- Sede/Inizio Roma -->
     <?php if( get_field('testo_inizio') ): ?>
-    <p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Inizio
-                        <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Start
+    <p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Sede
+                        <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Location
                         <?php else : ?>
                         <?php endif; ?></strong> <?php the_field('testo_inizio'); ?></p>
     <?php 
@@ -236,7 +236,10 @@ $date_string = get_field('data_inizio');
 $date = DateTime::createFromFormat('Ymd', $date_string);
 // Output current date in custom format.
 ?>
-<p><strong>Sede</strong> <?php echo $date->format('j M Y'); ?></p>
+<p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Inizio
+                        <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Start
+                        <?php else : ?>
+                        <?php endif; ?> </strong> <?php echo $date->format('j M Y'); ?></p>
 
                 
                 
