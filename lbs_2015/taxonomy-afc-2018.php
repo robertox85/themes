@@ -285,7 +285,7 @@ $date = DateTime::createFromFormat('Ymd', $date_string);
                         <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Language
                         <?php else : ?>
                         <?php endif; ?></strong> <?php 
-                if(has_term('', 'lingue', $post->ID)) : 
+                if(has_term('', 'lingue')) : 
                 $term_descrip = strip_tags(term_description());
                 ?>
         <?php echo $term_descrip; ?></p>
