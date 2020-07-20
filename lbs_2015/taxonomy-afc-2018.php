@@ -218,7 +218,11 @@ $titolo_sede[ 'en' ] = 'Location';
             <div class="col-md-4 col-sm-6">
     <span><?php the_terms($post->ID, 'lunghezza_corsi', $before = '', $sep = ', ', $after = '' ); ?></span>
     <h6><?php the_title(); ?></h6>
-    <p><strong>Durata</strong> <?php $durata ?></p>
+    <p><strong>
+        <?php if (ICL_LANGUAGE_CODE=='it') : ?>Durata
+                        <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Duration
+                        <?php else : ?>
+                        <?php endif; ?></strong> <?php $durata ?></p>
     <!-- Sede/Inizio Roma -->
     <?php if( get_field('testo_inizio') ): ?>
     <p><strong>Sede</strong> <?php the_field('testo_inizio'); ?></p>
