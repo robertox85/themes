@@ -281,7 +281,10 @@ $date = DateTime::createFromFormat('Ymd', $date_string);
                         <?php endif; ?> </strong> <?php echo $date->format('j M Y'); ?></p>                
     <?php endif; ?>
 
-    <p><strong><?php $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php $lingua_corso_ ?></p>
+    <p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Lingua
+                        <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Language
+                        <?php else : ?>
+                        <?php endif; ?></strong> <?php the_terms($post->ID, 'lingue', $before = '', $sep = ', ', $after = '' ); ?></p>
     <div class="row">
         <a href="<?php $link_master_ ?>">Scopri</a>
         <a href="<?php $link_brochure_ ?>">Download Brochure</a>
