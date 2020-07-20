@@ -56,9 +56,8 @@ Full time - 24
 <section>
     <!-- NAVIGAZIONE -->
     <ul class="nav nav-tabs auto" id="ProgramType" role="tablist">
-
         <!-- MASTER -->
-        <li class="nav-item"><a class="nav-link active" id="tab1-tab" data-toggle="tab" href="#exmasters" role="tab" aria-controls="tab1" aria-selected="true">Executive Masters</a></li>
+        <li class="nav-item"><a class="nav-link show active" id="tab1-tab" data-toggle="tab" href="#exmasters" role="tab" aria-controls="tab1" aria-selected="true">Executive Masters</a></li>
 
         <!-- PROGRAMME -->
         <li class="nav-item"><a class="nav-link" id="tab2-tab" data-toggle="tab" href="#exprogramme" role="tab" aria-controls="tab2" aria-selected="false">Executive Programmes</a></li>
