@@ -284,10 +284,10 @@ $date = DateTime::createFromFormat('Ymd', $date_string);
     <p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Lingua
                         <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Language
                         <?php else : ?>
-                        <?php endif; ?></strong> <?php $terms = get_the_terms( $post->ID, 'lingue' );
+                        <?php endif; ?></strong> <span class="text-capitalize"> <?php $terms = get_the_terms( $post->ID, 'lingue' );
                 foreach ( $terms as $term ) {
   echo term_description( $term->term_id, 'lingue' );
-} ?></p>
+                } ?></span></p>
     <div class="row">
         <a href="<?php $link_master_ ?>">Scopri</a>
         <a href="<?php $link_brochure_ ?>">Download Brochure</a>
