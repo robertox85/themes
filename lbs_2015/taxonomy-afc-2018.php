@@ -129,7 +129,7 @@ Full time - 24
 			wp_cache_flush();
 			$query = new WP_Query( $args );
 
-			if ( $query->have_posts() )  : while ( $query->have_posts() ) : the_post(); ?>
+			if ( $query->have_posts() )  : while ( $query->have_posts() ) : $query->the_post(); ?>
 
                 <div class="col-md-4 col-sm-6">
                     <span><?php the_terms($post->ID, 'lunghezza_corsi', $before = '', $sep = ', ', $after = '' ); ?></span>
