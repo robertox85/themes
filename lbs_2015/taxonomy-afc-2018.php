@@ -284,7 +284,7 @@ $date = DateTime::createFromFormat('Ymd', $date_string);
     <p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Lingua
                         <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Language
                         <?php else : ?>
-                        <?php endif; ?></strong> <?php the_terms($post->ID, 'lingue', $before = '', $sep = ', ', $after = '' ); ?></p>
+                        <?php endif; ?></strong> <?php echo term_description( '','lingue' ); ?></p>
     <div class="row">
         <a href="<?php $link_master_ ?>">Scopri</a>
         <a href="<?php $link_brochure_ ?>">Download Brochure</a>
