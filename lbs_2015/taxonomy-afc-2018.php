@@ -166,7 +166,7 @@ $tematica[ 'en' ] = '';
     <p><strong><?php $titolo_durata ?></strong> <?php $durata ?></p>
     <!-- Sede/Inizio Roma -->
     <?php if( get_field('testo_inizio') ): ?>
-    <p><strong><?php $titolo_sede ?></strong></p>
+    <p><strong><?php $titolo_sede ?></strong> <?php the_field('testo_inizio'); ?></p>
     <?php if( get_field('data_inizio') ): ?>
     <p><strong><?php $titolo_inizio ?></strong> <?php the_field('data_inizio'); ?></p>
     <?php endif; ?>
