@@ -4,6 +4,72 @@ Template Name: AFC 2018
 */
 get_header( 2017 );?> 
 
+<!-- Query per le pagine 
+
+Pagine con categoria Tematiche x
+Pagine con categoria lunghezza corsi y
+Ordinate in ordine alfabetico a partire dal titolo
+
+Tematiche
+Accounting, Finance & Control - 29
+-Banking, Insurance and other Financial Institutions - 35
+-Big Data e Business Analytics - 101
+Communication & Lobbying - 97
+-Corporate Education Programs - 34
+Governance, Risk & Compliance - 45
+Healthcare, Public Sector & No Profit - 36
+Innovation, Big Data & Digital Transformation - 10
+Management & Family Business - 58
+Marketing & Sales - 30
+People, Organization Development & Leadership - 32
+-Pharma and Medical Device - 96
+Project Management - 31
+Real Estate & Infrastructure - 37
+Sport, Tourism, Leisure & Culture - 33
+
+Lunghezza corsi
+Executive Program - 25
+Executive Master - 131
+Executive Course - 26
+Flex - 154
+Full time - 24
+
+-->
+
+<div class="col-md-4 col-sm-6">
+    <span><?php the_terms($post->ID, 'lunghezza_corsi', $before = '', $sep = ', ', $after = '' ); ?></span>
+    <h6><?php the_title(); ?></h6>
+    <p><strong><?php $titolo_durata ?></strong> <?php $durata ?></p>
+    <!-- Sede/Inizio Roma -->
+    <?php if( get_field('testo_inizio') ): ?>
+    <p><strong><?php $titolo_sede ?></strong></p>
+    <?php if( get_field('data_inizio') ): ?>
+    <p><strong><?php $titolo_inizio ?></strong> <?php the_field('data_inizio'); ?></p>
+    <?php endif; ?>
+    <?php endif; ?>
+    <!-- Sede/Inizio Milano -->
+    <?php if( get_field('data_inizio_testuale') ): ?>
+    <p><strong><?php $titolo_sede ?></strong> <?php the_field('data_inizio_testuale'); ?></p>
+    <?php if( get_field('data_fine') ): ?>
+    <p><strong><?php $titolo_inizio ?></strong> <?php the_field('data_fine'); ?></p>
+    <?php endif; ?>
+    <?php endif; ?>
+    <!-- Sede/Inizio Belluno -->
+    <?php if( get_field('veneto') ): ?>
+    <p><strong><?php $titolo_sede ?></strong> <?php the_field('veneto'); ?></p>
+    <?php if( get_field('data_veneto') ): ?>
+    <p><strong><?php $titolo_inizio ?></strong> <?php the_field('data_veneto'); ?></p>
+    <?php endif; ?>
+    <?php endif; ?>
+    <p><strong><?php $lingua ?></strong> <?php $lingua_corso_ ?></p>
+    <div class="row">
+        <a href="<?php $link_master_ ?>">Scopri</a>
+        <a href="<?php $link_brochure_ ?>">Download Brochure</a>
+    </div>
+</div>
+
+<!-- FINE MODIFICHE -->
+
 <div class="container-fluid photo-page">
 	<div class="titolo">
 		<div class="container ">
