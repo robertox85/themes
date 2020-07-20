@@ -36,37 +36,7 @@ Full time - 24
 
 -->
 
-<div class="col-md-4 col-sm-6">
-    <span><?php the_terms($post->ID, 'lunghezza_corsi', $before = '', $sep = ', ', $after = '' ); ?></span>
-    <h6><?php the_title(); ?></h6>
-    <p><strong><?php $titolo_durata ?></strong> <?php $durata ?></p>
-    <!-- Sede/Inizio Roma -->
-    <?php if( get_field('testo_inizio') ): ?>
-    <p><strong><?php $titolo_sede ?></strong></p>
-    <?php if( get_field('data_inizio') ): ?>
-    <p><strong><?php $titolo_inizio ?></strong> <?php the_field('data_inizio'); ?></p>
-    <?php endif; ?>
-    <?php endif; ?>
-    <!-- Sede/Inizio Milano -->
-    <?php if( get_field('data_inizio_testuale') ): ?>
-    <p><strong><?php $titolo_sede ?></strong> <?php the_field('data_inizio_testuale'); ?></p>
-    <?php if( get_field('data_fine') ): ?>
-    <p><strong><?php $titolo_inizio ?></strong> <?php the_field('data_fine'); ?></p>
-    <?php endif; ?>
-    <?php endif; ?>
-    <!-- Sede/Inizio Belluno -->
-    <?php if( get_field('veneto') ): ?>
-    <p><strong><?php $titolo_sede ?></strong> <?php the_field('veneto'); ?></p>
-    <?php if( get_field('data_veneto') ): ?>
-    <p><strong><?php $titolo_inizio ?></strong> <?php the_field('data_veneto'); ?></p>
-    <?php endif; ?>
-    <?php endif; ?>
-    <p><strong><?php $lingua ?></strong> <?php $lingua_corso_ ?></p>
-    <div class="row">
-        <a href="<?php $link_master_ ?>">Scopri</a>
-        <a href="<?php $link_brochure_ ?>">Download Brochure</a>
-    </div>
-</div>
+
 
 <!-- FINE MODIFICHE -->
 
@@ -190,72 +160,37 @@ $tematica[ 'en' ] = '';
 				$query->the_post();
 				?>
 
-
-
-<div class="col-md-4 col-xs12 triangle_afc">
-				<div class="card card-content ">
-					<h3 class="card-title"> <a title="<?php the_title();?>" href="<?php the_permalink();
-?>" class=""> <span class="a-card" > <?php    the_title(); ?></span></a> </h3>
-					<div class="card-action">
-						<div class="col-md-5 col-xs12" style="border-right: 1px solid #ebebeb">
-
-
-							<p style="color:#2a2a2a; text-align: center">
-								<?php
-								echo get_field( 'titolo_durata' );
-								?><br>
-								<span class="glyphicon  glyphicon-calendar fa-3x icon-tab"/></span><br>
-								<?php
-								echo get_field( 'durata' );
-								?>
-							</p>
-
-
-
-						</div>
-						<div class="col-md-7 col-xs12">
-
-							<?php   
-  
-	  $date = DateTime::createFromFormat('Ymd', get_field('data_inizio'));	
-		
-	 if(get_field('testo_inizio')) { echo '<p class="blue">' . get_field('testo_inizio'). ': ';}
-			
-	if (get_field('data_inizio')) {  echo   $date->format('d/m/Y') . '</p>';}
-		
-		
-		
-		  $date_m = DateTime::createFromFormat('Ymd', get_field('data_fine'));	
-	
-	 	 if(get_field('data_inizio_testuale')) { echo '<p class="blue">' . get_field('data_inizio_testuale'). ': ';}
-	if (get_field('data_fine')) {  echo   $date_m->format('d/m/Y') . '</p>';}
-
-	
-					 $date_v = DateTime::createFromFormat('Ymd', get_field('data_veneto'));	
-	
-	 	 if(get_field('veneto')) { echo '<p class="blue">' . get_field('veneto'). ': ';}
-	if (get_field('data_veneto')) {  echo   $date_v->format('d/m/Y') . '</p>';}	
-						?>
-
-							<hr>
-
-							<div class="blue">
-								<?php
-								echo get_field( 'brochure' );
-								?>
-							</div>
-						</div>
-
-					</div>
-				</div>
-			</div>
-			
-
-
-
-
-
-
+            <div class="col-md-4 col-sm-6">
+    <span><?php the_terms($post->ID, 'lunghezza_corsi', $before = '', $sep = ', ', $after = '' ); ?></span>
+    <h6><?php the_title(); ?></h6>
+    <p><strong><?php $titolo_durata ?></strong> <?php $durata ?></p>
+    <!-- Sede/Inizio Roma -->
+    <?php if( get_field('testo_inizio') ): ?>
+    <p><strong><?php $titolo_sede ?></strong></p>
+    <?php if( get_field('data_inizio') ): ?>
+    <p><strong><?php $titolo_inizio ?></strong> <?php the_field('data_inizio'); ?></p>
+    <?php endif; ?>
+    <?php endif; ?>
+    <!-- Sede/Inizio Milano -->
+    <?php if( get_field('data_inizio_testuale') ): ?>
+    <p><strong><?php $titolo_sede ?></strong> <?php the_field('data_inizio_testuale'); ?></p>
+    <?php if( get_field('data_fine') ): ?>
+    <p><strong><?php $titolo_inizio ?></strong> <?php the_field('data_fine'); ?></p>
+    <?php endif; ?>
+    <?php endif; ?>
+    <!-- Sede/Inizio Belluno -->
+    <?php if( get_field('veneto') ): ?>
+    <p><strong><?php $titolo_sede ?></strong> <?php the_field('veneto'); ?></p>
+    <?php if( get_field('data_veneto') ): ?>
+    <p><strong><?php $titolo_inizio ?></strong> <?php the_field('data_veneto'); ?></p>
+    <?php endif; ?>
+    <?php endif; ?>
+    <p><strong><?php $lingua ?></strong> <?php $lingua_corso_ ?></p>
+    <div class="row">
+        <a href="<?php $link_master_ ?>">Scopri</a>
+        <a href="<?php $link_brochure_ ?>">Download Brochure</a>
+    </div>
+</div>
 
 			<?php
 			}
