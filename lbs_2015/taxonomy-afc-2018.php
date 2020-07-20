@@ -213,15 +213,12 @@ $date = DateTime::createFromFormat('Ymd', $date_string);
                 <?php wp_reset_postdata(); ?>
 
                 <?php endwhile; else : ?>
-
-
-                <!-- The very first "if" tested to see if there were any Posts to -->
-                <!-- display.  This "else" part tells what do if there weren't any. -->
-                <p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
-
-
-                <!-- REALLY stop The Loop. -->
+<?php if (ICL_LANGUAGE_CODE=='it') : ?>Non ci sono ancora post.
+                <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>There are no posts yet.
+                <?php else : ?>
                 <?php endif; ?>
+
+        <?php endif; ?>
 
             </div>
         </div>
