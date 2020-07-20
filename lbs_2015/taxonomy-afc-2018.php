@@ -286,7 +286,7 @@ $date = DateTime::createFromFormat('Ymd', $date_string);
                         <?php else : ?>
                         <?php endif; ?></strong><?php $terms = get_the_terms( $post->ID, 'lingue' );
                 foreach ( $terms as $term ) {
-  echo '<span class="text-capitalize">' . term_description( $term->term_id, 'lingue') . '</span>';
+  echo '<span class="text-capitalize">' . strip_tags(term_description( $term->term_id, 'lingue')) . '</span>';
                 } ?></p>
     <div class="row">
         <a href="<?php $link_master_ ?>">Scopri</a>
