@@ -32,7 +32,12 @@ Full time - 24
 
 -->
 
-<div class="container-fluid">
+<div class="container-fluid <?php if (has_post_thumbnail( $post->ID ) ): ?>
+                   header-pic" style="background-image: url('<?php echo get_the_post_thumbnail_url(); ?>');
+                   <?php else : ?>
+                   jeader-nopic
+                   <?php endif; ?>
+">
     <div class="container">
         <div class="row">
             <h1><?php the_title();?></h1>
