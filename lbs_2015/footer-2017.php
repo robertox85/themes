@@ -1,4 +1,5 @@
- <?php
+</div>
+<?php
 $certificazioni_riconoscimenti = array();
 $certificazioni_riconoscimenti['it'] = 'CERTIFICAZIONI E RICONOSCIMENTI';
 $certificazioni_riconoscimenti['en'] = "AFFILIATIONS AND ACCREDITATIONS";
