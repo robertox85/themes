@@ -32,6 +32,21 @@ Full time - 24
 
 -->
 
+<?php 
+$query_tax_value = 29;
+			$tax_query[] = array(
+				'taxonomy' => 'tematiche',
+				'field' => 'id',
+				'terms' => ( int )$query_tax_value
+			);
+
+			//var_dump($tax_query);
+			$course_cat = array();
+			$course_cat[ 'it' ] = 61;
+			$course_cat[ 'en' ] = 62;
+
+?>
+
 <div class="container-fluid <?php if (has_post_thumbnail( $post->ID ) ): ?>
                    header-pic" style="background-image: url('<?php echo get_the_post_thumbnail_url(); ?>');
                    <?php else : ?>
@@ -91,18 +106,6 @@ Full time - 24
 				'terms' => ( int )$query_tax_value
 			);
 
-			$query_tax_value = 29;
-			$tax_query[] = array(
-				'taxonomy' => 'tematiche',
-				'field' => 'id',
-				'terms' => ( int )$query_tax_value
-			);
-
-			//var_dump($tax_query);
-			$course_cat = array();
-			$course_cat[ 'it' ] = 61;
-			$course_cat[ 'en' ] = 62;
-
 			$args = array(
 				'post_type' => 'page',
 				'post_status' => 'publish',
@@ -160,19 +163,7 @@ Full time - 24
 				'field' => 'id',
 				'terms' => ( int )$query_tax_value
 			);
-
-			$query_tax_value = 29;
-			$tax_query[] = array(
-				'taxonomy' => 'tematiche',
-				'field' => 'id',
-				'terms' => ( int )$query_tax_value
-			);
-
-			//var_dump($tax_query);
-			$course_cat = array();
-			$course_cat[ 'it' ] = 61;
-			$course_cat[ 'en' ] = 62;
-
+            
 			$args = array(
 				'post_type' => 'page',
 				'post_status' => 'publish',
@@ -231,19 +222,8 @@ Full time - 24
 				'terms' => ( int )$query_tax_value
 			);
 
-			$query_tax_value = 29;
-			$tax_query[] = array(
-				'taxonomy' => 'tematiche',
-				'field' => 'id',
-				'terms' => ( int )$query_tax_value
-			);
-
-			//var_dump($tax_query);
-			$course_cat = array();
-			$course_cat[ 'it' ] = 61;
-			$course_cat[ 'en' ] = 62;
-
-			$args = array(
+                
+                $args = array(
 				'post_type' => 'page',
 				'post_status' => 'publish',
 				'cat' => $course_cat[ ICL_LANGUAGE_CODE ],
@@ -302,18 +282,6 @@ Full time - 24
 				'terms' => ( int )$query_tax_value
 			);
 
-			$query_tax_value = 29;
-			$tax_query[] = array(
-				'taxonomy' => 'tematiche',
-				'field' => 'id',
-				'terms' => ( int )$query_tax_value
-			);
-
-			//var_dump($tax_query);
-			$course_cat = array();
-			$course_cat[ 'it' ] = 61;
-			$course_cat[ 'en' ] = 62;
-
 			$args = array(
 				'post_type' => 'page',
 				'post_status' => 'publish',
@@ -371,18 +339,6 @@ Full time - 24
 				'field' => 'id',
 				'terms' => ( int )$query_tax_value
 			);
-
-			$query_tax_value = 29;
-			$tax_query[] = array(
-				'taxonomy' => 'tematiche',
-				'field' => 'id',
-				'terms' => ( int )$query_tax_value
-			);
-
-			//var_dump($tax_query);
-			$course_cat = array();
-			$course_cat[ 'it' ] = 61;
-			$course_cat[ 'en' ] = 62;
 
 			$args = array(
 				'post_type' => 'page',
