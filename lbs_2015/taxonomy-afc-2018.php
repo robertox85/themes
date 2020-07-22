@@ -443,7 +443,7 @@ Full time - 24
 <!-- OFFERTA COMPLETA -->
 <div class="container-fluid">
     <div class="container">
-        <?php get_template_part( 'template-parts/card-course', get_post_format() ); ?>
+        <?php get_template_part( 'template-parts/section-executive-by-tematica', get_post_format() ); ?>
     </div>
 </div>
 
