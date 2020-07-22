@@ -224,8 +224,8 @@ $date = DateTime::createFromFormat('Ymd', $date_string);
 
         <!-- PROGRAMME -->
         <div class="tab-pane p-4 fade" id="exprogrammes" role="tabpanel" aria-labelledby="exprogrammes-tab">
-        <h2><?php echo get_field('etichetta_executive_master') ?></h2>
-            <p><?php echo get_field('campo_executive_master') ?></p>
+        <h2><?php echo get_field('etichetta_executive_program') ?></h2>
+            <p><?php echo get_field('campo_executive_program') ?></p>
             <div class="row">
                 <?php
 			$query_tax_value = 25;
@@ -371,8 +371,8 @@ $date = DateTime::createFromFormat('Ymd', $date_string);
 
         <!-- FLEX -->
         <div class="tab-pane p-4 fade" id="exflexprogrammes" role="tabpanel" aria-labelledby="exflexprogrammes-tab">
-        <h2><?php echo get_field('etichetta_executive_master') ?></h2>
-            <p><?php echo get_field('campo_executive_master') ?></p>
+        <h2>Flex Executive Programmes</h2>
+            <p>Lorem ipsum dolor</p>
             <div class="row">
                 <?php
 			$query_tax_value = 154;
@@ -519,8 +519,8 @@ $date = DateTime::createFromFormat('Ymd', $date_string);
 
         <!-- COURSES -->
         <div class="tab-pane p-4 fade" id="excourses" role="tabpanel" aria-labelledby="excourses-tab">
-            <h2><?php echo get_field('etichetta_executive_master') ?></h2>
-            <p><?php echo get_field('campo_executive_master') ?></p>
+            <h2><?php echo get_field('etichetta_short_course') ?></h2>
+            <p><?php echo get_field('campo_short_course') ?></p>
             <div class="row">
                 <?php
 			$query_tax_value = 26;
@@ -670,7 +670,7 @@ $date = DateTime::createFromFormat('Ymd', $date_string);
             <p><?php echo get_field('campo_executive_master') ?></p>
             <div class="row">
                 <?php
-			$query_tax_value = 25;
+			$query_tax_value = 26;
 			$tax_query = array();
 			$tax_query[] = array(
 				'taxonomy' => 'lunghezza_corsi',
