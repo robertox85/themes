@@ -370,6 +370,7 @@ $date = DateTime::createFromFormat('Ymd', $date_string);
         
         
         </div>
+        </div>
 
         <!-- FLEX -->
         <div class="tab-pane p-4 fade" id="exflexprogrammes" role="tabpanel" aria-labelledby="exflexprogrammes-tab">Contenuto 3</div>
