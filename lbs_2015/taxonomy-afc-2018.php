@@ -75,7 +75,7 @@ Full time - 24
     <!-- CONTENUTO -->
     <div class="tab-content" id="ProgramType">
         <!-- MASTER -->
-        <div class="tab-pane p-4 fade show active" id="exmasters" role="tabpanel" aria-labelledby="exmasters-tab">
+        <div class="tab-pane p-4 fade show active in" id="exmasters" role="tabpanel" aria-labelledby="exmasters-tab">
             <h2><?php echo get_field('etichetta_executive_master') ?></h2>
             <p><?php echo get_field('campo_executive_master') ?></p>
 
