@@ -71,7 +71,8 @@
 <!-- END  #site-canvas -->
 </div>
 <!-- END #site-wrapper --> 
-
+<!-- SNIPCART -->
+<script src="https://businessschool.luiss.it/wp-content/themes/lbs_2015/js/snipcart-customizations.js"></script>
 <script async data-main="<?php echo get_bloginfo('template_url') ?>/js/app" src="<?php echo get_bloginfo('template_url') ?>/js/require.js"></script>
 
 

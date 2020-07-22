@@ -54,6 +54,89 @@ Home
 END Bootstrap
 */
 </style>
+
+
+
+<!-- SNIPCART -->
+<!-- Snipcart stylesheet -->
+<link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.16/default/snipcart.css" />
+<script src="https://cdn.snipcart.com/themes/v3.0.16/default/snipcart.js"></script>
+<style type="text/css">
+.snipcart * {
+    font-family: "ITC Officina Sans W01";
+}
+.snipcart-modal__container {
+    z-index: 1000;
+}
+.snipcart-input__input:-webkit-autofill {
+background-color: transparent !important;
+}
+.snipcart__icon--blue-light path {
+    fill: #fdbb4d;
+}
+.snipcart__icon--blue-dark path {
+    fill: #fdbb4d;
+}
+.snipcart-payment-form--focused {
+    border: 1px solid #fdbb4d !important;
+}
+.snipcart-discount-box__form {
+    border: 1px solid #fdbb4d;
+}
+.snipcart-discount-box__form .snipcart-input {
+    outline: none;
+}
+.snipcart-discount-box__form .snipcart-input:focus-within {
+border: none;
+}
+.snipcart-discount-box__form .snipcart-discount-box__submit {
+    color: #fdbb4d;
+}
+.snipcart__box--badge-highlight {
+    background: #fdbb4d;
+}
+.snipcart__font--subtitle {
+    font-family: "ITC Officina Sans W01 Bold";
+}
+.snipcart-input {
+    outline-color: #fdbb4d;
+}
+.snipcart-input:focus-within {
+border: 1px solid #fdbb4d;
+}
+.snipcart-form__select:focus {
+    border: 1px solid #fdbb4d;
+}
+.snipcart-typeahead__suggestions {
+    border: 1px solid #fdbb4d;
+}
+.snipcart-textbox--focus {
+    border: 1px solid #fdbb4d;
+}
+.snipcart-checkbox:checked + label:before {
+    border: 1px solid #fdbb4d;
+    background-color: #fdbb4d;
+}
+.snipcart-checkbox:focus + label:before, .snipcart-checkbox:hover + label:before {
+    border: 1px solid #fdbb4d;
+}
+.snipcart-cart-button {
+    font-family: "Droid Sans Mono W01";
+}
+.snipcart-cart-button.snipcart-cart-button--highlight {
+    background-image: linear-gradient(90deg, #fdbb4d, #fdbb4d);
+}
+.snipcart__actions--link {
+    color: #fdbb4d;
+}
+</style>
+<!-- Display stock quantity -->
+<div hidden id="snipcart" data-api-key="MjZiMzk5YWItNmYwNi00YmNmLTk3Y2ItNTU3OTZmZWIwZWU0NjM3Mjg0MTQ3OTIxMjgwNTM1"> </div>
+<!-- Snipcart custom script --> 
+<script>
+        window.SNIPCART_STOCK_LAMBDA_URL = 'https://lw0s05w009.execute-api.eu-west-1.amazonaws.com/api/';
+</script>
+
 <link href="<?php bloginfo('template_directory'); ?>/style.css" rel="stylesheet">
 <?php wp_head(); ?>
 </head>
