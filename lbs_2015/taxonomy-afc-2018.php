@@ -430,7 +430,7 @@ Full time - 24
 </section>
 
 
-<?php edit_post_link('<p class="button arr featured-links">Modifica Pagina</p>', ''); ?>
+<?php edit_post_link('<p>Modifica Pagina</p>', ''); ?>
 
 
 <?php
