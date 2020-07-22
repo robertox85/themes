@@ -226,7 +226,6 @@ $date = DateTime::createFromFormat('Ymd', $date_string);
         <div class="tab-pane p-4 fade" id="exprogrammes" role="tabpanel" aria-labelledby="exprogrammes-tab">
         <h2><?php echo get_field('etichetta_executive_master') ?></h2>
             <p><?php echo get_field('campo_executive_master') ?></p>
-
             <div class="row">
                 <?php
 			$query_tax_value = 25;
@@ -367,19 +366,450 @@ $date = DateTime::createFromFormat('Ymd', $date_string);
 
         <?php endif; ?>
         
-        
-        
         </div>
         </div>
 
         <!-- FLEX -->
-        <div class="tab-pane p-4 fade" id="exflexprogrammes" role="tabpanel" aria-labelledby="exflexprogrammes-tab">Contenuto 3</div>
+        <div class="tab-pane p-4 fade" id="exflexprogrammes" role="tabpanel" aria-labelledby="exflexprogrammes-tab">
+        <h2><?php echo get_field('etichetta_executive_master') ?></h2>
+            <p><?php echo get_field('campo_executive_master') ?></p>
+            <div class="row">
+                <?php
+			$query_tax_value = 154;
+			$tax_query = array();
+			$tax_query[] = array(
+				'taxonomy' => 'lunghezza_corsi',
+				'field' => 'id',
+				'terms' => ( int )$query_tax_value
+			);
+
+			$query_tax_value = 29;
+			$tax_query[] = array(
+				'taxonomy' => 'tematiche',
+				'field' => 'id',
+				'terms' => ( int )$query_tax_value
+			);
+
+			//var_dump($tax_query);
+			$course_cat = array();
+			$course_cat[ 'it' ] = 61;
+			$course_cat[ 'en' ] = 62;
+
+			$args = array(
+				'post_type' => 'page',
+				'post_status' => 'publish',
+				'cat' => $course_cat[ ICL_LANGUAGE_CODE ],
+				'pagination' => true,
+				'tax_query' => $tax_query,
+				'posts_per_page' => '-1',
+				'meta_key' => 'data_inizio',
+				'orderby' => 'meta_value_num',
+				'meta_query' => array(
+				//	array(
+				//		'key' => 'data_inizio', // which meta to query
+				//		'value' => date( "Y-m-d" ),
+				//		'compare' => '>=', // method of comparison
+				//		'type' <= 'DATE'
+				//	)
+				),
+				'cache_results' => false,
+				'suppress_filters' => false,
+				'order' => 'ASC'
+			);
+			//echo '<pre>';
+			//var_dump($args);
+			//echo '</pre>';
+			wp_cache_flush();
+			$query = new WP_Query( $args );
+
+			if ( $query->have_posts() )  : while ( $query->have_posts() ) : $query->the_post(); ?>
+
+                <div class="col-md-4 col-sm-6">
+                    <span><?php the_terms($post->ID, 'lunghezza_corsi', $before = '', $sep = ', ', $after = '' ); ?></span>
+                    <h6><?php the_title(); ?></h6>
+                    <?php if( get_field('durata') ): ?>
+                    <p><strong>
+                            <?php if (ICL_LANGUAGE_CODE=='it') : ?>Durata
+                            <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Duration
+                            <?php else : ?>
+                            <?php endif; ?></strong> <?php the_field('durata'); ?></p>
+                    <?php endif; ?>
+                    <!-- Sede/Inizio Roma -->
+                    <?php if( get_field('testo_inizio') ): ?>
+                    <p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Sede
+                            <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Location
+                            <?php else : ?>
+                            <?php endif; ?></strong> <?php the_field('testo_inizio'); ?></p>
+                    <?php 
+// Load field value.
+$date_string = get_field('data_inizio');
+// Create DateTime object from value (formats must match).
+$date = DateTime::createFromFormat('Ymd', $date_string);
+// Output current date in custom format.
+?>
+                    <p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Inizio
+                            <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Start
+                            <?php else : ?>
+                            <?php endif; ?> </strong> <?php echo $date->format('j M Y'); ?></p>
+                    <?php endif; ?>
+
+                    <!-- Sede/Inizio Milano -->
+                    <?php if( get_field('data_inizio_testuale') ): ?>
+                    <p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Sede
+                            <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Location
+                            <?php else : ?>
+                            <?php endif; ?></strong> <?php the_field('data_inizio_testuale'); ?></p>
+                    <?php 
+// Load field value.
+$date_string = get_field('data_fine');
+// Create DateTime object from value (formats must match).
+$date = DateTime::createFromFormat('Ymd', $date_string);
+// Output current date in custom format.
+?>
+                    <p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Inizio
+                            <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Start
+                            <?php else : ?>
+                            <?php endif; ?> </strong> <?php echo $date->format('j M Y'); ?></p>
+                    <?php endif; ?>
+                    <!-- Sede/Inizio Belluno -->
+                    <?php if( get_field('veneto') ): ?>
+                    <p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Sede
+                            <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Location
+                            <?php else : ?>
+                            <?php endif; ?></strong> <?php the_field('veneto'); ?></p>
+                    <?php 
+// Load field value.
+$date_string = get_field('data_veneto');
+// Create DateTime object from value (formats must match).
+$date = DateTime::createFromFormat('Ymd', $date_string);
+// Output current date in custom format.
+?>
+                    <p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Inizio
+                            <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Start
+                            <?php else : ?>
+                            <?php endif; ?> </strong> <?php echo $date->format('j M Y'); ?></p>
+                    <?php endif; ?>
+
+                    <p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Lingua
+                            <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Language
+                            <?php else : ?>
+                            <?php endif; ?></strong><?php $terms = get_the_terms( $post->ID, 'lingue' );
+                foreach ( $terms as $term ) {
+  echo '<span class="text-capitalize">' . strip_tags(term_description( $term->term_id, 'lingue')) . '</span>';
+                } ?></p>
+                    <div class="row">
+                        <a href="<?php $link_master_ ?>">Scopri</a>
+                        <a href="<?php $link_brochure_ ?>">Download Brochure</a>
+                    </div>
+                </div>
+                
+                <?php wp_reset_postdata(); ?>
+
+                <?php endwhile; else : ?>
+<?php if (ICL_LANGUAGE_CODE=='it') : ?>Non ci sono ancora post.
+                <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>There are no posts yet.
+                <?php else : ?>
+                <?php endif; ?>
+
+        <?php endif; ?>
+        
+           </div>
+        </div>
+            
 
         <!-- COURSES -->
-        <div class="tab-pane p-4 fade" id="excourses" role="tabpanel" aria-labelledby="excourses-tab">Contenuto 4 </div>
+        <div class="tab-pane p-4 fade" id="excourses" role="tabpanel" aria-labelledby="excourses-tab">
+            <h2><?php echo get_field('etichetta_executive_master') ?></h2>
+            <p><?php echo get_field('campo_executive_master') ?></p>
+            <div class="row">
+                <?php
+			$query_tax_value = 26;
+			$tax_query = array();
+			$tax_query[] = array(
+				'taxonomy' => 'lunghezza_corsi',
+				'field' => 'id',
+				'terms' => ( int )$query_tax_value
+			);
+
+			$query_tax_value = 29;
+			$tax_query[] = array(
+				'taxonomy' => 'tematiche',
+				'field' => 'id',
+				'terms' => ( int )$query_tax_value
+			);
+
+			//var_dump($tax_query);
+			$course_cat = array();
+			$course_cat[ 'it' ] = 61;
+			$course_cat[ 'en' ] = 62;
+
+			$args = array(
+				'post_type' => 'page',
+				'post_status' => 'publish',
+				'cat' => $course_cat[ ICL_LANGUAGE_CODE ],
+				'pagination' => true,
+				'tax_query' => $tax_query,
+				'posts_per_page' => '-1',
+				'meta_key' => 'data_inizio',
+				'orderby' => 'meta_value_num',
+				'meta_query' => array(
+				//	array(
+				//		'key' => 'data_inizio', // which meta to query
+				//		'value' => date( "Y-m-d" ),
+				//		'compare' => '>=', // method of comparison
+				//		'type' <= 'DATE'
+				//	)
+				),
+				'cache_results' => false,
+				'suppress_filters' => false,
+				'order' => 'ASC'
+			);
+			//echo '<pre>';
+			//var_dump($args);
+			//echo '</pre>';
+			wp_cache_flush();
+			$query = new WP_Query( $args );
+
+			if ( $query->have_posts() )  : while ( $query->have_posts() ) : $query->the_post(); ?>
+
+                <div class="col-md-4 col-sm-6">
+                    <span><?php the_terms($post->ID, 'lunghezza_corsi', $before = '', $sep = ', ', $after = '' ); ?></span>
+                    <h6><?php the_title(); ?></h6>
+                    <?php if( get_field('durata') ): ?>
+                    <p><strong>
+                            <?php if (ICL_LANGUAGE_CODE=='it') : ?>Durata
+                            <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Duration
+                            <?php else : ?>
+                            <?php endif; ?></strong> <?php the_field('durata'); ?></p>
+                    <?php endif; ?>
+                    <!-- Sede/Inizio Roma -->
+                    <?php if( get_field('testo_inizio') ): ?>
+                    <p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Sede
+                            <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Location
+                            <?php else : ?>
+                            <?php endif; ?></strong> <?php the_field('testo_inizio'); ?></p>
+                    <?php 
+// Load field value.
+$date_string = get_field('data_inizio');
+// Create DateTime object from value (formats must match).
+$date = DateTime::createFromFormat('Ymd', $date_string);
+// Output current date in custom format.
+?>
+                    <p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Inizio
+                            <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Start
+                            <?php else : ?>
+                            <?php endif; ?> </strong> <?php echo $date->format('j M Y'); ?></p>
+                    <?php endif; ?>
+
+                    <!-- Sede/Inizio Milano -->
+                    <?php if( get_field('data_inizio_testuale') ): ?>
+                    <p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Sede
+                            <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Location
+                            <?php else : ?>
+                            <?php endif; ?></strong> <?php the_field('data_inizio_testuale'); ?></p>
+                    <?php 
+// Load field value.
+$date_string = get_field('data_fine');
+// Create DateTime object from value (formats must match).
+$date = DateTime::createFromFormat('Ymd', $date_string);
+// Output current date in custom format.
+?>
+                    <p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Inizio
+                            <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Start
+                            <?php else : ?>
+                            <?php endif; ?> </strong> <?php echo $date->format('j M Y'); ?></p>
+                    <?php endif; ?>
+                    <!-- Sede/Inizio Belluno -->
+                    <?php if( get_field('veneto') ): ?>
+                    <p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Sede
+                            <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Location
+                            <?php else : ?>
+                            <?php endif; ?></strong> <?php the_field('veneto'); ?></p>
+                    <?php 
+// Load field value.
+$date_string = get_field('data_veneto');
+// Create DateTime object from value (formats must match).
+$date = DateTime::createFromFormat('Ymd', $date_string);
+// Output current date in custom format.
+?>
+                    <p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Inizio
+                            <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Start
+                            <?php else : ?>
+                            <?php endif; ?> </strong> <?php echo $date->format('j M Y'); ?></p>
+                    <?php endif; ?>
+
+                    <p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Lingua
+                            <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Language
+                            <?php else : ?>
+                            <?php endif; ?></strong><?php $terms = get_the_terms( $post->ID, 'lingue' );
+                foreach ( $terms as $term ) {
+  echo '<span class="text-capitalize">' . strip_tags(term_description( $term->term_id, 'lingue')) . '</span>';
+                } ?></p>
+                    <div class="row">
+                        <a href="<?php $link_master_ ?>">Scopri</a>
+                        <a href="<?php $link_brochure_ ?>">Download Brochure</a>
+                    </div>
+                </div>
+                
+                <?php wp_reset_postdata(); ?>
+
+                <?php endwhile; else : ?>
+<?php if (ICL_LANGUAGE_CODE=='it') : ?>Non ci sono ancora post.
+                <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>There are no posts yet.
+                <?php else : ?>
+                <?php endif; ?>
+
+        <?php endif; ?>
+            
+               </div>
+        </div>
 
         <!-- LABS -->
-        <div class="tab-pane p-4 fade" id="exlabs" role="tabpanel" aria-labelledby="exlabs-tab">Contenuto 5 </div>
+        <div class="tab-pane p-4 fade" id="exlabs" role="tabpanel" aria-labelledby="exlabs-tab">
+            <h2><?php echo get_field('etichetta_executive_master') ?></h2>
+            <p><?php echo get_field('campo_executive_master') ?></p>
+            <div class="row">
+                <?php
+			$query_tax_value = 25;
+			$tax_query = array();
+			$tax_query[] = array(
+				'taxonomy' => 'lunghezza_corsi',
+				'field' => 'id',
+				'terms' => ( int )$query_tax_value
+			);
+
+			$query_tax_value = 29;
+			$tax_query[] = array(
+				'taxonomy' => 'tematiche',
+				'field' => 'id',
+				'terms' => ( int )$query_tax_value
+			);
+
+			//var_dump($tax_query);
+			$course_cat = array();
+			$course_cat[ 'it' ] = 61;
+			$course_cat[ 'en' ] = 62;
+
+			$args = array(
+				'post_type' => 'page',
+				'post_status' => 'publish',
+				'cat' => $course_cat[ ICL_LANGUAGE_CODE ],
+				'pagination' => true,
+				'tax_query' => $tax_query,
+				'posts_per_page' => '-1',
+				'meta_key' => 'data_inizio',
+				'orderby' => 'meta_value_num',
+				'meta_query' => array(
+				//	array(
+				//		'key' => 'data_inizio', // which meta to query
+				//		'value' => date( "Y-m-d" ),
+				//		'compare' => '>=', // method of comparison
+				//		'type' <= 'DATE'
+				//	)
+				),
+				'cache_results' => false,
+				'suppress_filters' => false,
+				'order' => 'ASC'
+			);
+			//echo '<pre>';
+			//var_dump($args);
+			//echo '</pre>';
+			wp_cache_flush();
+			$query = new WP_Query( $args );
+
+			if ( $query->have_posts() )  : while ( $query->have_posts() ) : $query->the_post(); ?>
+
+                <div class="col-md-4 col-sm-6">
+                    <span><?php the_terms($post->ID, 'lunghezza_corsi', $before = '', $sep = ', ', $after = '' ); ?></span>
+                    <h6><?php the_title(); ?></h6>
+                    <?php if( get_field('durata') ): ?>
+                    <p><strong>
+                            <?php if (ICL_LANGUAGE_CODE=='it') : ?>Durata
+                            <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Duration
+                            <?php else : ?>
+                            <?php endif; ?></strong> <?php the_field('durata'); ?></p>
+                    <?php endif; ?>
+                    <!-- Sede/Inizio Roma -->
+                    <?php if( get_field('testo_inizio') ): ?>
+                    <p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Sede
+                            <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Location
+                            <?php else : ?>
+                            <?php endif; ?></strong> <?php the_field('testo_inizio'); ?></p>
+                    <?php 
+// Load field value.
+$date_string = get_field('data_inizio');
+// Create DateTime object from value (formats must match).
+$date = DateTime::createFromFormat('Ymd', $date_string);
+// Output current date in custom format.
+?>
+                    <p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Inizio
+                            <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Start
+                            <?php else : ?>
+                            <?php endif; ?> </strong> <?php echo $date->format('j M Y'); ?></p>
+                    <?php endif; ?>
+
+                    <!-- Sede/Inizio Milano -->
+                    <?php if( get_field('data_inizio_testuale') ): ?>
+                    <p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Sede
+                            <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Location
+                            <?php else : ?>
+                            <?php endif; ?></strong> <?php the_field('data_inizio_testuale'); ?></p>
+                    <?php 
+// Load field value.
+$date_string = get_field('data_fine');
+// Create DateTime object from value (formats must match).
+$date = DateTime::createFromFormat('Ymd', $date_string);
+// Output current date in custom format.
+?>
+                    <p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Inizio
+                            <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Start
+                            <?php else : ?>
+                            <?php endif; ?> </strong> <?php echo $date->format('j M Y'); ?></p>
+                    <?php endif; ?>
+                    <!-- Sede/Inizio Belluno -->
+                    <?php if( get_field('veneto') ): ?>
+                    <p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Sede
+                            <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Location
+                            <?php else : ?>
+                            <?php endif; ?></strong> <?php the_field('veneto'); ?></p>
+                    <?php 
+// Load field value.
+$date_string = get_field('data_veneto');
+// Create DateTime object from value (formats must match).
+$date = DateTime::createFromFormat('Ymd', $date_string);
+// Output current date in custom format.
+?>
+                    <p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Inizio
+                            <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Start
+                            <?php else : ?>
+                            <?php endif; ?> </strong> <?php echo $date->format('j M Y'); ?></p>
+                    <?php endif; ?>
+
+                    <p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Lingua
+                            <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Language
+                            <?php else : ?>
+                            <?php endif; ?></strong><?php $terms = get_the_terms( $post->ID, 'lingue' );
+                foreach ( $terms as $term ) {
+  echo '<span class="text-capitalize">' . strip_tags(term_description( $term->term_id, 'lingue')) . '</span>';
+                } ?></p>
+                    <div class="row">
+                        <a href="<?php $link_master_ ?>">Scopri</a>
+                        <a href="<?php $link_brochure_ ?>">Download Brochure</a>
+                    </div>
+                </div>
+                
+                <?php wp_reset_postdata(); ?>
+
+                <?php endwhile; else : ?>
+<?php if (ICL_LANGUAGE_CODE=='it') : ?>Non ci sono ancora post.
+                <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>There are no posts yet.
+                <?php else : ?>
+                <?php endif; ?>
+
+        <?php endif; ?>
+            
+    </div>
+            </div>
     </div>
 </section>
 
