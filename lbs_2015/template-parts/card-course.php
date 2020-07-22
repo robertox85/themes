@@ -72,7 +72,8 @@ $date = DateTime::createFromFormat('Ymd', $date_string);
   echo '<span class="text-capitalize">' . strip_tags(term_description( $term->term_id, 'lingue')) . '</span>';
                 } ?></p>
                     <div class="row">
-                        <a href="<?php $link_master_ ?>">Scopri</a>
+                        <a href="<?php the_permalink();
+?>">Scopri</a>
                         <?php the_field(strip_tags('brochure')); ?>
                     </div>
                 </div>
