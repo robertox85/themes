@@ -53,6 +53,7 @@ Full time - 24
     </div>
 </div>
 
+<div class="container">
 <!-- TAB -->
 <section>
     <!-- NAVIGAZIONE -->
@@ -428,7 +429,7 @@ Full time - 24
             </div>
     </div>
 </section>
-
+</div>
 
 <?php edit_post_link('<p>Modifica Pagina</p>', ''); ?>
 
