@@ -73,6 +73,6 @@ $date = DateTime::createFromFormat('Ymd', $date_string);
                 } ?></p>
                     <div class="row">
                         <a href="<?php $link_master_ ?>">Scopri</a>
-                        <a href="<?php $link_brochure_ ?>">Download Brochure</a>
+                        <?php the_field('brochure'); ?>
                     </div>
                 </div>
