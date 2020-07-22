@@ -12,6 +12,7 @@ License: MIT
 License URI: http://opensource.org/licenses/mit-license.php */
 
 @import "../fonts/fonts";
+
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/mixins/breakpoints";
 @import "../node_modules/bootstrap/scss/mixins/buttons";
@@ -29,6 +30,7 @@ License URI: http://opensource.org/licenses/mit-license.php */
 
 @import "base/typography";
 @import "components/buttons";
+@import "components/modals";
 
 @import "base/themes";
 
