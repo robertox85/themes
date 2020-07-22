@@ -23,8 +23,9 @@ while ( have_posts() ) : the_post();
 		}
 	}
 </style>
-<div class="container container-header">
-	<header id="header-master" class="row">
+<div class="container-fluid container-header px-0">
+	<div class="container">
+	<header id="header-master" class="row px-0">
 
 		<div class="row">
 			<div class="col-md-4">
@@ -64,7 +65,9 @@ while ( have_posts() ) : the_post();
 			</span>
 		</div>
 		<?php dynamic_sidebar( 'Area-Header' ); ?>
-	</header>
+	</header>	
+	</div>
+	
 </div>
 <!--END .container --> 
 
@@ -72,9 +75,13 @@ while ( have_posts() ) : the_post();
 <div class="container-fluid colonna_key_facts">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-10 py-32">
+			<div class="col-md-12 py-32">
 				<h5>Key Facts</h5>
+				<div class="position-absolute share_links">
+						<?php echo do_shortcode('[ssba]'); ?>   
+					</div>
 				<div class="colonna_key_facts-container">
+					
 					<?php if ( function_exists('dynamic_sidebar')  ) : ?>
 						<?php  dynamic_sidebar('Custom') ?>
 					<?php endif; ?>
@@ -98,7 +105,7 @@ while ( have_posts() ) : the_post();
 					'container_id'    => '',
 					'container_class'    => 'bg__white',
 					'container' => 'div',
-					'menu_class' => 'list-unstyled sidebar_navigation m-0 ',
+					'menu_class' => 'list-unstyled sidebar_navigation ',
 				));           
 				
 				?>

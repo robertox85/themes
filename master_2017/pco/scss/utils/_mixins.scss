@@ -1,0 +1,371 @@
+// px to rem
+@function rem($size) {
+  @return $size / 16px * 1rem;
+}
+
+// colori
+@mixin color-modifiers($attribute: 'color', $prefix: '-') {
+  @each $name, $hex in $colors {
+    &#{$prefix}#{$name} {
+      #{$attribute}: $hex !important;
+    }
+  }
+}
+
+@mixin bg-modifiers($attribute: 'color', $prefix: '-') {
+  @each $name, $hex in $bg {
+    &#{$prefix}#{$name} {
+      #{$attribute}: $hex !important;
+    }
+  }
+}
+
+@mixin theme($name, $bgColor, $textColor) {
+  body.theme-#{$name} {
+    font-family: 'Luiss Sans', sans-serif !important;
+    font-weight: normal;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: 'Luiss Sans', sans-serif !important;
+      font-weight: normal;
+    }
+    #header-master {
+      background: transparent;
+    }
+
+    color: $textColor;
+
+    a {
+      color: $textColor;
+    }
+
+    a,
+    p {
+      color: $textColor;
+    }
+
+    .cta {
+      color: $textColor;
+    }
+
+    .meta {
+      color: $textColor;
+    }
+
+    h1 {
+      color: $textColor;
+    }
+
+    h2 {
+      color: $textColor;
+    }
+
+    h3 {
+      color: $textColor;
+    }
+
+    h4 {
+      color: $textColor;
+    }
+
+    h5 {
+      color: $textColor;
+    }
+
+    h6 {
+      color: $textColor;
+    }
+    .sidebar_navigation {
+      padding-top: 36px;
+      padding-bottom: 36px;
+      margin-top: 65px;
+      border-right: 1px solid #e8e8e8;
+      li {
+        &:not(:last-of-type) {
+          border-bottom: 1px solid #e8e8e8;
+        }
+
+        &:hover {
+          background-color: $bgColor;
+          a {
+            color: $white;
+          }
+        }
+      }
+    }
+
+    .sidebar-master {
+      .block-dark {
+        background: transparentize($color: $bgColor, $amount: 0.7);
+        font-size: rem(36px);
+        color: $textColor;
+        text-align: left;
+        line-height: rem(40px);
+        position: relative;
+
+        &:before {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          width: 48px;
+          height: 48px;
+          background-color: $bgColor;
+          mask-image: url('images/pattern.svg');
+        }
+
+        a,
+        p {
+          color: $textColor;
+        }
+        h3 {
+          font-family: 'Luiss Sans', sans-serif !important;
+          font-weight: normal;
+          color: $textColor;
+          font-size: rem(36px);
+          line-height: rem(40px);
+          text-transform: lowercase;
+        }
+      }
+      > h2 {
+        display: none;
+      }
+      .block:nth-child(1),
+      .block:nth-child(2),
+      .block:nth-child(3),
+      .block:nth-child(4),
+      .block:nth-child(5),
+      .block:nth-child(6) {
+        display: none;
+      }
+
+      .block:last-child {
+        display: block;
+      }
+      a.button {
+        border: 1px solid $bgColor;
+        color: $bgColor;
+      }
+      a.button.arr.featured-links {
+        display: none !important;
+      }
+    }
+
+    .colonna_key_facts {
+      background: $bgColor;
+      .row {
+        display: flex;
+        justify-content: center;
+      }
+      * {
+        color: $white;
+      }
+
+      .colonna_key_facts-container {
+        display: flex;
+        .block:not(:last-child) {
+          margin-right: rem(48px);
+        }
+        .block:nth-child(5) {
+          flex-grow: 1;
+        }
+        .block:last-child {
+          .textwidget {
+            p {
+              a:not(.featured-links) {
+                display: none;
+              }
+            }
+          }
+        }
+        .featured-links {
+          background-color: $white;
+          color: $textColor;
+          @include font-size(16px);
+          line-height: rem(28px);
+          padding: 25px 70px;
+          margin-bottom: 0;
+          margin-top: 16px;
+        }
+      }
+    }
+
+    .container-header {
+      position: relative;
+      &::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+          225deg,
+          rgba($color: $bgColor, $alpha: 0) 0%,
+          rgba($color: $bgColor, $alpha: 0.5) 39%,
+          #003a70 89%,
+          #003a70 100%
+        );
+      }
+    }
+    #header-master{
+      h1,p{
+        color: $white;
+      }
+      .button.featured-links{
+        border: 1px solid $white;
+        color: $white;
+      }
+    }
+    .button {
+      &.button__primary {
+        background: $bgColor;
+        color: $white;
+        &:hover {
+          background: $white;
+          border: 1px solid $textColor;
+          color: $textColor;
+        }
+      }
+      &.button__secondary {
+        border: 1px solid $textColor;
+        color: $textColor;
+      }
+    }
+    #breadcrumb-top .breadcrumb{
+      border-bottom: 0;
+    }
+    .share_links{
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 365px;
+      h2{
+        font-family: 'Luiss Sans', sans-serif !important;
+        font-weight: normal;
+        font-size: rem(16px);
+        color: #FFFFFF;
+        line-height: rem(24px);
+        
+      }
+      .ssba > div{
+        display: flex;
+        &:before{
+          content: '';
+          position: absolute;
+          background-color: #fff;
+          width: 365px;
+          height: 1px;
+          bottom: 16px;
+        }
+      }
+    }
+    .footer {
+      background: none repeat scroll 0 0 #fff;
+      padding-bottom: 0;
+      input[type='submit'] {
+        width: inherit;
+        box-sizing: inherit;
+        border: inherit;
+        border-radius: inherit;
+        font-size: inherit;
+        background-color: inherit;
+        background-position: inherit;
+        background-repeat: inherit;
+        padding: inherit;
+      }
+      #mc-embedded-subscribe {
+        clear: both;
+        width: auto;
+        display: inherit;
+        margin: inherit;
+      }
+      #mc_embed_signup input {
+        border: inherit;
+        border-radius: 0px;
+      }
+      #mc_embed_signup .button {
+        clear: both;
+        background-color: inherit;
+        border: inherit;
+        border-radius: inherit;
+        transition: all 0.23s ease-in-out 0s;
+        color: inherit;
+        cursor: pointer;
+        display: inherit;
+        font-size: inherit;
+        font-weight: inherit;
+        height: inherit;
+        line-height: inherit;
+        margin: inherit;
+        padding: inherit;
+        text-align: inherit;
+        text-decoration: inherit;
+        vertical-align: inherit;
+        white-space: inherit;
+        width: inherit;
+      }
+      .button {
+        background-color: $gold !important;
+        font-weight: bold;
+        @include font-size(16px);
+        color: #ffffff;
+        line-height: rem(24px);
+        cursor: pointer;
+        user-select: none;
+        background-color: transparent;
+        text-transform: uppercase;
+        border: none;
+        outline: none;
+        padding: 16px 29px!important;
+        &.button__primary {
+          background: $green;
+          border: 1px solid transparent;
+
+          &:hover {
+            background: $white;
+            border: 1px solid $green;
+            color: $green;
+          }
+
+          &:focus {
+            box-shadow: inset 0 0 10px 0 rgba(60, 60, 60, 0.2);
+          }
+        }
+      }
+    }
+    .copyright{
+      background: $blue;
+      p{
+        color: $white;
+        font-family: 'Luiss Sans', sans-serif !important;
+        font-weight: normal;
+        font-size: rem(16px);
+        color: #FFFFFF;
+        line-height: rem(24px);
+      }
+    }
+    .footer_container {
+      font-family: 'Luiss Sans', sans-serif !important;
+      font-weight: normal;
+      background: none repeat scroll 0 0 $blue;
+      color: $white;
+      p,
+      a,
+      h1,
+      h3,
+      h4,
+      h5,
+      h6,
+      h2,
+      address,
+      .link-list a,
+      .link-list i {
+        color: $white;
+      }
+    }
+  }
+}

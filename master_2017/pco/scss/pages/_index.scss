@@ -1,0 +1,54 @@
+// padding-top
+#intro,
+#partners {
+  padding-top: rem(48px);
+}
+
+// padding-bottom
+#intro,
+#partners,
+#attivita,
+#eventi,
+#focus,
+#contattaci {
+  padding-bottom: rem(80px);
+}
+
+// separatore degli item (mobile)
+.partner,
+.attivita,
+.evento,
+.news {
+  margin-top: rem(30px);
+  @media screen and (min-width: 1200px) {
+    margin-top: 0;
+  }
+}
+
+// hover items
+.attivita,
+.evento,
+.news {
+  transition: 0.3s;
+  &:hover {
+    transform: scale(1.1);
+    z-index: 1;
+  }
+}
+
+.attivita {
+  border: 1px solid $primary_lighter;
+  box-shadow: inset -1px 0 0 0 $primary_lighter;
+  &:hover {
+    box-shadow: 0 0 30px rgba($color: #222222, $alpha: 0.1);
+  }
+}
+
+// todo: creare classi per i margini
+.event-separator {
+  @media screen and (max-width: 1200px) {
+    margin-top: 0;
+  }
+  margin-top: rem(30px);
+  width: 100%;
+}

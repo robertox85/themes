@@ -1,0 +1,107 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Luiss Sans', sans-serif!important;
+  font-weight: normal;
+  color: $blue;
+  line-height: rem(26px);
+  @include font-size(18px);
+}
+
+a{
+    text-decoration: none;
+}
+
+a,
+p{
+  color: $blue;
+  line-height: rem(26px);
+  @include font-size(18px);
+  
+  &.big{
+    @include font-size(24px);
+    line-height: rem(32px);
+  }
+
+  &.small{
+    @include font-size(16px);
+    line-height: rem(24px);
+  }
+}
+
+.sidebar_navigation li{
+    text-align: right;
+    transition: .3s;
+    padding: 15px 0px;
+    padding-right: rem(64px);
+}
+.sidebar_navigation li a{
+    color: $blue;
+    transition: .3s;
+    @include font-size(24px);
+    line-height: rem(32px);
+    font-weight: bold;
+}
+.cta{
+    font-weight: bold;
+    @include font-size(16px);
+    line-height: rem(24px);
+    &.big{
+        @include font-size(24px);
+        line-height: rem(28px);
+    }
+}
+
+
+.colonna_key_facts-container .block h3{
+    
+    text-transform: uppercase;
+}
+
+.colonna_key_facts-container .block h3,
+.meta{
+    @include font-size(16px);
+    line-height: rem(24px);
+}
+
+h1{
+    @include font-size(80px);
+    font-size: 80px;
+    line-height: rem(72px);
+    &.small{
+        @include font-size(72px);
+    }
+}
+
+h2{
+    @include font-size(60px);
+    line-height: rem(64px);
+}
+
+h3{
+    @include font-size(48px);
+    line-height: rem(54px);
+}
+
+h4{
+    font-weight: bold;
+    @include font-size(48px);
+    line-height: rem(54px);
+    &.alt{
+        font-weight: normal;
+        @include font-size(40px);
+    }
+}
+
+h5{
+    @include font-size(36px);
+    line-height: rem(40px);
+}
+
+h6{
+    font-weight: bold;
+    @include font-size(30px);
+    line-height: rem(36px);
+}

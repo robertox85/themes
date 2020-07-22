@@ -1,0 +1,10 @@
+body.single-attivita {
+  .card--container {
+    &.card--container__feature {
+      i {
+        font-size: rem(115px);
+        margin-bottom: rem(26px);
+      }
+    }
+  }
+}

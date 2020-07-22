@@ -1,0 +1,19 @@
+
+.visible{
+    opacity: 1!important;
+    visibility: visible!important;
+}
+
+.split-2{
+    @media screen and (min-width: 1200px) {
+        column-count: 2;
+    }
+    
+}
+.border-white{
+    border: 1px solid $standard_white;
+}
+
+.opacity-0{
+    opacity: 0;
+}

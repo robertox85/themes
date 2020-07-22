@@ -19,4 +19,3 @@
 
 <?php } ?>
         
-  <?php echo do_shortcode('[ssba]'); ?>   
