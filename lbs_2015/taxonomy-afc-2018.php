@@ -441,91 +441,11 @@ Full time - 24
 </div>
 
 <!-- OFFERTA COMPLETA -->
-
-<?php $tematica = array();
-$tematica[ 'it' ] = 'L’offerta completa suddivisa per tematica';
-$tematica[ 'en' ] = '';
-?>
-
-<section class="body-section" style="background-color:#2a2a2a;">
+<div class="container-fluid">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-10">
-                <h2 class="block-title white-style">
-                    <?php
-					echo $tematica[ ICL_LANGUAGE_CODE ];
-					?>
-                </h2>
-            </div>
-            <?php
-			$terms = get_terms( tematiche, array(
-				'orderby' => 'name',
-				'order' => 'ASC',
-				'exclude' => array(
-					81,
-					101,
-					348,
-					103,
-					96,
-					34
-				)
-			) );
-
-
-			$page_title = trim( html_entity_decode( get_the_title() ) );
-
-			if ( !empty( $terms ) && !is_wp_error( $terms ) ) {
-				foreach ( $terms as $term ) {
-					?>
-            <div class="col-md-4 hidden-xs">
-                <div class="feature">
-                    <h3 class="white-style block-title"> <a href="<?php
-                     echo $term->slug;
-                     ?>"><?php
-                     echo $term->name;
-                     ?></a> </h3>
-                </div>
-            </div>
-            <?php
-			} // END foreach
-			} // END if ( ! empty( $terms ) && ! is_wp_error( $terms ) ){
-			?>
-            <?php
-			$select_first_choice[ 'it' ] = 'Scegli una tematica';
-			$select_first_choice[ 'en' ] = 'Choose an Area';
-			?>
-            <div class="tematiche-mobile">
-                <select id="tematica" name="tematica" class="col-xs-12">
-                    <option value="">
-                        <?php
-						echo $select_first_choice[ ICL_LANGUAGE_CODE ];
-						?>
-                    </option>
-                    <?php
-					$terms = get_terms( 'tematiche' );
-					$page_title = trim( html_entity_decode( get_the_title() ) );
-
-					if ( !empty( $terms ) && !is_wp_error( $terms ) ) {
-						foreach ( $terms as $term ) {
-							$selected = '';
-							if ( !( strcmp( $term->name, $page_title ) ) ) {
-								$selected = ' selected="selected" ';
-							}
-							echo '<option value="' . $term->term_id . '" ' . $selected . ' data-url="' . $term->slug . '">' . $term->name . '</option>';
-						} // END foreach
-					} // END if ( ! empty( $terms ) && ! is_wp_error( $terms ) ){
-					?>
-                </select>
-                <script>
-                    document.getElementById('tematica').onchange = function() {
-                        window.location.href = this.children[this.selectedIndex].getAttribute('data-url');
-                    }
-                </script>
-            </div>
-        </div>
+        <?php get_template_part( 'template-parts/card-course', get_post_format() ); ?>
     </div>
-</section>
-
+</div>
 
 <?php edit_post_link('<p>Modifica Pagina</p>', ''); ?>
 
