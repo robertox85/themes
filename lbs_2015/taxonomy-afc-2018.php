@@ -4,6 +4,8 @@ Template Name: AFC 2018
 */
 get_header( 2017 );?>
 
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
 <!-- Query per le pagine 
 
 Pagine con categoria Tematiche x
