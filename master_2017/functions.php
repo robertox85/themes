@@ -291,8 +291,11 @@ function bls_customizer_settings($wp_customize)
 
 add_filter( 'body_class', 'theme_color_class' );
 function theme_color_class( $classes ) {
-    if ( get_theme_mod( 'theme_color' ) ) {
+    $color = get_theme_mod( 'theme_color' );
+    if ( !empty(get_theme_mod( 'theme_color' )) ) {
         $classes[] = get_theme_mod( 'theme_color' );
+    }else{
+        $classes[] = 'theme-blue';
     }
     return $classes;
 }
