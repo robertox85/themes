@@ -153,8 +153,12 @@ Full time - 24
 
         <!-- PROGRAMME -->
         <div class="tab-pane p-4 fade" id="exprogrammes" role="tabpanel" aria-labelledby="exprogrammes-tab">
-        <h2><?php echo get_field('etichetta_executive_program') ?></h2>
+             <div class="row">
+            <div class="col-12 col-lg-8">
+            <h2><?php echo get_field('etichetta_executive_program') ?></h2>
             <p><?php echo get_field('campo_executive_program') ?></p>
+            </div>
+            </div>
             <div class="row">
                 <?php
 			$query_tax_value = 25;
@@ -218,8 +222,12 @@ Full time - 24
 
         <!-- FLEX -->
         <div class="tab-pane p-4 fade" id="exflexprogrammes" role="tabpanel" aria-labelledby="exflexprogrammes-tab">
-        <h2>Flex Executive Programmes</h2>
+            <div class="row">
+            <div class="col-12 col-lg-8">
+            <h2>Flex Executive Programmes</h2>
             <p>Lorem ipsum dolor</p>
+            </div>
+            </div>
             <div class="row">
                 <?php
 			$query_tax_value = 154;
@@ -284,8 +292,13 @@ Full time - 24
 
         <!-- COURSES -->
         <div class="tab-pane p-4 fade" id="excourses" role="tabpanel" aria-labelledby="excourses-tab">
+             <div class="row">
+            <div class="col-12 col-lg-8">
             <h2><?php echo get_field('etichetta_short_course') ?></h2>
             <p><?php echo get_field('campo_short_course') ?></p>
+            </div>
+            </div>
+            
             <div class="row">
                 <?php
 			$query_tax_value = 26;
