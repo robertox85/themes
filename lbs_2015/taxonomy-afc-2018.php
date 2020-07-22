@@ -666,8 +666,8 @@ $date = DateTime::createFromFormat('Ymd', $date_string);
 
         <!-- LABS -->
         <div class="tab-pane p-4 fade" id="exlabs" role="tabpanel" aria-labelledby="exlabs-tab">
-            <h2><?php echo get_field('etichetta_executive_master') ?></h2>
-            <p><?php echo get_field('campo_executive_master') ?></p>
+            <h2>Executive Labs</h2>
+            <p>Lorem ipsum dolor</p>
             <div class="row">
                 <?php
 			$query_tax_value = 26;
