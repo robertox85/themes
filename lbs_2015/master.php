@@ -2053,6 +2053,10 @@ $link_brochure_50[ 'en' ] = '';
 	                    </div>
 	                    <!-- END MASTER 20 -->
                         
+                    </div>
+                    
+                    <div class="row">
+                        
                         <h3><?php echo $secondo_livello[ICL_LANGUAGE_CODE] ?></h3>
                         
                         <!-- MASTER 45 -->
@@ -2198,6 +2202,10 @@ $link_brochure_50[ 'en' ] = '';
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 43 -->
+                        
+                    </div>
+                    
+                    <div class="row">
                         
                         <h3>Corsi</h3>
                         
