@@ -1094,7 +1094,7 @@ $link_brochure_50[ 'en' ] = '';
         <!-- NAVIGAZIONE -->
         <ul class="nav nav-tabs auto" id="program-type" role="tablist">
             <!-- ROMA -->
-            <li class="nav-item"><a class="nav-link active" id="tab1-tab" data-toggle="tab" href="#roma" role="tab" aria-controls="tab1" aria-selected="true"><?php echo $sede_rm ?></a></li>
+            <li class="nav-item"><a class="nav-link active" id="tab1-tab" data-toggle="tab" href="#roma" role="tab" aria-controls="tab1" aria-selected="true"><?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></a></li>
 
             <!-- MILANO -->
             <li class="nav-item"><a class="nav-link" id="tab2-tab" data-toggle="tab" href="#milano" role="tab" aria-controls="tab2" aria-selected="false"></a></li>
@@ -1109,8 +1109,8 @@ $link_brochure_50[ 'en' ] = '';
             <div class="tab-pane fade active in" id="roma" role="tabpanel" aria-labelledby="roma-tab">
                 <div class="row">
                     <div class="col-12 col-lg-8">
-                        <h2><?php echo $sede_rm ?></h2>
-                        <p>Tutti i Master che si svolgono a <?php echo $sede_rm ?>.</p>
+                        <h2><?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></h2>
+                        <p>Tutti i Master che si svolgono a <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?>.</p>
                     </div>
                 </div>
 <div class="row"></div>               
@@ -1141,5 +1141,6 @@ $link_brochure_50[ 'en' ] = '';
     </section>
 </div>
 
+<?php edit_post_link('<p>Modifica Pagina</p>', ''); ?>
 
  <?php get_footer(2017);?>
