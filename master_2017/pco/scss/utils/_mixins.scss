@@ -31,7 +31,9 @@
     h3,
     h4,
     h5,
-    h6 {
+    h6,
+    a,
+    p {
       font-family: 'Luiss Sans', sans-serif !important;
       font-weight: normal;
     }
@@ -198,23 +200,40 @@
 
     .container-header {
       position: relative;
+      display: flex;
+      align-items: center;
       &::before {
         content: '';
         position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
         width: 100%;
         height: 100%;
-        background: linear-gradient(
-          225deg,
-          rgba($color: $bgColor, $alpha: 0) 0%,
-          rgba($color: $bgColor, $alpha: 0.5) 39%,
-          #003a70 89%,
-          #003a70 100%
-        );
+        background: $bgColor;
+        background: linear-gradient(-225deg, rgba($color: $bgColor, $alpha: 1.0) 0%, rgba($color: $bgColor, $alpha: 0) 100%);
       }
     }
     #header-master{
+      padding: 0;
+      h1{
+        text-transform: inherit;
+      }
+      p{
+        font-size: rem(24px);
+        line-height: rem(32px);
+        // column-count: 2;
+        // .featured-links{
+        //   position: absolute;
+        //   left: 0;
+        //   bottom: -90px;
+        //   margin: 0;
+        // }
+      }
       h1,p{
         color: $white;
+        margin-bottom: 0;
       }
       .button.featured-links{
         border: 1px solid $white;
