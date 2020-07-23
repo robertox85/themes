@@ -1158,7 +1158,7 @@ $link_brochure_50[ 'en' ] = '';
     </div>
 </div>
 
-
+<?php edit_post_link('<p>Modifica Pagina</p>', ''); ?>
 
 
 <?php get_footer( 2017 );?>
