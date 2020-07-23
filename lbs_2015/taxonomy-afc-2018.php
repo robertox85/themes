@@ -35,7 +35,7 @@ Full time - 24
 <div class="container-fluid <?php if (has_post_thumbnail( $post->ID ) ): ?>
                    header-pic" style="background-image: url('<?php echo get_the_post_thumbnail_url(); ?>');
                    <?php else : ?>
-                   jeader-nopic
+                   Header-nopic
                    <?php endif; ?>
 ">
     <div class="container">
@@ -65,13 +65,13 @@ Full time - 24
             <li class="nav-item"><a class="nav-link" id="tab2-tab" data-toggle="tab" href="#exprogrammes" role="tab" aria-controls="tab2" aria-selected="false">Executive Programmes</a></li>
 
             <!-- FLEX -->
-            <li class="nav-item"><a class="nav-link" id="tab2-tab" data-toggle="tab" href="#exflexprogrammes" role="tab" aria-controls="tab2" aria-selected="false">Flex Executive Programmes</a></li>
+            <li class="nav-item"><a class="nav-link" id="tab3-tab" data-toggle="tab" href="#exflexprogrammes" role="tab" aria-controls="tab3" aria-selected="false">Flex Executive Programmes</a></li>
 
             <!-- COURSES -->
-            <li class="nav-item"><a class="nav-link" id="tab3-tab" data-toggle="tab" href="#excourses" role="tab" aria-controls="tab3" aria-selected="false">Executive Courses</a></li>
+            <li class="nav-item"><a class="nav-link" id="tab4-tab" data-toggle="tab" href="#excourses" role="tab" aria-controls="tab4" aria-selected="false">Executive Courses</a></li>
 
             <!-- LABS -->
-            <li class="nav-item"><a class="nav-link" id="tab4-tab" data-toggle="tab" href="#exlabs" role="tab" aria-controls="tab4" aria-selected="false" aria-disabled="true" tabindex="-1">Executive Labs</a></li>
+            <li class="nav-item"><a class="nav-link" id="tab5-tab" data-toggle="tab" href="#exlabs" role="tab" aria-controls="tab5" aria-selected="false" aria-disabled="true" tabindex="-1">Executive Labs</a></li>
         </ul>
 
         <!-- CONTENUTO -->
