@@ -2226,6 +2226,77 @@ $link_brochure_50[ 'en' ] = '';
 	                    <!-- END MASTER 35 -->
                         
 	                </div>
+                    
+                    <div class="row">
+                        
+                        <h3>Programmi di Alta formazione</h3>
+                        
+                        <!-- PROGRAMMA A1 -->
+	                    <div class="col-md-4 col-sm-6">
+	                        <span><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
+	                        <h6><?php echo $titolo_master_1[ICL_LANGUAGE_CODE] ?>
+	                            <br /><?php echo $sottotitolo_master_1[ICL_LANGUAGE_CODE] ?></h6>
+	                        <p><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
+	                        <p><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
+	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
+	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
+	                        <div class="row">
+	                            <a href="<?php echo $link_master_1[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_1[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                        </div>
+	                    </div>
+	                    <!-- END PROGRAMMA A1 -->
+                        
+                        <!-- PROGRAMMA A2 -->
+	                    <div class="col-md-4 col-sm-6">
+	                        <span><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
+	                        <h6><?php echo $titolo_master_1[ICL_LANGUAGE_CODE] ?>
+	                            <br /><?php echo $sottotitolo_master_1[ICL_LANGUAGE_CODE] ?></h6>
+	                        <p><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
+	                        <p><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
+	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
+	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
+	                        <div class="row">
+	                            <a href="<?php echo $link_master_1[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_1[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                        </div>
+	                    </div>
+	                    <!-- END PROGRAMMA A2 -->
+                        
+                        <!-- PROGRAMMA A3 -->
+	                    <div class="col-md-4 col-sm-6">
+	                        <span><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
+	                        <h6><?php echo $titolo_master_1[ICL_LANGUAGE_CODE] ?>
+	                            <br /><?php echo $sottotitolo_master_1[ICL_LANGUAGE_CODE] ?></h6>
+	                        <p><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
+	                        <p><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
+	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
+	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
+	                        <div class="row">
+	                            <a href="<?php echo $link_master_1[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_1[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                        </div>
+	                    </div>
+	                    <!-- END PROGRAMMA A3 -->
+                        
+                        <!-- PROGRAMMA A4 -->
+	                    <div class="col-md-4 col-sm-6">
+	                        <span><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
+	                        <h6><?php echo $titolo_master_1[ICL_LANGUAGE_CODE] ?>
+	                            <br /><?php echo $sottotitolo_master_1[ICL_LANGUAGE_CODE] ?></h6>
+	                        <p><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
+	                        <p><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
+	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
+	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
+	                        <div class="row">
+	                            <a href="<?php echo $link_master_1[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_1[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                        </div>
+	                    </div>
+	                    <!-- END PROGRAMMA A4 -->
+                        
+	                </div>
+                    
 	            </div>
 
 	            <!-- MILANO -->
