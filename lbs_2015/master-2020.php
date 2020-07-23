@@ -6,8 +6,6 @@ if ( !defined( 'ABSPATH' ) )exit;
  * Template Name: Master 2020
  * @file master.php
  */
-$shd = get_field( 'sub_home_description' );
-$shp = get_field( 'sub_home_paragraf' );
 get_header( 2017 );
 ?>
 
