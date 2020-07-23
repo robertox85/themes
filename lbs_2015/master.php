@@ -1080,9 +1080,9 @@ $link_brochure_50[ 'en' ] = '';
         <div class="row">
             <div class="col-md-6">
                 <p>Come here to be challenged. Leave ready to take on the most important challenges of our time. At LUISS Business School, we create wise leaders who aspire to MAKE  the difference in the world of business and beyond. Join us.</p>
+                <a href="https://www.youtube.com/watch?v=7VuI-HXka6s&feature=emb_title">Watch the video</a>
             </div>
             <div class="col-md-6">
-                <a href="https://www.youtube.com/watch?v=7VuI-HXka6s&feature=emb_title">Watch the video</a>
             </div>
         </div>
     </div>
@@ -1097,10 +1097,10 @@ $link_brochure_50[ 'en' ] = '';
             <li class="nav-item"><a class="nav-link active" id="tab1-tab" data-toggle="tab" href="#roma" role="tab" aria-controls="tab1" aria-selected="true"><?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></a></li>
 
             <!-- MILANO -->
-            <li class="nav-item"><a class="nav-link" id="tab2-tab" data-toggle="tab" href="#milano" role="tab" aria-controls="tab2" aria-selected="false"></a></li>
+            <li class="nav-item"><a class="nav-link" id="tab2-tab" data-toggle="tab" href="#milano" role="tab" aria-controls="tab2" aria-selected="false"><?php echo $sede_mi[ICL_LANGUAGE_CODE] ?></a></li>
 
             <!-- BELLUNO -->
-            <li class="nav-item"><a class="nav-link" id="tab3-tab" data-toggle="tab" href="#belluno" role="tab" aria-controls="tab3" aria-selected="false"></a></li>
+            <li class="nav-item"><a class="nav-link" id="tab3-tab" data-toggle="tab" href="#belluno" role="tab" aria-controls="tab3" aria-selected="false"><?php echo $sede_be[ICL_LANGUAGE_CODE] ?></a></li>
         </ul>
 
         <!-- CONTENUTO -->
@@ -1120,8 +1120,8 @@ $link_brochure_50[ 'en' ] = '';
             <div class="tab-pane p-4 fade" id="milano" role="tabpanel" aria-labelledby="milano-tab">
                 <div class="row">
                     <div class="col-12 col-lg-8">
-                        <h2></h2>
-                        <p>Tutti i Master che si svolgono a.</p>
+                        <h2><?php echo $sede_mi[ICL_LANGUAGE_CODE] ?></h2>
+                        <p>Tutti i Master che si svolgono a <?php echo $sede_mi[ICL_LANGUAGE_CODE] ?>.</p>
                     </div>
                 </div>
 <div class="row"></div>
@@ -1131,8 +1131,8 @@ $link_brochure_50[ 'en' ] = '';
             <div class="tab-pane p-4 fade" id="belluno" role="tabpanel" aria-labelledby="belluno-tab">
                 <div class="row">
                     <div class="col-12 col-lg-8">
-                        <h2></h2>
-                        <p>Tutti i Master che si svolgono a.</p>
+                        <h2><?php echo $sede_be[ICL_LANGUAGE_CODE] ?></h2>
+                        <p>Tutti i Master che si svolgono a <?php echo $sede_be[ICL_LANGUAGE_CODE] ?>.</p>
                     </div>
                 </div>
       <div class="row"></div>         
