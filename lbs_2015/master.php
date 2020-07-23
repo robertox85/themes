@@ -177,7 +177,7 @@ $titolo_master_2[ 'en' ] = 'Global Energy Management';
 ?>
 
 	<!-- Sottotitolo -->
-	<?php $sottotitolo_master_1 = array();
+	<?php $sottotitolo_master_2 = array();
 $sottotitolo_master_2[ 'it' ] = 'Major del Master in International Management';
 $sottotitolo_master_2[ 'en' ] = 'Major of the Master in International Management';
 ?>
