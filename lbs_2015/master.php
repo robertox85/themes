@@ -76,9 +76,9 @@ $titolo_durata[ 'en' ] = 'Duration';
 ?>
 
 <!-- Dato -->
-<?php $durata = array();
-$durata[ 'it' ] = '12 mesi Full-time';
-$durata[ 'en' ] = '12 months Full-time study';
+<?php $durata_full = array();
+$durata_full[ 'it' ] = '12 mesi Full-time';
+$durata_full[ 'en' ] = '12 months Full-time study';
 ?>
 
 <?php $durata_part = array();
@@ -119,6 +119,22 @@ $sede_be[ 'it' ] = 'Belluno';
 $sede_be[ 'en' ] = 'Belluno';
 ?>
 
+<!-- Etichette pulsanti -->
+
+<!-- Label link master -->
+<?php $titolo_link_master = array();
+$titolo_link_master[ 'it' ] = 'Scopri';
+$titolo_link_master[ 'en' ] = 'Find our more';
+?>
+
+<!-- Label link master -->
+<?php $titolo_link_brochure = array();
+$titolo_link_brochure[ 'it' ] = 'Scarica la brochure';
+$titolo_link_brochure[ 'en' ] = 'Download Brochure';
+?>
+
+
+
 <!-- Info master -->
 
 <!-- Master 1 -->
@@ -133,6 +149,12 @@ $titolo_master_1[ 'en' ] = 'International Management';
 <?php $sottotitolo_master_1 = array();
 $sottotitolo_master_1[ 'it' ] = 'Major del Master in International Management';
 $sottotitolo_master_1[ 'en' ] = 'Major of the Master in International Management';
+?>
+
+<!-- Inizio -->
+<?php $inizio_master_1 = array();
+$inizio_master_1[ 'it' ] = '21 Set 2020';
+$inizio_master_1[ 'en' ] = 'Set 21, 2020';
 ?>
 
 <!-- Programma -->
@@ -1113,7 +1135,23 @@ $link_brochure_50[ 'en' ] = '';
                         <p>Tutti i Master che si svolgono a <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?>.</p>
                     </div>
                 </div>
-<div class="row"></div>               
+<div class="row">
+                <!-- MASTER 1 -->
+                <div class="col-md-4 col-sm-6">
+                    <span><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
+                    <h6><?php echo $titolo_master_1[ICL_LANGUAGE_CODE] ?>
+                    <br /><?php echo $tsottotitolo_master_1[ICL_LANGUAGE_CODE] ?></h6>
+                    <p><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
+<p><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
+                    <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
+                    <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
+                    <div class="row">
+                        <a href="<?php echo $link_master_1[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+                        <a href="<?php echo $link_brochure_1[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+                    </div>
+                </div>
+                <!-- END MASTER 1 -->
+                </div>               
             </div>
 
             <!-- MILANO -->
