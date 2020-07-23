@@ -1142,24 +1142,4 @@ $link_brochure_50[ 'en' ] = '';
 </div>
 
 
-
-
-<div class="col-md-4 col-sm-6">
-    <span><?php $primo_livello ?></span>
-    <h6><?php $titolo_master_ ?></h6>
-    <p><strong><?php $titolo_durata ?></strong> <?php $durata ?></p>
-    <p><strong><?php $titolo_sede ?></strong> <?php $sede ?></p>
-    <p><strong><?php $titolo_inizio ?></strong> GG Mese AAAA</p>
-    <p><strong><?php $lingua ?></strong> <?php $lingua_corso_ ?></p>
-    <div class="row">
-        <a href="<?php $link_master_ ?>">Scopri</a>
-        <a href="<?php $link_brochure_ ?>">Download Brochure</a>
-    </div>
-</div>
-
-<?php edit_post_link('<p>Modifica Pagina</p>', ''); ?>
-
-
-<?php get_footer( 2017 );?>
-
  <?php get_footer(2017);?>
