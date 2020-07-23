@@ -1120,8 +1120,8 @@ $link_brochure_50[ 'en' ] = '';
             <div class="tab-pane p-4 fade" id="milano" role="tabpanel" aria-labelledby="milano-tab">
                 <div class="row">
                     <div class="col-12 col-lg-8">
-                        <h2><?php echo ?></h2>
-                        <p>Tutti i Master che si svolgono a <?php echo ?>.</p>
+                        <h2></h2>
+                        <p>Tutti i Master che si svolgono a.</p>
                     </div>
                 </div>
 <div class="row"></div>
@@ -1131,8 +1131,8 @@ $link_brochure_50[ 'en' ] = '';
             <div class="tab-pane p-4 fade" id="belluno" role="tabpanel" aria-labelledby="belluno-tab">
                 <div class="row">
                     <div class="col-12 col-lg-8">
-                        <h2><?php echo ?></h2>
-                        <p>Tutti i Master che si svolgono a <?php echo ?>o.</p>
+                        <h2></h2>
+                        <p>Tutti i Master che si svolgono a.</p>
                     </div>
                 </div>
       <div class="row"></div>         
