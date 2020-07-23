@@ -3,9 +3,9 @@
 
 
 @font-face {
-    font-family: 'luiss_sansbold';
-    src: url('luisssans-bold-webfont.woff2') format('woff2'),
-         url('luisssans-bold-webfont.woff') format('woff');
+    font-family: 'Luiss Sans';
+    src: url('fonts/luisssans-bold-webfont.woff2') format('woff2'),
+         url('fonts/luisssans-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -15,9 +15,33 @@
 
 
 @font-face {
-    font-family: 'luiss_sansbold_italic';
-    src: url('luisssans-bolditalic-webfont.woff2') format('woff2'),
-         url('luisssans-bolditalic-webfont.woff') format('woff');
+    font-family: 'Luiss Sans';
+    src: url('fonts/luisssans-bolditalic-webfont.woff2') format('woff2'),
+         url('fonts/luisssans-bolditalic-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Luiss Sans';
+    src: url('fonts/luisssans-italic-webfont.woff2') format('woff2'),
+         url('fonts/luisssans-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Luiss Sans';
+    src: url('fonts/luisssans-regular-webfont.woff2') format('woff2'),
+         url('fonts/luisssans-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -27,11 +51,11 @@
 
 
 @font-face {
-    font-family: 'luiss_sansitalic';
-    src: url('luisssans-italic-webfont.woff2') format('woff2'),
-         url('luisssans-italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'Luiss Sans';
+    src: url('fonts/luisssans-thinitalic-webfont.woff2') format('woff2'),
+         url('fonts/luisssans-thinitalic-webfont.woff') format('woff');
+    font-weight: lighter;
+    font-style: italic;
 
 }
 
@@ -39,34 +63,10 @@
 
 
 @font-face {
-    font-family: 'luiss_sansregular';
-    src: url('luisssans-regular-webfont.woff2') format('woff2'),
-         url('luisssans-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'luiss_sansthin_italic';
-    src: url('luisssans-thinitalic-webfont.woff2') format('woff2'),
-         url('luisssans-thinitalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'luiss_sansthin_sans';
-    src: url('luisssans-thinsans-webfont.woff2') format('woff2'),
-         url('luisssans-thinsans-webfont.woff') format('woff');
-    font-weight: normal;
+    font-family: 'Luiss Sans';
+    src: url('fonts/luisssans-thinsans-webfont.woff2') format('woff2'),
+         url('fonts/luisssans-thinsans-webfont.woff') format('woff');
+    font-weight: lighter;
     font-style: normal;
 
 }

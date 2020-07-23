@@ -71,7 +71,7 @@ h1{
     font-size: 80px;
     line-height: rem(72px);
     &.small{
-        @include font-size(72px);
+        font-size:rem(72px)!important;
     }
 }
 

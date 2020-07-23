@@ -6,84 +6,66 @@
 get_header();
 while (have_posts()): the_post();
     ?>
-			<style type="text/css">
-				.mobileShow {
-					display: none;
-				}
-				/* Smartphone Portrait and Landscape */
+<style type="text/css">
+	.mobileShow {
+		display: none;
+	}
+	/* Smartphone Portrait and Landscape */
 
-				@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-					.mobileShow {
-						display: inline;
-					}
-					.all {
-						width: 100%;
-						padding-top: 2%;
-						text-transform: uppercase
-					}
-				}
-			</style>
-			<div class="container-fluid container-header px-0">
-				<div class="container">
-				<header id="header-master" class="row px-0">
-
-					<div class="row">
-						<div class="col-md-4">
-							<span class="master-name">
-								<?php bloginfo('name');?>
-							</span>
-							<h1>
-								<?php the_title()?>
-							</h1>
-							<p>
-								<?php echo get_field('paragrafo') ?>
-							</p>
-						</div>
-						<div class="col-md-8">
-							<?php
-    $image = get_field('images');
-
-    if (!empty($image)): ?>
-
-							<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="img-responsive"/>
-
-							<?php endif;?>
-			</div>
-
-
-		</div>
-		<div class="clearfix"></div>
-		<!--END .row -->
-
-		<div class="menu-master-toggle-container">
-			<span class="navbar-toggle" data-toggle="collapse" data-target="#menu-master-container" aria-expanded="false" aria-controls="navbar">
-			<span class="sr-only">Toggle navigation</span>
-
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			</span>
-		</div>
-		<?php dynamic_sidebar('Area-Header');?>
-	</header>
-	</div>
-
-</div>
-<!--END .container -->
-
-<div class="container-fluid colonna_key_facts">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 py-32">
-				<h5>Key Facts</h5>
-				<div class="position-absolute share_links">
-						<?php echo do_shortcode('[ssba]'); ?>
+	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+		.mobileShow {
+			display: inline;
+		}
+		.all {
+			width: 100%;
+			padding-top: 2%;
+			text-transform: uppercase
+		}
+	}
+</style>
+<?php $image = get_field('images');?>
+	<div class="container-fluid container-header px-0 py-40" style="min-height:480px; background-image:url(<?php echo $image['url']; ?>); background-repeat:no-repeat; background-size: cover;background-position:center;">
+		<div class="container">
+			<header id="header-master" class="row px-0">
+				<div class="col-12">
+						<h1 class="small p-0">
+							<?php the_title()?>
+						</h1>
+						<p>
+							<?php echo get_field('paragrafo') ?>
+						</p>
 					</div>
-				<div class="colonna_key_facts-container">
+				<div class="clearfix"></div>
+				<!--END .row -->
 
-					<?php if (function_exists('dynamic_sidebar')): ?>
-						<?php dynamic_sidebar('Custom')?>
-					<?php endif;?>
+				<div class="menu-master-toggle-container">
+					<span class="navbar-toggle" data-toggle="collapse" data-target="#menu-master-container" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</span>
+				</div>
+				<?php dynamic_sidebar('Area-Header');?>
+			</header>
+		</div>
+	</div>
+	<!--END .container -->
+
+	<div class="container-fluid colonna_key_facts">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 py-32">
+					<h5>Key Facts</h5>
+					<div class="position-absolute share_links">
+							<?php echo do_shortcode('[ssba]'); ?>
+						</div>
+					<div class="colonna_key_facts-container">
+
+						<?php if (function_exists('dynamic_sidebar')): ?>
+							<?php dynamic_sidebar('Custom')?>
+						<?php endif;?>
 				</div>
 			</div>
 		</div>
@@ -153,19 +135,18 @@ if (is_front_page()) {?>
 
 
 <!-- Modal -->
-<?php 
+<?php
 
-	$pages = array('download-brochure','brochure','download-brochure-master-macofin','scarica-la-brochure','downlaod-brochure','download-brochre','compila-il-form','richiedi-informazioni','download-brchure','download-drochure');
-	foreach($pages as $page){
-		$post = get_page_by_path( $page );
-		if($post){
-			break;
-		}
-	}
-	
-	
+$pages = array('download-brochure', 'brochure', 'download-brochure-master-macofin', 'scarica-la-brochure', 'downlaod-brochure', 'download-brochre', 'compila-il-form', 'richiedi-informazioni', 'download-brchure', 'download-drochure');
+foreach ($pages as $page) {
+    $post = get_page_by_path($page);
+    if ($post) {
+        break;
+    }
+}
+
 ?>
-<?php if($post): ?>
+<?php if ($post): ?>
 <div class="modal fade" id="downloadBrochure" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
 	<div class="modal-dialog" role="document">
 		<div class="modal-content">
@@ -176,9 +157,9 @@ if (is_front_page()) {?>
 				</button>
 			</div>
 			<div class="modal-body">
-				<?php 
-					echo $post->post_content;
-				?>
+				<?php
+echo $post->post_content;
+?>
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="button button--negative button--primary" data-dismiss="modal">Close</button>
@@ -186,7 +167,7 @@ if (is_front_page()) {?>
 		</div>
 	</div>
 </div>
-<?php endif; ?>
+<?php endif;?>
 
 <?php get_main_site_footer();?>
 
@@ -199,13 +180,13 @@ if (is_front_page()) {?>
 		document.getElementById("field34350286-last").setAttribute("placeholder", "Cognome");
 		document.getElementById("field34350287").setAttribute("placeholder", "Inserisci il tuo numero di telefono");
 		document.getElementById("field34350288").setAttribute("placeholder", "Inserisci il tuo indirizzo email");
-		
+
 		$('.colonna_key_facts-container .featured-links').on('click', function(e) {
 			e.preventDefault();
 			$('#downloadBrochure').show();
 			$('#downloadBrochure').addClass('in');
 
-			
+
 
 		});
 		$('.modal-header .button').on('click', function(e) {
@@ -213,6 +194,6 @@ if (is_front_page()) {?>
 			$('#downloadBrochure').hide();
 			$('#downloadBrochure').removeClass('in');
 		});
-		
+
 	});
 </script>
