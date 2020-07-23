@@ -4,6 +4,7 @@ if ( !defined( 'ABSPATH' ) )exit;
 
 /**
  * Template Name: Master 2020
+ * @file master.php
  */
 get_header( 2017 );
 ?>
