@@ -1,1381 +1,1162 @@
-	<?php
+<?php
 // Exit if accessed directly
-if (!defined('ABSPATH')) {
-    exit;
-}
+if ( !defined( 'ABSPATH' ) )exit;
 
 /**
  * Template Name: Master 2017
  * @file master.php
  */
-$shd = get_field('sub_home_description');
-$shp = get_field('sub_home_paragraf');
-get_header(2017);
+get_header( 2017 );
 ?>
-<script id="myn_pixel" async src="https://white.mynsystems.com/myn_pixel_fp.js?accountId=50"></script>
 
+<!-- Facebook -->
+<script id="myn_pixel" async src="https://white.mynsystems.com/myn_pixel_fp.js?accountId=50"></script>
 <!--
 Start of Floodlight Tag: Please do not remove
 Activity name of this tag: LUISS_Master
-URL of the webpage where the tag is expected to be placed:
+URL of the webpage where the tag is expected to be placed: 
 This tag must be placed between the <body> and </body> tags, as close as possible to the opening tag.
 Creation Date: 12/20/2018
 -->
-<script type="text/javascript">
-var axel = Math.random() + "";
+<script type=""text/javascript"">
+var axel = Math.random() + """";
 var a = axel * 10000000000000;
-document.write('<iframe src="https://9105818.fls.doubleclick.net/activityi;src=9105818;type=secti0;cat=luiss00;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;npa=;ord=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
+document.write('<iframe src=""https://9105818.fls.doubleclick.net/activityi;src=9105818;type=secti0;cat=luiss00;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;npa=;ord=' + a + '?"" width=""1"" height=""1"" frameborder=""0"" style=""display:none""></iframe>');
 </script>
 <noscript>
-<iframe src="https://9105818.fls.doubleclick.net/activityi;src=9105818;type=secti0;cat=luiss00;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;npa=;ord=1?" width="1" height="1" frameborder="0" style="display:none"></iframe>
+<iframe src=""https://9105818.fls.doubleclick.net/activityi;src=9105818;type=secti0;cat=luiss00;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;npa=;ord=1?"" width=""1"" height=""1"" frameborder=""0"" style=""display:none""></iframe>
 </noscript>
 <!-- End of Floodlight Tag: Please do not remove -->
 
 
+
+<!-- Variabili -->
+
+<!-- Tipologia -->
 <?php $primo_livello = array();
-$primo_livello['it'] = 'MASTER DI PRIMO LIVELLO';
-$primo_livello['en'] = 'FIRST-LEVEL Master Degree';
-?> <?php $secondo_livello = array();
-$secondo_livello['it'] = 'MASTER DI SECONDO LIVELLO';
-$secondo_livello['en'] = 'SECOND-LEVEL Master Degree';
-?> <?php $specialistici = array();
-$specialistici['it'] = 'Master Specialistici ';
-$specialistici['en'] = 'Specialised Master&#8217;s';
-?> <?php $lingua_corso_it = array();
-$lingua_corso_it['it'] = 'ITALIANO';
-$lingua_corso_it['en'] = 'ITALIAN';
-?> <?php $lingua_corso_en = array();
-$lingua_corso_en['it'] = 'INGLESE';
-$lingua_corso_en['en'] = 'ENGLISH';
-?> <?php $titolo_durata = array();
-$titolo_durata['it'] = 'DURATA';
-$titolo_durata['en'] = 'DURATION';
-?> <?php $lingua = array();
-$lingua['it'] = 'LINGUA';
-$lingua['en'] = 'LANGUAGE';
-?> <?php $durata = array();
-$durata['it'] = '12 MESI FULL TIME';
-$durata['en'] = '12 MONTHS OF FULL-TIME STUDY';
-?> <?php $durata_part = array();
-$durata_part['en'] = '12 MONTHS OF PART-TIME STUDY';
-$durata_part['it'] = '12 MESI PART-TIME';
-?> <?php $img_m1 = array();
-$img_m1['it'] = '/wp-content/uploads/2017/06/Immagini_MASTER_PrimoLivello_ITA.jpg';
-$img_m1['en'] = '/wp-content/uploads/2017/06/Immagini_MASTER_PrimoLivello_EN.jpg';
+$primo_livello[ 'it' ] = 'Master di primo livello';
+$primo_livello[ 'en' ] = 'First-level Master Degree';
 ?>
 
-<?php $img_m2 = array();
-$img_m2['it'] = '/wp-content/uploads/2017/06/Immagini_MASTER_SecondoLivello_ITA.jpg';
-$img_m2['en'] = '/wp-content/uploads/2017/06/Immagini_MASTER_SecondoLivello_EN.jpg';
+<?php $secondo_livello = array();
+$secondo_livello[ 'it' ] = 'Master di secondo livello';
+$secondo_livello[ 'en' ] = 'Second-level Master Degree';
 ?>
 
-<?php $img_m3 = array();
-$img_m3['it'] = '/wp-content/uploads/2019/11/MASTER_BELLUNO_PrimoLivello_ITA.jpg';
-$img_m3['en'] = '/wp-content/uploads/2019/11/MASTER_BELLUNO_PrimoLivello_ITA.jpg';
+<?php $specialistici = array();
+$specialistici[ 'it' ] = 'Master Specialistici ';
+$specialistici[ 'en' ] = 'Specialised Master&#8217;s';
 ?>
 
-<div class="section sub-home sub-home-master" id="sub-home">
-	<div class="container">
-		<div class="row sub-home-list">
-			<div class="sub-home-grid">
-				<div class="col-md-12">
-					<div class="sub-home-heading">
-						<header>
-							<h1>
-								<?php echo the_title(); ?>
-							</h1>
-						</header>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+<!-- Lingua -->
+<!-- Label -->
+<?php $lingua = array();
+$lingua[ 'it' ] = 'Lingua';
+$lingua[ 'en' ] = 'Language';
+?>
+
+<!-- Dato -->
+<?php $lingua_corso_it = array();
+$lingua_corso_it[ 'it' ] = 'Italiano';
+$lingua_corso_it[ 'en' ] = 'Italian';
+?>
+
+<?php $lingua_corso_en = array();
+$lingua_corso_en[ 'it' ] = 'Inglese';
+$lingua_corso_en[ 'en' ] = 'English';
+?>
+
+<!-- Durata -->
+
+<!-- Label -->
+<?php $titolo_durata = array();
+$titolo_durata[ 'it' ] = 'Durata';
+$titolo_durata[ 'en' ] = 'Duration';
+?>
+
+<!-- Dato -->
+<?php $durata = array();
+$durata[ 'it' ] = '12 mesi Full-time';
+$durata[ 'en' ] = '12 months Full-time study';
+?>
+
+<?php $durata_part = array();
+$durata_part[ 'it' ] = '12 mesi part-time';
+$durata_part[ 'en' ] = '12 months of part-time study';
+?>
+
+<!-- Inizio -->
+
+<!-- Label -->
+<?php $titolo_inizio = array();
+$titolo_inizio[ 'it' ] = 'Inizio';
+$titolo_inizio[ 'en' ] = 'Start';
+?>
+
+
+<!-- Sede -->
+
+<!-- Label -->
+<?php $titolo_sede = array();
+$titolo_sede[ 'it' ] = 'Sede';
+$titolo_sede[ 'en' ] = 'Location';
+?>
+
+<!-- Dato -->
+<?php $sede_rm = array();
+$sede_rm[ 'it' ] = 'Roma';
+$sede_rm[ 'en' ] = 'Rome';
+?>
+
+<?php $sede_mi = array();
+$sede_mi[ 'it' ] = 'Milano';
+$sede_mi[ 'en' ] = 'Milan';
+?>
+
+<?php $sede_be = array();
+$sede_be[ 'it' ] = 'Belluno';
+$sede_be[ 'en' ] = 'Belluno';
+?>
+
+<!-- Info master -->
+
+<!-- Master 1 -->
+
+<!-- Titolo -->
+<?php $titolo_master_1 = array();
+$titolo_master_1[ 'it' ] = 'International Management';
+$titolo_master_1[ 'en' ] = 'International Management';
+?>
+
+<!-- Sottotitolo -->
+<?php $sottotitolo_master_1 = array();
+$sottotitolo_master_1[ 'it' ] = 'Major del Master in International Management';
+$sottotitolo_master_1[ 'en' ] = 'Major of the Master in International Management';
+?>
+
+<!-- Programma -->
+<?php $link_master_1 = array();
+$link_master_1[ 'it' ] = 'https://businessschool.luiss.it/international-management/';
+$link_master_1[ 'en' ] = 'https://businessschool.luiss.it/international-management/';
+?>
+<!-- Brochure -->
+<?php $link_brochure_1 = array();
+$link_brochure_1[ 'it' ] = 'https://businessschool.luiss.it/international-management/download-brochure/';
+$link_brochure_1[ 'en' ] = 'https://businessschool.luiss.it/international-management/download-brochure/';
+?>
+
+<!-- Master 2 -->
+
+<!-- Titolo -->
+<?php $titolo_master_2 = array();
+$titolo_master_2[ 'it' ] = 'Global Energy Management';
+$titolo_master_2[ 'en' ] = 'Global Energy Management';
+?>
+
+<!-- Sottotitolo -->
+<?php $sottotitolo_master_1 = array();
+$sottotitolo_master_2[ 'it' ] = 'Major del Master in International Management';
+$sottotitolo_master_2[ 'en' ] = 'Major of the Master in International Management';
+?>
+
+<!-- Programma -->
+<?php $link_master_2 = array();
+$link_master_2[ 'it' ] = 'https://businessschool.luiss.it/management-energy-industry/download-brochure/';
+$link_master_2[ 'en' ] = 'https://businessschool.luiss.it/management-energy-industry/download-brochure/';
+?>
+<!-- Brochure -->
+<?php $link_brochure_2 = array();
+$link_brochure_2[ 'it' ] = 'https://businessschool.luiss.it/management-energy-industry/download-brochure/';
+$link_brochure_2[ 'en' ] = 'https://businessschool.luiss.it/management-energy-industry/download-brochure/';
+?>
+
+<!-- Master 3 -->
+
+<!-- Titolo -->
+<?php $titolo_master_3 = array();
+$titolo_master_3[ 'it' ] = 'Risk and Insurance Management';
+$titolo_master_3[ 'en' ] = 'Risk and Insurance Management';
+?>
+<!-- Sottotitolo -->
+<?php $sottotitolo_master_3 = array();
+$sottotitolo_master_3[ 'it' ] = 'Major del Master in Financial Management';
+$sottotitolo_master_3[ 'en' ] = 'Major of the Master in Master in Financial Management';
+?>
+<!-- Programma -->
+<?php $link_master_3 = array();
+$link_master_3[ 'it' ] = 'https://businessschool.luiss.it/management-technology-risk-management-insurance/';
+$link_master_3[ 'en' ] = 'https://businessschool.luiss.it/management-technology-risk-management-insurance/';
+?>
+<!-- Brochure -->
+<?php $link_brochure_3 = array();
+$link_brochure_3[ 'it' ] = 'https://businessschool.luiss.it/management-technology-risk-management-insurance/download-brochure/';
+$link_brochure_3[ 'en' ] = 'https://businessschool.luiss.it/management-technology-risk-management-insurance/download-brochure/';
+?>
+
+<!-- Master 4 -->
+
+<!-- Titolo -->
+<?php $titolo_master_4 = array();
+$titolo_master_4[ 'it' ] = 'Corporate Finance ';
+$titolo_master_4[ 'en' ] = 'Corporate Finance ';
+?>
+<!-- Sottotitolo -->
+<?php $sottotitolo_master_3 = array();
+$sottotitolo_master_3[ 'it' ] = 'Major del Master in Financial Management';
+$sottotitolo_master_3[ 'en' ] = 'Major of the Master in Master in Financial Management';
+?>
+<!-- Programma -->
+<?php $link_master_4 = array();
+$link_master_4[ 'it' ] = 'https://businessschool.luiss.it/macofin/';
+$link_master_4[ 'en' ] = 'https://businessschool.luiss.it/macofin/';
+?>
+<!-- Brochure -->
+<?php $link_brochure_4 = array();
+$link_brochure_4[ 'it' ] = 'https://businessschool.luiss.it/macofin/download-brochure-master-macofin/';
+$link_brochure_4[ 'en' ] = 'https://businessschool.luiss.it/macofin/download-brochure-master-macofin/';
+?>
+
+<!-- Master 5 -->
+
+<!-- Titolo -->
+<?php $titolo_master_5 = array();
+$titolo_master_5[ 'it' ] = 'Corporate Investment Banking ';
+$titolo_master_5[ 'en' ] = 'Corporate Investment Banking ';
+?>
+<!-- Sottotitolo -->
+<?php $sottotitolo_master_3 = array();
+$sottotitolo_master_3[ 'it' ] = 'Major del Master in Financial Management';
+$sottotitolo_master_3[ 'en' ] = 'Major of the Master in Master in Financial Management';
+?>
+<!-- Programma -->
+<?php $link_master_5 = array();
+$link_master_5[ 'it' ] = 'https://businessschool.luiss.it/corporate-finance-banking-major-banking/';
+$link_master_5[ 'en' ] = 'https://businessschool.luiss.it/corporate-finance-banking-major-banking/';
+?>
+<!-- Brochure -->
+<?php $link_brochure_5 = array();
+$link_brochure_5[ 'it' ] = 'https://businessschool.luiss.it/corporate-finance-banking-major-banking/download-brochure/';
+$link_brochure_5[ 'en' ] = 'https://businessschool.luiss.it/corporate-finance-banking-major-banking/download-brochure/';
+?>
+
+<!-- Master 6 -->
+
+<!-- Titolo -->
+<?php $titolo_master_6 = array();
+$titolo_master_6[ 'it' ] = 'Amministrazione Finanza e Controllo';
+$titolo_master_6[ 'en' ] = 'Amministrazione Finanza e Controllo';
+?>
+<!-- Sottotitolo -->
+<?php $sottotitolo_master_3 = array();
+$sottotitolo_master_3[ 'it' ] = 'Major del Master in Financial Management';
+$sottotitolo_master_3[ 'en' ] = 'Major of the Master in Master in Financial Management';
+?>
+<!-- Programma -->
+<?php $link_master_6 = array();
+$link_master_6[ 'it' ] = 'https://businessschool.luiss.it/corporare-finance-banking-major-finanza-aziendale/';
+$link_master_6[ 'en' ] = 'https://businessschool.luiss.it/corporare-finance-banking-major-finanza-aziendale/';
+?>
+<!-- Brochure -->
+<?php $link_brochure_6 = array();
+$link_brochure_6[ 'it' ] = 'https://businessschool.luiss.it/corporare-finance-banking-major-finanza-aziendale/download-brochure/';
+$link_brochure_6[ 'en' ] = 'https://businessschool.luiss.it/corporare-finance-banking-major-finanza-aziendale/download-brochure/';
+?>
+
+<!-- Master 7 -->
+
+<!-- Titolo -->
+<?php $titolo_master_7 = array();
+$titolo_master_7[ 'it' ] = 'Amministrazione Finanza e Controllo';
+$titolo_master_7[ 'en' ] = 'Amministrazione Finanza e Controllo';
+?>
+<!-- Sottotitolo -->
+<?php $sottotitolo_master_3 = array();
+$sottotitolo_master_3[ 'it' ] = 'Major del Master in Financial Management';
+$sottotitolo_master_3[ 'en' ] = 'Major of the Master in Master in Financial Management';
+?>
+<!-- Programma -->
+<?php $link_master_7 = array();
+$link_master_7[ 'it' ] = 'https://businessschool.luiss.it/corporare-finance-banking-major-finanza-aziendale/';
+$link_master_7[ 'en' ] = 'https://businessschool.luiss.it/corporare-finance-banking-major-finanza-aziendale/';
+?>
+<!-- Brochure -->
+<?php $link_brochure_7 = array();
+$link_brochure_7[ 'it' ] = 'https://businessschool.luiss.it/corporare-finance-banking-major-finanza-aziendale/download-brochure/';
+$link_brochure_7[ 'en' ] = 'https://businessschool.luiss.it/corporare-finance-banking-major-finanza-aziendale/download-brochure/';
+?>
+
+<!-- Master 8 -->
+
+<!-- Titolo -->
+<?php $titolo_master_8 = array();
+$titolo_master_8[ 'it' ] = 'Real Estate Finance';
+$titolo_master_8[ 'en' ] = 'Real Estate Finance';
+?>
+<!-- Sottotitolo -->
+<?php $sottotitolo_master_3 = array();
+$sottotitolo_master_3[ 'it' ] = 'Major del Master in Financial Management';
+$sottotitolo_master_3[ 'en' ] = 'Major of the Master in Master in Financial Management';
+?>
+<!-- Programma -->
+<?php $link_master_8 = array();
+$link_master_8[ 'it' ] = 'https://www.maref.luiss.it/';
+$link_master_8[ 'en' ] = 'https://www.maref.luiss.it/';
+?>
+<!-- Brochure -->
+<?php $link_brochure_8 = array();
+$link_brochure_8[ 'it' ] = 'https://www.maref.luiss.it/scarica-la-brochure/';
+$link_brochure_8[ 'en' ] = 'https://www.maref.luiss.it/scarica-la-brochure/';
+?>
+
+<!-- Master 9 -->
+
+<!-- Titolo -->
+<?php $titolo_master_9 = array();
+$titolo_master_9[ 'it' ] = '';
+$titolo_master_9[ 'en' ] = '';
+?>
+<!-- Programma -->
+<?php $link_master_9 = array();
+$link_master_9[ 'it' ] = '';
+$link_master_9[ 'en' ] = '';
+?>
+<!-- Brochure -->
+<?php $link_brochure_9 = array();
+$link_brochure_9[ 'it' ] = '';
+$link_brochure_9[ 'en' ] = '';
+?>
+
+<!-- Master 10 -->
+
+<!-- Titolo -->
+<?php $titolo_master_10 = array();
+$titolo_master_10[ 'it' ] = '';
+$titolo_master_10[ 'en' ] = '';
+?>
+<!-- Programma -->
+<?php $link_master_10 = array();
+$link_master_10[ 'it' ] = '';
+$link_master_10[ 'en' ] = '';
+?>
+<!-- Brochure -->
+<?php $link_brochure_10 = array();
+$link_brochure_10[ 'it' ] = '';
+$link_brochure_10[ 'en' ] = '';
+?>
+
+<!-- Master 11 -->
+
+<!-- Titolo -->
+<?php $titolo_master_11 = array();
+$titolo_master_11[ 'it' ] = '';
+$titolo_master_11[ 'en' ] = '';
+?>
+<!-- Programma -->
+<?php $link_master_11 = array();
+$link_master_11[ 'it' ] = '';
+$link_master_11[ 'en' ] = '';
+?>
+<!-- Brochure -->
+<?php $link_brochure_11 = array();
+$link_brochure_11[ 'it' ] = '';
+$link_brochure_11[ 'en' ] = '';
+?>
+
+<!-- Master 12 -->
+
+<!-- Titolo -->
+<?php $titolo_master_12 = array();
+$titolo_master_12[ 'it' ] = '';
+$titolo_master_12[ 'en' ] = '';
+?>
+<!-- Programma -->
+<?php $link_master_12 = array();
+$link_master_12[ 'it' ] = '';
+$link_master_12[ 'en' ] = '';
+?>
+<!-- Brochure -->
+<?php $link_brochure_12 = array();
+$link_brochure_12[ 'it' ] = '';
+$link_brochure_12[ 'en' ] = '';
+?>
+
+<!-- Master 13 -->
+
+<!-- Titolo -->
+<?php $titolo_master_13 = array();
+$titolo_master_13[ 'it' ] = '';
+$titolo_master_13[ 'en' ] = '';
+?>
+<!-- Programma -->
+<?php $link_master_13 = array();
+$link_master_13[ 'it' ] = '';
+$link_master_13[ 'en' ] = '';
+?>
+<!-- Brochure -->
+<?php $link_brochure_13 = array();
+$link_brochure_13[ 'it' ] = '';
+$link_brochure_13[ 'en' ] = '';
+?>
+
+<!-- Master 14 -->
+
+<!-- Titolo -->
+<?php $titolo_master_14 = array();
+$titolo_master_14[ 'it' ] = '';
+$titolo_master_14[ 'en' ] = '';
+?>
+<!-- Programma -->
+<?php $link_master_14 = array();
+$link_master_14[ 'it' ] = '';
+$link_master_14[ 'en' ] = '';
+?>
+<!-- Brochure -->
+<?php $link_brochure_14 = array();
+$link_brochure_14[ 'it' ] = '';
+$link_brochure_14[ 'en' ] = '';
+?>
+
+<!-- Master 15 -->
+
+<!-- Titolo -->
+<?php $titolo_master_15 = array();
+$titolo_master_15[ 'it' ] = '';
+$titolo_master_15[ 'en' ] = '';
+?>
+<!-- Programma -->
+<?php $link_master_15 = array();
+$link_master_15[ 'it' ] = '';
+$link_master_15[ 'en' ] = '';
+?>
+<!-- Brochure -->
+<?php $link_brochure_15 = array();
+$link_brochure_15[ 'it' ] = '';
+$link_brochure_15[ 'en' ] = '';
+?>
+
+<!-- Master 16 -->
+
+<!-- Titolo -->
+<?php $titolo_master_16 = array();
+$titolo_master_16[ 'it' ] = '';
+$titolo_master_16[ 'en' ] = '';
+?>
+<!-- Programma -->
+<?php $link_master_16 = array();
+$link_master_16[ 'it' ] = '';
+$link_master_16[ 'en' ] = '';
+?>
+<!-- Brochure -->
+<?php $link_brochure_16 = array();
+$link_brochure_16[ 'it' ] = '';
+$link_brochure_16[ 'en' ] = '';
+?>
+
+<!-- Master 17 -->
+
+<!-- Titolo -->
+<?php $titolo_master_17 = array();
+$titolo_master_17[ 'it' ] = '';
+$titolo_master_17[ 'en' ] = '';
+?>
+<!-- Programma -->
+<?php $link_master_17 = array();
+$link_master_17[ 'it' ] = '';
+$link_master_17[ 'en' ] = '';
+?>
+<!-- Brochure -->
+<?php $link_brochure_17 = array();
+$link_brochure_17[ 'it' ] = '';
+$link_brochure_17[ 'en' ] = '';
+?>
+
+<!-- Master 18 -->
+
+<!-- Titolo -->
+<?php $titolo_master_18 = array();
+$titolo_master_18[ 'it' ] = '';
+$titolo_master_18[ 'en' ] = '';
+?>
+<!-- Programma -->
+<?php $link_master_18 = array();
+$link_master_18[ 'it' ] = '';
+$link_master_18[ 'en' ] = '';
+?>
+<!-- Brochure -->
+<?php $link_brochure_18 = array();
+$link_brochure_18[ 'it' ] = '';
+$link_brochure_18[ 'en' ] = '';
+?>
+
+<!-- Master 19 -->
+
+<!-- Titolo -->
+<?php $titolo_master_19 = array();
+$titolo_master_19[ 'it' ] = '';
+$titolo_master_19[ 'en' ] = '';
+?>
+<!-- Programma -->
+<?php $link_master_19 = array();
+$link_master_19[ 'it' ] = '';
+$link_master_19[ 'en' ] = '';
+?>
+<!-- Brochure -->
+<?php $link_brochure_19 = array();
+$link_brochure_19[ 'it' ] = '';
+$link_brochure_19[ 'en' ] = '';
+?>
+
+<!-- Master 20 -->
+
+<!-- Titolo -->
+<?php $titolo_master_20 = array();
+$titolo_master_20[ 'it' ] = '';
+$titolo_master_20[ 'en' ] = '';
+?>
+<!-- Programma -->
+<?php $link_master_20 = array();
+$link_master_20[ 'it' ] = '';
+$link_master_20[ 'en' ] = '';
+?>
+<!-- Brochure -->
+<?php $link_brochure_20 = array();
+$link_brochure_20[ 'it' ] = '';
+$link_brochure_20[ 'en' ] = '';
+?>
+
+<!-- Master 21 -->
+
+<!-- Titolo -->
+<?php $titolo_master_21 = array();
+$titolo_master_21[ 'it' ] = '';
+$titolo_master_21[ 'en' ] = '';
+?>
+<!-- Programma -->
+<?php $link_master_21 = array();
+$link_master_21[ 'it' ] = '';
+$link_master_21[ 'en' ] = '';
+?>
+<!-- Brochure -->
+<?php $link_brochure_21 = array();
+$link_brochure_21[ 'it' ] = '';
+$link_brochure_21[ 'en' ] = '';
+?>
+
+<!-- Master 22 -->
+
+<!-- Titolo -->
+<?php $titolo_master_22 = array();
+$titolo_master_22[ 'it' ] = '';
+$titolo_master_22[ 'en' ] = '';
+?>
+<!-- Programma -->
+<?php $link_master_22 = array();
+$link_master_22[ 'it' ] = '';
+$link_master_22[ 'en' ] = '';
+?>
+<!-- Brochure -->
+<?php $link_brochure_22 = array();
+$link_brochure_22[ 'it' ] = '';
+$link_brochure_22[ 'en' ] = '';
+?>
+
+<!-- Master 23 -->
+
+<!-- Titolo -->
+<?php $titolo_master_23 = array();
+$titolo_master_23[ 'it' ] = '';
+$titolo_master_23[ 'en' ] = '';
+?>
+<!-- Programma -->
+<?php $link_master_23 = array();
+$link_master_23[ 'it' ] = '';
+$link_master_23[ 'en' ] = '';
+?>
+<!-- Brochure -->
+<?php $link_brochure_23 = array();
+$link_brochure_23[ 'it' ] = '';
+$link_brochure_23[ 'en' ] = '';
+?>
+
+<!-- Master 24 -->
+
+<!-- Titolo -->
+<?php $titolo_master_24 = array();
+$titolo_master_24[ 'it' ] = '';
+$titolo_master_24[ 'en' ] = '';
+?>
+<!-- Programma -->
+<?php $link_master_24 = array();
+$link_master_24[ 'it' ] = '';
+$link_master_24[ 'en' ] = '';
+?>
+<!-- Brochure -->
+<?php $link_brochure_24 = array();
+$link_brochure_24[ 'it' ] = '';
+$link_brochure_24[ 'en' ] = '';
+?>
+
+<!-- Master 25 -->
+
+<!-- Titolo -->
+<?php $titolo_master_25 = array();
+$titolo_master_25[ 'it' ] = '';
+$titolo_master_25[ 'en' ] = '';
+?>
+<!-- Programma -->
+<?php $link_master_25 = array();
+$link_master_25[ 'it' ] = '';
+$link_master_25[ 'en' ] = '';
+?>
+<!-- Brochure -->
+<?php $link_brochure_25 = array();
+$link_brochure_25[ 'it' ] = '';
+$link_brochure_25[ 'en' ] = '';
+?>
+
+<!-- Master 26 -->
+
+<!-- Titolo -->
+<?php $titolo_master_26 = array();
+$titolo_master_26[ 'it' ] = '';
+$titolo_master_26[ 'en' ] = '';
+?>
+<!-- Programma -->
+<?php $link_master_26 = array();
+$link_master_26[ 'it' ] = '';
+$link_master_26[ 'en' ] = '';
+?>
+<!-- Brochure -->
+<?php $link_brochure_26 = array();
+$link_brochure_26[ 'it' ] = '';
+$link_brochure_26[ 'en' ] = '';
+?>
+
+<!-- Master 27 -->
+
+<!-- Titolo -->
+<?php $titolo_master_27 = array();
+$titolo_master_27[ 'it' ] = '';
+$titolo_master_27[ 'en' ] = '';
+?>
+<!-- Programma -->
+<?php $link_master_27 = array();
+$link_master_27[ 'it' ] = '';
+$link_master_27[ 'en' ] = '';
+?>
+<!-- Brochure -->
+<?php $link_brochure_27 = array();
+$link_brochure_27[ 'it' ] = '';
+$link_brochure_27[ 'en' ] = '';
+?>
+
+<!-- Master 28 -->
+
+<!-- Titolo -->
+<?php $titolo_master_28 = array();
+$titolo_master_28[ 'it' ] = '';
+$titolo_master_28[ 'en' ] = '';
+?>
+<!-- Programma -->
+<?php $link_master_28 = array();
+$link_master_28[ 'it' ] = '';
+$link_master_28[ 'en' ] = '';
+?>
+<!-- Brochure -->
+<?php $link_brochure_28 = array();
+$link_brochure_28[ 'it' ] = '';
+$link_brochure_28[ 'en' ] = '';
+?>
+
+<!-- Master 29 -->
+
+<!-- Titolo -->
+<?php $titolo_master_29 = array();
+$titolo_master_29[ 'it' ] = '';
+$titolo_master_29[ 'en' ] = '';
+?>
+<!-- Programma -->
+<?php $link_master_29 = array();
+$link_master_29[ 'it' ] = '';
+$link_master_29[ 'en' ] = '';
+?>
+<!-- Brochure -->
+<?php $link_brochure_29 = array();
+$link_brochure_29[ 'it' ] = '';
+$link_brochure_29[ 'en' ] = '';
+?>
+
+<!-- Master 30 -->
+
+<!-- Titolo -->
+<?php $titolo_master_30 = array();
+$titolo_master_30[ 'it' ] = '';
+$titolo_master_30[ 'en' ] = '';
+?>
+<!-- Programma -->
+<?php $link_master_30 = array();
+$link_master_30[ 'it' ] = '';
+$link_master_30[ 'en' ] = '';
+?>
+<!-- Brochure -->
+<?php $link_brochure_30 = array();
+$link_brochure_30[ 'it' ] = '';
+$link_brochure_30[ 'en' ] = '';
+?>
+
+<!-- Master 31 -->
+
+<!-- Titolo -->
+<?php $titolo_master_31 = array();
+$titolo_master_31[ 'it' ] = '';
+$titolo_master_31[ 'en' ] = '';
+?>
+<!-- Programma -->
+<?php $link_master_31 = array();
+$link_master_31[ 'it' ] = '';
+$link_master_31[ 'en' ] = '';
+?>
+<!-- Brochure -->
+<?php $link_brochure_31 = array();
+$link_brochure_31[ 'it' ] = '';
+$link_brochure_31[ 'en' ] = '';
+?>
+
+<!-- Master 32 -->
+
+<!-- Titolo -->
+<?php $titolo_master_32 = array();
+$titolo_master_32[ 'it' ] = '';
+$titolo_master_32[ 'en' ] = '';
+?>
+<!-- Programma -->
+<?php $link_master_32 = array();
+$link_master_32[ 'it' ] = '';
+$link_master_32[ 'en' ] = '';
+?>
+<!-- Brochure -->
+<?php $link_brochure_32 = array();
+$link_brochure_32[ 'it' ] = '';
+$link_brochure_32[ 'en' ] = '';
+?>
+
+<!-- Master 33 -->
+
+<!-- Titolo -->
+<?php $titolo_master_33 = array();
+$titolo_master_33[ 'it' ] = '';
+$titolo_master_33[ 'en' ] = '';
+?>
+<!-- Programma -->
+<?php $link_master_33 = array();
+$link_master_33[ 'it' ] = '';
+$link_master_33[ 'en' ] = '';
+?>
+<!-- Brochure -->
+<?php $link_brochure_33 = array();
+$link_brochure_33[ 'it' ] = '';
+$link_brochure_33[ 'en' ] = '';
+?>
+
+<!-- Master 34 -->
+
+<!-- Titolo -->
+<?php $titolo_master_34 = array();
+$titolo_master_34[ 'it' ] = '';
+$titolo_master_34[ 'en' ] = '';
+?>
+<!-- Programma -->
+<?php $link_master_34 = array();
+$link_master_34[ 'it' ] = '';
+$link_master_34[ 'en' ] = '';
+?>
+<!-- Brochure -->
+<?php $link_brochure_34 = array();
+$link_brochure_34[ 'it' ] = '';
+$link_brochure_34[ 'en' ] = '';
+?>
+
+<!-- Master 35 -->
+
+<!-- Titolo -->
+<?php $titolo_master_35 = array();
+$titolo_master_35[ 'it' ] = '';
+$titolo_master_35[ 'en' ] = '';
+?>
+<!-- Programma -->
+<?php $link_master_35 = array();
+$link_master_35[ 'it' ] = '';
+$link_master_35[ 'en' ] = '';
+?>
+<!-- Brochure -->
+<?php $link_brochure_35 = array();
+$link_brochure_35[ 'it' ] = '';
+$link_brochure_35[ 'en' ] = '';
+?>
+
+<!-- Master 36 -->
+
+<!-- Titolo -->
+<?php $titolo_master_36 = array();
+$titolo_master_36[ 'it' ] = '';
+$titolo_master_36[ 'en' ] = '';
+?>
+<!-- Programma -->
+<?php $link_master_36 = array();
+$link_master_36[ 'it' ] = '';
+$link_master_36[ 'en' ] = '';
+?>
+<!-- Brochure -->
+<?php $link_brochure_36 = array();
+$link_brochure_36[ 'it' ] = '';
+$link_brochure_36[ 'en' ] = '';
+?>
+
+<!-- Master 37 -->
+
+<!-- Titolo -->
+<?php $titolo_master_37 = array();
+$titolo_master_37[ 'it' ] = '';
+$titolo_master_37[ 'en' ] = '';
+?>
+<!-- Programma -->
+<?php $link_master_37 = array();
+$link_master_37[ 'it' ] = '';
+$link_master_37[ 'en' ] = '';
+?>
+<!-- Brochure -->
+<?php $link_brochure_37 = array();
+$link_brochure_37[ 'it' ] = '';
+$link_brochure_37[ 'en' ] = '';
+?>
+
+<!-- Master 38 -->
+
+<!-- Titolo -->
+<?php $titolo_master_38 = array();
+$titolo_master_38[ 'it' ] = '';
+$titolo_master_38[ 'en' ] = '';
+?>
+<!-- Programma -->
+<?php $link_master_38= array();
+$link_master_38[ 'it' ] = '';
+$link_master_38[ 'en' ] = '';
+?>
+<!-- Brochure -->
+<?php $link_brochure_38 = array();
+$link_brochure_38[ 'it' ] = '';
+$link_brochure_38[ 'en' ] = '';
+?>
+
+<!-- Master 39 -->
+
+<!-- Titolo -->
+<?php $titolo_master_39 = array();
+$titolo_master_39[ 'it' ] = '';
+$titolo_master_39[ 'en' ] = '';
+?>
+<!-- Programma -->
+<?php $link_master_39 = array();
+$link_master_39[ 'it' ] = '';
+$link_master_39[ 'en' ] = '';
+?>
+<!-- Brochure -->
+<?php $link_brochure_39 = array();
+$link_brochure_39[ 'it' ] = '';
+$link_brochure_39[ 'en' ] = '';
+?>
+
+<!-- Master 40 -->
+
+<!-- Titolo -->
+<?php $titolo_master_40 = array();
+$titolo_master_40[ 'it' ] = '';
+$titolo_master_40[ 'en' ] = '';
+?>
+<!-- Programma -->
+<?php $link_master_40 = array();
+$link_master_40[ 'it' ] = '';
+$link_master_40[ 'en' ] = '';
+?>
+<!-- Brochure -->
+<?php $link_brochure_40 = array();
+$link_brochure_40[ 'it' ] = '';
+$link_brochure_40[ 'en' ] = '';
+?>
+
+<!-- Master 41 -->
+
+<!-- Titolo -->
+<?php $titolo_master_41 = array();
+$titolo_master_41[ 'it' ] = '';
+$titolo_master_41[ 'en' ] = '';
+?>
+<!-- Programma -->
+<?php $link_master_41 = array();
+$link_master_41[ 'it' ] = '';
+$link_master_41[ 'en' ] = '';
+?>
+<!-- Brochure -->
+<?php $link_brochure_41 = array();
+$link_brochure_41[ 'it' ] = '';
+$link_brochure_41[ 'en' ] = '';
+?>
+
+<!-- Master 42 -->
+
+<!-- Titolo -->
+<?php $titolo_master_42 = array();
+$titolo_master_42[ 'it' ] = '';
+$titolo_master_42[ 'en' ] = '';
+?>
+<!-- Programma -->
+<?php $link_master_42 = array();
+$link_master_42[ 'it' ] = '';
+$link_master_42[ 'en' ] = '';
+?>
+<!-- Brochure -->
+<?php $link_brochure_42 = array();
+$link_brochure_42[ 'it' ] = '';
+$link_brochure_42[ 'en' ] = '';
+?>
+
+<!-- Master 43 -->
+
+<!-- Titolo -->
+<?php $titolo_master_43 = array();
+$titolo_master_43[ 'it' ] = '';
+$titolo_master_43[ 'en' ] = '';
+?>
+<!-- Programma -->
+<?php $link_master_43 = array();
+$link_master_43[ 'it' ] = '';
+$link_master_43[ 'en' ] = '';
+?>
+<!-- Brochure -->
+<?php $link_brochure_43 = array();
+$link_brochure_43[ 'it' ] = '';
+$link_brochure_43[ 'en' ] = '';
+?>
+
+<!-- Master 44 -->
+
+<!-- Titolo -->
+<?php $titolo_master_44 = array();
+$titolo_master_44[ 'it' ] = '';
+$titolo_master_44[ 'en' ] = '';
+?>
+<!-- Programma -->
+<?php $link_master_44 = array();
+$link_master_44[ 'it' ] = '';
+$link_master_44[ 'en' ] = '';
+?>
+<!-- Brochure -->
+<?php $link_brochure_44 = array();
+$link_brochure_44[ 'it' ] = '';
+$link_brochure_44[ 'en' ] = '';
+?>
+
+<!-- Master 45 -->
+
+<!-- Titolo -->
+<?php $titolo_master_45 = array();
+$titolo_master_45[ 'it' ] = '';
+$titolo_master_45[ 'en' ] = '';
+?>
+<!-- Programma -->
+<?php $link_master_45 = array();
+$link_master_45[ 'it' ] = '';
+$link_master_45[ 'en' ] = '';
+?>
+<!-- Brochure -->
+<?php $link_brochure_45 = array();
+$link_brochure_45[ 'it' ] = '';
+$link_brochure_45[ 'en' ] = '';
+?>
+
+<!-- Master 46 -->
+
+<!-- Titolo -->
+<?php $titolo_master_46 = array();
+$titolo_master_46[ 'it' ] = '';
+$titolo_master_46[ 'en' ] = '';
+?>
+<!-- Programma -->
+<?php $link_master_46 = array();
+$link_master_46[ 'it' ] = '';
+$link_master_46[ 'en' ] = '';
+?>
+<!-- Brochure -->
+<?php $link_brochure_46 = array();
+$link_brochure_46[ 'it' ] = '';
+$link_brochure_46[ 'en' ] = '';
+?>
+
+<!-- Master 47 -->
+
+<!-- Titolo -->
+<?php $titolo_master_47 = array();
+$titolo_master_47[ 'it' ] = '';
+$titolo_master_47[ 'en' ] = '';
+?>
+<!-- Programma -->
+<?php $link_master_47 = array();
+$link_master_47[ 'it' ] = '';
+$link_master_47[ 'en' ] = '';
+?>
+<!-- Brochure -->
+<?php $link_brochure_47 = array();
+$link_brochure_47[ 'it' ] = '';
+$link_brochure_47[ 'en' ] = '';
+?>
+
+<!-- Master 48 -->
+
+<!-- Titolo -->
+<?php $titolo_master_48 = array();
+$titolo_master_48[ 'it' ] = '';
+$titolo_master_48[ 'en' ] = '';
+?>
+<!-- Programma -->
+<?php $link_master_48 = array();
+$link_master_48[ 'it' ] = '';
+$link_master_48[ 'en' ] = '';
+?>
+<!-- Brochure -->
+<?php $link_brochure_48 = array();
+$link_brochure_48[ 'it' ] = '';
+$link_brochure_48[ 'en' ] = '';
+?>
+
+<!-- Master 49 -->
+
+<!-- Titolo -->
+<?php $titolo_master_49 = array();
+$titolo_master_49[ 'it' ] = '';
+$titolo_master_49[ 'en' ] = '';
+?>
+<!-- Programma -->
+<?php $link_master_49 = array();
+$link_master_49[ 'it' ] = '';
+$link_master_49[ 'en' ] = '';
+?>
+<!-- Brochure -->
+<?php $link_brochure_49 = array();
+$link_brochure_49[ 'it' ] = '';
+$link_brochure_49[ 'en' ] = '';
+?>
+
+<!-- Master 50 -->
+
+<!-- Titolo -->
+<?php $titolo_master_50 = array();
+$titolo_master_50[ 'it' ] = '';
+$titolo_master_50[ 'en' ] = '';
+?>
+<!-- Programma -->
+<?php $link_master_50 = array();
+$link_master_50[ 'it' ] = '';
+$link_master_50[ 'en' ] = '';
+?>
+<!-- Brochure -->
+<?php $link_brochure_50 = array();
+$link_brochure_50[ 'it' ] = '';
+$link_brochure_50[ 'en' ] = '';
+?>
+
+
+
+<div class="container-fluid <?php if (has_post_thumbnail( $post->ID ) ): ?>
+                   header-pic" style="background-image: url('<?php echo get_the_post_thumbnail_url(); ?>');
+                   <?php else : ?>
+                   header-nopic
+                   <?php endif; ?>
+">
+    <div class="container">
+        <div class="row">
+            <h1><?php the_title();?></h1>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <p>Come here to be challenged. Leave ready to take on the most important challenges of our time. At LUISS Business School, we create wise leaders who aspire to MAKE  the difference in the world of business and beyond. Join us.</p>
+            </div>
+            <div class="col-md-6">
+                <a href="https://www.youtube.com/watch?v=7VuI-HXka6s&feature=emb_title">Watch the video</a>
+            </div>
+        </div>
+    </div>
 </div>
-<div class="featurette-divider"></div>
-<section class="cards courses-cards">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-8">
-				<div class="vid">
-					<iframe width="" height="" src="//www.youtube.com/embed/7VuI-HXka6s?wmode=transparent&rel=0&showinfo=0&controls=0" frameborder="0" allowfullscreen wmode="Opaque"></iframe>
-				</div>
-			</div>
-			<div class="col-md-4 grid-row-quotes grid-col">
-				<p>Come here to be challenged. Leave ready to take on the most important challenges of our time. At LUISS Business School, we create wise leaders who aspire to MAKE  the difference in the world of business and beyond. Join us.</p>
-			</div>
-		</div>
-		<div class="featurette-divider"></div>
 
-
-		<?php $titolo_master_10 = array();
-			$titolo_master_10['it'] = 'Master in Trade Management';
-			$titolo_master_10['en'] = 'Trade Management Master';
-		?>
-		<?php $titolo_master_11 = array();
-			$titolo_master_11['it'] = 'Management delle Strutture di Prossimità e delle Forme Associative nell’Assistenza Territoriale';
-			$titolo_master_11['en'] = 'Master Program on the Management of Primary Care Organizations';
-		?>
-		<?php $titolo_master_20 = array();
-			$titolo_master_20['it'] = 'Master in Management dei Prodotti Biomedicali';
-			$titolo_master_20['en'] = 'Master in Management of Biomedical Products';
-		?>
-
-		<?php $link_master_12 = array();
-			$link_master_12['it'] = '/offerta-formativa/master/employability/';
-			$link_master_12['en'] = '/en/programs/master/employability/';
-		?>
-
-
-		<?php $link_master_15 = array();
-		$link_master_15['it'] = '/offerta-formativa/master/open-innovation-intellectual-property/';
-		$link_master_15['en'] = '/en/programs/master/open-innovation-intellectual-property/';
-		?>
-
-		<?php $link_master_17 = array();
-		$link_master_17['it'] = '/offerta-formativa/master/healthcare-pharmaceutical-administration/';
-		$link_master_17['en'] = '/en/programs/master/healthcare-pharmaceutical-administration/';
-		?>
-		<?php $titolo_master_19 = array();
-		$titolo_master_19['it'] = 'Master in Management delle Aziende Sanitarie';
-		$titolo_master_19['en'] = 'Master in Management of Health Services';
-		?>
-		<?php $link_master_19 = array();
-		$link_master_19['it'] = '/offerta-formativa/master/management-aziende-sanitarie/';
-		$link_master_19['en'] = '/en/programs/master/management-aziende-sanitarie/';
-		?>
-
-		<?php $testo_master_20 = array();
-		$testo_master_20['it'] = 'Master in Management dei Prodotti Biomedicali';
-		$testo_master_20['en'] = 'Master in Management of Biomedical Products';
-		?>
-
-
-
-		<?php $titolo_master_24 = array();
-		$titolo_master_24['it'] = 'Master in Gestione della Produzione Cinematografica e Televisiva';
-		$titolo_master_24['en'] = 'Master in Television & Film Management';
-		?>
-
-
-		<?php $diritto_tributario = array();
-		$diritto_tributario['it'] = ' Diritto Tributario, Contabilità e Pianificazione Fiscale';
-		$diritto_tributario['en'] = ' Tax Law, Accounting and Tax Planning';
-		?>
-
-		<div class="row">
-			<div class="col-md-12">
-
-
-				<!--BEGIN MASTER -->
-				<a href="/mabda/" class="col-md-4 col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-								<img src="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" data-at2x="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" class="img-responsive ">
-								<div class="master-image">
-									<h3><span>Big Data and Management</span></h3>
-									<p>
-										<?php echo $lingua_corso_en[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata[ICL_LANGUAGE_CODE]; ?></span> </h3>
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-				<!--BEGIN MASTER -->
-				<a href="/tourism-management/" class="col-md-4 col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-								<img src="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" data-at2x="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" class="img-responsive ">
-								<div class="master-image">
-									<h3><span>  Tourism Management <br>Major of the Master in Fashion, Luxury & Tourism Management</span></h3>
-									<p>
-										<?php echo $lingua_corso_en[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata[ICL_LANGUAGE_CODE]; ?></span> </h3>
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-
-
-
-				<!--BEGIN MASTER -->
-				<a href="/tourism-management-belluno/" class="col-md-4 col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-								<img src="<?php echo $img_m3[ICL_LANGUAGE_CODE]; ?>" data-at2x="<?php echo $img_m3[ICL_LANGUAGE_CODE]; ?>" class="img-responsive ">
-								<div class="master-image">
-									<h3><span>  Tourism Management<br>Major del Master in Fashion, Luxury & Tourism Management</span></h3>
-									<p>
-										<?php echo $lingua_corso_it[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata[ICL_LANGUAGE_CODE]; ?></span> </h3>
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-				<!--BEGIN MASTER -->
-				<a href="/master-of-fashion/" class="col-md-4 col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-								<img src="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" data-at2x="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" class="img-responsive ">
-								<div class="master-image">
-									<h3><span> Fashion Management  <br>Major of the Master in Fashion, Luxury & Tourism Management</span></h3>
-									<p>
-										<?php echo $lingua_corso_en[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata[ICL_LANGUAGE_CODE]; ?></span> </h3>
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-
-				<!--BEGIN MASTER -->
-				<a href="/master-of-luxury/" class="col-md-4 col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-								<img src="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" data-at2x="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" class="img-responsive ">
-								<div class="master-image">
-									<h3><span> Luxury Management  <br>Major of the Master in Fashion, Luxury & Tourism Management</span></h3>
-									<p>
-										<?php echo $lingua_corso_en[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata[ICL_LANGUAGE_CODE]; ?></span> </h3>
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-
-				<!--BEGIN MASTER -->
-				<a href="/project-management/" class="col-md-4 col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-								<img src="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" data-at2x="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" class="img-responsive ">
-								<div class="master-image">
-									<h3><span>Project Management</span></h3>
-									<p>
-										<?php echo $lingua_corso_it[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata[ICL_LANGUAGE_CODE]; ?></span> </h3>
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-
-				<!--BEGIN MASTER -->
-				<a href="/project-management-cooperazione-internazionale/" class="col-md-4 col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-								<img src="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" data-at2x="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" class="img-responsive ">
-								<div class="master-image">
-									<h3><span> Project Management for Development Cooperation  <br> Major del Master in Project Management</span></h3>
-									<p>
-										<?php echo $lingua_corso_it[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata[ICL_LANGUAGE_CODE]; ?></span> </h3>
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-
-				<!--BEGIN MASTER -->
-				<a href="/international-management/" class="col-md-4 col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-								<img src="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" data-at2x="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" class="img-responsive ">
-								<div class="master-image">
-									<h3><span>International Management<br>Major of the Master in International Management</span></h3>
-									<p>
-										<?php echo $lingua_corso_en[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata[ICL_LANGUAGE_CODE]; ?></span> </h3>
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-
-					<!--BEGIN MASTER -->
-				<a href="/management-energy-industry/" class="col-md-4 col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-							<img src="/wp-content/uploads/2018/05/Immagine_BOX_Milano.jpg" data-at2x="/wp-content/uploads/2018/05/Immagine_BOX_Milano.jpg" class="img-responsive">
-								<div class="master-image">
-									<h3><span>Global Energy Management  <br>Major of the Master in International Management</span></h3>
-									<p>
-										<?php echo $lingua_corso_en[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata[ICL_LANGUAGE_CODE]; ?></span> </h3>
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-
-				<!--BEGIN MASTER -->
-				<a href="/entrepreneurship/" class="col-md-4 col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-								<img src="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" data-at2x="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" class="img-responsive ">
-								<div class="master-image">
-									<h3><span>Entrepreneurship</span></h3>
-									<p>
-										<?php echo $lingua_corso_it[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata[ICL_LANGUAGE_CODE]; ?></span> </h3>
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-
-				<!--BEGIN MASTER -->
-				<a href="/trade-management/" class="col-md-4 col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-								<img src="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" data-at2x="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" class="img-responsive ">
-								<div class="master-image">
-									<h3><span> HoReCa Trade Management<br>Major del Master in Marketing Management </span></h3>
-									<p>
-										<?php echo $lingua_corso_it[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata[ICL_LANGUAGE_CODE]; ?></span> </h3>
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-
-
-
-
-
-
-
-					<!--BEGIN MASTER -->
-				<a href="/relazioni-istituzionali-lobby-comunicazione-impresa/" class="col-md-4 col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-								<img src="<?php echo $img_m2[ICL_LANGUAGE_CODE]; ?>" data-at2x="<?php echo $img_m2[ICL_LANGUAGE_CODE]; ?>" class="img-responsive ">
-								<div class="master-image">
-									<h3><span> Relazioni Istituzionali, Lobby e Comunicazione d’impresa
-</span></h3>
-									<p>
-										<?php echo $lingua_corso_it[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata_part[ICL_LANGUAGE_CODE]; ?></span> </h3>
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-
-
-
-
-
-
-				<!--BEGIN MASTER -->
-				<a href="/gruo/" class="col-md-4 col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-								<img src="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" data-at2x="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" class="img-responsive ">
-								<div class="master-image">
-									<h3><span>Gestione delle Risorse Umane e Organizzazione</span></h3>
-									<p>
-										<?php echo $lingua_corso_it[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata[ICL_LANGUAGE_CODE]; ?></span> </h3>
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-
-
-
-				<!--BEGIN MASTER -->
-				<a href="/gruo/" class="col-md-4 col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-								<img src="/wp-content/uploads/2018/05/Immagine_BOX_Milano.jpg" data-at2x="/wp-content/uploads/2018/05/Immagine_BOX_Milano.jpg" class="img-responsive ">
-								<div class="master-image">
-									<h3><span>Gestione delle Risorse Umane e Organizzazione</span></h3>
-									<p>
-										<?php echo $lingua_corso_it[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata[ICL_LANGUAGE_CODE]; ?></span> </h3>
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-
-
-				<!--BEGIN MASTER -->
-				<a href="/diritto-tributario/" class="col-md-4  col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-								<img src="<?php echo $img_m2[ICL_LANGUAGE_CODE]; ?>" data-at2x="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" class="img-responsive ">
-								<div class="master-image">
-									<h3><span><?php echo $diritto_tributario[ICL_LANGUAGE_CODE]; ?></span></h3>
-									<p>
-										<?php echo $lingua_corso_it[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata[ICL_LANGUAGE_CODE]; ?></span> </h3>
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-
-
-					<!--BEGIN MASTER -->
-				<a href="/macofin/" class="col-md-4 col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-								<img src="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" data-at2x="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" class="img-responsive ">
-								<div class="master-image">
-									<h3><span>Corporate Finance <br> Major of the Master in Financial Management</span></h3>
-									<p>
-										<?php echo $lingua_corso_en[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata[ICL_LANGUAGE_CODE]; ?></span> </h3>
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-				<!--BEGIN MASTER -->
-				<a href="/corporate-finance-banking-major-banking/" class="col-md-4 col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-								<img src="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" data-at2x="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" class="img-responsive ">
-								<div class="master-image">
-									<h3><span> Corporate  Investment Banking  <br> Major del  Master in Financial Management </span></h3>
-									<p>
-										<?php echo $lingua_corso_it[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata[ICL_LANGUAGE_CODE]; ?></span> </h3>
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-					<!--BEGIN MASTER -->
-				<a href="/corporare-finance-banking-major-finanza-aziendale/" class="col-md-4 col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-								<img src="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" data-at2x="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" class="img-responsive ">
-								<div class="master-image">
-									<h3><span> Amministrazione, Finanza e Controllo <br> Major del Master in Financial Management</span></h3>
-									<p>
-										<?php echo $lingua_corso_it[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata[ICL_LANGUAGE_CODE]; ?></span> </h3>
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-
-						<!--BEGIN MASTER -->
-				<a href="/corporare-finance-banking-major-finanza-aziendale/" class="col-md-4 col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-								<img src="<?php echo $img_m3[ICL_LANGUAGE_CODE]; ?>" data-at2x="<?php echo $img_m3[ICL_LANGUAGE_CODE]; ?>" class="img-responsive ">
-								<div class="master-image">
-									<h3><span> Amministrazione, Finanza e Controllo <br> Major del Master in Financial Management</span></h3>
-									<p>
-										<?php echo $lingua_corso_it[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata[ICL_LANGUAGE_CODE]; ?></span> </h3>
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-				<!--BEGIN MASTER -->
-				<a href="http://www.maref.luiss.it/" class="col-md-4 col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-								<img src="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" data-at2x="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" class="img-responsive ">
-								<div class="master-image">
-									<h3><span>Real Estate & Finance  <br> Major del Master in Financial Management</span></h3>
-									<p>
-										<?php echo $lingua_corso_it[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata[ICL_LANGUAGE_CODE]; ?></span> </h3>
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-
-				<!--BEGIN MASTER -->
-				<a href="/management-technology-risk-management-insurance/" class="col-md-4 col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-								<img src="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" data-at2x="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" class="img-responsive ">
-								<div class="master-image">
-									<h3><span>Risk and Insurance Management  <br>Major of the Master in Financial Management</span></h3>
-									<p>
-										<?php echo $lingua_corso_en[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata[ICL_LANGUAGE_CODE]; ?></span> </h3>
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-
-
-					<!--BEGIN MASTER -->
-				<!--<a href="/corporate-finance-banking-major-in-insurance-management/" class="col-md-4 col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-								<img src="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" data-at2x="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" class="img-responsive ">
-								<div class="master-image">
-									<h3><span>Insurance Management – Major del Master in Corporate Finance & Banking</span></h3>
-									<p>
-										<?php echo $lingua_corso_it[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata[ICL_LANGUAGE_CODE]; ?></span> </h3>
-						</div>
-					</div>
-				</a>-->
-				<!--END MASTER -->
-
-
-
-
-
-
-
-
-
-
-				<!--BEGIN MASTER -->
-				<a href="/digital-business-strategy-belluno/" class="col-md-4 col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-							<img src="<?php echo $img_m3[ICL_LANGUAGE_CODE]; ?>" data-at2x="<?php echo $img_m3[ICL_LANGUAGE_CODE]; ?>" class="img-responsive">
-								<div class="master-image">
-									<h3><span>Digital Business Strategy  <br>Major del Master in Management and Technology</span></h3>
-									<p>
-										<?php echo $lingua_corso_it[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata[ICL_LANGUAGE_CODE]; ?></span> </h3>
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-				<!--BEGIN MASTER -->
-				<a href="/digital-business-strategy/" class="col-md-4 col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-							<img src="//businessschool.luiss.it/wp-content/uploads/2018/05/Immagine_BOX_Milano.jpg" data-at2x="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" class="img-responsive">
-								<div class="master-image">
-									<h3><span>Digital Business Strategy  <br>Major del Master in Management and Technology</span></h3>
-									<p>
-										<?php echo $lingua_corso_it[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata[ICL_LANGUAGE_CODE]; ?></span> </h3>
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-
-
-
-					<!--BEGIN MASTER -->
-		<!--		<a href="/management-energy-industry-milano-hub/" class="col-md-4 col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-							<img src="//businessschool.luiss.it/wp-content/uploads/2018/05/Immagine_BOX_Milano.jpg" data-at2x="<?php //echo $img_m1[ICL_LANGUAGE_CODE]; ?>" class="img-responsive">
-								<div class="master-image">
-									<h3><span>Energy Industry <br>Major del Master in Management and Technology </span></h3>
-									<p>
-										<?php //echo $lingua_corso_it[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php // echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php // echo $durata[ICL_LANGUAGE_CODE]; ?></span> </h3>
-						</div>
-					</div>
-				</a>-->
-				<!--END MASTER -->
-
-
-
-
-				<!--BEGIN MASTER -->
-				<a href="/management-technology-digital-ecosystem/" class="col-md-4  col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-								<img src="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" data-at2x="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" class="img-responsive ">
-								<div class="master-image">
-									<h3><span>Business Transformation <br>Major of the Master in Management and Technology</span></h3>
-									<p>
-										<?php echo $lingua_corso_en[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata[ICL_LANGUAGE_CODE]; ?></span> </h3>
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-
-
-
-					<!--BEGIN MASTER -->
-				<a href="/disruptive-ma/" class="col-md-4  col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-								<img src="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" data-at2x="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" class="img-responsive ">
-								<div class="master-image">
-									<h3><span>Strategy For Disruptive Growth <br>Major of the Master in Management and Technology</span></h3>
-									<p>
-										<?php echo $lingua_corso_it[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata[ICL_LANGUAGE_CODE]; ?></span> </h3>
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-
-						<!--BEGIN MASTER -->
-				<a href="/global-supply-chain-management/" class="col-md-4  col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-								<img src="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" data-at2x="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" class="img-responsive ">
-								<div class="master-image">
-									<h3><span>Global Supply Chain Management  <br>Major of the Master in Management and Technology</span></h3>
-									<p>
-										<?php echo $lingua_corso_en[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata[ICL_LANGUAGE_CODE]; ?></span> </h3>
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-
-				<!--BEGIN MASTER -->
-				<a href="/marketing-management-digital-marketing/" class="col-md-4  col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-								<img src="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" data-at2x="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" class="img-responsive ">
-								<div class="master-image">
-									<h3><span>Digital Marketing <br> Major del Master in Marketing Management </span></h3>
-									<p>
-										<?php echo $lingua_corso_it[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata[ICL_LANGUAGE_CODE]; ?></span> </h3>
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-
-
-				<!--BEGIN MASTER -->
-				<a href="/marketing-management-digital-marketing/" class="col-md-4  col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-								<img src="/wp-content/uploads/2018/05/Immagine_BOX_Milano.jpg" data-at2x="/wp-content/uploads/2018/05/Immagine_BOX_Milano.jpg" class="img-responsive ">
-								<div class="master-image">
-									<h3><span>Digital Marketing <br> Major del Master in Marketing Management </span></h3>
-									<p>
-										<?php echo $lingua_corso_it[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata[ICL_LANGUAGE_CODE]; ?></span> </h3>
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-
-					<!--BEGIN MASTER -->
-				<a href="/marketing-management/" class="col-md-4  col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-								<img src="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" data-at2x="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" class="img-responsive ">
-								<div class="master-image">
-									<h3><span> Sales & Account Management <br> Major del Master in Marketing Management</span></h3>
-									<p>
-										<?php echo $lingua_corso_it[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata[ICL_LANGUAGE_CODE]; ?></span> </h3>
-
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-
-					<!--BEGIN MASTER -->
-				<a href="/marketing-management/" class="col-md-4  col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-								<img src="<?php echo $img_m3[ICL_LANGUAGE_CODE]; ?>" data-at2x="<?php echo $img_m3[ICL_LANGUAGE_CODE]; ?>" class="img-responsive ">
-								<div class="master-image">
-									<h3><span> Sales & Account Management <br> Major del Master in Marketing Management</span></h3>
-									<p>
-										<?php echo $lingua_corso_it[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata[ICL_LANGUAGE_CODE]; ?></span> </h3>
-
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-
-				<!--BEGIN MASTER -->
-				<a href="/marketing-management-retailing-ecommerce/" class="col-md-4  col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-								<img src="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" data-at2x="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" class="img-responsive ">
-								<div class="master-image">
-									<h3><span> Retailing, E-Commerce e Gestione Multicanale <br> Major del Master in Marketing Management </span></h3>
-									<p>
-										<?php echo $lingua_corso_it[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata[ICL_LANGUAGE_CODE]; ?></span> </h3>
-
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-
-
-					<!--BEGIN MASTER -->
-				<a href="/master-digital-export/" class="col-md-4 col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-							<img src="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" data-at2x="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" class="img-responsive">
-								<div class="master-image">
-									<h3><span>Digital Export  <br>Major of the Master in Marketing Management</span></h3>
-									<p>
-										<?php echo $lingua_corso_it[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata[ICL_LANGUAGE_CODE]; ?></span> </h3>
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-
-				<!--BEGIN MASTER -->
-				<a href="/pr-communication-event-management/" class="col-md-4  col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-								<img src="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" data-at2x="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" class="img-responsive ">
-								<div class="master-image">
-									<h3><span> Corporate Event: Management, PR and Communication - Major del Master in Marketing Management </span></h3>
-									<p>
-										<?php echo $lingua_corso_it[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata[ICL_LANGUAGE_CODE]; ?></span> </h3>
-
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-
-				<!--BEGIN MASTER -->
-				<a href="/pr-communication-event-management/" class="col-md-4  col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-								<img src="/wp-content/uploads/2018/05/Immagine_BOX_Milano.jpg" data-at2x="/wp-content/uploads/2018/05/Immagine_BOX_Milano.jpg" class="img-responsive ">
-								<div class="master-image">
-									<h3><span> Corporate Event: Management, PR and Communication - Major del Master in Marketing Management </span></h3>
-									<p>
-										<?php echo $lingua_corso_it[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata[ICL_LANGUAGE_CODE]; ?></span> </h3>
-
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-
-			<!--BEGIN MASTER -->
-				<a href="/master-of-art/" class="col-md-4 col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-								<img src="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" data-at2x="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" class="img-responsive ">
-								<div class="master-image">
-									<h3><span> Master of Art</span></h3>
-									<p>
-										<?php echo $lingua_corso_it[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata[ICL_LANGUAGE_CODE]; ?></span> </h3>
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-
-
-
-				<!--BEGIN MASTER -->
-				<a href="/master-food-wine/" class="col-md-4  col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-								<img src="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" data-at2x="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" class="img-responsive ">
-								<div class="master-image">
-									<h3><span>Food & Wine Business</span></h3>
-									<p>
-										<?php echo $lingua_corso_it[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata[ICL_LANGUAGE_CODE]; ?></span> </h3>
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-
-				<!--BEGIN MASTER -->
-				<a href="/food-and-wine-business-belluno/" class="col-md-4  col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-								<img src="<?php echo $img_m3[ICL_LANGUAGE_CODE]; ?>" data-at2x="<?php echo $img_m3[ICL_LANGUAGE_CODE]; ?>" class="img-responsive ">
-								<div class="master-image">
-									<h3><span>Food & Wine Business</span></h3>
-									<p>
-										<?php echo $lingua_corso_it[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata[ICL_LANGUAGE_CODE]; ?></span> </h3>
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-
-
-
-
-
-
-
-
-
-				<!--BEGIN MASTER -->
-				<a href="/master-of-music/" class="col-md-4 col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-								<img src="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" data-at2x="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" class="img-responsive ">
-								<div class="master-image">
-									<h3><span>Music  <br> Major del Master in Media Entertainment</span></h3>
-									<p>
-										<?php echo $lingua_corso_it[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata[ICL_LANGUAGE_CODE]; ?></span> </h3>
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-
-
-
-				<!--BEGIN MASTER -->
-				<a href="/gestione-produzione-cinematografica/" class="col-md-4 col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-								<img src="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" data-at2x="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" class="img-responsive ">
-								<div class="master-image">
-									<h3><span> Gestione della Produzione Cinematografica e Televisiva<br>  Major del Master in Media Entertainment</span></h3>
-									<p>
-										<?php echo $lingua_corso_it[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata[ICL_LANGUAGE_CODE]; ?></span> </h3>
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-
-				<!--BEGIN MASTER -->
-				<a href="/writing-school-for-television/" class="col-md-4 col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-								<img src="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" data-at2x="<?php echo $img_m1[ICL_LANGUAGE_CODE]; ?>" class="img-responsive ">
-								<div class="master-image">
-									<h3><span> Writing School for Cinema & Television <br> Major del Master in Media Entertainment</span></h3>
-									<p>
-										<?php echo $lingua_corso_it[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata[ICL_LANGUAGE_CODE]; ?></span> </h3>
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-
-
-				<!--BEGIN MASTER -->
-				<a href="/openinnovation-ip/" class="col-md-4 col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-								<img src="<?php echo $img_m2[ICL_LANGUAGE_CODE]; ?>" data-at2x="<?php echo $img_m2[ICL_LANGUAGE_CODE]; ?>" class="img-responsive ">
-								<div class="master-image">
-									<h3><span>Open Innovation & Intellectual Property</span></h3>
-									<p>
-										<?php echo $lingua_corso_it[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata[ICL_LANGUAGE_CODE]; ?></span> </h3>
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-
-
-				<!--BEGIN MASTER -->
-				<a href="/master-circular-economy/" class="col-md-4 col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-								<img src="<?php echo $img_m2[ICL_LANGUAGE_CODE]; ?>" data-at2x="<?php echo $img_m2[ICL_LANGUAGE_CODE]; ?>" class="img-responsive ">
-								<div class="master-image">
-									<h3><span> Executive Master in Circular Economy Management</span></h3>
-									<p>
-										<?php echo $lingua_corso_it[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata[ICL_LANGUAGE_CODE]; ?></span> </h3>
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-
-
-					<!--BEGIN MASTER -->
-				<a href="/probiomed/" class="col-md-4 col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-								<img src="<?php echo $img_m2[ICL_LANGUAGE_CODE]; ?>" data-at2x="<?php echo $img_m2[ICL_LANGUAGE_CODE]; ?>" class="img-responsive ">
-								<div class="master-image">
-									<h3><span>Management della Filiera della Salute <br>
- Major In Management dei Prodotti Biomedicali
-</span></h3>
-									<p>
-										<?php echo $lingua_corso_it[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata_part[ICL_LANGUAGE_CODE]; ?></span> </h3>
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-
-				<!--BEGIN MASTER -->
-				<a href="/management-aziende-sanitarie/" class="col-md-4 col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-								<img src="<?php echo $img_m2[ICL_LANGUAGE_CODE]; ?>" data-at2x="<?php echo $img_m2[ICL_LANGUAGE_CODE]; ?>" class="img-responsive ">
-								<div class="master-image">
-									<h3><span> Management della Filiera della Salute – Major in Management delle Aziende Sanitarie</span></h3>
-									<p>
-										<?php echo $lingua_corso_it[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata_part[ICL_LANGUAGE_CODE]; ?></span> </h3>
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-
-				<!--BEGIN MASTER -->
-				<a href="/empha/" class="col-md-4 col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-								<img src="<?php echo $img_m2[ICL_LANGUAGE_CODE]; ?>" data-at2x="<?php echo $img_m2[ICL_LANGUAGE_CODE]; ?>" class="img-responsive ">
-								<div class="master-image">
-									<h3><span>  Management della Filiera della Salute- Major in Pharmaceutical &Healthcare Administration  (EMPHA)</span></h3>
-									<p>
-										<?php echo $lingua_corso_it[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata_part[ICL_LANGUAGE_CODE]; ?></span> </h3>
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-
-				<!--BEGIN MASTER -->
-				<a href="/executive-master-pharmaceutical-healthcare-administration/" class="col-md-4 col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-								<img src="<?php echo $img_m2[ICL_LANGUAGE_CODE]; ?>" data-at2x="<?php echo $img_m2[ICL_LANGUAGE_CODE]; ?>" class="img-responsive ">
-								<div class="master-image">
-									<h3><span>  Management della Filiera della Salute- Major in Pharmaceutical &Healthcare Administration  (EMPHA) ed. Autunno</span></h3>
-									<p>
-										<?php echo $lingua_corso_it[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata_part[ICL_LANGUAGE_CODE]; ?></span> </h3>
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-
-				<!--BEGIN MASTER -->
-				<a href="/master-sperimentazione-clinica/" class="col-md-4 col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-								<img src="<?php echo $img_m2[ICL_LANGUAGE_CODE]; ?>" data-at2x="<?php echo $img_m2[ICL_LANGUAGE_CODE]; ?>" class="img-responsive ">
-								<div class="master-image">
-									<h3><span>  Management della Filiera della Salute – Major in Sperimentazione Clinica</span></h3>
-									<p>
-										<?php echo $lingua_corso_it[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata_part[ICL_LANGUAGE_CODE]; ?></span> </h3>
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-
-
-					<!--BEGIN MASTER -->
-				<a href="https://sog.luiss.it/graduate-programs/comunicazione-e-marketing-politico-ed-istituzionale " class="col-md-4 col-sm-6 master-preview">
-					<div class="course-item master-thumb">
-						<div class="course-hover">
-							<div class="course-name clear-fix">
-								<img src="<?php echo $img_m2[ICL_LANGUAGE_CODE]; ?>" data-at2x="<?php echo $img_m2[ICL_LANGUAGE_CODE]; ?>" class="img-responsive ">
-								<div class="master-image">
-									<h3><span>  Master in Comunicazione e Marketing Politico ed Istituzionale</span></h3>
-									<p>
-										<?php echo $lingua_corso_it[ICL_LANGUAGE_CODE]; ?>
-									</p>
-								</div>
-							</div>
-							<div class="hover-bg bg-color-1"></div><span class="more-info">More Info</span> </div>
-						<div class="course-date bg-color-1 clear-fix">
-							<h3 class="master-info"><span class="glyphicon glyphicon-calendar"></span> <?php echo $titolo_durata[ICL_LANGUAGE_CODE]; ?>
-<span style="font-size: 14px; font-weight: lighter"> <?php echo $durata_part[ICL_LANGUAGE_CODE]; ?></span> </h3>
-						</div>
-					</div>
-				</a>
-				<!--END MASTER -->
-
-
-		</div>
-		</div>
-
-		<!--END ROW -->
-	</div>
-	</div>
-	</div>
-</section>
-<div class="featurette-divider"></div>
-
-</section> <?php get_footer(2017);?>
+<div class="container">
+    <!-- TAB -->
+    <section>
+        <!-- NAVIGAZIONE -->
+        <ul class="nav nav-tabs auto" id="program-type" role="tablist">
+            <!-- ROMA -->
+            <li class="nav-item"><a class="nav-link active" id="tab1-tab" data-toggle="tab" href="#roma" role="tab" aria-controls="tab1" aria-selected="true"><?php echo $sede_rm ?></a></li>
+
+            <!-- MILANO -->
+            <li class="nav-item"><a class="nav-link" id="tab2-tab" data-toggle="tab" href="#milano" role="tab" aria-controls="tab2" aria-selected="false"></a></li>
+
+            <!-- BELLUNO -->
+            <li class="nav-item"><a class="nav-link" id="tab3-tab" data-toggle="tab" href="#belluno" role="tab" aria-controls="tab3" aria-selected="false"></a></li>
+        </ul>
+
+        <!-- CONTENUTO -->
+        <div class="tab-content" id="ProgramType">
+            <!-- ROMA -->
+            <div class="tab-pane fade active in" id="roma" role="tabpanel" aria-labelledby="roma-tab">
+                <div class="row">
+                    <div class="col-12 col-lg-8">
+                        <h2><?php echo $sede_rm ?></h2>
+                        <p>Tutti i Master che si svolgono a <?php echo $sede_rm ?>.</p>
+                    </div>
+                </div>
+<div class="row"></div>               
+            </div>
+
+            <!-- MILANO -->
+            <div class="tab-pane p-4 fade" id="milano" role="tabpanel" aria-labelledby="milano-tab">
+                <div class="row">
+                    <div class="col-12 col-lg-8">
+                        <h2><?php echo ?></h2>
+                        <p>Tutti i Master che si svolgono a <?php echo ?>.</p>
+                    </div>
+                </div>
+<div class="row"></div>
+            </div>
+
+            <!-- BELLUNO -->
+            <div class="tab-pane p-4 fade" id="belluno" role="tabpanel" aria-labelledby="belluno-tab">
+                <div class="row">
+                    <div class="col-12 col-lg-8">
+                        <h2><?php echo ?></h2>
+                        <p>Tutti i Master che si svolgono a <?php echo ?>o.</p>
+                    </div>
+                </div>
+      <div class="row"></div>         
+            </div>
+        </div>
+    </section>
+</div>
+
+
+
+
+<div class="col-md-4 col-sm-6">
+    <span><?php $primo_livello ?></span>
+    <h6><?php $titolo_master_ ?></h6>
+    <p><strong><?php $titolo_durata ?></strong> <?php $durata ?></p>
+    <p><strong><?php $titolo_sede ?></strong> <?php $sede ?></p>
+    <p><strong><?php $titolo_inizio ?></strong> GG Mese AAAA</p>
+    <p><strong><?php $lingua ?></strong> <?php $lingua_corso_ ?></p>
+    <div class="row">
+        <a href="<?php $link_master_ ?>">Scopri</a>
+        <a href="<?php $link_brochure_ ?>">Download Brochure</a>
+    </div>
+</div>
+
+<?php edit_post_link('<p>Modifica Pagina</p>', ''); ?>
+
+
+<?php get_footer( 2017 );?>
