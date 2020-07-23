@@ -33,6 +33,8 @@ Creation Date: 12/20/2018
 
 	<!-- Variabili -->
 
+<!-- INSERIRE SPIEGAZIONE ID DI MASTER E PROGRAMMI CON LINK AL FILE CON GLI ID -->
+
 	<!-- Tipologia -->
 	<?php $primo_livello = array();
 $primo_livello[ 'it' ] = 'Master di primo livello';
@@ -50,13 +52,13 @@ $specialistici[ 'en' ] = 'Specialised Master';
 ?>
 
 <?php $executive = array();
-$specialistici[ 'it' ] = 'Executive Master';
-$specialistici[ 'en' ] = 'Executive Master';
+$executive[ 'it' ] = 'Executive Master';
+$executive[ 'en' ] = 'Executive Master';
 ?>
 
 <?php $altaformazione = array();
-$specialistici[ 'it' ] = 'Programmi di Alta Formazione';
-$specialistici[ 'en' ] = 'Specialisation Programme';
+$altaformazione[ 'it' ] = 'Programmi di Alta Formazione';
+$altaformazione[ 'en' ] = 'Specialisation Programme';
 ?>
 
 	<!-- Lingua -->
