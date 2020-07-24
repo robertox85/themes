@@ -5,7 +5,7 @@
                 <h5>General Management</h5>
                 <p>Per approcciare la leadership con un nuovo mindset, acquisendo un set di strumenti utile a diventare un manager orientato all’innovazione, capace di raccogliere le sfide di un ambiente competitivo in continuo cambiamento. </p>
                 <ul>
-                    <li><a href="https://businessschool.luiss.it/offerta-formativa/executive-program/management-family-business/">Management & Family Business</a></li>
+                    <li><a href="/offerta-formativa/executive-program/management-family-business/">Management & Family Business</a></li>
                 </ul>
             </div>
         </div>
@@ -36,7 +36,6 @@
                     <li><a href="/offerta-formativa/executive-program/management-innovation/">Innovation, Big Data & Digital Transformation</a></li>
                     <li><a href="/offerta-formativa/executive-program/real-estate/"> Real Estate & Infrastructure</a></li>
                     <li><a href="/offerta-formativa/executive-program/sport-tourism-leisure-culture/">Sport, Tourism, Leisure & Culture </a></li>
-                    <li><a href="/offerta-formativa/executive-program/banking-insurance-and-other-financial-institutions/">Banking, Insurance and other Financial Institutions</a></li>
                 </ul>
             </div>
         </div>
