@@ -145,13 +145,13 @@ Summer School (specialistici) - 133
 
 			if ( $query->have_posts() )  : while ( $query->have_posts() ) : $query->the_post(); ?>
 
-                    <?php get_template_part( 'template-parts/card-course', get_post_format() ); ?>
+                    <?php get_template_part( 'pco/template-parts/card-course', get_post_format() ); ?>
 
                     <?php wp_reset_postdata(); ?>
 
                     <?php endwhile; else : ?>
-                    <?php if (ICL_LANGUAGE_CODE=='it') : ?>Non ci sono ancora post.
-                    <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>There are no posts yet.
+                    <?php if (ICL_LANGUAGE_CODE=='it') : ?>Non ci sono ancora programmi.
+                    <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>There are no programmes yet.
                     <?php else : ?>
                     <?php endif; ?>
 
@@ -214,13 +214,13 @@ Summer School (specialistici) - 133
 
 			if ( $query->have_posts() )  : while ( $query->have_posts() ) : $query->the_post(); ?>
 
-                    <?php get_template_part( 'template-parts/card-course', get_post_format() ); ?>
+                    <?php get_template_part( 'pco/template-parts/card-course', get_post_format() ); ?>
 
                     <?php wp_reset_postdata(); ?>
 
                     <?php endwhile; else : ?>
-                    <?php if (ICL_LANGUAGE_CODE=='it') : ?>Non ci sono ancora post.
-                    <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>There are no posts yet.
+                    <?php if (ICL_LANGUAGE_CODE=='it') : ?>Non ci sono ancora programmi.
+                    <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>There are no programmes yet.
                     <?php else : ?>
                     <?php endif; ?>
 
@@ -283,13 +283,13 @@ Summer School (specialistici) - 133
 
 			if ( $query->have_posts() )  : while ( $query->have_posts() ) : $query->the_post(); ?>
 
-                    <?php get_template_part( 'template-parts/card-course', get_post_format() ); ?>
+                    <?php get_template_part( 'pco/template-parts/card-course', get_post_format() ); ?>
 
                     <?php wp_reset_postdata(); ?>
 
                     <?php endwhile; else : ?>
-                    <?php if (ICL_LANGUAGE_CODE=='it') : ?>Non ci sono ancora post.
-                    <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>There are no posts yet.
+                    <?php if (ICL_LANGUAGE_CODE=='it') : ?>Non ci sono ancora programmi.
+                    <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>There are no programmes yet.
                     <?php else : ?>
                     <?php endif; ?>
 
@@ -354,13 +354,13 @@ Summer School (specialistici) - 133
 
 			if ( $query->have_posts() )  : while ( $query->have_posts() ) : $query->the_post(); ?>
 
-                    <?php get_template_part( 'template-parts/card-course', get_post_format() ); ?>
+                    <?php get_template_part( 'pco/template-parts/card-course', get_post_format() ); ?>
 
                     <?php wp_reset_postdata(); ?>
 
                     <?php endwhile; else : ?>
-                    <?php if (ICL_LANGUAGE_CODE=='it') : ?>Non ci sono ancora post.
-                    <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>There are no posts yet.
+                    <?php if (ICL_LANGUAGE_CODE=='it') : ?>Non ci sono ancora programmi.
+                    <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>There are no programmes yet.
                     <?php else : ?>
                     <?php endif; ?>
 
@@ -419,13 +419,13 @@ Summer School (specialistici) - 133
 
 			if ( $query->have_posts() )  : while ( $query->have_posts() ) : $query->the_post(); ?>
 
-                    <?php get_template_part( 'template-parts/card-course', get_post_format() ); ?>
+                    <?php get_template_part( 'pco/template-parts/card-course', get_post_format() ); ?>
 
                     <?php wp_reset_postdata(); ?>
 
                     <?php endwhile; else : ?>
-                    <?php if (ICL_LANGUAGE_CODE=='it') : ?>Non ci sono ancora post.
-                    <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>There are no posts yet.
+                    <?php if (ICL_LANGUAGE_CODE=='it') : ?>Non ci sono ancora programmi.
+                    <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>There are no programmes yet.
                     <?php else : ?>
                     <?php endif; ?>
 
