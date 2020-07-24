@@ -8,6 +8,7 @@ $(function() {
 			 if ($(window).scrollTop() > navHeight) {
 				 $('nav#breadcrumb-top').addClass('fixed');
 				 $('#site-canvas').addClass('notransform');
+				 
 			 }
 			 else {
 				 $('nav#breadcrumb-top').removeClass('fixed');

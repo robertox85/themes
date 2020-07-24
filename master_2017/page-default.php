@@ -59,18 +59,18 @@ while (have_posts()): the_post();
 				<div class="col-md-12 py-32">
 					<h5>Key Facts</h5>
 					<div class="position-absolute share_links">
-							<?php echo do_shortcode('[ssba]'); ?>
-						</div>
+						<?php echo do_shortcode('[ssba]'); ?>
+					</div>
 					<div class="colonna_key_facts-container">
-
 						<?php if (function_exists('dynamic_sidebar')): ?>
 							<?php dynamic_sidebar('Custom')?>
 						<?php endif;?>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
+
 <div class="container">
 	<div class="row">
 
@@ -132,7 +132,7 @@ if (is_front_page()) {?>
 <!--END .container -->
 <?php endwhile; // end of the loop. ?>
 
-
+<?php get_main_site_footer();?>
 
 <!-- Modal -->
 <?php
@@ -146,6 +146,7 @@ foreach ($pages as $page) {
 }
 
 ?>
+
 <?php if ($post): ?>
 <div class="modal fade" id="downloadBrochure" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
 	<div class="modal-dialog" role="document">
@@ -158,8 +159,8 @@ foreach ($pages as $page) {
 			</div>
 			<div class="modal-body">
 				<?php
-echo $post->post_content;
-?>
+					echo $post->post_content;
+				?>
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="button button--negative button--primary" data-dismiss="modal">Close</button>
@@ -167,24 +168,20 @@ echo $post->post_content;
 		</div>
 	</div>
 </div>
-<?php endif;?>
-
-<?php get_main_site_footer();?>
-
-
-
 <script>
 	jQuery(document).ready(function($) {
 
-		document.getElementById("field34350286-first").setAttribute("placeholder", "Nome");
-		document.getElementById("field34350286-last").setAttribute("placeholder", "Cognome");
-		document.getElementById("field34350287").setAttribute("placeholder", "Inserisci il tuo numero di telefono");
-		document.getElementById("field34350288").setAttribute("placeholder", "Inserisci il tuo indirizzo email");
-
+		
 		$('.colonna_key_facts-container .featured-links').on('click', function(e) {
 			e.preventDefault();
 			$('#downloadBrochure').show();
 			$('#downloadBrochure').addClass('in');
+			
+			// document.getElementsByClassName('fsNameFirst')[0].children[0].setAttribute('placeholder','Nome')
+			// document.getElementsByClassName('fsNameLast')[0].children[0].setAttribute('placeholder','Cognome')
+			
+			// document.getElementById("field34350287").setAttribute("placeholder", "Inserisci il tuo numero di telefono");
+			// document.getElementById("field34350288").setAttribute("placeholder", "Inserisci il tuo indirizzo email");
 
 
 
@@ -201,3 +198,7 @@ echo $post->post_content;
 
 	
 </script>
+<?php endif;?>
+
+
+
