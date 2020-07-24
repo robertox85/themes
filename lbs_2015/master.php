@@ -1740,8 +1740,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_34[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_34[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_34[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_34[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 34 -->
@@ -1756,8 +1756,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_21[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_21[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_21[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_21[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 21 -->
@@ -1772,8 +1772,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_14[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_14[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_14[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_14[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 14 -->
@@ -1788,8 +1788,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_15[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_15[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_15[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_15[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 15 -->
@@ -1804,8 +1804,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_16[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_16[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_16[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_16[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 16 -->
@@ -1820,8 +1820,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_6[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_6[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_6[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_6[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 6 -->
@@ -1836,8 +1836,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_4[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_4[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_4[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_4[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 4 -->
@@ -1852,8 +1852,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_5[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_5[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_5[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_5[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 5 -->
@@ -1868,8 +1868,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_8[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_8[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_8[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_8[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 8 -->
@@ -1884,8 +1884,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_3[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_3[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_3[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_3[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 3 -->
@@ -1900,8 +1900,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_37[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_37[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_37[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_37[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 37 -->
@@ -1916,8 +1916,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_22[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_22[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_22[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_22[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 22 -->
@@ -1932,8 +1932,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_1[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_1[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_1[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_1[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 1 -->
@@ -1948,8 +1948,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_9[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_9[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_9[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_9[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 9 -->
@@ -1964,8 +1964,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_10[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_10[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_10[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_10[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 10 -->
@@ -1980,8 +1980,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_11[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_11[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_11[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_11[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 11 -->
@@ -1996,8 +1996,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_32[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_32[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_32[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_32[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 32 -->
@@ -2012,8 +2012,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_31[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_31[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_31[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_31[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 31 -->
@@ -2028,8 +2028,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_25[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_25[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_25[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_25[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 25 -->
@@ -2044,8 +2044,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_29[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_29[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_29[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_29[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 29 -->
@@ -2060,8 +2060,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_27[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_27[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_27[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_27[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 27 -->
@@ -2076,8 +2076,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_30[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_30[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_30[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_30[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 30 -->
@@ -2092,8 +2092,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_38[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_38[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_38[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_38[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 38 -->
@@ -2108,8 +2108,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_41[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_41[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_41[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_41[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 41 -->
@@ -2124,8 +2124,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_39[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_39[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_39[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_39[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 39 -->
@@ -2140,8 +2140,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_40[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_40[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_40[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_40[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 40 -->
@@ -2156,8 +2156,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_42[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_42[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_42[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_42[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 42 -->
@@ -2172,8 +2172,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_19[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_19[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_19[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_19[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 19 -->
@@ -2188,8 +2188,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_20[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_20[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_20[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_20[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 20 -->
@@ -2210,8 +2210,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_45[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_45[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_45[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_45[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 45 -->
@@ -2226,8 +2226,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_50[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_50[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_50[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_50[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 50 -->
@@ -2242,8 +2242,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_24[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_24[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_24[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_24[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 24 -->
@@ -2258,8 +2258,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_46[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_46[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_46[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_46[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 46 -->
@@ -2274,8 +2274,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_47[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_47[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_47[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_47[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 47 -->
@@ -2290,8 +2290,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_48[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_48[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_48[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_48[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 48 -->
@@ -2306,8 +2306,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_49[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_49[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_49[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_49[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 49 -->
@@ -2322,8 +2322,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_44[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_44[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_44[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_44[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 44 -->
@@ -2338,8 +2338,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_43[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_43[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_43[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_43[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 43 -->
@@ -2362,7 +2362,7 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
 	                            <a href="<?php echo $link_programma_a1[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_a1[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_a1[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END PROGRAMMA A1 -->
@@ -2378,7 +2378,7 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
 	                            <a href="<?php echo $link_programma_a2[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_a2[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_a2[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END PROGRAMMA A2 -->
@@ -2394,7 +2394,7 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
 	                            <a href="<?php echo $link_programma_a3[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_a3[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_a3[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END PROGRAMMA A3 -->
@@ -2410,7 +2410,7 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
 	                            <a href="<?php echo $link_programma_a4[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_a4[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_a4[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END PROGRAMMA A4 -->
@@ -2442,8 +2442,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_18[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_18[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_18[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_18[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 18 -->
@@ -2458,8 +2458,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_23[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_23[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_23[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_23[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 23 -->
@@ -2474,8 +2474,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_2[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_2[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_2[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_2[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 2 -->
@@ -2490,8 +2490,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_12[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_12[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_12[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_12[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 12 -->
@@ -2506,8 +2506,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_33[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_33[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_33[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_33[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 33 -->
@@ -2522,8 +2522,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_26[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_26[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_26[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_26[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 26 -->
@@ -2556,8 +2556,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_17[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_17[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_17[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_17[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 17 -->
@@ -2572,8 +2572,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_7[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_7[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_7[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_7[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 7 -->
@@ -2588,8 +2588,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_36[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_36[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_36[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_36[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 36 -->
@@ -2604,8 +2604,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_13[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_13[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_13[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_13[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 13 -->
@@ -2620,8 +2620,8 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
-	                            <a href="<?php echo $link_master_28[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo $link_brochure_28[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            <div class="col-xs-12"><a href="<?php echo $link_master_28[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_28[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 28 -->
