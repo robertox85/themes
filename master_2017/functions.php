@@ -295,7 +295,7 @@ function theme_color_class( $classes ) {
     if ( !empty(get_theme_mod( 'theme_color' )) ) {
         $classes[] = get_theme_mod( 'theme_color' );
     }else{
-        $classes[] = 'theme-blue';
+        $classes[] = 'theme-red';
     }
     return $classes;
 }

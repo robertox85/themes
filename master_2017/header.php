@@ -176,8 +176,10 @@ border: 1px solid #fdbb4d;
       </div>
       <nav id="secondary-nav" class="col-md-6">
         <ul>
-          <li><a href="http://www.luiss.it/">LUISS.it</a></li>
-          <li><a href="javascript:void(0)" id="network-offcanvas-trigger">LUISS Network</a></li>
+          <li><a href="http://www.luiss.it/">Luiss.it</a></li>
+          <li><a href="javascript:void(0)" id="network-offcanvas-trigger">Luiss Network</a></li>
+          <li><a href="https://businessschool.luiss.it/milano"><strong>Milano</strong></a></li>
+          <li><a href="https://businessschool.luiss.it/belluno"><strong>Belluno</strong></a></li>
         </ul>
       </nav>
       <?php language_selector_flags();?>

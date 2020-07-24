@@ -54,6 +54,16 @@
     #breadcrumb-top.fixed{
       background: #fff;
     }
+    .breadcrumb a,
+    #secondary-nav a{
+      color: $blue;
+    }
+    #menu-main{
+      #menu-item-25941,
+      #menu-item-34570{
+        display: none;
+      }
+    }
     
 
     // color: $textColor;

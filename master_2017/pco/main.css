@@ -8462,6 +8462,16 @@ body.theme-blue #breadcrumb-top.fixed {
   background: #fff;
 }
 
+body.theme-blue .breadcrumb a,
+body.theme-blue #secondary-nav a {
+  color: #003A70;
+}
+
+body.theme-blue #menu-main #menu-item-25941,
+body.theme-blue #menu-main #menu-item-34570 {
+  display: none;
+}
+
 body.theme-blue h1 {
   color: #003A70;
 }
@@ -8857,6 +8867,16 @@ body.theme-light_blue #content-title {
 body.theme-light_blue #breadcrumb-top.fixed .breadcrumb,
 body.theme-light_blue #breadcrumb-top.fixed {
   background: #fff;
+}
+
+body.theme-light_blue .breadcrumb a,
+body.theme-light_blue #secondary-nav a {
+  color: #003A70;
+}
+
+body.theme-light_blue #menu-main #menu-item-25941,
+body.theme-light_blue #menu-main #menu-item-34570 {
+  display: none;
 }
 
 body.theme-light_blue h1 {
@@ -9256,6 +9276,16 @@ body.theme-green #breadcrumb-top.fixed {
   background: #fff;
 }
 
+body.theme-green .breadcrumb a,
+body.theme-green #secondary-nav a {
+  color: #003A70;
+}
+
+body.theme-green #menu-main #menu-item-25941,
+body.theme-green #menu-main #menu-item-34570 {
+  display: none;
+}
+
 body.theme-green h1 {
   color: #00968F;
 }
@@ -9651,6 +9681,16 @@ body.theme-red #content-title {
 body.theme-red #breadcrumb-top.fixed .breadcrumb,
 body.theme-red #breadcrumb-top.fixed {
   background: #fff;
+}
+
+body.theme-red .breadcrumb a,
+body.theme-red #secondary-nav a {
+  color: #003A70;
+}
+
+body.theme-red #menu-main #menu-item-25941,
+body.theme-red #menu-main #menu-item-34570 {
+  display: none;
 }
 
 body.theme-red h1 {
@@ -10050,6 +10090,16 @@ body.theme-orange #breadcrumb-top.fixed {
   background: #fff;
 }
 
+body.theme-orange .breadcrumb a,
+body.theme-orange #secondary-nav a {
+  color: #003A70;
+}
+
+body.theme-orange #menu-main #menu-item-25941,
+body.theme-orange #menu-main #menu-item-34570 {
+  display: none;
+}
+
 body.theme-orange h1 {
   color: #D45D00;
 }
@@ -10445,6 +10495,16 @@ body.theme-gold #content-title {
 body.theme-gold #breadcrumb-top.fixed .breadcrumb,
 body.theme-gold #breadcrumb-top.fixed {
   background: #fff;
+}
+
+body.theme-gold .breadcrumb a,
+body.theme-gold #secondary-nav a {
+  color: #003A70;
+}
+
+body.theme-gold #menu-main #menu-item-25941,
+body.theme-gold #menu-main #menu-item-34570 {
+  display: none;
 }
 
 body.theme-gold h1 {
