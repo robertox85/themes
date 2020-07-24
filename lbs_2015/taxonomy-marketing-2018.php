@@ -104,7 +104,7 @@ Summer School (specialistici) - 133/134
 				'terms' => ( int )$query_tax_value
 			);
                     
-            $query_tax_value = 30;
+            $query_tax_value = 29;
             $tax_query[] = array(
 				'taxonomy' => 'tematiche',
 				'field' => 'id',
@@ -178,7 +178,7 @@ Summer School (specialistici) - 133/134
 				'terms' => ( int )$query_tax_value
 			);
             
-            $query_tax_value = 30;
+            $query_tax_value = 29;
             $tax_query[] = array(
 				'taxonomy' => 'tematiche',
 				'field' => 'id',
@@ -247,7 +247,7 @@ Summer School (specialistici) - 133/134
 				'terms' => ( int )$query_tax_value
 			);
 
-                $query_tax_value = 30;
+                $query_tax_value = 29;
             $tax_query[] = array(
 				'taxonomy' => 'tematiche',
 				'field' => 'id',
@@ -318,7 +318,7 @@ Summer School (specialistici) - 133/134
 				'terms' => ( int )$query_tax_value
 			);
                 
-                $query_tax_value = 30;
+                $query_tax_value = 29;
             $tax_query[] = array(
 				'taxonomy' => 'tematiche',
 				'field' => 'id',
@@ -383,7 +383,7 @@ Summer School (specialistici) - 133/134
 				'terms' => ( int )$query_tax_value
 			);
                 
-                $query_tax_value = 30;
+                $query_tax_value = 29;
             $tax_query[] = array(
 				'taxonomy' => 'tematiche',
 				'field' => 'id',
