@@ -4,10 +4,11 @@ Template Name: Marketing 2018
 */
 get_header( 2017 );?> 
 
+
 <!-- Query per le pagine 
 
 Tematiche (ID)
-Accounting, Finance & Control - 30
+Accounting, Finance & Control - 29
 -Banking, Insurance and other Financial Institutions - 35
 -Big Data e Business Analytics - 101
 Communication & Lobbying - 97
@@ -17,7 +18,7 @@ Healthcare, Public Sector & No Profit - 36
 Innovation, Big Data & Digital Transformation - 10
 Management & Family Business - 58
 Marketing & Sales - 30
-People, Organization Development & Leadership - 32
+People, Organization Development & Leadership - 30
 -Pharma and Medical Device - 96
 Project Management - 31
 Real Estate & Infrastructure - 37
