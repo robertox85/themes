@@ -166,23 +166,26 @@ border: 1px solid #fdbb4d;
 <body <?php body_class();?>>
 <div id="site-wrapper">
 <div id="site-canvas">
-<header id="masthead">
+<header id="masthead" class="pb-24 pl-0">
   <div class="container">
     <div class="row">
       <div id="mobile-menu-trigger"><a class="main-menu-toggle menu-icon" title="apri il menu"><span></span></a></div>
-      <div class="col-md-4" id="logo">
-        <a href="https://businessschool.luiss.it" title="Home page">
-          <img src="https://businessschool.luiss.it/wp-content/themes/master_2017/img/logo-new.png" alt="Luiss Business School Logo" id="logo-img" /></a>
-      </div>
-      <nav id="secondary-nav" class="col-md-6">
-        <ul>
-          <li><a href="http://www.luiss.it/">Luiss.it</a></li>
-          <li><a href="javascript:void(0)" id="network-offcanvas-trigger">Luiss Network</a></li>
-          <li><a href="https://businessschool.luiss.it/milano"><strong>Milano</strong></a></li>
-          <li><a href="https://businessschool.luiss.it/belluno"><strong>Belluno</strong></a></li>
-        </ul>
-      </nav>
-      <?php language_selector_flags();?>
+        <div class="col-md-4" id="logo">
+          <a href="https://businessschool.luiss.it" title="Home page">
+            <img src="https://businessschool.luiss.it/wp-content/themes/master_2017/img/logo-new.png" alt="Luiss Business School Logo" id="logo-img" /></a>
+        </div>
+        <nav id="secondary-nav" class="col-md-6">
+          <ul>
+            <li><a href="http://www.luiss.it/">Luiss.it</a></li>
+            <li><a href="javascript:void(0)" id="network-offcanvas-trigger">Luiss Network</a></li>
+            <li><a href="https://businessschool.luiss.it/milano"><strong>Milano</strong></a></li>
+            <li><a href="https://businessschool.luiss.it/belluno"><strong>Belluno</strong></a></li>
+          </ul>
+        </nav>
+        <div class="col-md-2">
+          <?php language_selector_flags();?>
+        </div>
+        
     </div>
     <!-- END .row -->
   </div>
@@ -252,18 +255,18 @@ border: 1px solid #fdbb4d;
     </div>
   </div>
 </nav>
-<nav id="breadcrumb-top" >
+<nav id="breadcrumb-top-2" >
   <div class="container px-0">
-    <div class="row breadcrumb px-0">
-      <?php if (function_exists('bcn_display')) {
-    bcn_display();
-}
+    <div class="row breadcrumb px-0 pt-24 pb-16">
+      <?php 
+        if (function_exists('bcn_display')) {
+          bcn_display();
+        }
+        $back_to_top_text = array();
+        $back_to_top_text['it'] = 'Torna su';
+        $back_to_top_text['en'] = 'Back to top';
 
-$back_to_top_text = array();
-$back_to_top_text['it'] = 'Torna su';
-$back_to_top_text['en'] = 'Back to top';
-
-?>
+      ?>
       <span class="back-to-top"><a id="backtotop" href="javascript:void(0)"><i class="fa fa-angle-up"></i> <?php echo $back_to_top_text[ICL_LANGUAGE_CODE] ?></a></span> </div>
     <!--END .row -->
   </div>
