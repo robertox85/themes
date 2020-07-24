@@ -195,9 +195,6 @@ echo $post->post_content;
 			$('#downloadBrochure').removeClass('in');
 		});
 
-		
-		
-		
 
 
 	});

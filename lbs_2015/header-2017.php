@@ -203,17 +203,18 @@ if (is_page_template('home-2017.php')) {
 </nav>
 <nav id="breadcrumb-top" >
   <div class="container">
-    <div class="row breadcrumb">
-						<?php if (function_exists('bcn_display')) {
-    bcn_display();
-}
+    <div class="row breadcrumb ">
+    <?php 
+      if (function_exists('bcn_display')) {
+          bcn_display();
+      }
 
-$back_to_top_text = array();
-$back_to_top_text['it'] = 'Torna su';
-$back_to_top_text['en'] = 'Back to top';
+      $back_to_top_text = array();
+      $back_to_top_text['it'] = 'Torna su';
+      $back_to_top_text['en'] = 'Back to top';
 
-?>
-						<span class="back-to-top"><a id="backtotop" href="javascript:void(0)"><i class="fa fa-angle-up"></i> <?php echo $back_to_top_text[ICL_LANGUAGE_CODE] ?></a></span> </div>
+    ?>
+    <span class="back-to-top"><a id="backtotop" href="javascript:void(0)"><i class="fa fa-angle-up"></i> <?php echo $back_to_top_text[ICL_LANGUAGE_CODE] ?></a></span> </div>
     <!--END .row -->
   </div>
   <!-- .END container -->

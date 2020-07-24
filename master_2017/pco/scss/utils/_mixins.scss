@@ -26,7 +26,7 @@
     
     font-family: 'Luiss Sans', sans-serif !important;
     font-weight: normal;
-
+    
     h1,
     h2,
     h3,
@@ -37,11 +37,131 @@
     p {
       font-family: 'Luiss Sans', sans-serif !important;
       font-weight: normal;
+      color: $blue;
+    }
+    
+    .site-main h3{
+      margin-bottom: rem(30px);
+      margin-top: rem(50px);
+    }
+    
+   
+    .breadcrumb,
+    .breadcrumb span,
+    .breadcrumb a{
+      
+      color: #A1A1A1!important;
+      font-size: rem(16px);
+      color: #A1A1A1!important;
+      line-height: rem(16px);
+      
+    }
+    #menu-main{
+      border-color:$blue;
+      li{
+        &:hover{
+          a{
+            background-color: $blue;
+          }
+        }
+      }
+      .sub-menu{
+        background-color: $white;
+        column-gap: 0;
+        li a{
+          background-color: $white;
+          color: $blue;
+        }
+      }
+      
+
+      li a,
+      .current-menu-item a, 
+      .current-page-ancestor a{
+        color: $blue;
+      }
+    }
+    
+    
+    #nav-main{
+      
+      .searchbar a{
+        padding: 16px 22px;
+        color: $blue;
+      }
+      .drop-open a{
+        background-color: $blue;
+        color: $white;
+      }
+      .gsc-search-box-tools .gsc-search-box .gsc-input{
+        height: auto;
+      }
+    }
+    
+    .sidebar-master {
+      .block-dark {
+        border-top:1px solid #3C3C3C;
+        background-color: rgba(0,58,112, 0.1);
+        font-size: rem(36px);
+        line-height: rem(40px);
+        position: relative;
+        
+        a,
+        p,
+        .textwidget{
+          color: $blue;
+        }
+
+        &:before {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          width: 48px;
+          height: 48px;
+          background-color: $bgColor;
+          mask-image: url('images/pattern.svg');
+        }
+
+       
+        h3 {
+          font-family: 'Luiss Sans', sans-serif !important;
+          color: $textColor;
+          font-size: rem(36px);
+          line-height: rem(40px);
+          text-transform: lowercase;
+          font-variant: initial;
+          &::first-letter{
+            text-transform: uppercase;
+          }
+        }
+      }
+      > h2 {
+        display: none;
+      }
+      .block{
+        display: none;
+      }
+      
+
+      .block:last-child {
+        display: block!important;
+      }
+      a.button {
+        border: 1px solid $bgColor;
+        color: $bgColor;
+      }
+      a.button.arr.featured-links {
+        display: none !important;
+      }
     }
 
+    
+
     main.site-master h3{
-      font-size: inherit;
+      @include font-size(48px);
       text-transform: lowercase;
+      
       &::first-letter{
         text-transform: uppercase;        /* Make the first letters uppercase      */
       }
@@ -75,56 +195,19 @@
       }
     }
     
-
-    // color: $textColor;
-
-    // a {
-    //   color: $textColor;
-    // }
-
-    // a,
-    // p {
-    //   color: $textColor;
-    // }
-
-    // .cta {
-    //   color: $textColor;
-    // }
-
-    // .meta {
-    //   color: $textColor;
-    // }
-
-    h1 {
-      color: $textColor;
-    }
-
-    h2 {
-      color: $textColor;
-    }
-
-    h3 {
-      color: $textColor;
-    }
-
-    h4 {
-      color: $textColor;
-    }
-
-    h5 {
-      color: $textColor;
-    }
-
-    h6 {
-      color: $textColor;
-    }
+    
+    
 
     .sidebar_navigation {
       padding-top: 36px;
       padding-bottom: 36px;
       margin-top: 65px;
       border-right: 1px solid #e8e8e8;
+    
       li {
+        a{
+          font-weight: bold;
+        }
         &:not(:last-of-type) {
           border-bottom: 1px solid #e8e8e8;
         }
@@ -138,64 +221,7 @@
       }
     }
 
-    .sidebar-master {
-      .block-dark {
-        // background-color: transparentize($color: $blue, $amount: 0.8);
-        background-color: rgba(0,58,112, 0.1);
-        font-size: rem(36px);
-        color: $blue;
-        text-align: left;
-        line-height: rem(40px);
-        position: relative;
-        
-        a,
-        p,
-        .textwidget{
-          color: $blue;
-        }
-        &:before {
-          content: '';
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 48px;
-          height: 48px;
-          background-color: $bgColor;
-          mask-image: url('images/pattern.svg');
-        }
-
-        a,
-        p {
-          // color: $textColor;
-        }
-        h3 {
-          font-family: 'Luiss Sans', sans-serif !important;
-          font-weight: normal;
-          color: $textColor;
-          font-size: rem(36px);
-          line-height: rem(40px);
-          text-transform: lowercase;
-        }
-      }
-      > h2 {
-        display: none;
-      }
-      .block{
-        display: none;
-      }
-      
-
-      .block:last-child {
-        display: block!important;
-      }
-      a.button {
-        border: 1px solid $bgColor;
-        color: $bgColor;
-      }
-      a.button.arr.featured-links {
-        display: none !important;
-      }
-    }
+    
 
     .colonna_key_facts {
       background: $bgColor;
@@ -240,6 +266,20 @@
           padding: 25px 70px;
           margin-bottom: 0;
           margin-top: 16px;
+          transition: .3s;
+          border: 1px solid transparent;
+          &.disabled,
+          &:disabled{
+              opacity: .3;
+          }
+          &:hover{
+            background: $bgColor;
+            border: 1px solid $white;
+            color: $white;
+          }
+          &:focus{
+            box-shadow: inset 0 0 10px 0 rgba(60,60,60,0.20);
+          }
         }
       }
     }
@@ -269,14 +309,6 @@
       p{
         font-size: rem(24px);
         line-height: rem(32px);
-        // column-count: 2;
-        // .featured-links{
-        //   position: absolute;
-        //   left: 0;
-        //   bottom: -90px;
-        //   margin: 0;
-        // }
-        
       }
       h1,p{
         color: $white;
@@ -311,7 +343,6 @@
       top: 0;
       width: 365px;
       h2{
-        font-family: 'Luiss Sans', sans-serif !important;
         font-weight: normal;
         font-size: rem(16px);
         color: #FFFFFF;
@@ -408,7 +439,6 @@
       background: $blue;
       p{
         color: $white;
-        font-family: 'Luiss Sans', sans-serif !important;
         font-weight: normal;
         font-size: rem(16px);
         color: #FFFFFF;
@@ -416,7 +446,6 @@
       }
     }
     .footer_container {
-      font-family: 'Luiss Sans', sans-serif !important;
       font-weight: normal;
       background: none repeat scroll 0 0 $blue;
       color: $white;

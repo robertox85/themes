@@ -28,6 +28,7 @@ $mailing['en'] = "SUBSCRIBE TO OUR MAILING LIST";
           <div class="col-md-12">
             <h2 class="headline"><?php echo $certificazioni_riconoscimenti[ICL_LANGUAGE_CODE]; ?></h2>
             <div class="footer-logos" style="width:100%">
+              <h3 class="color__blue mb-20 mt-132">Certificazioni e riconoscimenti</h3>
               <ul style="display:flex;justify-content: space-between">
                 <li class="equis"><a href="<?php echo site_url() ?>/perche-luiss-bs/certificazioni-e-riconoscimenti/" target="_blank">Equis</a></li>
                 <li><a href="<?php echo site_url() ?>/perche-luiss-bs/certificazioni-e-riconoscimenti/" target="_blank"><img src="<?php echo site_url() ?>/wp-content/uploads/2018/01/ISO_9001_2015_BW.jpg" alt="Azienda con sistema di Gestione qualità certificato da DNV GL iISO 9001"  class="img-responsive"/></a></li>
