@@ -30,6 +30,15 @@ Executive Course - 26
 Flex - 154
 Full time - 24
 
+Categorie (ID)
+
+Corso/Percorso/Master - 15
+Executive Programmes - 61
+Skill - 163
+Specialistica Executive - 136
+Specialistica Post Lauream - 140
+Summer School (specialistici) - 133
+
 -->
 
 <div class="container-fluid <?php if (has_post_thumbnail( $post->ID ) ): ?>
@@ -428,7 +437,15 @@ Full time - 24
     </section>
 </div>
 
-<section></section>
+<!-- SKILL LAB -->
+<div class="container-fluid">
+    <div class="container">
+        <?php get_template_part( 'pco/template-parts/section-skill-lab', get_post_format() ); ?>
+    </div>
+</div>
+
+<!-- INDIVIDUAL PROGRAMME -->
+<section>
 <div class="container-fluid">
     <div class="container">
         <div class="row">
@@ -439,11 +456,12 @@ Full time - 24
         </div>
     </div>
 </div>
+</section>
 
 <!-- OFFERTA COMPLETA -->
 <div class="container-fluid">
     <div class="container">
-        <?php get_template_part( 'template-parts/section-executive-by-tematica', get_post_format() ); ?>
+        <?php get_template_part( 'pco/template-parts/section-executive-by-tematica', get_post_format() ); ?>
     </div>
 </div>
 
