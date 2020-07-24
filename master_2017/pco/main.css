@@ -8447,6 +8447,16 @@ body.theme-blue p {
   font-weight: normal;
 }
 
+body.theme-blue main.site-master h3 {
+  font-size: inherit;
+  text-transform: lowercase;
+}
+
+body.theme-blue main.site-master h3::first-letter {
+  text-transform: uppercase;
+  /* Make the first letters uppercase      */
+}
+
 body.theme-blue #masthead,
 body.theme-blue #nav-main,
 body.theme-blue #content-title,
@@ -8462,6 +8472,7 @@ body.theme-blue #breadcrumb-top.fixed {
   background: #fff;
 }
 
+body.theme-blue #main a,
 body.theme-blue .breadcrumb a,
 body.theme-blue #secondary-nav a {
   color: #003A70;
@@ -8593,6 +8604,10 @@ body.theme-blue .colonna_key_facts .colonna_key_facts-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+body.theme-blue .colonna_key_facts .colonna_key_facts-container .block .textwidget p {
+  font-weight: bold;
 }
 
 body.theme-blue .colonna_key_facts .colonna_key_facts-container .block:not(:last-child) {
@@ -8854,6 +8869,16 @@ body.theme-light_blue p {
   font-weight: normal;
 }
 
+body.theme-light_blue main.site-master h3 {
+  font-size: inherit;
+  text-transform: lowercase;
+}
+
+body.theme-light_blue main.site-master h3::first-letter {
+  text-transform: uppercase;
+  /* Make the first letters uppercase      */
+}
+
 body.theme-light_blue #masthead,
 body.theme-light_blue #nav-main,
 body.theme-light_blue #content-title,
@@ -8869,6 +8894,7 @@ body.theme-light_blue #breadcrumb-top.fixed {
   background: #fff;
 }
 
+body.theme-light_blue #main a,
 body.theme-light_blue .breadcrumb a,
 body.theme-light_blue #secondary-nav a {
   color: #003A70;
@@ -9000,6 +9026,10 @@ body.theme-light_blue .colonna_key_facts .colonna_key_facts-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+body.theme-light_blue .colonna_key_facts .colonna_key_facts-container .block .textwidget p {
+  font-weight: bold;
 }
 
 body.theme-light_blue .colonna_key_facts .colonna_key_facts-container .block:not(:last-child) {
@@ -9261,6 +9291,16 @@ body.theme-green p {
   font-weight: normal;
 }
 
+body.theme-green main.site-master h3 {
+  font-size: inherit;
+  text-transform: lowercase;
+}
+
+body.theme-green main.site-master h3::first-letter {
+  text-transform: uppercase;
+  /* Make the first letters uppercase      */
+}
+
 body.theme-green #masthead,
 body.theme-green #nav-main,
 body.theme-green #content-title,
@@ -9276,6 +9316,7 @@ body.theme-green #breadcrumb-top.fixed {
   background: #fff;
 }
 
+body.theme-green #main a,
 body.theme-green .breadcrumb a,
 body.theme-green #secondary-nav a {
   color: #003A70;
@@ -9407,6 +9448,10 @@ body.theme-green .colonna_key_facts .colonna_key_facts-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+body.theme-green .colonna_key_facts .colonna_key_facts-container .block .textwidget p {
+  font-weight: bold;
 }
 
 body.theme-green .colonna_key_facts .colonna_key_facts-container .block:not(:last-child) {
@@ -9668,6 +9713,16 @@ body.theme-red p {
   font-weight: normal;
 }
 
+body.theme-red main.site-master h3 {
+  font-size: inherit;
+  text-transform: lowercase;
+}
+
+body.theme-red main.site-master h3::first-letter {
+  text-transform: uppercase;
+  /* Make the first letters uppercase      */
+}
+
 body.theme-red #masthead,
 body.theme-red #nav-main,
 body.theme-red #content-title,
@@ -9683,6 +9738,7 @@ body.theme-red #breadcrumb-top.fixed {
   background: #fff;
 }
 
+body.theme-red #main a,
 body.theme-red .breadcrumb a,
 body.theme-red #secondary-nav a {
   color: #003A70;
@@ -9814,6 +9870,10 @@ body.theme-red .colonna_key_facts .colonna_key_facts-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+body.theme-red .colonna_key_facts .colonna_key_facts-container .block .textwidget p {
+  font-weight: bold;
 }
 
 body.theme-red .colonna_key_facts .colonna_key_facts-container .block:not(:last-child) {
@@ -10075,6 +10135,16 @@ body.theme-orange p {
   font-weight: normal;
 }
 
+body.theme-orange main.site-master h3 {
+  font-size: inherit;
+  text-transform: lowercase;
+}
+
+body.theme-orange main.site-master h3::first-letter {
+  text-transform: uppercase;
+  /* Make the first letters uppercase      */
+}
+
 body.theme-orange #masthead,
 body.theme-orange #nav-main,
 body.theme-orange #content-title,
@@ -10090,6 +10160,7 @@ body.theme-orange #breadcrumb-top.fixed {
   background: #fff;
 }
 
+body.theme-orange #main a,
 body.theme-orange .breadcrumb a,
 body.theme-orange #secondary-nav a {
   color: #003A70;
@@ -10221,6 +10292,10 @@ body.theme-orange .colonna_key_facts .colonna_key_facts-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+body.theme-orange .colonna_key_facts .colonna_key_facts-container .block .textwidget p {
+  font-weight: bold;
 }
 
 body.theme-orange .colonna_key_facts .colonna_key_facts-container .block:not(:last-child) {
@@ -10482,6 +10557,16 @@ body.theme-gold p {
   font-weight: normal;
 }
 
+body.theme-gold main.site-master h3 {
+  font-size: inherit;
+  text-transform: lowercase;
+}
+
+body.theme-gold main.site-master h3::first-letter {
+  text-transform: uppercase;
+  /* Make the first letters uppercase      */
+}
+
 body.theme-gold #masthead,
 body.theme-gold #nav-main,
 body.theme-gold #content-title,
@@ -10497,6 +10582,7 @@ body.theme-gold #breadcrumb-top.fixed {
   background: #fff;
 }
 
+body.theme-gold #main a,
 body.theme-gold .breadcrumb a,
 body.theme-gold #secondary-nav a {
   color: #003A70;
@@ -10628,6 +10714,10 @@ body.theme-gold .colonna_key_facts .colonna_key_facts-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+body.theme-gold .colonna_key_facts .colonna_key_facts-container .block .textwidget p {
+  font-weight: bold;
 }
 
 body.theme-gold .colonna_key_facts .colonna_key_facts-container .block:not(:last-child) {

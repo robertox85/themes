@@ -39,6 +39,14 @@
       font-weight: normal;
     }
 
+    main.site-master h3{
+      font-size: inherit;
+      text-transform: lowercase;
+      &::first-letter{
+        text-transform: uppercase;        /* Make the first letters uppercase      */
+      }
+    }
+    
 
     #masthead, 
     #nav-main, 
@@ -54,6 +62,8 @@
     #breadcrumb-top.fixed{
       background: #fff;
     }
+    
+    #main a,
     .breadcrumb a,
     #secondary-nav a{
       color: $blue;
@@ -199,6 +209,13 @@
 
       .colonna_key_facts-container {
         display: flex;
+        .block{
+          .textwidget {
+            p{
+              font-weight: bold;
+            }
+          }
+        }
         .block:not(:last-child) {
           margin-right: rem(48px);
         }

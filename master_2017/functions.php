@@ -299,3 +299,21 @@ function theme_color_class( $classes ) {
     }
     return $classes;
 }
+
+function modify_home_in_nav_menu_objects( $items, $args ) {
+    foreach ( $items as $k => $object ) {
+        $object->title = ucwords(strtolower($object->title));
+    }
+    return $items;
+}
+add_filter( 'wp_nav_menu_objects', 'modify_home_in_nav_menu_objects', 10, 2 );
+
+// add_filter('the_content', 'add_text_to_content');
+// function add_text_to_content($content)
+// {
+
+//     $pattern = '/<h3>(\w)<\/h3>/s';
+// 	$replace = '<h3>\L$1</h3>';
+// 	$content = preg_replace($pattern, $replace, $content);
+//     return $content;
+// }

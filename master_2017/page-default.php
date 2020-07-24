@@ -81,15 +81,15 @@ while (have_posts()): the_post();
 
 				<?php
 
-wp_nav_menu(array(
-    'menu' => 'Master',
-    'container_id' => '',
-    'container_class' => 'bg__white',
-    'container' => 'div',
-    'menu_class' => 'list-unstyled sidebar_navigation ',
-));
+				wp_nav_menu(array(
+					'menu' => 'Master',
+					'container_id' => '',
+					'container_class' => 'bg__white',
+					'container' => 'div',
+					'menu_class' => 'list-unstyled sidebar_navigation ',
+				));
 
-?>
+				?>
 		</nav>
 
 		<main id="main" class="site-main site-master col-lg-6 col-md-6" role="main">
@@ -195,5 +195,12 @@ echo $post->post_content;
 			$('#downloadBrochure').removeClass('in');
 		});
 
+		
+		
+		
+
+
 	});
+
+	
 </script>
