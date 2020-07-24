@@ -1727,9 +1727,9 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                    </div>
 	                </div>
 	                <div class="row">
-                        
+                        <div class="col-12">
                         <h3><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></h3>
-                        
+                        </div>
 	                    <!-- MASTER 34 -->
 	                    <div class="col-md-4 col-sm-6">
 	                        <span><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
@@ -2197,9 +2197,9 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
                     </div>
                     
                     <div class="row">
-                        
+                        <div class="col-12">
                         <h3><?php echo $secondo_livello[ICL_LANGUAGE_CODE] ?></h3>
-                        
+                        </div>
                         <!-- MASTER 45 -->
 	                    <div class="col-md-4 col-sm-6">
 	                        <span><?php echo $secondo_livello[ICL_LANGUAGE_CODE] ?></span>
@@ -2348,9 +2348,9 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
                     
                     
                     <div class="row">
-                        
+                        <div class="col-12">
                         <h3><?php echo $altaformazione[ICL_LANGUAGE_CODE] ?></h3>
-                        
+                        </div>
                         <!-- PROGRAMMA A1 -->
 	                    <div class="col-md-4 col-sm-6">
 	                        <span><?php echo $altaformazione[ICL_LANGUAGE_CODE] ?></span>
@@ -2429,9 +2429,9 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                    </div>
 	                </div>
 	                <div class="row">
-                    
+                    <div class="col-12">
                         <h3><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></h3>
-                        
+                        </div>
                         <!-- MASTER 18 -->
 	                    <div class="col-md-4 col-sm-6">
 	                        <span><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
@@ -2542,7 +2542,9 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	                </div>
 	                <div class="row">
                     
+                        <div class="col-12">
                      <h3><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></h3>
+                        </div>
                         
                         <!-- MASTER 17 -->
 	                    <div class="col-md-4 col-sm-6">
