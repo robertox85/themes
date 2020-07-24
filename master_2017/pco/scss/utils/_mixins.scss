@@ -23,6 +23,7 @@
 @mixin theme($name, $bgColor, $textColor) {
   
   body.theme-#{$name} {
+    
     font-family: 'Luiss Sans', sans-serif !important;
     font-weight: normal;
 
@@ -39,29 +40,40 @@
     }
 
 
-    
-    #header-master {
+    #masthead, 
+    #nav-main, 
+    #content-title, 
+    #breadcrumb-top,
+    #header-master,
+    #nav-main, 
+    #content-title{
       background: transparent;
     }
-
-    color: $textColor;
-
-    a {
-      color: $textColor;
+    
+    #breadcrumb-top.fixed .breadcrumb,
+    #breadcrumb-top.fixed{
+      background: #fff;
     }
+    
 
-    a,
-    p {
-      color: $textColor;
-    }
+    // color: $textColor;
 
-    .cta {
-      color: $textColor;
-    }
+    // a {
+    //   color: $textColor;
+    // }
 
-    .meta {
-      color: $textColor;
-    }
+    // a,
+    // p {
+    //   color: $textColor;
+    // }
+
+    // .cta {
+    //   color: $textColor;
+    // }
+
+    // .meta {
+    //   color: $textColor;
+    // }
 
     h1 {
       color: $textColor;
@@ -86,6 +98,7 @@
     h6 {
       color: $textColor;
     }
+
     .sidebar_navigation {
       padding-top: 36px;
       padding-bottom: 36px;
@@ -107,13 +120,19 @@
 
     .sidebar-master {
       .block-dark {
-        background: transparentize($color: $bgColor, $amount: 0.7);
+        // background-color: transparentize($color: $blue, $amount: 0.8);
+        background-color: rgba(0,58,112, 0.1);
         font-size: rem(36px);
-        color: $textColor;
+        color: $blue;
         text-align: left;
         line-height: rem(40px);
         position: relative;
 
+        a,
+        p,
+        .textwidget{
+          color: $blue;
+        }
         &:before {
           content: '';
           position: absolute;
@@ -127,7 +146,7 @@
 
         a,
         p {
-          color: $textColor;
+          // color: $textColor;
         }
         h3 {
           font-family: 'Luiss Sans', sans-serif !important;

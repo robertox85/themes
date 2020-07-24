@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html <?php language_attributes(); ?>>
+<html <?php language_attributes();?>>
 <head>
-<meta charset="<?php bloginfo( 'charset' ); ?>">
+<meta charset="<?php bloginfo('charset');?>">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link rel="profile" href="http://gmpg.org/xfn/11">
-<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+<link rel="pingback" href="<?php bloginfo('pingback_url');?>">
 <title>
 <?php
-     global $page, $paged;
-    wp_title( '|', true, 'right' );
-     bloginfo( 'name' );
+global $page, $paged;
+wp_title('|', true, 'right');
+bloginfo('name');
 
 ?>
 </title>
@@ -42,15 +42,15 @@ n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window,document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '203976930981295'); 
+fbq('init', '203976930981295');
 fbq('track', 'PageView');
 </script>
 <noscript>
-<img height="1" width="1" 
+<img height="1" width="1"
 src="https://www.facebook.com/tr?id=203976930981295&ev=PageView
 &noscript=1"/>
 </noscript>
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-672809849"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-672809849'); </script> 
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-672809849"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-672809849'); </script>
 <!-- Hotjar Tracking Code for https://businessschool.luiss.it/ -->
 <script>
     (function(h,o,t,j,a,r){
@@ -70,13 +70,13 @@ src="https://www.facebook.com/tr?id=203976930981295&ev=PageView
     var api = _window.obApi = function() {api.dispatch ? api.dispatch.apply(api, arguments) : api.queue.push(arguments);};api.version = '1.1';api.loaded = true;api.marketerId = OB_ADV_ID;api.queue = [];var tag = _document.createElement('script');tag.async = true;tag.src = '//amplify.outbrain.com/cp/obtp.js';tag.type = 'text/javascript';var script = _document.getElementsByTagName('script')[0];script.parentNode.insertBefore(tag, script);}(window, document);
 obApi('track', 'PAGE_VIEW');
 </script>
-<link rel="shortcut icon" type="image/x-icon" href="<?php bloginfo('template_directory'); ?>/img/favicon.ico" />
-<link href="<?php  bloginfo('template_directory'); ?>/style_2017.css" rel="stylesheet">
+<link rel="shortcut icon" type="image/x-icon" href="<?php bloginfo('template_directory');?>/img/favicon.ico" />
+<link href="<?php bloginfo('template_directory');?>/style_2017.css" rel="stylesheet">
 <link rel='stylesheet' id='Googge_Web_Font_Oswald-css'  href='https://fonts.googleapis.com/css?family=Oswald' type='text/css' media='all' />
-<?php  wp_head(); ?>
+<?php wp_head();?>
 </head>
 <!-- <body class="home page-template page-template-home page-template-home-php page">-->
-<body <?php body_class(); ?>> 
+<body <?php body_class();?>>
 <script type="text/javascript">
 		$ = jQuery.noConflict( false );
 </script>
@@ -93,72 +93,63 @@ obApi('track', 'PAGE_VIEW');
           <li><a href="javascript:void(0)" id="network-offcanvas-trigger">LUISS Network</a></li>
         </ul>
       </nav>
-      <?php language_selector_flags(); ?>
+      <?php language_selector_flags();?>
     </div>
-    <!-- END .row --> 
+    <!-- END .row -->
   </div>
-  <!-- END .container --> 
+  <!-- END .container -->
 </header>
 <nav id="nav-main">
   <div class="container">
     <div class="row">
- <?php   	
-	  
-	  
-	  
- if ( is_page_template( 'home-2017.php' ) ) {
-     wp_nav_menu(array('theme_location' => 'menu-top',
-'container_id'    => 'menu-main-container',
-'container' => 'div',
-'menu_id' => 'menu-main',
-'depth' => 0,));    
+ <?php
 
-    } else {
-		  wp_nav_menu(array(
-'theme_location' => 'menu-top',
-'container_id'    => 'menu-main-container',
-'container' => 'div',
-'menu_id' => 'menu-main',
-));           
-	  
-	  
-		  
-		  
-		   }
-		  
+if (is_page_template('home-2017.php')) {
+    wp_nav_menu(array('theme_location' => 'menu-top',
+        'container_id' => 'menu-main-container',
+        'container' => 'div',
+        'menu_id' => 'menu-main',
+        'depth' => 0));
+
+} else {
+    wp_nav_menu(array(
+        'theme_location' => 'menu-top',
+        'container_id' => 'menu-main-container',
+        'container' => 'div',
+        'menu_id' => 'menu-main',
+    ));
+
+}
+
 //if(function_exists('wp_nav_menu')) {
-	
-	//if (is_home()) {
-       
-	  // wp_nav_menu(array(
+
+//if (is_home()) {
+
+// wp_nav_menu(array(
 //'theme_location' => 'menu-top',
 //'container_id'    => 'menu-main-container',
 //'container' => 'div',
 //'menu_id' => 'menu-main',
 //'depth' => 1,
 //));
-	   
-	   
-	                 
-    // }
-      //  else {
-       // wp_nav_menu(array(
+
+// }
+//  else {
+// wp_nav_menu(array(
 //'theme_location' => 'menu-top',
 //'container_id'    => 'menu-main-container',
 //'container' => 'div',
 //'menu_id' => 'menu-main',
-//));           
-  //    }
-	
-
+//));
+//    }
 
 //}?>
       <div class="searchbar"><a class="sb-icon-search" title="cerca nel sito"><span class="glyphicon glyphicon-search"></span></a></div>
-     
-      
+
+
       <div id="sb-search" class="sb-search">
-      
-      
+
+
 <script>
   (function() {
     var cx = '012139100949894875782:1dp0jtr1a6w';
@@ -171,13 +162,13 @@ obApi('track', 'PAGE_VIEW');
   })();
 </script>
 <gcse:searchbox-only></gcse:searchbox-only>
-      
+
       </div>
-      
+
     </div>
-    <!--END .row --> 
+    <!--END .row -->
   </div>
-  <!-- .END container --> 
+  <!-- .END container -->
 </nav>
 <nav id="network-container-offcanvas">
   <div class="container">
@@ -213,18 +204,17 @@ obApi('track', 'PAGE_VIEW');
 <nav id="breadcrumb-top" >
   <div class="container">
     <div class="row breadcrumb">
-						<?php if(function_exists('bcn_display'))
-    {
-        bcn_display();
-    }
-	
-		$back_to_top_text= array();
-		$back_to_top_text['it'] = 'Torna su';
-		$back_to_top_text['en'] = 'Back to top';
-	
-	?>
+						<?php if (function_exists('bcn_display')) {
+    bcn_display();
+}
+
+$back_to_top_text = array();
+$back_to_top_text['it'] = 'Torna su';
+$back_to_top_text['en'] = 'Back to top';
+
+?>
 						<span class="back-to-top"><a id="backtotop" href="javascript:void(0)"><i class="fa fa-angle-up"></i> <?php echo $back_to_top_text[ICL_LANGUAGE_CODE] ?></a></span> </div>
-    <!--END .row --> 
+    <!--END .row -->
   </div>
-  <!-- .END container --> 
+  <!-- .END container -->
 </nav>

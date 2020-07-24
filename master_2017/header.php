@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="<?php bloginfo( 'charset' ); ?>">
+<meta charset="<?php bloginfo('charset');?>">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link rel="profile" href="http://gmpg.org/xfn/11">
-<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+<link rel="pingback" href="<?php bloginfo('pingback_url');?>">
 <title>
 <?php
-     global $page, $paged;
-     wp_title( '|', true, 'right' );
-     bloginfo( 'name' );
+global $page, $paged;
+wp_title('|', true, 'right');
+bloginfo('name');
 ?>
 </title>
-<link rel="shortcut icon" type="image/x-icon" href="<?php bloginfo('template_directory'); ?>/img/favicon.ico" />
+<link rel="shortcut icon" type="image/x-icon" href="<?php bloginfo('template_directory');?>/img/favicon.ico" />
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-63172324-1"></script>
 <script>
@@ -23,8 +23,8 @@
   gtag('config', 'UA-63172324-1', { 'optimize_id': 'GTM-K2JVW5J'});
   gtag('config', 'UA-63172324-1');
 </script>
-<!-- Global site tag (gtag.js) - Google Ads: 672809849  havas--> 
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-672809849"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-672809849'); </script> 
+<!-- Global site tag (gtag.js) - Google Ads: 672809849  havas-->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-672809849"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-672809849'); </script>
 <!-- Global site tag (gtag.js) - Google Ads: 969246841 -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-969246841"></script>
 <script>
@@ -44,11 +44,11 @@ n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window,document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '203976930981295'); 
+fbq('init', '203976930981295');
 fbq('track', 'PageView');
 </script>
 <noscript>
-<img height="1" width="1" 
+<img height="1" width="1"
 src="https://www.facebook.com/tr?id=203976930981295&ev=PageView
 &noscript=1"/>
 </noscript>
@@ -73,8 +73,8 @@ obApi('track', 'PAGE_VIEW');
 </script>
 
 
-<link href="<?php bloginfo('template_directory'); ?>/getbootstrap.css" rel="stylesheet">
-<link href="<?php bloginfo('template_directory'); ?>/style.css" rel="stylesheet">
+<link href="<?php bloginfo('template_directory');?>/getbootstrap.css" rel="stylesheet">
+<link href="<?php bloginfo('template_directory');?>/style.css" rel="stylesheet">
 
 
 
@@ -153,44 +153,47 @@ border: 1px solid #fdbb4d;
 </style>
 <!-- Display stock quantity -->
 <div hidden id="snipcart" data-api-key="MjZiMzk5YWItNmYwNi00YmNmLTk3Y2ItNTU3OTZmZWIwZWU0NjM3Mjg0MTQ3OTIxMjgwNTM1"> </div>
-<!-- Snipcart custom script --> 
+<!-- Snipcart custom script -->
 <script>
         window.SNIPCART_STOCK_LAMBDA_URL = 'https://lw0s05w009.execute-api.eu-west-1.amazonaws.com/api/';
 </script>
 
 
-<?php wp_head(); ?>
+<?php wp_head();?>
 
 
 </head>
-<body <?php body_class(); ?>>
+<body <?php body_class();?>>
 <div id="site-wrapper">
 <div id="site-canvas">
 <header id="masthead">
   <div class="container">
     <div class="row">
       <div id="mobile-menu-trigger"><a class="main-menu-toggle menu-icon" title="apri il menu"><span></span></a></div>
-      <div class="col-md-4" id="logo"><a href="https://businessschool.luiss.it" title="Home page"><img src="https://businessschool.luiss.it/wp-content/themes/lbs_2015/img/logo_mba.png" alt="Luiss Business School Logo" id="logo-img" /></a></div>
+      <div class="col-md-4" id="logo">
+        <a href="https://businessschool.luiss.it" title="Home page">
+          <img src="https://businessschool.luiss.it/wp-content/themes/master_2017/img/logo-new.png" alt="Luiss Business School Logo" id="logo-img" /></a>
+      </div>
       <nav id="secondary-nav" class="col-md-6">
         <ul>
           <li><a href="http://www.luiss.it/">LUISS.it</a></li>
           <li><a href="javascript:void(0)" id="network-offcanvas-trigger">LUISS Network</a></li>
         </ul>
       </nav>
-      <?php language_selector_flags(); ?>
+      <?php language_selector_flags();?>
     </div>
-    <!-- END .row --> 
+    <!-- END .row -->
   </div>
-  <!-- END .container --> 
+  <!-- END .container -->
 </header>
 <nav id="nav-main">
   <div class="container">
     <div class="row">
-   	
-	  
-	  
- <?php get_template_part( 'nav', 'it' ); // Navigation bar to use in single pages (nav-it.php) ?>
-	
+
+
+
+ <?php get_template_part('nav', 'it'); // Navigation bar to use in single pages (nav-it.php) ?>
+
 
 
 
@@ -210,9 +213,9 @@ border: 1px solid #fdbb4d;
 <gcse:searchbox-only></gcse:searchbox-only>
       </div>
     </div>
-    <!--END .row --> 
+    <!--END .row -->
   </div>
-  <!-- .END container --> 
+  <!-- .END container -->
 </nav>
 <nav id="network-container-offcanvas">
   <div class="container">
@@ -250,19 +253,18 @@ border: 1px solid #fdbb4d;
 <nav id="breadcrumb-top" >
   <div class="container px-0">
     <div class="row breadcrumb px-0">
-      <?php if(function_exists('bcn_display'))
-    {
-        bcn_display();
-    }
-	
-		$back_to_top_text= array();
-		$back_to_top_text['it'] = 'Torna su';
-		$back_to_top_text['en'] = 'Back to top';
-	
-	?>
+      <?php if (function_exists('bcn_display')) {
+    bcn_display();
+}
+
+$back_to_top_text = array();
+$back_to_top_text['it'] = 'Torna su';
+$back_to_top_text['en'] = 'Back to top';
+
+?>
       <span class="back-to-top"><a id="backtotop" href="javascript:void(0)"><i class="fa fa-angle-up"></i> <?php echo $back_to_top_text[ICL_LANGUAGE_CODE] ?></a></span> </div>
-    <!--END .row --> 
+    <!--END .row -->
   </div>
-  <!-- .END container --> 
+  <!-- .END container -->
 </nav>
 
