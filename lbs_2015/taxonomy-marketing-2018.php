@@ -7,7 +7,7 @@ get_header( 2017 );?>
 <!-- Query per le pagine 
 
 Tematiche (ID)
-Accounting, Finance & Control - 29
+Accounting, Finance & Control - 30
 -Banking, Insurance and other Financial Institutions - 35
 -Big Data e Business Analytics - 101
 Communication & Lobbying - 97
@@ -104,7 +104,7 @@ Summer School (specialistici) - 133/134
 				'terms' => ( int )$query_tax_value
 			);
                     
-            $query_tax_value = 29;
+            $query_tax_value = 30;
             $tax_query[] = array(
 				'taxonomy' => 'tematiche',
 				'field' => 'id',
@@ -178,7 +178,7 @@ Summer School (specialistici) - 133/134
 				'terms' => ( int )$query_tax_value
 			);
             
-            $query_tax_value = 29;
+            $query_tax_value = 30;
             $tax_query[] = array(
 				'taxonomy' => 'tematiche',
 				'field' => 'id',
@@ -247,7 +247,7 @@ Summer School (specialistici) - 133/134
 				'terms' => ( int )$query_tax_value
 			);
 
-                $query_tax_value = 29;
+                $query_tax_value = 30;
             $tax_query[] = array(
 				'taxonomy' => 'tematiche',
 				'field' => 'id',
@@ -318,7 +318,7 @@ Summer School (specialistici) - 133/134
 				'terms' => ( int )$query_tax_value
 			);
                 
-                $query_tax_value = 29;
+                $query_tax_value = 30;
             $tax_query[] = array(
 				'taxonomy' => 'tematiche',
 				'field' => 'id',
@@ -383,7 +383,7 @@ Summer School (specialistici) - 133/134
 				'terms' => ( int )$query_tax_value
 			);
                 
-                $query_tax_value = 29;
+                $query_tax_value = 30;
             $tax_query[] = array(
 				'taxonomy' => 'tematiche',
 				'field' => 'id',
