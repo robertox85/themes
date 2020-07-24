@@ -1721,13 +1721,13 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	            <!-- ROMA -->
 	            <div class="tab-pane fade active in" id="roma" role="tabpanel" aria-labelledby="roma-tab">
 	                <div class="row">
-	                    <div class="col-12 col-lg-8">
+	                    <div class="col-xs-12 col-lg-8">
 	                        <h2><?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></h2>
 	                        <p>Tutti i Master che si svolgono a <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?>.</p>
 	                    </div>
 	                </div>
 	                <div class="row">
-                        <div class="col-12">
+                        <div class="col-xs-12">
                         <h3><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></h3>
                         </div>
 	                    <!-- MASTER 34 -->
@@ -2197,7 +2197,7 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
                     </div>
                     
                     <div class="row">
-                        <div class="col-12">
+                        <div class="col-xs-12">
                         <h3><?php echo $secondo_livello[ICL_LANGUAGE_CODE] ?></h3>
                         </div>
                         <!-- MASTER 45 -->
@@ -2348,7 +2348,7 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
                     
                     
                     <div class="row">
-                        <div class="col-12">
+                        <div class="col-xs-12">
                         <h3><?php echo $altaformazione[ICL_LANGUAGE_CODE] ?></h3>
                         </div>
                         <!-- PROGRAMMA A1 -->
@@ -2423,13 +2423,13 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	            <!-- MILANO -->
 	            <div class="tab-pane p-4 fade" id="milano" role="tabpanel" aria-labelledby="milano-tab">
 	                <div class="row">
-	                    <div class="col-12 col-lg-8">
+	                    <div class="col-xs-12 col-lg-8">
 	                        <h2><?php echo $sede_mi[ICL_LANGUAGE_CODE] ?></h2>
 	                        <p>Tutti i Master che si svolgono a <?php echo $sede_mi[ICL_LANGUAGE_CODE] ?>.</p>
 	                    </div>
 	                </div>
 	                <div class="row">
-                    <div class="col-12">
+                    <div class="col-xs-12">
                         <h3><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></h3>
                         </div>
                         <!-- MASTER 18 -->
@@ -2535,14 +2535,14 @@ $link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-term
 	            <!-- BELLUNO -->
 	            <div class="tab-pane p-4 fade" id="belluno" role="tabpanel" aria-labelledby="belluno-tab">
 	                <div class="row">
-	                    <div class="col-12 col-lg-8">
+	                    <div class="col-xs-12 col-lg-8">
 	                        <h2><?php echo $sede_be[ICL_LANGUAGE_CODE] ?></h2>
 	                        <p>Tutti i Master che si svolgono a <?php echo $sede_be[ICL_LANGUAGE_CODE] ?>.</p>
 	                    </div>
 	                </div>
 	                <div class="row">
                     
-                        <div class="col-12">
+                        <div class="col-xs-12">
                      <h3><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></h3>
                         </div>
                         
