@@ -35,7 +35,6 @@
     h6,
     a,
     p {
-      font-family: 'Luiss Sans', sans-serif !important;
       font-weight: normal;
       color: $blue;
     }
@@ -56,12 +55,18 @@
       line-height: rem(16px);
       
     }
+
+    .lang_selector{
+      display: inline-block;
+    }
+
     #menu-main{
       border-color:$blue;
       li{
         &:hover{
           a{
             background-color: $blue;
+            color: $white;
           }
         }
       }
@@ -125,7 +130,6 @@
 
        
         h3 {
-          font-family: 'Luiss Sans', sans-serif !important;
           color: $textColor;
           font-size: rem(36px);
           line-height: rem(40px);
@@ -180,7 +184,7 @@
     
     #breadcrumb-top.fixed .breadcrumb,
     #breadcrumb-top.fixed{
-      background: #fff;
+      background: $white;
     }
     
     #main a,
@@ -205,8 +209,24 @@
       border-right: 1px solid #e8e8e8;
     
       li {
+        text-align: right;
+        transition: .3s;
+        padding: 15px 0px;
+        padding-right: rem(14px);
         a{
+          color: $blue;
+          transition: .3s;
           font-weight: bold;
+          
+          i{
+            margin-left: rem(36px);
+            transition: .3s;
+            font-size: 18px;
+            color: $white;
+            letter-spacing: 0;
+            text-align: center;
+          }
+          
         }
         &:not(:last-of-type) {
           border-bottom: 1px solid #e8e8e8;
@@ -216,7 +236,11 @@
           background-color: $bgColor;
           a {
             color: $white;
+            i{
+              color: $white;
+            }
           }
+          
         }
       }
     }

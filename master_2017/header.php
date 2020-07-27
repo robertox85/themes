@@ -172,7 +172,8 @@ border: 1px solid #fdbb4d;
       <div id="mobile-menu-trigger"><a class="main-menu-toggle menu-icon" title="apri il menu"><span></span></a></div>
         <div class="col-md-4" id="logo">
           <a href="https://businessschool.luiss.it" title="Home page">
-            <img src="https://businessschool.luiss.it/wp-content/themes/master_2017/img/logo-new.png" alt="Luiss Business School Logo" id="logo-img" /></a>
+            <img src="https://businessschool.luiss.it/wp-content/themes/master_2017/img/logo-new.png" alt="Luiss Business School Logo" id="logo-img" />
+          </a>
         </div>
         <nav id="secondary-nav" class="col-md-6">
           <ul>

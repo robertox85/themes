@@ -86,14 +86,28 @@ obApi('track', 'PAGE_VIEW');
   <div class="container">
     <div class="row">
       <div id="mobile-menu-trigger"><a class="main-menu-toggle menu-icon" title="apri il menu"><span></span></a></div>
-      <div class="col-md-4" id="logo"><a href="<?php echo site_url(); ?>" title="Home page"><img src="<?php echo site_url() ?>/wp-content/themes/lbs_2015/img/logo_mba.png" alt="Luiss Business School Logo" id="logo-img" /></a></div>
-      <nav id="secondary-nav" class="col-md-6">
+      <div class="col-md-4" id="logo">
+        
+        <a href="<?php echo site_url(); ?>" title="Home page">
+          <img src="https://businessschool.luiss.it/wp-content/themes/lbs_2015/img/logo-new.png" alt="Luiss Business School Logo" id="logo-img" />
+        </a>
+      </div>
+      <div class="col-md-8 col-nav" style="">
+      
+      <nav id="secondary-nav" class="">
         <ul>
           <li><a href="http://www.luiss.it/">LUISS.it</a></li>
           <li><a href="javascript:void(0)" id="network-offcanvas-trigger">LUISS Network</a></li>
+          <li><a href="https://businessschool.luiss.it/milano"><strong>Milano</strong></a></li>
+          <li><a href="https://businessschool.luiss.it/belluno"><strong>Belluno</strong></a></li>
         </ul>
       </nav>
+      
       <?php language_selector_flags();?>
+
+      </div>
+      
+
     </div>
     <!-- END .row -->
   </div>
