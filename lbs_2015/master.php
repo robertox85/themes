@@ -45,7 +45,7 @@ Creation Date: 12/20/2018
 ">
 	    <div class="container">
 	        <div class="row">
-                <div class="col-12">
+                <div class="col-xs-12">
 	            <h1><?php the_title();?></h1>
                 </div>
 	        </div>
