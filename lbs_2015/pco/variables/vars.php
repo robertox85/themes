@@ -29,10 +29,6 @@ $altaformazione[ 'it' ] = 'Programmi di Alta Formazione';
 $altaformazione[ 'en' ] = 'Specialisation Programme';
 ?>
 
-<?php $mba = array();
-$mba[ 'it' ] = 'MBA';
-$mba[ 'en' ] = 'MBA';
-?>
 
 	<!-- LINGUA -->
 
@@ -1652,11 +1648,6 @@ $link_brochure_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive
 ?>
 
 <!-- Fine variabili -->
-
-
-
-
-
 
 <!-- Variabili Pagine Tassonomia Programmi Executive-->
 

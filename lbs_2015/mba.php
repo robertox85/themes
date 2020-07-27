@@ -12,6 +12,53 @@ get_header(2017);
 ?>
 
 
+<!-- Includo le variabili comuni -->
+
+<?php include(dirname(__DIR__).'/lbs_2015/pco/variables/vars.php'); ?>
+
+<!-- Inizio Template -->
+
+	<div class="container-fluid <?php if (has_post_thumbnail( $post->ID ) ): ?>
+                   header-pic" style="background-image: url('<?php echo get_the_post_thumbnail_url(); ?>');
+                   <?php else : ?>
+                   header-nopic
+                   <?php endif; ?>
+">
+	    <div class="container">
+	        <div class="row">
+	            <h1><?php the_title();?></h1>
+	        </div>
+	        <div class="row">
+	            <div class="col-md-6">
+	                <p>Come here to be challenged. Leave ready to take on the most important challenges of our time. At LUISS Business School, we create wise leaders who aspire to MAKE the difference in the world of business and beyond. Join us.</p>
+	                <a href="https://www.youtube.com/watch?v=7VuI-HXka6s&feature=emb_title">Watch the video</a>
+	            </div>
+	            <div class="col-md-6">
+	            </div>
+	        </div>
+	    </div>
+	</div>
+
+<div class="container">
+<div class="row">
+<!-- MBA 1 -->
+	                    <div class="col-md-4 col-sm-6">
+	                        <span><?php echo $mba[ICL_LANGUAGE_CODE] ?></span>
+	                        <h6><?php echo $titolo_mba_1[ICL_LANGUAGE_CODE] ?>
+	                            <br /><?php echo $sottotitolo_mba_1[ICL_LANGUAGE_CODE] ?></h6>
+	                        <p><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
+	                        <p><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
+	                        <p><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_mba_1[ICL_LANGUAGE_CODE] ?></p>
+	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
+	                        <div class="row">
+	                            <div class="col-xs-12"><a href="<?php echo $link_mba_1[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_master[ICL_LANGUAGE_CODE] ?></a>
+	                            <a href="<?php echo $link_brochure_mba_1[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
+	                        </div>
+	                    </div>
+	                    <!-- END MASTER 34 -->
+</div>
+</div>
+
 <?php
 $lingua_corso_en       = array();
 $lingua_corso_en['it'] = '<strong>LINGUA</strong> INGLESE';
