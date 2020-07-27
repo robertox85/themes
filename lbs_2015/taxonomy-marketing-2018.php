@@ -41,32 +41,7 @@ Summer School (specialistici) - 133/134
 
 -->
 
-<!-- Variabili -->
-
-<?php $executive_master_label[ICL_LANGUAGE_CODE] = array();
-$executive_master_label[ICL_LANGUAGE_CODE][ 'it' ] = 'Executive Master';
-$executive_master_label[ICL_LANGUAGE_CODE][ 'en' ] = 'Executive Masters';
-?>
-
-<?php $executive_programme_label[ICL_LANGUAGE_CODE] = array();
-$executive_master_label[ICL_LANGUAGE_CODE][ 'it' ] = 'Executive Programme';
-$executive_master_label[ICL_LANGUAGE_CODE][ 'en' ] = 'Executive Programmes';
-?>
-
-<?php $executive_flex_label = array();
-$executive_master_label[ICL_LANGUAGE_CODE][ 'it' ] = 'Executive Flex Programmes';
-$executive_master_label[ICL_LANGUAGE_CODE][ 'en' ] = 'Executive Flex Programme';
-?>
-
-<?php $executive_course_label = array();
-$executive_master_label[ICL_LANGUAGE_CODE][ 'it' ] = 'Executive Course';
-$executive_master_label[ICL_LANGUAGE_CODE][ 'en' ] = 'Executive Courses';
-?>
-
-<?php $executive_skill_label = array();
-$executive_master_label[ICL_LANGUAGE_CODE][ 'it' ] = 'Executive Skill Lab';
-$executive_master_label[ICL_LANGUAGE_CODE][ 'en' ] = '<?php echo $executive_skill_label[ICL_LANGUAGE_CODE] ?>';
-?>
+<?php get_template_part( 'pco/variables/variabili-programmi-executive', get_post_format() ); ?>
 
 <div class="container-fluid <?php if (has_post_thumbnail( $post->ID ) ): ?>
                    header-pic" style="background-image: url('<?php echo get_the_post_thumbnail_url(); ?>');
