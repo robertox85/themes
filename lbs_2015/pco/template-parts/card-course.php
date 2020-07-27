@@ -112,8 +112,6 @@ $date = DateTime::createFromFormat('Ymd', $date_string);
                             <?php else : ?>
                             <?php endif; ?> </strong> <?php echo $date->format('j M Y'); ?></p>
                     <?php endif; ?>
->>>>>>> parent of 178ad91... Update card-course.php:lbs_2015/template-parts/card-course.php
-
                     <p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Lingua
                             <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Language
                             <?php else : ?>
