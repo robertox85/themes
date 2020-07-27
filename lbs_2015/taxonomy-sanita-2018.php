@@ -371,77 +371,12 @@ Summer School (specialistici) - 133/134
 
             <!-- LABS -->
             <div class="tab-pane p-4 fade" id="exlabs" role="tabpanel" aria-labelledby="exlabs-tab">
-                <h2>Executive Labs</h2>
-                <p>Lorem ipsum dolor</p>
-                <div class="row">
-                    <?php
-			$query_tax_value = 26;
-			$tax_query = array();
-			$tax_query[] = array(
-				'taxonomy' => 'lunghezza_corsi',
-				'field' => 'id',
-				'terms' => ( int )$query_tax_value
-			);
-                
-                $query_tax_value = 36;
-            $tax_query[] = array(
-				'taxonomy' => 'tematiche',
-				'field' => 'id',
-				'terms' => ( int )$query_tax_value
-			);
-
-			$args = array(
-				'post_type' => 'page',
-				'post_status' => 'publish',
-				'cat' => $course_cat[ ICL_LANGUAGE_CODE ],
-				'pagination' => true,
-				'tax_query' => $tax_query,
-				'posts_per_page' => '-1',
-				'meta_key' => 'data_inizio',
-				'orderby' => 'meta_value_num',
-				'meta_query' => array(
-				//	array(
-				//		'key' => 'data_inizio', // which meta to query
-				//		'value' => date( "Y-m-d" ),
-				//		'compare' => '>=', // method of comparison
-				//		'type' <= 'DATE'
-				//	)
-				),
-				'cache_results' => false,
-				'suppress_filters' => false,
-				'order' => 'ASC'
-			);
-			//echo '<pre>';
-			//var_dump($args);
-			//echo '</pre>';
-			wp_cache_flush();
-			$query = new WP_Query( $args );
-
-			if ( $query->have_posts() )  : while ( $query->have_posts() ) : $query->the_post(); ?>
-
-                    <?php get_template_part( 'pco/template-parts/card-course', get_post_format() ); ?>
-
-                    <?php wp_reset_postdata(); ?>
-
-                    <?php endwhile; else : ?>
-                    <?php if (ICL_LANGUAGE_CODE=='it') : ?>Non ci sono ancora programmi.
-                    <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>There are no programmes yet.
-                    <?php else : ?>
-                    <?php endif; ?>
-
-                    <?php endif; ?>
-
-                </div>
+                <h2>Executive Skill Labs</h2>
+                <p><?php echo get_field('campo_executive_skill_lab') ?></p>
+                 <?php get_template_part( 'pco/template-parts/section-skill-lab', get_post_format() ); ?>
             </div>
         </div>
     </section>
-</div>
-
-<!-- SKILL LAB -->
-<div class="container-fluid">
-    <div class="container">
-        <?php get_template_part( 'pco/template-parts/section-skill-lab', get_post_format() ); ?>
-    </div>
 </div>
 
 <!-- INDIVIDUAL PROGRAMME -->
