@@ -135,7 +135,6 @@ $titolo_link_brochure[ 'en' ] = 'Download Brochure';
 ?>
 
 
-
 	<!-- Master -->
 
 	<!-- Master 1 -->
@@ -1663,7 +1662,7 @@ $link_brochure_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive
 
 <?php $executive_master_label = array();
 $executive_master_label[ 'it' ] = 'Executive Master';
-$executive_master_label[ 'en' ] = '<?php echo $executive_master_label[ICL_LANGUAGE_CODE] ?>';
+$executive_master_label[ 'en' ] = 'Executive Masters';
 ?>
 
 <?php $executive_programme_label = array();
