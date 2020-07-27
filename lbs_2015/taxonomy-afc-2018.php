@@ -40,32 +40,11 @@ Summer School (specialistici) - 133/134
 
 -->
 
-<!-- Variabili -->
+<!-- Includo le variabili comuni -->
 
-<?php $executive_master_label[ICL_LANGUAGE_CODE] = array();
-$executive_master_label[ICL_LANGUAGE_CODE][ 'it' ] = 'Executive Master';
-$executive_master_label[ICL_LANGUAGE_CODE][ 'en' ] = 'Executive Masters';
-?>
+<?php include 'pco/variables/variabili-programmi-executive.php'; ?>
 
-<?php $executive_programme_label[ICL_LANGUAGE_CODE] = array();
-$executive_master_label[ICL_LANGUAGE_CODE][ 'it' ] = 'Executive Programme';
-$executive_master_label[ICL_LANGUAGE_CODE][ 'en' ] = 'Executive Programmes';
-?>
-
-<?php $executive_flex_label = array();
-$executive_master_label[ICL_LANGUAGE_CODE][ 'it' ] = 'Executive Flex Programmes';
-$executive_master_label[ICL_LANGUAGE_CODE][ 'en' ] = 'Executive Flex Programme';
-?>
-
-<?php $executive_course_label = array();
-$executive_master_label[ICL_LANGUAGE_CODE][ 'it' ] = 'Executive Course';
-$executive_master_label[ICL_LANGUAGE_CODE][ 'en' ] = 'Executive Courses';
-?>
-
-<?php $executive_skill_label = array();
-$executive_master_label[ICL_LANGUAGE_CODE][ 'it' ] = 'Executive Skill Lab';
-$executive_master_label[ICL_LANGUAGE_CODE][ 'en' ] = '<?php echo $executive_skill_label[ICL_LANGUAGE_CODE] ?>';
-?>
+<!-- Inizio template -->
 
 <div class="container-fluid <?php if (has_post_thumbnail( $post->ID ) ): ?>
                    header-pic" style="background-image: url('<?php echo get_the_post_thumbnail_url(); ?>');
@@ -94,13 +73,13 @@ $executive_master_label[ICL_LANGUAGE_CODE][ 'en' ] = '<?php echo $executive_skil
         <!-- NAVIGAZIONE -->
         <ul class="nav nav-tabs auto" id="program-type" role="tablist">
             <!-- MASTER -->
-            <li class="nav-item"><a class="nav-link active" id="tab1-tab" data-toggle="tab" href="#exmasters" role="tab" aria-controls="tab1" aria-selected="true">Executive Masters</a></li>
+            <li class="nav-item"><a class="nav-link active" id="tab1-tab" data-toggle="tab" href="#exmasters" role="tab" aria-controls="tab1" aria-selected="true"><?php echo $executive_master_label[ICL_LANGUAGE_CODE] ?></a></li>
 
             <!-- PROGRAMME -->
-            <li class="nav-item"><a class="nav-link" id="tab2-tab" data-toggle="tab" href="#exprogrammes" role="tab" aria-controls="tab2" aria-selected="false">Executive Programmes</a></li>
+            <li class="nav-item"><a class="nav-link" id="tab2-tab" data-toggle="tab" href="#exprogrammes" role="tab" aria-controls="tab2" aria-selected="false"><?php echo $executive_programme_label[ICL_LANGUAGE_CODE] ?></a></li>
 
             <!-- FLEX -->
-            <li class="nav-item"><a class="nav-link" id="tab3-tab" data-toggle="tab" href="#exflexprogrammes" role="tab" aria-controls="tab3" aria-selected="false"><?php $executive_flex_label[ICL_LANGUAGE_CODE] ?></a></li>
+            <li class="nav-item"><a class="nav-link" id="tab3-tab" data-toggle="tab" href="#exflexprogrammes" role="tab" aria-controls="tab3" aria-selected="false"><?php echo $executive_flex_label[ICL_LANGUAGE_CODE] ?></a></li>
 
             <!-- COURSES -->
             <li class="nav-item"><a class="nav-link" id="tab4-tab" data-toggle="tab" href="#excourses" role="tab" aria-controls="tab4" aria-selected="false">Executive Courses</a></li>
@@ -259,7 +238,7 @@ $executive_master_label[ICL_LANGUAGE_CODE][ 'en' ] = '<?php echo $executive_skil
             <div class="tab-pane p-4 fade" id="exflexprogrammes" role="tabpanel" aria-labelledby="exflexprogrammes-tab">
                 <div class="row">
                     <div class="col-12 col-lg-8">
-                        <h2><?php $executive_flex_label[ICL_LANGUAGE_CODE] ?></h2>
+                        <h2><?php echo $executive_flex_label[ICL_LANGUAGE_CODE] ?></h2>
                         <p>Lorem ipsum dolor</p>
                     </div>
                 </div>

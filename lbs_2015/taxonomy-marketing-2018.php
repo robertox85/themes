@@ -41,7 +41,11 @@ Summer School (specialistici) - 133/134
 
 -->
 
+<!-- Includo le variabili comuni -->
+
 <?php include 'pco/variables/variabili-programmi-executive.php'; ?>
+
+<!-- Inizio template -->
 
 <div class="container-fluid <?php if (has_post_thumbnail( $post->ID ) ): ?>
                    header-pic" style="background-image: url('<?php echo get_the_post_thumbnail_url(); ?>');
@@ -236,7 +240,7 @@ Summer School (specialistici) - 133/134
             <div class="tab-pane p-4 fade" id="exflexprogrammes" role="tabpanel" aria-labelledby="exflexprogrammes-tab">
                 <div class="row">
                     <div class="col-12 col-lg-8">
-                        <h2><?php $executive_flex_label[ICL_LANGUAGE_CODE] ?></h2>
+                        <h2><?php echo $executive_flex_label[ICL_LANGUAGE_CODE] ?></h2>
                         <p>Lorem ipsum dolor</p>
                     </div>
                 </div>
