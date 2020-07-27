@@ -24,3 +24,8 @@ $executive_course_label[ 'en' ] = 'Executive Courses';
 $executive_skill_label[ 'it' ] = 'Executive Skill Lab';
 $executive_skill_label[ 'en' ] = 'Executive Skill Labs';
 ?>
+
+<?php $executive_individual_label = array();
+$executive_individual_label[ 'it' ] = 'Individual Executive Programme';
+$executive_individual_label[ 'en' ] = 'Individual Executive Programme';
+?>

@@ -1,3 +1,9 @@
+<!-- Includo le variabili comuni -->
+
+<?php include 'pco/variables/variabili-programmi-executive.php'; ?>
+
+<!-- Inizio template -->
+
 <div class="row">
     <?php
 
