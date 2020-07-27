@@ -14,6 +14,7 @@
             <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Location
             <?php else : ?>
             <?php endif; ?></strong> <?php the_field('testo_inizio'); ?></p>
+    <?php endif; ?>
     <?php 
 // Load field value.
 $date_string = get_field('data_inizio');
@@ -26,13 +27,14 @@ if($date_string):
             <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Start
             <?php else : ?>
             <?php endif; ?> </strong> <?php echo $date->format('j M Y'); ?></p>
-
+<?php endif; ?>
     <!-- Sede/Inizio Milano -->
     <?php if( get_field('data_inizio_testuale') ): ?>
     <p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Sede
             <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Location
             <?php else : ?>
             <?php endif; ?></strong> <?php the_field('data_inizio_testuale'); ?></p>
+    <?php endif; ?>
     <?php 
 // Load field value.
 $date_string = get_field('data_fine');
@@ -45,12 +47,14 @@ if($date_string):
             <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Start
             <?php else : ?>
             <?php endif; ?> </strong> <?php echo $date->format('j M Y'); ?></p>
+    <?php endif; ?>
     <!-- Sede/Inizio Belluno -->
     <?php if( get_field('veneto') ): ?>
     <p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Sede
             <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Location
             <?php else : ?>
             <?php endif; ?></strong> <?php the_field('veneto'); ?></p>
+    <?php endif; ?>
     <?php 
 // Load field value.
 $date_string = get_field('data_veneto');
@@ -59,6 +63,7 @@ $date = DateTime::createFromFormat('Ymd', $date_string);
 // Output current date in custom format.
     if($date_string) :
 ?>
+    <?php endif; ?>
     <p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Inizio
             <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Start
             <?php else : ?>
