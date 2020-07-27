@@ -41,6 +41,33 @@ Summer School (specialistici) - 133
 
 -->
 
+<!-- Variabili -->
+
+<?php $executive_master_label[ICL_LANGUAGE_CODE] = array();
+$executive_master_label[ICL_LANGUAGE_CODE][ 'it' ] = 'Executive Master';
+$executive_master_label[ICL_LANGUAGE_CODE][ 'en' ] = 'Executive Masters';
+?>
+
+<?php $executive_programme_label[ICL_LANGUAGE_CODE] = array();
+$executive_master_label[ICL_LANGUAGE_CODE][ 'it' ] = 'Executive Programme';
+$executive_master_label[ICL_LANGUAGE_CODE][ 'en' ] = 'Executive Programmes';
+?>
+
+<?php $executive_flex_label = array();
+$executive_master_label[ICL_LANGUAGE_CODE][ 'it' ] = 'Executive Flex Programmes';
+$executive_master_label[ICL_LANGUAGE_CODE][ 'en' ] = 'Executive Flex Programme';
+?>
+
+<?php $executive_course_label = array();
+$executive_master_label[ICL_LANGUAGE_CODE][ 'it' ] = 'Executive Course';
+$executive_master_label[ICL_LANGUAGE_CODE][ 'en' ] = 'Executive Courses';
+?>
+
+<?php $executive_skill_label = array();
+$executive_master_label[ICL_LANGUAGE_CODE][ 'it' ] = 'Executive Skill Lab';
+$executive_master_label[ICL_LANGUAGE_CODE][ 'en' ] = '<?php echo $executive_skill_label[ICL_LANGUAGE_CODE] ?>';
+?>
+
 <div class="container-fluid <?php if (has_post_thumbnail( $post->ID ) ): ?>
                    header-pic" style="background-image: url('<?php echo get_the_post_thumbnail_url(); ?>');
                    <?php else : ?>
@@ -80,7 +107,7 @@ Summer School (specialistici) - 133
             <li class="nav-item"><a class="nav-link" id="tab4-tab" data-toggle="tab" href="#excourses" role="tab" aria-controls="tab4" aria-selected="false">Executive Courses</a></li>
 
             <!-- LABS -->
-            <li class="nav-item"><a class="nav-link" id="tab5-tab" data-toggle="tab" href="#exlabs" role="tab" aria-controls="tab5" aria-selected="false" aria-disabled="true" tabindex="-1">Executive Skill Labs</a></li>
+            <li class="nav-item"><a class="nav-link" id="tab5-tab" data-toggle="tab" href="#exlabs" role="tab" aria-controls="tab5" aria-selected="false" aria-disabled="true" tabindex="-1"><?php echo $executive_skill_label[ICL_LANGUAGE_CODE] ?></a></li>
         </ul>
 
         <!-- CONTENUTO -->
@@ -371,7 +398,7 @@ Summer School (specialistici) - 133
 
             <!-- LABS -->
             <div class="tab-pane p-4 fade" id="exlabs" role="tabpanel" aria-labelledby="exlabs-tab">
-                <h2>Executive Skill Labs</h2>
+                <h2><?php echo $executive_skill_label[ICL_LANGUAGE_CODE] ?></h2>
                 <p><?php echo get_field('campo_executive_skill_lab') ?></p>
                  <?php get_template_part( 'pco/template-parts/section-skill-lab', get_post_format() ); ?>
             </div>
