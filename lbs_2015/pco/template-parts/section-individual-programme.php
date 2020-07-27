@@ -1,6 +1,6 @@
 <!-- Includo le variabili comuni -->
 
-<?php include '../variables/variabili-programmi-executive.php'; ?>
+<?php include(dirname(__DIR__).'/variables/variabili-programmi-executive.php'); ?>
 
 <!-- Inizio template -->
 
