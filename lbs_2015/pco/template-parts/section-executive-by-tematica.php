@@ -1,7 +1,10 @@
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-xs-12">
+        <h2>L’offerta formativa Executive Education</h2>
+    </div>
+    <div class="col-xs-12 col-md-4">
         <div class="row">
-            <div class="col-12">
+            <div class="col-1xs-2">
                 <h5>General Management</h5>
                 <p>Per approcciare la leadership con un nuovo mindset, acquisendo un set di strumenti utile a diventare un manager orientato all’innovazione, capace di raccogliere le sfide di un ambiente competitivo in continuo cambiamento. </p>
                 <ul>
@@ -10,9 +13,9 @@
             </div>
         </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-xs-12 col-md-4">
         <div class="row">
-            <div class="col-12">
+            <div class="col-xs-12">
                 <h5>Specialisation</h5>
                 <p>Per acquisire una conoscenza approfondita, consolidare la propria preparazione e sviluppare competenze specifiche per trasformare gli obiettivi strategici aziendali in azioni concrete e risultati misurabili.</p>
                 <ul>
@@ -26,9 +29,9 @@
             </div>
         </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-xs-12 col-md-4">
         <div class="row">
-            <div class="col-12">
+            <div class="col-xs-12">
                 <h5>Industry</h5>
                 <p>Per diventare esperto di settore, conoscerne in maniera approfondita le dinamiche e i trend emergenti e implementare soluzioni alternative, raccogliendone le opportunità e le sfide chiave.</p>
                 <ul>
