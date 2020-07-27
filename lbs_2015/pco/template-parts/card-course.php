@@ -29,9 +29,9 @@
 
     <?php 
 // Load field value.
-$date_string = get_field('data_inizio');
+$date_string_rome = get_field('data_inizio');
 // Create DateTime object from value (formats must match).
-$date = DateTime::createFromFormat('Ymd', $date_string);
+$date_rome = DateTime::createFromFormat('Ymd', $date_string_rome);
 // Output current date in custom format.
 ?>
     <p><strong>
@@ -39,7 +39,7 @@ $date = DateTime::createFromFormat('Ymd', $date_string);
             <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Start
             <?php else : ?>
             <?php endif; ?></strong>
-        <?php echo $date->format('j M Y'); ?></p>
+        <?php echo $date_rome->format('j M Y'); ?></p>
 
 
     <!-- Sede Milano -->
@@ -57,9 +57,9 @@ $date = DateTime::createFromFormat('Ymd', $date_string);
 
     <?php 
 // Load field value.
-$date_string = get_field('data_fine');
+$date_string_mi = get_field('data_fine');
 // Create DateTime object from value (formats must match).
-$date = DateTime::createFromFormat('Ymd', $date_string);
+$date_mi = DateTime::createFromFormat('Ymd', $date_string_mi);
 // Output current date in custom format.
 ?>
     <p><strong>
@@ -67,7 +67,7 @@ $date = DateTime::createFromFormat('Ymd', $date_string);
             <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Start
             <?php else : ?>
             <?php endif; ?></strong>
-        <?php echo $date->format('j M Y'); ?></p>
+        <?php echo $date_mi->format('j M Y'); ?></p>
 
 
     <!-- Sede Belluno -->
@@ -85,9 +85,9 @@ $date = DateTime::createFromFormat('Ymd', $date_string);
 
     <?php 
 // Load field value.
-$date_string = get_field('data_veneto');
+$date_string_be = get_field('data_veneto');
 // Create DateTime object from value (formats must match).
-$date = DateTime::createFromFormat('Ymd', $date_string);
+$date_be = DateTime::createFromFormat('Ymd', $date_string_be);
 // Output current date in custom format.
 ?>
     <p><strong>
@@ -95,7 +95,7 @@ $date = DateTime::createFromFormat('Ymd', $date_string);
             <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Start
             <?php else : ?>
             <?php endif; ?></strong>
-        <?php echo $date->format('j M Y'); ?></p>
+        <?php echo $date_be->format('j M Y'); ?></p>
 
     <!-- Lingua -->
     <p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Lingua
