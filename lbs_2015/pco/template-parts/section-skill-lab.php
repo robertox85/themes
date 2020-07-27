@@ -1,5 +1,3 @@
-<h2>Executive Skill Lab</h2>
-<p><?php echo get_field('campo_executive_skill_lab') ?></p>
 <div class="row">
     <?php
 
