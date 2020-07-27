@@ -2,7 +2,8 @@
 
 <!-- INSERIRE SPIEGAZIONE ID DI MASTER E PROGRAMMI CON LINK AL FILE CON GLI ID -->
 
-	<!-- Tipologia -->
+	<!-- TIPOLOGIA -->
+
 	<?php $primo_livello = array();
 $primo_livello[ 'it' ] = 'Master di primo livello';
 $primo_livello[ 'en' ] = 'First-level Master Degree';
@@ -28,7 +29,13 @@ $altaformazione[ 'it' ] = 'Programmi di Alta Formazione';
 $altaformazione[ 'en' ] = 'Specialisation Programme';
 ?>
 
-	<!-- Lingua -->
+<?php $mba = array();
+$mba[ 'it' ] = 'MBA';
+$mba[ 'en' ] = 'MBA';
+?>
+
+	<!-- LINGUA -->
+
 	<!-- Label -->
 	<?php $lingua = array();
 $lingua[ 'it' ] = 'Lingua';
@@ -46,7 +53,7 @@ $lingua_corso_en[ 'it' ] = 'Inglese';
 $lingua_corso_en[ 'en' ] = 'English';
 ?>
 
-	<!-- Durata -->
+	<!-- DURATA -->
 
 	<!-- Label -->
 	<?php $titolo_durata = array();
@@ -80,7 +87,7 @@ $durata_part_6[ 'it' ] = '6 mesi part-time';
 $durata_part_6[ 'en' ] = '6 months of part-time study';
 ?>
 
-	<!-- Inizio -->
+	<!-- INIZIO -->
 
 	<!-- Label -->
 	<?php $titolo_inizio = array();
@@ -89,7 +96,7 @@ $titolo_inizio[ 'en' ] = 'Start';
 ?>
 
 
-	<!-- Sede -->
+	<!-- SEDE -->
 
 	<!-- Label -->
 	<?php $titolo_sede = array();
@@ -113,15 +120,15 @@ $sede_be[ 'it' ] = 'Belluno';
 $sede_be[ 'en' ] = 'Belluno';
 ?>
 
-	<!-- Etichette pulsanti -->
+	<!-- PULSANTI -->
 
-	<!-- Label link master -->
-	<?php $titolo_link_master = array();
-$titolo_link_master[ 'it' ] = 'Scopri';
-$titolo_link_master[ 'en' ] = 'Find our more';
+	<!-- Label link site -->
+	<?php $titolo_link_site = array();
+$titolo_link_site[ 'it' ] = 'Scopri';
+$titolo_link_site[ 'en' ] = 'Find our more';
 ?>
 
-	<!-- Label link master -->
+	<!-- Label link download brochure -->
 	<?php $titolo_link_brochure = array();
 $titolo_link_brochure[ 'it' ] = 'Scarica la brochure';
 $titolo_link_brochure[ 'en' ] = 'Download Brochure';
@@ -149,14 +156,14 @@ $inizio_master_1[ 'it' ] = '21 Set 2020';
 $inizio_master_1[ 'en' ] = 'Set 21, 2020';
 ?>
 	<!-- Programma -->
-	<?php $link_master_1 = array();
-$link_master_1[ 'it' ] = 'https://businessschool.luiss.it/international-management/';
-$link_master_1[ 'en' ] = 'https://businessschool.luiss.it/international-management/';
+	<?php $link_site_master_1 = array();
+$link_site_master_1[ 'it' ] = 'https://businessschool.luiss.it/international-management/';
+$link_site_master_1[ 'en' ] = 'https://businessschool.luiss.it/international-management/';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_1 = array();
-$link_brochure_1[ 'it' ] = 'https://businessschool.luiss.it/international-management/download-brochure/';
-$link_brochure_1[ 'en' ] = 'https://businessschool.luiss.it/international-management/download-brochure/';
+	<?php $link_brochure_master_1 = array();
+$link_brochure_master_1[ 'it' ] = 'https://businessschool.luiss.it/international-management/download-brochure/';
+$link_brochure_master_1[ 'en' ] = 'https://businessschool.luiss.it/international-management/download-brochure/';
 ?>
 
 	<!-- Master 2 -->
@@ -177,14 +184,14 @@ $inizio_master_2[ 'it' ] = '21 Set 2020';
 $inizio_master_2[ 'en' ] = 'Set 21, 2020';
 ?>
 	<!-- Programma -->
-	<?php $link_master_2 = array();
-$link_master_2[ 'it' ] = 'https://businessschool.luiss.it/management-energy-industry/download-brochure/';
-$link_master_2[ 'en' ] = 'https://businessschool.luiss.it/management-energy-industry/download-brochure/';
+	<?php $link_site_master_2 = array();
+$link_site_master_2[ 'it' ] = 'https://businessschool.luiss.it/management-energy-industry/download-brochure/';
+$link_site_master_2[ 'en' ] = 'https://businessschool.luiss.it/management-energy-industry/download-brochure/';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_2 = array();
-$link_brochure_2[ 'it' ] = 'https://businessschool.luiss.it/management-energy-industry/download-brochure/';
-$link_brochure_2[ 'en' ] = 'https://businessschool.luiss.it/management-energy-industry/download-brochure/';
+	<?php $link_brochure_master_2 = array();
+$link_brochure_master_2[ 'it' ] = 'https://businessschool.luiss.it/management-energy-industry/download-brochure/';
+$link_brochure_master_2[ 'en' ] = 'https://businessschool.luiss.it/management-energy-industry/download-brochure/';
 ?>
 
 	<!-- Master 3 -->
@@ -205,14 +212,14 @@ $inizio_master_3[ 'it' ] = '21 Set 2020';
 $inizio_master_3[ 'en' ] = 'Set 21, 2020';
 ?>
 	<!-- Programma -->
-	<?php $link_master_3 = array();
-$link_master_3[ 'it' ] = 'https://businessschool.luiss.it/management-technology-risk-management-insurance/';
-$link_master_3[ 'en' ] = 'https://businessschool.luiss.it/management-technology-risk-management-insurance/';
+	<?php $link_site_master_3 = array();
+$link_site_master_3[ 'it' ] = 'https://businessschool.luiss.it/management-technology-risk-management-insurance/';
+$link_site_master_3[ 'en' ] = 'https://businessschool.luiss.it/management-technology-risk-management-insurance/';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_3 = array();
-$link_brochure_3[ 'it' ] = 'https://businessschool.luiss.it/management-technology-risk-management-insurance/download-brochure/';
-$link_brochure_3[ 'en' ] = 'https://businessschool.luiss.it/management-technology-risk-management-insurance/download-brochure/';
+	<?php $link_brochure_master_3 = array();
+$link_brochure_master_3[ 'it' ] = 'https://businessschool.luiss.it/management-technology-risk-management-insurance/download-brochure/';
+$link_brochure_master_3[ 'en' ] = 'https://businessschool.luiss.it/management-technology-risk-management-insurance/download-brochure/';
 ?>
 
 	<!-- Master 4 -->
@@ -233,14 +240,14 @@ $inizio_master_4[ 'it' ] = '21 Set 2020';
 $inizio_master_4[ 'en' ] = 'Set 21, 2020';
 ?>
 	<!-- Programma -->
-	<?php $link_master_4 = array();
-$link_master_4[ 'it' ] = 'https://businessschool.luiss.it/macofin/';
-$link_master_4[ 'en' ] = 'https://businessschool.luiss.it/macofin/';
+	<?php $link_site_master_4 = array();
+$link_site_master_4[ 'it' ] = 'https://businessschool.luiss.it/macofin/';
+$link_site_master_4[ 'en' ] = 'https://businessschool.luiss.it/macofin/';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_4 = array();
-$link_brochure_4[ 'it' ] = 'https://businessschool.luiss.it/macofin/download-brochure-master-macofin/';
-$link_brochure_4[ 'en' ] = 'https://businessschool.luiss.it/macofin/download-brochure-master-macofin/';
+	<?php $link_brochure_master_4 = array();
+$link_brochure_master_4[ 'it' ] = 'https://businessschool.luiss.it/macofin/download-brochure-master-macofin/';
+$link_brochure_master_4[ 'en' ] = 'https://businessschool.luiss.it/macofin/download-brochure-master-macofin/';
 ?>
 
 	<!-- Master 5 -->
@@ -261,14 +268,14 @@ $inizio_master_5[ 'it' ] = '26 Ott 2020';
 $inizio_master_5[ 'en' ] = 'Oct 26, 2020';
 ?>
 	<!-- Programma -->
-	<?php $link_master_5 = array();
-$link_master_5[ 'it' ] = 'https://businessschool.luiss.it/corporate-finance-banking-major-banking/';
-$link_master_5[ 'en' ] = 'https://businessschool.luiss.it/corporate-finance-banking-major-banking/';
+	<?php $link_site_master_5 = array();
+$link_site_master_5[ 'it' ] = 'https://businessschool.luiss.it/corporate-finance-banking-major-banking/';
+$link_site_master_5[ 'en' ] = 'https://businessschool.luiss.it/corporate-finance-banking-major-banking/';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_5 = array();
-$link_brochure_5[ 'it' ] = 'https://businessschool.luiss.it/corporate-finance-banking-major-banking/download-brochure/';
-$link_brochure_5[ 'en' ] = 'https://businessschool.luiss.it/corporate-finance-banking-major-banking/download-brochure/';
+	<?php $link_brochure_master_5 = array();
+$link_brochure_master_5[ 'it' ] = 'https://businessschool.luiss.it/corporate-finance-banking-major-banking/download-brochure/';
+$link_brochure_master_5[ 'en' ] = 'https://businessschool.luiss.it/corporate-finance-banking-major-banking/download-brochure/';
 ?>
 
 	<!-- Master 6 -->
@@ -289,14 +296,14 @@ $inizio_master_6[ 'it' ] = '26 Ott 2020';
 $inizio_master_6[ 'en' ] = 'Oct 26, 2020';
 ?>
 	<!-- Programma -->
-	<?php $link_master_6 = array();
-$link_master_6[ 'it' ] = 'https://businessschool.luiss.it/corporare-finance-banking-major-finanza-aziendale/';
-$link_master_6[ 'en' ] = 'https://businessschool.luiss.it/corporare-finance-banking-major-finanza-aziendale/';
+	<?php $link_site_master_6 = array();
+$link_site_master_6[ 'it' ] = 'https://businessschool.luiss.it/corporare-finance-banking-major-finanza-aziendale/';
+$link_site_master_6[ 'en' ] = 'https://businessschool.luiss.it/corporare-finance-banking-major-finanza-aziendale/';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_6 = array();
-$link_brochure_6[ 'it' ] = 'https://businessschool.luiss.it/corporare-finance-banking-major-finanza-aziendale/download-brochure/';
-$link_brochure_6[ 'en' ] = 'https://businessschool.luiss.it/corporare-finance-banking-major-finanza-aziendale/download-brochure/';
+	<?php $link_brochure_master_6 = array();
+$link_brochure_master_6[ 'it' ] = 'https://businessschool.luiss.it/corporare-finance-banking-major-finanza-aziendale/download-brochure/';
+$link_brochure_master_6[ 'en' ] = 'https://businessschool.luiss.it/corporare-finance-banking-major-finanza-aziendale/download-brochure/';
 ?>
 
 	<!-- Master 7 -->
@@ -317,14 +324,14 @@ $inizio_master_7[ 'it' ] = '9 Nov, 2020';
 $inizio_master_7[ 'en' ] = 'Nov 9, 2020';
 ?>
 	<!-- Programma -->
-	<?php $link_master_7 = array();
-$link_master_7[ 'it' ] = 'https://businessschool.luiss.it/corporare-finance-banking-major-finanza-aziendale/';
-$link_master_7[ 'en' ] = 'https://businessschool.luiss.it/corporare-finance-banking-major-finanza-aziendale/';
+	<?php $link_site_master_7 = array();
+$link_site_master_7[ 'it' ] = 'https://businessschool.luiss.it/corporare-finance-banking-major-finanza-aziendale/';
+$link_site_master_7[ 'en' ] = 'https://businessschool.luiss.it/corporare-finance-banking-major-finanza-aziendale/';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_7 = array();
-$link_brochure_7[ 'it' ] = 'https://businessschool.luiss.it/corporare-finance-banking-major-finanza-aziendale/download-brochure/';
-$link_brochure_7[ 'en' ] = 'https://businessschool.luiss.it/corporare-finance-banking-major-finanza-aziendale/download-brochure/';
+	<?php $link_brochure_master_7 = array();
+$link_brochure_master_7[ 'it' ] = 'https://businessschool.luiss.it/corporare-finance-banking-major-finanza-aziendale/download-brochure/';
+$link_brochure_master_7[ 'en' ] = 'https://businessschool.luiss.it/corporare-finance-banking-major-finanza-aziendale/download-brochure/';
 ?>
 
 	<!-- Master 8 -->
@@ -345,14 +352,14 @@ $inizio_master_8[ 'it' ] = '26 Oct, 2020';
 $inizio_master_8[ 'en' ] = 'Oct 26, 2020';
 ?>
 	<!-- Programma -->
-	<?php $link_master_8 = array();
-$link_master_8[ 'it' ] = 'https://www.maref.luiss.it/';
-$link_master_8[ 'en' ] = 'https://www.maref.luiss.it/';
+	<?php $link_site_master_8 = array();
+$link_site_master_8[ 'it' ] = 'https://www.maref.luiss.it/';
+$link_site_master_8[ 'en' ] = 'https://www.maref.luiss.it/';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_8 = array();
-$link_brochure_8[ 'it' ] = 'https://www.maref.luiss.it/scarica-la-brochure/';
-$link_brochure_8[ 'en' ] = 'https://www.maref.luiss.it/scarica-la-brochure/';
+	<?php $link_brochure_master_8 = array();
+$link_brochure_master_8[ 'it' ] = 'https://www.maref.luiss.it/scarica-la-brochure/';
+$link_brochure_master_8[ 'en' ] = 'https://www.maref.luiss.it/scarica-la-brochure/';
 ?>
 
 	<!-- Master 9 -->
@@ -373,14 +380,14 @@ $inizio_master_9[ 'it' ] = '21 Set 2020';
 $inizio_master_9[ 'en' ] = 'Set 21, 2020';
 ?>
 	<!-- Programma -->
-	<?php $link_master_9 = array();
-$link_master_9[ 'it' ] = 'https://businessschool.luiss.it/management-technology-digital-ecosystem/';
-$link_master_9[ 'en' ] = 'https://businessschool.luiss.it/management-technology-digital-ecosystem/';
+	<?php $link_site_master_9 = array();
+$link_site_master_9[ 'it' ] = 'https://businessschool.luiss.it/management-technology-digital-ecosystem/';
+$link_site_master_9[ 'en' ] = 'https://businessschool.luiss.it/management-technology-digital-ecosystem/';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_9 = array();
-$link_brochure_9[ 'it' ] = 'https://businessschool.luiss.it/management-technology-digital-ecosystem/download-brochure/';
-$link_brochure_9[ 'en' ] = 'https://businessschool.luiss.it/management-technology-digital-ecosystem/download-brochure/';
+	<?php $link_brochure_master_9 = array();
+$link_brochure_master_9[ 'it' ] = 'https://businessschool.luiss.it/management-technology-digital-ecosystem/download-brochure/';
+$link_brochure_master_9[ 'en' ] = 'https://businessschool.luiss.it/management-technology-digital-ecosystem/download-brochure/';
 ?>
 
 	<!-- Master 10 -->
@@ -401,14 +408,14 @@ $inizio_master_10[ 'it' ] = '21 Set 2020';
 $inizio_master_10[ 'en' ] = 'Set 21, 2020';
 ?>
 	<!-- Programma -->
-	<?php $link_master_10 = array();
-$link_master_10[ 'it' ] = 'https://businessschool.luiss.it/global-supply-chain-management/';
-$link_master_10[ 'en' ] = 'https://businessschool.luiss.it/global-supply-chain-management/';
+	<?php $link_site_master_10 = array();
+$link_site_master_10[ 'it' ] = 'https://businessschool.luiss.it/global-supply-chain-management/';
+$link_site_master_10[ 'en' ] = 'https://businessschool.luiss.it/global-supply-chain-management/';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_10 = array();
-$link_brochure_10[ 'it' ] = 'https://businessschool.luiss.it/global-supply-chain-management/download-brochure/';
-$link_brochure_10[ 'en' ] = 'https://businessschool.luiss.it/global-supply-chain-management/download-brochure/';
+	<?php $link_brochure_master_10 = array();
+$link_brochure_master_10[ 'it' ] = 'https://businessschool.luiss.it/global-supply-chain-management/download-brochure/';
+$link_brochure_master_10[ 'en' ] = 'https://businessschool.luiss.it/global-supply-chain-management/download-brochure/';
 ?>
 
 <!-- Master 11 -->
@@ -429,14 +436,14 @@ $inizio_master_11[ 'it' ] = '26 Oct 2020';
 $inizio_master_11[ 'en' ] = 'Oct 26, 2020';
 ?>
 	<!-- Programma -->
-	<?php $link_master_11 = array();
-$link_master_11[ 'it' ] = 'https://businessschool.luiss.it/disruptive-ma/';
-$link_master_11[ 'en' ] = 'https://businessschool.luiss.it/disruptive-ma/';
+	<?php $link_site_master_11 = array();
+$link_site_master_11[ 'it' ] = 'https://businessschool.luiss.it/disruptive-ma/';
+$link_site_master_11[ 'en' ] = 'https://businessschool.luiss.it/disruptive-ma/';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_11 = array();
-$link_brochure_11[ 'it' ] = 'https://businessschool.luiss.it/disruptive-ma/download-brochure/';
-$link_brochure_11[ 'en' ] = 'https://businessschool.luiss.it/disruptive-ma/download-brochure/';
+	<?php $link_brochure_master_11 = array();
+$link_brochure_master_11[ 'it' ] = 'https://businessschool.luiss.it/disruptive-ma/download-brochure/';
+$link_brochure_master_11[ 'en' ] = 'https://businessschool.luiss.it/disruptive-ma/download-brochure/';
 ?>
 
 	<!-- Master 12 -->
@@ -457,14 +464,14 @@ $inizio_master_12[ 'it' ] = 'Nov 2020';
 $inizio_master_12[ 'en' ] = 'Nov 2020';
 ?>
 	<!-- Programma -->
-	<?php $link_master_12 = array();
-$link_master_12[ 'it' ] = 'https://businessschool.luiss.it/digital-business-strategy/';
-$link_master_12[ 'en' ] = 'https://businessschool.luiss.it/digital-business-strategy/';
+	<?php $link_site_master_12 = array();
+$link_site_master_12[ 'it' ] = 'https://businessschool.luiss.it/digital-business-strategy/';
+$link_site_master_12[ 'en' ] = 'https://businessschool.luiss.it/digital-business-strategy/';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_12 = array();
-$link_brochure_12[ 'it' ] = 'https://businessschool.luiss.it/digital-business-strategy/download-brochure/';
-$link_brochure_12[ 'en' ] = 'https://businessschool.luiss.it/digital-business-strategy/download-brochure/';
+	<?php $link_brochure_master_12 = array();
+$link_brochure_master_12[ 'it' ] = 'https://businessschool.luiss.it/digital-business-strategy/download-brochure/';
+$link_brochure_master_12[ 'en' ] = 'https://businessschool.luiss.it/digital-business-strategy/download-brochure/';
 ?>
 
 	<!-- Master 13 -->
@@ -485,14 +492,14 @@ $inizio_master_13[ 'it' ] = '9 Nov 2020';
 $inizio_master_13[ 'en' ] = 'Nov 9, 2020';
 ?>
 	<!-- Programma -->
-	<?php $link_master_13 = array();
-$link_master_13[ 'it' ] = 'https://businessschool.luiss.it/digital-business-strategy-belluno/download-brochure/';
-$link_master_13[ 'en' ] = 'https://businessschool.luiss.it/digital-business-strategy-belluno/download-brochure/';
+	<?php $link_site_master_13 = array();
+$link_site_master_13[ 'it' ] = 'https://businessschool.luiss.it/digital-business-strategy-belluno/download-brochure/';
+$link_site_master_13[ 'en' ] = 'https://businessschool.luiss.it/digital-business-strategy-belluno/download-brochure/';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_13 = array();
-$link_brochure_13[ 'it' ] = 'https://businessschool.luiss.it/digital-business-strategy-belluno//';
-$link_brochure_13[ 'en' ] = 'https://businessschool.luiss.it/digital-business-strategy-belluno/';
+	<?php $link_brochure_master_13 = array();
+$link_brochure_master_13[ 'it' ] = 'https://businessschool.luiss.it/digital-business-strategy-belluno//';
+$link_brochure_master_13[ 'en' ] = 'https://businessschool.luiss.it/digital-business-strategy-belluno/';
 ?>
 
 	<!-- Master 14 -->
@@ -513,14 +520,14 @@ $inizio_master_14[ 'it' ] = '21 Set 2020';
 $inizio_master_14[ 'en' ] = 'Set 21, 2020';
 ?>
 	<!-- Programma -->
-	<?php $link_master_14 = array();
-$link_master_14[ 'it' ] = 'https://businessschool.luiss.it/master-of-fashion/';
-$link_master_14[ 'en' ] = 'https://businessschool.luiss.it/master-of-fashion/';
+	<?php $link_site_master_14 = array();
+$link_site_master_14[ 'it' ] = 'https://businessschool.luiss.it/master-of-fashion/';
+$link_site_master_14[ 'en' ] = 'https://businessschool.luiss.it/master-of-fashion/';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_14 = array();
-$link_brochure_14[ 'it' ] = 'https://businessschool.luiss.it/master-of-fashion/download-brochure/';
-$link_brochure_14[ 'en' ] = 'https://businessschool.luiss.it/master-of-fashion/download-brochure/';
+	<?php $link_brochure_master_14 = array();
+$link_brochure_master_14[ 'it' ] = 'https://businessschool.luiss.it/master-of-fashion/download-brochure/';
+$link_brochure_master_14[ 'en' ] = 'https://businessschool.luiss.it/master-of-fashion/download-brochure/';
 ?>
 
 	<!-- Master 15 -->
@@ -541,14 +548,14 @@ $inizio_master_15[ 'it' ] = '21 Set 2020';
 $inizio_master_15[ 'en' ] = 'Set 21, 2020';
 ?>
 	<!-- Programma -->
-	<?php $link_master_15 = array();
-$link_master_15[ 'it' ] = 'https://businessschool.luiss.it/master-of-luxury/';
-$link_master_15[ 'en' ] = 'https://businessschool.luiss.it/master-of-luxury/';
+	<?php $link_site_master_15 = array();
+$link_site_master_15[ 'it' ] = 'https://businessschool.luiss.it/master-of-luxury/';
+$link_site_master_15[ 'en' ] = 'https://businessschool.luiss.it/master-of-luxury/';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_15 = array();
-$link_brochure_15[ 'it' ] = 'https://businessschool.luiss.it/master-of-luxury/download-brochure/';
-$link_brochure_15[ 'en' ] = 'https://businessschool.luiss.it/master-of-luxury/download-brochure/';
+	<?php $link_brochure_master_15 = array();
+$link_brochure_master_15[ 'it' ] = 'https://businessschool.luiss.it/master-of-luxury/download-brochure/';
+$link_brochure_master_15[ 'en' ] = 'https://businessschool.luiss.it/master-of-luxury/download-brochure/';
 ?>
 
 	<!-- Master 16 -->
@@ -569,14 +576,14 @@ $inizio_master_16[ 'it' ] = '21 Set 2020';
 $inizio_master_16[ 'en' ] = 'Set 21, 2020';
 ?>
 	<!-- Programma -->
-	<?php $link_master_16 = array();
-$link_master_16[ 'it' ] = 'https://businessschool.luiss.it/tourism-management/';
-$link_master_16[ 'en' ] = 'https://businessschool.luiss.it/tourism-management/';
+	<?php $link_site_master_16 = array();
+$link_site_master_16[ 'it' ] = 'https://businessschool.luiss.it/tourism-management/';
+$link_site_master_16[ 'en' ] = 'https://businessschool.luiss.it/tourism-management/';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_16 = array();
-$link_brochure_16[ 'it' ] = 'https://businessschool.luiss.it/tourism-management/download-brochure/';
-$link_brochure_16[ 'en' ] = 'https://businessschool.luiss.it/tourism-management/download-brochure/';
+	<?php $link_brochure_master_16 = array();
+$link_brochure_master_16[ 'it' ] = 'https://businessschool.luiss.it/tourism-management/download-brochure/';
+$link_brochure_master_16[ 'en' ] = 'https://businessschool.luiss.it/tourism-management/download-brochure/';
 ?>
 
 	<!-- Master 17 -->
@@ -597,14 +604,14 @@ $inizio_master_17[ 'it' ] = '21 Set 2020';
 $inizio_master_17[ 'en' ] = 'Set 21, 2020';
 ?>
 	<!-- Programma -->
-	<?php $link_master_17 = array();
-$link_master_17[ 'it' ] = 'https://businessschool.luiss.it/tourism-management-belluno/';
-$link_master_17[ 'en' ] = 'https://businessschool.luiss.it/tourism-management-belluno/';
+	<?php $link_site_master_17 = array();
+$link_site_master_17[ 'it' ] = 'https://businessschool.luiss.it/tourism-management-belluno/';
+$link_site_master_17[ 'en' ] = 'https://businessschool.luiss.it/tourism-management-belluno/';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_17 = array();
-$link_brochure_17[ 'it' ] = 'https://businessschool.luiss.it/tourism-management-belluno/download-brochure/';
-$link_brochure_17[ 'en' ] = 'https://businessschool.luiss.it/tourism-management-belluno/download-brochure/';
+	<?php $link_brochure_master_17 = array();
+$link_brochure_master_17[ 'it' ] = 'https://businessschool.luiss.it/tourism-management-belluno/download-brochure/';
+$link_brochure_master_17[ 'en' ] = 'https://businessschool.luiss.it/tourism-management-belluno/download-brochure/';
 ?>
 
 	<!-- Master 18 -->
@@ -625,14 +632,14 @@ $inizio_master_18[ 'it' ] = 'TBD';
 $inizio_master_18[ 'en' ] = 'TBD';
 ?>
 	<!-- Programma -->
-	<?php $link_master_18 = array();
-$link_master_18[ 'it' ] = '';
-$link_master_18[ 'en' ] = '';
+	<?php $link_site_master_18 = array();
+$link_site_master_18[ 'it' ] = '';
+$link_site_master_18[ 'en' ] = '';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_18 = array();
-$link_brochure_18[ 'it' ] = '';
-$link_brochure_18[ 'en' ] = '';
+	<?php $link_brochure_master_18 = array();
+$link_brochure_master_18[ 'it' ] = '';
+$link_brochure_master_18[ 'en' ] = '';
 ?>
 
 	<!-- Master 19 -->
@@ -653,14 +660,14 @@ $inizio_master_19[ 'it' ] = '26 Ott 2020';
 $inizio_master_19[ 'en' ] = 'Oct 26, 2020';
 ?>
 	<!-- Programma -->
-	<?php $link_master_19 = array();
-$link_master_19[ 'it' ] = 'https://businessschool.luiss.it/project-management/';
-$link_master_19[ 'en' ] = 'https://businessschool.luiss.it/project-management/';
+	<?php $link_site_master_19 = array();
+$link_site_master_19[ 'it' ] = 'https://businessschool.luiss.it/project-management/';
+$link_site_master_19[ 'en' ] = 'https://businessschool.luiss.it/project-management/';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_19 = array();
-$link_brochure_19[ 'it' ] = 'https://businessschool.luiss.it/project-management/download-brochure/';
-$link_brochure_19[ 'en' ] = 'https://businessschool.luiss.it/project-management/download-brochure/';
+	<?php $link_brochure_master_19 = array();
+$link_brochure_master_19[ 'it' ] = 'https://businessschool.luiss.it/project-management/download-brochure/';
+$link_brochure_master_19[ 'en' ] = 'https://businessschool.luiss.it/project-management/download-brochure/';
 ?>
 
 	<!-- Master 20 -->
@@ -681,14 +688,14 @@ $inizio_master_20[ 'it' ] = '26 Ott 2020';
 $inizio_master_20[ 'en' ] = 'Oct 26, 2020';
 ?>
 	<!-- Programma -->
-	<?php $link_master_20 = array();
-$link_master_20[ 'it' ] = 'https://businessschool.luiss.it/project-management-cooperazione-internazionale/';
-$link_master_20[ 'en' ] = 'https://businessschool.luiss.it/project-management-cooperazione-internazionale/';
+	<?php $link_site_master_20 = array();
+$link_site_master_20[ 'it' ] = 'https://businessschool.luiss.it/project-management-cooperazione-internazionale/';
+$link_site_master_20[ 'en' ] = 'https://businessschool.luiss.it/project-management-cooperazione-internazionale/';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_20 = array();
-$link_brochure_20[ 'it' ] = 'https://businessschool.luiss.it/project-management-cooperazione-internazionale/download-brochure/';
-$link_brochure_20[ 'en' ] = 'https://businessschool.luiss.it/project-management-cooperazione-internazionale/download-brochure/';
+	<?php $link_brochure_master_20 = array();
+$link_brochure_master_20[ 'it' ] = 'https://businessschool.luiss.it/project-management-cooperazione-internazionale/download-brochure/';
+$link_brochure_master_20[ 'en' ] = 'https://businessschool.luiss.it/project-management-cooperazione-internazionale/download-brochure/';
 ?>
 
 	<!-- Master 21 -->
@@ -709,14 +716,14 @@ $inizio_master_21[ 'it' ] = 'TBD';
 $inizio_master_21[ 'en' ] = 'TBD';
 ?>
 	<!-- Programma -->
-	<?php $link_master_21 = array();
-$link_master_21[ 'it' ] = 'https://businessschool.luiss.it/entrepreneurship/';
-$link_master_21[ 'en' ] = 'https://businessschool.luiss.it/entrepreneurship/';
+	<?php $link_site_master_21 = array();
+$link_site_master_21[ 'it' ] = 'https://businessschool.luiss.it/entrepreneurship/';
+$link_site_master_21[ 'en' ] = 'https://businessschool.luiss.it/entrepreneurship/';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_21 = array();
-$link_brochure_21[ 'it' ] = 'https://businessschool.luiss.it/entrepreneurship/download-brochure/';
-$link_brochure_21[ 'en' ] = 'https://businessschool.luiss.it/entrepreneurship/download-brochure/';
+	<?php $link_brochure_master_21 = array();
+$link_brochure_master_21[ 'it' ] = 'https://businessschool.luiss.it/entrepreneurship/download-brochure/';
+$link_brochure_master_21[ 'en' ] = 'https://businessschool.luiss.it/entrepreneurship/download-brochure/';
 ?>
 
 	<!-- Master 22 -->
@@ -737,14 +744,14 @@ $inizio_master_22[ 'it' ] = '26 Ott 2020';
 $inizio_master_22[ 'en' ] = 'Oct 26, 2020';
 ?>
 	<!-- Programma -->
-	<?php $link_master_22 = array();
-$link_master_22[ 'it' ] = 'https://businessschool.luiss.it/gruo/';
-$link_master_22[ 'en' ] = 'https://businessschool.luiss.it/gruo/';
+	<?php $link_site_master_22 = array();
+$link_site_master_22[ 'it' ] = 'https://businessschool.luiss.it/gruo/';
+$link_site_master_22[ 'en' ] = 'https://businessschool.luiss.it/gruo/';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_22 = array();
-$link_brochure_22[ 'it' ] = 'https://businessschool.luiss.it/gruo/download-brochure/';
-$link_brochure_22[ 'en' ] = 'https://businessschool.luiss.it/gruo/download-brochure/';
+	<?php $link_brochure_master_22 = array();
+$link_brochure_master_22[ 'it' ] = 'https://businessschool.luiss.it/gruo/download-brochure/';
+$link_brochure_master_22[ 'en' ] = 'https://businessschool.luiss.it/gruo/download-brochure/';
 ?>
 
 	<!-- Master 23 MILANO -->
@@ -765,14 +772,14 @@ $inizio_master_23[ 'it' ] = 'Nov 2020';
 $inizio_master_23[ 'en' ] = 'Nov 2020';
 ?>
 	<!-- Programma -->
-	<?php $link_master_23 = array();
-$link_master_23[ 'it' ] = 'https://businessschool.luiss.it/gruo/';
-$link_master_23[ 'en' ] = 'https://businessschool.luiss.it/gruo/';
+	<?php $link_site_master_23 = array();
+$link_site_master_23[ 'it' ] = 'https://businessschool.luiss.it/gruo/';
+$link_site_master_23[ 'en' ] = 'https://businessschool.luiss.it/gruo/';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_23 = array();
-$link_brochure_23[ 'it' ] = 'https://businessschool.luiss.it/gruo/download-brochure/';
-$link_brochure_23[ 'en' ] = 'https://businessschool.luiss.it/gruo/download-brochure/';
+	<?php $link_brochure_master_23 = array();
+$link_brochure_master_23[ 'it' ] = 'https://businessschool.luiss.it/gruo/download-brochure/';
+$link_brochure_master_23[ 'en' ] = 'https://businessschool.luiss.it/gruo/download-brochure/';
 ?>
 
 	<!-- Master 24 -->
@@ -793,14 +800,14 @@ $inizio_master_24[ 'it' ] = '26 Ott 2020';
 $inizio_master_24[ 'en' ] = 'Oct 26, 2020';
 ?>
 	<!-- Programma -->
-	<?php $link_master_24 = array();
-$link_master_24[ 'it' ] = 'https://businessschool.luiss.it/diritto-tributario/';
-$link_master_24[ 'en' ] = 'https://businessschool.luiss.it/diritto-tributario/';
+	<?php $link_site_master_24 = array();
+$link_site_master_24[ 'it' ] = 'https://businessschool.luiss.it/diritto-tributario/';
+$link_site_master_24[ 'en' ] = 'https://businessschool.luiss.it/diritto-tributario/';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_24 = array();
-$link_brochure_24[ 'it' ] = 'https://businessschool.luiss.it/diritto-tributario/download-brochure/';
-$link_brochure_24[ 'en' ] = 'https://businessschool.luiss.it/diritto-tributario/download-brochure/';
+	<?php $link_brochure_master_24 = array();
+$link_brochure_master_24[ 'it' ] = 'https://businessschool.luiss.it/diritto-tributario/download-brochure/';
+$link_brochure_master_24[ 'en' ] = 'https://businessschool.luiss.it/diritto-tributario/download-brochure/';
 ?>
 
 	<!-- Master 25 -->
@@ -821,14 +828,14 @@ $inizio_master_25[ 'it' ] = '26 Ott 2020';
 $inizio_master_25[ 'en' ] = 'Oct 26, 2020';
 ?>
 	<!-- Programma -->
-	<?php $link_master_25 = array();
-$link_master_25[ 'it' ] = 'https://businessschool.luiss.it/marketing-management-digital-marketing/';
-$link_master_25[ 'en' ] = 'https://businessschool.luiss.it/marketing-management-digital-marketing/';
+	<?php $link_site_master_25 = array();
+$link_site_master_25[ 'it' ] = 'https://businessschool.luiss.it/marketing-management-digital-marketing/';
+$link_site_master_25[ 'en' ] = 'https://businessschool.luiss.it/marketing-management-digital-marketing/';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_25 = array();
-$link_brochure_25[ 'it' ] = 'https://businessschool.luiss.it/marketing-management-digital-marketing/download-brochure/';
-$link_brochure_25[ 'en' ] = 'https://businessschool.luiss.it/marketing-management-digital-marketing/download-brochure/';
+	<?php $link_brochure_master_25 = array();
+$link_brochure_master_25[ 'it' ] = 'https://businessschool.luiss.it/marketing-management-digital-marketing/download-brochure/';
+$link_brochure_master_25[ 'en' ] = 'https://businessschool.luiss.it/marketing-management-digital-marketing/download-brochure/';
 ?>
 
 	<!-- Master 26 MILANO -->
@@ -849,14 +856,14 @@ $inizio_master_26[ 'it' ] = 'Nov 2020';
 $inizio_master_26[ 'en' ] = 'Nov 2020';
 ?>
 	<!-- Programma -->
-	<?php $link_master_26 = array();
-$link_master_26[ 'it' ] = 'https://businessschool.luiss.it/marketing-management-digital-marketing/';
-$link_master_26[ 'en' ] = 'https://businessschool.luiss.it/marketing-management-digital-marketing/';
+	<?php $link_site_master_26 = array();
+$link_site_master_26[ 'it' ] = 'https://businessschool.luiss.it/marketing-management-digital-marketing/';
+$link_site_master_26[ 'en' ] = 'https://businessschool.luiss.it/marketing-management-digital-marketing/';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_26 = array();
-$link_brochure_26[ 'it' ] = 'https://businessschool.luiss.it/marketing-management-digital-marketing/download-brochure/';
-$link_brochure_26[ 'en' ] = 'https://businessschool.luiss.it/marketing-management-digital-marketing/download-brochure/';
+	<?php $link_brochure_master_26 = array();
+$link_brochure_master_26[ 'it' ] = 'https://businessschool.luiss.it/marketing-management-digital-marketing/download-brochure/';
+$link_brochure_master_26[ 'en' ] = 'https://businessschool.luiss.it/marketing-management-digital-marketing/download-brochure/';
 ?>
 
 	<!-- Master 27 -->
@@ -877,14 +884,14 @@ $inizio_master_27[ 'it' ] = '26 Ott 2020';
 $inizio_master_27[ 'en' ] = 'Oct 26, 2020';
 ?>
 	<!-- Programma -->
-	<?php $link_master_27 = array();
-$link_master_27[ 'it' ] = 'https://businessschool.luiss.it/marketing-management/';
-$link_master_27[ 'en' ] = 'https://businessschool.luiss.it/marketing-management/';
+	<?php $link_site_master_27 = array();
+$link_site_master_27[ 'it' ] = 'https://businessschool.luiss.it/marketing-management/';
+$link_site_master_27[ 'en' ] = 'https://businessschool.luiss.it/marketing-management/';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_27 = array();
-$link_brochure_27[ 'it' ] = 'https://businessschool.luiss.it/marketing-management/downlaod-brochure/';
-$link_brochure_27[ 'en' ] = 'https://businessschool.luiss.it/marketing-management/downlaod-brochure/';
+	<?php $link_brochure_master_27 = array();
+$link_brochure_master_27[ 'it' ] = 'https://businessschool.luiss.it/marketing-management/downlaod-brochure/';
+$link_brochure_master_27[ 'en' ] = 'https://businessschool.luiss.it/marketing-management/downlaod-brochure/';
 ?>
 
 	<!-- Master 28 MILANO -->
@@ -905,14 +912,14 @@ $inizio_master_28[ 'it' ] = '9 Nov 2020';
 $inizio_master_28[ 'en' ] = 'Nov 9, 2020';
 ?>
 	<!-- Programma -->
-	<?php $link_master_28 = array();
-$link_master_28[ 'it' ] = 'https://businessschool.luiss.it/marketing-management/';
-$link_master_28[ 'en' ] = 'https://businessschool.luiss.it/marketing-management/';
+	<?php $link_site_master_28 = array();
+$link_site_master_28[ 'it' ] = 'https://businessschool.luiss.it/marketing-management/';
+$link_site_master_28[ 'en' ] = 'https://businessschool.luiss.it/marketing-management/';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_28 = array();
-$link_brochure_28[ 'it' ] = 'https://businessschool.luiss.it/marketing-management/downlaod-brochure/';
-$link_brochure_28[ 'en' ] = 'https://businessschool.luiss.it/marketing-management/downlaod-brochure/';
+	<?php $link_brochure_master_28 = array();
+$link_brochure_master_28[ 'it' ] = 'https://businessschool.luiss.it/marketing-management/downlaod-brochure/';
+$link_brochure_master_28[ 'en' ] = 'https://businessschool.luiss.it/marketing-management/downlaod-brochure/';
 ?>
 
 	<!-- Master 29 -->
@@ -933,14 +940,14 @@ $inizio_master_29[ 'it' ] = '26 Ott 2020';
 $inizio_master_29[ 'en' ] = 'oct 26, 2020';
 ?>
 	<!-- Programma -->
-	<?php $link_master_29 = array();
-$link_master_29[ 'it' ] = 'https://businessschool.luiss.it/marketing-management-retailing-ecommerce/';
-$link_master_29[ 'en' ] = 'https://businessschool.luiss.it/marketing-management-retailing-ecommerce/';
+	<?php $link_site_master_29 = array();
+$link_site_master_29[ 'it' ] = 'https://businessschool.luiss.it/marketing-management-retailing-ecommerce/';
+$link_site_master_29[ 'en' ] = 'https://businessschool.luiss.it/marketing-management-retailing-ecommerce/';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_29 = array();
-$link_brochure_29[ 'it' ] = 'https://businessschool.luiss.it/marketing-management-retailing-ecommerce/download-brochure/';
-$link_brochure_29[ 'en' ] = 'https://businessschool.luiss.it/marketing-management-retailing-ecommerce/download-brochure/';
+	<?php $link_brochure_master_29 = array();
+$link_brochure_master_29[ 'it' ] = 'https://businessschool.luiss.it/marketing-management-retailing-ecommerce/download-brochure/';
+$link_brochure_master_29[ 'en' ] = 'https://businessschool.luiss.it/marketing-management-retailing-ecommerce/download-brochure/';
 ?>
 
 	<!-- Master 30 -->
@@ -961,14 +968,14 @@ $inizio_master_30[ 'it' ] = '26 Ott 2020';
 $inizio_master_30[ 'en' ] = 'oct 26, 2020';
 ?>
 	<!-- Programma -->
-	<?php $link_master_30 = array();
-$link_master_30[ 'it' ] = 'https://businessschool.luiss.it/trade-management/';
-$link_master_30[ 'en' ] = 'https://businessschool.luiss.it/trade-management/';
+	<?php $link_site_master_30 = array();
+$link_site_master_30[ 'it' ] = 'https://businessschool.luiss.it/trade-management/';
+$link_site_master_30[ 'en' ] = 'https://businessschool.luiss.it/trade-management/';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_30 = array();
-$link_brochure_30[ 'it' ] = 'https://businessschool.luiss.it/trade-management/download-brochure/';
-$link_brochure_30[ 'en' ] = 'https://businessschool.luiss.it/trade-management/download-brochure/';
+	<?php $link_brochure_master_30 = array();
+$link_brochure_master_30[ 'it' ] = 'https://businessschool.luiss.it/trade-management/download-brochure/';
+$link_brochure_master_30[ 'en' ] = 'https://businessschool.luiss.it/trade-management/download-brochure/';
 ?>
 
 	<!-- Master 31 -->
@@ -989,14 +996,14 @@ $inizio_master_31[ 'it' ] = '26 Ott 2020';
 $inizio_master_31[ 'en' ] = 'oct 26, 2020';
 ?>
 	<!-- Programma -->
-	<?php $link_master_31 = array();
-$link_master_31[ 'it' ] = 'https://businessschool.luiss.it/master-digital-export/';
-$link_master_31[ 'en' ] = 'https://businessschool.luiss.it/master-digital-export/';
+	<?php $link_site_master_31 = array();
+$link_site_master_31[ 'it' ] = 'https://businessschool.luiss.it/master-digital-export/';
+$link_site_master_31[ 'en' ] = 'https://businessschool.luiss.it/master-digital-export/';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_31 = array();
-$link_brochure_31[ 'it' ] = 'https://businessschool.luiss.it/master-digital-export/download-brochure/';
-$link_brochure_31[ 'en' ] = 'https://businessschool.luiss.it/master-digital-export/download-brochure/';
+	<?php $link_brochure_master_31 = array();
+$link_brochure_master_31[ 'it' ] = 'https://businessschool.luiss.it/master-digital-export/download-brochure/';
+$link_brochure_master_31[ 'en' ] = 'https://businessschool.luiss.it/master-digital-export/download-brochure/';
 ?>
 
 	<!-- Master 32 -->
@@ -1017,14 +1024,14 @@ $inizio_master_32[ 'it' ] = 'Nov 2020';
 $inizio_master_32[ 'en' ] = 'Nov 2020';
 ?>
 	<!-- Programma -->
-	<?php $link_master_32 = array();
-$link_master_32[ 'it' ] = 'https://businessschool.luiss.it/pr-communication-event-management/';
-$link_master_32[ 'en' ] = 'https://businessschool.luiss.it/pr-communication-event-management/';
+	<?php $link_site_master_32 = array();
+$link_site_master_32[ 'it' ] = 'https://businessschool.luiss.it/pr-communication-event-management/';
+$link_site_master_32[ 'en' ] = 'https://businessschool.luiss.it/pr-communication-event-management/';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_32 = array();
-$link_brochure_32[ 'it' ] = 'https://businessschool.luiss.it/pr-communication-event-management/download-brochure/';
-$link_brochure_32[ 'en' ] = 'https://businessschool.luiss.it/pr-communication-event-management/download-brochure/';
+	<?php $link_brochure_master_32 = array();
+$link_brochure_master_32[ 'it' ] = 'https://businessschool.luiss.it/pr-communication-event-management/download-brochure/';
+$link_brochure_master_32[ 'en' ] = 'https://businessschool.luiss.it/pr-communication-event-management/download-brochure/';
 ?>
 
 	<!-- Master 33 -->
@@ -1045,14 +1052,14 @@ $sottotitolo_master_33[ 'it' ] = 'Major del Master in Marketing Management';
 $sottotitolo_master_33[ 'en' ] = 'Major of the Master in Marketing Management';
 ?>
 	<!-- Programma -->
-	<?php $link_master_33 = array();
-$link_master_33[ 'it' ] = 'https://businessschool.luiss.it/pr-communication-event-management/';
-$link_master_33[ 'en' ] = 'https://businessschool.luiss.it/pr-communication-event-management/';
+	<?php $link_site_master_33 = array();
+$link_site_master_33[ 'it' ] = 'https://businessschool.luiss.it/pr-communication-event-management/';
+$link_site_master_33[ 'en' ] = 'https://businessschool.luiss.it/pr-communication-event-management/';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_33 = array();
-$link_brochure_33[ 'it' ] = 'https://businessschool.luiss.it/pr-communication-event-management/download-brochure/';
-$link_brochure_33[ 'en' ] = 'https://businessschool.luiss.it/pr-communication-event-management/download-brochure/';
+	<?php $link_brochure_master_33 = array();
+$link_brochure_master_33[ 'it' ] = 'https://businessschool.luiss.it/pr-communication-event-management/download-brochure/';
+$link_brochure_master_33[ 'en' ] = 'https://businessschool.luiss.it/pr-communication-event-management/download-brochure/';
 ?>
 
 	<!-- Master 34 -->
@@ -1073,14 +1080,14 @@ $inizio_master_34[ 'it' ] = '21 Set 2020';
 $inizio_master_34[ 'en' ] = 'Set 21, 2020';
 ?>
 	<!-- Programma -->
-	<?php $link_master_34 = array();
-$link_master_34[ 'it' ] = 'https://businessschool.luiss.it/mabda/';
-$link_master_34[ 'en' ] = 'https://businessschool.luiss.it/mabda/';
+	<?php $link_site_master_34 = array();
+$link_site_master_34[ 'it' ] = 'https://businessschool.luiss.it/mabda/';
+$link_site_master_34[ 'en' ] = 'https://businessschool.luiss.it/mabda/';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_34 = array();
-$link_brochure_34[ 'it' ] = 'https://businessschool.luiss.it/mabda/download-brochure/';
-$link_brochure_34[ 'en' ] = 'https://businessschool.luiss.it/mabda/download-brochure/';
+	<?php $link_brochure_master_34 = array();
+$link_brochure_master_34[ 'it' ] = 'https://businessschool.luiss.it/mabda/download-brochure/';
+$link_brochure_master_34[ 'en' ] = 'https://businessschool.luiss.it/mabda/download-brochure/';
 ?>
 
 	<!-- Master 35 -->
@@ -1101,14 +1108,14 @@ $inizio_master_9[ 'it' ] = '';
 $inizio_master_9[ 'en' ] = '';
 ?>
 	<!-- Programma -->
-	<?php $link_master_35 = array();
-$link_master_35[ 'it' ] = '';
-$link_master_35[ 'en' ] = '';
+	<?php $link_site_master_35 = array();
+$link_site_master_35[ 'it' ] = '';
+$link_site_master_35[ 'en' ] = '';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_35 = array();
-$link_brochure_35[ 'it' ] = '';
-$link_brochure_35[ 'en' ] = '';
+	<?php $link_brochure_master_35 = array();
+$link_brochure_master_35[ 'it' ] = '';
+$link_brochure_master_35[ 'en' ] = '';
 ?>
 
 	<!-- Master 36 BELLUNO -->
@@ -1129,14 +1136,14 @@ $inizio_master_36[ 'it' ] = 'Nov 2020';
 $inizio_master_36[ 'en' ] = 'Nov 2020';
 ?>
 	<!-- Programma -->
-	<?php $link_master_36 = array();
-$link_master_36[ 'it' ] = 'https://businessschool.luiss.it/food-and-wine-business-belluno/';
-$link_master_36[ 'en' ] = 'https://businessschool.luiss.it/food-and-wine-business-belluno/';
+	<?php $link_site_master_36 = array();
+$link_site_master_36[ 'it' ] = 'https://businessschool.luiss.it/food-and-wine-business-belluno/';
+$link_site_master_36[ 'en' ] = 'https://businessschool.luiss.it/food-and-wine-business-belluno/';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_36 = array();
-$link_brochure_36[ 'it' ] = 'https://businessschool.luiss.it/food-and-wine-business-belluno/download-brochure/';
-$link_brochure_36[ 'en' ] = 'https://businessschool.luiss.it/food-and-wine-business-belluno/download-brochure/';
+	<?php $link_brochure_master_36 = array();
+$link_brochure_master_36[ 'it' ] = 'https://businessschool.luiss.it/food-and-wine-business-belluno/download-brochure/';
+$link_brochure_master_36[ 'en' ] = 'https://businessschool.luiss.it/food-and-wine-business-belluno/download-brochure/';
 ?>
 
 	<!-- Master 37 -->
@@ -1157,14 +1164,14 @@ $inizio_master_37[ 'it' ] = 'Gen 2021';
 $inizio_master_37[ 'en' ] = 'Jan 2021';
 ?>
 	<!-- Programma -->
-	<?php $link_master_37 = array();
-$link_master_37[ 'it' ] = 'https://businessschool.luiss.it/master-food-wine/';
-$link_master_37[ 'en' ] = 'https://businessschool.luiss.it/master-food-wine/';
+	<?php $link_site_master_37 = array();
+$link_site_master_37[ 'it' ] = 'https://businessschool.luiss.it/master-food-wine/';
+$link_site_master_37[ 'en' ] = 'https://businessschool.luiss.it/master-food-wine/';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_37 = array();
-$link_brochure_37[ 'it' ] = 'https://businessschool.luiss.it/master-food-wine/download-brochure/';
-$link_brochure_37[ 'en' ] = 'https://businessschool.luiss.it/master-food-wine/download-brochure/';
+	<?php $link_brochure_master_37 = array();
+$link_brochure_master_37[ 'it' ] = 'https://businessschool.luiss.it/master-food-wine/download-brochure/';
+$link_brochure_master_37[ 'en' ] = 'https://businessschool.luiss.it/master-food-wine/download-brochure/';
 ?>
 
 	<!-- Master 38 -->
@@ -1185,14 +1192,14 @@ $inizio_master_38[ 'it' ] = 'Gen 2021';
 $inizio_master_38[ 'en' ] = 'Jan 2021';
 ?>
 	<!-- Programma -->
-	<?php $link_master_38= array();
-$link_master_38[ 'it' ] = 'https://businessschool.luiss.it/master-of-art/';
-$link_master_38[ 'en' ] = 'https://businessschool.luiss.it/master-of-art/';
+	<?php $link_site_master_38= array();
+$link_site_master_38[ 'it' ] = 'https://businessschool.luiss.it/master-of-art/';
+$link_site_master_38[ 'en' ] = 'https://businessschool.luiss.it/master-of-art/';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_38 = array();
-$link_brochure_38[ 'it' ] = 'https://businessschool.luiss.it/master-of-art/download-brochure/';
-$link_brochure_38[ 'en' ] = 'https://businessschool.luiss.it/master-of-art/download-brochure/';
+	<?php $link_brochure_master_38 = array();
+$link_brochure_master_38[ 'it' ] = 'https://businessschool.luiss.it/master-of-art/download-brochure/';
+$link_brochure_master_38[ 'en' ] = 'https://businessschool.luiss.it/master-of-art/download-brochure/';
 ?>
 
 	<!-- Master 39 -->
@@ -1213,14 +1220,14 @@ $inizio_master_39[ 'it' ] = 'Gen 2021';
 $inizio_master_39[ 'en' ] = 'Jan 2021';
 ?>
 	<!-- Programma -->
-	<?php $link_master_39 = array();
-$link_master_39[ 'it' ] = 'https://businessschool.luiss.it/master-of-music/';
-$link_master_39[ 'en' ] = 'https://businessschool.luiss.it/master-of-music/';
+	<?php $link_site_master_39 = array();
+$link_site_master_39[ 'it' ] = 'https://businessschool.luiss.it/master-of-music/';
+$link_site_master_39[ 'en' ] = 'https://businessschool.luiss.it/master-of-music/';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_39 = array();
-$link_brochure_39[ 'it' ] = 'https://businessschool.luiss.it/master-of-music/download-brochure/';
-$link_brochure_39[ 'en' ] = 'https://businessschool.luiss.it/master-of-music/download-brochure/';
+	<?php $link_brochure_master_39 = array();
+$link_brochure_master_39[ 'it' ] = 'https://businessschool.luiss.it/master-of-music/download-brochure/';
+$link_brochure_master_39[ 'en' ] = 'https://businessschool.luiss.it/master-of-music/download-brochure/';
 ?>
 
 	<!-- Master 40 -->
@@ -1241,14 +1248,14 @@ $inizio_master_40[ 'it' ] = 'Gen 2021';
 $inizio_master_40[ 'en' ] = 'Jan 2021';
 ?>
 	<!-- Programma -->
-	<?php $link_master_40 = array();
-$link_master_40[ 'it' ] = '';
-$link_master_40[ 'en' ] = '';
+	<?php $link_site_master_40 = array();
+$link_site_master_40[ 'it' ] = '';
+$link_site_master_40[ 'en' ] = '';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_40 = array();
-$link_brochure_40[ 'it' ] = '';
-$link_brochure_40[ 'en' ] = '';
+	<?php $link_brochure_master_40 = array();
+$link_brochure_master_40[ 'it' ] = '';
+$link_brochure_master_40[ 'en' ] = '';
 ?>
 
 	<!-- Master 41 -->
@@ -1269,14 +1276,14 @@ $inizio_master_41[ 'it' ] = 'Gen 2021';
 $inizio_master_41[ 'en' ] = 'Jan 2021';
 ?>
 	<!-- Programma -->
-	<?php $link_master_41 = array();
-$link_master_41[ 'it' ] = 'https://businessschool.luiss.it/gestione-produzione-cinematografica/';
-$link_master_41[ 'en' ] = 'https://businessschool.luiss.it/gestione-produzione-cinematografica/';
+	<?php $link_site_master_41 = array();
+$link_site_master_41[ 'it' ] = 'https://businessschool.luiss.it/gestione-produzione-cinematografica/';
+$link_site_master_41[ 'en' ] = 'https://businessschool.luiss.it/gestione-produzione-cinematografica/';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_41 = array();
-$link_brochure_41[ 'it' ] = 'https://businessschool.luiss.it/gestione-produzione-cinematografica/download-brochure/';
-$link_brochure_41[ 'en' ] = 'https://businessschool.luiss.it/gestione-produzione-cinematografica/download-brochure/';
+	<?php $link_brochure_master_41 = array();
+$link_brochure_master_41[ 'it' ] = 'https://businessschool.luiss.it/gestione-produzione-cinematografica/download-brochure/';
+$link_brochure_master_41[ 'en' ] = 'https://businessschool.luiss.it/gestione-produzione-cinematografica/download-brochure/';
 ?>
 
 	<!-- Master 42 -->
@@ -1297,14 +1304,14 @@ $inizio_master_42[ 'it' ] = 'Gen 2021';
 $inizio_master_42[ 'en' ] = 'Jan 2021';
 ?>
 	<!-- Programma -->
-	<?php $link_master_42 = array();
-$link_master_42[ 'it' ] = 'https://businessschool.luiss.it/writing-school-for-television/';
-$link_master_42[ 'en' ] = 'https://businessschool.luiss.it/writing-school-for-television/';
+	<?php $link_site_master_42 = array();
+$link_site_master_42[ 'it' ] = 'https://businessschool.luiss.it/writing-school-for-television/';
+$link_site_master_42[ 'en' ] = 'https://businessschool.luiss.it/writing-school-for-television/';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_42 = array();
-$link_brochure_42[ 'it' ] = 'https://businessschool.luiss.it/writing-school-for-television/download-brochure/';
-$link_brochure_42[ 'en' ] = 'https://businessschool.luiss.it/writing-school-for-television/download-brochure/';
+	<?php $link_brochure_master_42 = array();
+$link_brochure_master_42[ 'it' ] = 'https://businessschool.luiss.it/writing-school-for-television/download-brochure/';
+$link_brochure_master_42[ 'en' ] = 'https://businessschool.luiss.it/writing-school-for-television/download-brochure/';
 ?>
 
 	<!-- Master 43 -->
@@ -1325,14 +1332,14 @@ $inizio_master_43[ 'it' ] = 'TBD';
 $inizio_master_43[ 'en' ] = 'TBD';
 ?>
 	<!-- Programma -->
-	<?php $link_master_43 = array();
-$link_master_43[ 'it' ] = 'https://businessschool.luiss.it/relazioni-istituzionali-lobby-comunicazione-impresa/';
-$link_master_43[ 'en' ] = 'https://businessschool.luiss.it/relazioni-istituzionali-lobby-comunicazione-impresa/';
+	<?php $link_site_master_43 = array();
+$link_site_master_43[ 'it' ] = 'https://businessschool.luiss.it/relazioni-istituzionali-lobby-comunicazione-impresa/';
+$link_site_master_43[ 'en' ] = 'https://businessschool.luiss.it/relazioni-istituzionali-lobby-comunicazione-impresa/';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_43 = array();
-$link_brochure_43[ 'it' ] = 'https://businessschool.luiss.it/relazioni-istituzionali-lobby-comunicazione-impresa/download-brochure/';
-$link_brochure_43[ 'en' ] = 'https://businessschool.luiss.it/relazioni-istituzionali-lobby-comunicazione-impresa/download-brochure/';
+	<?php $link_brochure_master_43 = array();
+$link_brochure_master_43[ 'it' ] = 'https://businessschool.luiss.it/relazioni-istituzionali-lobby-comunicazione-impresa/download-brochure/';
+$link_brochure_master_43[ 'en' ] = 'https://businessschool.luiss.it/relazioni-istituzionali-lobby-comunicazione-impresa/download-brochure/';
 ?>
 
 	<!-- Master 44 -->
@@ -1353,14 +1360,14 @@ $inizio_master_44[ 'it' ] = '16 Apr 2021';
 $inizio_master_44[ 'en' ] = 'Apr 16, 2021';
 ?>
 	<!-- Programma -->
-	<?php $link_master_44 = array();
-$link_master_44[ 'it' ] = 'https://businessschool.luiss.it/openinnovation-ip/';
-$link_master_44[ 'en' ] = 'https://businessschool.luiss.it/openinnovation-ip/';
+	<?php $link_site_master_44 = array();
+$link_site_master_44[ 'it' ] = 'https://businessschool.luiss.it/openinnovation-ip/';
+$link_site_master_44[ 'en' ] = 'https://businessschool.luiss.it/openinnovation-ip/';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_44 = array();
-$link_brochure_44[ 'it' ] = 'https://businessschool.luiss.it/openinnovation-ip/brochure/';
-$link_brochure_44[ 'en' ] = 'https://businessschool.luiss.it/openinnovation-ip/brochure/';
+	<?php $link_brochure_master_44 = array();
+$link_brochure_master_44[ 'it' ] = 'https://businessschool.luiss.it/openinnovation-ip/brochure/';
+$link_brochure_master_44[ 'en' ] = 'https://businessschool.luiss.it/openinnovation-ip/brochure/';
 ?>
 
 	<!-- Master 45 Tipo EXECUTIVE MASTER-->
@@ -1381,14 +1388,14 @@ $inizio_master_45[ 'it' ] = '23 ott 2020';
 $inizio_master_45[ 'en' ] = 'Oct 23, 2020';
 ?>
 	<!-- Programma -->
-	<?php $link_master_45 = array();
-$link_master_45[ 'it' ] = 'https://businessschool.luiss.it/master-circular-economy/';
-$link_master_45[ 'en' ] = 'https://businessschool.luiss.it/master-circular-economy/';
+	<?php $link_site_master_45 = array();
+$link_site_master_45[ 'it' ] = 'https://businessschool.luiss.it/master-circular-economy/';
+$link_site_master_45[ 'en' ] = 'https://businessschool.luiss.it/master-circular-economy/';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_45 = array();
-$link_brochure_45[ 'it' ] = 'https://businessschool.luiss.it/master-circular-economy/download-brochre/';
-$link_brochure_45[ 'en' ] = 'https://businessschool.luiss.it/master-circular-economy/download-brochre/';
+	<?php $link_brochure_master_45 = array();
+$link_brochure_master_45[ 'it' ] = 'https://businessschool.luiss.it/master-circular-economy/download-brochre/';
+$link_brochure_master_45[ 'en' ] = 'https://businessschool.luiss.it/master-circular-economy/download-brochre/';
 ?>
 
 	<!-- Master 46 -->
@@ -1409,14 +1416,14 @@ $inizio_master_46[ 'it' ] = '11 Mar 2021';
 $inizio_master_46[ 'en' ] = 'Mar 11, 2021';
 ?>
 	<!-- Programma -->
-	<?php $link_master_46 = array();
-$link_master_46[ 'it' ] = 'https://businessschool.luiss.it/probiomed/';
-$link_master_46[ 'en' ] = 'https://businessschool.luiss.it/probiomed/';
+	<?php $link_site_master_46 = array();
+$link_site_master_46[ 'it' ] = 'https://businessschool.luiss.it/probiomed/';
+$link_site_master_46[ 'en' ] = 'https://businessschool.luiss.it/probiomed/';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_46 = array();
-$link_brochure_46[ 'it' ] = 'https://businessschool.luiss.it/probiomed/brochure/';
-$link_brochure_46[ 'en' ] = 'https://businessschool.luiss.it/probiomed/brochure/';
+	<?php $link_brochure_master_46 = array();
+$link_brochure_master_46[ 'it' ] = 'https://businessschool.luiss.it/probiomed/brochure/';
+$link_brochure_master_46[ 'en' ] = 'https://businessschool.luiss.it/probiomed/brochure/';
 ?>
 
 	<!-- Master 47 -->
@@ -1437,14 +1444,14 @@ $inizio_master_47[ 'it' ] = '9 Ott 2020';
 $inizio_master_47[ 'en' ] = 'Oct 9, 2020';
 ?>
 	<!-- Programma -->
-	<?php $link_master_47 = array();
-$link_master_47[ 'it' ] = 'https://businessschool.luiss.it/management-aziende-sanitarie/';
-$link_master_47[ 'en' ] = 'https://businessschool.luiss.it/management-aziende-sanitarie/';
+	<?php $link_site_master_47 = array();
+$link_site_master_47[ 'it' ] = 'https://businessschool.luiss.it/management-aziende-sanitarie/';
+$link_site_master_47[ 'en' ] = 'https://businessschool.luiss.it/management-aziende-sanitarie/';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_47 = array();
-$link_brochure_47[ 'it' ] = 'https://businessschool.luiss.it/management-aziende-sanitarie/download-brochure/';
-$link_brochure_47[ 'en' ] = 'https://businessschool.luiss.it/management-aziende-sanitarie/download-brochure/';
+	<?php $link_brochure_master_47 = array();
+$link_brochure_master_47[ 'it' ] = 'https://businessschool.luiss.it/management-aziende-sanitarie/download-brochure/';
+$link_brochure_master_47[ 'en' ] = 'https://businessschool.luiss.it/management-aziende-sanitarie/download-brochure/';
 ?>
 
 	<!-- Master 48 -->
@@ -1465,14 +1472,14 @@ $inizio_master_48[ 'it' ] = '9 Ott 2020';
 $inizio_master_48[ 'en' ] = 'Oct 9, 2020';
 ?>
 	<!-- Programma -->
-	<?php $link_master_48 = array();
-$link_master_48[ 'it' ] = 'https://businessschool.luiss.it/executive-master-pharmaceutical-healthcare-administration/';
-$link_master_48[ 'en' ] = 'https://businessschool.luiss.it/executive-master-pharmaceutical-healthcare-administration/';
+	<?php $link_site_master_48 = array();
+$link_site_master_48[ 'it' ] = 'https://businessschool.luiss.it/executive-master-pharmaceutical-healthcare-administration/';
+$link_site_master_48[ 'en' ] = 'https://businessschool.luiss.it/executive-master-pharmaceutical-healthcare-administration/';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_48 = array();
-$link_brochure_48[ 'it' ] = 'https://businessschool.luiss.it/executive-master-pharmaceutical-healthcare-administration/download-brochure/';
-$link_brochure_48[ 'en' ] = 'https://businessschool.luiss.it/executive-master-pharmaceutical-healthcare-administration/download-brochure/';
+	<?php $link_brochure_master_48 = array();
+$link_brochure_master_48[ 'it' ] = 'https://businessschool.luiss.it/executive-master-pharmaceutical-healthcare-administration/download-brochure/';
+$link_brochure_master_48[ 'en' ] = 'https://businessschool.luiss.it/executive-master-pharmaceutical-healthcare-administration/download-brochure/';
 ?>
 
 	<!-- Master 49 -->
@@ -1493,14 +1500,14 @@ $inizio_master_49[ 'it' ] = '9 Ott 2020';
 $inizio_master_49[ 'en' ] = 'Oct 9, 2020';
 ?>
 	<!-- Programma -->
-	<?php $link_master_49 = array();
-$link_master_49[ 'it' ] = 'https://businessschool.luiss.it/master-sperimentazione-clinica/';
-$link_master_49[ 'en' ] = 'https://businessschool.luiss.it/master-sperimentazione-clinica/';
+	<?php $link_site_master_49 = array();
+$link_site_master_49[ 'it' ] = 'https://businessschool.luiss.it/master-sperimentazione-clinica/';
+$link_site_master_49[ 'en' ] = 'https://businessschool.luiss.it/master-sperimentazione-clinica/';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_49 = array();
-$link_brochure_49[ 'it' ] = 'https://businessschool.luiss.it/master-sperimentazione-clinica/download-brochure/';
-$link_brochure_49[ 'en' ] = 'https://businessschool.luiss.it/master-sperimentazione-clinica/download-brochure/';
+	<?php $link_brochure_master_49 = array();
+$link_brochure_master_49[ 'it' ] = 'https://businessschool.luiss.it/master-sperimentazione-clinica/download-brochure/';
+$link_brochure_master_49[ 'en' ] = 'https://businessschool.luiss.it/master-sperimentazione-clinica/download-brochure/';
 ?>
 
 	<!-- Master 50 -->
@@ -1521,14 +1528,14 @@ $inizio_master_50[ 'it' ] = 'TBD';
 $inizio_master_50[ 'en' ] = 'TBD';
 ?>
 	<!-- Programma -->
-	<?php $link_master_50 = array();
-$link_master_50[ 'it' ] = 'https://sog.luiss.it/graduate-programs/comunicazione-e-marketing-politico-ed-istituzionale';
-$link_master_50[ 'en' ] = 'https://sog.luiss.it/graduate-programs/comunicazione-e-marketing-politico-ed-istituzionale';
+	<?php $link_site_master_50 = array();
+$link_site_master_50[ 'it' ] = 'https://sog.luiss.it/graduate-programs/comunicazione-e-marketing-politico-ed-istituzionale';
+$link_site_master_50[ 'en' ] = 'https://sog.luiss.it/graduate-programs/comunicazione-e-marketing-politico-ed-istituzionale';
 ?>
 	<!-- Brochure -->
-	<?php $link_brochure_50 = array();
-$link_brochure_50[ 'it' ] = '';
-$link_brochure_50[ 'en' ] = '';
+	<?php $link_brochure_master_50 = array();
+$link_brochure_master_50[ 'it' ] = '';
+$link_brochure_master_50[ 'en' ] = '';
 ?>
 
 <!-- PROGRAMMI DI ALTA FORMAZIONE -->
@@ -1551,14 +1558,14 @@ $inizio_programma_a1[ 'it' ] = '26 Ott 2020';
 $inizio_programma_a1[ 'en' ] = 'Oct 26, 2020';
 ?>
 	<!-- Programma -->
-	<?php $link_programma_a1 = array();
-$link_programma_a1[ 'it' ] = 'https://businessschool.luiss.it/consulente-legale-impresa/';
-$link_programma_a1[ 'en' ] = 'https://businessschool.luiss.it/consulente-legale-impresa/';
+	<?php $link_site_programma_a1 = array();
+$link_site_programma_a1[ 'it' ] = 'https://businessschool.luiss.it/consulente-legale-impresa/';
+$link_site_programma_a1[ 'en' ] = 'https://businessschool.luiss.it/consulente-legale-impresa/';
 ?>
 	<!-- Brochure -->
-	<?php $link_programma_a1 = array();
-$link_programma_a1[ 'it' ] = 'https://businessschool.luiss.it/consulente-legale-impresa/download-brochure/';
-$link_programma_a1[ 'en' ] = 'https://businessschool.luiss.it/consulente-legale-impresa/download-brochure/';
+	<?php $link__brochure_programma_a1 = array();
+$link_brochure_programma_a1[ 'it' ] = 'https://businessschool.luiss.it/consulente-legale-impresa/download-brochure/';
+$link_brochure_programma_a1[ 'en' ] = 'https://businessschool.luiss.it/consulente-legale-impresa/download-brochure/';
 ?>
 
 <!-- Programma A2 -->
@@ -1579,14 +1586,14 @@ $inizio_programma_a2[ 'it' ] = 'Nov 2020';
 $inizio_programma_a2[ 'en' ] = 'Nov 2020';
 ?>
 	<!-- Programma -->
-	<?php $link_programma_a2 = array();
-$link_programma_a2[ 'it' ] = 'https://businessschool.luiss.it/five-stars-hotel-management/';
-$link_programma_a2[ 'en' ] = 'https://businessschool.luiss.it/five-stars-hotel-management/';
+	<?php $link_site_programma_a2 = array();
+$link_site_programma_a2[ 'it' ] = 'https://businessschool.luiss.it/five-stars-hotel-management/';
+$link_site_programma_a2[ 'en' ] = 'https://businessschool.luiss.it/five-stars-hotel-management/';
 ?>
 	<!-- Brochure -->
-	<?php $link_programma_a2 = array();
-$link_programma_a2[ 'it' ] = '';
-$link_programma_a2[ 'en' ] = '';
+	<?php $link_brochure_programma_a2 = array();
+$link_brochure_programma_a2[ 'it' ] = '';
+$link_brochure_programma_a2[ 'en' ] = '';
 ?>
 
 <!-- Programma A3 -->
@@ -1607,14 +1614,14 @@ $inizio_programma_a3[ 'it' ] = 'TBD';
 $inizio_programma_a3[ 'en' ] = 'TBD';
 ?>
 	<!-- Programma -->
-	<?php $link_programma_a3 = array();
-$link_programma_a3[ 'it' ] = 'https://businessschool.luiss.it/executive-serie-televisiva-idea-mercato/';
-$link_programma_a3[ 'en' ] = 'https://businessschool.luiss.it/executive-serie-televisiva-idea-mercato/';
+	<?php $link_site_programma_a3 = array();
+$link_site_programma_a3[ 'it' ] = 'https://businessschool.luiss.it/executive-serie-televisiva-idea-mercato/';
+$link_site_programma_a3[ 'en' ] = 'https://businessschool.luiss.it/executive-serie-televisiva-idea-mercato/';
 ?>
 	<!-- Brochure -->
-	<?php $link_programma_a3 = array();
-$link_programma_a3[ 'it' ] = '';
-$link_programma_a3[ 'en' ] = '';
+	<?php $link_brochure_programma_a3 = array();
+$link_brochure_programma_a3[ 'it' ] = '';
+$link_brochure_programma_a3[ 'en' ] = '';
 ?>
 
 <!-- Programma A4 -->
@@ -1635,14 +1642,14 @@ $inizio_programma_a4[ 'it' ] = 'TBD';
 $inizio_programma_a4[ 'en' ] = 'TBD';
 ?>
 	<!-- Programma -->
-	<?php $link_programma_a4 = array();
-$link_programma_a4[ 'it' ] = 'https://businessschool.luiss.it/executive-spa-terme-wellness-management/';
-$link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-terme-wellness-management/';
+	<?php $link_site_programma_a4 = array();
+$link_site_programma_a4[ 'it' ] = 'https://businessschool.luiss.it/executive-spa-terme-wellness-management/';
+$link_site_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-terme-wellness-management/';
 ?>
 	<!-- Brochure -->
-	<?php $link_programma_a4 = array();
-$link_programma_a4[ 'it' ] = 'https://businessschool.luiss.it/executive-spa-terme-wellness-management/download-brochure/';
-$link_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-terme-wellness-management/download-brochure/';
+	<?php $link_brochure_programma_a4 = array();
+$link_brochure_programma_a4[ 'it' ] = 'https://businessschool.luiss.it/executive-spa-terme-wellness-management/download-brochure/';
+$link_brochure_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive-spa-terme-wellness-management/download-brochure/';
 ?>
 
 <!-- Fine variabili -->
