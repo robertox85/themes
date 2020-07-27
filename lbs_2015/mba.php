@@ -131,6 +131,8 @@ $sub_home['en'] = 'Based on team working and action learning, our teaching devel
 </div>
 </div>
 
+<?php edit_post_link('<p>Modifica Pagina</p>', ''); ?>
+
 <script src='https://cdn1.pdmntn.com/a/EkyiaDgQr.js'></script>  
  
 <!--<script src='https://cdn1.pdmntn.com/a/NyUBj8ZQH.js'></script>-->

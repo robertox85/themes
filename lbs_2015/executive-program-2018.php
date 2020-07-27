@@ -30,6 +30,8 @@ $sub_home_2[ 'it' ] = 'settore o funzione sviluppando le competenze e il network
 $sub_home_2[ 'en' ] = 'WILLING TO DEVELOP NOT-CONVENTIONAL SKILLS AND TO LEARN THROUGH PROBLEM-SOLVING AND ACTION-LEARNING BASED METHODS, LABS AND THE NETWORKING.';
 ?>
 
+<?php edit_post_link('<p>Modifica Pagina</p>', ''); ?>
+
 <div class="container-fluid">
   <div class="titolo">
     <div class="container">
