@@ -27,7 +27,7 @@ $executive_flex_img_link[ 'en' ] = 'Find More About Our Flex Executive Programme
 <div class="container-fluid px-0" style="background-image: url('<?php echo $executive_flex_img_link[ICL_LANGUAGE_CODE]; ?>');">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-lg-6">
+            <div class="col-xs-12 col-lg-6">
                 <h2><?php echo $executive_flex_label[ICL_LANGUAGE_CODE] ?></h2>
                 <p><?php echo $executive_flex_desc[ICL_LANGUAGE_CODE] ?></p>
             </div>
