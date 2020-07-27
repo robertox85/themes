@@ -227,13 +227,13 @@ $titolo_mba_2[ 'en' ] = 'Part-time MBA';
 ?>
 	<!-- Sottotitolo -->
 	<?php $sottotitolo_mba_2 = array();
-$sottotitolo_mba_2[ 'it' ] = 'Mar 2021';
-$sottotitolo_mba_2[ 'en' ] = 'Mar 2021';
+$sottotitolo_mba_2[ 'it' ] = '';
+$sottotitolo_mba_2[ 'en' ] = '';
 ?>
 	<!-- Inizio -->
 	<?php $inizio_mba_2 = array();
-$inizio_mba_2[ 'it' ] = 'TBD';
-$inizio_mba_2[ 'en' ] = 'TBD';
+$inizio_mba_2[ 'it' ] = 'Mar 2021';
+$inizio_mba_2[ 'en' ] = 'Mar 2021';
 ?>
 	<!-- Programma -->
 	<?php $link_site_mbar_2 = array();
