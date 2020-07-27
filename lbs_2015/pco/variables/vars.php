@@ -695,8 +695,8 @@ $link_brochure_20[ 'en' ] = 'https://businessschool.luiss.it/project-management-
 
 	<!-- Titolo -->
 	<?php $titolo_master_21 = array();
-$titolo_master_21[ 'it' ] = 'Master in Entrepreneurship';
-$titolo_master_21[ 'en' ] = 'Master in Entrepreneurship';
+$titolo_master_21[ 'it' ] = 'Entrepreneurship';
+$titolo_master_21[ 'en' ] = 'Entrepreneurship';
 ?>
 	<!-- Sottotitolo -->
 	<?php $sottotitolo_master_21 = array();
@@ -723,8 +723,8 @@ $link_brochure_21[ 'en' ] = 'https://businessschool.luiss.it/entrepreneurship/do
 
 	<!-- Titolo -->
 	<?php $titolo_master_22 = array();
-$titolo_master_22[ 'it' ] = 'Master in Gestione delle Risorse Umane e Organizzazione';
-$titolo_master_22[ 'en' ] = 'Master in Gestione delle Risorse Umane e Organizzazione';
+$titolo_master_22[ 'it' ] = 'Gestione delle Risorse Umane e Organizzazione';
+$titolo_master_22[ 'en' ] = 'Gestione delle Risorse Umane e Organizzazione';
 ?>
 	<!-- Sottotitolo -->
 	<?php $sottotitolo_master_22 = array();
@@ -751,8 +751,8 @@ $link_brochure_22[ 'en' ] = 'https://businessschool.luiss.it/gruo/download-broch
 
 	<!-- Titolo -->
 	<?php $titolo_master_23 = array();
-$titolo_master_23[ 'it' ] = 'Master in Gestione delle Risorse Umane e Organizzazione';
-$titolo_master_23[ 'en' ] = 'Master in Gestione delle Risorse Umane e Organizzazione';
+$titolo_master_23[ 'it' ] = 'Gestione delle Risorse Umane e Organizzazione';
+$titolo_master_23[ 'en' ] = 'Gestione delle Risorse Umane e Organizzazione';
 ?>
 	<!-- Sottotitolo -->
 	<?php $sottotitolo_master_23 = array();
@@ -779,8 +779,8 @@ $link_brochure_23[ 'en' ] = 'https://businessschool.luiss.it/gruo/download-broch
 
 	<!-- Titolo -->
 	<?php $titolo_master_24 = array();
-$titolo_master_24[ 'it' ] = 'Master in Diritto Tributario Contabilità e Pianificazione Fiscale';
-$titolo_master_24[ 'en' ] = 'Master in Diritto Tributario Contabilità e Pianificazione Fiscale';
+$titolo_master_24[ 'it' ] = 'Diritto Tributario Contabilità e Pianificazione Fiscale';
+$titolo_master_24[ 'en' ] = 'Diritto Tributario Contabilità e Pianificazione Fiscale';
 ?>
 	<!-- Sottotitolo -->
 	<?php $sottotitolo_master_24 = array();
@@ -1059,8 +1059,8 @@ $link_brochure_33[ 'en' ] = 'https://businessschool.luiss.it/pr-communication-ev
 
 	<!-- Titolo -->
 	<?php $titolo_master_34 = array();
-$titolo_master_34[ 'it' ] = 'Master in Big Data and Management ';
-$titolo_master_34[ 'en' ] = 'Master in Big Data and Management ';
+$titolo_master_34[ 'it' ] = 'Big Data and Management ';
+$titolo_master_34[ 'en' ] = 'Big Data and Management ';
 ?>
 	<!-- Sottotitolo -->
 	<?php $sottotitolo_master_34 = array();
@@ -1115,8 +1115,8 @@ $link_brochure_35[ 'en' ] = '';
 
 	<!-- Titolo -->
 	<?php $titolo_master_36 = array();
-$titolo_master_36[ 'it' ] = 'Master in Food and Wine Business';
-$titolo_master_36[ 'en' ] = 'Master in Food and Wine Business';
+$titolo_master_36[ 'it' ] = 'Food and Wine Business';
+$titolo_master_36[ 'en' ] = 'Food and Wine Business';
 ?>
 	<!-- Sottotitolo -->
 	<?php $sottotitolo_master_36 = array();
@@ -1143,8 +1143,8 @@ $link_brochure_36[ 'en' ] = 'https://businessschool.luiss.it/food-and-wine-busin
 
 	<!-- Titolo -->
 	<?php $titolo_master_37 = array();
-$titolo_master_37[ 'it' ] = 'Master in Food and Wine Business';
-$titolo_master_37[ 'en' ] = 'Master in Food and Wine Business';
+$titolo_master_37[ 'it' ] = 'Food and Wine Business';
+$titolo_master_37[ 'en' ] = 'in Food and Wine Business';
 ?>
 	<!-- Sottotitolo -->
 	<?php $sottotitolo_master_37 = array();
@@ -1507,8 +1507,8 @@ $link_brochure_49[ 'en' ] = 'https://businessschool.luiss.it/master-sperimentazi
 
 	<!-- Titolo -->
 	<?php $titolo_master_50 = array();
-$titolo_master_50[ 'it' ] = 'Master in Comunicazione e Marketing Politico e Istituzionale';
-$titolo_master_50[ 'en' ] = 'Master in Comunicazione e Marketing Politico e Istituzionale';
+$titolo_master_50[ 'it' ] = 'Comunicazione e Marketing Politico e Istituzionale';
+$titolo_master_50[ 'en' ] = 'Comunicazione e Marketing Politico e Istituzionale';
 ?>
 	<!-- Sottotitolo -->
 	<?php $sottotitolo_master_50 = array();
