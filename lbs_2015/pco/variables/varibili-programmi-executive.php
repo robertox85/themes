@@ -25,4 +25,4 @@ $executive_master_label[ 'it' ] = 'Executive Skill Lab';
 $executive_master_label[ 'en' ] = 'Executive Skill Labs';
 ?>
 
-<p><?php echo $executive_skill_label[ICL_LANGUAGE_CODE] ?></p>
+<p>CIAO</p>
