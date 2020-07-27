@@ -27,6 +27,7 @@ if ( ICL_LANGUAGE_CODE == 'it' ):
             </div>
     </div>
 </div>
+</div>
 <?php
 elseif ( ICL_LANGUAGE_CODE == 'en' ):
   ?>
