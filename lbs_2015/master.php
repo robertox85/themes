@@ -33,7 +33,7 @@ Creation Date: 12/20/2018
 
 <!-- Includo le variabili comuni -->
 
-<?php include(dirname(__DIR__).'/lbs_2015/pco/variables/vars.php'); ?>
+
 
 <!-- Inizio Template -->
 
