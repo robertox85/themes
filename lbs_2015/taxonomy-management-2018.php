@@ -80,7 +80,7 @@ Summer School (specialistici) - 133/134
             <li class="nav-item"><a class="nav-link" id="tab4-tab" data-toggle="tab" href="#excourses" role="tab" aria-controls="tab4" aria-selected="false">Executive Courses</a></li>
 
             <!-- LABS -->
-            <li class="nav-item"><a class="nav-link" id="tab5-tab" data-toggle="tab" href="#exlabs" role="tab" aria-controls="tab5" aria-selected="false" aria-disabled="true" tabindex="-1">Executive Labs</a></li>
+            <li class="nav-item"><a class="nav-link" id="tab5-tab" data-toggle="tab" href="#exlabs" role="tab" aria-controls="tab5" aria-selected="false" aria-disabled="true" tabindex="-1">Executive Skill Labs</a></li>
         </ul>
 
         <!-- CONTENUTO -->
@@ -383,12 +383,7 @@ Summer School (specialistici) - 133/134
 <section>
 <div class="container-fluid">
     <div class="container">
-        <div class="row">
-            <div class="col-12 col-lg-8">
-                <h2><?php echo get_field('etichetta_individual') ?></h2>
-                <p><?php echo get_field('campo_individual') ?></p>
-            </div>
-        </div>
+        <?php get_template_part( 'pco/template-parts/section-individual-programme', get_post_format() ); ?>
     </div>
 </div>
 </section>
