@@ -29,6 +29,10 @@ $altaformazione[ 'it' ] = 'Programmi di Alta Formazione';
 $altaformazione[ 'en' ] = 'Specialisation Programme';
 ?>
 
+<?php $mba = array();
+$mba[ 'it' ] = 'MBA';
+$mba[ 'en' ] = 'MBA';
+?>
 
 	<!-- LINGUA -->
 

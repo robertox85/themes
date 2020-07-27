@@ -162,7 +162,7 @@ Creation Date: 12/20/2018
 	                        <p><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                        <div class="row">
 	                            <div class="col-xs-12"><a href="<?php echo $link_site_master_16[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
-	                            <a href="<?php echo 16[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
+	                            <a href="<?php echo $link_brochure_master_16[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                        </div>
 	                    </div>
 	                    <!-- END MASTER 16 -->
