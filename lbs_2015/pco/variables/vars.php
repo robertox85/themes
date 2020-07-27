@@ -34,6 +34,38 @@ $mba[ 'it' ] = 'MBA';
 $mba[ 'en' ] = 'MBA';
 ?>
 
+<!-- Queste variabili sono usate nei layout di tassonomia dei Programmi Executive per tipi di sezione e tab-->
+
+<?php $executive_master_label = array();
+$executive_master_label[ 'it' ] = 'Executive Master';
+$executive_master_label[ 'en' ] = 'Executive Masters';
+?>
+
+<?php $executive_programme_label = array();
+$executive_programme_label[ 'it' ] = 'Executive Programme';
+$executive_programme_label[ 'en' ] = 'Executive Programmes';
+?>
+
+<?php $executive_flex_label = array();
+$executive_flex_label[ 'it' ] = 'Executive Flex Programme';
+$executive_flex_label[ 'en' ] = 'Executive Flex Programmes';
+?>
+
+<?php $executive_course_label = array();
+$executive_course_label[ 'it' ] = 'Executive Course';
+$executive_course_label[ 'en' ] = 'Executive Courses';
+?>
+
+<?php $executive_skill_label = array();
+$executive_skill_label[ 'it' ] = 'Executive Skill Lab';
+$executive_skill_label[ 'en' ] = 'Executive Skill Labs';
+?>
+
+<?php $executive_individual_label = array();
+$executive_individual_label[ 'it' ] = 'Individual Executive Programme';
+$executive_individual_label[ 'en' ] = 'Individual Executive Programme';
+?>
+
 	<!-- LINGUA -->
 
 	<!-- Label -->
@@ -62,6 +94,28 @@ $titolo_durata[ 'en' ] = 'Duration';
 ?>
 
 	<!-- Dato -->
+
+<?php $durata_12 = array();
+$durata_12[ 'it' ] = '12 mesi';
+$durata_12[ 'en' ] = '12 months';
+?>
+
+
+<?php $durata_16 = array();
+$durata_16[ 'it' ] = '16 mesi';
+$durata_16[ 'en' ] = '16 months';
+?>
+
+<?php $durata_17 = array();
+$durata_16[ 'it' ] = '17 mesi';
+$durata_16[ 'en' ] = '17 months';
+?>
+
+<?php $durata_22 = array();
+$durata_16[ 'it' ] = '17 mesi';
+$durata_16[ 'en' ] = '17 months';
+?>
+
 	<?php $durata_full = array();
 $durata_full[ 'it' ] = '12 mesi Full-time';
 $durata_full[ 'en' ] = '12 months Full-time study';
@@ -134,8 +188,153 @@ $titolo_link_brochure[ 'it' ] = 'Scarica la brochure';
 $titolo_link_brochure[ 'en' ] = 'Download Brochure';
 ?>
 
+<!-- MBA-->
 
-	<!-- Master -->
+<!-- MBA 1 -->
+
+<!-- Titolo -->
+	<?php $titolo_mba_1 = array();
+$titolo_mba_1[ 'it' ] = 'Full-time MBA';
+$titolo_mba_1[ 'en' ] = 'Full-time MBA';
+?>
+	<!-- Sottotitolo -->
+	<?php $sottotitolo_mba_1 = array();
+$sottotitolo_mba_1[ 'it' ] = '';
+$sottotitolo_mba_1[ 'en' ] = '';
+?>
+	<!-- Inizio -->
+	<?php $inizio_mba_1 = array();
+$inizio_mba_1[ 'it' ] = '19 Ott 2020';
+$inizio_mba_1[ 'en' ] = 'Oct 19, 2020';
+?>
+	<!-- Programma -->
+	<?php $link_site_mbar_1 = array();
+$link_site_mba_1[ 'it' ] = 'https://businessschool.luiss.it/mba/';
+$link_site_mba_1[ 'en' ] = 'https://businessschool.luiss.it/mba/';
+?>
+	<!-- Brochure -->
+	<?php $link_brochure_mba_1 = array();
+$link_brochure_mba_1[ 'it' ] = 'https://businessschool.luiss.it/mba/download-brochure/';
+$link_brochure_mba_1[ 'en' ] = 'https://businessschool.luiss.it/mba/download-brochure/';
+?>
+
+<!-- MBA 2 -->
+
+<!-- Titolo -->
+	<?php $titolo_mba_2 = array();
+$titolo_mba_2[ 'it' ] = 'Part-time MBA';
+$titolo_mba_2[ 'en' ] = 'Part-time MBA';
+?>
+	<!-- Sottotitolo -->
+	<?php $sottotitolo_mba_2 = array();
+$sottotitolo_mba_2[ 'it' ] = 'Mar 2021';
+$sottotitolo_mba_2[ 'en' ] = 'Mar 2021';
+?>
+	<!-- Inizio -->
+	<?php $inizio_mba_2 = array();
+$inizio_mba_2[ 'it' ] = 'TBD';
+$inizio_mba_2[ 'en' ] = 'TBD';
+?>
+	<!-- Programma -->
+	<?php $link_site_mbar_2 = array();
+$link_site_mba_2[ 'it' ] = 'https://businessschool.luiss.it/mba-part-time/';
+$link_site_mba_2[ 'en' ] = 'https://businessschool.luiss.it/mba-part-time/';
+?>
+	<!-- Brochure -->
+	<?php $link_brochure_mba_2 = array();
+$link_brochure_mba_2[ 'it' ] = 'https://businessschool.luiss.it/mba-part-time/download-brochure/';
+$link_brochure_mba_2[ 'en' ] = 'https://businessschool.luiss.it/mba-part-time/download-brochure/';
+?>
+
+
+<!-- MBA 3 -->
+
+<!-- Titolo -->
+	<?php $titolo_mba_3 = array();
+$titolo_mba_3[ 'it' ] = 'Part-time MBA Milan';
+$titolo_mba_3[ 'en' ] = 'Part-time MBA Milan';
+?>
+	<!-- Sottotitolo -->
+	<?php $sottotitolo_mba_3 = array();
+$sottotitolo_mba_3[ 'it' ] = '';
+$sottotitolo_mba_3[ 'en' ] = '';
+?>
+	<!-- Inizio -->
+	<?php $inizio_mba_3 = array();
+$inizio_mba_3[ 'it' ] = '13 Nov 2020';
+$inizio_mba_3[ 'en' ] = 'Nov 13, 2020';
+?>
+	<!-- Programma -->
+	<?php $link_site_mbar_3 = array();
+$link_site_mba_3[ 'it' ] = 'https://businessschool.luiss.it/mba-milan/';
+$link_site_mba_3[ 'en' ] = 'https://businessschool.luiss.it/mba-milan/';
+?>
+	<!-- Brochure -->
+	<?php $link_brochure_mba_3 = array();
+$link_brochure_mba_3[ 'it' ] = 'https://businessschool.luiss.it/mba-milan/download-brochure/';
+$link_brochure_mba_3[ 'en' ] = 'https://businessschool.luiss.it/mba-milan/download-brochure/';
+?>
+
+
+<!-- MBA 4 -->
+
+<!-- Titolo -->
+	<?php $titolo_mba_4 = array();
+$titolo_mba_4[ 'it' ] = 'Executive MBA';
+$titolo_mba_4[ 'en' ] = 'Executive MBA';
+?>
+	<!-- Sottotitolo -->
+	<?php $sottotitolo_mba_4 = array();
+$sottotitolo_mba_4[ 'it' ] = '';
+$sottotitolo_mba_4[ 'en' ] = '';
+?>
+	<!-- Inizio -->
+	<?php $inizio_mba_4 = array();
+$inizio_mba_4[ 'it' ] = '26 Giu 2020';
+$inizio_mba_4[ 'en' ] = 'Jun 26, 2020';
+?>
+	<!-- Programma -->
+	<?php $link_site_mbar_4 = array();
+$link_site_mba_4[ 'it' ] = 'https://businessschool.luiss.it/emba/';
+$link_site_mba_4[ 'en' ] = 'https://businessschool.luiss.it/emba/';
+?>
+	<!-- Brochure -->
+	<?php $link_brochure_mba_4 = array();
+$link_brochure_mba_4[ 'it' ] = 'https://businessschool.luiss.it/emba/brochure/';
+$link_brochure_mba_4[ 'en' ] = 'https://businessschool.luiss.it/emba/brochure/';
+?>
+
+
+<!-- MBA 5 -->
+
+<!-- Titolo -->
+	<?php $titolo_mba_5 = array();
+$titolo_mba_5[ 'it' ] = 'Flex Executive MBA';
+$titolo_mba_5[ 'en' ] = 'Flex Executive MBA';
+?>
+	<!-- Sottotitolo -->
+	<?php $sottotitolo_mba_5 = array();
+$sottotitolo_mba_5[ 'it' ] = '';
+$sottotitolo_mba_5[ 'en' ] = '';
+?>
+	<!-- Inizio -->
+	<?php $inizio_mba_5 = array();
+$inizio_mba_5[ 'it' ] = 'Feb 2021';
+$inizio_mba_5[ 'en' ] = 'Feb 2021';
+?>
+	<!-- Programma -->
+	<?php $link_site_mbar_5 = array();
+$link_site_mba_5[ 'it' ] = 'https://businessschool.luiss.it/flex-emba/';
+$link_site_mba_5[ 'en' ] = 'https://businessschool.luiss.it/flex-emba/';
+?>
+	<!-- Brochure -->
+	<?php $link_brochure_mba_5 = array();
+$link_brochure_mba_5[ 'it' ] = 'https://businessschool.luiss.it/flex-emba/download-brochure/';
+$link_brochure_mba_5[ 'en' ] = 'https://businessschool.luiss.it/flex-emba/download-brochure/';
+?>
+
+
+	<!-- MASTER -->
 
 	<!-- Master 1 -->
 
@@ -1653,34 +1852,3 @@ $link_brochure_programma_a4[ 'en' ] = 'https://businessschool.luiss.it/executive
 
 <!-- Fine variabili -->
 
-<!-- Variabili Pagine Tassonomia Programmi Executive-->
-
-<?php $executive_master_label = array();
-$executive_master_label[ 'it' ] = 'Executive Master';
-$executive_master_label[ 'en' ] = 'Executive Masters';
-?>
-
-<?php $executive_programme_label = array();
-$executive_programme_label[ 'it' ] = 'Executive Programme';
-$executive_programme_label[ 'en' ] = 'Executive Programmes';
-?>
-
-<?php $executive_flex_label = array();
-$executive_flex_label[ 'it' ] = 'Executive Flex Programme';
-$executive_flex_label[ 'en' ] = 'Executive Flex Programmes';
-?>
-
-<?php $executive_course_label = array();
-$executive_course_label[ 'it' ] = 'Executive Course';
-$executive_course_label[ 'en' ] = 'Executive Courses';
-?>
-
-<?php $executive_skill_label = array();
-$executive_skill_label[ 'it' ] = 'Executive Skill Lab';
-$executive_skill_label[ 'en' ] = 'Executive Skill Labs';
-?>
-
-<?php $executive_individual_label = array();
-$executive_individual_label[ 'it' ] = 'Individual Executive Programme';
-$executive_individual_label[ 'en' ] = 'Individual Executive Programme';
-?>
