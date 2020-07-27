@@ -40,6 +40,33 @@ Summer School (specialistici) - 133/134
 
 -->
 
+<!-- Variabili -->
+
+<?php $executive_master_label[ICL_LANGUAGE_CODE] = array();
+$executive_master_label[ICL_LANGUAGE_CODE][ 'it' ] = 'Executive Master';
+$executive_master_label[ICL_LANGUAGE_CODE][ 'en' ] = 'Executive Masters';
+?>
+
+<?php $executive_programme_label[ICL_LANGUAGE_CODE] = array();
+$executive_master_label[ICL_LANGUAGE_CODE][ 'it' ] = 'Executive Programme';
+$executive_master_label[ICL_LANGUAGE_CODE][ 'en' ] = 'Executive Programmes';
+?>
+
+<?php $executive_flex_label = array();
+$executive_master_label[ICL_LANGUAGE_CODE][ 'it' ] = 'Executive Flex Programmes';
+$executive_master_label[ICL_LANGUAGE_CODE][ 'en' ] = 'Executive Flex Programme';
+?>
+
+<?php $executive_course_label = array();
+$executive_master_label[ICL_LANGUAGE_CODE][ 'it' ] = 'Executive Course';
+$executive_master_label[ICL_LANGUAGE_CODE][ 'en' ] = 'Executive Courses';
+?>
+
+<?php $executive_course_label = array();
+$executive_master_label[ICL_LANGUAGE_CODE][ 'it' ] = 'Executive Skill Lab';
+$executive_master_label[ICL_LANGUAGE_CODE][ 'en' ] = 'Executive Skill Labs';
+?>
+
 <div class="container-fluid <?php if (has_post_thumbnail( $post->ID ) ): ?>
                    header-pic" style="background-image: url('<?php echo get_the_post_thumbnail_url(); ?>');
                    <?php else : ?>
@@ -73,7 +100,7 @@ Summer School (specialistici) - 133/134
             <li class="nav-item"><a class="nav-link" id="tab2-tab" data-toggle="tab" href="#exprogrammes" role="tab" aria-controls="tab2" aria-selected="false">Executive Programmes</a></li>
 
             <!-- FLEX -->
-            <li class="nav-item"><a class="nav-link" id="tab3-tab" data-toggle="tab" href="#exflexprogrammes" role="tab" aria-controls="tab3" aria-selected="false">Flex Executive Programmes</a></li>
+            <li class="nav-item"><a class="nav-link" id="tab3-tab" data-toggle="tab" href="#exflexprogrammes" role="tab" aria-controls="tab3" aria-selected="false"><?php $executive_flex_label[ICL_LANGUAGE_CODE] ?></a></li>
 
             <!-- COURSES -->
             <li class="nav-item"><a class="nav-link" id="tab4-tab" data-toggle="tab" href="#excourses" role="tab" aria-controls="tab4" aria-selected="false">Executive Courses</a></li>
@@ -88,7 +115,7 @@ Summer School (specialistici) - 133/134
             <div class="tab-pane fade active in" id="exmasters" role="tabpanel" aria-labelledby="exmasters-tab">
                 <div class="row">
                     <div class="col-12 col-lg-8">
-                        <h2><?php echo get_field('etichetta_executive_master') ?></h2>
+                        <h2><?php echo $executive_master_label[ICL_LANGUAGE_CODE] ?></h2>
                         <p><?php echo get_field('campo_executive_master') ?></p>
                     </div>
                 </div>
@@ -163,7 +190,7 @@ Summer School (specialistici) - 133/134
             <div class="tab-pane p-4 fade" id="exprogrammes" role="tabpanel" aria-labelledby="exprogrammes-tab">
                 <div class="row">
                     <div class="col-12 col-lg-8">
-                        <h2><?php echo get_field('etichetta_executive_program') ?></h2>
+                        <h2><?php echo $executive_programme_label[ICL_LANGUAGE_CODE] ?></h2>
                         <p><?php echo get_field('campo_executive_program') ?></p>
                     </div>
                 </div>
@@ -232,7 +259,7 @@ Summer School (specialistici) - 133/134
             <div class="tab-pane p-4 fade" id="exflexprogrammes" role="tabpanel" aria-labelledby="exflexprogrammes-tab">
                 <div class="row">
                     <div class="col-12 col-lg-8">
-                        <h2>Flex Executive Programmes</h2>
+                        <h2><?php $executive_flex_label[ICL_LANGUAGE_CODE] ?></h2>
                         <p>Lorem ipsum dolor</p>
                     </div>
                 </div>
@@ -302,7 +329,7 @@ Summer School (specialistici) - 133/134
             <div class="tab-pane p-4 fade" id="excourses" role="tabpanel" aria-labelledby="excourses-tab">
                 <div class="row">
                     <div class="col-12 col-lg-8">
-                        <h2><?php echo get_field('etichetta_short_course') ?></h2>
+                        <h2><?php echo $executive_course_label[ICL_LANGUAGE_CODE] ?></h2>
                         <p><?php echo get_field('campo_short_course') ?></p>
                     </div>
                 </div>
