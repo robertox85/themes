@@ -41,7 +41,7 @@ Summer School (specialistici) - 133/134
 
 -->
 
-<?php get_template_part( 'pco/variables/variabili-programmi-executive', get_post_format() ); ?>
+<?php include 'pco/variables/variabili-programmi-executive.php'; ?>
 
 <div class="container-fluid <?php if (has_post_thumbnail( $post->ID ) ): ?>
                    header-pic" style="background-image: url('<?php echo get_the_post_thumbnail_url(); ?>');
