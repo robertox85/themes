@@ -1,19 +1,11 @@
-
-.visible{
-    opacity: 1!important;
-    visibility: visible!important;
+.text-center{
+    text-align: center;
 }
 
-.split-2{
-    @media screen and (min-width: 1200px) {
-        column-count: 2;
-    }
-    
-}
-.border-white{
-    border: 1px solid $standard_white;
+.text-left{
+    text-align: left;
 }
 
-.opacity-0{
-    opacity: 0;
+.text-right{
+    text-align: right;
 }

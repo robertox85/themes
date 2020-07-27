@@ -18,6 +18,8 @@ $privacy['en'] = "/en/privacy-policy/";
 $mailing = array();
 $mailing['it'] = 'ISCRIVITI ALLA NOSTRA NEWSLETTER';
 $mailing['en'] = "SUBSCRIBE TO OUR MAILING LIST";
+
+$current_blog_id = get_query_var( 'current_blog_id' );
 ?>
 
 <footer>
@@ -45,6 +47,27 @@ $mailing['en'] = "SUBSCRIBE TO OUR MAILING LIST";
           </div>
         </div>
       </div>
+
+   
+    <?php if( $current_blog_id === 1 ): ?>
+      <div class="container-fluid">
+        <div class="row" style="background-image:url(<?php echo get_stylesheet_directory_uri() ?>/pco/images/social-wall-bg.png);background-repat:no-repeat;background-size:cover;backgroun-position:center">
+          <div class="col-md-12 col-sm-12">
+            <h3 class="text-center pt-128 pb-24">Social Wall</h3>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <script src="//assets.juicer.io/embed.js" type="text/javascript"></script>
+                  <link href="//assets.juicer.io/embed.css" media="all" rel="stylesheet" type="text/css" />
+                  <ul class="juicer-feed" data-feed-id="luissbusiness-9274faa2-d37a-4a26-bd24-d134adebd1bb" data-per="6" data-gutter="10"></ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    <?php endif; ?>
     <div class="container-fluid footer_container">
       <div class="container">
       <div class="row">

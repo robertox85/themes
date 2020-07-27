@@ -102,11 +102,22 @@
         height: auto;
       }
     }
-    
+    .share{
+        .meta{
+          margin-right: rem(36px);
+        }
+        ul{
+          display: flex;
+          justify-content: space-evenly;
+          width: 100%;
+          margin: 0;
+        }
+    }
     .sidebar-master {
       .block-dark {
         border-top:1px solid #3C3C3C;
-        background-color: rgba(0,58,112, 0.1);
+        background-color: #F7F9FA;
+        
         font-size: rem(36px);
         line-height: rem(40px);
         position: relative;
@@ -292,6 +303,7 @@
           margin-top: 16px;
           transition: .3s;
           border: 1px solid transparent;
+          width: 360px;
           &.disabled,
           &:disabled{
               opacity: .3;
@@ -364,7 +376,7 @@
     .share_links{
       position: absolute;
       right: 0;
-      top: 0;
+      top: rem(32px);
       width: 365px;
       h2{
         font-weight: normal;

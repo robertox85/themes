@@ -38,9 +38,11 @@ restore_current_blog();
 }
 
 function get_main_site_footer() {
-		switch_to_blog(1);
- include(ABSPATH.'wp-content/themes/lbs_2015/footer-2017.php');
- restore_current_blog();
+        $current_blog_id = get_current_blog_id();
+        switch_to_blog(1);
+        set_query_var( 'current_blog_id', $current_blog_id );
+        include(ABSPATH.'wp-content/themes/lbs_2015/footer-2017.php');
+        restore_current_blog();
 }
 
 function get_top_level_parent() {
@@ -256,6 +258,9 @@ function pco_style()
 {
     wp_enqueue_style('pco_style', get_stylesheet_directory_uri() . '/pco/main.css', array(), time(), 'all' );
     wp_enqueue_style('fa', get_stylesheet_directory_uri() . '/pco/vendor/fontawesome/css/all.min.css', array(), null, 'all' );
+
+    
+    wp_enqueue_script( 'pco_script', get_stylesheet_directory_uri().'/pco/pco-script.js', array('jquery'), time(), true );
 }
 add_action('wp_enqueue_scripts', 'pco_style');
 

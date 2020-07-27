@@ -425,11 +425,11 @@ if (!(empty($events))) {
        
           <h2 class="block-title h2 white-style">Social Wall</h2>
        
-    <div class="col-md-12">
-    
-<script src="//assets.juicer.io/embed.js" type="text/javascript"></script>
-<link href="//assets.juicer.io/embed.css" media="all" rel="stylesheet" type="text/css" />
-<ul class="juicer-feed" data-feed-id="luissbusiness-9274faa2-d37a-4a26-bd24-d134adebd1bb" data-per="6" data-gutter="10"></ul>
+    		<div class="col-md-12">
+
+				<script src="//assets.juicer.io/embed.js" type="text/javascript"></script>
+				<link href="//assets.juicer.io/embed.css" media="all" rel="stylesheet" type="text/css" />
+				<ul class="juicer-feed" data-feed-id="luissbusiness-9274faa2-d37a-4a26-bd24-d134adebd1bb" data-per="6" data-gutter="10"></ul>
 		   </div>
 	  </div>
       
@@ -438,4 +438,10 @@ if (!(empty($events))) {
   </div>
   <!-- END  .container --> 
 </section>
-<?php get_footer(2017); ?>
+
+<?php 
+
+set_query_var( 'current_blog_id', get_current_blog_id(  ) );
+get_footer(2017); 
+
+?>
