@@ -26,8 +26,6 @@ if ( ICL_LANGUAGE_CODE == 'it' ):
                     </div>
                 </div>
                 <hr>
-            </div>
-            <div class="col-xs-12 col-md-8">
                 <div class="row">
                     <div class="col-xs-12">
                         <h5>Sviluppo Professionale & Networking</h5>
@@ -46,8 +44,6 @@ if ( ICL_LANGUAGE_CODE == 'it' ):
                     </div>
                 </div>
                 <hr>
-            </div>
-            <div class="col-xs-12 col-md-8">
                 <div class="row">
                     <div class="col-xs-12">
                         <h5>Business Impact</h5>

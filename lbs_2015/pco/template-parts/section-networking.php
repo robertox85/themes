@@ -5,7 +5,7 @@ if ( ICL_LANGUAGE_CODE == 'it' ):
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
-            <h2>Attività di networking</h2>
+                <h2>Attività di networking</h2>
             </div>
             <div class="col-xs-12 col-md-4">
                 <p class="big">Vuoi essere il protagonista della tua carriera?</p>
@@ -23,12 +23,10 @@ if ( ICL_LANGUAGE_CODE == 'it' ):
                     <div class="col-xs-12 col-md-6">
                         <h6>Coinvolgi il tuo team</h6>
                         <p>Diventa Ambassador Luiss BS! Fai la differenza per proattività e propensione ad alimentare e mantenere i contatti sociali.
-Gli Ambassador saranno un punto di riferimento per costruire un network trasversale all’interno della Community</p>
+                        Gli Ambassador saranno un punto di riferimento per costruire un network trasversale all’interno della Community</p>
                     </div>
                 </div>
                 <hr>
-            </div>
-            <div class="col-xs-12 col-md-8">
                 <div class="row">
                     <div class="col-xs-12">
                         <h5></h5>
