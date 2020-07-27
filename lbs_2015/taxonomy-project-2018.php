@@ -43,7 +43,7 @@ Summer School (specialistici) - 133/134
 
 <!-- Includo le variabili comuni -->
 
-<?php include 'pco/variables/variabili-programmi-executive.php'; ?>
+<?php include(dirname(__DIR__).'/lbs_2015/pco/variables/vars.php'); ?>
 
 <!-- Inizio template -->
 

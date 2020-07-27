@@ -2,8 +2,6 @@
 
 <?php include(dirname(__DIR__).'/variables/vars.php'); ?>
 
-<?php echo(dirname(__DIR__)); ?> 
-
 <!-- Inizio template -->
 
 <div class="row">
