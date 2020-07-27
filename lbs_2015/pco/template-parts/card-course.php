@@ -20,7 +20,7 @@ $date_string = get_field('data_inizio');
 // Create DateTime object from value (formats must match).
 $date = DateTime::createFromFormat('Ymd', $date_string);
 // Output current date in custom format.
-if( get_field('data_inizio') ):
+if($date_string):
     ?>
     <p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Inizio
             <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Start
@@ -39,12 +39,12 @@ $date_string = get_field('data_fine');
 // Create DateTime object from value (formats must match).
 $date = DateTime::createFromFormat('Ymd', $date_string);
 // Output current date in custom format.
+if($date_string):
 ?>
     <p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Inizio
             <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Start
             <?php else : ?>
             <?php endif; ?> </strong> <?php echo $date->format('j M Y'); ?></p>
-    <?php endif; ?>
     <!-- Sede/Inizio Belluno -->
     <?php if( get_field('veneto') ): ?>
     <p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Sede
@@ -57,12 +57,12 @@ $date_string = get_field('data_veneto');
 // Create DateTime object from value (formats must match).
 $date = DateTime::createFromFormat('Ymd', $date_string);
 // Output current date in custom format.
+    if($date_string) :
 ?>
     <p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Inizio
             <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Start
             <?php else : ?>
             <?php endif; ?> </strong> <?php echo $date->format('j M Y'); ?></p>
-    <?php endif; ?>
 
     <p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Lingua
             <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Language
