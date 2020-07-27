@@ -23,7 +23,6 @@
             <?php else : ?>
             <?php endif; ?></strong>
         <?php the_field('testo_inizio'); ?></p>
-    <?php endif; ?>
 
     <!-- Inizio Roma -->
 
@@ -41,7 +40,7 @@ $date_rome = DateTime::createFromFormat('Ymd', $date_string_rome);
             <?php endif; ?></strong>
         <?php echo $date_rome->format('j M Y'); ?></p>
 
-
+<?php endif; ?>
     <!-- Sede Milano -->
     <?php if( get_field('data_inizio_testuale') ): ?>
 
@@ -51,7 +50,6 @@ $date_rome = DateTime::createFromFormat('Ymd', $date_string_rome);
             <?php else : ?>
             <?php endif; ?></strong>
         <?php the_field('data_inizio_testuale'); ?></p>
-    <?php endif; ?>
 
     <!-- Inizio Milano -->
 
@@ -68,7 +66,7 @@ $date_mi = DateTime::createFromFormat('Ymd', $date_string_mi);
             <?php else : ?>
             <?php endif; ?></strong>
         <?php echo $date_mi->format('j M Y'); ?></p>
-
+    <?php endif; ?>
 
     <!-- Sede Belluno -->
     <?php if( get_field('veneto') ): ?>
@@ -79,7 +77,6 @@ $date_mi = DateTime::createFromFormat('Ymd', $date_string_mi);
             <?php else : ?>
             <?php endif; ?></strong>
         <?php the_field('veneto'); ?></p>
-    <?php endif; ?>
 
     <!-- Inizio Belluno -->
 
@@ -96,7 +93,8 @@ $date_be = DateTime::createFromFormat('Ymd', $date_string_be);
             <?php else : ?>
             <?php endif; ?></strong>
         <?php echo $date_be->format('j M Y'); ?></p>
-
+<?php endif; ?>
+    
     <!-- Lingua -->
     <p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Lingua
             <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Language
