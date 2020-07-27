@@ -255,6 +255,7 @@ add_action('pre_get_posts', 'tags_support_query');
 function pco_style()
 {
     wp_enqueue_style('pco_style', get_stylesheet_directory_uri() . '/pco/main.css', array(), time(), 'all' );
+    wp_enqueue_style('fa', get_stylesheet_directory_uri() . '/pco/vendor/fontawesome/css/all.min.css', array(), null, 'all' );
 }
 add_action('wp_enqueue_scripts', 'pco_style');
 
@@ -291,18 +292,21 @@ function bls_customizer_settings($wp_customize)
 
 add_filter( 'body_class', 'theme_color_class' );
 function theme_color_class( $classes ) {
-    $color = get_theme_mod( 'theme_color' );
+    
+    $blog_id = get_current_blog_id();
+    $color   = get_theme_mod( 'theme_color' );
+
     if ( !empty(get_theme_mod( 'theme_color' )) ) {
         $classes[] = get_theme_mod( 'theme_color' );
     }else{
-        $classes[] = 'theme-red';
+        $classes[] = 'theme-blue';
     }
     return $classes;
 }
 
 function modify_home_in_nav_menu_objects( $items, $args ) {
     foreach ( $items as $k => $object ) {
-        $object->title = ucwords(strtolower($object->title));
+        $object->title = ucwords(strtolower($object->title)).'<i class="fas fa-chevron-right"></i>';
     }
     return $items;
 }

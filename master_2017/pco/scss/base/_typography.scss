@@ -31,19 +31,14 @@ p{
   }
 }
 
-.sidebar_navigation li{
-    text-align: right;
-    transition: .3s;
-    padding: 15px 0px;
-    padding-right: rem(64px);
-}
+
+
 .sidebar_navigation li a{
-    color: $blue;
-    transition: .3s;
     @include font-size(24px);
     line-height: rem(32px);
     font-weight: bold;
 }
+
 .cta{
     font-weight: bold;
     @include font-size(16px);
@@ -66,7 +61,13 @@ p{
     line-height: rem(24px);
 }
 
+h1, h2, h3, h4, h5, h6{
+    color: $blue;
+}
+
 h1{
+    font-family: "Luiss Serif"!important;
+    font-weight: 400;
     @include font-size(80px);
     font-size: 80px;
     line-height: rem(72px);
@@ -76,11 +77,15 @@ h1{
 }
 
 h2{
+    font-family: "Luiss Serif"!important;
+    font-weight: 400;
     @include font-size(60px);
     line-height: rem(64px);
 }
 
 h3{
+    font-family: "Luiss Serif"!important;
+    font-weight: 400;
     @include font-size(48px);
     line-height: rem(54px);
 }
@@ -90,12 +95,15 @@ h4{
     @include font-size(48px);
     line-height: rem(54px);
     &.alt{
-        font-weight: normal;
+        font-family: "Luiss Serif"!important;
+        font-weight: 400;
         @include font-size(40px);
     }
 }
 
 h5{
+    font-family: "Luiss Serif"!important;
+    font-weight: 400;
     @include font-size(36px);
     line-height: rem(40px);
 }

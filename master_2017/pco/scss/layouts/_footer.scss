@@ -1,64 +1,104 @@
-// pre footer
-#partners {
-  h4 {
-    margin-bottom: rem(48px);
+/*! FOOTER */
+
+.footer {
+  background: none repeat scroll 0 0 #fff;
+  padding-bottom: 0;
+  input[type='submit'] {
+    width: inherit;
+    box-sizing: inherit;
+    border: inherit;
+    border-radius: inherit;
+    font-size: inherit;
+    background-color: inherit;
+    background-position: inherit;
+    background-repeat: inherit;
+    padding: inherit;
   }
-  .partner {
-    img {
-      margin: 0 auto;
-      max-width: 200px;
-      height: 100px;
-      object-fit: cover;
-      display: block;
+  #mc-embedded-subscribe {
+    clear: both;
+    width: auto;
+    display: inherit;
+    margin: inherit;
+  }
+  #mc_embed_signup input {
+    border: inherit;
+    border-radius: 0px;
+  }
+  #mc_embed_signup .button {
+    clear: both;
+    background-color: inherit;
+    border: inherit;
+    border-radius: inherit;
+    transition: all 0.23s ease-in-out 0s;
+    color: inherit;
+    cursor: pointer;
+    display: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    height: inherit;
+    line-height: inherit;
+    margin: inherit;
+    padding: inherit;
+    text-align: inherit;
+    text-decoration: inherit;
+    vertical-align: inherit;
+    white-space: inherit;
+    width: inherit;
+  }
+  .button {
+    background-color: $gold !important;
+    font-weight: bold;
+    @include font-size(16px);
+    color: #ffffff;
+    line-height: rem(24px);
+    cursor: pointer;
+    user-select: none;
+    background-color: transparent;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    padding: 16px 29px!important;
+    &.button__primary {
+      background: $green;
+      border: 1px solid transparent;
+
+      &:hover {
+        background: $white;
+        border: 1px solid $green;
+        color: $green;
+      }
+
+      &:focus {
+        box-shadow: inset 0 0 10px 0 rgba(60, 60, 60, 0.2);
+      }
     }
   }
 }
-
-#footer-1 {
-  min-height: rem(246px);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  @media screen and (max-width: 1200px) {
-    padding-top: rem(48px);
-    padding-bottom: rem(48px);
-    .main-sponsor{
-      padding-top: rem(24px);
-      
-    }
+.copyright{
+  background: $blue;
+  p{
+    color: $white;
+    font-weight: normal;
+    font-size: rem(16px);
+    color: #FFFFFF;
+    line-height: rem(24px);
   }
-  
-  
-  @media screen and (min-width: 1200px) {
-
-    img {
-      width: rem(255px);
-      height: rem(78px);
-      -o-object-fit: cover;
-      object-fit: cover;
-      display: block;
-    }
-
-    .main-sponsor {
-      h4 {
-          position: absolute;
-          top: rem(-45px);
-      }
-      img {
-        &:first-of-type {
-          width: rem(122px);
-        }
-        &:last-of-type {
-          width: rem(200px);
-        }
-      }
-    }
-  }
-  
 }
-
-#footer-2 {
-  padding-top: rem(24px);
-  padding-bottom: rem(32px);
+.footer_container {
+  font-weight: normal;
+  background: none repeat scroll 0 0 $blue;
+  color: $white;
+  p,
+  a,
+  h1,
+  h3,
+  h4,
+  h5,
+  h6,
+  h2,
+  address,
+  .link-list a,
+  .link-list i {
+    color: $white;
+  }
 }
