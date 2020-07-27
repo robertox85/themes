@@ -70,19 +70,19 @@ Summer School (specialistici) - 133/134
         <!-- NAVIGAZIONE -->
         <ul class="nav nav-tabs auto" id="program-type" role="tablist">
             <!-- MASTER -->
-            <li class="nav-item"><a class="nav-link active" id="tab1-tab" data-toggle="tab" href="#exmasters" role="tab" aria-controls="tab1" aria-selected="true"><?php $executive_master_label[ICL_LANGUAGE_CODE] ?></a></li>
+            <li class="nav-item"><a class="nav-link active" id="tab1-tab" data-toggle="tab" href="#exmasters" role="tab" aria-controls="tab1" aria-selected="true"><?php echo $executive_master_label[ICL_LANGUAGE_CODE] ?></a></li>
 
             <!-- PROGRAMME -->
-            <li class="nav-item"><a class="nav-link" id="tab2-tab" data-toggle="tab" href="#exprogrammes" role="tab" aria-controls="tab2" aria-selected="false"><?php $executive_programme_label[ICL_LANGUAGE_CODE] ?></a></li>
+            <li class="nav-item"><a class="nav-link" id="tab2-tab" data-toggle="tab" href="#exprogrammes" role="tab" aria-controls="tab2" aria-selected="false"><?php echo $executive_programme_label[ICL_LANGUAGE_CODE] ?></a></li>
 
             <!-- FLEX -->
-            <li class="nav-item"><a class="nav-link" id="tab3-tab" data-toggle="tab" href="#exflexprogrammes" role="tab" aria-controls="tab3" aria-selected="false"><?php $executive_flex_label[ICL_LANGUAGE_CODE] ?></a></li>
+            <li class="nav-item"><a class="nav-link" id="tab3-tab" data-toggle="tab" href="#exflexprogrammes" role="tab" aria-controls="tab3" aria-selected="false"><?php echo $executive_flex_label[ICL_LANGUAGE_CODE] ?></a></li>
 
             <!-- COURSES -->
-            <li class="nav-item"><a class="nav-link" id="tab4-tab" data-toggle="tab" href="#excourses" role="tab" aria-controls="tab4" aria-selected="false"><?php $executive_course_label[ICL_LANGUAGE_CODE] ?></a></li>
+            <li class="nav-item"><a class="nav-link" id="tab4-tab" data-toggle="tab" href="#excourses" role="tab" aria-controls="tab4" aria-selected="false"><?php echo $executive_course_label[ICL_LANGUAGE_CODE] ?></a></li>
 
             <!-- LABS -->
-            <li class="nav-item"><a class="nav-link" id="tab5-tab" data-toggle="tab" href="#exlabs" role="tab" aria-controls="tab5" aria-selected="false" aria-disabled="true" tabindex="-1"><?php $executive_skill_label[ICL_LANGUAGE_CODE] ?></a></li>
+            <li class="nav-item"><a class="nav-link" id="tab5-tab" data-toggle="tab" href="#exlabs" role="tab" aria-controls="tab5" aria-selected="false" aria-disabled="true" tabindex="-1"><?php echo $executive_skill_label[ICL_LANGUAGE_CODE] ?></a></li>
         </ul>
 
         <!-- CONTENUTO -->
