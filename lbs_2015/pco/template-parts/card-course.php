@@ -20,7 +20,8 @@ $date_string = get_field('data_inizio');
 // Create DateTime object from value (formats must match).
 $date = DateTime::createFromFormat('Ymd', $date_string);
 // Output current date in custom format.
-?>
+if( get_field('data_inizio') ):
+    ?>
     <p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Inizio
             <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Start
             <?php else : ?>
