@@ -1,3 +1,9 @@
+<!-- Includo le variabili comuni -->
+
+<?php include(dirname(__DIR__).'/variables/vars.php'); ?>
+
+<!-- Inizio template -->
+
 <div class="row">
     <?php
 

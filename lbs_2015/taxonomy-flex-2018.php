@@ -69,12 +69,12 @@ $tematica[ 'en' ] = '';
 
 <section class="stories stories-cards cards">
 
-<?php  if(get_field('etichetta_executive_master')) { ?>
+<?php  if($executive_master_label[ICL_LANGUAGE_CODE]) { ?>
 
 	<div class="container">
 		<header class="row">
 			<div class="col-lg-10">
-				<h2><?php echo get_field('etichetta_executive_master') ?></h2>
+				<h2><?php echo $executive_master_label[ICL_LANGUAGE_CODE] ?></h2>
 				<p><?php echo get_field('campo_executive_master') ?></p>
 			</div>
 		</header>
@@ -260,12 +260,12 @@ $tematica[ 'en' ] = '';
 <section class="stories stories-cards cards">
 
 
-<?php  if(get_field('etichetta_executive_program')) { ?>
+<?php  if($executive_programme_label[ICL_LANGUAGE_CODE]) { ?>
 
 	<div class="container">
 		<header class="row">
 			<div class="col-lg-10">
-				<h2><?php echo get_field('etichetta_executive_program') ?></h2>
+				<h2><?php echo $executive_programme_label[ICL_LANGUAGE_CODE] ?></h2>
 				<p><?php echo get_field('campo_executive_program') ?></p>
 			</div>
 		</header>
@@ -274,12 +274,12 @@ $tematica[ 'en' ] = '';
 	 <?php } ?>
 </section>
 <section class="stories stories-cards cards">
-<?php  if(get_field('etichetta_short_course')) { ?>
+<?php  if($executive_course_label[ICL_LANGUAGE_CODE]) { ?>
 
 	<div class="container">
 		<header class="row">
 			<div class="col-lg-10">
-				<h2><?php echo get_field('etichetta_short_course') ?></h2>
+				<h2><?php echo $executive_course_label[ICL_LANGUAGE_CODE] ?></h2>
 				<p><?php echo get_field('campo_short_course') ?></p>
 			</div>
 		</header>
