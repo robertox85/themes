@@ -1,5 +1,4 @@
 <div class="col-md-4 col-sm-6">
-<<<<<<< HEAD:lbs_2015/pco/template-parts/card-course.php
     <span><?php the_terms($post->ID, 'lunghezza_corsi', $before = '', $sep = ', ', $after = '' ); ?></span>
     <h6><?php the_title(); ?></h6>
     <?php if( get_field('durata') ): ?>
@@ -15,12 +14,8 @@
             <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Location
             <?php else : ?>
             <?php endif; ?></strong> <?php the_field('testo_inizio'); ?></p>
-<<<<<<< HEAD
     <?php endif; ?>
     <?php if(get_field('data_inizio')): ?>
-=======
-    <?php 
-=======
                     <span><?php the_terms($post->ID, 'lunghezza_corsi', $before = '', $sep = ', ', $after = '' ); ?></span>
                     <h6><?php the_title(); ?></h6>
                     <?php if( get_field('durata') ): ?>
@@ -75,7 +70,6 @@ $date = DateTime::createFromFormat('Ymd', $date_string);
             <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Start
             <?php else : ?>
             <?php endif; ?> </strong> <?php echo the_field('data_veneto'); ?></p>
-=======
                     <p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Inizio
                             <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Start
                             <?php else : ?>
