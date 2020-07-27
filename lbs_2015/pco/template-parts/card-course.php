@@ -26,7 +26,6 @@ if( get_field('data_inizio') ):
             <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Start
             <?php else : ?>
             <?php endif; ?> </strong> <?php echo $date->format('j M Y'); ?></p>
-    <?php endif; ?>
 
     <!-- Sede/Inizio Milano -->
     <?php if( get_field('data_inizio_testuale') ): ?>
