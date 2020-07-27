@@ -2,7 +2,7 @@
 /*
 Template Name: Marketing 2018
 */
-get_header( 2017 );?> 
+get_header( 2017 );?>
 
 <!-- Query per le pagine 
 
@@ -93,7 +93,7 @@ Summer School (specialistici) - 133/134
                         <p><?php echo get_field('campo_executive_master') ?></p>
                     </div>
                 </div>
-                    <div class="row">
+                <div class="row">
                     <?php
 			$query_tax_value = 131;
 			$tax_query = array();
@@ -158,7 +158,7 @@ Summer School (specialistici) - 133/134
 
                 </div>
 
-</div>
+            </div>
 
             <!-- PROGRAMME -->
             <div class="tab-pane p-4 fade" id="exprogrammes" role="tabpanel" aria-labelledby="exprogrammes-tab">
@@ -168,7 +168,7 @@ Summer School (specialistici) - 133/134
                         <p><?php echo get_field('campo_executive_program') ?></p>
                     </div>
                 </div>
-                    <div class="row">
+                <div class="row">
                     <?php
 			$query_tax_value = 25;
 			$tax_query = array();
@@ -227,8 +227,8 @@ Summer School (specialistici) - 133/134
                     <?php endif; ?>
 
                 </div>
-           
- </div>
+
+            </div>
 
             <!-- FLEX -->
             <div class="tab-pane p-4 fade" id="exflexprogrammes" role="tabpanel" aria-labelledby="exflexprogrammes-tab">
@@ -238,7 +238,7 @@ Summer School (specialistici) - 133/134
                         <p>Lorem ipsum dolor</p>
                     </div>
                 </div>
-    <div class="row">
+                <div class="row">
                     <?php
 			$query_tax_value = 154;
 			$tax_query = array();
@@ -297,9 +297,9 @@ Summer School (specialistici) - 133/134
                     <?php endif; ?>
 
                 </div>
-            
 
-                </div>
+
+            </div>
 
 
             <!-- COURSES -->
@@ -310,7 +310,7 @@ Summer School (specialistici) - 133/134
                         <p><?php echo get_field('campo_short_course') ?></p>
                     </div>
                 </div>
-                                    <div class="row">
+                <div class="row">
                     <?php
 			$query_tax_value = 26;
 			$tax_query = array();
@@ -369,15 +369,15 @@ Summer School (specialistici) - 133/134
                     <?php endif; ?>
 
                 </div>
-            
-    
-</div>
+
+
+            </div>
 
             <!-- LABS -->
             <div class="tab-pane p-4 fade" id="exlabs" role="tabpanel" aria-labelledby="exlabs-tab">
                 <h2>Executive Skill Labs</h2>
                 <p><?php echo get_field('campo_executive_skill_lab') ?></p>
-                 <?php get_template_part( 'pco/template-parts/section-skill-lab', get_post_format() ); ?>
+                <?php get_template_part( 'pco/template-parts/section-skill-lab', get_post_format() ); ?>
             </div>
         </div>
     </section>
@@ -385,11 +385,11 @@ Summer School (specialistici) - 133/134
 
 <!-- INDIVIDUAL PROGRAMME -->
 <section>
-<div class="container-fluid">
-    <div class="container">
-        <?php get_template_part( 'pco/template-parts/section-individual-programme', get_post_format() ); ?>
+    <div class="container-fluid">
+        <div class="container">
+            <?php get_template_part( 'pco/template-parts/section-individual-programme', get_post_format() ); ?>
+        </div>
     </div>
-</div>
 </section>
 
 <!-- OFFERTA COMPLETA -->
