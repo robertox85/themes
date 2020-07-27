@@ -1,6 +1,6 @@
 <!-- Includo le variabili comuni -->
 
-<?php include '../pco/variables/variabili-programmi-executive.php'; ?>
+<?php include '../variables/variabili-programmi-executive.php'; ?>
 
 <!-- Inizio template -->
 
