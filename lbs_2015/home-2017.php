@@ -318,7 +318,7 @@ if (!(empty($events))) {
 
                 <article itemscope itemtype="http://schema.org/Article">
                     <div class="row d-flex flex-row align-items-center justify-content-between my-16 px-16">
-                        <div class="col-xs-4 bg__white box-event-date px-16 py-16">
+                        <div class="col-xs-4 bg__white box-event-date px-24 py-16">
                             <h6 class="my-0"><?php echo get_date($data_inizio,"events",ICL_LANGUAGE_CODE) ?></h6>
                         </div>
                         <div class="col-xs-8 box-event-title">
