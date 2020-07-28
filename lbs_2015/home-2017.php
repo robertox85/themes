@@ -147,14 +147,6 @@ $img_link_mob_2['en'] = get_stylesheet_directory_uri() . '/pco/images/meet-us-on
 
 <!-- SEZIONE 1-->
 
-<style>
-
-:root {
-    --current-color: #00968F;
-}
-
-</style>
-
 <section id="home-section-1" class="home-section">
     <div class="container">
         <div class="row">
@@ -167,6 +159,13 @@ _4 = Programmi Executive
 _5 = Programmi Custom - N.B. EDITARE IN PAGINA AL POSTO DI PHD
 _6 = Programmi di alta formazione - non utilizzato
             <!-- Box MBA -->
+            <style>
+
+:root {
+    --current-color: #00968F;
+}
+
+</style>
             <div class="col-md-6">
                 <h2><?php echo get_field('home_launch_box_title_2'); ?></h2>
                 <p class="big"><?php echo get_field('home_launch_box_excerpt_2'); ?></p>
@@ -179,6 +178,13 @@ _6 = Programmi di alta formazione - non utilizzato
             </div>
 
             <!-- Box Master -->
+            <style>
+
+:root {
+    --current-color: #000000;
+}
+
+</style>
             <div class="col-md-6">
                 <h2><?php echo get_field('home_launch_box_title_3'); ?></h2>
                 <p class="big"><?php echo get_field('home_launch_box_excerpt_3'); ?></p>
