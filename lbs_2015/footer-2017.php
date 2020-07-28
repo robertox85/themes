@@ -149,7 +149,7 @@ $current_blog_id = get_query_var( 'current_blog_id' );
                     </div>
 
                     <!-- Address -->
-                    <div class="col-xs-12 col-md-4">
+                    <div class="col-xs-12 col-md-4 px-0">
                         <h3 class="color__white pb-24"><?php echo $contatti[ICL_LANGUAGE_CODE]; ?></h3>
                         <address>
                             Villa Blanc,
@@ -178,7 +178,7 @@ $current_blog_id = get_query_var( 'current_blog_id' );
     <div class="copyright">
         <div class="container">
             <div class="row px-0 pt-24 pb-64">
-                <div class="col-xs-12 px-0">
+                <div class="col-xs-12 px-lg-0">
                     <p>The PMI Registered Education Provider logo is a registered mark of the Project Management Institute, Inc. <br>
                         Use of this website constitutes acceptance of <a href="/cookies/" style="color: #fdbb4d; font-size: 1rem;">Cookie Policy</a>.<br>
                         © LUISS Business School Villa Blanc,Via Nomentana, 216 00162 Roma, Italia - Centralino T 06 852251 - P.IVA 01067231009 </p>
