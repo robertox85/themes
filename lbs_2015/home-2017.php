@@ -159,7 +159,7 @@ _4 = Programmi Executive
 _5 = Programmi Custom - N.B. EDITARE IN PAGINA AL POSTO DI PHD
 _6 = Programmi di alta formazione - non utilizzato
             <!-- Box MBA -->
-            <div class="col-md-6 mb-30">
+            <div class="col-md-6 mb-32">
                 <h2><?php echo get_field('home_launch_box_title_2'); ?></h2>
                 <p class="big"><?php echo get_field('home_launch_box_excerpt_2'); ?></p>
                 <!-- Pulsanti -->
@@ -171,7 +171,7 @@ _6 = Programmi di alta formazione - non utilizzato
             </div>
 
             <!-- Box Master -->
-            <div class="col-md-6 mb-30">
+            <div class="col-md-6 mb-32">
                 <h2><?php echo get_field('home_launch_box_title_3'); ?></h2>
                 <p class="big"><?php echo get_field('home_launch_box_excerpt_3'); ?></p>
                 <!-- Pulsanti -->
