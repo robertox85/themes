@@ -33,10 +33,10 @@ while (have_posts()): the_post();
             <div class="col-12">
                 <h1 class="small p-0">
                     <?php
-								global $blog_id;
-								$current_blog_details = get_blog_details(array('blog_id' => $blog_id));
-								echo $current_blog_details->blogname;
-								?>
+					global $blog_id;
+					$current_blog_details = get_blog_details(array('blog_id' => $blog_id));
+					echo $current_blog_details->blogname;
+					?>
                 </h1>
                 <p>
                     <?php echo get_field('paragrafo') ?>
@@ -49,41 +49,35 @@ while (have_posts()): the_post();
 </div>
 <!--END .container -->
 
-<div class="container-fluid colonna_key_facts">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 py-32">
-                <h5>Key Facts</h5>
-                <div class="position-absolute share_links">
 
+<?php 
+// KEY FACTS
+set_query_var('site_name', $current_blog_details->blogname);
+get_template_part( 'pco/template-parts/content', 'keyfacts' );
+ 
+?>
 
-                    <?php get_template_part('pco/template-parts/content', 'share')?>
-
-
-                </div>
-                <div class="colonna_key_facts-container">
-                    <?php if (function_exists('dynamic_sidebar')): ?>
-                    <?php dynamic_sidebar('Custom')?>
-                    <?php endif;?>
-                </div>
-            </div>
-        </div>
-    </div>
-
-</div>
-
-<div class="container-fluid">
+<div class="container-fluid colonna_main">
 
 
     <div class="row">
-        <nav class="col-lg-3 col-md-3 pl-0">
+        <nav class="col-lg-3 pl-lg-0">
 
-            <?php
+		
+			<?php
+			
+			wp_nav_menu(array(
+				'menu' => 'Master',
+				'container_class' => 'd-block d-lg-none text-center pt-32',
+				'walker'         => new Walker_Nav_Menu_Dropdown(),
+				'items_wrap'     => '<select class="select w-100"><option disabled selected>Seleziona</option>%3$s</select>',
+			  ));
+			  
 
 								wp_nav_menu(array(
 									'menu' => 'Master',
 									'container_id' => '',
-									'container_class' => 'bg__white',
+									'container_class' => 'bg__white d-none d-lg-block',
 									'container' => 'div',
 									'menu_class' => 'list-unstyled sidebar_navigation ',
 								));
@@ -91,7 +85,7 @@ while (have_posts()): the_post();
 								?>
         </nav>
 
-        <main id="main" class="site-main site-master col-lg-6 col-md-6" role="main">
+        <main id="main" class="site-main site-master col-lg-6" role="main">
             <div id="page-content" class="columns  space">
 
                 <?php if (!is_front_page()) {?>
@@ -99,7 +93,9 @@ while (have_posts()): the_post();
                 <?php }?>
 
                 <?php if(is_page('executive-experience')): ?>
+				<p>L’offerta formativa Executive Education della Luiss Business School, si caratterizza per un approccio metodologico fortemente interattivo ed esperienziale che coinvolge il partecipante ben oltre la didattica tradizionale.</p>
 
+				<p>L’esperienza di apprendimento è costruita intorno alla persona, con l’obiettivo di ampliarne il network, e promuoverne lo sviluppo professionale e personale, fornendo strumenti immediatamente applicabili nel proprio contesto organizzativo per coglierne in maniera efficace le sfide. Ad ogni percorso di apprendimento sono associati attività e servizi che si sviluppano, prima, durante e dopo la fase di aula.</p>
                 <?php 
 						$i = 0;
 						$array = array(
@@ -204,7 +200,7 @@ while (have_posts()): the_post();
     </p>
     </main>
 
-    <aside class="col-lg-3 col-md-3 col-sm-12 space sidebar-master">
+    <aside class="col-lg-3 space sidebar-master">
 
         <?php get_sidebar();?>
 

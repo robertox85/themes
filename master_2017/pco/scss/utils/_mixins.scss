@@ -23,7 +23,7 @@
 @mixin theme($name, $bgColor, $textColor) {
   
   body.theme-#{$name} {
-    
+    overflow-x: hidden;
     font-family: 'Luiss Sans', sans-serif !important;
     font-weight: normal;
     
@@ -44,6 +44,9 @@
       margin-top: rem(50px);
     }
     
+    #site-canvas{
+      transform: none;
+    }
    
     .breadcrumb,
     .breadcrumb span,
@@ -277,7 +280,11 @@
     }
     
     
-    
+    .select{
+      padding: 10px 15px;
+      border: 1px solid $blue;
+      color: $blue;
+    }
 
     .sidebar_navigation {
       padding-top: 36px;
@@ -328,17 +335,117 @@
       background: $bgColor;
       width: 100%;
       top: 0;
+      left: 0;
+      right: 0;
+      
       .row {
         display: flex;
         justify-content: center;
+        transition: .3s;
+      }
+      .row-hidden{
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
       }
       * {
         color: $white;
       }
 
+
+      
+
+
+
+      &.fixed{
+        position: fixed;
+        .colonna_key_facts-container {
+          .block:not(:last-child) {
+            display: none;
+          }
+        }
+      }
+      .download-brocure{
+        
+        position: fixed;
+        background-color: $bgColor;
+        padding: 44px 24px 24px 32px;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        z-index: 100;
+        
+        
+        .block:not(:last-child) {
+          display:none;
+        }
+
+        .block:last-child {
+          .textwidget{
+            text-align: center;
+          }
+          .button.arr:not(.featured-links){
+            display: none;
+          }
+          .button.arr.featured-links{
+            font-family: 'Luiss Sans', sans-serif !important;
+            font-weight: bold;
+            background-color: $white;
+            color: $textColor;
+            @include font-size(16px);
+            line-height: rem(28px);
+            padding: 25px 70px;
+            margin-bottom: 0;
+            margin-top: 16px;
+            transition: .3s;
+            border: 1px solid transparent;
+            width: 100%;
+
+            &.disabled,
+            &:disabled{
+                opacity: .3;
+            }
+            &:hover{
+              background: $bgColor;
+              border: 1px solid $white;
+              color: $white;
+            }
+            &:focus{
+              box-shadow: inset 0 0 10px 0 rgba(60,60,60,0.20);
+            }
+          }
+        }
+
+      }
+
+      
+      
       .colonna_key_facts-container {
-        display: flex;
+        width: 100%;
+
+        @media screen and (max-width:992px){
+          column-count: 2;
+
+          .block:last-child {
+            display: none;
+          }
+        }
+        @media screen and (min-width:992px){
+          display: flex;  
+        }
+        
+
+        
         .block{
+          h3{
+    
+            text-transform: uppercase;
+          }
+          h3,
+          .meta{
+            @include font-size(16px!important);
+            line-height: rem(24px);
+          }
           .textwidget {
             p{
               font-weight: bold;
@@ -362,6 +469,8 @@
           }
         }
         .featured-links {
+          font-family: 'Luiss Sans', sans-serif !important;
+          font-weight: bold;
           background-color: $white;
           color: $textColor;
           @include font-size(16px);
@@ -372,6 +481,7 @@
           transition: .3s;
           border: 1px solid transparent;
           width: 360px;
+
           &.disabled,
           &:disabled{
               opacity: .3;
@@ -387,9 +497,28 @@
         }
       }
 
-      &.fixed{
-        position: fixed;
+      
+
+      .colonna_key_facts-fixed{
+        align-items: center;
+        h5{
+          flex-grow: 1;
+        }
+        .block:last-child {
+          flex-grow: 0;
+        }
+        .share_links-fixed{
+          margin-right: rem(24px);
+          ul{
+            justify-content: space-between;
+            width: 313px;
+            height: 48px;
+            border-bottom: 1px solid #fff;
+          }
+        }
       }
+
+      
     }
 
     .container-header {
@@ -445,7 +574,7 @@
     #breadcrumb-top .breadcrumb{
       border-bottom: 0;
     }
-    .share_links{
+    .share_links:not(.share_links-fixed){
       position: absolute;
       right: 0;
       top: rem(32px);
@@ -469,6 +598,7 @@
         }
       }
     }
+    
     .footer {
       background: none repeat scroll 0 0 #fff;
       padding-bottom: 0;

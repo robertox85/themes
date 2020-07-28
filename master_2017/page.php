@@ -48,30 +48,14 @@ while (have_posts()): the_post();
 </div>
 <!--END .container -->
 
-<div class="container-fluid colonna_key_facts">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 py-32">
-                <h5>Key Facts</h5>
-                <div class="position-absolute share_links">
+<?php 
+// KEY FACTS
+set_query_var('site_name', $current_blog_details->blogname);
+get_template_part( 'pco/template-parts/content', 'keyfacts' );
+ 
+?>
 
-
-                    <?php get_template_part('pco/template-parts/content', 'share')?>
-
-
-                </div>
-                <div class="colonna_key_facts-container">
-                    <?php if (function_exists('dynamic_sidebar')): ?>
-                    <?php dynamic_sidebar('Custom')?>
-                    <?php endif;?>
-                </div>
-            </div>
-        </div>
-    </div>
-
-</div>
-
-<div class="container-fluid">
+<div class="container-fluid colonna_main">
 
 
     <div class="row">

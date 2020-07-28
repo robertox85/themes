@@ -326,3 +326,31 @@ add_filter( 'wp_nav_menu_objects', 'modify_home_in_nav_menu_objects', 10, 2 );
 // 	$content = preg_replace($pattern, $replace, $content);
 //     return $content;
 // }
+
+class Walker_Nav_Menu_Dropdown extends Walker_Nav_Menu{
+
+    // don't output children opening tag (`<ul>`)
+    public function start_lvl(&$output, $depth){}
+
+    // don't output children closing tag    
+    public function end_lvl(&$output, $depth){}
+
+    public function start_el(&$output, $item, $depth, $args){
+      global $wp;
+      $current_url = home_url(add_query_arg(array(),$wp->request));
+      // add spacing to the title based on the current depth
+      $item->title = str_repeat("&nbsp;", $depth * 4) . $item->title;
+
+      // call the prototype and replace the <li> tag
+      // from the generated markup...
+      $link = (!empty($item->url)) ? $item->url : '';
+      
+      parent::start_el($output, $item, $depth, $args);
+      $output = str_replace('<li', '<option  data-link="'.$link.'"', $output);
+    }
+
+    // replace closing </li> with the closing option tag
+    public function end_el(&$output, $item, $depth){
+      $output .= "</option>\n";
+    }
+}
