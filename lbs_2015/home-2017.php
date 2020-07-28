@@ -91,9 +91,9 @@ $testo3 = get_field('testo_visore_3');
     <div class="carousel-inner home-carousel">
         <div class="item active">
             <img src="<?php echo $img1['url']; ?>" alt="<?php echo $img1['alt']; ?>" />
-            <div class="container home-carousel-content mb-64">
+            <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-md-8">
+                    <div class="col-xs-12 col-md-8 home-carousel-content mb-64 mb-lg-128">
                         <h1 class="color__white"><?php echo $desc1; ?></h1>
                         <h6 class="color__white"><?php echo $testo1; ?></h6>
                     </div>
