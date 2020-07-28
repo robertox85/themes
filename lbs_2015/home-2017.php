@@ -97,13 +97,21 @@ $testo3 = get_field('testo_visore_3');
 <!-- CAROUSEL BANNER DESKTOP -->
 
 <?php 
-$img_link = array();
-$img_link['it'] = 'https://businessschool.luiss.it/wp-content/uploads/2020/04/banner-flex.jpg';
-$img_link['en'] = 'https://businessschool.luiss.it/wp-content/uploads/2020/04/banner-flex-2.jpg';
+$img_link_desk_1 = array();
+$img_link_desk_1['it'] = 'https://businessschool.luiss.it/wp-content/uploads/2020/04/banner-flex.jpg';
+$img_link_desk_1['en'] = 'https://businessschool.luiss.it/wp-content/uploads/2020/04/banner-flex-2.jpg';
 	
-$img_link_2 = array();
-$img_link_2['it'] = 'https://businessschool.luiss.it/wp-content/uploads/2020/04/banner-meet.jpg';
-$img_link_2['en'] = 'https://businessschool.luiss.it/wp-content/uploads/2020/04/banner-meet-2.jpg';
+$img_link_desk_2 = array();
+$img_link_desk_2['it'] = 'https://businessschool.luiss.it/wp-content/uploads/2020/04/banner-meet.jpg';
+$img_link_desk_2['en'] = 'https://businessschool.luiss.it/wp-content/uploads/2020/04/banner-meet-2.jpg';
+
+$img_link_mob_1 = array();
+$img_link_mob_1['it'] = 'https://businessschool.luiss.it/wp-content/uploads/2020/04/banner-flex.jpg';
+$img_link_mob_1['en'] = 'https://businessschool.luiss.it/wp-content/uploads/2020/04/banner-flex-2.jpg';
+	
+$img_link_mob_2 = array();
+$img_link_mob_2['it'] = 'https://businessschool.luiss.it/wp-content/uploads/2020/04/banner-meet.jpg';
+$img_link_mob_2['en'] = 'https://businessschool.luiss.it/wp-content/uploads/2020/04/banner-meet-2.jpg';
 ?>
 
 <div class="container ">
@@ -111,9 +119,9 @@ $img_link_2['en'] = 'https://businessschool.luiss.it/wp-content/uploads/2020/04/
         <div id="myCarousel" class="carousel slide" data-ride="carousel" style="z-index: 1" data-interval="4000">
             <!-- Content -->
             <div class="carousel-inner">
-                <div class="item active"> <a style="" href="https://businessschool.luiss.it/flex"> <img src="<?php echo $img_link[ICL_LANGUAGE_CODE]; ?>" alt="Flex Executive Programme" class="img-responsive" style="background-size: cover;background-position: 50% 50%; max-width: 100%; height: auto;" /></a>
+                <div class="item active"> <a style="" href="https://businessschool.luiss.it/flex"> <img src="<?php echo $img_link_desk_1[ICL_LANGUAGE_CODE]; ?>" alt="Flex Executive Programme" class="img-responsive" style="background-size: cover;background-position: 50% 50%; max-width: 100%; height: auto;" /></a>
                 </div>
-                <div class="item"> <a style="" href="https://businessschool.luiss.it/meet-us-online/"> <img src="<?php echo $img_link_2[ICL_LANGUAGE_CODE]; ?>" alt="Webinar, Workshop, Masterclass, Open Lesson e Q&A session." class="img-responsive" style="background-size: cover;background-position: 50% 50%; max-width: 100%; height: auto;" /></a>
+                <div class="item"> <a style="" href="https://businessschool.luiss.it/meet-us-online/"> <img src="<?php echo $img_link_desk_2[ICL_LANGUAGE_CODE]; ?>" alt="Webinar, Workshop, Masterclass, Open Lesson e Q&A session." class="img-responsive" style="background-size: cover;background-position: 50% 50%; max-width: 100%; height: auto;" /></a>
                 </div>
             </div>
             <!-- Indicatori -->
