@@ -169,7 +169,7 @@ _5 = Programmi Custom - N.B. EDITARE IN PAGINA AL POSTO DI PHD
 _6 = Programmi di alta formazione - non utilizzato
             <!-- Box MBA -->
             <div class="card-course-big p-24 m-16 d-flex flex-column align-items-start justify-content-between">
-                <h2 class="color__green"><?php echo get_field('home_launch_box_title_2'); ?></h2>
+                <h2 class="color__green text-uppercase"><?php echo get_field('home_launch_box_title_2'); ?></h2>
                 <p class="big"><?php echo get_field('home_launch_box_excerpt_2'); ?></p>
                 <!-- Pulsanti -->
                 <div class="row">
@@ -315,78 +315,7 @@ if (!(empty($events))) {
 	$data_inizio = get_post_meta($event->ID, 'data_inizio',true); 
  
  ?>
-                
-                <style>
-                    
-                    @media screen and (max-width: 991px) {
-                       
-                        .card-course-big {
-                        width: 100%;
-                        min-height: 410px;
-                    }
-                        
-                    }
-                    
-                 @media screen and (min-width: 992px) and (max-width: 1199px) {
-                       
-                        .card-course-big {
-                        width: 45%;
-                        min-height: 410px;
-                    }
-                        
-                    }
-                    
-                    @media screen and (min-width: 1200px) {
-                    
-                    .card-course-big {
-                        width: 47%;
-                        min-height: 410px;
-                        border: 1px solid;          
-                        }
-                    
-                                        }
-                    
-                    .card-course-big {
-                        border: 1px solid;
-                        position:relative;
-}
-                    
-                    .card-course-big:before {
-                       content: '';
-    position: absolute;
-    width: 100%;
-    height: 410px;
-    background-color: rgba(0,58,112,.01);
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-position: center center;
-    -webkit-mask-size: cover;
-    -webkit-mask-image: url(wp-content/themes/lbs_2015/pco/images/pattern.svg);
-                        mask-image: url(wp-content/themes/lbs_2015/pco/images/pattern.svg);
-                        mask-repeat: no-repeat;
-    mask-position: center center;
-    mask-size: cover;
-                    }
 
-                    
-                    .card-course-big h2 {
-                        text-transform: lowercase;
-                    }
-                    
-                    .card-course-big h2:first-letter {
-                        text-transform: uppercase;
-                    }
-                    
-                    .box-event-date {
-                        border: 1px solid var(--current-color);
-                        text-transform: uppercase !important;
-                    }
-                    
-                    .box-event-title h6, .box-news-title h6 {
-                        font-weight: normal !important;
-                        line-height: 1.65rem !important;
-                    }
-                    
-                </style>
                 <article itemscope itemtype="http://schema.org/Article">
                     <div class="row d-flex flex-row align-items-center justify-content-between my-16 px-16">
                         <div class="col-xs-4 bg__white box-event-date px-16 py-16">
