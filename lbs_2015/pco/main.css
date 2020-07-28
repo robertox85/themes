@@ -1,7 +1,7 @@
 /*! 
-Theme Name: Milano Luiss Hub
-Theme URI: http://www.milanoluisshub.com/ 
-Description: Milano Luiss Hub Wordpress theme
+Theme Name: LBS 2015
+Theme URI: 
+Description: 
 Template:		 wp-bootstrap-starter
 Version:		 1.0.0
 Text Domain:	 mlh
@@ -90,6 +90,10 @@ License URI: http://opensource.org/licenses/mit-license.php */
   src: url("fonts/luiss_serif/LuissSerif-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/luiss_serif/luissserif-regular-webfont.woff2") format("woff2"), url("fonts/luiss_serif/luissserif-regular-webfont.woff") format("woff"), url("fonts/luiss_serif/LuissSerif-Regular.ttf") format("truetype"), url("fonts/luiss_serif/LuissSerif-Regular.svg#webfont") format("svg");
   font-weight: 400;
   font-style: normal;
+}
+
+:root {
+    --current-color: #003A70;
 }
 
 .color__dark_grey {
@@ -189,7 +193,7 @@ License URI: http://opensource.org/licenses/mit-license.php */
 }
 
 .bg__gradient_green {
-  background-color: linear-gradient(225deg, rgba(0, 150, 143, 0) 0%, rgba(0, 106, 128, 0.5) 39%, #008F8D 89%, #00968F 100%) !important;
+  background-color: linear-gradient(225deg, rgba(0, 150, 143, 0) 0%, rgba(0, 106, 128, 0.5) 39%, #008F8D 89%, var(--current-color) 100%) !important;
 }
 
 .bg__gradient_red {
@@ -373,7 +377,7 @@ h5 {
 h6 {
   font-weight: bold;
   font-size: calc(1.3125rem + 0.75vw);
-  line-height: 2.25rem;
+  line-height: 1.875rem;;
 }
 
 @media (min-width: 1200px) {
@@ -10917,6 +10921,7 @@ h6 {
   -webkit-transition: .3s;
   transition: .3s;
   font-weight: bold !important;
+    font-family: 'Luiss Sans';
 }
 
 .button.button__big {
@@ -10930,14 +10935,14 @@ h6 {
 }
 
 .button.button__primary {
-  background: #00968F;
+  background: var(--current-color);
   border: 1px solid transparent;
 }
 
 .button.button__primary:hover {
   background: #ffffff;
-  border: 1px solid #00968F;
-  color: #00968F;
+  border: 1px solid var(--current-color);
+  color: var(--current-color);
 }
 
 .button.button__primary:focus {
@@ -10946,8 +10951,8 @@ h6 {
 }
 
 .button.button__secondary {
-  border: 1px solid #00968F;
-  color: #00968F;
+  border: 1px solid var(--current-color);
+  color: var(--current-color);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -11083,14 +11088,14 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
 }
 
 .footer .button.button__primary {
-  background: #00968F;
+  background: var(--current-color);
   border: 1px solid transparent;
 }
 
 .footer .button.button__primary:hover {
   background: #ffffff;
-  border: 1px solid #00968F;
-  color: #00968F;
+  border: 1px solid var(--current-color);
+  color: var(--current-color);
 }
 
 .footer .button.button__primary:focus {

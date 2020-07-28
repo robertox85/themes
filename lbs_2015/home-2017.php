@@ -5,6 +5,7 @@
  */
 $finder_description = get_field('finder_description');
  //wp_enqueue_style('Home_Styles','/wp-content/themes/lbs_2015/css/home-new.css');
+wp_enqueue_style('Bootstrap_Styles','https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css');
  get_header(2017); 
 ?>
 
@@ -85,8 +86,8 @@ $testo3 = get_field('testo_visore_3');
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-md-8">
-                    <h1><?php echo $desc1; ?></h1>
-                    <h6><?php echo $testo1; ?></h6>
+                        <h1><?php echo $desc1; ?></h1>
+                        <h6><?php echo $testo1; ?></h6>
                     </div>
                 </div>
             </div>
@@ -114,18 +115,18 @@ $img_link_mob_2['it'] = get_stylesheet_directory_uri() . '/pco/images/meet-us-on
 $img_link_mob_2['en'] = get_stylesheet_directory_uri() . '/pco/images/meet-us-online-eng-mob.png';
 ?>
 
-<div class="container ">
-    <div class="row">
+<div class="container">
+    <div class="row my-24">
         <div id="myCarousel" class="carousel slide" data-ride="carousel" style="z-index: 1" data-interval="4000">
             <!-- Content -->
             <div class="carousel-inner">
                 <div class="item active">
                     <a href="https://businessschool.luiss.it/flex">
                         <!-- stampo l'immagine desk -->
-                    <img class="display-desk" src="<?php echo $img_link_desk_1[ICL_LANGUAGE_CODE]; ?>" alt="Flex Executive Programme" class="img-responsive" style="background-size: cover;background-position: 50% 50%; max-width: 100%; height: auto;" />
+                        <img class="display-desk" src="<?php echo $img_link_desk_1[ICL_LANGUAGE_CODE]; ?>" alt="Flex Executive Programme" class="img-responsive" style="background-size: cover;background-position: 50% 50%; max-width: 100%; height: auto;" />
                         <!-- stampo l'immagine mobile -->
                         <img class="display-mobile" src="<?php echo $img_link_mob_1[ICL_LANGUAGE_CODE]; ?>" alt="Flex Executive Programme" class="img-responsive" style="background-size: cover;background-position: 50% 50%; max-width: 100%; height: auto;" />
-                </a>
+                    </a>
                 </div>
                 <div class="item">
                     <a href="https://businessschool.luiss.it/meet-us-online/">
@@ -147,7 +148,7 @@ $img_link_mob_2['en'] = get_stylesheet_directory_uri() . '/pco/images/meet-us-on
 
 <!-- SEZIONE 1-->
 
-<section id="home-section-1" class="home-section">
+<section id="home-section-1" class="home-section my-128">
     <div class="container">
         <div class="row">
             <!-- Box delle tipologia di corso -->
@@ -159,49 +160,49 @@ _4 = Programmi Executive
 _5 = Programmi Custom - N.B. EDITARE IN PAGINA AL POSTO DI PHD
 _6 = Programmi di alta formazione - non utilizzato
             <!-- Box MBA -->
-            <div class="col-md-6">
-                <h2><?php echo get_field('home_launch_box_title_2'); ?></h2>
+            <div class="col-md-6 mb-32 card-course">
+                <h2 class="color__green"><?php echo get_field('home_launch_box_title_2'); ?></h2>
                 <p class="big"><?php echo get_field('home_launch_box_excerpt_2'); ?></p>
                 <!-- Pulsanti -->
                 <div class="row">
                     <div class="col-xs-12">
-                    <a href="<?php echo get_field('home_launch_box_url_2'); ?>">Scopri</a>
+                        <a class="button button__primary bg__green" href="<?php echo get_field('home_launch_box_url_2'); ?>">Scopri</a>
                     </div>
                 </div>
             </div>
 
             <!-- Box Master -->
-            <div class="col-md-6">
-                <h2><?php echo get_field('home_launch_box_title_3'); ?></h2>
+            <div class="col-md-6 mb-32 card-course">
+                <h2 class="color__red"><?php echo get_field('home_launch_box_title_3'); ?></h2>
                 <p class="big"><?php echo get_field('home_launch_box_excerpt_3'); ?></p>
                 <!-- Pulsanti -->
                 <div class="row">
                     <div class="col-xs-12">
-                    <a href="<?php echo get_field('home_launch_box_url_3'); ?>">Scopri</a>
+                        <a class="button button__primary bg__red" href="<?php echo get_field('home_launch_box_url_3'); ?>">Scopri</a>
                     </div>
                 </div>
             </div>
 
             <!-- Box Programmi Executive -->
-            <div class="col-md-6">
-                <h2><?php echo get_field('home_launch_box_title_4'); ?></h2>
+            <div class="col-md-6 card-course">
+                <h2 class="color__light_blue"><?php echo get_field('home_launch_box_title_4'); ?></h2>
                 <p class="big"><?php echo get_field('home_launch_box_excerpt_4'); ?></p>
                 <!-- Pulsanti -->
                 <div class="row">
                     <div class="col-xs-12">
-                    <a href="<?php echo get_field('home_launch_box_url_4'); ?>">Scopri</a>
+                        <a class="button button__primary bg__light_blue" href="<?php echo get_field('home_launch_box_url_4'); ?>">Scopri</a>
                     </div>
                 </div>
             </div>
 
             <!-- Box Programmi Custom -->
-            <div class="col-md-6">
-                <h2><?php echo get_field('home_launch_box_title_5'); ?></h2>
+            <div class="col-md-6 card-course">
+                <h2 class="color__orange"><?php echo get_field('home_launch_box_title_5'); ?></h2>
                 <p class="big"><?php echo get_field('home_launch_box_excerpt_5'); ?></p>
                 <!-- Pulsanti -->
                 <div class="row">
                     <div class="col-xs-12">
-                    <a href="<?php echo get_field('home_launch_box_url_5'); ?>">Scopri</a>
+                        <a class="button button__primary bg__orange" href="<?php echo get_field('home_launch_box_url_5'); ?>">Scopri</a>
                     </div>
                 </div>
             </div>
@@ -231,7 +232,7 @@ $events_section_title['en'] = 'Upcoming events';
             <!-- Ultime News -->
 
             <div class="col-xs-12 col-md-4">
-                <h3><?php echo $news_section_title[ICL_LANGUAGE_CODE]; ?></h3>
+                <h3 class="mb-16"><?php echo $news_section_title[ICL_LANGUAGE_CODE]; ?></h3>
                 <?php
  
 $news_cat=array();	 		
@@ -257,8 +258,8 @@ if (!(empty($news))) {
  
  ?>
                 <article itemscope itemtype="http://schema.org/Article">
-                    <div class="row">
-                        <div class="col-xs-4">
+                    <div class="row d-flex flex-row align-items-center justify-content-between my-16 px-16">
+                        <div class="col-xs-4 p-0">
                             <span itemscope itemtype='http://schema.org/ImageObject'>
                                 <?php 
 	$img_attr = array(
@@ -270,9 +271,8 @@ if (!(empty($news))) {
 	?>
                             </span>
                         </div>
-                        <div class="col-xs-8">
-                            <h6 itemprop="name headline" class="home-news-headline"><a href="<?php echo get_permalink($news->ID) ?>" title="<?php echo $news->post_title ?>"><?php echo $news->post_title ?></a>
-                            </h6>
+                        <div class="col-xs-8 box-news-title">
+                            <h6 class="my-0" itemprop="name headline"><a href="<?php echo get_permalink($news->ID) ?>" title="<?php echo $news->post_title ?>"><?php echo $news->post_title ?></a></h6>
                         </div>
                     </div>
                 </article>
@@ -285,7 +285,7 @@ if (!(empty($news))) {
             <!-- Ultime Eventi -->
 
             <div class="col-xs-12 col-md-4">
-                <h3><?php echo $events_section_title[ICL_LANGUAGE_CODE]; ?></h3>
+                <h3 class="mb-16"><?php echo $events_section_title[ICL_LANGUAGE_CODE]; ?></h3>
                 <?php
  
 $eventi_cat=array(); 
@@ -307,12 +307,40 @@ if (!(empty($events))) {
 	$data_inizio = get_post_meta($event->ID, 'data_inizio',true); 
  
  ?>
+                
+                <style>
+                    
+                    .card-course {
+                        min-height: 410px;
+                        border: 1px solid;
+                    }
+                    
+                    .card-course h2 {
+                        text-transform: lowercase;
+                    }
+                    
+                    .card-course h2:first-letter {
+                        text-transform: uppercase;
+                    }
+                    
+                    .box-event-date {
+                        border: 1px solid var(--current-color);
+                        text-transform: uppercase !important;
+                    }
+                    
+                    .box-event-title h6, .box-news-title h6 {
+                        font-weight: normal !important;
+                        line-height: 1.65rem !important;
+                    }
+                    
+                </style>
                 <article itemscope itemtype="http://schema.org/Article">
-                    <div class="row">
-                        <div class="col-xs-4">
-                            <?php echo get_date($data_inizio,"events",ICL_LANGUAGE_CODE) ?></div>
-                        <div class="col-xs-8">
-                            <h6 itemprop="name headline"><a href="<?php echo get_permalink($event->ID) ?>" title="<?php echo $event->post_title ?>"><?php echo $event->post_title ?></a></h6>
+                    <div class="row d-flex flex-row align-items-center justify-content-between my-16 px-16">
+                        <div class="col-xs-4 bg__white box-event-date px-16 py-16">
+                            <h6 class="my-0"><?php echo get_date($data_inizio,"events",ICL_LANGUAGE_CODE) ?></h6>
+                        </div>
+                        <div class="col-xs-8 box-event-title">
+                            <h6 class="my-0" itemprop="name headline"><a href="<?php echo get_permalink($event->ID) ?>" title="<?php echo $event->post_title ?>"><?php echo $event->post_title ?></a></h6>
                         </div>
                     </div>
                 </article>
@@ -323,8 +351,8 @@ if (!(empty($events))) {
             </div>
 
             <!-- Trova il tuo corso -->
-            <div class="col-md-4">
-                <h3>Programme Explorer</h3>
+            <div class="col-xs-12 col-md-4">
+                <h3 class="mb-16">Programme Explorer</h3>
                 <?php 
 		$finder_description = array();
 		$finder_description['it'] = 'Vuoi scoprire qual è il corso ideale per te?<br>Scoprilo in 3 semplici step!';
@@ -347,22 +375,22 @@ if (!(empty($events))) {
 		$finder_form_action['en'] = '/en/programs/course-finder/';	
 		?>
                 <div class="row">
-                <div class="col-xs-12">
-                    <p class="big"><?php echo $finder_description[ICL_LANGUAGE_CODE]; ?></p>
-                    <form id="form-course-finder" action="<?php echo $finder_form_action[ICL_LANGUAGE_CODE] ?>" method="get">
-                        <ul>
-                            <?php 
+                    <div class="col-xs-12">
+                        <p><?php echo $finder_description[ICL_LANGUAGE_CODE]; ?></p>
+                        <form id="form-course-finder" action="<?php echo $finder_form_action[ICL_LANGUAGE_CODE] ?>" method="get">
+                            <ul>
+                                <?php 
 			
 			$selected_taxonomies =array('lingue','lunghezza_corsi','tematiche');
 			$custom_taxonomies = corsi_get_taxonomies($selected_taxonomies);
 			$choose_label['it']='Scegli';
 			$choose_label['en']='Choose';
  foreach ($custom_taxonomies as $taxonomy) {  ?>
-                            <li>
-                                <label for="<?php echo $taxonomy[ICL_LANGUAGE_CODE]['name'] ?>"><?php echo $taxonomy[ICL_LANGUAGE_CODE]['label'] ?></label>
-                                <select name="<?php echo $taxonomy[ICL_LANGUAGE_CODE]['name'] ?>" id="<?php echo $taxonomy[ICL_LANGUAGE_CODE]['name'] ?>">
-                                    <option value=""><?php echo $choose_label[ICL_LANGUAGE_CODE]; ?></option>
-                                    <?php 
+                                <li>
+                                    <label for="<?php echo $taxonomy[ICL_LANGUAGE_CODE]['name'] ?>"><?php echo $taxonomy[ICL_LANGUAGE_CODE]['label'] ?></label>
+                                    <select name="<?php echo $taxonomy[ICL_LANGUAGE_CODE]['name'] ?>" id="<?php echo $taxonomy[ICL_LANGUAGE_CODE]['name'] ?>">
+                                        <option value=""><?php echo $choose_label[ICL_LANGUAGE_CODE]; ?></option>
+                                        <?php 
         $terms = get_terms($taxonomy[ICL_LANGUAGE_CODE]['name']);
 
 
@@ -376,12 +404,12 @@ if (!(empty($events))) {
      	} // END foreach
 		} // END if ( ! empty( $terms ) && ! is_wp_error( $terms ) ){
 		?>
-                                </select>
-                            </li>
-                            <?php } // END foreach ?>
-                        </ul>
-                        <button class="" type="submit"><?php echo $finder_button_button_send[ICL_LANGUAGE_CODE]; ?></button>
-                    </form>
+                                    </select>
+                                </li>
+                                <?php } // END foreach ?>
+                            </ul>
+                            <button class="mt-32 button button__primary bg__gold" type="submit"><?php echo $finder_button_button_send[ICL_LANGUAGE_CODE]; ?></button>
+                        </form>
                     </div>
                 </div>
             </div>
