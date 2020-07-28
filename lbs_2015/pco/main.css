@@ -13329,13 +13329,9 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
     border-radius: 0;
 }
 
-.carousel-indicators .active {
-    -ms-flex: 0 1 auto;
-    flex: 0 1 auto;
-    width: 160px;
-    height: 8px;
+.carousel-indicators li.active {
+    opacity: 1;
     background-color: var(--current-color);
-    border-radius: 0;
 }
 
 
