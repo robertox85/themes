@@ -13331,7 +13331,7 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
     margin: 0px 4px
 }
 
- .home-carousel > .item > img:before, .home-carousel > .item > a > img:before {
+ .home-carousel > .item:before {
     content: '';
     position: absolute;
     width: 100%;
