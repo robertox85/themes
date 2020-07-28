@@ -26,6 +26,25 @@ get_header(2017);
         font-size: 4rem;
         line-height: 4.2rem;
     }
+    
+    #page-content h1,
+    #page-content h2,
+    #page-content h3,
+    #page-content h4,
+    #page-content h5,
+    #page-content h6 {
+        text-transform: lowercase;
+    }
+    
+    #page-content h1:first-letter,
+    #page-content h2:first-letter,
+    #page-content h3:first-letter,
+    #page-content h4:first-letter,
+    #page-content h5:first-letter,
+    #page-content h6:first-letter {
+        text-transform: uppercase;
+    }
+    
 </style>
 
 <header class="bg__white">
