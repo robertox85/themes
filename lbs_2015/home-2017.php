@@ -232,7 +232,7 @@ $events_section_title['en'] = 'Upcoming events';
             <!-- Ultime News -->
 
             <div class="col-xs-12 col-md-4">
-                <h3 class="pb-32"><?php echo $news_section_title[ICL_LANGUAGE_CODE]; ?></h3>
+                <h3 class="mb-16"><?php echo $news_section_title[ICL_LANGUAGE_CODE]; ?></h3>
                 <?php
  
 $news_cat=array();	 		
@@ -286,7 +286,7 @@ if (!(empty($news))) {
             <!-- Ultime Eventi -->
 
             <div class="col-xs-12 col-md-4">
-                <h3 class="pb-16"><?php echo $events_section_title[ICL_LANGUAGE_CODE]; ?></h3>
+                <h3 class="mb-16"><?php echo $events_section_title[ICL_LANGUAGE_CODE]; ?></h3>
                 <?php
  
 $eventi_cat=array(); 
@@ -339,7 +339,7 @@ if (!(empty($events))) {
 
             <!-- Trova il tuo corso -->
             <div class="col-md-4">
-                <h3 class="pb-16">Programme Explorer</h3>
+                <h3 class="mb-16">Programme Explorer</h3>
                 <?php 
 		$finder_description = array();
 		$finder_description['it'] = 'Vuoi scoprire qual è il corso ideale per te?<br>Scoprilo in 3 semplici step!';
@@ -363,7 +363,7 @@ if (!(empty($events))) {
 		?>
                 <div class="row">
                     <div class="col-xs-12">
-                        <p class="big"><?php echo $finder_description[ICL_LANGUAGE_CODE]; ?></p>
+                        <p><?php echo $finder_description[ICL_LANGUAGE_CODE]; ?></p>
                         <form id="form-course-finder" action="<?php echo $finder_form_action[ICL_LANGUAGE_CODE] ?>" method="get">
                             <ul>
                                 <?php 
