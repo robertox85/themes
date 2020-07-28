@@ -133,10 +133,6 @@ $img_link_2['en'] = 'https://businessschool.luiss.it/wp-content/uploads/2020/04/
 
 
 
-        <?php edit_post_link('<p class="button arr featured-links">Modifica Pagina</p>', ''); ?>
-
-
-
         <div class="row">
             <?php // for ($i = 1; $i <= 6; $i++) { 
    
@@ -260,12 +256,17 @@ $events_section_title['en'] = 'Upcoming events';
 
 
 ?>
+
+<!-- SEZIONE 2 -->
+
 <section id="home-section-2" class="home-section">
     <div class="container">
         <div class="row">
+            
+            <!-- Ultime News -->
+            
             <div class="col-md-4">
                 <h2 class="block-title h2 white-style"><?php echo $news_section_title[ICL_LANGUAGE_CODE]; ?></h2>
-                <div class="spacer-20"></div>
                 <?php
  
 $news_cat=array();	 		
@@ -291,7 +292,8 @@ if (!(empty($news))) {
  
  ?>
                 <article itemscope itemtype="http://schema.org/Article">
-                    <div class="col-md-4 nopadding"> <span itemscope itemtype='http://schema.org/ImageObject'>
+                    <div class="col-md-4 nopadding">
+                        <span itemscope itemtype='http://schema.org/ImageObject'>
                             <?php 
 	$img_attr = array(
 	'class'	=> "img-responsive",
@@ -300,18 +302,21 @@ if (!(empty($news))) {
 	echo get_the_post_thumbnail($news->ID, 'thumbnail',$img_attr);
 	
 	?>
-                        </span> </div>
+                        </span>
+                    </div>
                     <div class="col-md-8">
                         <h3 itemprop="name headline" class="home-news-headline"><a href="<?php echo get_permalink($news->ID) ?>" title="<?php echo $news->post_title ?>"><?php echo $news->post_title ?></a></h3>
                         <p><?php echo $news->post_excerpt ?></p>
                     </div>
-                    <div class="clearfix"></div>
                 </article>
                 <?php 
 } // END foreach
 
 } // END if ?>
             </div>
+            
+            <!-- Ultime Eventi -->
+            
             <div class="col-md-4">
                 <h2 class="block-title h2 white-style"><?php echo $events_section_title[ICL_LANGUAGE_CODE]; ?></h2>
                 <div class="spacer-20"></div>
@@ -337,26 +342,25 @@ if (!(empty($events))) {
  
  ?>
                 <article itemscope itemtype="http://schema.org/Article">
-                    <div class="event-date"><?php echo get_date($data_inizio,"events",ICL_LANGUAGE_CODE) ?></div>
-                    <div class="pull-left pull-left event-preview">
-                        <h3 itemprop="name headline" class="home-news-headline"><a href="<?php echo get_permalink($event->ID) ?>" title="<?php echo $event->post_title ?>"><?php echo $event->post_title ?></a></h3>
-                        <p><?php echo $event->post_excerpt ?></p>
-                    </div>
-                    <div class="clearfix"></div>
+                <div class="event-date"><?php echo get_date($data_inizio,"events",ICL_LANGUAGE_CODE) ?></div>
+                <div class="pull-left pull-left event-preview">
+                <h3 itemprop="name headline" class="home-news-headline"><a href="<?php echo get_permalink($event->ID) ?>" title="<?php echo $event->post_title ?>"><?php echo $event->post_title ?></a></h3>
+                <p><?php echo $event->post_excerpt ?></p>
+                </div>
                 </article>
                 <?php 
 } // END foreach
 
 } // END if ?>
             </div>
+            
+            <!-- Trova il tuo corso -->
             <div class="col-md-4">
                 <h2 class="block-title h2 white-style">Programme Explorer</h2>
                 <?php 
 		$finder_description = array();
 		$finder_description['it'] = 'Vuoi scoprire qual è il corso ideale per te?<br>Scoprilo in 3 semplici step!';
 		$finder_description['en'] = "Do you want to discover your ideal course?<br>Here are 3 simple steps of our Programme Finder!";
-
-		
 		
 		$finder_button_open = array();
 		$finder_button_open['it'] = 'Inizia da qui';
@@ -372,10 +376,7 @@ if (!(empty($events))) {
 		
 		$finder_form_action = array();
 		$finder_form_action['it'] = '/offerta-formativa/course-finder/';
-		$finder_form_action['en'] = '/en/programs/course-finder/';
-		
-	
-		
+		$finder_form_action['en'] = '/en/programs/course-finder/';	
 		?>
                 <div class="finder-text">
                     <p class="finder-description"><?php echo $finder_description[ICL_LANGUAGE_CODE]; ?></p>
@@ -410,30 +411,15 @@ if (!(empty($events))) {
                             </li>
                             <?php } // END foreach ?>
                         </ul>
-                        <p>
                             <button class="finder-send-button" type="submit"><?php echo $finder_button_button_send[ICL_LANGUAGE_CODE]; ?></button>
                     </form>
                 </div>
             </div>
         </div>
-
-        <div class="row">
-
-            <h2 class="block-title h2 white-style">Social Wall</h2>
-
-            <div class="col-md-12">
-
-                <script src="//assets.juicer.io/embed.js" type="text/javascript"></script>
-                <link href="//assets.juicer.io/embed.css" media="all" rel="stylesheet" type="text/css" />
-                <ul class="juicer-feed" data-feed-id="luissbusiness-9274faa2-d37a-4a26-bd24-d134adebd1bb" data-per="6" data-gutter="10"></ul>
-            </div>
-        </div>
-
     </div>
-    <!-- END .row -->
-    </div>
-    <!-- END  .container -->
 </section>
+
+<?php edit_post_link('<p class="button arr featured-links">Modifica Pagina</p>', ''); ?>
 
 <?php 
 
