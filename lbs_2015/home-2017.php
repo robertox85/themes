@@ -258,7 +258,7 @@ if (!(empty($news))) {
  
  ?>
                 <article itemscope itemtype="http://schema.org/Article">
-                    <div class="row">
+                    <div class="row d-flex flex-row align-items-center justify-content-between my-16 px-16">
                         <div class="col-xs-4">
                             <span itemscope itemtype='http://schema.org/ImageObject'>
                                 <?php 
@@ -271,9 +271,8 @@ if (!(empty($news))) {
 	?>
                             </span>
                         </div>
-                        <div class="col-xs-8">
-                            <h6 itemprop="name headline" class="home-news-headline"><a href="<?php echo get_permalink($news->ID) ?>" title="<?php echo $news->post_title ?>"><?php echo $news->post_title ?></a>
-                            </h6>
+                        <div class="col-xs-8 box-news-title">
+                            <h6 class="my-0" itemprop="name headline"><a href="<?php echo get_permalink($news->ID) ?>" title="<?php echo $news->post_title ?>"><?php echo $news->post_title ?></a></h6>
                         </div>
                     </div>
                 </article>
@@ -315,7 +314,7 @@ if (!(empty($events))) {
                         text-transform: uppercase !important;
                     }
                     
-                    .box-event-title h6 {
+                    .box-event-title h6, .box-news-title h6 {
                         font-weight: normal !important;
                         line-height: 1.65rem !important;
                     }
@@ -395,7 +394,7 @@ if (!(empty($events))) {
                                 </li>
                                 <?php } // END foreach ?>
                             </ul>
-                            <button class="" type="submit"><?php echo $finder_button_button_send[ICL_LANGUAGE_CODE]; ?></button>
+                            <button class="button button__primary" type="submit"><?php echo $finder_button_button_send[ICL_LANGUAGE_CODE]; ?></button>
                         </form>
                     </div>
                 </div>
