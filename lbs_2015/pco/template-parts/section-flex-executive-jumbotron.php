@@ -18,8 +18,8 @@ $executive_flex_link[ 'en' ] = 'https://businessschool.luiss.it/flex/';
 ?>
 
 <?php $titolo_executive_flex_link = array();
-$executive_flex_img_link[ 'it' ] = 'Scopri tutti i Programmi Executive';
-$executive_flex_img_link[ 'en' ] = 'Find More About Our Flex Executive Programme';
+$titolo_executive_flex_link[ 'it' ] = 'Scopri tutti i Programmi Executive';
+$titolo_executive_flex_link[ 'en' ] = 'Find More About Our Flex Executive Programme';
 ?>
 
 <!-- Inizio template -->

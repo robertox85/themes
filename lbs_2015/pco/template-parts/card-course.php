@@ -106,7 +106,9 @@ $date_be = DateTime::createFromFormat('Ymd', $date_string_be);
 
     <!-- Pulsanti -->
     <div class="row">
+        <div class="col-xs-12">
         <a href="<?php the_permalink(); ?>">Scopri</a>
         <?php the_field(strip_tags('brochure')); ?>
+        </div>
     </div>
 </div>
