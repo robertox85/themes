@@ -394,7 +394,7 @@ if (!(empty($events))) {
                                 </li>
                                 <?php } // END foreach ?>
                             </ul>
-                            <button class="button button__primary" type="submit"><?php echo $finder_button_button_send[ICL_LANGUAGE_CODE]; ?></button>
+                            <button class="mt-32 button button__primary bg__gold" type="submit"><?php echo $finder_button_button_send[ICL_LANGUAGE_CODE]; ?></button>
                         </form>
                     </div>
                 </div>
