@@ -43,7 +43,7 @@
     <!-- solo su mobile -->
     <div class="d-block d-lg-none download-brocure">
         <?php if (function_exists('dynamic_sidebar')): ?>
-            <p><?php echo get_query_var( 'site_name' ) ?></p>
+            <p class="text-center"><?php echo get_query_var( 'site_name' ) ?></p>
         <?php dynamic_sidebar('Custom')?>
         <?php endif;?>
     </div>
