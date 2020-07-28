@@ -66,7 +66,11 @@ get_header(2017);
 </style>
 
 
-<div class="container-fluid px-0 header-nopic">
+<div class="container-fluid px-0 header-nopic
+            <?php if( has_term( 'executive-program', 'category' ) ) : ?>
+            bg__light_blue
+            <?php endif; ?>
+            ">
 	    <div class="container">
 	        <div class="row">
                 <div class="col-xs-12 col-lg-8 pt-48">
