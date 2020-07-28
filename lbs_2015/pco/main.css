@@ -125,7 +125,7 @@ License URI: http://opensource.org/licenses/mit-license.php */
 }
 
 .color__green {
-  color: var(--current-color) !important;
+  color: #00968F !important;
 }
 
 .color__red {
@@ -169,7 +169,7 @@ License URI: http://opensource.org/licenses/mit-license.php */
 }
 
 .bg__green {
-  background-color: var(--current-color) !important;
+  background-color: #00968F !important;
 }
 
 .bg__red {
