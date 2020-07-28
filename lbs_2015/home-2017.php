@@ -119,9 +119,21 @@ $img_link_mob_2['en'] = get_stylesheet_directory_uri() . '/pco/images/meet-us-on
         <div id="myCarousel" class="carousel slide" data-ride="carousel" style="z-index: 1" data-interval="4000">
             <!-- Content -->
             <div class="carousel-inner">
-                <div class="item active"> <a style="" href="https://businessschool.luiss.it/flex"> <img src="<?php echo $img_link_desk_1[ICL_LANGUAGE_CODE]; ?>" alt="Flex Executive Programme" class="img-responsive" style="background-size: cover;background-position: 50% 50%; max-width: 100%; height: auto;" /></a>
+                <div class="item active">
+                    <a href="https://businessschool.luiss.it/flex">
+                        <!-- stampo l'immagine desk -->
+                    <img src="<?php echo $img_link_desk_1[ICL_LANGUAGE_CODE]; ?>" alt="Flex Executive Programme" class="img-responsive" style="background-size: cover;background-position: 50% 50%; max-width: 100%; height: auto;" />
+                        <!-- stampo l'immagine mobile -->
+                        <img class="d-block d-sm-none" src="<?php echo $img_link_mob_1[ICL_LANGUAGE_CODE]; ?>" alt="Flex Executive Programme" class="img-responsive" style="background-size: cover;background-position: 50% 50%; max-width: 100%; height: auto;" />
+                </a>
                 </div>
-                <div class="item"> <a style="" href="https://businessschool.luiss.it/meet-us-online/"> <img src="<?php echo $img_link_desk_2[ICL_LANGUAGE_CODE]; ?>" alt="Webinar, Workshop, Masterclass, Open Lesson e Q&A session." class="img-responsive" style="background-size: cover;background-position: 50% 50%; max-width: 100%; height: auto;" /></a>
+                <div class="item">
+                    <a href="https://businessschool.luiss.it/meet-us-online/">
+                        <!-- stampo l'immagine desk -->
+                        <img src="<?php echo $img_link_desk_2[ICL_LANGUAGE_CODE]; ?>" alt="Webinar, Workshop, Masterclass, Open Lesson e Q&A session." class="img-responsive" style="background-size: cover;background-position: 50% 50%; max-width: 100%; height: auto;" />
+                        <!-- stampo l'immagine mobile -->
+                        <img class="d-block d-sm-none" src="<?php echo $img_link_mob_2[ICL_LANGUAGE_CODE]; ?>" alt="Flex Executive Programme" class="img-responsive" style="background-size: cover;background-position: 50% 50%; max-width: 100%; height: auto;" />
+                    </a>
                 </div>
             </div>
             <!-- Indicatori -->
