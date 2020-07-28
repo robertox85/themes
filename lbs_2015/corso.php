@@ -91,17 +91,13 @@ get_header(2017);
         </main>
         <aside class="col-xs-12 col-md-4">
             <div class="block">
-                <?php
-				if ( get_field( 'titolo_custom' ) ) {
-					echo '<div class=""><h3>' . get_field( 'titolo_custom' ) . '</h3><div class="textwidget"><p>' . get_field( 'campo_custom_contenuto' ) . '</p></div> </div>';
-				}
-				?>
-
-                <?php
-				if ( get_field( 'titolo_campo_custom_2' ) ) {
-					echo '<div class=""><h3>' . get_field( 'titolo_campo_custom_2' ) . '</h3><div class="textwidget"><p>' . get_field( 'campo_custom_2' ) . '</p></div> </div>';
-				}
-				?>
+                <?php   
+     if (get_field('contatti') || get_field('contatti_campo'));
+	 echo '<div class="">';
+	 echo '<h3>'.get_field('contatti').'</h3><div class="textwidget">';
+	 echo get_field('contatti_campo');
+     echo '</div></div>';
+ ?>
                 <div class="textwidget">
                     <?php  
 					if ( get_field( 'modulo_iscrizione' ) ) {
@@ -115,15 +111,18 @@ get_header(2017);
 
 					?>
                 </div>
-            </div>
+                <?php
+				if ( get_field( 'titolo_custom' ) ) {
+					echo '<div class=""><h3>' . get_field( 'titolo_custom' ) . '</h3><div class="textwidget"><p>' . get_field( 'campo_custom_contenuto' ) . '</p></div> </div>';
+				}
+				?>
 
-            <?php   
-     if (get_field('contatti') || get_field('contatti_campo'));
-	 echo '<div class="">';
-	 echo '<h3>'.get_field('contatti').'</h3><div class="textwidget">';
-	 echo get_field('contatti_campo');
-     echo '</div></div>';
- ?>
+                <?php
+				if ( get_field( 'titolo_campo_custom_2' ) ) {
+					echo '<div class=""><h3>' . get_field( 'titolo_campo_custom_2' ) . '</h3><div class="textwidget"><p>' . get_field( 'campo_custom_2' ) . '</p></div> </div>';
+				}
+				?>
+            </div>
         </aside>
     </div>
 </div>
