@@ -114,35 +114,6 @@ $img_link_mob_2['it'] = get_stylesheet_directory_uri() . '/pco/images/meet-us-on
 $img_link_mob_2['en'] = get_stylesheet_directory_uri() . '/pco/images/meet-us-online-eng-mob.png';
 ?>
 
-<style>
-
-    @media screen and (min-width: 768px) {
-        
-        .display-desk {
-            display: block !important;
-        }
-        
-        .display-mobile {
-            display: none !important;
-        }
-        
-        
-    }
-    
-    @media screen and (max-width: 767px) {
-            .display-desk {
-            display: none !important;
-        }
-        
-            .display-mobile {
-            display: block !important;
-        }
-        
-    }
-
-
-</style>
-
 <div class="container ">
     <div class="row">
         <div id="myCarousel" class="carousel slide" data-ride="carousel" style="z-index: 1" data-interval="4000">
