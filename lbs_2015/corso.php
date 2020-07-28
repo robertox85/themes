@@ -91,25 +91,6 @@ get_header(2017);
         </main>
         <aside class="col-xs-12 col-md-4">
             <div class="block">
-                <div class="textwidget">
-                    <?php
-                       if ( get_field( 'brochure' ) ) {
-						echo '<span>' . get_field( 'brochure' ) . '</span>';
-						   
-					}
-						   
-					if ( get_field( 'modulo_iscrizione' ) ) {
-						echo '<span>' . get_field( 'modulo_iscrizione' ) . '</span>';
-					}
-					
-					
-					if ( get_field( 'modulo_recesso' ) ) {
-						echo '<span>' . get_field( 'modulo_recesso' ) . '</span>';
-					}
-
-					?>
-                </div>
-
                 <?php
 				if ( get_field( 'titolo_custom' ) ) {
 					echo '<div class=""><h3>' . get_field( 'titolo_custom' ) . '</h3><div class="textwidget"><p>' . get_field( 'campo_custom_contenuto' ) . '</p></div> </div>';
@@ -121,7 +102,19 @@ get_header(2017);
 					echo '<div class=""><h3>' . get_field( 'titolo_campo_custom_2' ) . '</h3><div class="textwidget"><p>' . get_field( 'campo_custom_2' ) . '</p></div> </div>';
 				}
 				?>
+                <div class="textwidget">
+                    <?php  
+					if ( get_field( 'modulo_iscrizione' ) ) {
+						echo '<span>' . get_field( 'modulo_iscrizione' ) . '</span>';
+					}
+					
+					
+					if ( get_field( 'modulo_recesso' ) ) {
+						echo '<span>' . get_field( 'modulo_recesso' ) . '</span>';
+					}
 
+					?>
+                </div>
             </div>
 
             <?php   
