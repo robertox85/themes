@@ -69,7 +69,7 @@ $current_blog_id = get_query_var( 'current_blog_id' );
         <?php endif; ?>
         <div class="container-fluid footer_container">
             <div class="container">
-                <div class="row pt-128 pb-32">
+                <div class="row pt-128 pb-32" style="border-bottom 1px solid #fff;">
                     <div class="col-xs-12 col-md-8 px-0">
                         <!-- Begin Mailchimp Signup Form -->
                         <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
