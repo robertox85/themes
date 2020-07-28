@@ -69,8 +69,8 @@ $current_blog_id = get_query_var( 'current_blog_id' );
         <?php endif; ?>
         <div class="container-fluid footer_container">
             <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-md-8">
+                <div class="row pt-128">
+                    <div class="col-xs-12 col-md-8 px-0">
                         <!-- Begin Mailchimp Signup Form -->
                         <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
                         <style type="text/css">
@@ -102,10 +102,10 @@ $current_blog_id = get_query_var( 'current_blog_id' );
                                 padding-bottom: 1%;
                             }
                         </style>
-                        <div id="mc_embed_signup" class="col-md-8 px-0">
+                        <div id="mc_embed_signup">
                             <form action="https://luiss.us4.list-manage.com/subscribe/post?u=fbe9a604a26369735b564dc99&amp;id=5e790bb539" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate px-0" target="_blank" novalidate>
                                 <div id="mc_embed_signup_scroll">
-                                    <h3 class="color__white"><?php echo $mailing[ICL_LANGUAGE_CODE]; ?></h3>
+                                    <h3 class="color__white pb-24"><?php echo $mailing[ICL_LANGUAGE_CODE]; ?></h3>
                                     <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
                                     <div class="mc-field-group">
                                         <label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label>
@@ -150,7 +150,7 @@ $current_blog_id = get_query_var( 'current_blog_id' );
 
                     <!-- Address -->
                     <div class="col-xs-12 col-md-4">
-                        <h2 class="headline"><?php echo $contatti[ICL_LANGUAGE_CODE]; ?></h2>
+                        <h3 class="color__white"><?php echo $contatti[ICL_LANGUAGE_CODE]; ?></h3>
                         <address>
                             Villa Blanc,
                             Via Nomentana, 216 - 00162 Roma <br />
