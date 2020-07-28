@@ -158,7 +158,7 @@ $img_link_mob_2['en'] = get_stylesheet_directory_uri() . '/pco/images/meet-us-on
 
 <section id="home-section-1" class="home-section my-128">
     <div class="container px-0">
-        <div class="row px-0 d-flex flex-row flex-wrap align-items-center justify-content-between">
+        <div class="px-0 d-flex flex-row flex-wrap align-items-center justify-content-between">
             <!-- Box delle tipologia di corso -->
             <!--
 _1 = Lauree Triennali e magistrali  - non utilizzato
