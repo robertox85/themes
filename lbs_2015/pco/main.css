@@ -13404,6 +13404,10 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
         width: 100%;
         min-height: 410px;
     }
+    
+    .box-event-date {
+    height: 9.4rem;
+}
 
 }
 
@@ -13413,6 +13417,10 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
         width: 45%;
         min-height: 410px;
     }
+    
+    .box-event-date {
+    height: 8.4rem;
+}
 
 }
 
@@ -13423,5 +13431,9 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
         min-height: 410px;
         border: 1px solid;
     }
+    
+    .box-event-date {
+    height: 9.4rem;
+}
 
 }
