@@ -69,7 +69,7 @@ $current_blog_id = get_query_var( 'current_blog_id' );
         <?php endif; ?>
         <div class="container-fluid footer_container">
             <div class="container">
-                <div class="row pt-128 pb-32" style="border-bottom 1px solid #fff;">
+                <div class="row pt-128 pb-24" style="border-bottom: 1px solid #fff;">
                     <div class="col-xs-12 col-md-8 px-0">
                         <!-- Begin Mailchimp Signup Form -->
                         <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
@@ -177,11 +177,10 @@ $current_blog_id = get_query_var( 'current_blog_id' );
 
     <div class="copyright">
         <div class="container">
-            <hr>
-            <div class="row px-0 pb-64">
+            <div class="row px-0 pt-24 pb-64">
                 <div class="col-xs-12 px-0">
                     <p>The PMI Registered Education Provider logo is a registered mark of the Project Management Institute, Inc. <br>
-                        Use of this website constitutes acceptance of <a href="/cookies/" style="color: #fdbb4d">Cookie Policy</a>.<br>
+                        Use of this website constitutes acceptance of <a href="/cookies/" style="color: #fdbb4d; font-size: 1rem;">Cookie Policy</a>.<br>
                         © LUISS Business School Villa Blanc,Via Nomentana, 216 00162 Roma, Italia - Centralino T 06 852251 - P.IVA 01067231009 </p>
                 </div>
             </div>
