@@ -13056,7 +13056,11 @@ h6 {
 
 #keyfacts-box .button.arr {
     border: 1px solid #fff;
-    color: #fff;
+    color: var(--current-color);
+    font-size: 1rem;
+    line-height: 1.75rem;
+    padding: 25px 70px;
+    background-color: #fff;
 }
 
 h1,
