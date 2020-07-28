@@ -266,7 +266,7 @@ $events_section_title['en'] = 'Upcoming events';
             <!-- Ultime News -->
             
             <div class="col-md-4">
-                <h2 class="block-title h2 white-style"><?php echo $news_section_title[ICL_LANGUAGE_CODE]; ?></h2>
+                <h3><?php echo $news_section_title[ICL_LANGUAGE_CODE]; ?></h3>
                 <?php
  
 $news_cat=array();	 		
@@ -293,7 +293,7 @@ if (!(empty($news))) {
  ?>
                 <article itemscope itemtype="http://schema.org/Article">
                     <div class="row">
-                    <div class="col-md-4 nopadding">
+                    <div class="col-md-4">
                         <span itemscope itemtype='http://schema.org/ImageObject'>
                             <?php 
 	$img_attr = array(
@@ -306,8 +306,8 @@ if (!(empty($news))) {
                         </span>
                     </div>
                     <div class="col-md-8">
-                        <h3 itemprop="name headline" class="home-news-headline"><a href="<?php echo get_permalink($news->ID) ?>" title="<?php echo $news->post_title ?>"><?php echo $news->post_title ?></a></h3>
-                        <p><?php echo $news->post_excerpt ?></p>
+                        <h6 itemprop="name headline" class="home-news-headline"><a href="<?php echo get_permalink($news->ID) ?>" title="<?php echo $news->post_title ?>"><?php echo $news->post_title ?></a>
+                        </h6>
                     </div>
                     </div>
                 </article>
@@ -320,8 +320,7 @@ if (!(empty($news))) {
             <!-- Ultime Eventi -->
             
             <div class="col-md-4">
-                <h2 class="block-title h2 white-style"><?php echo $events_section_title[ICL_LANGUAGE_CODE]; ?></h2>
-                <div class="spacer-20"></div>
+                <h3><?php echo $events_section_title[ICL_LANGUAGE_CODE]; ?></h3>
                 <?php
  
 $eventi_cat=array(); 
@@ -344,11 +343,13 @@ if (!(empty($events))) {
  
  ?>
                 <article itemscope itemtype="http://schema.org/Article">
-                <div class="event-date"><?php echo get_date($data_inizio,"events",ICL_LANGUAGE_CODE) ?></div>
-                <div class="pull-left pull-left event-preview">
-                <h3 itemprop="name headline" class="home-news-headline"><a href="<?php echo get_permalink($event->ID) ?>" title="<?php echo $event->post_title ?>"><?php echo $event->post_title ?></a></h3>
-                <p><?php echo $event->post_excerpt ?></p>
+                    <div class="row">
+                    <div class="col-md-4 event-date">
+                        <?php echo get_date($data_inizio,"events",ICL_LANGUAGE_CODE) ?></div>
+                <div class="col-md-8">
+                <h6 itemprop="name headline"><a href="<?php echo get_permalink($event->ID) ?>" title="<?php echo $event->post_title ?>"><?php echo $event->post_title ?></a></h6>
                 </div>
+                    </div>
                 </article>
                 <?php 
 } // END foreach
