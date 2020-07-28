@@ -66,12 +66,7 @@ get_header(2017);
 </style>
 
 
-<div class="container-fluid px-0 <?php if (has_post_thumbnail( $post->ID ) ): ?>
-                   header-pic" style="background-image: url('<?php echo get_the_post_thumbnail_url(); ?>');
-                   <?php else : ?>
-                   header-nopic
-                   <?php endif; ?>
-">
+<div class="container-fluid px-0 header-nopic">
 	    <div class="container">
 	        <div class="row">
                 <div class="col-xs-12">
