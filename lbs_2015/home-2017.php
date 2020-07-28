@@ -309,7 +309,7 @@ if (!(empty($events))) {
  ?>
                 
                 <style>
-                    .box-date {
+                    .box-event-date {
                         border: 1px solid var(--current-color);
                 text-transform: uppercase !important;
                     }
