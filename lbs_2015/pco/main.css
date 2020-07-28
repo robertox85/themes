@@ -13269,8 +13269,8 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-position: center center;
     -webkit-mask-size: cover;
-    -webkit-mask-image: url(wp-content/themes/lbs_2015/pco/images/pattern.svg);
-    mask-image: url(wp-content/themes/lbs_2015/pco/images/pattern.svg);
+    -webkit-mask-image: url(images/pattern.svg);
+    mask-image: url(images/pattern.svg);
     mask-repeat: no-repeat;
     mask-position: center center;
     mask-size: cover;
