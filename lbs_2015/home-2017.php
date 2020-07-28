@@ -310,15 +310,21 @@ if (!(empty($events))) {
                 
                 <style>
                     .box-date {
-                        border: 1px solid var (--current-color);    
+                        border: 1px solid var(--current-color);
+                text-transform: uppercase !important;
                     }
+                    
+                    .box-event-title h6 {
+                        font-weight: normal !important;
+                    }
+                    
                 </style>
                 <article itemscope itemtype="http://schema.org/Article">
                     <div class="row">
-                        <div class="col-xs-4 bg__white box-date px-48 py-16">
+                        <div class="col-xs-4 bg__white box-event-date px-24 py-8">
                             <h6><?php echo get_date($data_inizio,"events",ICL_LANGUAGE_CODE) ?></h6>
                         </div>
-                        <div class="col-xs-8">
+                        <div class="col-xs-8 box-event-title">
                             <h6 itemprop="name headline"><a href="<?php echo get_permalink($event->ID) ?>" title="<?php echo $event->post_title ?>"><?php echo $event->post_title ?></a></h6>
                         </div>
                     </div>

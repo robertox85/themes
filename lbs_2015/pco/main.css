@@ -377,7 +377,7 @@ h5 {
 h6 {
   font-weight: bold;
   font-size: calc(1.3125rem + 0.75vw);
-  line-height: 2.25rem;
+  line-height: 1.6rem;;
 }
 
 @media (min-width: 1200px) {
