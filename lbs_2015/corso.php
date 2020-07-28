@@ -16,20 +16,22 @@ get_header(2017);
     max-width: 1440px;
 }
     }
+    
+    h1.entry-title {
+        font-size: 80%;
+    }
 </style>
 
-
-<header id="content-title" class="wide-row">
+<header class="bg__white">
   <div class="container">
     <div class="row">
-      <div class="sommario col-md-8">
-        <h1><?php echo the_title(); ?></h1>
+      <div class="col-xs-12 col-lg-8">
+        <h1 class="entry-title"><?php echo the_title(); ?></h1>
       </div>
     </div>
-    <!--END .row --> 
   </div>
-  <!--END .container --> 
 </header>
+
 <div class="container">
   <div class="row">
   <main id="main" class="site-main site-master col-lg-9 col-md-8" role="main">
