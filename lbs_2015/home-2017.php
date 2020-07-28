@@ -231,7 +231,7 @@ $events_section_title['en'] = 'Upcoming events';
 
             <!-- Ultime News -->
 
-            <div class="col-xs-12 col-md-4 px-0">
+            <div class="col-xs-12 col-md-4">
                 <h3 class="mb-16"><?php echo $news_section_title[ICL_LANGUAGE_CODE]; ?></h3>
                 <?php
  
@@ -285,7 +285,7 @@ if (!(empty($news))) {
 
             <!-- Ultime Eventi -->
 
-            <div class="col-xs-12 col-md-4 px-0">
+            <div class="col-xs-12 col-md-4">
                 <h3 class="mb-16"><?php echo $events_section_title[ICL_LANGUAGE_CODE]; ?></h3>
                 <?php
  
@@ -338,7 +338,7 @@ if (!(empty($events))) {
             </div>
 
             <!-- Trova il tuo corso -->
-            <div class="col-md-4 px-0">
+            <div class="col-xs-12 col-md-4">
                 <h3 class="mb-16">Programme Explorer</h3>
                 <?php 
 		$finder_description = array();
