@@ -43,16 +43,16 @@ get_header(2017);
 </div>
 
 <div class="container">
+    <p><?php edit_post_link('<strong>Modifica Pagina</strong>', ''); ?></p>
     <div class="row">
-        <main id="main" class="site-main site-master col-lg-9 col-md-8" role="main">
-            <div id="page-content" class="columns  space">
+        <main id="main" role="main">
+            <div class="col-xs-12 col-md-8" id="page-content">
                 <?php while ( have_posts() ) : the_post(); ?>
                 <?php the_content(''); ?>
-                <p> <?php edit_post_link('<strong>Modifica Pagina</strong>', ''); ?></p>
                 <?php endwhile; // end of the loop. ?>
             </div>
         </main>
-        <aside class="col-lg-3 col-md-4 col-sm-12 space sidebar-master">
+        <aside class="col-xs-12 col-md-4">
             <div class="block">
                 <div class="textwidget">
                     <?php
