@@ -344,13 +344,24 @@ if (!(empty($events))) {
                         border: 1px solid;          
                         }
                     
-                    
+                                        }
                     .card-course-big {
                         border: 1px solid;
-                                                background-color: #003A70;
+}
+                    
+                    .card-course-big:before {
+                        content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 48px;
+  height: 48px;
+  background-color: #003A70;
   -webkit-mask-image: url("images/pattern.svg");
           mask-image: url("images/pattern.svg");
                     }
+
+
                     }
                     
                     .card-course-big h2 {
