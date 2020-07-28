@@ -47,6 +47,22 @@ get_header(2017);
         text-transform: uppercase;
     }
     
+    @media screen and (max-width: 991px) {
+        
+        #page-content {
+        border-bottom: 1px solid #e8e8e8;
+        border-right: 0;
+            }
+    }
+    
+    @media screen and (min-width: 992px) {
+        
+        #page-content {
+        border-bottom: 0;
+        border-right: 1px solid #e8e8e8;
+            }
+    }
+    
 </style>
 
 <header class="bg__white">
