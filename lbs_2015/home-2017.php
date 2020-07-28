@@ -292,6 +292,7 @@ if (!(empty($news))) {
  
  ?>
                 <article itemscope itemtype="http://schema.org/Article">
+                    <div class="row">
                     <div class="col-md-4 nopadding">
                         <span itemscope itemtype='http://schema.org/ImageObject'>
                             <?php 
@@ -307,6 +308,7 @@ if (!(empty($news))) {
                     <div class="col-md-8">
                         <h3 itemprop="name headline" class="home-news-headline"><a href="<?php echo get_permalink($news->ID) ?>" title="<?php echo $news->post_title ?>"><?php echo $news->post_title ?></a></h3>
                         <p><?php echo $news->post_excerpt ?></p>
+                    </div>
                     </div>
                 </article>
                 <?php 
