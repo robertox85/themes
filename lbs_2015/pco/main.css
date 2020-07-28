@@ -13049,7 +13049,7 @@ h6 {
     box-shadow: inset 0 0 10px 0 rgba(60, 60, 60, 0.2);
 }
 
-.button.button__secondary {
+.button.button__secondary, .button.arr {
     border: 1px solid var(--current-color);
     color: var(--current-color);
 }
