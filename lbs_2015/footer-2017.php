@@ -103,7 +103,7 @@ $current_blog_id = get_query_var( 'current_blog_id' );
                             }
                         </style>
                         <div id="mc_embed_signup">
-                            <form action="https://luiss.us4.list-manage.com/subscribe/post?u=fbe9a604a26369735b564dc99&amp;id=5e790bb539" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate px-0 pb-32" target="_blank" novalidate>
+                            <form action="https://luiss.us4.list-manage.com/subscribe/post?u=fbe9a604a26369735b564dc99&amp;id=5e790bb539" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate px-0 pt-0 pb-32" target="_blank" novalidate>
                                 <div id="mc_embed_signup_scroll">
                                     <h3 class="color__white pb-24"><?php echo $mailing[ICL_LANGUAGE_CODE]; ?></h3>
                                     <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
