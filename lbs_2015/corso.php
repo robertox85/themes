@@ -112,13 +112,13 @@ get_header(2017);
 
                 <?php
 				if ( get_field( 'titolo_custom' ) ) {
-					echo '<div class="block-dark"><h3>' . get_field( 'titolo_custom' ) . '</h3><div class="textwidget"><p>' . get_field( 'campo_custom_contenuto' ) . '</p></div> </div>';
+					echo '<div class=""><h3>' . get_field( 'titolo_custom' ) . '</h3><div class="textwidget"><p>' . get_field( 'campo_custom_contenuto' ) . '</p></div> </div>';
 				}
 				?>
 
                 <?php
 				if ( get_field( 'titolo_campo_custom_2' ) ) {
-					echo '<div class="block-dark"><h3>' . get_field( 'titolo_campo_custom_2' ) . '</h3><div class="textwidget"><p>' . get_field( 'campo_custom_2' ) . '</p></div> </div>';
+					echo '<div class=""><h3>' . get_field( 'titolo_campo_custom_2' ) . '</h3><div class="textwidget"><p>' . get_field( 'campo_custom_2' ) . '</p></div> </div>';
 				}
 				?>
 
@@ -126,7 +126,7 @@ get_header(2017);
 
             <?php   
      if (get_field('contatti') || get_field('contatti_campo'));
-	 echo '<div class="block-dark">';
+	 echo '<div class="">';
 	 echo '<h3>'.get_field('contatti').'</h3><div class="textwidget">';
 	 echo get_field('contatti_campo');
      echo '</div></div>';
