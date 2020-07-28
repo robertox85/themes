@@ -69,7 +69,7 @@ get_header(2017);
 <div class="container-fluid px-0 header-nopic">
 	    <div class="container">
 	        <div class="row">
-                <div class="col-xs-12">
+                <div class="col-xs-12 pt-48">
 	            <h1><?php the_title();?></h1>
                 </div>
 	        </div>
