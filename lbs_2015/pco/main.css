@@ -13054,6 +13054,11 @@ h6 {
     color: var(--current-color);
 }
 
+#keyfacts-box .button.arr {
+    border: 1px solid #fff;
+    color: #fff;
+}
+
 h1,
 h2,
 h3,
