@@ -85,8 +85,8 @@ $testo3 = get_field('testo_visore_3');
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-md-8">
-                    <h1><?php echo $desc1; ?></h1>
-                    <h6><?php echo $testo1; ?></h6>
+                        <h1><?php echo $desc1; ?></h1>
+                        <h6><?php echo $testo1; ?></h6>
                     </div>
                 </div>
             </div>
@@ -114,18 +114,18 @@ $img_link_mob_2['it'] = get_stylesheet_directory_uri() . '/pco/images/meet-us-on
 $img_link_mob_2['en'] = get_stylesheet_directory_uri() . '/pco/images/meet-us-online-eng-mob.png';
 ?>
 
-<div class="container ">
-    <div class="row">
+<div class="container">
+    <div class="row my-24">
         <div id="myCarousel" class="carousel slide" data-ride="carousel" style="z-index: 1" data-interval="4000">
             <!-- Content -->
             <div class="carousel-inner">
                 <div class="item active">
                     <a href="https://businessschool.luiss.it/flex">
                         <!-- stampo l'immagine desk -->
-                    <img class="display-desk" src="<?php echo $img_link_desk_1[ICL_LANGUAGE_CODE]; ?>" alt="Flex Executive Programme" class="img-responsive" style="background-size: cover;background-position: 50% 50%; max-width: 100%; height: auto;" />
+                        <img class="display-desk" src="<?php echo $img_link_desk_1[ICL_LANGUAGE_CODE]; ?>" alt="Flex Executive Programme" class="img-responsive" style="background-size: cover;background-position: 50% 50%; max-width: 100%; height: auto;" />
                         <!-- stampo l'immagine mobile -->
                         <img class="display-mobile" src="<?php echo $img_link_mob_1[ICL_LANGUAGE_CODE]; ?>" alt="Flex Executive Programme" class="img-responsive" style="background-size: cover;background-position: 50% 50%; max-width: 100%; height: auto;" />
-                </a>
+                    </a>
                 </div>
                 <div class="item">
                     <a href="https://businessschool.luiss.it/meet-us-online/">
@@ -159,39 +159,25 @@ _4 = Programmi Executive
 _5 = Programmi Custom - N.B. EDITARE IN PAGINA AL POSTO DI PHD
 _6 = Programmi di alta formazione - non utilizzato
             <!-- Box MBA -->
-            <style>
-
-:root {
-    --current-color: #00968F;
-}
-
-</style>
             <div class="col-md-6">
                 <h2><?php echo get_field('home_launch_box_title_2'); ?></h2>
                 <p class="big"><?php echo get_field('home_launch_box_excerpt_2'); ?></p>
                 <!-- Pulsanti -->
                 <div class="row">
                     <div class="col-xs-12">
-                    <a class="button button__primary" href="<?php echo get_field('home_launch_box_url_2'); ?>">Scopri</a>
+                        <a class="button button__primary" href="<?php echo get_field('home_launch_box_url_2'); ?>">Scopri</a>
                     </div>
                 </div>
             </div>
 
             <!-- Box Master -->
-            <style>
-
-:root {
-    --current-color: #000000;
-}
-
-</style>
             <div class="col-md-6">
                 <h2><?php echo get_field('home_launch_box_title_3'); ?></h2>
                 <p class="big"><?php echo get_field('home_launch_box_excerpt_3'); ?></p>
                 <!-- Pulsanti -->
                 <div class="row">
                     <div class="col-xs-12">
-                    <a href="<?php echo get_field('home_launch_box_url_3'); ?>">Scopri</a>
+                        <a href="<?php echo get_field('home_launch_box_url_3'); ?>">Scopri</a>
                     </div>
                 </div>
             </div>
@@ -203,7 +189,7 @@ _6 = Programmi di alta formazione - non utilizzato
                 <!-- Pulsanti -->
                 <div class="row">
                     <div class="col-xs-12">
-                    <a href="<?php echo get_field('home_launch_box_url_4'); ?>">Scopri</a>
+                        <a href="<?php echo get_field('home_launch_box_url_4'); ?>">Scopri</a>
                     </div>
                 </div>
             </div>
@@ -215,7 +201,7 @@ _6 = Programmi di alta formazione - non utilizzato
                 <!-- Pulsanti -->
                 <div class="row">
                     <div class="col-xs-12">
-                    <a href="<?php echo get_field('home_launch_box_url_5'); ?>">Scopri</a>
+                        <a href="<?php echo get_field('home_launch_box_url_5'); ?>">Scopri</a>
                     </div>
                 </div>
             </div>
@@ -361,22 +347,22 @@ if (!(empty($events))) {
 		$finder_form_action['en'] = '/en/programs/course-finder/';	
 		?>
                 <div class="row">
-                <div class="col-xs-12">
-                    <p class="big"><?php echo $finder_description[ICL_LANGUAGE_CODE]; ?></p>
-                    <form id="form-course-finder" action="<?php echo $finder_form_action[ICL_LANGUAGE_CODE] ?>" method="get">
-                        <ul>
-                            <?php 
+                    <div class="col-xs-12">
+                        <p class="big"><?php echo $finder_description[ICL_LANGUAGE_CODE]; ?></p>
+                        <form id="form-course-finder" action="<?php echo $finder_form_action[ICL_LANGUAGE_CODE] ?>" method="get">
+                            <ul>
+                                <?php 
 			
 			$selected_taxonomies =array('lingue','lunghezza_corsi','tematiche');
 			$custom_taxonomies = corsi_get_taxonomies($selected_taxonomies);
 			$choose_label['it']='Scegli';
 			$choose_label['en']='Choose';
  foreach ($custom_taxonomies as $taxonomy) {  ?>
-                            <li>
-                                <label for="<?php echo $taxonomy[ICL_LANGUAGE_CODE]['name'] ?>"><?php echo $taxonomy[ICL_LANGUAGE_CODE]['label'] ?></label>
-                                <select name="<?php echo $taxonomy[ICL_LANGUAGE_CODE]['name'] ?>" id="<?php echo $taxonomy[ICL_LANGUAGE_CODE]['name'] ?>">
-                                    <option value=""><?php echo $choose_label[ICL_LANGUAGE_CODE]; ?></option>
-                                    <?php 
+                                <li>
+                                    <label for="<?php echo $taxonomy[ICL_LANGUAGE_CODE]['name'] ?>"><?php echo $taxonomy[ICL_LANGUAGE_CODE]['label'] ?></label>
+                                    <select name="<?php echo $taxonomy[ICL_LANGUAGE_CODE]['name'] ?>" id="<?php echo $taxonomy[ICL_LANGUAGE_CODE]['name'] ?>">
+                                        <option value=""><?php echo $choose_label[ICL_LANGUAGE_CODE]; ?></option>
+                                        <?php 
         $terms = get_terms($taxonomy[ICL_LANGUAGE_CODE]['name']);
 
 
@@ -390,12 +376,12 @@ if (!(empty($events))) {
      	} // END foreach
 		} // END if ( ! empty( $terms ) && ! is_wp_error( $terms ) ){
 		?>
-                                </select>
-                            </li>
-                            <?php } // END foreach ?>
-                        </ul>
-                        <button class="" type="submit"><?php echo $finder_button_button_send[ICL_LANGUAGE_CODE]; ?></button>
-                    </form>
+                                    </select>
+                                </li>
+                                <?php } // END foreach ?>
+                            </ul>
+                            <button class="" type="submit"><?php echo $finder_button_button_send[ICL_LANGUAGE_CODE]; ?></button>
+                        </form>
                     </div>
                 </div>
             </div>
