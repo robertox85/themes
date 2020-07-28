@@ -84,14 +84,8 @@ $testo3 = get_field('testo_visore_3');
             <img src="<?php echo $img1['url']; ?>" alt="<?php echo $img1['alt']; ?>" />
             <div class="container">
                 <div class="carousel-caption">
-                    <h2>
-                        <span><?php  echo html_entity_decode($desc1); ?></span>
-                    </h2>
-                    <p>
-                        <span class="slider_paragraf">
-                            <strong><?php  echo html_entity_decode($testo1); ?></strong>
-                        </span>
-                    </p>
+                    <h1><?php echo $desc1; ?></h1>
+                    <h6><?php echo $testo1; ?></h6>
                 </div>
             </div>
         </div>
