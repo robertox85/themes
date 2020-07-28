@@ -147,7 +147,7 @@ $img_link_mob_2['en'] = get_stylesheet_directory_uri() . '/pco/images/meet-us-on
 
 <!-- SEZIONE 1-->
 
-<section id="home-section-1" class="home-section">
+<section id="home-section-1" class="home-section my-128">
     <div class="container">
         <div class="row">
             <!-- Box delle tipologia di corso -->
