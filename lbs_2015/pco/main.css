@@ -13277,12 +13277,12 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
 }
 
 
-.card-course-big h2 {
-    text-transform: lowercase;
+.card-course-big h2, .footer h2 {
+    text-transform: lowercase !important;
 }
 
-.card-course-big h2:first-letter {
-    text-transform: uppercase;
+.card-course-big h2:first-letter, .footer h2:first-letter {
+    text-transform: uppercase !important;
 }
 
 .box-event-date {
