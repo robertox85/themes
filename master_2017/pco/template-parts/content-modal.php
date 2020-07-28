@@ -2,16 +2,18 @@
 <?php
 
 $pages = array('download-brochure', 'brochure', 'download-brochure-master-macofin', 'scarica-la-brochure', 'downlaod-brochure', 'download-brochre', 'compila-il-form', 'richiedi-informazioni', 'download-brchure', 'download-drochure');
+$found = false;
 foreach ($pages as $page) {
     $post = get_page_by_path($page);
     if ($post) {
+        $found = true;
         break;
     }
 }
 
 ?>
 
-<?php if ($post): ?>
+<?php if ($found): ?>
 <div class="modal fade" id="downloadBrochure" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
