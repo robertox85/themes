@@ -119,11 +119,11 @@ $img_link_mob_2['en'] = get_stylesheet_directory_uri() . '/pco/images/meet-us-on
     @media screen and (min-width: 768px) {
         
         .display-desk {
-            display: block;
+            display: block !important;
         }
         
         .display-mobile {
-            display: none;
+            display: none !important;
         }
         
         
@@ -131,11 +131,11 @@ $img_link_mob_2['en'] = get_stylesheet_directory_uri() . '/pco/images/meet-us-on
     
     @media screen and (max-width: 767px) {
             .display-desk {
-            display: none;
+            display: none !important;
         }
         
             .display-mobile {
-            display: block;
+            display: block !important;
         }
         
     }
