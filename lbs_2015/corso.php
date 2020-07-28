@@ -88,9 +88,6 @@ get_header(2017);
 	 echo get_field('contatti_campo');
      echo '</div></div>';
  ?>
-			<div class="ssba"><div style="text-align:left">
-					<?php echo do_shortcode('[ssba]'); ?> </div>
-			</div>
 		</aside>
   </div>
   <!--END .row --> 
