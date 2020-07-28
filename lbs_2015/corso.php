@@ -18,7 +18,8 @@ get_header(2017);
     }
     
     h1.entry-title {
-        font-size: 80%;
+        font-size: 4rem;
+        line-height: 4.2rem;
     }
 </style>
 
