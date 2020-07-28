@@ -13304,7 +13304,7 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
     display: flex;
     -ms-flex-pack: center;
     list-style: none;
-    margin: 0
+    margin: 0 25% 0 20%;
 }
 
 .carousel-indicators li {
@@ -13320,7 +13320,7 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
     opacity: .5;
     transition: opacity .6s ease;
     border-radius: 0;
-    margin: 0
+    margin: 4px;
 }
 
 .carousel-indicators li.active {
