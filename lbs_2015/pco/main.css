@@ -13341,7 +13341,8 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
     .display-mobile {
         display: none !important;
     }
-
+    
+}
 
 @media screen and (max-width: 767px) {
     .display-desk {
