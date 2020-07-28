@@ -239,7 +239,7 @@ $events_section_title['en'] = 'Upcoming events';
 
             <!-- Ultime News -->
 
-            <div class="col-xs-12 col-md-4 mb-80">
+            <div class="col-xs-12 col-lg-4 mb-80">
                 <h3 class="mb-16"><?php echo $news_section_title[ICL_LANGUAGE_CODE]; ?></h3>
                 <?php
  
@@ -292,7 +292,7 @@ if (!(empty($news))) {
 
             <!-- Ultime Eventi -->
 
-            <div class="col-xs-12 col-md-4 mb-80">
+            <div class="col-xs-12 col-lg-4 mb-80">
                 <h3 class="mb-16"><?php echo $events_section_title[ICL_LANGUAGE_CODE]; ?></h3>
                 <?php
  
@@ -318,7 +318,7 @@ if (!(empty($events))) {
 
                 <article itemscope itemtype="http://schema.org/Article">
                     <div class="row d-flex flex-row align-items-center justify-content-between my-16 px-16">
-                        <div class="col-xs-4 bg__white box-event-date px-16 px-sm-24 px-lg-32 py-16">
+                        <div class="col-xs-4 bg__white box-event-date d-flex flex-row align-items-center justify-content-center">
                             <h6 class="my-0"><?php echo get_date($data_inizio,"events",ICL_LANGUAGE_CODE) ?></h6>
                         </div>
                         <div class="col-xs-8 box-event-title">
@@ -333,7 +333,7 @@ if (!(empty($events))) {
             </div>
 
             <!-- Trova il tuo corso -->
-            <div class="col-xs-12 col-md-4 mb-80">
+            <div class="col-xs-12 col-lg-4 mb-80">
                 <h3 class="mb-16">Programme Explorer</h3>
                 <?php 
 		$finder_description = array();
