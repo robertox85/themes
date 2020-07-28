@@ -65,51 +65,52 @@ h1, h2, h3, h4, h5, h6{
     color: $blue;
 }
 
-h1{
+h1,
+.h1{
     font-family: "Luiss Serif"!important;
     font-weight: 400;
-    @include font-size(80px);
-    font-size: 80px;
+    @include font-size(80px!important);
     line-height: rem(72px);
     &.small{
-        font-size:rem(72px)!important;
+        @include font-size(72px!important);
     }
 }
 
-h2{
+h2,
+.h2{
     font-family: "Luiss Serif"!important;
     font-weight: 400;
-    @include font-size(60px);
+    @include font-size(60px!important);
     line-height: rem(64px);
 }
 
-h3{
+h3,.h3{
     font-family: "Luiss Serif"!important;
     font-weight: 400;
-    @include font-size(48px);
+    @include font-size(48px!important);
     line-height: rem(54px);
 }
 
-h4{
+h4,.h4{
     font-weight: bold;
-    @include font-size(48px);
+    @include font-size(48px!important);
     line-height: rem(54px);
     &.alt{
         font-family: "Luiss Serif"!important;
         font-weight: 400;
-        @include font-size(40px);
+        @include font-size(40px!important);
     }
 }
 
-h5{
+h5,.h5{
     font-family: "Luiss Serif"!important;
     font-weight: 400;
-    @include font-size(36px);
+    @include font-size(36px!important);
     line-height: rem(40px);
 }
 
-h6{
+h6,.h6{
     font-weight: bold;
-    @include font-size(30px);
+    @include font-size(30px!important);
     line-height: rem(36px);
 }
