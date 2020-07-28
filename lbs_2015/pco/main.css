@@ -13296,6 +13296,21 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
     line-height: 1.65rem !important;
 }
 
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 24px;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
 
 .carousel-indicators li {
     box-sizing: content-box;
@@ -13303,8 +13318,8 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
     flex: 0 1 auto;
     width: 160px;
     height: 8px;
-    margin-right: 0px;
-    margin-left: 0px;
+    margin-right: 16px;
+    margin-left: 16px;
     text-indent: -999px;
     cursor: pointer;
     background-color: var(--current-color);
