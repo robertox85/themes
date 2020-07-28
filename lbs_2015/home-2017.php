@@ -354,10 +354,9 @@ if (!(empty($events))) {
                     .card-course-big:before {
                        content: '';
     position: absolute;
-    bottom: 0;
     width: 100%;
     height: 410px;
-    background-color: rgba(0,58,112,.1);
+    background-color: rgba(0,58,112,.01);
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-position: center center;
     -webkit-mask-size: cover;
