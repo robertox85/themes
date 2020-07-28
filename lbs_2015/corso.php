@@ -6,6 +6,7 @@ if ( !defined('ABSPATH')) exit;
  * Template Name: Corso
  * @file corso.php
  */
+wp_enqueue_style('Bootstrap_Styles','https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css');
 get_header(2017); 
 
 
