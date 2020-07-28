@@ -318,17 +318,39 @@ if (!(empty($events))) {
                 
                 <style>
                     
+                    @media screen and (max-width: 991px) {
+                       
+                        .card-course-big {
+                        width: 100%;
+                        min-height: 410px;
+                    }
+                        
+                    }
+                    
+                 @media screen and (min-width: 992px) and (max-width: 1199px) {
+                       
+                        .card-course-big {
+                        width: 45%;
+                        min-height: 410px;
+                    }
+                        
+                    }
+                    
+                    @media screen and (min-width: 1200px) {
+                    
                     .card-course-big {
-                        width: 48%;
+                        width: 47%;
                         min-height: 410px;
                         border: 1px solid;
                     }
+                        
+                        }
                     
-                    .card-course h2 {
+                    .card-course-big h2 {
                         text-transform: lowercase;
                     }
                     
-                    .card-course h2:first-letter {
+                    .card-course-big h2:first-letter {
                         text-transform: uppercase;
                     }
                     
