@@ -144,7 +144,9 @@ _6 = Programmi di alta formazione - non utilizzato
                 <p class="big"><?php echo get_field('home_launch_box_excerpt_2'); ?></p>
                 <!-- Pulsanti -->
                 <div class="row">
+                    <div class="col-xs-12">
                     <a href="<?php echo get_field('home_launch_box_url_2'); ?>">Scopri</a>
+                    </div>
                 </div>
             </div>
 
@@ -154,7 +156,9 @@ _6 = Programmi di alta formazione - non utilizzato
                 <p class="big"><?php echo get_field('home_launch_box_excerpt_3'); ?></p>
                 <!-- Pulsanti -->
                 <div class="row">
+                    <div class="col-xs-12">
                     <a href="<?php echo get_field('home_launch_box_url_3'); ?>">Scopri</a>
+                    </div>
                 </div>
             </div>
 
@@ -164,7 +168,9 @@ _6 = Programmi di alta formazione - non utilizzato
                 <p class="big"><?php echo get_field('home_launch_box_excerpt_4'); ?></p>
                 <!-- Pulsanti -->
                 <div class="row">
+                    <div class="col-xs-12">
                     <a href="<?php echo get_field('home_launch_box_url_4'); ?>">Scopri</a>
+                    </div>
                 </div>
             </div>
 
@@ -174,7 +180,9 @@ _6 = Programmi di alta formazione - non utilizzato
                 <p class="big"><?php echo get_field('home_launch_box_excerpt_5'); ?></p>
                 <!-- Pulsanti -->
                 <div class="row">
+                    <div class="col-xs-12">
                     <a href="<?php echo get_field('home_launch_box_url_5'); ?>">Scopri</a>
+                    </div>
                 </div>
             </div>
 
