@@ -13297,9 +13297,9 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
 }
 
 .carousel-indicators {
-    position: absolute;
+    position: relative;
     right: 0;
-    bottom: 24px;
+    top: 24px;
     left: 0;
     z-index: 15;
     display: -ms-flexbox;
@@ -13318,8 +13318,8 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
     flex: 0 1 auto;
     width: 160px;
     height: 8px;
-    margin-right: 16px;
-    margin-left: 16px;
+    margin-right: 8px;
+    margin-left: 8px;
     text-indent: -999px;
     cursor: pointer;
     background-color: var(--current-color);
@@ -13330,7 +13330,8 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
 }
 
 .carousel-indicators .active {
-    margin: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
     width: 160px;
     height: 8px;
     background-color: var(--current-color);
