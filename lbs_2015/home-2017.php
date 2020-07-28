@@ -9,6 +9,14 @@ wp_enqueue_style('Bootstrap_Styles','https://stackpath.bootstrapcdn.com/bootstra
  get_header(2017); 
 ?>
 
+<style>
+    @media (min-width: 1200px) {
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1440px;
+}
+        }
+</style>
+
 <!-- Facebook Pixel Code -->
 <script>
     ! function(f, b, e, v, n, t, s) {
@@ -149,8 +157,8 @@ $img_link_mob_2['en'] = get_stylesheet_directory_uri() . '/pco/images/meet-us-on
 <!-- SEZIONE 1-->
 
 <section id="home-section-1" class="home-section my-128">
-    <div class="container">
-        <div class="row">
+    <div class="container px-0">
+        <div class="row px-0">
             <!-- Box delle tipologia di corso -->
             <!--
 _1 = Lauree Triennali e magistrali  - non utilizzato
