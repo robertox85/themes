@@ -48,7 +48,24 @@ get_header(2017);
       </div>
     </main>
     <aside class="col-lg-3 col-md-4 col-sm-12 space sidebar-master">
-		
+		<div class="block">
+                        <div class="textwidget">
+                            <?php
+                       if ( get_field( 'brochure' ) ) {
+						echo '<span>' . get_field( 'brochure' ) . '</span>';
+						   
+					}
+						   
+					if ( get_field( 'modulo_iscrizione' ) ) {
+						echo '<span>' . get_field( 'modulo_iscrizione' ) . '</span>';
+					}
+					
+					
+					if ( get_field( 'modulo_recesso' ) ) {
+						echo '<span>' . get_field( 'modulo_recesso' ) . '</span>';
+					}
+
+					?>
 
 				<?php
 				if ( get_field( 'titolo_custom' ) ) {
@@ -61,8 +78,8 @@ get_header(2017);
 					echo '<div class="block-dark"><h3>' . get_field( 'titolo_campo_custom_2' ) . '</h3><div class="textwidget"><p>' . get_field( 'campo_custom_2' ) . '</p></div> </div>';
 				}
 				?>
-
-			</div>
+   </div>
+                    </div>
 
 			<?php   
      if (get_field('contatti') || get_field('contatti_campo'));

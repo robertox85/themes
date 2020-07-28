@@ -59,16 +59,6 @@ echo '<div class="block"><h3>'. get_field('testo_codice_corso').'</h3><div class
 						echo '<span>' . get_field( 'brochure' ) . '</span>';
 						   
 					}
-						   
-					if ( get_field( 'modulo_iscrizione' ) ) {
-						echo '<span>' . get_field( 'modulo_iscrizione' ) . '</span>';
-					}
-					
-					
-					if ( get_field( 'modulo_recesso' ) ) {
-						echo '<span>' . get_field( 'modulo_recesso' ) . '</span>';
-					}
-
 					?>
 
                         </div>
