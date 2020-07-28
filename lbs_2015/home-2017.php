@@ -55,7 +55,11 @@ Creation Date: 12/20/2018
 </noscript>
 <!-- End of Floodlight Tag: Please do not remove -->
 
+<!-- Includo le variabili comuni -->
 
+<?php include(dirname(__DIR__).'/lbs_2015/pco/variables/vars.php'); ?>
+
+<!-- Inizio template -->
 <!-- CAROUSEL INTRO -->
 
 <?php
@@ -108,16 +112,16 @@ $img_link_2['en'] = 'https://businessschool.luiss.it/wp-content/uploads/2020/04/
 
 <div class="container ">
     <div class="row">
-    <div id="myCarousel" class="carousel slide" data-ride="carousel" style="z-index: 1" data-interval="4000">
-        <!-- Content -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" style="z-index: 1" data-interval="4000">
+            <!-- Content -->
             <div class="carousel-inner">
                 <div class="item active"> <a style="" href="https://businessschool.luiss.it/flex"> <img src="<?php echo $img_link[ICL_LANGUAGE_CODE]; ?>" alt="Flex Executive Programme" class="img-responsive" style="background-size: cover;background-position: 50% 50%; max-width: 100%; height: auto;" /></a>
                 </div>
                 <div class="item"> <a style="" href="https://businessschool.luiss.it/meet-us-online/"> <img src="<?php echo $img_link_2[ICL_LANGUAGE_CODE]; ?>" alt="Webinar, Workshop, Masterclass, Open Lesson e Q&A session." class="img-responsive" style="background-size: cover;background-position: 50% 50%; max-width: 100%; height: auto;" /></a>
                 </div>
             </div>
-        <!-- Indicatori -->
-        <ol class="carousel-indicators" style="left:50%; top: 100%">
+            <!-- Indicatori -->
+            <ol class="carousel-indicators" style="left:50%; top: 100%">
                 <li data-target="#myCarousel" data-slide-to="0" class="active" style="border: 1px solid #feba4d;"></li>
                 <li data-target="#myCarousel" data-slide-to="1" style="border: 1px solid #feba4d;"></li>
             </ol>
@@ -125,126 +129,70 @@ $img_link_2['en'] = 'https://businessschool.luiss.it/wp-content/uploads/2020/04/
     </div>
 </div>
 
-
-
+<!-- SEZIONE 1-->
 
 <section id="home-section-1" class="home-section">
     <div class="container">
-
-
-
         <div class="row">
-            <?php // for ($i = 1; $i <= 6; $i++) { 
-   
-  // if ($i==4) { echo '</div><div class="row">'; }
-   
-   ?>
-            <!--<div class="col-md-4">
-				<div class="feature titolo-ls">
-					<a style="" href="<?php // echo get_field('home_launch_box_url_1'); ?>">
-
-						<h2 class="block-title">
-							<?php // echo get_field('home_launch_box_title_1'); ?>
-						</h2>
-						<p class="paragrafo-ls">
-							<?php // echo get_field('home_launch_box_excerpt_1'); ?>
-						</p>
-					</a>
-				</div>
-			</div>-->
-
-
+            <!-- Box delle tipologia di corso -->
+            <!--
+_1 = Lauree Triennali e magistrali  - non utilizzato
+_2 = MBA
+_3 = Master
+_4 = Programmi Executive
+_5 = Programmi Custom - N.B. EDITARE IN PAGINA AL POSTO DI PHD
+_6 = Programmi di alta formazione - non utilizzato
+            <!-- Box MBA -->
             <div class="col-md-6">
-                <div class="feature titolo-mba">
-                    <a style="" href="<?php echo get_field('home_launch_box_url_2'); ?>">
-                        <h2 class="block-title">
-                            <?php echo get_field('home_launch_box_title_2'); ?>
-                        </h2>
-                        <p class="paragrafo-mba">
-                            <?php echo get_field('home_launch_box_excerpt_2'); ?>
-                        </p>
-                    </a>
+                <h2><?php echo get_field('home_launch_box_title_2'); ?></h2>
+                <p class="big"><?php echo get_field('home_launch_box_excerpt_2'); ?></p>
+                <!-- Pulsanti -->
+                <div class="row">
+                    <a href="<?php echo get_field('home_launch_box_url_2'); ?>">Scopri</a>
                 </div>
             </div>
 
-
+            <!-- Box Master -->
             <div class="col-md-6">
-                <div class="feature titolo-master">
-                    <a style="" href="<?php echo get_field('home_launch_box_url_3'); ?>">
-                        <h2 class="block-title ">
-                            <?php echo get_field('home_launch_box_title_3'); ?>
-                        </h2>
-
-
-                        <p class="paragrafo-master">
-                            <?php echo get_field('home_launch_box_excerpt_3'); ?>
-                        </p>
-                    </a>
+                <h2><?php echo get_field('home_launch_box_title_3'); ?></h2>
+                <p class="big"><?php echo get_field('home_launch_box_excerpt_3'); ?></p>
+                <!-- Pulsanti -->
+                <div class="row">
+                    <a href="<?php echo get_field('home_launch_box_url_3'); ?>">Scopri</a>
                 </div>
             </div>
 
-
+            <!-- Box Programmi Executive -->
             <div class="col-md-6">
-                <div class="feature titolo-pe">
-                    <a style="" href="<?php echo get_field('home_launch_box_url_4'); ?>">
-                        <h2 class="block-title">
-
-                            <?php echo get_field('home_launch_box_title_4'); ?>
-
-                        </h2>
-
-
-
-
-                        <p class="paragrafo-pe">
-                            <?php echo get_field('home_launch_box_excerpt_4'); ?>
-                        </p>
-                    </a>
+                <h2><?php echo get_field('home_launch_box_title_4'); ?></h2>
+                <p class="big"><?php echo get_field('home_launch_box_excerpt_4'); ?></p>
+                <!-- Pulsanti -->
+                <div class="row">
+                    <a href="<?php echo get_field('home_launch_box_url_4'); ?>">Scopri</a>
                 </div>
             </div>
 
-            <!--<div class="col-md-4">
-				<div class="feature titolo-phd">
-					<a style="" href="<?php // echo // get_field('home_launch_box_url_5'); ?>">
-						<h2 class="block-title ">
-							<?php // echo get_field('home_launch_box_title_5'); ?>
-
-						</h2>
-
-
-						<p class="paragrafo-phd">
-							<?php // echo get_field('home_launch_box_excerpt_5'); ?>
-						</p>
-					</a>
-				</div>
-			</div>-->
-
-
-
+            <!-- Box Programmi Custom -->
             <div class="col-md-6">
-                <div class="feature titolo-cs">
-                    <a style="" href="<?php echo get_field('home_launch_box_url_6'); ?>">
-                        <h2 class="block-title ">
-                            <?php echo get_field('home_launch_box_title_6'); ?>
-
-                        </h2>
-
-
-                        <p class="paragrafo-cs effect-shine">
-                            <?php echo get_field('home_launch_box_excerpt_6'); ?>
-                        </p>
-                    </a>
+                <h2><?php echo get_field('home_launch_box_title_5'); ?></h2>
+                <p class="big"><?php echo get_field('home_launch_box_excerpt_5'); ?></p>
+                <!-- Pulsanti -->
+                <div class="row">
+                    <a href="<?php echo get_field('home_launch_box_url_5'); ?>">Scopri</a>
                 </div>
             </div>
+
         </div>
-
-        <?php // } ?>
     </div>
-    <!-- END .row  -->
-    </div>
-    <!-- END .container -->
 </section>
-<?php  
+
+<!-- SEZIONE 2 -->
+
+<section id="home-section-2" class="home-section">
+    <div class="container">
+        <div class="row">
+
+            <?php  
 $news_section_title = array();
 $news_section_title['it'] = 'In Primo Piano';
 $news_section_title['en'] = 'Featured';
@@ -254,17 +202,10 @@ $events_section_title = array();
 $events_section_title['it'] = 'Eventi';
 $events_section_title['en'] = 'Upcoming events';
 
-
 ?>
 
-<!-- SEZIONE 2 -->
-
-<section id="home-section-2" class="home-section">
-    <div class="container">
-        <div class="row">
-            
             <!-- Ultime News -->
-            
+
             <div class="col-md-4">
                 <h3><?php echo $news_section_title[ICL_LANGUAGE_CODE]; ?></h3>
                 <?php
@@ -293,9 +234,9 @@ if (!(empty($news))) {
  ?>
                 <article itemscope itemtype="http://schema.org/Article">
                     <div class="row">
-                    <div class="col-md-4">
-                        <span itemscope itemtype='http://schema.org/ImageObject'>
-                            <?php 
+                        <div class="col-md-4">
+                            <span itemscope itemtype='http://schema.org/ImageObject'>
+                                <?php 
 	$img_attr = array(
 	'class'	=> "img-responsive",
 	'alt'	=> $news->post_title,
@@ -303,12 +244,12 @@ if (!(empty($news))) {
 	echo get_the_post_thumbnail($news->ID, 'thumbnail',$img_attr);
 	
 	?>
-                        </span>
-                    </div>
-                    <div class="col-md-8">
-                        <h6 itemprop="name headline" class="home-news-headline"><a href="<?php echo get_permalink($news->ID) ?>" title="<?php echo $news->post_title ?>"><?php echo $news->post_title ?></a>
-                        </h6>
-                    </div>
+                            </span>
+                        </div>
+                        <div class="col-md-8">
+                            <h6 itemprop="name headline" class="home-news-headline"><a href="<?php echo get_permalink($news->ID) ?>" title="<?php echo $news->post_title ?>"><?php echo $news->post_title ?></a>
+                            </h6>
+                        </div>
                     </div>
                 </article>
                 <?php 
@@ -316,9 +257,9 @@ if (!(empty($news))) {
 
 } // END if ?>
             </div>
-            
+
             <!-- Ultime Eventi -->
-            
+
             <div class="col-md-4">
                 <h3><?php echo $events_section_title[ICL_LANGUAGE_CODE]; ?></h3>
                 <?php
@@ -344,11 +285,11 @@ if (!(empty($events))) {
  ?>
                 <article itemscope itemtype="http://schema.org/Article">
                     <div class="row">
-                    <div class="col-md-4">
-                        <?php echo get_date($data_inizio,"events",ICL_LANGUAGE_CODE) ?></div>
-                <div class="col-md-8">
-                <h6 itemprop="name headline"><a href="<?php echo get_permalink($event->ID) ?>" title="<?php echo $event->post_title ?>"><?php echo $event->post_title ?></a></h6>
-                </div>
+                        <div class="col-md-4">
+                            <?php echo get_date($data_inizio,"events",ICL_LANGUAGE_CODE) ?></div>
+                        <div class="col-md-8">
+                            <h6 itemprop="name headline"><a href="<?php echo get_permalink($event->ID) ?>" title="<?php echo $event->post_title ?>"><?php echo $event->post_title ?></a></h6>
+                        </div>
                     </div>
                 </article>
                 <?php 
@@ -356,7 +297,7 @@ if (!(empty($events))) {
 
 } // END if ?>
             </div>
-            
+
             <!-- Trova il tuo corso -->
             <div class="col-md-4">
                 <h3>Programme Explorer</h3>
@@ -414,7 +355,7 @@ if (!(empty($events))) {
                             </li>
                             <?php } // END foreach ?>
                         </ul>
-                            <button class="finder-send-button" type="submit"><?php echo $finder_button_button_send[ICL_LANGUAGE_CODE]; ?></button>
+                        <button class="finder-send-button" type="submit"><?php echo $finder_button_button_send[ICL_LANGUAGE_CODE]; ?></button>
                     </form>
                 </div>
             </div>
