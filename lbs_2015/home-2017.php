@@ -344,7 +344,7 @@ if (!(empty($events))) {
  ?>
                 <article itemscope itemtype="http://schema.org/Article">
                     <div class="row">
-                    <div class="col-md-4 event-date">
+                    <div class="col-md-4">
                         <?php echo get_date($data_inizio,"events",ICL_LANGUAGE_CODE) ?></div>
                 <div class="col-md-8">
                 <h6 itemprop="name headline"><a href="<?php echo get_permalink($event->ID) ?>" title="<?php echo $event->post_title ?>"><?php echo $event->post_title ?></a></h6>
@@ -359,7 +359,7 @@ if (!(empty($events))) {
             
             <!-- Trova il tuo corso -->
             <div class="col-md-4">
-                <h2 class="block-title h2 white-style">Programme Explorer</h2>
+                <h3>Programme Explorer</h3>
                 <?php 
 		$finder_description = array();
 		$finder_description['it'] = 'Vuoi scoprire qual è il corso ideale per te?<br>Scoprilo in 3 semplici step!';
@@ -422,7 +422,7 @@ if (!(empty($events))) {
     </div>
 </section>
 
-<?php edit_post_link('<p class="button arr featured-links">Modifica Pagina</p>', ''); ?>
+<?php edit_post_link('<p>Modifica Pagina</p>', ''); ?>
 
 <?php 
 
