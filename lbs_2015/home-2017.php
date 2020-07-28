@@ -5,6 +5,7 @@
  */
 $finder_description = get_field('finder_description');
  //wp_enqueue_style('Home_Styles','/wp-content/themes/lbs_2015/css/home-new.css');
+wp_enqueue_style('Bootstrap_Styles','https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css');
  get_header(2017); 
 ?>
 
@@ -319,6 +320,7 @@ if (!(empty($events))) {
                         line-height: 1.6rem !important;
                     }
                     
+                    /*
                     .row-flex {
                         display: flex;
                         flex-direction: row;
@@ -332,15 +334,16 @@ if (!(empty($events))) {
                     .justify-content-between {
                         justify-content: space-between;
                     }
+                    */
                     
                 </style>
                 <article itemscope itemtype="http://schema.org/Article">
-                    <div class="row d-flex align-items-center justify-content-between">
+                    <div class="row d-flex flex-row align-items-center justify-content-between">
                         <div class="col-xs-4 bg__white box-event-date px-24 py-8">
-                            <h6><?php echo get_date($data_inizio,"events",ICL_LANGUAGE_CODE) ?></h6>
+                            <h6 class="my-0"><?php echo get_date($data_inizio,"events",ICL_LANGUAGE_CODE) ?></h6>
                         </div>
                         <div class="col-xs-8 box-event-title">
-                            <h6 itemprop="name headline"><a href="<?php echo get_permalink($event->ID) ?>" title="<?php echo $event->post_title ?>"><?php echo $event->post_title ?></a></h6>
+                            <h6 class="my-0" itemprop="name headline"><a href="<?php echo get_permalink($event->ID) ?>" title="<?php echo $event->post_title ?>"><?php echo $event->post_title ?></a></h6>
                         </div>
                     </div>
                 </article>
