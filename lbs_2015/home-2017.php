@@ -88,14 +88,14 @@ $testo3 = get_field('testo_visore_3');
 ?>
 
 <div id="HomeCarousel" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
+    <div class="carousel-inner home-carousel">
         <div class="item active">
             <img src="<?php echo $img1['url']; ?>" alt="<?php echo $img1['alt']; ?>" />
-            <div class="container">
+            <div class="container home-carousel-content mb-64">
                 <div class="row">
                     <div class="col-xs-12 col-md-8">
-                        <h1><?php echo $desc1; ?></h1>
-                        <h6><?php echo $testo1; ?></h6>
+                        <h1 class="color__white"><?php echo $desc1; ?></h1>
+                        <h6 class="color__white"><?php echo $testo1; ?></h6>
                     </div>
                 </div>
             </div>
