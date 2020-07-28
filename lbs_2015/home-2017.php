@@ -98,20 +98,20 @@ $testo3 = get_field('testo_visore_3');
 
 <?php 
 $img_link_desk_1 = array();
-$img_link_desk_1['it'] = 'https://businessschool.luiss.it/wp-content/uploads/2020/04/banner-flex.jpg';
-$img_link_desk_1['en'] = 'https://businessschool.luiss.it/wp-content/uploads/2020/04/banner-flex-2.jpg';
+$img_link_desk_1['it'] = 'pco/images/flex-ita-desk.png';
+$img_link_desk_1['en'] = 'pco/images/flex-eng-desk.png';
 	
 $img_link_desk_2 = array();
-$img_link_desk_2['it'] = 'https://businessschool.luiss.it/wp-content/uploads/2020/04/banner-meet.jpg';
-$img_link_desk_2['en'] = 'https://businessschool.luiss.it/wp-content/uploads/2020/04/banner-meet-2.jpg';
+$img_link_desk_2['it'] = 'pco/images/meet-us-online-ita-desk.png';
+$img_link_desk_2['en'] = 'pco/images/meet-us-online-eng-desk.png';
 
 $img_link_mob_1 = array();
-$img_link_mob_1['it'] = 'https://businessschool.luiss.it/wp-content/uploads/2020/04/banner-flex.jpg';
-$img_link_mob_1['en'] = 'https://businessschool.luiss.it/wp-content/uploads/2020/04/banner-flex-2.jpg';
+$img_link_mob_1['it'] = 'pco/images/flex-ita-mob.png';
+$img_link_mob_1['en'] = 'pco/images/flex-eng-mob.png';
 	
 $img_link_mob_2 = array();
-$img_link_mob_2['it'] = 'https://businessschool.luiss.it/wp-content/uploads/2020/04/banner-meet.jpg';
-$img_link_mob_2['en'] = 'https://businessschool.luiss.it/wp-content/uploads/2020/04/banner-meet-2.jpg';
+$img_link_mob_2['it'] = 'pco/images/meet-us-online-ita-mob.png';
+$img_link_mob_2['en'] = 'pco/images/meet-us-online-eng-mob.png';
 ?>
 
 <div class="container ">
