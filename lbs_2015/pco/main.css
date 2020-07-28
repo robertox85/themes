@@ -13363,6 +13363,17 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
         display: none !important;
     }
     
+    .home-carousel > .item > img, .home-carousel > .item > a > img {
+    display: block;
+    position: relative;
+    width: 100%;
+    background-position: center top;
+    background-size: cover;
+    height: 60vh;
+    object-fit: cover;
+
+}
+    
 }
 
 @media screen and (max-width: 767px) {
