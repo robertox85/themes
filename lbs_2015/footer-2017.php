@@ -51,7 +51,7 @@ $current_blog_id = get_query_var( 'current_blog_id' );
         <?php if( $current_blog_id === 1 ): ?>
         <div class="container-fluid">
             <div class="row" style="background-image:url(<?php echo get_stylesheet_directory_uri() ?>/pco/images/social-wall-bg.png);background-repat:no-repeat;background-size:cover;backgroun-position:center">
-                <div class="col-md-12 col-sm-12">
+                <div class="col-xs-12">
                     <h3 class="text-center pt-128 pb-24">Social Wall</h3>
                     <div class="container">
                         <div class="row">
@@ -70,10 +70,7 @@ $current_blog_id = get_query_var( 'current_blog_id' );
         <div class="container-fluid footer_container">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
-
-                        <div style="clear: both"></div>
-
+                    <div class="col-xs-12 col-md-8">
                         <!-- Begin Mailchimp Signup Form -->
                         <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
                         <style type="text/css">
@@ -150,28 +147,27 @@ $current_blog_id = get_query_var( 'current_blog_id' );
                             var $mcj = jQuery.noConflict(true);
                         </script>
                         <!--End mc_embed_signup-->
+                    </div>
 
-                        <!-- Address -->
-                        <div class="col-md-4 map-img">
-                            <!-- <h2 class="headline"><?php echo $contatti[ICL_LANGUAGE_CODE]; ?></h2> -->
-                            <h2 class="headline">CONTATTI</h2>
-                            <address>
-                                Villa Blanc,
-                                Via Nomentana, 216 - 00162 Roma <br />
-                                Roma, Italia <br />
-                                Tel. +39 06 852251 <br />
-                                Email: <a href="mailto:luissbs@luiss.it" class="">luissbs@luiss.it </a>
-                            </address>
+                    <!-- Address -->
+                    <div class="col-xs-12 col-md-4">
+                        <h2 class="headline"><?php echo $contatti[ICL_LANGUAGE_CODE]; ?></h2>
+                        <address>
+                            Villa Blanc,
+                            Via Nomentana, 216 - 00162 Roma <br />
+                            Roma, Italia <br />
+                            Tel. +39 06 852251 <br />
+                            Email: <a href="mailto:luissbs@luiss.it" class="">luissbs@luiss.it </a>
+                        </address>
 
-                            <ul class="footer-socials list-inline">
-                                <li><a href="https://www.facebook.com/pages/LUISS-Business-School/152306674798769"><span class="social-icon icon-facebook"></span></a></li>
-                                <li><a href="https://twitter.com/LUISSBusiness"><span class="social-icon icon-twitter"></span></a></li>
-                                <li><a href="https://instagram.com/luissbusiness/"><span class="social-icon icon-instagram "></span></a> </li>
-                                <li><a href="https://www.flickr.com/photos/luissbusiness/albums"><span class="social-icon icon-flickr"></span></a> </li>
-                                <li><a href="https://www.youtube.com/user/luissmba"><span class="social-icon icon-youtube"></span></a> </li>
-                                <li><a href="https://www.linkedin.com/school/luiss-business-school/"><span class="social-icon icon-linkedin"></span></a></li>
-                            </ul>
-                        </div>
+                        <ul class="footer-socials list-inline">
+                            <li><a href="https://www.facebook.com/pages/LUISS-Business-School/152306674798769"><span class="social-icon icon-facebook"></span></a></li>
+                            <li><a href="https://twitter.com/LUISSBusiness"><span class="social-icon icon-twitter"></span></a></li>
+                            <li><a href="https://instagram.com/luissbusiness/"><span class="social-icon icon-instagram "></span></a> </li>
+                            <li><a href="https://www.flickr.com/photos/luissbusiness/albums"><span class="social-icon icon-flickr"></span></a> </li>
+                            <li><a href="https://www.youtube.com/user/luissmba"><span class="social-icon icon-youtube"></span></a> </li>
+                            <li><a href="https://www.linkedin.com/school/luiss-business-school/"><span class="social-icon icon-linkedin"></span></a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -184,7 +180,7 @@ $current_blog_id = get_query_var( 'current_blog_id' );
         <div class="container">
             <hr>
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-xs-12">
                     <p>The PMI Registered Education Provider logo is a registered mark of the Project Management Institute, Inc. <br>
                         Use of this website constitutes acceptance of <a href="/cookies/" style="color: #fdbb4d">Cookie Policy</a>. <br>
                         © LUISS Business School Villa Blanc,Via Nomentana, 216 00162 Roma, Italia - Centralino T 06 852251 - P.IVA 01067231009 </p>
@@ -204,12 +200,6 @@ $current_blog_id = get_query_var( 'current_blog_id' );
 
 <script async data-main="<?php echo get_bloginfo('template_url') ?>/js/app" src="<?php echo get_bloginfo('template_url') ?>/js/require.js"></script>
 
-
-
-
-
-
-
 <script type="text/javascript">
     _linkedin_partner_id = "1751300";
     window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
@@ -228,8 +218,6 @@ $current_blog_id = get_query_var( 'current_blog_id' );
 <noscript>
     <img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=1751300&fmt=gif" />
 </noscript>
-
-
 
 <script type="text/javascript">
     /*<![CDATA[*/
