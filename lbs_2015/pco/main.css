@@ -13320,7 +13320,7 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
     opacity: .5;
     transition: opacity .6s ease;
     border-radius: 0;
-    margin: 4px;
+    margin: 0px 4px;
 }
 
 .carousel-indicators li.active {
@@ -13328,7 +13328,7 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
     background-color: var(--current-color);
     width: 160px;
     height: 8px;
-    margin: 0
+    margin: 0px 4px
 }
 
 
