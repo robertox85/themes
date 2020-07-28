@@ -346,6 +346,11 @@ if (!(empty($events))) {
                         
                         }
                     
+                    
+                    .card-course-big {
+                        border: 1px solid;
+                    }
+                    
                     .card-course-big h2 {
                         text-transform: lowercase;
                     }
