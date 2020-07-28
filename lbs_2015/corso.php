@@ -82,7 +82,7 @@ get_header(2017);
 <div class="container">
     <p><?php edit_post_link('<strong>Modifica Pagina</strong>', ''); ?></p>
     <div class="row">
-        <main id="main" role="main" class="col-xs-12 col-md-8" >
+        <main id="main" role="main" class="col-xs-12 col-md-8 pr-md-48 pr-0" >
             <div id="page-content">
                 <?php while ( have_posts() ) : the_post(); ?>
                 <?php the_content(''); ?>
