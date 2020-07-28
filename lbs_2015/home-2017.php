@@ -231,7 +231,7 @@ $events_section_title['en'] = 'Upcoming events';
             <!-- Ultime News -->
 
             <div class="col-xs-12 col-md-4">
-                <h3><?php echo $news_section_title[ICL_LANGUAGE_CODE]; ?></h3>
+                <h3 class="pb-32"><?php echo $news_section_title[ICL_LANGUAGE_CODE]; ?></h3>
                 <?php
  
 $news_cat=array();	 		
@@ -285,7 +285,7 @@ if (!(empty($news))) {
             <!-- Ultime Eventi -->
 
             <div class="col-xs-12 col-md-4">
-                <h3><?php echo $events_section_title[ICL_LANGUAGE_CODE]; ?></h3>
+                <h3 class="pb-16"><?php echo $events_section_title[ICL_LANGUAGE_CODE]; ?></h3>
                 <?php
  
 $eventi_cat=array(); 
@@ -307,10 +307,17 @@ if (!(empty($events))) {
 	$data_inizio = get_post_meta($event->ID, 'data_inizio',true); 
  
  ?>
+                
+                <style>
+                    .box-date {
+                        border: 1px solid var (--current-color);    
+                    }
+                </style>
                 <article itemscope itemtype="http://schema.org/Article">
                     <div class="row">
-                        <div class="col-xs-4">
-                            <?php echo get_date($data_inizio,"events",ICL_LANGUAGE_CODE) ?></div>
+                        <div class="col-xs-4 bg__white box-date px-48 py-16">
+                            <h6><?php echo get_date($data_inizio,"events",ICL_LANGUAGE_CODE) ?></h6>
+                        </div>
                         <div class="col-xs-8">
                             <h6 itemprop="name headline"><a href="<?php echo get_permalink($event->ID) ?>" title="<?php echo $event->post_title ?>"><?php echo $event->post_title ?></a></h6>
                         </div>
@@ -324,7 +331,7 @@ if (!(empty($events))) {
 
             <!-- Trova il tuo corso -->
             <div class="col-md-4">
-                <h3>Programme Explorer</h3>
+                <h3 class="pb-16">Programme Explorer</h3>
                 <?php 
 		$finder_description = array();
 		$finder_description['it'] = 'Vuoi scoprire qual è il corso ideale per te?<br>Scoprilo in 3 semplici step!';
