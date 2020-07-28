@@ -153,7 +153,6 @@ $img_link_mob_2['en'] = get_stylesheet_directory_uri() . '/pco/images/meet-us-on
     --current-color: #00968F;
 }
 
-
 </style>
 
 <section id="home-section-1" class="home-section">
