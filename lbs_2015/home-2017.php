@@ -165,7 +165,7 @@ _6 = Programmi di alta formazione - non utilizzato
                 <!-- Pulsanti -->
                 <div class="row">
                     <div class="col-xs-12">
-                    <a href="<?php echo get_field('home_launch_box_url_2'); ?>">Scopri</a>
+                    <a class="button button__primary" href="<?php echo get_field('home_launch_box_url_2'); ?>">Scopri</a>
                     </div>
                 </div>
             </div>
