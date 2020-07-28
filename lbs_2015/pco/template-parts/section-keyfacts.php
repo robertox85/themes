@@ -40,7 +40,7 @@ echo '<div class="block"><h3 class="color__white">'. get_field('titolo_costo').'
 			
 						if(get_field('codice_corso'))
 	{
-echo '<div class="block"><h3 class="color__white">'. get_field('testo_codice_corso').'</h3><div class="textwidget"><p class="color__white">'. get_field('codice_corso').'</p></div> </div>';
+echo '<div class="block"><h3 class="color__white">'. get_field('testo_codice_corso').'</h3><div class="textwidget"><p class="color__white">'. get_field(strip_tags('codice_corso')).'</p></div> </div>';
     }
 		 ?>
 
