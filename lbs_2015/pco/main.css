@@ -13342,15 +13342,6 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
         display: none !important;
     }
 
-.carousel-inner > .item > img, .carousel-inner > .item > a > img {
-    display: block;
-    width: 100%;
-    background-position: center top;
-    background-size: cover;
-    height: 70vh;
-    object-fit: cover;
-
-}
 
 @media screen and (max-width: 767px) {
     .display-desk {
@@ -13360,6 +13351,16 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
     .display-mobile {
         display: block !important;
     }
+    
+    .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    width: 100%;
+    background-position: center top;
+    background-size: cover;
+    height: 70vh;
+    object-fit: cover;
+
+}
 
 }
 
