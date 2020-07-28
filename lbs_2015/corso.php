@@ -69,12 +69,20 @@ get_header(2017);
 <div class="container-fluid px-0 header-nopic
             <?php if( has_term( 'executive-program', 'category' ) ) : ?>
             bg__light_blue
+            <?php else : ?>
+            bg__white
             <?php endif; ?>
             ">
 	    <div class="container">
 	        <div class="row">
                 <div class="col-xs-12 col-lg-8 pt-48">
-	            <h1><?php the_title();?></h1>
+	            <h1 class="
+                           <?php if( has_term( 'executive-program', 'category' ) ) : ?>
+            color__white
+            <?php else : ?>
+            color__blue
+            <?php endif; ?>
+                           "><?php the_title();?></h1>
                 </div>
 	        </div>
 	    </div>
