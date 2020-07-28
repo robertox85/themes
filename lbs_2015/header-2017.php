@@ -96,8 +96,8 @@ obApi('track', 'PAGE_VIEW');
       
       <nav id="secondary-nav" class="">
         <ul>
-          <li><a href="http://www.luiss.it/">LUISS.it</a></li>
-          <li><a href="javascript:void(0)" id="network-offcanvas-trigger">LUISS Network</a></li>
+          <li><a href="http://www.luiss.it/">Luiss.it</a></li>
+          <li><a href="javascript:void(0)" id="network-offcanvas-trigger">Luiss Network</a></li>
           <li><a href="https://businessschool.luiss.it/milano"><strong>Milano</strong></a></li>
           <li><a href="https://businessschool.luiss.it/belluno"><strong>Belluno</strong></a></li>
         </ul>
@@ -215,6 +215,9 @@ if (is_page_template('home-2017.php')) {
     </div>
   </div>
 </nav>
+    
+<?php if ( is_front_page() ) : ?>  
+<? else : ?> 
 <nav id="breadcrumb-top" >
   <div class="container">
     <div class="row breadcrumb ">
@@ -233,3 +236,22 @@ if (is_page_template('home-2017.php')) {
   </div>
   <!-- .END container -->
 </nav>
+<nav id="breadcrumb-top" >
+  <div class="container">
+    <div class="row breadcrumb ">
+    <?php 
+      if (function_exists('bcn_display')) {
+          bcn_display();
+      }
+
+      $back_to_top_text = array();
+      $back_to_top_text['it'] = 'Torna su';
+      $back_to_top_text['en'] = 'Back to top';
+
+    ?>
+    <span class="back-to-top"><a id="backtotop" href="javascript:void(0)"><i class="fa fa-angle-up"></i> <?php echo $back_to_top_text[ICL_LANGUAGE_CODE] ?></a></span> </div>
+    <!--END .row -->
+  </div>
+  <!-- .END container -->
+</nav>
+<? endif; ?>
