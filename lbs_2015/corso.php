@@ -65,17 +65,20 @@ get_header(2017);
     
 </style>
 
-<header class="bg__white">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-lg-8 mt-48">
-                <h1 class="entry-title"><?php echo the_title(); ?></h1>
-            </div>
-        </div>
-    </div>
-</header>
 
-<div class="container-fluid">
+<div class="container-fluid px-0 <?php if (has_post_thumbnail( $post->ID ) ): ?>
+                   header-pic" style="background-image: url('<?php echo get_the_post_thumbnail_url(); ?>');
+                   <?php else : ?>
+                   header-nopic
+                   <?php endif; ?>
+">
+	    <div class="container">
+	        <div class="row">
+                <div class="col-xs-12">
+	            <h1><?php the_title();?></h1>
+                </div>
+	        </div>
+	    </div>
     <?php get_template_part( 'pco/template-parts/section-keyfacts', get_post_format() ); ?>
 </div>
 
