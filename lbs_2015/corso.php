@@ -34,6 +34,8 @@ get_header(2017);
     #page-content h5,
     #page-content h6 {
         text-transform: lowercase;
+        margin-top: 32px;
+        margin-bottom: 16px;
     }
     
     #page-content h1:first-letter,
