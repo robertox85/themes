@@ -1,12 +1,12 @@
 <div class="container">
-        <div class="row">
-            <div class="col-md-12 py-32 w-100" id="keyfacts-box">
-                <h5 class="color__white">Key Facts</h5>
-                <div class="share_links">
-                    <?php get_template_part('pco/template-parts/content', 'share')?>
-                </div>
-                <div class="">
-                    <?php   
+    <div class="row">
+        <div class="col-md-12 py-32 w-100" id="keyfacts-box">
+            <h5 class="color__white">Key Facts</h5>
+            <div class="share_links">
+                <?php get_template_part('pco/template-parts/content', 'share')?>
+            </div>
+            <div class="">
+                <?php   
   
 	  $date = DateTime::createFromFormat('Ymd', get_field('data_inizio'));	
 		
@@ -40,32 +40,32 @@ echo '<div class="block"><h3 class="color__white">'. get_field('titolo_costo').'
 			
 						if(get_field('codice_corso'))
 	{
-echo '<div class="block color__white"><h3 class="color__white">'. get_field('testo_codice_corso').'</h3><div class="textwidget"><p class="color__white">'. get_field(strip_tags('codice_corso')).'</p></div> </div>';
+echo '<div class="block"><h3 class="color__white">'. get_field('testo_codice_corso').'</h3><div class="textwidget"><p class="color__white">'. get_field('codice_corso').'</p></div> </div>';
     }
 		 ?>
 
 
-                    <?php
+                <?php
 				if ( get_field( 'key_facts' ) ) {
 					echo '<div class="block"><h3 class="color__white">' . get_field( 'key_facts' ) . '</h3><div class="textwidget"><p class="color__white">' . get_field( 'campo_key_facts' ) . '</p></div> </div>';
 				}
 
 				?>
 
-                    <div class="block">
-                        <div class="textwidget">
-                            <?php
+                <div class="block">
+                    <div class="textwidget">
+                        <?php
                        if ( get_field( 'brochure' ) ) {
 						echo '<span>' . get_field( 'brochure' ) . '</span>';
 						   
 					}
 					?>
 
-                        </div>
                     </div>
-
                 </div>
-                <!-- questa riga quando c'è lo scroll -->
+
             </div>
+            <!-- questa riga quando c'è lo scroll -->
         </div>
+    </div>
 </div>
