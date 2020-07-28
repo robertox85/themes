@@ -8,9 +8,15 @@ if ( !defined('ABSPATH')) exit;
  */
 wp_enqueue_style('Bootstrap_Styles','https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css');
 get_header(2017); 
-
-
 ?>
+
+<style>
+    @media (min-width: 1200px) {
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1440px;
+}
+    }
+</style>
 
 
 <header id="content-title" class="wide-row">
