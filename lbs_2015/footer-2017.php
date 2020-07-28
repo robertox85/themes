@@ -28,8 +28,8 @@ $current_blog_id = get_query_var( 'current_blog_id' );
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="footer-logos" style="width:100%">
-                        <h3 class="color__blue mb-32 mt-48"><?php echo $certificazioni_riconoscimenti[ICL_LANGUAGE_CODE]; ?></h3>
+                    <div class="footer-logos">
+                        <h3 class="color__blue mb-48 mt-48"><?php echo $certificazioni_riconoscimenti[ICL_LANGUAGE_CODE]; ?></h3>
                         <ul style="display:flex; flex-direction: row; justify-content: space-between; flex-wrap: wrap;">
                             <li class="equis"><a href="<?php echo site_url() ?>/perche-luiss-bs/certificazioni-e-riconoscimenti/" target="_blank">Equis</a></li>
                             <li><a href="<?php echo site_url() ?>/perche-luiss-bs/certificazioni-e-riconoscimenti/" target="_blank"><img src="<?php echo site_url() ?>/wp-content/uploads/2018/01/ISO_9001_2015_BW.jpg" alt="Azienda con sistema di Gestione qualità certificato da DNV GL iISO 9001" class="img-responsive" /></a></li>
@@ -52,7 +52,7 @@ $current_blog_id = get_query_var( 'current_blog_id' );
         <div class="container-fluid">
             <div class="row" style="background-image:url(<?php echo get_stylesheet_directory_uri() ?>/pco/images/social-wall-bg.png);background-repat:no-repeat;background-size:cover;backgroun-position:center">
                 <div class="col-xs-12">
-                    <h3 class="text-center pt-128 pb-24">Social Wall</h3>
+                    <h3 class="text-center mt-80 mb-48">Social Wall</h3>
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
@@ -69,7 +69,7 @@ $current_blog_id = get_query_var( 'current_blog_id' );
         <?php endif; ?>
         <div class="container-fluid footer_container">
             <div class="container">
-                <div class="row pt-128 pb-24" style="border-bottom: 1px solid #fff;">
+                <div class="row pt-80 pb-24" style="border-bottom: 1px solid #fff;">
                     <div class="col-xs-12 col-md-8 px-0">
                         <!-- Begin Mailchimp Signup Form -->
                         <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
