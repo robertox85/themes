@@ -316,6 +316,7 @@ if (!(empty($events))) {
                     
                     .box-event-title h6 {
                         font-weight: normal !important;
+                        line-height: 1.6rem !important;
                     }
                     
                     .row-flex {
