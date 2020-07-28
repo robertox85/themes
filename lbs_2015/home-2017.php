@@ -160,7 +160,7 @@ _4 = Programmi Executive
 _5 = Programmi Custom - N.B. EDITARE IN PAGINA AL POSTO DI PHD
 _6 = Programmi di alta formazione - non utilizzato
             <!-- Box MBA -->
-            <div class="col-md-6 mb-32">
+            <div class="col-md-6 mb-32 card-course">
                 <h2 class="color__green"><?php echo get_field('home_launch_box_title_2'); ?></h2>
                 <p class="big"><?php echo get_field('home_launch_box_excerpt_2'); ?></p>
                 <!-- Pulsanti -->
@@ -172,7 +172,7 @@ _6 = Programmi di alta formazione - non utilizzato
             </div>
 
             <!-- Box Master -->
-            <div class="col-md-6 mb-32">
+            <div class="col-md-6 mb-32 card-course">
                 <h2 class="color__red"><?php echo get_field('home_launch_box_title_3'); ?></h2>
                 <p class="big"><?php echo get_field('home_launch_box_excerpt_3'); ?></p>
                 <!-- Pulsanti -->
@@ -184,19 +184,19 @@ _6 = Programmi di alta formazione - non utilizzato
             </div>
 
             <!-- Box Programmi Executive -->
-            <div class="col-md-6">
-                <h2 class="color__lightblue"><?php echo get_field('home_launch_box_title_4'); ?></h2>
+            <div class="col-md-6 card-course">
+                <h2 class="color__light_blue"><?php echo get_field('home_launch_box_title_4'); ?></h2>
                 <p class="big"><?php echo get_field('home_launch_box_excerpt_4'); ?></p>
                 <!-- Pulsanti -->
                 <div class="row">
                     <div class="col-xs-12">
-                        <a class="button button__primary bg__light-blue" href="<?php echo get_field('home_launch_box_url_4'); ?>">Scopri</a>
+                        <a class="button button__primary bg__light_blue" href="<?php echo get_field('home_launch_box_url_4'); ?>">Scopri</a>
                     </div>
                 </div>
             </div>
 
             <!-- Box Programmi Custom -->
-            <div class="col-md-6">
+            <div class="col-md-6 card-course">
                 <h2 class="color__orange"><?php echo get_field('home_launch_box_title_5'); ?></h2>
                 <p class="big"><?php echo get_field('home_launch_box_excerpt_5'); ?></p>
                 <!-- Pulsanti -->
@@ -309,6 +309,20 @@ if (!(empty($events))) {
  ?>
                 
                 <style>
+                    
+                    .card-course {
+                        min-height: 410px;
+                        border: 1px solid;
+                    }
+                    
+                    .card-course h2 {
+                        text-transform: lowercase;
+                    }
+                    
+                    .card-course h2:first-letter {
+                        text-transform: uppercase;
+                    }
+                    
                     .box-event-date {
                         border: 1px solid var(--current-color);
                         text-transform: uppercase !important;
