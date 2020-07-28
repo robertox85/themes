@@ -27,9 +27,9 @@ $current_blog_id = get_query_var( 'current_blog_id' );
     <div class="footer my-0 py-0">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 mb-48 mt-48">
                     <div class="footer-logos">
-                        <h3 class="color__blue mb-48 mt-48"><?php echo $certificazioni_riconoscimenti[ICL_LANGUAGE_CODE]; ?></h3>
+                        <h3 class="color__blue pb-48"><?php echo $certificazioni_riconoscimenti[ICL_LANGUAGE_CODE]; ?></h3>
                         <ul style="display:flex; flex-direction: row; justify-content: space-between; flex-wrap: wrap;">
                             <li class="equis"><a href="<?php echo site_url() ?>/perche-luiss-bs/certificazioni-e-riconoscimenti/" target="_blank">Equis</a></li>
                             <li><a href="<?php echo site_url() ?>/perche-luiss-bs/certificazioni-e-riconoscimenti/" target="_blank"><img src="<?php echo site_url() ?>/wp-content/uploads/2018/01/ISO_9001_2015_BW.jpg" alt="Azienda con sistema di Gestione qualità certificato da DNV GL iISO 9001" class="img-responsive" /></a></li>
