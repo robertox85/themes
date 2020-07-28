@@ -259,7 +259,7 @@ if (!(empty($news))) {
  ?>
                 <article itemscope itemtype="http://schema.org/Article">
                     <div class="row d-flex flex-row align-items-center justify-content-between my-16 px-16">
-                        <div class="col-xs-4">
+                        <div class="col-xs-4 p-0">
                             <span itemscope itemtype='http://schema.org/ImageObject'>
                                 <?php 
 	$img_attr = array(
