@@ -326,16 +326,17 @@ if (!(empty($events))) {
 		$finder_form_action['it'] = '/offerta-formativa/course-finder/';
 		$finder_form_action['en'] = '/en/programs/course-finder/';	
 		?>
-                <div class="finder-text">
-                    <p class="finder-description"><?php echo $finder_description[ICL_LANGUAGE_CODE]; ?></p>
+                <div class="row">
+                <div class="col-xs-12">
+                    <p class="big"><?php echo $finder_description[ICL_LANGUAGE_CODE]; ?></p>
                     <form id="form-course-finder" action="<?php echo $finder_form_action[ICL_LANGUAGE_CODE] ?>" method="get">
                         <ul>
                             <?php 
 			
 			$selected_taxonomies =array('lingue','lunghezza_corsi','tematiche');
 			$custom_taxonomies = corsi_get_taxonomies($selected_taxonomies);
-			$choose_label['it']='scegli';
-			$choose_label['en']='choose';
+			$choose_label['it']='Scegli';
+			$choose_label['en']='Choose';
  foreach ($custom_taxonomies as $taxonomy) {  ?>
                             <li>
                                 <label for="<?php echo $taxonomy[ICL_LANGUAGE_CODE]['name'] ?>"><?php echo $taxonomy[ICL_LANGUAGE_CODE]['label'] ?></label>
@@ -359,8 +360,9 @@ if (!(empty($events))) {
                             </li>
                             <?php } // END foreach ?>
                         </ul>
-                        <button class="finder-send-button" type="submit"><?php echo $finder_button_button_send[ICL_LANGUAGE_CODE]; ?></button>
+                        <button class="" type="submit"><?php echo $finder_button_button_send[ICL_LANGUAGE_CODE]; ?></button>
                     </form>
+                    </div>
                 </div>
             </div>
         </div>
