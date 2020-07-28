@@ -318,9 +318,23 @@ if (!(empty($events))) {
                         font-weight: normal !important;
                     }
                     
+                    .row-flex {
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap:wrap;
+                    }
+                    
+                    .align-items-center {
+                        align-items: center;
+                    }
+                    
+                    .justify-content-between {
+                        justify-content: space-between;
+                    }
+                    
                 </style>
                 <article itemscope itemtype="http://schema.org/Article">
-                    <div class="row d-flex flex-row align-items-center justify-content-between">
+                    <div class="row d-flex align-items-center justify-content-between">
                         <div class="col-xs-4 bg__white box-event-date px-24 py-8">
                             <h6><?php echo get_date($data_inizio,"events",ICL_LANGUAGE_CODE) ?></h6>
                         </div>
