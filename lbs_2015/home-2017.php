@@ -348,18 +348,24 @@ if (!(empty($events))) {
                     
                     .card-course-big {
                         border: 1px solid;
+                        position:relative;
 }
                     
                     .card-course-big:before {
-                        content: '';
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 48px;
-  height: 48px;
-  background-color: #003A70;
-  -webkit-mask-image: url("images/pattern.svg");
-          mask-image: url("images/pattern.svg");
+                       content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 410px;
+    background-color: rgba(0,58,112,.1);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center center;
+    -webkit-mask-size: cover;
+    -webkit-mask-image: url(wp-content/themes/lbs_2015/pco/images/pattern.svg);
+                        mask-image: url(wp-content/themes/lbs_2015/pco/images/pattern.svg);
+                        mask-repeat: no-repeat;
+    mask-position: center center;
+    mask-size: cover;
                     }
 
                     
