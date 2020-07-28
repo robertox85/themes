@@ -311,7 +311,7 @@ if (!(empty($events))) {
                 <style>
                     .box-event-date {
                         border: 1px solid var(--current-color);
-                text-transform: uppercase !important;
+                        text-transform: uppercase !important;
                     }
                     
                     .box-event-title h6 {
@@ -320,7 +320,7 @@ if (!(empty($events))) {
                     
                 </style>
                 <article itemscope itemtype="http://schema.org/Article">
-                    <div class="row">
+                    <div class="row d-flex flex-row align-items-center justify-content-between">
                         <div class="col-xs-4 bg__white box-event-date px-24 py-8">
                             <h6><?php echo get_date($data_inizio,"events",ICL_LANGUAGE_CODE) ?></h6>
                         </div>
