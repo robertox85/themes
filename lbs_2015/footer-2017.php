@@ -29,8 +29,8 @@ $current_blog_id = get_query_var( 'current_blog_id' );
             <div class="row">
                 <div class="col-md-12">
                     <div class="footer-logos" style="width:100%">
-                        <h3 class="color__blue mb-20 mt-132"><?php echo $certificazioni_riconoscimenti[ICL_LANGUAGE_CODE]; ?></h3>
-                        <ul style="display:flex;justify-content: space-between">
+                        <h3 class="color__blue mb-32 mt-128"><?php echo $certificazioni_riconoscimenti[ICL_LANGUAGE_CODE]; ?></h3>
+                        <ul style="display:flex; flex-direction: row; justify-content: space-between; flex-wrap: wrap;">
                             <li class="equis"><a href="<?php echo site_url() ?>/perche-luiss-bs/certificazioni-e-riconoscimenti/" target="_blank">Equis</a></li>
                             <li><a href="<?php echo site_url() ?>/perche-luiss-bs/certificazioni-e-riconoscimenti/" target="_blank"><img src="<?php echo site_url() ?>/wp-content/uploads/2018/01/ISO_9001_2015_BW.jpg" alt="Azienda con sistema di Gestione qualità certificato da DNV GL iISO 9001" class="img-responsive" /></a></li>
                             <li> <a href="<?php echo site_url() ?>/perche-luiss-bs/certificazioni-e-riconoscimenti/" target="_blank"><img src="<?php echo site_url() ?>/wp-content/uploads/2015/05/asfor-ordinario-footer-bw.jpg" alt="LUISS Business School è socio ASFOR (Associazione per la Formazione alla Direzione Aziendale)." width="100" class="img-responsive" /></a></li>
