@@ -345,6 +345,7 @@ if (!(empty($events))) {
                         }
                     
                                         }
+                    
                     .card-course-big {
                         border: 1px solid;
 }
@@ -361,8 +362,6 @@ if (!(empty($events))) {
           mask-image: url("images/pattern.svg");
                     }
 
-
-                    }
                     
                     .card-course-big h2 {
                         text-transform: lowercase;
