@@ -13297,6 +13297,23 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
 }
 
 
+.carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    margin-right: 0px;
+    margin-left: 0px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: var(--current-color);
+    border: 0;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+
+
 @media screen and (min-width: 768px) {
 
     .display-desk {

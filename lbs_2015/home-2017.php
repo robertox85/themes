@@ -146,9 +146,9 @@ $img_link_mob_2['en'] = get_stylesheet_directory_uri() . '/pco/images/meet-us-on
                 </div>
             </div>
             <!-- Indicatori -->
-            <ol class="carousel-indicators" style="left:50%; top: 100%">
-                <li data-target="#myCarousel" data-slide-to="0" class="active" style="border: 1px solid #feba4d;"></li>
-                <li data-target="#myCarousel" data-slide-to="1" style="border: 1px solid #feba4d;"></li>
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
             </ol>
         </div>
     </div>
