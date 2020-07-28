@@ -13301,8 +13301,8 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
     box-sizing: content-box;
     -ms-flex: 0 1 auto;
     flex: 0 1 auto;
-    width: 30px;
-    height: 3px;
+    width: 160px;
+    height: 8px;
     margin-right: 0px;
     margin-left: 0px;
     text-indent: -999px;
@@ -13311,6 +13311,15 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
     border: 0;
     opacity: .5;
     transition: opacity .6s ease;
+    border-radius: 0;
+}
+
+.carousel-indicators .active {
+    margin: 0;
+    width: 160px;
+    height: 8px;
+    background-color: var(--current-color);
+    border-radius: 0;
 }
 
 
