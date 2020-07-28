@@ -13342,6 +13342,13 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
         display: none !important;
     }
 
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    width: 100%;
+    background-position: center top;
+    background-size: cover;
+    height: 70vh;
+    object-fit: cover;
 
 }
 
