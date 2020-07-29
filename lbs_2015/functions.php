@@ -1157,7 +1157,9 @@ add_action('init', 'my_init');  */
 function pco_style()
 {
     wp_enqueue_style('pco_hamburger', get_stylesheet_directory_uri() . '/pco/vendor/hamburger/hamburgers.min.css', array(), time(), 'all' );
+    if(is_page_template(array('corso.php', 'home-2017.php'))) {
     wp_enqueue_style('pco_style', get_stylesheet_directory_uri() . '/pco/main.css', array(), time(), 'all' );
+        }
     wp_enqueue_script('pco_script', get_stylesheet_directory_uri() . '/pco/script.js', array(), time(), true );
 
 }
