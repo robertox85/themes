@@ -13143,6 +13143,11 @@ h6 {
   color: var(--current-color);
 }
 
+.button.arr {
+    display: block;
+    text-align:center;
+}
+
 .textwidget .arr {
   border: 1px solid var(--current-color);
   color: var(--current-color);
@@ -13163,6 +13168,7 @@ h6 {
     font-family: 'Luiss Sans';
     margin: 24px 0;
     display: block;
+    text-align:center;
 }
 
 
