@@ -257,7 +257,7 @@ bloginfo('name');
                         </div>
                         <div class="col-xs-4 col-sm-4 col-md-4" id="logo">
                             <a href="https://businessschool.luiss.it" title="Home page">
-                                <img src="https://businessschool.luiss.it/wp-content/themes/master_2017/img/logo-new.png"
+                                <img src="/wp-content/themes/master_2017/img/logo-new.png"
                                     alt="Luiss Business School Logo" id="logo-img" />
                             </a>
                         </div>
@@ -292,7 +292,7 @@ bloginfo('name');
                         </a> 
 
                         <a class="col-xs-8 mx-24 mx-md-0" href="https://businessschool.luiss.it" title="Home page">
-                            <img src="https://businessschool.luiss.it/wp-content/themes/master_2017/img/logo-new.png"
+                            <img src="/wp-content/themes/master_2017/img/logo-new.png"
                                 alt="Luiss Business School Logo" id="logo-img" />
                         </a>
 

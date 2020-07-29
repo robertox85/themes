@@ -62,12 +62,12 @@ Creation Date: 12/20/2018
 	    <div class="container">
 	        <div class="row">
                 <div class="col-xs-12">
-	            <h1><?php the_title();?></h1>
+	            <h1 class="color__white"><?php the_title();?></h1>
                 </div>
 	        </div>
 	        <div class="row">
 	            <div class="col-md-6">
-	                <p>Come here to be challenged. Leave ready to take on the most important challenges of our time. At LUISS Business School, we create wise leaders who aspire to MAKE the difference in the world of business and beyond. Join us.</p>
+	                <p class="color__white">Come here to be challenged. Leave ready to take on the most important challenges of our time. At LUISS Business School, we create wise leaders who aspire to MAKE the difference in the world of business and beyond. Join us.</p>
 	                <a href="https://www.youtube.com/watch?v=7VuI-HXka6s&feature=emb_title">Watch the video</a>
 	            </div>
 	            <div class="col-md-6">
