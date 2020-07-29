@@ -38,7 +38,7 @@
 
                     <?php
                     if ( get_field( 'key_facts' ) ) {
-					echo '<div class="block pr-16  pr-lg-48"><p class="color__white text-uppercase p-0 mt-lg-32 mb-lg-16 mt-16 mb-8">' . get_field( 'key_facts' ) . '</p><div class="textwidget"><p class="big color__white mt-0 mb-32"><strong>' . get_field('campo_key_facts') . '</strong></p></div> </div>'; }
+					echo '<div class="block pr-16  pr-lg-48"><p class="color__white text-uppercase p-0 mt-lg-32 mb-lg-16 mt-16 mb-8">' . get_field( 'key_facts' ) . '</p><div class="textwidget correction">' . get_field('campo_key_facts') . '</div> </div>'; }
                     ?>
             </div>
             <!-- questa riga quando c'è lo scroll -->
