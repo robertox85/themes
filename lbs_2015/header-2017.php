@@ -74,6 +74,12 @@ obApi('track', 'PAGE_VIEW');
 <link href="<?php bloginfo('template_directory');?>/style_2017.css" rel="stylesheet">
 <link rel='stylesheet' id='Googge_Web_Font_Oswald-css'  href='https://fonts.googleapis.com/css?family=Oswald' type='text/css' media='all' />
 <?php wp_head();?>
+    
+    
+<!--FONTAWESOME -->
+    
+<script src="https://kit.fontawesome.com/e49ea6f2fb.js" crossorigin="anonymous"></script>
+    
 </head>
 <!-- <body class="home page-template page-template-home page-template-home-php page">-->
 <body <?php body_class();?>>
