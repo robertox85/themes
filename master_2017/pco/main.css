@@ -12959,6 +12959,7 @@ body.theme-blue .colonna_key_facts .colonna_key_facts-container {
 }
 
 body.theme-blue .colonna_key_facts .colonna_key_facts-container .block h3 {
+  font-family: 'Luiss Sans', sans-serif !important;
   text-transform: uppercase;
 }
 
@@ -13801,6 +13802,7 @@ body.theme-light_blue .colonna_key_facts .colonna_key_facts-container {
 }
 
 body.theme-light_blue .colonna_key_facts .colonna_key_facts-container .block h3 {
+  font-family: 'Luiss Sans', sans-serif !important;
   text-transform: uppercase;
 }
 
@@ -14643,6 +14645,7 @@ body.theme-green .colonna_key_facts .colonna_key_facts-container {
 }
 
 body.theme-green .colonna_key_facts .colonna_key_facts-container .block h3 {
+  font-family: 'Luiss Sans', sans-serif !important;
   text-transform: uppercase;
 }
 
@@ -15485,6 +15488,7 @@ body.theme-red .colonna_key_facts .colonna_key_facts-container {
 }
 
 body.theme-red .colonna_key_facts .colonna_key_facts-container .block h3 {
+  font-family: 'Luiss Sans', sans-serif !important;
   text-transform: uppercase;
 }
 
@@ -16327,6 +16331,7 @@ body.theme-orange .colonna_key_facts .colonna_key_facts-container {
 }
 
 body.theme-orange .colonna_key_facts .colonna_key_facts-container .block h3 {
+  font-family: 'Luiss Sans', sans-serif !important;
   text-transform: uppercase;
 }
 
@@ -17169,6 +17174,7 @@ body.theme-gold .colonna_key_facts .colonna_key_facts-container {
 }
 
 body.theme-gold .colonna_key_facts .colonna_key_facts-container .block h3 {
+  font-family: 'Luiss Sans', sans-serif !important;
   text-transform: uppercase;
 }
 
