@@ -13157,6 +13157,8 @@ font-weight: bold;
   transition: 0.3s;
   font-weight: bold !important;
   font-family: 'Luiss Sans';
+    margin: 24px 0;
+    width: 100%;
 }
 
 .keyfacts-box .button.arr, .keyfacts-box .arr {
