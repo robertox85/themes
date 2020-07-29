@@ -1,5 +1,5 @@
 <div class="container">
-    <div class="row py-24">
+    <div class="row pt-32 pb-16">
         <div class="col-xs-12 col-lg-8 w-100 keyfacts-box">
             <h5 class="color__white">Key Facts</h5>
             <div class="d-flex flex-row flex-lg-nowrap flex-wrap justify-content-start align-items-start align-items-lg-center">
