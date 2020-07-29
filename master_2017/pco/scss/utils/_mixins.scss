@@ -108,9 +108,14 @@
       .sub-menu {
         background-color: $white;
         column-gap: 0;
-        li a {
-          background-color: $white;
-          color: $blue;
+        li{
+          &:not(:hover){
+            background-color: $white;
+            a {
+              background-color: $white!important;
+              color: $blue;
+            }
+          }
         }
       }
 
