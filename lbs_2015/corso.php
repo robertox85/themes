@@ -88,8 +88,8 @@ $accounting = has_term( 'accounting-finance-control', 'tematiche' );
 
 
 <div class="container-fluid px-0 box-cover
-            <?php if($executive_cat) : ?>
-            bg__light_blue
+            <?php if($accounting) : ?>
+            accounting-cover
             <?php else : ?>
             bg__blue
             <?php endif; ?>
