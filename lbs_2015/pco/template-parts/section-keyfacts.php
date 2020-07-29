@@ -28,7 +28,7 @@ wp_enqueue_style('Bootstrap_Styles','https://stackpath.bootstrapcdn.com/bootstra
 		
 		 if(get_field('veneto')) { echo '<div class="block"><p class="color__white text-uppercase p-0 mt-32 mb-16">' . get_field('veneto') . '</p>';}
 			
-	if (get_field('data_veneto')) {  echo '<div class="textwidget"><h6 class="color__white mt-0 mb-32"' . $date_v->format('d/m/Y') . '</h6></div> </div>';}
+	if (get_field('data_veneto')) {  echo '<div class="textwidget"><h6 class="color__white mt-0 mb-32"' . $date_v->format('d M Y') . '</h6></div> </div>';}
 		
 			
 	//if(get_field('data_inizio_testuale')) { echo'' . get_field('data_inizio_testuale') .'';}
