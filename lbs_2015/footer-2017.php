@@ -28,7 +28,7 @@ $current_blog_id = get_query_var( 'current_blog_id' );
         <div class="container">
             <div class="row">
                 <div class="col-md-12 mb-48 mt-48">
-                    <div class="footer-logos">
+                    <div class="footer-logos w-100">
                         <h3 class="color__blue pb-48"><?php echo $certificazioni_riconoscimenti[ICL_LANGUAGE_CODE]; ?></h3>
                         <ul style="display:flex; flex-direction: row; justify-content: space-between; flex-wrap: wrap;">
                             <li class="equis"><a href="<?php echo site_url() ?>/perche-luiss-bs/certificazioni-e-riconoscimenti/" target="_blank">Equis</a></li>
