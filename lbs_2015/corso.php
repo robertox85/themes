@@ -107,7 +107,7 @@ get_header(2017);
 	        </div>
 	    </div>
     </div>
-    <div class="container-fluid px-0 box-cover
+    <div class="container-fluid px-0
             <?php if($executive_cat) : ?>
             bg__light_blue
             <?php else : ?>
@@ -122,7 +122,7 @@ get_header(2017);
     <p><?php edit_post_link('<strong>Modifica Pagina</strong>', ''); ?></p>
     <div class="row">
         <main id="main" role="main" class="col-xs-12 col-md-8" >
-            <div id="page-content" class="pr-md-48 pr-0">
+            <div id="page-content" class="pt-0 pb-80 pr-md-48 pr-0">
                 <?php while ( have_posts() ) : the_post(); ?>
                 <?php the_content(''); ?>
                 <?php endwhile; // end of the loop. ?>
@@ -133,7 +133,7 @@ get_header(2017);
                 <?php   
      if (get_field('contatti') || get_field('contatti_campo'));
 	 echo '<div class="">';
-	 echo '<h3>'.get_field('contatti').'</h3><div class="textwidget">';
+	 echo '<h3 class="mt-32 mb-16">'.get_field('contatti').'</h3><div class="textwidget">';
 	 echo get_field('contatti_campo');
      echo '</div></div>';
  ?>
