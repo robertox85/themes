@@ -91,7 +91,7 @@ $accounting = has_term( 'accounting-finance-control', 'tematiche' );
             <?php if($accounting) : ?>
             accounting-cover
             <?php elseif($lobbying) : ?>
-            governance-cover
+            lobbying-cover
             <?php elseif($governance) : ?>
             governance-cover
             <?php elseif($healthcare) : ?>
