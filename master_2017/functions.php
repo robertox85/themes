@@ -301,12 +301,27 @@ function theme_color_class( $classes ) {
     
     $blog_id = get_current_blog_id();
     $color   = get_theme_mod( 'theme_color' );
-
-    if ( !empty(get_theme_mod( 'theme_color' )) ) {
-        $classes[] = get_theme_mod( 'theme_color' );
+    
+    
+    
+    if($blog_id == 51){
+        $classes[] = 'theme-green'; // mba verde
+    }elseif($blog_id == 61){
+        $classes[] = 'theme-red'; // Digi mar rosso
+    }elseif($blog_id == 68){
+        $classes[] = 'theme-light_blue'; // leader azzurro
     }else{
         $classes[] = 'theme-blue';
     }
+
+
+
+    // if ( !empty(get_theme_mod( 'theme_color' )) ) {
+    //     $classes[] = get_theme_mod( 'theme_color' );
+    // }else{
+    //     $classes[] = 'theme-blue';
+    // }
+
     return $classes;
 }
 
