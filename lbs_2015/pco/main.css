@@ -13499,3 +13499,12 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
 .sport-cover {
     background-image: url('images/executive-areas/EX-Sport-Tourism-Leisure-Culture.jpg');
 }  
+
+/* KEY FACTS CORREZIONI */
+
+.textwidget h6.color__white p {
+                        color: #fff;
+                        font-weight: bold;
+                        font-size: calc(1.3125rem + 0.75vw);
+                        line-height: 1.875rem;
+                    }
