@@ -45,7 +45,7 @@
     }
     #menu-main li{
       font-family: 'Luiss Sans', sans-serif !important;
-    font-weight: normal;
+      font-weight: normal;
     }
     @media (max-width: 1040px) {
       #menu-main li a {
@@ -54,16 +54,8 @@
         color: #fff;
         float: none;
         border-bottom: 1px solid $blue;
-        background: #fff;
+        background: #fff!important;
       }
-    }
-    .site-main h3 {
-      margin-bottom: rem(30px);
-      margin-top: rem(50px);
-    }
-
-    #site-canvas {
-      transform: none;
     }
 
     @media (max-width: 1040px) {
@@ -136,6 +128,50 @@
         height: auto;
       }
     }
+
+
+    #masthead,
+    #nav-main,
+    #content-title,
+    #breadcrumb-top,
+    #header-master,
+    #nav-main,
+    #content-title {
+      background: transparent;
+    }
+
+    #breadcrumb-top.fixed .breadcrumb,
+    #breadcrumb-top.fixed {
+      background: $white;
+    }
+
+    #main a,
+    .breadcrumb a,
+    #secondary-nav a {
+      color: $blue;
+    }
+    #menu-main {
+      #menu-item-25941,
+      #menu-item-34570 {
+        display: none;
+      }
+    }
+
+
+    .site-main h3 {
+      margin-bottom: rem(30px);
+      margin-top: rem(50px);
+    }
+
+    #site-canvas {
+      transform: none;
+    }
+
+    #accordion-curriculum .panel-accordion{
+      margin-bottom: rem(32px);
+    }
+
+    
     .share {
       .meta {
         margin-right: rem(36px);
@@ -147,7 +183,7 @@
         margin: 0;
       }
     }
-
+    
     .accordion-toggle.collapsed::before {
       display: none;
     }
@@ -278,32 +314,7 @@
       }
     }
 
-    #masthead,
-    #nav-main,
-    #content-title,
-    #breadcrumb-top,
-    #header-master,
-    #nav-main,
-    #content-title {
-      background: transparent;
-    }
-
-    #breadcrumb-top.fixed .breadcrumb,
-    #breadcrumb-top.fixed {
-      background: $white;
-    }
-
-    #main a,
-    .breadcrumb a,
-    #secondary-nav a {
-      color: $blue;
-    }
-    #menu-main {
-      #menu-item-25941,
-      #menu-item-34570 {
-        display: none;
-      }
-    }
+    
 
     .select {
       padding: 10px 15px;
