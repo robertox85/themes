@@ -1,6 +1,6 @@
 <div class="container">
     <div class="row py-24">
-        <div class="col-xs-12 col-md-8 w-100 keyfacts-box">
+        <div class="col-xs-12 col-lg-8 w-100 keyfacts-box">
             <h5 class="color__white">Key Facts</h5>
             <div class="d-flex flex-lg-row flex-column justify-content-between align-items-start justify-content-lg-between align-items-lg-center">
                 <?php  
@@ -42,7 +42,7 @@
             </div>
             <!-- questa riga quando c'è lo scroll -->
         </div>
-         <div class="col-xs-12 col-md-4 block">
+         <div class="col-xs-12 col-lg-4 block">
                         <div class="share_links">
                 <?php get_template_part('pco/template-parts/content', 'share')?>
             </div>
