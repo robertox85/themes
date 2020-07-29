@@ -336,6 +336,10 @@ p.big {
   p.big {
     font-size: 1.5rem;
   }
+
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1440px;
+}
 }
 
 a.small,
