@@ -13524,6 +13524,11 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
     height: 70vh;
     object-fit: cover;
   }
+    
+    .keyfacts-box .block {
+        width:50%;
+    }
+    
 }
 
 @media screen and (max-width: 991px) {
