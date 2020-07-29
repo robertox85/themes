@@ -16,13 +16,13 @@ wp_enqueue_style('Bootstrap_Styles','https://stackpath.bootstrapcdn.com/bootstra
 		
 	 if(get_field('testo_inizio')) { echo '<div class="block"><p class="color__white text-uppercase p-0 mt-32 mb-16">' . get_field('testo_inizio') . '</p>';}
 			
-	if (get_field('data_inizio')) {  echo '<div class="textwidget"><h6 class="color__white mt-0 mb-32">' . $date->format('d/m/Y') . '</h6></div> </div>';}
+	if (get_field('data_inizio')) {  echo '<div class="textwidget"><h6 class="color__white mt-0 mb-32">' . $date->format('d M Y') . '</h6></div> </div>';}
 		
 		  $date_m = DateTime::createFromFormat('Ymd', get_field('data_fine'));	
 		
 		 if(get_field('data_inizio_testuale')) { echo '<div class="block"><p class="color__white text-uppercase p-0 mt-32 mb-16">' . get_field('data_inizio_testuale') . '</p>';}
 			
-	if (get_field('data_fine')) {  echo '<div class="textwidget"><h6 class="color__white mt-0 mb-32"' . $date_m->format('d M Y') . '</h6></div> </div>';}
+	       if (get_field('data_fine')) {  echo '<div class="textwidget"><h6 class="color__white mt-0 mb-32"' . $date_m->format('d M Y') . '</h6></div> </div>';}
 		
 		  $date_v = DateTime::createFromFormat('Ymd', get_field('data_veneto'));	
 		
