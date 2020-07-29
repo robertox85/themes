@@ -10,7 +10,7 @@
   
 	  $date = DateTime::createFromFormat('Ymd', get_field('data_inizio'));	
 		
-	 if(get_field('testo_inizio')) { echo '<div class="block"><h6 class="color__white">' . get_field('testo_inizio') . '</h6>';}
+	 if(get_field('testo_inizio')) { echo '<div class="block"><h6 class="color__white text-uppercase">' . get_field('testo_inizio') . '</h6>';}
 			
 	if (get_field('data_inizio')) {  echo '<div class="textwidget"><p class="color__white">' . $date->format('d/m/Y') . '</p></div> </div>';}
 		
