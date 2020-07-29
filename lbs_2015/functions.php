@@ -1161,7 +1161,7 @@ function pco_style()
         'corso.php',
         'home-2017.php',
         'offerta-2017.php',
-        'master.php',
+        //'master.php',
         'mba.php',
         'executive-program-2018.php',
         'taxonomy-afc-2018.php',
