@@ -11,7 +11,8 @@
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba($color: $blue, $alpha: .8); /* Black w/ opacity */
-
+  z-index: 101;
+  
   .modal-header {
     border: 0;
     border-radius: 0;
@@ -180,7 +181,7 @@
     }
 
   }
-
+  
   .modal-content {
     border-radius: 0;
     border-color: $blue !important;
@@ -189,7 +190,7 @@
     margin: auto;
     
     border: 1px solid #888;
-    width: 80%;
+    width: 95%;
 
     padding: rem(48px);
 

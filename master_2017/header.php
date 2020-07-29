@@ -291,7 +291,7 @@ bloginfo('name');
                           </span>
                         </a> 
 
-                        <a class="col-xs-8" href="https://businessschool.luiss.it" title="Home page">
+                        <a class="col-xs-8 mx-24 mx-md-0" href="https://businessschool.luiss.it" title="Home page">
                             <img src="https://businessschool.luiss.it/wp-content/themes/master_2017/img/logo-new.png"
                                 alt="Luiss Business School Logo" id="logo-img" />
                         </a>

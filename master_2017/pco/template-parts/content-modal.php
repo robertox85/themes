@@ -35,12 +35,12 @@ foreach ($pages as $page) {
 
 <script>
 	jQuery(document).ready(function ($) {
-		$(".colonna_key_facts-container .featured-links").on("click", function (e) {
+		$(".colonna_key_facts .featured-links").on("click", function (e) {
 			e.preventDefault();
 			$("#downloadBrochure").show();
 			$("#downloadBrochure").addClass("in");
-		});
-
+        });
+      
 		$(".modal-header .button").on("click", function (e) {
 			e.preventDefault();
 			$("#downloadBrochure").hide();

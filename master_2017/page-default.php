@@ -63,15 +63,15 @@ get_template_part( 'pco/template-parts/content', 'keyfacts' );
     <div class="row">
         <nav class="col-lg-3 pl-lg-0">
 
-		
-			<?php
+
+            <?php
 			
-			wp_nav_menu(array(
-				'menu' => 'Master',
-				'container_class' => 'd-block d-lg-none text-center pt-32',
-				'walker'         => new Walker_Nav_Menu_Dropdown(),
-				'items_wrap'     => '<select class="select w-100"><option disabled selected>Seleziona</option>%3$s</select>',
-			  ));
+								wp_nav_menu(array(
+									'menu' => 'Master',
+									'container_class' => 'd-block d-lg-none text-center pt-32',
+									'walker'         => new Walker_Nav_Menu_Dropdown(),
+									'items_wrap'     => '<select class="select w-100"><option disabled selected>Seleziona</option>%3$s</select>',
+								));
 			  
 
 								wp_nav_menu(array(
@@ -93,9 +93,15 @@ get_template_part( 'pco/template-parts/content', 'keyfacts' );
                 <?php }?>
 
                 <?php if(is_page('executive-experience')): ?>
-				<p>L’offerta formativa Executive Education della Luiss Business School, si caratterizza per un approccio metodologico fortemente interattivo ed esperienziale che coinvolge il partecipante ben oltre la didattica tradizionale.</p>
+                <p>L’offerta formativa Executive Education della Luiss Business School, si caratterizza per un approccio
+                    metodologico fortemente interattivo ed esperienziale che coinvolge il partecipante ben oltre la
+                    didattica tradizionale.</p>
 
-				<p>L’esperienza di apprendimento è costruita intorno alla persona, con l’obiettivo di ampliarne il network, e promuoverne lo sviluppo professionale e personale, fornendo strumenti immediatamente applicabili nel proprio contesto organizzativo per coglierne in maniera efficace le sfide. Ad ogni percorso di apprendimento sono associati attività e servizi che si sviluppano, prima, durante e dopo la fase di aula.</p>
+                <p>L’esperienza di apprendimento è costruita intorno alla persona, con l’obiettivo di ampliarne il
+                    network, e promuoverne lo sviluppo professionale e personale, fornendo strumenti immediatamente
+                    applicabili nel proprio contesto organizzativo per coglierne in maniera efficace le sfide. Ad ogni
+                    percorso di apprendimento sono associati attività e servizi che si sviluppano, prima, durante e dopo
+                    la fase di aula.</p>
                 <?php 
 						$i = 0;
 						$array = array(
@@ -147,72 +153,74 @@ get_template_part( 'pco/template-parts/content', 'keyfacts' );
 
 					?>
 
-				<?php foreach($array as $area):  
+                <?php foreach($array as $area):  
 					$area_id = strtolower(str_replace(' ','_',$area['area']));
 					
 					?>
-                <div class="panel-group accordion" id="<?php echo $area_id ?>"
-                    role="tablist" aria-multiselectable="true">
+                <div class="panel-group accordion" id="<?php echo $area_id ?>" role="tablist"
+                    aria-multiselectable="true">
                     <h2 class="h2"><?php echo $area['area'] ?></h2>
                     <?php if(isset($area['programmi'])): ?>
-						<?php foreach($area['programmi'] as $programma): 
+                    <?php foreach($area['programmi'] as $programma): 
 							$expanded = ($i == 0) ? 'true':'false';
 							$in = ($i == 0) ? 'in':'';
 							$collapsed = ($i == 0) ? '':'collapsed';
 							?>
-							<div class="panel-accordion mt-32">
-								<div class="panel-heading" role="tab" id="headingOne">
-									<h6 class="panel-title">
-										<a role="button" data-toggle="collapse" data-parent="#<?php echo $area_id ?>"
-											href="#accordion-content-<?php echo $i ?>" aria-expanded="<?php echo $expanded  ?>" aria-controls="accordion-content-<?php echo $i ?>"
-											class="accordion-toggle <?php echo $collapsed ?>">
-											<!-- Titolo -->
-											<img class="mr-48" src="<?php echo $programma['icona'] ?>" alt="" width="100" height="100"> <?php echo $programma['titolo'] ?>
-										</a>
-									</h6>
-								</div>
-								<div id="accordion-content-<?php echo $i ?>" class="panel-collapse collapse <?php echo $in ?>" role="tabpanel"
-									aria-labelledby="headingOne">
-									<div class="panel-body">
+                    <div class="panel-accordion mt-32">
+                        <div class="panel-heading" role="tab" id="headingOne">
+                            <h6 class="panel-title">
+                                <a role="button" data-toggle="collapse" data-parent="#<?php echo $area_id ?>"
+                                    href="#accordion-content-<?php echo $i ?>" aria-expanded="<?php echo $expanded  ?>"
+                                    aria-controls="accordion-content-<?php echo $i ?>"
+                                    class="accordion-toggle <?php echo $collapsed ?>">
+                                    <!-- Titolo -->
+                                    <img class="mr-48" src="<?php echo $programma['icona'] ?>" alt="" width="100"
+                                        height="100"> <?php echo $programma['titolo'] ?>
+                                </a>
+                            </h6>
+                        </div>
+                        <div id="accordion-content-<?php echo $i ?>" class="panel-collapse collapse <?php echo $in ?>"
+                            role="tabpanel" aria-labelledby="headingOne">
+                            <div class="panel-body">
 
-										<!-- Contenuto -->
-										<?php echo $programma['contenuto'] ?>
+                                <!-- Contenuto -->
+                                <?php echo $programma['contenuto'] ?>
 
-									</div>
-								</div>
-							</div>
-						<?php 
+                            </div>
+                        </div>
+                    </div>
+                    <?php 
 						$i++; 
 						endforeach; ?>
                     <?php endif; ?>
                 </div>
                 <?php endforeach; ?>
-                
-						
-            
-            <?php else: ?>
-				<?php the_content('');?>
-            <?php endif; ?>
-
-    
-    <p>
-        <?php edit_post_link('<strong>Modifica Pagina</strong>', '');?>
-    </p>
-    </main>
-
-    <aside class="col-lg-3 space sidebar-master">
-
-        <?php get_sidebar();?>
-
-    </aside>
-
-    <div class="col-md-1 col-sm-1 nopadding"></div>
-
-</div>
 
 
 
-<div class="clearfix"></div>
+                <?php else: ?>
+                <?php the_content('');?>
+                <?php endif; ?>
+
+
+                <p>
+                    <?php edit_post_link('<strong>Modifica Pagina</strong>', '');?>
+                </p>
+        </main>
+
+        <aside class="col-lg-3 space sidebar-master">
+
+            <?php get_sidebar();?>
+
+        </aside>
+
+        <div class="col-md-1 col-sm-1 nopadding"></div>
+
+    </div>
+
+
+
+    <div class="clearfix"></div>
 </div>
 <!--END .container -->
 <?php endwhile; // end of the loop. ?>
