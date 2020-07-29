@@ -78,7 +78,7 @@ Creation Date: 12/20/2018
 	        <!-- CONTENUTO -->
 	        <div class="tab-content" id="ProgramType">
 	            <!-- ROMA -->
-	            <div class="tab-pane fade active in show" id="roma" role="tabpanel" aria-labelledby="roma-tab">
+	            <div class="tab-pane fade active in show show" id="roma" role="tabpanel" aria-labelledby="roma-tab">
 	                <div class="row">
 	                    <div class="col-xs-12 col-lg-8">
 	                        <h2><?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></h2>
