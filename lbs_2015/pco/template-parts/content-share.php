@@ -1,4 +1,4 @@
-<div class="row d-none d-lg-block">
+<div class="row d-none d-lg-block py-16 mx-0 mb-16" style="border-bottom: 1px solid #fff;">
     <div class="col-md-12 p-24 d-flex flex-row justify-content-between align-items-center">
         <p class="w-25 m-0 color__white text-uppercase">Share</p>
         <ul class="m-0 w-75 list-unstyled d-flex flex-row justify-content-between align-items-center">
