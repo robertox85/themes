@@ -13652,7 +13652,7 @@ body.theme-blue #menu-main {
 }
 
 body.theme-blue #menu-main li:hover a {
-  background-color: #003A70;
+  background-color: #003A70!important;
   color: #ffffff;
 }
 
@@ -13711,4 +13711,13 @@ body.theme-blue #secondary-nav a {
 body.theme-blue #menu-main #menu-item-25941,
 body.theme-blue #menu-main #menu-item-34570 {
   display: none;
+}
+
+body.theme-blue .lang_selector li a {
+  color: #003A70;
+}
+
+body.theme-blue .lang_selector li a.active {
+  border-bottom: 1px solid #003A70;
+  background-color: transparent !important;
 }
