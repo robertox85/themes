@@ -13581,8 +13581,16 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-background-color: rgba(0,58,112,.3);
+    background-color: rgba(0,58,112,.3);
     background-blend-mode: multiply;
+}
+
+.box-cover-light_blue {
+    background: #0077C8 !important;
+    background: linear-gradient(30deg, #0077c8 0%, rgba(0, 119, 200, 0) 100%) !important;
+}
+
+
 }
 
 /* IMG EXECUTIVE */
