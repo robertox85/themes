@@ -13581,14 +13581,11 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-    height:100%;
 }
 
 .box-cover-off::before {
-    content:"";
-    background-color: rgba(0,58,112,1);
-    background-blend-mode: multiply;
-    height: 100%;
+    content:'';
+    background-color: rgba(0,58,112,.5);
     position: absolute;
     top:0;
     left:0;
