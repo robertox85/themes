@@ -1,5 +1,7 @@
 /*! HEADER */
-.hamburger-inner,
+body.theme-blue{
+
+  .hamburger-inner,
 .hamburger-inner:after,
 .hamburger-inner:before {
   background-color: $blue;
@@ -115,4 +117,7 @@
   #menu-item-34570 {
     display: none;
   }
+}
+
+
 }
