@@ -5,6 +5,10 @@ body.theme-blue {
   .hamburger-inner:before {
     background-color: $blue;
   }
+
+  .hamburger.is-active .hamburger-inner, .hamburger.is-active .hamburger-inner:after, .hamburger.is-active .hamburger-inner:before{
+    background-color: $blue;
+  }
   #menu-main li {
     font-family: 'Luiss Sans', sans-serif !important;
     font-weight: normal;
