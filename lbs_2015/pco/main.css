@@ -13602,6 +13602,10 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
   background-position: center center;
 }
 
+.executive-cover {
+  background-image: url('images/executive-areas/programmi-executive.jpg');
+}
+
 .accounting-cover {
   background-image: url('images/executive-areas/EX-Accounting-Finance-Control.jpg');
 }

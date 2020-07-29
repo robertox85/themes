@@ -21,12 +21,7 @@ $sub_home_2b['en'] = '';
 
 <!-- Inizio Template -->
 
-<div class="container-fluid px-0 box-cover-off box-cover-light_blue d-flex flex-column align-items-start justify-content-center <?php if (has_post_thumbnail( $post->ID ) ): ?>
-                   header-pic" style="background-image: url('<?php echo get_the_post_thumbnail_url(); ?>');
-                   <?php else : ?>
-                   header-nopic
-                   <?php endif; ?>
-">
+<div class="container-fluid px-0 box-cover-off box-cover-light_blue d-flex flex-column align-items-start justify-content-center executive-cover">
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
