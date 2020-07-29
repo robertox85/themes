@@ -90,6 +90,26 @@ $accounting = has_term( 'accounting-finance-control', 'tematiche' );
 <div class="container-fluid px-0 box-cover
             <?php if($accounting) : ?>
             accounting-cover
+            <?php elseif($lobbying) : ?>
+            lobbyng-cover
+            <?php elseif($governance) : ?>
+            governance-cover
+            <?php elseif($healthcare) : ?>
+            healtcare-cover
+            <?php elseif($innovation) : ?>
+            innovation-cover
+            <?php elseif($family) : ?>
+            family-cover
+            <?php elseif($marketing) : ?>
+            marketing-cover
+            <?php elseif($people) : ?>
+            people-cover
+            <?php elseif($pm) : ?>
+            pm-cover
+            <?php elseif($real) : ?>
+            real-cover
+            <?php elseif($sport) : ?>
+            sport-cover
             <?php else : ?>
             bg__blue
             <?php endif; ?>
