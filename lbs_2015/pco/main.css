@@ -13574,6 +13574,15 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
   }
 }
 
+/* OFFERTA FORMATIVA */
+
+.box-cover-off {
+  min-height: 480px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 /* IMG EXECUTIVE */
 
 .box-cover {

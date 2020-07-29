@@ -47,7 +47,7 @@ Summer School (specialistici) - 133/134
 
 <!-- Inizio template -->
 
-<div class="container-fluid px-0  <?php if (has_post_thumbnail( $post->ID ) ): ?>
+<div class="container-fluid px-0 box-cover-off d-flex flex-column align-items-start justify-content-center <?php if (has_post_thumbnail( $post->ID ) ): ?>
                    header-pic" style="background-image: url('<?php echo get_the_post_thumbnail_url(); ?>');
                    <?php else : ?>
                    Header-nopic
