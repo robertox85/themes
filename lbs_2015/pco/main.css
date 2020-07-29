@@ -13583,6 +13583,17 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
   background-position: center center;
 }
 
+.box-cover-off::before {
+    content:'';
+    background-color: rgba(0,58,112,1);
+    background-blend-mode: multiply;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+
 /* IMG EXECUTIVE */
 
 .box-cover {
@@ -13649,7 +13660,6 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
 
 .intro p {
     color: #fff !important;
-    text-shadow: 0px 0px 30px rgba(0,58,112,1) !important;
 }
 
 
