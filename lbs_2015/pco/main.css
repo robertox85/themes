@@ -13137,12 +13137,42 @@ h6 {
 }
 
 .button.button__secondary,
-.button.arr {
+.button.arr,
+{
   border: 1px solid var(--current-color);
   color: var(--current-color);
 }
 
-.keyfacts-box .button.arr {
+.button.arr {
+    display: block;
+    text-align:center;
+}
+
+.textwidget .arr {
+  border: 1px solid var(--current-color);
+  color: var(--current-color);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    text-transform: uppercase;
+    outline: none;
+    padding: 16px 29px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    font-weight: bold !important;
+    font-family: 'Luiss Sans';
+    margin: 24px 0;
+    display: block;
+    text-align:center;
+}
+
+
+.keyfacts-box .button.arr, .keyfacts-box .arr {
   border: 1px solid #fff;
   color: var(--current-color);
   font-size: 1.5rem;
