@@ -13600,6 +13600,10 @@ body.theme-blue .hamburger-inner:before {
   background-color: #003A70;
 }
 
+body.theme-blue .hamburger.is-active .hamburger-inner, body.theme-blue .hamburger.is-active .hamburger-inner:after, body.theme-blue .hamburger.is-active .hamburger-inner:before {
+  background-color: #003A70;
+}
+
 body.theme-blue #menu-main li {
   font-family: 'Luiss Sans', sans-serif !important;
   font-weight: normal;
@@ -13652,7 +13656,7 @@ body.theme-blue #menu-main {
 }
 
 body.theme-blue #menu-main li:hover a {
-  background-color: #003A70!important;
+  background-color: #003A70;
   color: #ffffff;
 }
 
