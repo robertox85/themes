@@ -90,7 +90,7 @@ Creation Date: 12/20/2018
                         <h3><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></h3>
                         </div>
 	                    <!-- MASTER 34 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_34[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_34[ICL_LANGUAGE_CODE] ?></h6>
@@ -106,7 +106,7 @@ Creation Date: 12/20/2018
 	                    <!-- END MASTER 34 -->
                         
                         <!-- MASTER 21 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_21[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_21[ICL_LANGUAGE_CODE] ?></h6>
@@ -122,7 +122,7 @@ Creation Date: 12/20/2018
 	                    <!-- END MASTER 21 -->
                         
                         <!-- MASTER 14 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_14[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_14[ICL_LANGUAGE_CODE] ?></h6>
@@ -138,7 +138,7 @@ Creation Date: 12/20/2018
 	                    <!-- END MASTER 14 -->
                         
                         <!-- MASTER 15 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_15[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_15[ICL_LANGUAGE_CODE] ?></h6>
@@ -154,7 +154,7 @@ Creation Date: 12/20/2018
 	                    <!-- END MASTER 15 -->
                         
                         <!-- MASTER 16 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_16[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_16[ICL_LANGUAGE_CODE] ?></h6>
@@ -170,7 +170,7 @@ Creation Date: 12/20/2018
 	                    <!-- END MASTER 16 -->
                         
                         <!-- MASTER 6 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_6[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_6[ICL_LANGUAGE_CODE] ?></h6>
@@ -186,7 +186,7 @@ Creation Date: 12/20/2018
 	                    <!-- END MASTER 6 -->
                         
                         <!-- MASTER 4 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_4[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_4[ICL_LANGUAGE_CODE] ?></h6>
@@ -202,7 +202,7 @@ Creation Date: 12/20/2018
 	                    <!-- END MASTER 4 -->
                         
                         <!-- MASTER 5 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_5[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_5[ICL_LANGUAGE_CODE] ?></h6>
@@ -218,7 +218,7 @@ Creation Date: 12/20/2018
 	                    <!-- END MASTER 5 -->
                         
                         <!-- MASTER 8 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_8[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_8[ICL_LANGUAGE_CODE] ?></h6>
@@ -234,7 +234,7 @@ Creation Date: 12/20/2018
 	                    <!-- END MASTER 8 -->
                         
                         <!-- MASTER 3 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_3[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_3[ICL_LANGUAGE_CODE] ?></h6>
@@ -250,7 +250,7 @@ Creation Date: 12/20/2018
 	                    <!-- END MASTER 3 -->
                         
                         <!-- MASTER 37 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_37[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_37[ICL_LANGUAGE_CODE] ?></h6>
@@ -266,7 +266,7 @@ Creation Date: 12/20/2018
 	                    <!-- END MASTER 37 -->
                         
                         <!-- MASTER 22 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_22[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_22[ICL_LANGUAGE_CODE] ?></h6>
@@ -282,7 +282,7 @@ Creation Date: 12/20/2018
 	                    <!-- END MASTER 22 -->
                         
                         <!-- MASTER 1 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_1[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_1[ICL_LANGUAGE_CODE] ?></h6>
@@ -298,7 +298,7 @@ Creation Date: 12/20/2018
 	                    <!-- END MASTER 1 -->
                         
                         <!-- MASTER 9 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_9[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_9[ICL_LANGUAGE_CODE] ?></h6>
@@ -314,7 +314,7 @@ Creation Date: 12/20/2018
 	                    <!-- END MASTER 9 -->
                         
                         <!-- MASTER 10 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_10[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_10[ICL_LANGUAGE_CODE] ?></h6>
@@ -330,7 +330,7 @@ Creation Date: 12/20/2018
 	                    <!-- END MASTER 10 -->
                         
                         <!-- MASTER 11 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_11[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_11[ICL_LANGUAGE_CODE] ?></h6>
@@ -346,7 +346,7 @@ Creation Date: 12/20/2018
 	                    <!-- END MASTER 11 -->
                         
                         <!-- MASTER 32 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_32[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_32[ICL_LANGUAGE_CODE] ?></h6>
@@ -362,7 +362,7 @@ Creation Date: 12/20/2018
 	                    <!-- END MASTER 32 -->
                         
                         <!-- MASTER 31 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_31[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_31[ICL_LANGUAGE_CODE] ?></h6>
@@ -378,7 +378,7 @@ Creation Date: 12/20/2018
 	                    <!-- END MASTER 31 -->
                         
                         <!-- MASTER 25 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_25[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_25[ICL_LANGUAGE_CODE] ?></h6>
@@ -394,7 +394,7 @@ Creation Date: 12/20/2018
 	                    <!-- END MASTER 25 -->
                         
                         <!-- MASTER 29 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_29[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_29[ICL_LANGUAGE_CODE] ?></h6>
@@ -410,7 +410,7 @@ Creation Date: 12/20/2018
 	                    <!-- END MASTER 29 -->
                         
                         <!-- MASTER 27 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_27[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_27[ICL_LANGUAGE_CODE] ?></h6>
@@ -426,7 +426,7 @@ Creation Date: 12/20/2018
 	                    <!-- END MASTER 27 -->
                         
                         <!-- MASTER 30 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_30[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_30[ICL_LANGUAGE_CODE] ?></h6>
@@ -442,7 +442,7 @@ Creation Date: 12/20/2018
 	                    <!-- END MASTER 30 -->
                         
                         <!-- MASTER 38 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_38[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_38[ICL_LANGUAGE_CODE] ?></h6>
@@ -458,7 +458,7 @@ Creation Date: 12/20/2018
 	                    <!-- END MASTER 38 -->
                         
                         <!-- MASTER 41 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_41[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_41[ICL_LANGUAGE_CODE] ?></h6>
@@ -474,7 +474,7 @@ Creation Date: 12/20/2018
 	                    <!-- END MASTER 41 -->
                         
                         <!-- MASTER 39 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_39[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_39[ICL_LANGUAGE_CODE] ?></h6>
@@ -490,7 +490,7 @@ Creation Date: 12/20/2018
 	                    <!-- END MASTER 39 -->
                         
                         <!-- MASTER 40 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_40[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_40[ICL_LANGUAGE_CODE] ?></h6>
@@ -506,7 +506,7 @@ Creation Date: 12/20/2018
 	                    <!-- END MASTER 40 -->
                         
                         <!-- MASTER 42 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_42[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_42[ICL_LANGUAGE_CODE] ?></h6>
@@ -522,7 +522,7 @@ Creation Date: 12/20/2018
 	                    <!-- END MASTER 42 -->
                         
                         <!-- MASTER 19 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_19[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_19[ICL_LANGUAGE_CODE] ?></h6>
@@ -538,7 +538,7 @@ Creation Date: 12/20/2018
 	                    <!-- END MASTER 19 -->
                         
                         <!-- MASTER 20 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_20[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_20[ICL_LANGUAGE_CODE] ?></h6>
@@ -560,7 +560,7 @@ Creation Date: 12/20/2018
                         <h3><?php echo $secondo_livello[ICL_LANGUAGE_CODE] ?></h3>
                         </div>
                         <!-- MASTER 45 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $secondo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_45[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_45[ICL_LANGUAGE_CODE] ?></h6>
@@ -576,7 +576,7 @@ Creation Date: 12/20/2018
 	                    <!-- END MASTER 45 -->
                         
                         <!-- MASTER 50 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $secondo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_50[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_50[ICL_LANGUAGE_CODE] ?></h6>
@@ -592,7 +592,7 @@ Creation Date: 12/20/2018
 	                    <!-- END MASTER 50 -->
                         
                         <!-- MASTER 24 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $secondo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_24[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_24[ICL_LANGUAGE_CODE] ?></h6>
@@ -608,7 +608,7 @@ Creation Date: 12/20/2018
 	                    <!-- END MASTER 24 -->
                         
                         <!-- MASTER 46 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $secondo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_46[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_46[ICL_LANGUAGE_CODE] ?></h6>
@@ -624,7 +624,7 @@ Creation Date: 12/20/2018
 	                    <!-- END MASTER 46 -->
                         
                         <!-- MASTER 47 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $secondo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_47[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_47[ICL_LANGUAGE_CODE] ?></h6>
@@ -640,7 +640,7 @@ Creation Date: 12/20/2018
 	                    <!-- END MASTER 47 -->
                         
                         <!-- MASTER 48 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $secondo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_48[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_48[ICL_LANGUAGE_CODE] ?></h6>
@@ -656,7 +656,7 @@ Creation Date: 12/20/2018
 	                    <!-- END MASTER 48 -->
                         
                         <!-- MASTER 49 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $secondo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_49[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_49[ICL_LANGUAGE_CODE] ?></h6>
@@ -672,7 +672,7 @@ Creation Date: 12/20/2018
 	                    <!-- END MASTER 49 -->
                         
                         <!-- MASTER 44 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $secondo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_44[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_44[ICL_LANGUAGE_CODE] ?></h6>
@@ -688,7 +688,7 @@ Creation Date: 12/20/2018
 	                    <!-- END MASTER 44 -->
                         
                         <!-- MASTER 43 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $secondo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_43[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_43[ICL_LANGUAGE_CODE] ?></h6>
@@ -711,7 +711,7 @@ Creation Date: 12/20/2018
                         <h3><?php echo $altaformazione[ICL_LANGUAGE_CODE] ?></h3>
                         </div>
                         <!-- PROGRAMMA A1 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $altaformazione[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_programma_a1[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_programma_a1[ICL_LANGUAGE_CODE] ?></h6>
@@ -727,7 +727,7 @@ Creation Date: 12/20/2018
 	                    <!-- END PROGRAMMA A1 -->
                         
                         <!-- PROGRAMMA A2 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $altaformazione[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_programma_a2[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_programma_a2[ICL_LANGUAGE_CODE] ?></h6>
@@ -743,7 +743,7 @@ Creation Date: 12/20/2018
 	                    <!-- END PROGRAMMA A2 -->
                         
                         <!-- PROGRAMMA A3 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $altaformazione[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_programma_a1[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_programma_a3[ICL_LANGUAGE_CODE] ?></h6>
@@ -759,7 +759,7 @@ Creation Date: 12/20/2018
 	                    <!-- END PROGRAMMA A3 -->
                         
                         <!-- PROGRAMMA A4 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $altaformazione[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_programma_a4[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_programma_a4[ICL_LANGUAGE_CODE] ?></h6>
@@ -792,7 +792,7 @@ Creation Date: 12/20/2018
                         <h3><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></h3>
                         </div>
                         <!-- MASTER 18 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_18[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_18[ICL_LANGUAGE_CODE] ?></h6>
@@ -808,7 +808,7 @@ Creation Date: 12/20/2018
 	                    <!-- END MASTER 18 -->
                         
                         <!-- MASTER 23 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_23[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_23[ICL_LANGUAGE_CODE] ?></h6>
@@ -824,7 +824,7 @@ Creation Date: 12/20/2018
 	                    <!-- END MASTER 23 -->
                         
                         <!-- MASTER 2 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_2[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_2[ICL_LANGUAGE_CODE] ?></h6>
@@ -840,7 +840,7 @@ Creation Date: 12/20/2018
 	                    <!-- END MASTER 2 -->
                         
                         <!-- MASTER 12 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_12[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_12[ICL_LANGUAGE_CODE] ?></h6>
@@ -856,7 +856,7 @@ Creation Date: 12/20/2018
 	                    <!-- END MASTER 12 -->
                         
                         <!-- MASTER 33 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_33[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_33[ICL_LANGUAGE_CODE] ?></h6>
@@ -872,7 +872,7 @@ Creation Date: 12/20/2018
 	                    <!-- END MASTER 33 -->
                         
                         <!-- MASTER 26 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_26[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_26[ICL_LANGUAGE_CODE] ?></h6>
@@ -906,7 +906,7 @@ Creation Date: 12/20/2018
                         </div>
                         
                         <!-- MASTER 17 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_17[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_17[ICL_LANGUAGE_CODE] ?></h6>
@@ -922,7 +922,7 @@ Creation Date: 12/20/2018
 	                    <!-- END MASTER 17 -->
                         
                         <!-- MASTER 7 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_7[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_7[ICL_LANGUAGE_CODE] ?></h6>
@@ -938,7 +938,7 @@ Creation Date: 12/20/2018
 	                    <!-- END MASTER 7 -->
                         
                         <!-- MASTER 36 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_36[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_36[ICL_LANGUAGE_CODE] ?></h6>
@@ -954,7 +954,7 @@ Creation Date: 12/20/2018
 	                    <!-- END MASTER 36 -->
                         
                         <!-- MASTER 13 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_13[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_13[ICL_LANGUAGE_CODE] ?></h6>
@@ -970,7 +970,7 @@ Creation Date: 12/20/2018
 	                    <!-- END MASTER 13 -->
                         
                         <!-- MASTER 28 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_master_28[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_master_28[ICL_LANGUAGE_CODE] ?></h6>

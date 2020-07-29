@@ -47,10 +47,25 @@ $sub_home['en'] = 'Based on team working and action learning, our teaching devel
 	</div>
 
 <div class="container">
-<div class="row">
+<div class="row d-flex flex-row flex-wrap justify-content-between align-items-center px-0">
+    
+    <style>
+.card-course-small {
+    width: 30%;
+    min-height: 410px;
+    border: 1px solid;
+  }
+        
+        @media screen and (max-width: 1199px) {
+          .card-course-small {
+    width: 47%;
+  }  
+                       
+        }
+</style>
     
 <!-- MBA 1 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $mba[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_mba_1[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_mba_1[ICL_LANGUAGE_CODE] ?></h6>
@@ -66,7 +81,7 @@ $sub_home['en'] = 'Based on team working and action learning, our teaching devel
 	                    <!-- END MBA 1 -->
     
     <!-- MBA 2 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $mba[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_mba_2[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_mba_2[ICL_LANGUAGE_CODE] ?></h6>
@@ -82,7 +97,7 @@ $sub_home['en'] = 'Based on team working and action learning, our teaching devel
 	                    <!-- END MBA 2 -->
     
     <!-- MBA 3 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $mba[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_mba_3[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_mba_3[ICL_LANGUAGE_CODE] ?></h6>
@@ -98,7 +113,7 @@ $sub_home['en'] = 'Based on team working and action learning, our teaching devel
 	                    <!-- END MBA 3 -->
     
     <!-- MBA 4 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $mba[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_mba_4[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_mba_4[ICL_LANGUAGE_CODE] ?></h6>
@@ -114,7 +129,7 @@ $sub_home['en'] = 'Based on team working and action learning, our teaching devel
 	                    <!-- END MBA 4 -->
     
     <!-- MBA 5 -->
-	                    <div class="col-md-4 col-sm-6">
+	                    <div class="card-course-small p-24 m-16">
 	                        <span><?php echo $mba[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6><?php echo $titolo_mba_5[ICL_LANGUAGE_CODE] ?>
 	                            <br /><?php echo $sottotitolo_mba_5[ICL_LANGUAGE_CODE] ?></h6>

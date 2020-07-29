@@ -4,6 +4,12 @@
     min-height: 410px;
     border: 1px solid;
   }
+    
+    
+ @media screen and (max-width: 1199px) {
+          .card-course-small {
+    width: 47%;
+  }  
 </style>
 
 <div class="card-course-small p-24 m-16">
