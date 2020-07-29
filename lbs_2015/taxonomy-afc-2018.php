@@ -99,7 +99,7 @@ Summer School (specialistici) - 133/134
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="row d-flex flex-row flex-wrap justify-content-between align-items-center px-0">
                     <?php
 			$query_tax_value = 131;
 			$tax_query = array();
@@ -173,7 +173,7 @@ Summer School (specialistici) - 133/134
                         <p><?php echo get_field('campo_executive_program') ?></p>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row d-flex flex-row flex-wrap justify-content-between align-items-center px-0">
                     <?php
 			$query_tax_value = 25;
 			$tax_query = array();
@@ -236,7 +236,7 @@ Summer School (specialistici) - 133/134
 
             <!-- FLEX -->
             <div class="tab-pane p-4 fade" id="exflexprogrammes" role="tabpanel" aria-labelledby="exflexprogrammes-tab">
-                <div class="row">
+                <div class="row d-flex flex-row flex-wrap justify-content-between align-items-center px-0">
                     <div class="col-12 col-lg-8">
                         <h2><?php echo $executive_flex_label[ICL_LANGUAGE_CODE] ?></h2>
                         <p>Lorem ipsum dolor</p>
@@ -306,7 +306,7 @@ Summer School (specialistici) - 133/134
 
             <!-- COURSES -->
             <div class="tab-pane p-4 fade" id="excourses" role="tabpanel" aria-labelledby="excourses-tab">
-                <div class="row">
+                <div class="row d-flex flex-row flex-wrap justify-content-between align-items-center px-0">
                     <div class="col-12 col-lg-8">
                         <h2><?php echo $executive_course_label[ICL_LANGUAGE_CODE] ?></h2>
                         <p><?php echo get_field('campo_short_course') ?></p>

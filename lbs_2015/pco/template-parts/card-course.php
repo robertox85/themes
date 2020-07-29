@@ -1,4 +1,12 @@
-<div class="col-md-4 col-sm-6">
+<style>
+.card-course-small {
+    width: 30%;
+    min-height: 410px;
+    border: 1px solid;
+  }
+</style>
+
+<div class="card-course-small p-24 m-16">
     <span><?php the_terms($post->ID, 'lunghezza_corsi', $before = '', $sep = ', ', $after = '' ); ?></span>
 
     <h6><?php the_title(); ?></h6>

@@ -100,7 +100,7 @@ Summer School (specialistici) - 133
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="row d-flex flex-row flex-wrap justify-content-between align-items-center px-0">
                     <?php
 			$query_tax_value = 131;
 			$tax_query = array();
@@ -174,7 +174,7 @@ Summer School (specialistici) - 133
                         <p><?php echo get_field('campo_executive_program') ?></p>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row d-flex flex-row flex-wrap justify-content-between align-items-center px-0">
                     <?php
 			$query_tax_value = 25;
 			$tax_query = array();
@@ -243,7 +243,7 @@ Summer School (specialistici) - 133
                         <p>Lorem ipsum dolor</p>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row d-flex flex-row flex-wrap justify-content-between align-items-center px-0">
                     <?php
 			$query_tax_value = 154;
 			$tax_query = array();
@@ -314,7 +314,7 @@ Summer School (specialistici) - 133
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="row d-flex flex-row flex-wrap justify-content-between align-items-center px-0">
                     <?php
 			$query_tax_value = 26;
 			$tax_query = array();
