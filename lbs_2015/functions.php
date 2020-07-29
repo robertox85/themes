@@ -1166,9 +1166,7 @@ add_action('wp_enqueue_scripts', 'pco_style');
 
 add_filter( 'body_class', 'theme_color_class' );
 function theme_color_class( $classes ) {
-    if ( get_theme_mod( 'theme_color' ) ) {
-        $classes[] = 'theme-blue';
-    }
+    $classes[] = 'theme-blue';
     return $classes;
 }
 
