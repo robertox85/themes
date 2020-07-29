@@ -13602,6 +13602,11 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
   background-position: center center;
 }
 
+.flex-cover {
+    background-image: url('images/flex-programme.jpg');
+    min-height: 150px !important;
+}
+
 .executive-cover {
   background-image: url('images/programmi-executive.jpg');
 }

@@ -71,8 +71,8 @@ $executive_programme_label[ 'en' ] = 'Executive Programmes';
 ?>
 
 <?php $executive_flex_label = array();
-$executive_flex_label[ 'it' ] = 'Executive Flex Programme';
-$executive_flex_label[ 'en' ] = 'Executive Flex Programmes';
+$executive_flex_label[ 'it' ] = 'Flex Executive Programme';
+$executive_flex_label[ 'en' ] = 'Flex Executive Programmes';
 ?>
 
 <?php $executive_course_label = array();
