@@ -1157,8 +1157,27 @@ add_action('init', 'my_init');  */
 function pco_style()
 {
     wp_enqueue_style('pco_hamburger', get_stylesheet_directory_uri() . '/pco/vendor/hamburger/hamburgers.min.css', array(), time(), 'all' );
-    if(is_page_template(array('corso.php', 'home-2017.php'))) {
+    if(is_page_template(array(
+        'corso.php',
+        'home-2017.php',
+        'offerta-2017.php',
+        'master.php',
+        'mba.php',
+        'executive-program-2018.php',
+        'taxonomy-afc-2018.php',
+        'taxonomy-banche-2018.php',
+        'taxonomy-flex-2018.php',
+        'taxonomy-lobyng-2018.php',
+        'taxonomy-management-2018.php',
+        'taxonomy-taxonomy-project-2018.php',
+        'taxonomy-real-2018.php',
+        'taxonomy-sanita-2018.php',
+        'axonomy-soft-2018.php',
+        'taxonomy-sport-2018.php',
+        'taxonomy-tax-2018.php',
+    ))) {
     wp_enqueue_style('pco_style', get_stylesheet_directory_uri() . '/pco/main.css', array(), time(), 'all' );
+    wp_enqueue_style('bootstrap_style', get_stylesheet_directory_uri() . '/pco/bootstrap.css', array(), time(), 'all' );
         }
     wp_enqueue_script('pco_script', get_stylesheet_directory_uri() . '/pco/script.js', array(), time(), true );
 
