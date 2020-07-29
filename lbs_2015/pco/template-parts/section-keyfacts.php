@@ -10,28 +10,28 @@
   
 	  $date = DateTime::createFromFormat('Ymd', get_field('data_inizio'));	
 		
-	 if(get_field('testo_inizio')) { echo '<div class="block"><h6 class="color__white text-uppercase">' . get_field('testo_inizio') . '</h6>';}
+	 if(get_field('testo_inizio')) { echo '<div class="block"><p class="color__white">' . get_field('testo_inizio') . '</p>';}
 			
-	if (get_field('data_inizio')) {  echo '<div class="textwidget"><p class="color__white">' . $date->format('d/m/Y') . '</p></div> </div>';}
+	if (get_field('data_inizio')) {  echo '<div class="textwidget"><h6 class="color__white">' . $date->format('d/m/Y') . '</h6></div> </div>';}
 		
 		  $date_m = DateTime::createFromFormat('Ymd', get_field('data_fine'));	
 		
-		 if(get_field('data_inizio_testuale')) { echo '<div class="block"><h6 class="color__white">' . get_field('data_inizio_testuale') . '</h6>';}
+		 if(get_field('data_inizio_testuale')) { echo '<div class="block"><p class="color__white">' . get_field('data_inizio_testuale') . '</p>';}
 			
-	if (get_field('data_fine')) {  echo '<div class="textwidget"><p class="color__white">' . $date_m->format('d/m/Y') . '</p></div> </div>';}
+	if (get_field('data_fine')) {  echo '<div class="textwidget"><h6 class="color__white">' . $date_m->format('d/m/Y') . '</h6></div> </div>';}
 		
 		  $date_v = DateTime::createFromFormat('Ymd', get_field('data_veneto'));	
 		
-		 if(get_field('veneto')) { echo '<div class="block"><h6 class="color__white">' . get_field('veneto') . '</h6>';}
+		 if(get_field('veneto')) { echo '<div class="block"><p class="color__white">' . get_field('veneto') . '</p>';}
 			
-	if (get_field('data_veneto')) {  echo '<div class="textwidget"><p class="color__white">' . $date_v->format('d/m/Y') . '</p></div> </div>';}
+	if (get_field('data_veneto')) {  echo '<div class="textwidget"><h6 class="color__white">' . $date_v->format('d/m/Y') . '</h6></div> </div>';}
 		
 			
 	//if(get_field('data_inizio_testuale')) { echo'' . get_field('data_inizio_testuale') .'';}
 	
 				if(get_field('titolo_costo'))
 	{
-echo '<div class="block"><h6 class="color__white">'. get_field('titolo_costo').'</h6><div class="textwidget"><p>'. get_field('costo').'</p></div> </div>';
+echo '<div class="block"><p class="color__white">'. get_field('titolo_costo').'</p><div class="textwidget"><h6>'. get_field('costo').'</h6></div> </div>';
     }
 			
 			 if(get_field('titolo_durata')) { echo '<div class="block"><h6 class="color__white">'. get_field('titolo_durata').'</h6>' ; }
