@@ -38,6 +38,14 @@
                 
                     ?>
 
+                <style>
+                    .textwidget h6.color__white p {
+                        color: #fff;
+                        font-weight: bold;
+                        font-size: calc(1.3125rem + 0.75vw);
+                        line-height: 1.875rem;
+                    }
+                </style>
                     <?php
                     if ( get_field( 'key_facts' ) ) {
 					echo '<div class="block"><p class="color__white text-uppercase p-0 mt-32 mb-16">' . get_field( 'key_facts' ) . '</p><div class="textwidget"><h6 class="color__white mt-0 mb-32">' . get_field('campo_key_facts') . '</h6></div> </div>'; }
