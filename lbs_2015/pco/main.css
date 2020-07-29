@@ -13054,7 +13054,7 @@ h6 {
     color: var(--current-color);
 }
 
-#keyfacts-box .button.arr {
+.keyfacts-box .button.arr {
     border: 1px solid #fff;
     color: var(--current-color);
     font-size: 1.5rem;

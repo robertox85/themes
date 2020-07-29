@@ -1,6 +1,6 @@
 <div class="container">
     <div class="row">
-        <div class="col-xs-12 col-md-8 py-16 w-100" id="keyfacts-box">
+        <div class="col-xs-12 col-md-8 py-16 w-100 keyfacts-box">
             <h5 class="color__white">Key Facts</h5>
             <div class="d-flex flex-lg-row flex-column justify-content-between align-items-start justify-content-lg-between align-items-lg-center">
                 <?php  
@@ -46,7 +46,7 @@
                         <div class="share_links">
                 <?php get_template_part('pco/template-parts/content', 'share')?>
             </div>
-                        <div class="textwidget">
+                        <div class="textwidget keyfacts-box">
                         <?php
                         if ( get_field( 'brochure' ) ) {
 				        echo '<span>' . get_field( 'brochure' ) . '</span>'; } ?>
