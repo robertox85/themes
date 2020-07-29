@@ -33,14 +33,14 @@ $sub_home['en'] = 'Based on team working and action learning, our teaching devel
 	    <div class="container">
 	        <div class="row">
                 <div class="col-xs-12 color__white">
-	            <h1><?php the_title();?></h1>
+	            <div class="col-xs-12 col-lg-8"><h1 class="color__white"><?php the_title();?></h1></div>
                 </div>
 	        </div>
 	        <div class="row">
-	            <div class="col-md-6">
+	            <div class="col-md-6 intro">
 	                <p class="color__white"><?php echo $sub_home[ICL_LANGUAGE_CODE] ?></p>
 	            </div>
-	            <div class="col-md-6">
+	            <div class="col-md-6 intro">
 	            </div>
 	        </div>
 	    </div>

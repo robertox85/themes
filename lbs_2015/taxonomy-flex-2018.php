@@ -50,13 +50,13 @@ Summer School (specialistici) - 133/134
 <div class="container-fluid px-0 box-cover-off d-flex flex-column align-items-start justify-content-center flex-cover bg__light_blue">
     <div class="container">
         <div class="row">
-            <h1><?php the_title();?></h1>
+            <div class="col-xs-12 col-lg-8"><h1 class="color__white"><?php the_title();?></h1></div>
         </div>
         <div class="row">
-            <div class="col-md-6">
-                <p><?php echo get_field('intro_left') ?></p>
+            <div class="col-md-6 intro">
+                <p class="color__white"><?php echo get_field('intro_left') ?></p>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 intro">
                 <p><?php echo get_field('intro_right') ?></p>
             </div>
         </div>

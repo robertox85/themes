@@ -13636,7 +13636,7 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
   background-image: url('images/executive-areas/EX-Sport-Tourism-Leisure-Culture.jpg');
 }
 
-/* KEY FACTS CORREZIONI */
+/* CORREZIONI */
 
 .textwidget.correction p {
     color: #fff;
@@ -13645,6 +13645,10 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
     line-height: 2rem;
     margin-top: 0px;
     margin-bottom: 32px;
+}
+
+.into p {
+    color: #fff;
 }
 
 

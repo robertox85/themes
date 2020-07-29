@@ -66,11 +66,11 @@ Creation Date: 12/20/2018
                 </div>
 	        </div>
 	        <div class="row">
-	            <div class="col-md-6">
+	            <div class="col-md-6 intro">
 	                <p class="color__white">Come here to be challenged. Leave ready to take on the most important challenges of our time. At LUISS Business School, we create wise leaders who aspire to MAKE the difference in the world of business and beyond. Join us.</p>
 	                <a href="https://www.youtube.com/watch?v=7VuI-HXka6s&feature=emb_title">Watch the video</a>
 	            </div>
-	            <div class="col-md-6">
+	            <div class="col-md-6 intro">
 	            </div>
 	        </div>
 	    </div>

@@ -34,10 +34,10 @@ $sub_home_2b['en'] = '';
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 intro">
                 <p class="color__white"><?php echo $sub_home[ICL_LANGUAGE_CODE] ?></p>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 intro">
             </div>
         </div>
     </div>
