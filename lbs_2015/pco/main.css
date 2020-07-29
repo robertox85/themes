@@ -13663,6 +13663,8 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
 
 .intro p {
     color: #fff !important;
+    font-size: calc(1.275rem + 0.3vw);
+    line-height: 2rem;
 }
 
 
