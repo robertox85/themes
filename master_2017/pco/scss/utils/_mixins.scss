@@ -94,7 +94,7 @@
       li {
         &:hover {
           a {
-            background-color: $blue;
+            background-color: $blue!important;
             color: $white;
           }
         }
@@ -155,6 +155,14 @@
       #menu-item-34570 {
         display: none;
       }
+    }
+
+    .lang_selector li a{
+      color: $blue;
+    }
+    .lang_selector li a.active{
+      border-bottom: 1px solid $blue;
+      background-color: transparent!important;
     }
 
 
