@@ -13141,6 +13141,22 @@ h6 {
 .arr {
   border: 1px solid var(--current-color);
   color: var(--current-color);
+font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  text-transform: uppercase;
+  outline: none;
+  padding: 16px 29px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-weight: bold !important;
+  font-family: 'Luiss Sans';
 }
 
 .keyfacts-box .button.arr, .keyfacts-box .arr {
