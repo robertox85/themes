@@ -13615,7 +13615,7 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
 
 /* KEY FACTS CORREZIONI */
 
-.textwidget p.big.color__white p {
+.textwidget.correction p {
   color: #fff;
   font-weight: bold;
 font-size: calc(1.275rem + 0.3vw);
