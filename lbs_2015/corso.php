@@ -110,6 +110,8 @@ get_header(2017);
     <div class="container-fluid px-0
             <?php if($executive_cat) : ?>
             bg__light_blue
+            <?php elseif($corso_cat) : ?>
+            bg__red
             <?php else : ?>
             bg__blue
             <?php endif; ?>
