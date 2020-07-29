@@ -89,7 +89,7 @@ wp_nav_menu(array(
         <main id="main" class="site-main site-master col-lg-6 col-md-6" role="main">
             <div id="page-content" class="columns  space">
 
-                <h2><?php echo the_title(); ?></h2>
+                    <h2 class="page-title"><?php echo the_title(); ?></h2>
 
 
 
@@ -589,8 +589,10 @@ wp_nav_menu(array(
 </main>
 <?php endwhile; // end of the loop. ?>
 <?php
-get_main_site_footer();
+//get_main_site_footer();
 ?>
+
+<?php get_footer() ?>
 
 <!-- MODAL -->
 <?php get_template_part('pco/template-parts/content', 'modal'); ?>

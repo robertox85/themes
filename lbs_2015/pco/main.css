@@ -13233,6 +13233,10 @@ body.theme-blue #menu-main .current-page-ancestor a {
   color: #fff;
 }
 
+body.theme-blue #menu-main li a{
+  font-size: 1rem;
+}
+
 body.theme-blue #menu-main .current-menu-item a {
   color: #cc8a00;
 }

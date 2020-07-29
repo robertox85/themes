@@ -36,7 +36,7 @@
 				<div class="container">
 					<div class="row">
 						<div id="mobile-menu-trigger"> <a class="main-menu-toggle menu-icon" title="apri il menu"> <span></span> </a> </div>
-						<div class="col-md-4" id="logo"><a href="<?php echo site_url(); ?>" title="Home page"><img src="<?php bloginfo('template_directory'); ?>/img/logo-home.png" alt="Luiss Business School Logo" id="logo-img" /></a>
+						<div class="col-md-4" id="logo"><a href="<?php echo site_url(); ?>" title="Home page"><img src="<?php get_stylesheet_directory_uri(); ?>/img/logo-home.png" alt="Luiss Business School Logo" id="logo-img" /></a>
 						</div>
 						<nav id="secondary-nav" class="col-md-6">
 							<ul>
@@ -84,7 +84,7 @@ wp_nav_menu(array(
 			<nav id="network-container-offcanvas">
 				<div class="container">
 					<div class="row">
-						<div class="large-centered columns" id="network-container-offcanvas-ul">
+						<div class="container" id="network-container-offcanvas-ul">
 							<div class="col-xs-6 col-sm-3">
 								<ul>
 									<li><a href="http://www.luissuniversitypress.it/">University Press</a>

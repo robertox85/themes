@@ -158,8 +158,7 @@ bloginfo('name');
                         </div>
                         <div class="col-xs-4 col-sm-4 col-md-4" id="logo">
                             <a href="https://businessschool.luiss.it" title="Home page">
-                                <img src="https://businessschool.luiss.it/wp-content/themes/master_2017/img/logo-new.png"
-                                    alt="Luiss Business School Logo" id="logo-img" />
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo-new-2.png" alt="Luiss Business School Logo" id="logo-img" />
                             </a>
                         </div>
                         <nav id="secondary-nav" class="col-md-6">
@@ -193,8 +192,7 @@ bloginfo('name');
                         </a> 
 
                         <a class="col-xs-8 mx-24 mx-md-0" href="https://businessschool.luiss.it" title="Home page">
-                            <img src="https://businessschool.luiss.it/wp-content/themes/master_2017/img/logo-new.png"
-                                alt="Luiss Business School Logo" id="logo-img" />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo-new-2.png" alt="Luiss Business School Logo" id="logo-img" />
                         </a>
 
                         <?php language_selector_flags();?>
@@ -203,7 +201,7 @@ bloginfo('name');
                 </div>
                 <!-- END .container -->
             </header>
-            
+
             <nav id="nav-main">
                 <div class="container">
                     <div class="row">
@@ -257,7 +255,7 @@ if (is_page_template('home-2017.php')) {
             <nav id="network-container-offcanvas">
                 <div class="container">
                     <div class="row">
-                        <div class="large-centered columns" id="network-container-offcanvas-ul">
+                        <div class="container" id="network-container-offcanvas-ul">
                             <div class="col-xs-6 col-sm-3">
                                 <ul>
                                     <li><a href="http://www.luissuniversitypress.it/">University Press</a></li>

@@ -12456,6 +12456,10 @@ body.theme-blue #menu-main li {
   font-weight: normal;
 }
 
+body.theme-blue #menu-main li > a {
+  font-size: 1rem;
+}
+
 @media (max-width: 1040px) {
   body.theme-blue #menu-main li a {
     display: block !important;
@@ -12750,6 +12754,8 @@ body.theme-blue .sidebar-master .block:last-child {
 }
 
 body.theme-blue .sidebar-master a.button {
+  font-family: 'Luiss Sans', sans-serif !important;
+  font-weight: normal;
   border: 1px solid #003A70;
   color: #003A70;
 }
@@ -12772,6 +12778,14 @@ body.theme-blue main.site-master h3 {
 body.theme-blue main.site-master h3::first-letter {
   text-transform: uppercase;
   /* Make the first letters uppercase      */
+}
+
+body.theme-blue .page-title {
+  text-transform: lowercase;
+}
+
+body.theme-blue .page-title::first-letter {
+  text-transform: uppercase;
 }
 
 body.theme-blue .select {
@@ -12868,11 +12882,15 @@ body.theme-blue .colonna_key_facts.fixed .colonna_key_facts-container .block:not
 body.theme-blue .colonna_key_facts .download-brocure {
   position: fixed;
   background-color: #003A70;
-  padding: 44px 24px 24px 32px;
+  padding: 12px;
   left: 0;
   bottom: 0;
   width: 100%;
   z-index: 100;
+}
+
+body.theme-blue .colonna_key_facts .download-brocure p {
+  margin-bottom: 0;
 }
 
 body.theme-blue .colonna_key_facts .download-brocure .block:not(:last-child) {
@@ -12894,7 +12912,7 @@ body.theme-blue .colonna_key_facts .download-brocure .block:last-child .button.f
   color: #003A70;
   font-size: 1rem;
   line-height: 1.75rem;
-  padding: 25px 70px;
+  padding: 18px 70px;
   margin-bottom: 0;
   margin-top: 16px;
   -webkit-transition: 0.3s;
@@ -13178,6 +13196,7 @@ body.theme-blue .footer #mc_embed_signup .button {
   vertical-align: inherit;
   white-space: inherit;
   width: inherit;
+  font-family: 'Luiss Sans', sans-serif !important;
 }
 
 body.theme-blue .footer .button {
@@ -13277,6 +13296,10 @@ body.theme-light_blue .hamburger.is-active .hamburger-inner, body.theme-light_bl
 body.theme-light_blue #menu-main li {
   font-family: 'Luiss Sans', sans-serif !important;
   font-weight: normal;
+}
+
+body.theme-light_blue #menu-main li > a {
+  font-size: 1rem;
 }
 
 @media (max-width: 1040px) {
@@ -13573,6 +13596,8 @@ body.theme-light_blue .sidebar-master .block:last-child {
 }
 
 body.theme-light_blue .sidebar-master a.button {
+  font-family: 'Luiss Sans', sans-serif !important;
+  font-weight: normal;
   border: 1px solid #0077C8;
   color: #0077C8;
 }
@@ -13595,6 +13620,14 @@ body.theme-light_blue main.site-master h3 {
 body.theme-light_blue main.site-master h3::first-letter {
   text-transform: uppercase;
   /* Make the first letters uppercase      */
+}
+
+body.theme-light_blue .page-title {
+  text-transform: lowercase;
+}
+
+body.theme-light_blue .page-title::first-letter {
+  text-transform: uppercase;
 }
 
 body.theme-light_blue .select {
@@ -13691,11 +13724,15 @@ body.theme-light_blue .colonna_key_facts.fixed .colonna_key_facts-container .blo
 body.theme-light_blue .colonna_key_facts .download-brocure {
   position: fixed;
   background-color: #0077C8;
-  padding: 44px 24px 24px 32px;
+  padding: 12px;
   left: 0;
   bottom: 0;
   width: 100%;
   z-index: 100;
+}
+
+body.theme-light_blue .colonna_key_facts .download-brocure p {
+  margin-bottom: 0;
 }
 
 body.theme-light_blue .colonna_key_facts .download-brocure .block:not(:last-child) {
@@ -13717,7 +13754,7 @@ body.theme-light_blue .colonna_key_facts .download-brocure .block:last-child .bu
   color: #0077C8;
   font-size: 1rem;
   line-height: 1.75rem;
-  padding: 25px 70px;
+  padding: 18px 70px;
   margin-bottom: 0;
   margin-top: 16px;
   -webkit-transition: 0.3s;
@@ -14001,6 +14038,7 @@ body.theme-light_blue .footer #mc_embed_signup .button {
   vertical-align: inherit;
   white-space: inherit;
   width: inherit;
+  font-family: 'Luiss Sans', sans-serif !important;
 }
 
 body.theme-light_blue .footer .button {
@@ -14100,6 +14138,10 @@ body.theme-green .hamburger.is-active .hamburger-inner, body.theme-green .hambur
 body.theme-green #menu-main li {
   font-family: 'Luiss Sans', sans-serif !important;
   font-weight: normal;
+}
+
+body.theme-green #menu-main li > a {
+  font-size: 1rem;
 }
 
 @media (max-width: 1040px) {
@@ -14396,6 +14438,8 @@ body.theme-green .sidebar-master .block:last-child {
 }
 
 body.theme-green .sidebar-master a.button {
+  font-family: 'Luiss Sans', sans-serif !important;
+  font-weight: normal;
   border: 1px solid #00968F;
   color: #00968F;
 }
@@ -14418,6 +14462,14 @@ body.theme-green main.site-master h3 {
 body.theme-green main.site-master h3::first-letter {
   text-transform: uppercase;
   /* Make the first letters uppercase      */
+}
+
+body.theme-green .page-title {
+  text-transform: lowercase;
+}
+
+body.theme-green .page-title::first-letter {
+  text-transform: uppercase;
 }
 
 body.theme-green .select {
@@ -14514,11 +14566,15 @@ body.theme-green .colonna_key_facts.fixed .colonna_key_facts-container .block:no
 body.theme-green .colonna_key_facts .download-brocure {
   position: fixed;
   background-color: #00968F;
-  padding: 44px 24px 24px 32px;
+  padding: 12px;
   left: 0;
   bottom: 0;
   width: 100%;
   z-index: 100;
+}
+
+body.theme-green .colonna_key_facts .download-brocure p {
+  margin-bottom: 0;
 }
 
 body.theme-green .colonna_key_facts .download-brocure .block:not(:last-child) {
@@ -14540,7 +14596,7 @@ body.theme-green .colonna_key_facts .download-brocure .block:last-child .button.
   color: #00968F;
   font-size: 1rem;
   line-height: 1.75rem;
-  padding: 25px 70px;
+  padding: 18px 70px;
   margin-bottom: 0;
   margin-top: 16px;
   -webkit-transition: 0.3s;
@@ -14824,6 +14880,7 @@ body.theme-green .footer #mc_embed_signup .button {
   vertical-align: inherit;
   white-space: inherit;
   width: inherit;
+  font-family: 'Luiss Sans', sans-serif !important;
 }
 
 body.theme-green .footer .button {
@@ -14923,6 +14980,10 @@ body.theme-red .hamburger.is-active .hamburger-inner, body.theme-red .hamburger.
 body.theme-red #menu-main li {
   font-family: 'Luiss Sans', sans-serif !important;
   font-weight: normal;
+}
+
+body.theme-red #menu-main li > a {
+  font-size: 1rem;
 }
 
 @media (max-width: 1040px) {
@@ -15219,6 +15280,8 @@ body.theme-red .sidebar-master .block:last-child {
 }
 
 body.theme-red .sidebar-master a.button {
+  font-family: 'Luiss Sans', sans-serif !important;
+  font-weight: normal;
   border: 1px solid #D50032;
   color: #D50032;
 }
@@ -15241,6 +15304,14 @@ body.theme-red main.site-master h3 {
 body.theme-red main.site-master h3::first-letter {
   text-transform: uppercase;
   /* Make the first letters uppercase      */
+}
+
+body.theme-red .page-title {
+  text-transform: lowercase;
+}
+
+body.theme-red .page-title::first-letter {
+  text-transform: uppercase;
 }
 
 body.theme-red .select {
@@ -15337,11 +15408,15 @@ body.theme-red .colonna_key_facts.fixed .colonna_key_facts-container .block:not(
 body.theme-red .colonna_key_facts .download-brocure {
   position: fixed;
   background-color: #D50032;
-  padding: 44px 24px 24px 32px;
+  padding: 12px;
   left: 0;
   bottom: 0;
   width: 100%;
   z-index: 100;
+}
+
+body.theme-red .colonna_key_facts .download-brocure p {
+  margin-bottom: 0;
 }
 
 body.theme-red .colonna_key_facts .download-brocure .block:not(:last-child) {
@@ -15363,7 +15438,7 @@ body.theme-red .colonna_key_facts .download-brocure .block:last-child .button.fe
   color: #D50032;
   font-size: 1rem;
   line-height: 1.75rem;
-  padding: 25px 70px;
+  padding: 18px 70px;
   margin-bottom: 0;
   margin-top: 16px;
   -webkit-transition: 0.3s;
@@ -15647,6 +15722,7 @@ body.theme-red .footer #mc_embed_signup .button {
   vertical-align: inherit;
   white-space: inherit;
   width: inherit;
+  font-family: 'Luiss Sans', sans-serif !important;
 }
 
 body.theme-red .footer .button {
@@ -15746,6 +15822,10 @@ body.theme-orange .hamburger.is-active .hamburger-inner, body.theme-orange .hamb
 body.theme-orange #menu-main li {
   font-family: 'Luiss Sans', sans-serif !important;
   font-weight: normal;
+}
+
+body.theme-orange #menu-main li > a {
+  font-size: 1rem;
 }
 
 @media (max-width: 1040px) {
@@ -16042,6 +16122,8 @@ body.theme-orange .sidebar-master .block:last-child {
 }
 
 body.theme-orange .sidebar-master a.button {
+  font-family: 'Luiss Sans', sans-serif !important;
+  font-weight: normal;
   border: 1px solid #D45D00;
   color: #D45D00;
 }
@@ -16064,6 +16146,14 @@ body.theme-orange main.site-master h3 {
 body.theme-orange main.site-master h3::first-letter {
   text-transform: uppercase;
   /* Make the first letters uppercase      */
+}
+
+body.theme-orange .page-title {
+  text-transform: lowercase;
+}
+
+body.theme-orange .page-title::first-letter {
+  text-transform: uppercase;
 }
 
 body.theme-orange .select {
@@ -16160,11 +16250,15 @@ body.theme-orange .colonna_key_facts.fixed .colonna_key_facts-container .block:n
 body.theme-orange .colonna_key_facts .download-brocure {
   position: fixed;
   background-color: #D45D00;
-  padding: 44px 24px 24px 32px;
+  padding: 12px;
   left: 0;
   bottom: 0;
   width: 100%;
   z-index: 100;
+}
+
+body.theme-orange .colonna_key_facts .download-brocure p {
+  margin-bottom: 0;
 }
 
 body.theme-orange .colonna_key_facts .download-brocure .block:not(:last-child) {
@@ -16186,7 +16280,7 @@ body.theme-orange .colonna_key_facts .download-brocure .block:last-child .button
   color: #D45D00;
   font-size: 1rem;
   line-height: 1.75rem;
-  padding: 25px 70px;
+  padding: 18px 70px;
   margin-bottom: 0;
   margin-top: 16px;
   -webkit-transition: 0.3s;
@@ -16470,6 +16564,7 @@ body.theme-orange .footer #mc_embed_signup .button {
   vertical-align: inherit;
   white-space: inherit;
   width: inherit;
+  font-family: 'Luiss Sans', sans-serif !important;
 }
 
 body.theme-orange .footer .button {
@@ -16569,6 +16664,10 @@ body.theme-gold .hamburger.is-active .hamburger-inner, body.theme-gold .hamburge
 body.theme-gold #menu-main li {
   font-family: 'Luiss Sans', sans-serif !important;
   font-weight: normal;
+}
+
+body.theme-gold #menu-main li > a {
+  font-size: 1rem;
 }
 
 @media (max-width: 1040px) {
@@ -16865,6 +16964,8 @@ body.theme-gold .sidebar-master .block:last-child {
 }
 
 body.theme-gold .sidebar-master a.button {
+  font-family: 'Luiss Sans', sans-serif !important;
+  font-weight: normal;
   border: 1px solid #CC8A00;
   color: #CC8A00;
 }
@@ -16887,6 +16988,14 @@ body.theme-gold main.site-master h3 {
 body.theme-gold main.site-master h3::first-letter {
   text-transform: uppercase;
   /* Make the first letters uppercase      */
+}
+
+body.theme-gold .page-title {
+  text-transform: lowercase;
+}
+
+body.theme-gold .page-title::first-letter {
+  text-transform: uppercase;
 }
 
 body.theme-gold .select {
@@ -16983,11 +17092,15 @@ body.theme-gold .colonna_key_facts.fixed .colonna_key_facts-container .block:not
 body.theme-gold .colonna_key_facts .download-brocure {
   position: fixed;
   background-color: #CC8A00;
-  padding: 44px 24px 24px 32px;
+  padding: 12px;
   left: 0;
   bottom: 0;
   width: 100%;
   z-index: 100;
+}
+
+body.theme-gold .colonna_key_facts .download-brocure p {
+  margin-bottom: 0;
 }
 
 body.theme-gold .colonna_key_facts .download-brocure .block:not(:last-child) {
@@ -17009,7 +17122,7 @@ body.theme-gold .colonna_key_facts .download-brocure .block:last-child .button.f
   color: #CC8A00;
   font-size: 1rem;
   line-height: 1.75rem;
-  padding: 25px 70px;
+  padding: 18px 70px;
   margin-bottom: 0;
   margin-top: 16px;
   -webkit-transition: 0.3s;
@@ -17293,6 +17406,7 @@ body.theme-gold .footer #mc_embed_signup .button {
   vertical-align: inherit;
   white-space: inherit;
   width: inherit;
+  font-family: 'Luiss Sans', sans-serif !important;
 }
 
 body.theme-gold .footer .button {
