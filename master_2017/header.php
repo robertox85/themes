@@ -306,6 +306,7 @@ bloginfo('name');
             <!-- // Navigation bar to use in single pages (nav-it.php) -->
             <?php get_template_part('nav', 'it');  ?>
 
+            
 
             <nav id="network-container-offcanvas">
                 <div class="container">
