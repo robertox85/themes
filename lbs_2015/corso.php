@@ -101,6 +101,7 @@ $accounting = has_term( 'accounting-finance-control', 'tematiche' );
                 </div>
 	        </div>
 	    </div>
+    </div>
     <div class="container-fluid px-0 box-cover
             <?php if($executive_cat) : ?>
             bg__light_blue
@@ -110,7 +111,7 @@ $accounting = has_term( 'accounting-finance-control', 'tematiche' );
             ">
     <?php get_template_part( 'pco/template-parts/section-keyfacts', get_post_format() ); ?>
     </div>
-</div>
+
 
 <div class="container">
     <p><?php edit_post_link('<strong>Modifica Pagina</strong>', ''); ?></p>
