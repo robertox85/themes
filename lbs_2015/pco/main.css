@@ -13218,7 +13218,7 @@ body.theme-blue #menu-main .sub-menu {
   column-gap: 0;
 }
 
-body.theme-blue #menu-main .sub-menu li a {
+body.theme-blue #menu-main .sub-menu li:not(:hover) a {
   background-color: #ffffff;
   color: #003a70;
 }
@@ -13631,6 +13631,8 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
 
 
 /*! HEADER */
+
+
 body.theme-blue .hamburger-inner,
 body.theme-blue .hamburger-inner:after,
 body.theme-blue .hamburger-inner:before {
@@ -13706,9 +13708,20 @@ body.theme-blue #menu-main .sub-menu {
           column-gap: 0;
 }
 
-body.theme-blue #menu-main .sub-menu li a {
+body.theme-blue #menu-main .sub-menu li:not(:hover) a {
   background-color: #ffffff;
   color: #003A70;
+}
+
+
+body.theme-blue #menu-main .current-menu-item a, #menu-main .current-page-ancestor a, #menu-main li:hover > a, .sub-menu{
+  background-color: #fff;
+}
+body.theme-blue #menu-main .sub-menu{
+  background: #fff!important;
+}
+body.theme-blue #menu-main .sub-menu li:not(:hover) a{
+  background: #fff!important;
 }
 
 body.theme-blue #menu-main li a,
