@@ -1,6 +1,6 @@
 <div class="container">
     <div class="row">
-        <div class="col-md-12 py-32 w-100" id="keyfacts-box">
+        <div class="col-md-12 py-16 w-100" id="keyfacts-box">
             <h5 class="color__white">Key Facts</h5>
             <div class="d-flex flex-lg-row flex-column justify-content-between align-items-start justify-content-lg-between align-items-lg-center">
                 <?php  
