@@ -101,7 +101,15 @@ $accounting = has_term( 'accounting-finance-control', 'tematiche' );
                 </div>
 	        </div>
 	    </div>
+    <div class="container-fluid px-0 box-cover
+            <?php if($executive_cat) : ?>
+            bg__light_blue
+            <?php else : ?>
+            bg__blue
+            <?php endif; ?>
+            ">
     <?php get_template_part( 'pco/template-parts/section-keyfacts', get_post_format() ); ?>
+    </div>
 </div>
 
 <div class="container">
