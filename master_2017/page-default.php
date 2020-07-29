@@ -89,7 +89,7 @@ get_template_part( 'pco/template-parts/content', 'keyfacts' );
             <div id="page-content" class="columns  space">
 
                 <?php if (!is_front_page()) {?>
-                <h2><?php echo the_title(); ?></h2>
+                    <h2 class="page-title"><?php echo the_title(); ?></h2>
                 <?php }?>
 
                 <?php if(is_page('executive-experience')): ?>
@@ -225,7 +225,8 @@ get_template_part( 'pco/template-parts/content', 'keyfacts' );
 <!--END .container -->
 <?php endwhile; // end of the loop. ?>
 
-<?php get_main_site_footer();?>
+<?php //get_main_site_footer();?>
+<?php get_footer() ?>
 
 <!-- MODAL -->
 <?php get_template_part('pco/template-parts/content', 'modal')?>
