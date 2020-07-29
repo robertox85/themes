@@ -1176,8 +1176,8 @@ function pco_style()
         'taxonomy-sport-2018.php',
         'taxonomy-tax-2018.php',
     ))) {
-    wp_enqueue_style('pco_style', get_stylesheet_directory_uri() . '/pco/main.css', array(), time(), 'all' );
     wp_enqueue_style('bootstrap_style', get_stylesheet_directory_uri() . '/pco/css/bootstrap.css', array(), time(), 'all' );
+    wp_enqueue_style('pco_style', get_stylesheet_directory_uri() . '/pco/main.css', array(), time(), 'all' );
     wp_enqueue_style('bootstrap_js', get_stylesheet_directory_uri() . '/pco/js/bootstrap.js', array(), time(), 'all' );
         }
     wp_enqueue_script('pco_script', get_stylesheet_directory_uri() . '/pco/script.js', array(), time(), true );
