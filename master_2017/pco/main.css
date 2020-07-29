@@ -12516,8 +12516,12 @@ body.theme-blue #menu-main .sub-menu {
           column-gap: 0;
 }
 
-body.theme-blue #menu-main .sub-menu li a {
+body.theme-blue #menu-main .sub-menu li:not(:hover) {
   background-color: #ffffff;
+}
+
+body.theme-blue #menu-main .sub-menu li:not(:hover) a {
+  background-color: #ffffff !important;
   color: #003A70;
 }
 
@@ -13335,8 +13339,12 @@ body.theme-light_blue #menu-main .sub-menu {
           column-gap: 0;
 }
 
-body.theme-light_blue #menu-main .sub-menu li a {
+body.theme-light_blue #menu-main .sub-menu li:not(:hover) {
   background-color: #ffffff;
+}
+
+body.theme-light_blue #menu-main .sub-menu li:not(:hover) a {
+  background-color: #ffffff !important;
   color: #003A70;
 }
 
@@ -14154,8 +14162,12 @@ body.theme-green #menu-main .sub-menu {
           column-gap: 0;
 }
 
-body.theme-green #menu-main .sub-menu li a {
+body.theme-green #menu-main .sub-menu li:not(:hover) {
   background-color: #ffffff;
+}
+
+body.theme-green #menu-main .sub-menu li:not(:hover) a {
+  background-color: #ffffff !important;
   color: #003A70;
 }
 
@@ -14973,8 +14985,12 @@ body.theme-red #menu-main .sub-menu {
           column-gap: 0;
 }
 
-body.theme-red #menu-main .sub-menu li a {
+body.theme-red #menu-main .sub-menu li:not(:hover) {
   background-color: #ffffff;
+}
+
+body.theme-red #menu-main .sub-menu li:not(:hover) a {
+  background-color: #ffffff !important;
   color: #003A70;
 }
 
@@ -15792,8 +15808,12 @@ body.theme-orange #menu-main .sub-menu {
           column-gap: 0;
 }
 
-body.theme-orange #menu-main .sub-menu li a {
+body.theme-orange #menu-main .sub-menu li:not(:hover) {
   background-color: #ffffff;
+}
+
+body.theme-orange #menu-main .sub-menu li:not(:hover) a {
+  background-color: #ffffff !important;
   color: #003A70;
 }
 
@@ -16611,8 +16631,12 @@ body.theme-gold #menu-main .sub-menu {
           column-gap: 0;
 }
 
-body.theme-gold #menu-main .sub-menu li a {
+body.theme-gold #menu-main .sub-menu li:not(:hover) {
   background-color: #ffffff;
+}
+
+body.theme-gold #menu-main .sub-menu li:not(:hover) a {
+  background-color: #ffffff !important;
   color: #003A70;
 }
 
