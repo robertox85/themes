@@ -8,8 +8,8 @@ $executive_flex_desc['en'] = '';
 ?>
 
 <?php $executive_flex_img_link = array();
-$executive_flex_img_link[ 'it' ] = '';
-$executive_flex_img_link[ 'en' ] = '';
+$executive_flex_img_link[ 'it' ] = dirname(__DIR__).'/images/flex-programme.jpg';
+$executive_flex_img_link[ 'en' ] = dirname(__DIR__).'/images/flex-programme.jpg';
 ?>
 
 <?php $executive_flex_link = array();
@@ -24,7 +24,7 @@ $titolo_executive_flex_link[ 'en' ] = 'Find More About Our Flex Executive Progra
 
 <!-- Inizio template -->
 
-<div class="container-fluid px-0" style="background-image: url('<?php echo $executive_flex_img_link[ICL_LANGUAGE_CODE]; ?>');">
+<div class="container-fluid px-0 py-80" style="background-image: url('<?php echo $executive_flex_img_link[ICL_LANGUAGE_CODE]; ?>');">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-lg-6">

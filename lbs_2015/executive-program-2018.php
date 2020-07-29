@@ -39,7 +39,7 @@ $sub_home_2b['en'] = '';
 </div>
 
 <div class="container">
-    <div class="row">
+    <div class="row mt-48 mb-48">
         <div class="col-xs-12 col-md-6">
             <p><?php echo $sub_home_2a[ICL_LANGUAGE_CODE] ?></p>
         </div>

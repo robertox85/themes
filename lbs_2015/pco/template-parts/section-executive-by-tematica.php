@@ -9,8 +9,8 @@ $desc_3['it'] = 'Per diventare esperto di settore, conoscerne in maniera approfo
 $desc_3['en'] = '';  
 ?>
     
-<div class="row">
-    <div class="col-xs-12">
+<div class="row mt-32 mb-80">
+    <div class="col-xs-12 mb-48">
         <h2><?php echo $section_title[ICL_LANGUAGE_CODE] ?></h2>
     </div>
     <div class="col-xs-12 col-md-4">
@@ -54,3 +54,4 @@ $desc_3['en'] = '';
             </div>
         </div>
     </div>
+</div>
