@@ -1161,7 +1161,7 @@ function pco_style()
         'corso.php',
         'home-2017.php',
         'offerta-2017.php',
-        //'master.php',
+        'master.php',
         'mba.php',
         'executive-program-2018.php',
         'taxonomy-afc-2018.php',
@@ -1178,7 +1178,8 @@ function pco_style()
     ))) {
     wp_enqueue_style('bootstrap_style', get_stylesheet_directory_uri() . '/pco/css/bootstrap.css', array(), time(), 'all' );
     wp_enqueue_style('pco_style', get_stylesheet_directory_uri() . '/pco/main.css', array(), time(), 'all' );
-    wp_enqueue_style('bootstrap_js', get_stylesheet_directory_uri() . '/pco/js/bootstrap.js', array(), time(), 'all' );
+    wp_enqueue_script('bootstrap_js', get_stylesheet_directory_uri() . '/pco/js/bootstrap.js', array(), time(), 'all' );
+    
         }
     wp_enqueue_script('pco_script', get_stylesheet_directory_uri() . '/pco/script.js', array(), time(), true );
 
