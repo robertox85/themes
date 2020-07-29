@@ -1,5 +1,6 @@
+<div class="container">
     <div class="row">
-        <div class="col-md-12 py-32 w-100 px-24" id="keyfacts-box">
+        <div class="col-md-12 py-32 w-100" id="keyfacts-box">
             <h5 class="color__white">Key Facts</h5>
             <div class="share_links">
                 <?php get_template_part('pco/template-parts/content', 'share')?>
@@ -53,3 +54,4 @@
             <!-- questa riga quando c'è lo scroll -->
         </div>
     </div>
+</div>
