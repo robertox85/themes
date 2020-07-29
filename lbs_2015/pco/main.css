@@ -13446,3 +13446,56 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
 }
 
 }
+
+/* IMG EXECUTIVE */
+
+.box-cover {
+    min-height: 30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.accounting-cover {
+    background-image: url('images/executive-areas/name.jpg');
+} 
+
+.lobbying-cover {
+    background-image: url('images/executive-areas/name.jpg');
+} 
+
+.governance-cover {
+    background-image: url('images/executive-areas/name.jpg');
+} 
+
+.healthcare-cover {
+    background-image: url('images/executive-areas/name.jpg');
+} 
+
+.innovation-cover {
+    background-image: url('images/executive-areas/name.jpg');
+} 
+
+.family-cover {
+    background-image: url('images/executive-areas/name.jpg');
+} 
+
+.marketing-cover {
+    background-image: url('images/executive-areas/name.jpg');
+} 
+
+.people-cover {
+    background-image: url('images/executive-areas/name.jpg');
+}  
+
+.pm-cover {
+    background-image: url('images/executive-areas/name.jpg');
+} 
+
+.real-cover {
+    background-image: url('images/executive-areas/name.jpg');
+}  
+
+.sport-cover {
+    background-image: url('images/executive-areas/name.jpg');
+}  
