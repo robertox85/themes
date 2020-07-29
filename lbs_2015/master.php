@@ -37,6 +37,22 @@ Creation Date: 12/20/2018
 
 <!-- Inizio Template -->
 
+ 
+    <style>
+.card-course-small {
+    width: 30%;
+    min-height: 410px;
+    border: 1px solid;
+  }
+        
+        @media screen and (max-width: 1199px) {
+          .card-course-small {
+    width: 47%;
+  }  
+                       
+        }
+</style>
+
 	<div class="container-fluid px-0 box-cover-off d-flex flex-column align-items-start justify-content-center <?php if (has_post_thumbnail( $post->ID ) ): ?>
                    header-pic" style="background-image: url('<?php echo get_the_post_thumbnail_url(); ?>');
                    <?php else : ?>
