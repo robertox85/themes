@@ -1,3 +1,27 @@
+<!-- Variabili Categorie Corsi e Immagini Executive -->
+
+<?php
+
+$executive_cat = has_term( 'executive-program', 'category' );
+$corso_cat = has_term( 'corso', 'category' );
+$specialistica_ex_cat = has_term( 'specialistica-executive', 'category' );
+$postlauream_ex_cat = has_term( 'specialistica-postlauream', 'category' );
+$specialistica_cat = has_term( 'specialistici', 'category' );
+
+$accounting = has_term( 'accounting-finance-control', 'tematiche' );
+$lobbying = has_term( 'communication-lobbying', 'tematiche' );
+$governance = has_term( 'tax-legal', 'tematiche' );
+$healthcare = has_term( 'public-sector-healthcare-and-no-profit', 'tematiche' );
+$innovation = has_term( 'management-innovation', 'tematiche' );
+$family = has_term( 'management-family-business', 'tematiche' );
+$marketing = has_term( 'marketing-sales-communication', 'tematiche' );
+$people = has_term( 'people-and-organization-development', 'tematiche' );
+$pm = has_term( 'project_management', 'tematiche' );
+$real = has_term( 'real-estate', 'tematiche' );
+$sport = has_term( 'sport-tourism-leisure-culturel', 'tematiche' );
+
+?>
+
 <!-- Variabili Pagina Master e Programmi di alta formazione -->
 
 <!-- INSERIRE SPIEGAZIONE ID DI MASTER E PROGRAMMI CON LINK AL FILE CON GLI ID -->
