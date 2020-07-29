@@ -1,7 +1,7 @@
 <nav id="nav-main">
     <div class="container">
         <div class="row">
-            <div id="menu-main-container" class="menu-main-menu-container">
+            <div id="menu-main-container" class="menu-main-menu-container bg__white">
                 <ul id="menu-main" class="menu">
                     <li id="menu-item-18913"
                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-17358 current_page_item menu-item-18913">
@@ -117,6 +117,14 @@
                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34570"><a
                             href="/belluno">BELLUNO</a></li>
                 </ul>
+
+                
+                <ul class="list-unstyled secondary-nav d-inline-block d-lg-none w-100 m-0">
+                    <li><a href="http://www.luiss.it/">Luiss.it</a></li>
+                    <li><a href="javascript:void(0)" id="network-offcanvas-trigger">Luiss Network</a></li>
+                    <li><a href="https://businessschool.luiss.it/milano"><strong>Milano</strong></a></li>
+                    <li><a href="https://businessschool.luiss.it/belluno"><strong>Belluno</strong></a></li>
+                </ul>
             </div>
             <div class="searchbar"><a class="sb-icon-search" title="cerca nel sito"><span
                         class="glyphicon glyphicon-search"></span></a></div>
@@ -144,7 +152,7 @@
 
 
             </div>
-
+            
         </div>
         <!--END .row -->
     </div>
