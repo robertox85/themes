@@ -8,23 +8,23 @@ $desc_2['en'] = '';
 $desc_3['it'] = 'Per diventare esperto di settore, conoscerne in maniera approfondita le dinamiche e i trend emergenti e implementare soluzioni alternative, raccogliendone le opportunità e le sfide chiave.';
 $desc_3['en'] = '';  
 ?>
-    
+
 <div class="row mt-32 mb-80">
     <div class="col-xs-12 mb-48">
         <h2><?php echo $section_title[ICL_LANGUAGE_CODE] ?></h2>
     </div>
-    <div class="col-xs-12 col-md-4">
+    <div class="col-xs-12 col-md-4 pt-48 px-24 pb-64 ex-area">
         <div class="row">
             <div class="col-xs-12">
-                <h5>General Management</h5>
+                <h5 class="pb-24">General Management</h5>
                 <p><?php echo $desc_1[ICL_LANGUAGE_CODE] ?></p>
-                <ul>
-                    <li><a href="/offerta-formativa/executive-program/management-family-business/">Management & Family Business</a></li>
+                <ul class="list-unstyled ex-area-list p-0 m-0">
+                    <li class="pt-24 px-16 pb-16"><a class="color__light_blue" href="/offerta-formativa/executive-program/management-family-business/">Management & Family Business</a></li>
                 </ul>
             </div>
         </div>
     </div>
-    <div class="col-xs-12 col-md-4">
+    <div class="col-xs-12 col-md-4 pt-48 px-24 pb-64">
         <div class="row">
             <div class="col-xs-12">
                 <h5>Specialisation</h5>
@@ -40,7 +40,7 @@ $desc_3['en'] = '';
             </div>
         </div>
     </div>
-    <div class="col-xs-12 col-md-4">
+    <div class="col-xs-12 col-md-4 pt-48 px-24 pb-64">
         <div class="row">
             <div class="col-xs-12">
                 <h5>Industry</h5>

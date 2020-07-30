@@ -4,9 +4,11 @@ if ( ICL_LANGUAGE_CODE == 'it' ):
 <div class="container-fluid bg__light_blue" style="border-bottom: 2px solid #fff;">
     <div class="container mt-64 mb-48">
         <div class="row">
-            <div class="col-xs-12">
-            <h2 class="color__white pb-24 mb-0">Experiental learning</h2>
+            <div class="col-xs-12 col-lg-4">
+                <h2 class="color__white pb-24 mb-0">Experiental learning</h2>
             </div>
+        </div>
+        <div class="row">
             <div class="col-xs-12 col-md-4">
                 <p class="big color__white pb-16 mb-0">L’apprendimento esperienziale consente di migliorare le capacità di Problem Solving, il Critical Thinking e la Creatività.</p>
             </div>
@@ -23,8 +25,8 @@ if ( ICL_LANGUAGE_CODE == 'it' ):
                 </div>
                 <hr>
             </div>
+        </div>
     </div>
-</div>
 </div>
 <?php
 elseif ( ICL_LANGUAGE_CODE == 'en' ):

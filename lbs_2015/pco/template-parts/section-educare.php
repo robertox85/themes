@@ -4,9 +4,11 @@ if ( ICL_LANGUAGE_CODE == 'it' ):
 <div class="container-fluid bg__light_blue" style="border-bottom: 2px solid #fff;">
     <div class="container mt-64 mb-48">
         <div class="row">
-            <div class="col-xs-12">
-            <h2 class="color__white pb-24 mb-0">EduCare</h2>
+            <div class="col-xs-12 col-lg-4">
+                <h2 class="color__white pb-24 mb-0">EduCare</h2>
             </div>
+        </div>
+        <div class="row">
             <div class="col-xs-12 col-md-4">
                 <p class="big color__white pb-16 mb-0">L’esperienza di apprendimento è costruita intorno alla persona e ad ogni percorso sono associati attività e servizi che si sviluppano, durante e dopo la fase di aula e completano il percorso formativo scelto.</p>
                 <p class="big color__white pb-16 mb-0">Le sessioni di EduCare sono studiate promuovere lo sviluppo professionale e personale e generare un impatto immediato sul business e sul contesto organizzativo di riferimento.</p>
