@@ -471,7 +471,7 @@ h5 {
 h6 {
   font-weight: bold;
   font-size: calc(1.3125rem + 0.75vw);
-  line-height: 1.875rem;
+      line-height: 2.175rem;
 font-family: 'Luiss sans';
 }
 
