@@ -1,25 +1,35 @@
-<style>
-.card-course-small {
-    width: 30%;
-    min-height: 410px;
-    border: 1px solid;
-  }
-    
-    
- @media screen and (max-width: 1199px) {
-          .card-course-small {
-    width: 47%;
-  }  
-</style>
-
 <div class="card-course-small p-24 m-16">
-    <span><?php the_terms($post->ID, 'lunghezza_corsi', $before = '', $sep = ', ', $after = '' ); ?></span>
+    <span class="meta text-uppercase"><?php the_terms($post->ID, 'lunghezza_corsi', $before = '', $sep = ', ', $after = '' ); ?></span>
 
-    <h6><?php the_title(); ?></h6>
+    <h6 class="py-24 mb-0 each-word
+              <?php if(is_page_template(array(
+        'executive-program-2018.php',
+        'taxonomy-afc-2018.php',
+        'taxonomy-banche-2018.php',
+        'taxonomy-flex-2018.php',
+        'taxonomy-lobyng-2018.php',
+        'taxonomy-management-2018.php',
+        'taxonomy-marketing-2018.php',
+        'taxonomy-people-2018.php',
+        'taxonomy-project-2018.php',
+        'taxonomy-real-2018.php',
+        'taxonomy-sanita-2018.php',
+        'taxonomy-soft-2018.php',
+        'taxonomy-sport-2018.php',
+        'taxonomy-tax-2018.php',
+))) : ?>
+               color__light_blue
+               <?php elseif(is_page_template('mba.php')) : ?>
+               color__green
+               
+               <?php elseif(is_page_template('master.php')) : ?>
+    color__red
+    <?php endif; ?>
+                "><?php the_title(); ?></h6>
 
     <!-- Durata -->
     <?php if( get_field('durata') ): ?>
-    <p><strong>
+    <p class="big mb-8"><strong>
             <?php if (ICL_LANGUAGE_CODE=='it') : ?>Durata
             <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Duration
             <?php else : ?>
@@ -31,12 +41,12 @@
     <!-- Sede Roma -->
     <?php if( get_field('testo_inizio') ): ?>
 
-    <p><strong>
+    <p class="big mb-8"><strong>
             <?php if (ICL_LANGUAGE_CODE=='it') : ?>Sede
             <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Location
             <?php else : ?>
             <?php endif; ?></strong>
-        <?php the_field('testo_inizio'); ?></p>
+        <?php the_field('testo_inizio'); ?>
 
     <!-- Inizio Roma -->
 
@@ -46,8 +56,8 @@ $date_string_rome = get_field('data_inizio');
 // Create DateTime object from value (formats must match).
 $date_rome = DateTime::createFromFormat('Ymd', $date_string_rome);
 // Output current date in custom format.
-?>
-    <p><strong>
+?><span> | </span>
+    <strong>
             <?php if (ICL_LANGUAGE_CODE=='it') : ?>Inizio
             <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Start
             <?php else : ?>
@@ -58,12 +68,12 @@ $date_rome = DateTime::createFromFormat('Ymd', $date_string_rome);
     <!-- Sede Milano -->
     <?php if( get_field('data_inizio_testuale') ): ?>
 
-    <p><strong>
+    <p class="big mb-8"><strong>
             <?php if (ICL_LANGUAGE_CODE=='it') : ?>Sede
             <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Location
             <?php else : ?>
             <?php endif; ?></strong>
-        <?php the_field('data_inizio_testuale'); ?></p>
+        <?php the_field('data_inizio_testuale'); ?>
 
     <!-- Inizio Milano -->
 
@@ -73,8 +83,8 @@ $date_string_mi = get_field('data_fine');
 // Create DateTime object from value (formats must match).
 $date_mi = DateTime::createFromFormat('Ymd', $date_string_mi);
 // Output current date in custom format.
-?>
-    <p><strong>
+?><span> | </span>
+    <strong>
             <?php if (ICL_LANGUAGE_CODE=='it') : ?>Inizio
             <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Start
             <?php else : ?>
@@ -85,12 +95,12 @@ $date_mi = DateTime::createFromFormat('Ymd', $date_string_mi);
     <!-- Sede Belluno -->
     <?php if( get_field('veneto') ): ?>
 
-    <p><strong>
+    <p class="big mb-8"><strong>
             <?php if (ICL_LANGUAGE_CODE=='it') : ?>Sede
             <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Location
             <?php else : ?>
             <?php endif; ?></strong>
-        <?php the_field('veneto'); ?></p>
+        <?php the_field('veneto'); ?>
 
     <!-- Inizio Belluno -->
 
@@ -100,8 +110,8 @@ $date_string_be = get_field('data_veneto');
 // Create DateTime object from value (formats must match).
 $date_be = DateTime::createFromFormat('Ymd', $date_string_be);
 // Output current date in custom format.
-?>
-    <p><strong>
+?><span> | </span>
+    <strong>
             <?php if (ICL_LANGUAGE_CODE=='it') : ?>Inizio
             <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Start
             <?php else : ?>
@@ -110,7 +120,7 @@ $date_be = DateTime::createFromFormat('Ymd', $date_string_be);
 <?php endif; ?>
     
     <!-- Lingua -->
-    <p><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Lingua
+    <p class="big mb-8"><strong><?php if (ICL_LANGUAGE_CODE=='it') : ?>Lingua
             <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Language
             <?php else : ?>
             <?php endif; ?></strong><?php $terms = get_the_terms( $post->ID, 'lingue' );

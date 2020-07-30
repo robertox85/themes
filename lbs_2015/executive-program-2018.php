@@ -39,7 +39,7 @@ $sub_home_2b['en'] = '';
 </div>
 
 <div class="container">
-    <div class="row mt-48 mb-48">
+    <div class="row mt-48 mb-16">
         <div class="col-xs-12 col-md-6">
             <p><?php echo $sub_home_2a[ICL_LANGUAGE_CODE] ?></p>
         </div>
@@ -47,8 +47,9 @@ $sub_home_2b['en'] = '';
             <p><?php echo $sub_home_2b[ICL_LANGUAGE_CODE] ?></p>
         </div>
     </div>
-    <?php get_template_part( 'pco/template-parts/section-executive-by-tematica', get_post_format() ); ?>
 </div>
+
+<?php get_template_part( 'pco/template-parts/section-executive-by-tematica', get_post_format() ); ?>
 
 <?php get_template_part( 'pco/template-parts/section-flex-executive-jumbotron', get_post_format() ); ?>
 

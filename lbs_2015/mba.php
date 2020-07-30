@@ -24,7 +24,7 @@ $sub_home['en'] = 'Based on team working and action learning, our teaching devel
 
 <!-- Inizio Template -->
 
-	<div class="container-fluid px-0 box-cover-off d-flex flex-column align-items-start justify-content-center <?php if (has_post_thumbnail( $post->ID ) ): ?>
+	<div class="container-fluid px-0 box-cover-off d-flex flex-column align-items-center  justify-content-start <?php if (has_post_thumbnail( $post->ID ) ): ?>
                    header-pic" style="background-image: url('<?php echo get_the_post_thumbnail_url(); ?>');
                    <?php else : ?>
                    header-nopic
@@ -47,7 +47,7 @@ $sub_home['en'] = 'Based on team working and action learning, our teaching devel
 	</div>
 
 <div class="container">
-<div class="row d-flex flex-row flex-wrap justify-content-between align-items-center px-0">
+<div class="row d-flex flex-row flex-wrap justify-content-start align-items-stretch px-0">
     
     <style>
 .card-course-small {

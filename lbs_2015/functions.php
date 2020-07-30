@@ -1241,3 +1241,23 @@ function theme_template_usage_report( $file = false ) {
     exit;
 }
 add_action( 'wp', 'theme_template_usage_report' );
+
+// add javascript in footer
+
+function wpb_hook_javascript_footer() {
+    ?>
+        <script>
+     window.onload = function(){
+  var elements = document.getElementsByClassName("each-word")
+  for (var i=0; i<elements.length; i++){
+    elements[i].innerHTML = elements[i].innerHTML.replace(/\\b([a-z])([a-z]+)?\\b/gim, "<span class='first-letter'>$1</span>$2")
+  }
+}
+    </script>
+    <?php
+}
+add_action('wp_footer', 'wpb_hook_javascript_footer');
+
+?>
+
+

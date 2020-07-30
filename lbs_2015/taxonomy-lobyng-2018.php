@@ -1,8 +1,8 @@
 <?php
 /*
-Template Name: Lobbyng 2018
+Template Name: Lobbying 2018
 */
-get_header( 2017 );?> 
+get_header( 2017 );?>
 
 <!-- Query per le pagine 
 
@@ -31,7 +31,6 @@ Flex - 154
 Full time - 24
 
 Categorie (ID ita/eng)
-
 Corso/Percorso/Master - 15/16
 Executive Programmes - 61/62
 Skill - 163/164
@@ -47,21 +46,16 @@ Summer School (specialistici) - 133/134
 
 <!-- Inizio template -->
 
-<div class="container-fluid px-0  <?php if (has_post_thumbnail( $post->ID ) ): ?>
-                   header-pic" style="background-image: url('<?php echo get_the_post_thumbnail_url(); ?>');
-                   <?php else : ?>
-                   Header-nopic
-                   <?php endif; ?>
-">
-    <div class="container">
+<div class="container-fluid px-0 box-cover-off d-flex flex-column align-items-center  justify-content-start lobbying-cover">
+    <div class="container my-48">
         <div class="row">
-            <h1><?php the_title();?></h1>
+            <div class="col-xs-12 col-lg-8"><h1 class="color__white each-word"><?php the_title();?></h1></div>
         </div>
         <div class="row">
-            <div class="col-md-6">
-                <p><?php echo get_field('intro_left') ?></p>
+            <div class="col-md-6 intro-exarea">
+                <p class="color__white"><?php echo get_field('intro_left') ?></p>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 intro-exarea">
                 <p><?php echo get_field('intro_right') ?></p>
             </div>
         </div>
@@ -92,7 +86,7 @@ Summer School (specialistici) - 133/134
         <!-- CONTENUTO -->
         <div class="tab-content" id="ProgramType">
             <!-- MASTER -->
-            <div class="tab-pane fade active in" id="exmasters" role="tabpanel" aria-labelledby="exmasters-tab">
+            <div class="tab-pane fade active in show show" id="exmasters" role="tabpanel" aria-labelledby="exmasters-tab">
                 <div class="row">
                     <div class="col-12 col-lg-8">
                         <h2><?php echo $executive_master_label[ICL_LANGUAGE_CODE] ?></h2>
@@ -100,7 +94,7 @@ Summer School (specialistici) - 133/134
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="row d-flex flex-row flex-wrap justify-content-start align-items-stretch px-0">
                     <?php
 			$query_tax_value = 131;
 			$tax_query = array();
@@ -174,7 +168,7 @@ Summer School (specialistici) - 133/134
                         <p><?php echo get_field('campo_executive_program') ?></p>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row d-flex flex-row flex-wrap justify-content-start align-items-stretch px-0">
                     <?php
 			$query_tax_value = 25;
 			$tax_query = array();
@@ -237,7 +231,7 @@ Summer School (specialistici) - 133/134
 
             <!-- FLEX -->
             <div class="tab-pane p-4 fade" id="exflexprogrammes" role="tabpanel" aria-labelledby="exflexprogrammes-tab">
-                <div class="row">
+                <div class="row d-flex flex-row flex-wrap justify-content-start align-items-stretch px-0">
                     <div class="col-12 col-lg-8">
                         <h2><?php echo $executive_flex_label[ICL_LANGUAGE_CODE] ?></h2>
                         <p>Lorem ipsum dolor</p>
@@ -307,7 +301,7 @@ Summer School (specialistici) - 133/134
 
             <!-- COURSES -->
             <div class="tab-pane p-4 fade" id="excourses" role="tabpanel" aria-labelledby="excourses-tab">
-                <div class="row">
+                <div class="row d-flex flex-row flex-wrap justify-content-start align-items-stretch px-0">
                     <div class="col-12 col-lg-8">
                         <h2><?php echo $executive_course_label[ICL_LANGUAGE_CODE] ?></h2>
                         <p><?php echo get_field('campo_short_course') ?></p>
@@ -386,20 +380,10 @@ Summer School (specialistici) - 133/134
 </div>
 
 <!-- INDIVIDUAL PROGRAMME -->
-<section>
-<div class="container-fluid">
-    <div class="container">
-        <?php get_template_part( 'pco/template-parts/section-individual-programme', get_post_format() ); ?>
-    </div>
-</div>
-</section>
+<?php get_template_part( 'pco/template-parts/section-individual-programme', get_post_format() ); ?>
 
 <!-- OFFERTA COMPLETA -->
-<div class="container-fluid">
-    <div class="container">
-        <?php get_template_part( 'pco/template-parts/section-executive-by-tematica', get_post_format() ); ?>
-    </div>
-</div>
+<?php get_template_part( 'pco/template-parts/section-executive-by-tematica', get_post_format() ); ?>
 
 <?php edit_post_link('<p>Modifica Pagina</p>', ''); ?>
 

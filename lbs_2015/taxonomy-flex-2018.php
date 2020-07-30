@@ -47,16 +47,16 @@ Summer School (specialistici) - 133/134
 
 <!-- Inizio template -->
 
-<div class="container-fluid px-0 box-cover-off d-flex flex-column align-items-start justify-content-center flex-cover bg__light_blue">
-    <div class="container">
+<div class="container-fluid px-0 box-cover-off d-flex flex-column align-items-center  justify-content-start flex-cover bg__light_blue">
+    <div class="container my-48">
         <div class="row">
-            <div class="col-xs-12 col-lg-8"><h1 class="color__white"><?php the_title();?></h1></div>
+            <div class="col-xs-12 col-lg-8"><h1 class="color__white each-word"><?php the_title();?></h1></div>
         </div>
         <div class="row">
-            <div class="col-md-6 intro">
+            <div class="col-md-6 intro-exarea">
                 <p class="color__white"><?php echo get_field('intro_left') ?></p>
             </div>
-            <div class="col-md-6 intro">
+            <div class="col-md-6 intro-exarea">
                 <p><?php echo get_field('intro_right') ?></p>
             </div>
         </div>
@@ -67,7 +67,7 @@ Summer School (specialistici) - 133/134
     <section>
         <!-- CONTENUTO -->
             <!-- FLEX -->
-                <div class="row d-flex flex-row flex-wrap justify-content-between align-items-center px-0">
+                <div class="row d-flex flex-row flex-wrap justify-content-start align-items-stretch px-0">
                     <?php
 			$query_tax_value = 154;
 			$tax_query = array();
@@ -128,11 +128,7 @@ Summer School (specialistici) - 133/134
 </div>
 
 <!-- OFFERTA COMPLETA -->
-<div class="container-fluid">
-    <div class="container">
-        <?php get_template_part( 'pco/template-parts/section-executive-by-tematica', get_post_format() ); ?>
-    </div>
-</div>
+<?php get_template_part( 'pco/template-parts/section-executive-by-tematica', get_post_format() ); ?>
 
 <?php edit_post_link('<p>Modifica Pagina</p>', ''); ?>
 

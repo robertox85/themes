@@ -33,7 +33,7 @@ $titolo_executive_flex_link[ 'en' ] = 'Find More About Our Flex Executive Progra
             </div>
         </div>
         <div class="row">
-            <div class="col-xs-12"><a class="button button__primary" href="<?php echo $executive_flex_link[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_executive_flex_link[ICL_LANGUAGE_CODE] ?></a>
+            <div class="col-xs-12"><a class="button button__primary bg__white color__blue" href="<?php echo $executive_flex_link[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_executive_flex_link[ICL_LANGUAGE_CODE] ?></a>
             </div>
         </div>
     </div>
