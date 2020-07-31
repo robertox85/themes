@@ -13581,7 +13581,7 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
 @media screen and (max-width: 991px) {
   .card-course-big {
     width: 100%;
-    min-height: 410px;
+    /*min-height: 410px;*/
   }
 
   .box-event-date {
@@ -13592,7 +13592,7 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   .card-course-big {
     width: 45%;
-    min-height: 410px;
+    /*min-height: 410px;*/
   }
 
   .box-event-date {
@@ -13603,7 +13603,7 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
 @media screen and (min-width: 1200px) {
   .card-course-big {
     width: 47%;
-    min-height: 410px;
+    /*min-height: 410px;*/
     border: 1px solid;
   }
 
@@ -13844,14 +13844,35 @@ span.meta a {
     color: #fff;
     flex-grow: 1;
     text-align:center;
-    
 }
 
 .ctas .button, .ctas a {
     flex-grow: 1;
-    margin-left: 4px;
-    margin-right: 4px;
     text-align:center;
+}
+
+  .ctas :nth-child(1), .ctas :nth-child(2) {
+margin-bottom: 0px;
+}  
+
+.ctas :nth-child(1) {
+    margin-right: 8px;
+}
+
+.ctas :nth-child(2) {
+    margin-left: 8px;
+}
+
+@media screen and (max-width:767px) {
+    
+    .ctas :nth-child(1) {
+margin-bottom: 24px
+}  
+    
+  .ctas :nth-child(1), .ctas :nth-child(2) {
+    margin-right: 0px;
+    margin-left: 0px;
+}  
 }
 
 a.button:hover, a.button:focus, a.buttonm:visited, button:hover, button:focus {
@@ -14019,4 +14040,56 @@ body.theme-blue .lang_selector li a {
 body.theme-blue .lang_selector li a.active {
   border-bottom: 1px solid #003A70;
   background-color: transparent !important;
+}
+
+/* PROGRAM TABS */
+
+.nav-tabs {
+                    background-color: rgba(0, 58, 112, 0.05);
+                    border-bottom: 1px solid #003a70;
+                }
+                
+                .nav-tabs :first-child {
+                    border-left: 0px !important;
+                }
+                
+                .nav-tabs :last-child {
+                    border-right: 0px !important;
+                }
+                
+                .nav-tabs > .nav-item {
+                    border-right: 1px solid  rgba(0, 58, 112, 0.2);
+                    border-radius: 0px;
+                    margin-bottom: -2px;
+                }
+                
+                .nav-tabs > .nav-item:hover {
+                    background-color: #fff;
+                    color: var(--current-color);
+                    border:
+                }
+                
+                .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+                    color: var(--current-color);
+                }
+        
+                .nav-tabs .nav-link {
+                    padding: 80px 32px;
+                    margin: 0 auto;
+                    font-family: 'Luiss Serif' !important;
+                    font-weight: 400;
+                    font-size: calc(1.35rem + 1.2vw);
+                    line-height: 2.5rem;
+                    flex-grow: 1;
+                    transition: ease-in-out .3s;
+                }
+                
+                .nav-tabs .nav-link.active {
+    font-size: calc(2.5rem + 1.2vw);
+    line-height: 3.5rem;
+    padding: 64px 32px;
+    color: var(--current-color);
+    border-color: transparent;
+    background-color: #fff;
+    transition: ease-in-out .3s;
 }

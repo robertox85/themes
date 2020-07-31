@@ -80,7 +80,7 @@ Creation Date: 12/20/2018
 	    <!-- TAB -->
 	    <section>
 	        <!-- NAVIGAZIONE -->
-	        <ul class="nav nav-tabs auto" id="program-type" role="tablist">
+	        <ul class="nav nav-tabs auto mx-0 px-0 d-flex flex-row flex-nowrap" id="program-type" role="tablist">
 	            <!-- ROMA -->
 	            <li class="nav-item"><a class="nav-link active" id="tab1-tab" data-toggle="tab" href="#roma" role="tab" aria-controls="tab1" aria-selected="true"><?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></a></li>
 
@@ -92,7 +92,7 @@ Creation Date: 12/20/2018
 	        </ul>
 
 	        <!-- CONTENUTO -->
-	        <div class="tab-content" id="ProgramType">
+	        <div class="tab-content my-64" id="ProgramType">
 	            <!-- ROMA -->
 	            <div class="tab-pane fade active in show" id="roma" role="tabpanel" aria-labelledby="roma-tab">
 	                <div class="row">

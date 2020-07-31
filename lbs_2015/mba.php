@@ -47,7 +47,7 @@ $sub_home['en'] = 'Based on team working and action learning, our teaching devel
 	</div>
 
 <div class="container">
-<div class="row d-flex flex-row flex-wrap justify-content-start align-items-stretch px-0">
+<div class="row d-flex flex-row flex-wrap justify-content-start align-items-stretch px-0 pt-48">
     
     <style>
 .card-course-small {

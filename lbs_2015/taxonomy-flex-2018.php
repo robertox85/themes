@@ -67,7 +67,7 @@ Summer School (specialistici) - 133/134
     <section>
         <!-- CONTENUTO -->
             <!-- FLEX -->
-                <div class="row d-flex flex-row flex-wrap justify-content-start align-items-stretch px-0">
+                <div class="row d-flex flex-row flex-wrap justify-content-start align-items-stretch px-0 pt-48">
                     <?php
 			$query_tax_value = 154;
 			$tax_query = array();
