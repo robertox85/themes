@@ -53,6 +53,15 @@
         font-size: 1rem;
       }
     }
+
+    .border-bottom-share{
+      border-bottom: 1px solid #fff;
+      max-width: 365px;
+      // padding-left: 15px!important;
+      // padding-right: 15px!important;
+      padding-bottom: 24px;
+    }
+
     @media (max-width: 1040px) {
       #menu-main li a {
         display: block !important;
@@ -217,14 +226,16 @@
 
     
     .share {
+      
       .meta {
         margin-right: rem(36px);
       }
       ul {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         width: 100%;
         margin: 0;
+        
       }
     }
     
@@ -569,7 +580,7 @@
           margin-top: 16px;
           transition: 0.3s;
           border: 1px solid transparent;
-          width: 360px;
+          width: 365px;
 
           &.disabled,
           &:disabled {
