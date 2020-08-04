@@ -93,17 +93,18 @@ get_template_part( 'pco/template-parts/content', 'keyfacts' );
                 <?php }?>
 
                 <?php if(is_page('executive-experience')): ?>
-                <p>L’offerta formativa Executive Education della Luiss Business School, si caratterizza per un approccio
-                    metodologico fortemente interattivo ed esperienziale che coinvolge il partecipante ben oltre la
-                    didattica tradizionale.</p>
+                    <p>L’offerta formativa Executive Education della Luiss Business School, si caratterizza per un approccio
+                        metodologico fortemente interattivo ed esperienziale che coinvolge il partecipante ben oltre la
+                        didattica tradizionale.</p>
 
-                <p>L’esperienza di apprendimento è costruita intorno alla persona, con l’obiettivo di ampliarne il
-                    network, e promuoverne lo sviluppo professionale e personale, fornendo strumenti immediatamente
-                    applicabili nel proprio contesto organizzativo per coglierne in maniera efficace le sfide. Ad ogni
-                    percorso di apprendimento sono associati attività e servizi che si sviluppano, prima, durante e dopo
-                    la fase di aula.</p>
+                    <p>L’esperienza di apprendimento è costruita intorno alla persona, con l’obiettivo di ampliarne il
+                        network, e promuoverne lo sviluppo professionale e personale, fornendo strumenti immediatamente
+                        applicabili nel proprio contesto organizzativo per coglierne in maniera efficace le sfide. Ad ogni
+                        percorso di apprendimento sono associati attività e servizi che si sviluppano, prima, durante e dopo
+                        la fase di aula.
+                    </p>
                 <?php 
-						$i = 0;
+						
 						$array = array(
 							
 							array(
@@ -149,7 +150,9 @@ get_template_part( 'pco/template-parts/content', 'keyfacts' );
 
 								)
 							),
-						)
+                        );
+                        
+                        $i = 0;
 
 					?>
 
@@ -163,7 +166,7 @@ get_template_part( 'pco/template-parts/content', 'keyfacts' );
                     <?php if(isset($area['programmi'])): ?>
                     <?php foreach($area['programmi'] as $programma): 
 							$expanded = ($i == 0) ? 'true':'false';
-							$in = ($i == 0) ? 'in':'';
+							$in = ($i == 0) ? 'show':'';
 							$collapsed = ($i == 0) ? '':'collapsed';
 							?>
                     <div class="panel-accordion mt-32">
@@ -199,7 +202,11 @@ get_template_part( 'pco/template-parts/content', 'keyfacts' );
 
 
                 <?php else: ?>
-                <?php the_content('');?>
+
+
+                    <?php the_content('');?>
+
+
                 <?php endif; ?>
 
 

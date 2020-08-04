@@ -63,22 +63,22 @@ get_template_part( 'pco/template-parts/content', 'keyfacts' );
 
             <?php
 
-wp_nav_menu(array(
-    'menu' => 'Master',
-    'container_class' => 'd-block d-lg-none text-center pt-32',
-    'walker'         => new Walker_Nav_Menu_Dropdown(),
-    'items_wrap'     => '<select class="select w-100"><option disabled selected>Menu</option>%3$s</select>',
-  ));
+                wp_nav_menu(array(
+                    'menu' => 'Master',
+                    'container_class' => 'd-block d-lg-none text-center pt-32',
+                    'walker'         => new Walker_Nav_Menu_Dropdown(),
+                    'items_wrap'     => '<select class="select w-100"><option disabled selected>Menu</option>%3$s</select>',
+                ));
 
-								wp_nav_menu(array(
-									'menu' => 'Master',
-									'container_id' => '',
-									'container_class' => 'bg__white d-none d-lg-block',
-									'container' => 'div',
-									'menu_class' => 'list-unstyled sidebar_navigation ',
-								));
+                wp_nav_menu(array(
+                    'menu' => 'Master',
+                    'container_id' => '',
+                    'container_class' => 'bg__white d-none d-lg-block',
+                    'container' => 'div',
+                    'menu_class' => 'list-unstyled sidebar_navigation ',
+                ));
 
-								?>
+			?>
         </nav>
 
         <main id="main" class="site-main site-master col-lg-6 col-md-6" role="main">

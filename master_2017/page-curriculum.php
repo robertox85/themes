@@ -168,7 +168,7 @@ wp_nav_menu(array(
                                     </a>
                                 </h6>
                             </div>
-                            <div id="accordion-content-1" class="panel-collapse collapse in" role="tabpanel"
+                            <div id="accordion-content-1" class="panel-collapse collapse show" role="tabpanel"
                                 aria-labelledby="headingOne">
                                 <div class="panel-body">
 

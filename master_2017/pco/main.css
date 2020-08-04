@@ -12695,6 +12695,10 @@ body.theme-blue .accordion .panel-title {
   position: relative;
 }
 
+body.theme-blue .accordion .panel-title a {
+  text-transform: uppercase;
+}
+
 body.theme-blue .accordion .panel-accordion {
   border: 1px solid #003A70;
 }
@@ -13554,6 +13558,10 @@ body.theme-light_blue .accordion .panel-title {
   padding-bottom: 3rem;
   padding-left: 3rem;
   position: relative;
+}
+
+body.theme-light_blue .accordion .panel-title a {
+  text-transform: uppercase;
 }
 
 body.theme-light_blue .accordion .panel-accordion {
@@ -14417,6 +14425,10 @@ body.theme-green .accordion .panel-title {
   position: relative;
 }
 
+body.theme-green .accordion .panel-title a {
+  text-transform: uppercase;
+}
+
 body.theme-green .accordion .panel-accordion {
   border: 1px solid #00968F;
 }
@@ -15276,6 +15288,10 @@ body.theme-red .accordion .panel-title {
   padding-bottom: 3rem;
   padding-left: 3rem;
   position: relative;
+}
+
+body.theme-red .accordion .panel-title a {
+  text-transform: uppercase;
 }
 
 body.theme-red .accordion .panel-accordion {
@@ -16139,6 +16155,10 @@ body.theme-orange .accordion .panel-title {
   position: relative;
 }
 
+body.theme-orange .accordion .panel-title a {
+  text-transform: uppercase;
+}
+
 body.theme-orange .accordion .panel-accordion {
   border: 1px solid #D45D00;
 }
@@ -16998,6 +17018,10 @@ body.theme-gold .accordion .panel-title {
   padding-bottom: 3rem;
   padding-left: 3rem;
   position: relative;
+}
+
+body.theme-gold .accordion .panel-title a {
+  text-transform: uppercase;
 }
 
 body.theme-gold .accordion .panel-accordion {

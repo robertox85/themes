@@ -270,6 +270,9 @@
         padding-bottom: rem(48px);
         padding-left: rem(48px);
         position: relative;
+        a{
+          text-transform: uppercase;
+        }
       }
       .panel-accordion {
         border: 1px solid $bgColor;

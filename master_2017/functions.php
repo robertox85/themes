@@ -260,7 +260,7 @@ function pco_style()
     wp_enqueue_style('pco_hamburger', get_stylesheet_directory_uri() . '/pco/vendor/hamburger/hamburgers.min.css', array(), time(), 'all' );
     wp_enqueue_style('fa', get_stylesheet_directory_uri() . '/pco/vendor/fontawesome/css/all.min.css', array(), null, 'all' );
 
-    
+    wp_enqueue_script( 'pco_bootstrap', get_stylesheet_directory_uri().'/pco/vendor/bootstrap/js/bootstrap.min.js', array('jquery'), time(), true );
     wp_enqueue_script( 'pco_script', get_stylesheet_directory_uri().'/pco/pco-script.js', array('jquery'), time(), true );
 }
 add_action('wp_enqueue_scripts', 'pco_style');
