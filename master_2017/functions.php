@@ -302,46 +302,40 @@ function theme_color_class( $classes ) {
     $blog_id = get_current_blog_id();
     $color   = get_theme_mod( 'theme_color' );
     
-    
-    
-    if($blog_id == 51){
-        $classes[] = 'theme-green'; // mba verde
-    }elseif($blog_id == 61){
-        $classes[] = 'theme-red'; // Digi mar rosso
-    }elseif($blog_id == 68){
-        $classes[] = 'theme-light_blue'; // leader azzurro
-    }else{
-        $classes[] = 'theme-blue';
+    $theme_colors = array(
+        'theme-blue' => array(
+            8,49,58,95
+        ),
+        'theme-light_blue' => array(
+            5,13,15,17,18,19,20,25,27,30,32,34,42,43,44,47,50,53,55,57,63,65,67,68,69,70,72,75,76,77,79,84,91,93,96,97,98,99,103,104,105,106,107,108,110,111,112,113,114,115,117,118,120,124,126,127,129,130,133,134,135
+        ),
+        'theme-green' => array(
+            51,52,54,100,144
+        ),
+        'theme-red' => array(
+            2,3,4,6,7,9,11,12,13,16,18,19,20,21,22,23,24,33,35,36,37,38,39,41,56,57,59,60,61,66,71,72,74,78,94,101,121,122,123,129
+        ),
+        'theme-orange' => array(),
+        'theme-gold' => array()
+    );
+   
+    foreach($theme_colors as $key => $value){
+        if(in_array($blog_id,$value)){
+            $classes[] = $key;
+        }
     }
-
-
-
-    // if ( !empty(get_theme_mod( 'theme_color' )) ) {
-    //     $classes[] = get_theme_mod( 'theme_color' );
-    // }else{
-    //     $classes[] = 'theme-blue';
-    // }
 
     return $classes;
 }
 
 function modify_home_in_nav_menu_objects( $items, $args ) {
     foreach ( $items as $k => $object ) {
-        $object->title = ucwords(strtolower($object->title)).'<i class="fas fa-chevron-right"></i>';
+        $object->title = ucfirst(strtolower($object->title)).'<i class="fas fa-chevron-right"></i>';
     }
     return $items;
 }
 add_filter( 'wp_nav_menu_objects', 'modify_home_in_nav_menu_objects', 10, 2 );
 
-// add_filter('the_content', 'add_text_to_content');
-// function add_text_to_content($content)
-// {
-
-//     $pattern = '/<h3>(\w)<\/h3>/s';
-// 	$replace = '<h3>\L$1</h3>';
-// 	$content = preg_replace($pattern, $replace, $content);
-//     return $content;
-// }
 
 class Walker_Nav_Menu_Dropdown extends Walker_Nav_Menu{
 

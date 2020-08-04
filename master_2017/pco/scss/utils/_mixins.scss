@@ -190,12 +190,23 @@
       background-color: transparent!important;
     }
 
-
+    .site-main{
+      h1,h2,h3,h4,h5,h6{
+        text-transform: lowercase;
+        &::first-letter{
+          text-transform: uppercase;
+        }
+      }
+    }
     .site-main h3 {
       margin-bottom: rem(30px);
       margin-top: rem(50px);
     }
-
+    .site-main .button{
+      font-family: 'Luiss Sans', sans-serif !important;
+      border: 1px solid $bgColor;
+      color: $textColor!important;
+    }
     #site-canvas {
       transform: none;
     }
@@ -379,6 +390,9 @@
           color: $blue;
           transition: 0.3s;
           font-weight: bold;
+          &::first-letter{
+            text-transform: uppercase;
+          }
 
           i {
             margin-left: rem(36px);
@@ -594,7 +608,7 @@
         right: 0;
         bottom: 0;
         width: 100%;
-        height: 100%;
+        height: 480px;
         background: $bgColor;
         background: linear-gradient(
           -225deg,

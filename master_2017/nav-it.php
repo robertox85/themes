@@ -131,8 +131,6 @@
 
 
             <div id="sb-search" class="sb-search">
-
-
                 <script>
                 (function() {
                     var cx = '012139100949894875782:1dp0jtr1a6w';
