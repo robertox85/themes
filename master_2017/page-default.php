@@ -113,12 +113,12 @@ get_template_part( 'pco/template-parts/content', 'keyfacts' );
 
 									array(
 										'icona'	 => 'https://businessschool.luiss.it/executive-human-resource-management/wp-content/uploads/sites/62/2018/12/Pre_Program.png',
-										'titolo' => 'PRE-PROGRAM',
+										'titolo' => 'Pre-Program',
 										'contenuto'	 => 'Prevede lo svolgimento di attività propedeutiche prima dell’inizio del programma, quali la somministrazione di materiali didattici e test di autovalutazione, volti a facilitare e contemporaneamente massimizzare l’apprendimento in aula.'
 									),
 									array(
 										'icona'	 => 'https://businessschool.luiss.it/executive-human-resource-management/wp-content/uploads/sites/62/2018/12/Experimental_learning.png',
-										'titolo' => 'EXPERIENTIAL LEARNING',
+										'titolo' => 'Experiential learning',
 										'contenuto'	 => 'L’approccio seguito è definito Evidence Based Training ed è fondato sulle tre fasi briefing-simulazione-debriefing. I briefing applicano le teorie Team-Gain e Good-Judgement. I partecipanti, saranno coinvolti in laboratori e business case, in cui dovranno fare leva sulle proprie competenze per analizzare le problematiche, stabilire le priorità e riorganizzare le risorse a disposizione per il raggiungimento degli obiettivi fissati. L’apprendimento esperienziale, permettendo di affrontare in un contesto protetto situazioni di complessità, consente di migliorare le capacità di Problem Solving, il Critical Thinking e le Creatività.'
 									),
 
@@ -131,7 +131,7 @@ get_template_part( 'pco/template-parts/content', 'keyfacts' );
 
 									array(
 										'icona'	 => 'https://businessschool.luiss.it/leadership-in-action/wp-content/uploads/sites/68/2020/02/NetworkingActivities-e1582113726490.png',
-										'titolo' => 'NETWORKING ACTIVITIES',
+										'titolo' => 'Networking activities',
 										'contenuto'	 => 'Attraverso il percorso di individual coaching con un professionista qualificato dalle migliori associazioni internazionali, in un contesto non valutativo e confidenziale, i partecipanti potranno personalizzare l’apprendimento in aula applicandolo al proprio contesto, integrando la loro storia professionale con gli obiettivi futuri e acquisendo una migliore consapevolezza delle proprie risorse, aree di forza e di sviluppo.'
 									),
 
@@ -144,7 +144,7 @@ get_template_part( 'pco/template-parts/content', 'keyfacts' );
 
 									array(
 										'icona'	 => 'https://businessschool.luiss.it/executive-human-resource-management/wp-content/uploads/sites/62/2018/12/Executive_follow_up.png',
-										'titolo' => 'EXECUTIVE FOLLOW UP',
+										'titolo' => 'Executive follow Up',
 										'contenuto'	 => 'I partecipanti avranno l’opportunità di un successivo momento di confronto con la faculty per verificare l’applicazione di quanto appreso in aula.'
 									),
 
@@ -172,13 +172,14 @@ get_template_part( 'pco/template-parts/content', 'keyfacts' );
                     <div class="panel-accordion mt-32">
                         <div class="panel-heading" role="tab" id="headingOne">
                             <h6 class="panel-title">
+                                 
                                 <a role="button" data-toggle="collapse" data-parent="#<?php echo $area_id ?>"
                                     href="#accordion-content-<?php echo $i ?>" aria-expanded="<?php echo $expanded  ?>"
                                     aria-controls="accordion-content-<?php echo $i ?>"
-                                    class="accordion-toggle <?php echo $collapsed ?>">
+                                    class="accordion-toggle page-default <?php echo $collapsed ?>">
                                     <!-- Titolo -->
-                                    <img class="mr-48" src="<?php echo $programma['icona'] ?>" alt="" width="100"
-                                        height="100"> <?php echo $programma['titolo'] ?>
+                                    <img class="mr-48" src="<?php echo $programma['icona'] ?>" alt="" width="100" height="100">   
+                                    <?php echo $programma['titolo'] ?>
                                 </a>
                             </h6>
                         </div>

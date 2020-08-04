@@ -12696,7 +12696,15 @@ body.theme-blue .accordion .panel-title {
 }
 
 body.theme-blue .accordion .panel-title a {
+  text-transform: lowercase;
+}
+
+body.theme-blue .accordion .panel-title a::first-letter {
   text-transform: uppercase;
+}
+
+body.theme-blue .accordion .panel-title a.page-default {
+  text-transform: capitalize;
 }
 
 body.theme-blue .accordion .panel-accordion {
@@ -13561,7 +13569,15 @@ body.theme-light_blue .accordion .panel-title {
 }
 
 body.theme-light_blue .accordion .panel-title a {
+  text-transform: lowercase;
+}
+
+body.theme-light_blue .accordion .panel-title a::first-letter {
   text-transform: uppercase;
+}
+
+body.theme-light_blue .accordion .panel-title a.page-default {
+  text-transform: capitalize;
 }
 
 body.theme-light_blue .accordion .panel-accordion {
@@ -14426,7 +14442,15 @@ body.theme-green .accordion .panel-title {
 }
 
 body.theme-green .accordion .panel-title a {
+  text-transform: lowercase;
+}
+
+body.theme-green .accordion .panel-title a::first-letter {
   text-transform: uppercase;
+}
+
+body.theme-green .accordion .panel-title a.page-default {
+  text-transform: capitalize;
 }
 
 body.theme-green .accordion .panel-accordion {
@@ -15291,7 +15315,15 @@ body.theme-red .accordion .panel-title {
 }
 
 body.theme-red .accordion .panel-title a {
+  text-transform: lowercase;
+}
+
+body.theme-red .accordion .panel-title a::first-letter {
   text-transform: uppercase;
+}
+
+body.theme-red .accordion .panel-title a.page-default {
+  text-transform: capitalize;
 }
 
 body.theme-red .accordion .panel-accordion {
@@ -16156,7 +16188,15 @@ body.theme-orange .accordion .panel-title {
 }
 
 body.theme-orange .accordion .panel-title a {
+  text-transform: lowercase;
+}
+
+body.theme-orange .accordion .panel-title a::first-letter {
   text-transform: uppercase;
+}
+
+body.theme-orange .accordion .panel-title a.page-default {
+  text-transform: capitalize;
 }
 
 body.theme-orange .accordion .panel-accordion {
@@ -17021,7 +17061,15 @@ body.theme-gold .accordion .panel-title {
 }
 
 body.theme-gold .accordion .panel-title a {
+  text-transform: lowercase;
+}
+
+body.theme-gold .accordion .panel-title a::first-letter {
   text-transform: uppercase;
+}
+
+body.theme-gold .accordion .panel-title a.page-default {
+  text-transform: capitalize;
 }
 
 body.theme-gold .accordion .panel-accordion {

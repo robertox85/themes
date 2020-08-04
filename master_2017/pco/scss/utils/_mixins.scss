@@ -270,8 +270,15 @@
         padding-bottom: rem(48px);
         padding-left: rem(48px);
         position: relative;
+        
         a{
-          text-transform: uppercase;
+          &::first-letter{
+            text-transform: uppercase;
+          }
+          text-transform: lowercase;
+          &.page-default{
+            text-transform: capitalize;
+          }
         }
       }
       .panel-accordion {
