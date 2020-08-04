@@ -145,8 +145,8 @@ bloginfo('name');
         <div id="site-canvas">
             
 
-        <!-- DESKTOP -->
-        <header id="masthead" class="d-none d-lg-block pb-24 pl-0">
+            <!-- DESKTOP -->
+            <header id="masthead" class="d-none d-lg-block pb-24 pl-0">
                 <div class="container">
                     <div class="row">
                         <div id="mobile-menu-trigger">
@@ -207,28 +207,25 @@ bloginfo('name');
                     <div class="row">
                         <?php
 
-if (is_page_template('home-2017.php')) {
-    wp_nav_menu(array('theme_location' => 'menu-top',
-        'container_id' => 'menu-main-container',
-        'container' => 'div',
-        'menu_id' => 'menu-main',
-        'depth' => 0));
+                            if (is_page_template('home-2017.php')) {
+                                wp_nav_menu(array('theme_location' => 'menu-top',
+                                    'container_id' => 'menu-main-container',
+                                    'container' => 'div',
+                                    'menu_id' => 'menu-main',
+                                    'depth' => 0));
 
-} else {
-    wp_nav_menu(array(
-        'theme_location' => 'menu-top',
-        'container_id' => 'menu-main-container',
-        'container' => 'div',
-        'menu_id' => 'menu-main',
-    ));
+                            } else {
+                                wp_nav_menu(array(
+                                    'theme_location' => 'menu-top',
+                                    'container_id' => 'menu-main-container',
+                                    'container' => 'div',
+                                    'menu_id' => 'menu-main',
+                                ));
 
-}
+                            }
 
-?>
-                        <div class="searchbar"><a class="sb-icon-search" title="cerca nel sito"><span
-                                    class="glyphicon glyphicon-search"></span></a></div>
-
-
+                        ?>
+                        <div class="searchbar"><a class="sb-icon-search" title="cerca nel sito"><span class="glyphicon glyphicon-search"></span></a></div>
                         <div id="sb-search" class="sb-search">
 
 
@@ -252,6 +249,7 @@ if (is_page_template('home-2017.php')) {
                 </div>
                 <!-- .END container -->
             </nav>
+
             <nav id="network-container-offcanvas">
                 <div class="container">
                     <div class="row">
@@ -286,6 +284,7 @@ if (is_page_template('home-2017.php')) {
                     </div>
                 </div>
             </nav>
+            
 
             <?php if (!is_front_page()): ?>
 

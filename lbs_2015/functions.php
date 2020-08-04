@@ -1178,10 +1178,16 @@ function pco_style()
         'taxonomy-sport-2018.php',
         'taxonomy-tax-2018.php',
     ))) {
-    wp_enqueue_style('bootstrap_style', get_stylesheet_directory_uri() . '/pco/css/bootstrap.css', array(), time(), 'all' );
-    wp_enqueue_style('pco_style', get_stylesheet_directory_uri() . '/pco/main.css', array(), time(), 'all' );
-    wp_enqueue_script('bootstrap_js', get_stylesheet_directory_uri() . '/pco/js/bootstrap.js', array(), time(), 'all' );
-    
+            wp_enqueue_style('bootstrap_style', get_stylesheet_directory_uri() . '/pco/css/bootstrap.css', array(), time(), 'all' );
+            wp_enqueue_style('pco_style', get_stylesheet_directory_uri() . '/pco/main.css', array(), time(), 'all' );
+            wp_enqueue_script('bootstrap_js', get_stylesheet_directory_uri() . '/pco/js/bootstrap.js', array(), time(), 'all' );
+            
+        }else{
+            wp_enqueue_style('bootstrap_visibility', get_stylesheet_directory_uri() . '/pco/css/visibility.css', array(), time(), 'all' );
+            wp_enqueue_style('bootstrap_grid', get_stylesheet_directory_uri() . '/pco/css/grid.css', array(), time(), 'all' );
+            wp_enqueue_style('typography', get_stylesheet_directory_uri() . '/pco/css/typography.css', array(), time(), 'all' );
+            wp_enqueue_style('pco_common', get_stylesheet_directory_uri() . '/pco/css/common.css', array(), time(), 'all' );
+
         }
     wp_enqueue_script('pco_script', get_stylesheet_directory_uri() . '/pco/script.js', array(), time(), true );
 
