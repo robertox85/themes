@@ -183,8 +183,6 @@ bloginfo('name');
             <header id="masthead" class="d-block d-lg-none pb-24 pl-0">
                 <div class="container">
                     <div class="row d-flex align-items-center">
-                        
-
                         <a class="col-xs-1 main-menu-toggle hamburger  hamburger--collapse" type="button">
                           <span class="hamburger-box">
                             <span class="hamburger-inner"></span>
@@ -288,22 +286,23 @@ bloginfo('name');
 
             <?php if (!is_front_page()): ?>
 
-            <nav id="breadcrumb-top">
+            <nav id="breadcrumb-top" class="d-none d-md-block">
                 <div class="container">
                     <div class="row breadcrumb ">
                         <?php
-if (function_exists('bcn_display')) {
-    bcn_display();
-}
+                            if (function_exists('bcn_display')) {
+                                bcn_display();
+                            }
 
-$back_to_top_text = array();
-$back_to_top_text['it'] = 'Torna su';
-$back_to_top_text['en'] = 'Back to top';
+                            $back_to_top_text = array();
+                            $back_to_top_text['it'] = 'Torna su';
+                            $back_to_top_text['en'] = 'Back to top';
 
-?>
-                        <span class="back-to-top"><a id="backtotop" href="javascript:void(0)"><i
-                                    class="fa fa-angle-up"></i>
-                                <?php echo $back_to_top_text[ICL_LANGUAGE_CODE] ?></a></span> </div>
+                        ?>
+                        <span class="back-to-top"><a id="backtotop" href="javascript:void(0)"><i class="fa fa-angle-up"></i> <?php echo $back_to_top_text[ICL_LANGUAGE_CODE] ?></a></span> 
+                    </div>
+
+                    
                     <!--END .row -->
                 </div>
                 <!-- .END container -->

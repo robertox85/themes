@@ -75,7 +75,7 @@ header#masthead .lang_selector li a.active {
 
 @media (max-width: 1040px) {
   header#masthead {
-    height: 92px;
+    height: 92px!important;
   }
   #logo a {
     background: unset !important;
@@ -106,6 +106,16 @@ header#masthead .lang_selector li a.active {
   font-size: 16px;
   color: #a1a1a1 !important;
   line-height: 1rem;
+}
+
+.fixed .breadcrumb .home {
+  background-image: url('/wp-content/themes/lbs_2015/img/logo-new-2.png')!important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: transparent!important;
+  width: 77px!important;
+  height: 60px!important;
+  
 }
 
 #menu-main {

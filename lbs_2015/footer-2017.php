@@ -130,7 +130,7 @@ $current_blog_id = get_query_var( 'current_blog_id' );
                                     </div> <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                                     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_fbe9a604a26369735b564dc99_5e790bb539" tabindex="-1" value=""></div>
                                     <div class="clear">
-                                        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button button__primary"></div>
+                                        <input type="submit" style="" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button button__primary"></div>
                                 </div>
                             </form>
                             <p><a href="//businessschool.luiss.it/informativa-sul-trattamento-dei-dati-personali-newsletter/" style="color: #FDBB4D;">Informativa sul trattamento dei dati personali</a></p>
