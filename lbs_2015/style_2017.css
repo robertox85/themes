@@ -84,7 +84,7 @@ h2, h3{page-break-after:avoid}
 .table td, .table th{background-color:#fff !important}
 .table-bordered th, .table-bordered td{border:1px solid #ddd !important}
 }
-@font-face{font-family:'Glyphicons Halflings';src:url('/wp-content/themes/lbs_2015/Fonts//glyphicons-halflings-regular.eot');src:url('/wp-content/themes/lbs_2015/Fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('/wp-content/themes/lbs_2015/Fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('/wp-content/themes/lbs_2015/Fonts/glyphicons-halflings-regular.woff') format('woff'), url('/wp-content/themes/lbs_2015/Fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('/wp-content/themes/lbs_2015/Fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg')}
+@font-face{font-family:'Glyphicons Halflings';src:url('../../themes/lbs_2015/Fonts//glyphicons-halflings-regular.eot');src:url('../../themes/lbs_2015/Fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../../themes/lbs_2015/Fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../../themes/lbs_2015/Fonts/glyphicons-halflings-regular.woff') format('woff'), url('../../themes/lbs_2015/Fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../../themes/lbs_2015/Fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg')}
 .glyphicon{position:relative;top:1px;display:inline-block;font-family:'Glyphicons Halflings';font-style:normal;font-weight:normal;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 .glyphicon-asterisk:before{content:"\002a"}
 .glyphicon-plus:before{content:"\002b"}
@@ -709,10 +709,10 @@ tbody.collapse.in{display:table-row-group}
 .hidden{display:none !important}
 .affix{position:fixed}
 .slider_paragraf{padding:2px;color:#fff;font-size:14px;line-height:16px;color:#3c3c3c;}
-@font-face{font-family:"ITC Officina Sans W01";src:url(/wp-content/themes/lbs_2015/Fonts/e4f88d1f-2f5e-49a0-9361-9fcdc5bfc795.eot?#iefix);src:url(/wp-content/themes/lbs_2015/Fonts/e4f88d1f-2f5e-49a0-9361-9fcdc5bfc795.eot?#iefix) format("eot"), url(/wp-content/themes/lbs_2015/Fonts/60567f88-1ef5-4f2c-9951-3ce3845f9967.woff) format("woff"), url(/wp-content/themes/lbs_2015/Fonts/ec8c3086-5408-4f25-97d0-f1f4c7014668.ttf) format("truetype"), url(/wp-content/themes/lbs_2015/Fonts/d29fed54-ae01-49ef-94e2-3e3fb9df3f70.svg#d29fed54-ae01-49ef-94e2-3e3fb9df3f70) format("svg");font-weight:300;font-style:normal}
-@font-face{font-family:"ITC Officina Sans W01 Bold";src:url(/wp-content/themes/lbs_2015/Fonts/2f0ec777-1dee-443a-8545-9f7f99463c7c.eot?#iefix);src:url(/wp-content/themes/lbs_2015/Fonts/2f0ec777-1dee-443a-8545-9f7f99463c7c.eot?#iefix) format("eot"), url(/wp-content/themes/lbs_2015/Fonts/de07363b-ce31-46ce-aea6-f035147ac203.woff) format("woff"), url(/wp-content/themes/lbs_2015/Fonts/c2aa6294-4649-4459-8985-3ea6c56ca7a9.ttf) format("truetype"), url(/wp-content/themes/lbs_2015/Fonts/d6cda294-df79-4dd0-9a04-87653b44cb98.svg#d6cda294-df79-4dd0-9a04-87653b44cb98) format("svg");font-weight:700;font-style:normal}
-@font-face{font-family:"ITC Officina Serif W01";src:url(/wp-content/themes/lbs_2015/Fonts/d29a1003-aa62-4492-a4ab-3b649c7efccd.eot?#iefix);src:url(/wp-content/themes/lbs_2015/Fonts/d29a1003-aa62-4492-a4ab-3b649c7efccd.eot?#iefix) format("eot"), url(/wp-content/themes/lbs_2015/Fonts/d8999082-96b7-4355-bab1-d135f4e4bee7.woff) format("woff"), url(/wp-content/themes/lbs_2015/Fonts/e0a4e45b-0b2e-4b30-82d9-808d85415dc9.ttf) format("truetype"), url(/wp-content/themes/lbs_2015/Fonts/9e9b325c-b638-44e5-9889-91dd0d826f86.svg#9e9b325c-b638-44e5-9889-91dd0d826f86) format("svg");font-weight:300;font-style:Regular}
-@font-face{font-family:"Droid Sans Mono W01";src:url(/wp-content/themes/lbs_2015/Fonts/da99e021-1adc-402e-9724-4a7a508c0ca9.eot?#iefix);src:url(/wp-content/themes/lbs_2015/Fonts/da99e021-1adc-402e-9724-4a7a508c0ca9.eot?#iefix) format("eot"), url(/wp-content/themes/lbs_2015/Fonts/b9064a23-9ce3-4444-8334-a3040698c81f.woff) format("woff"), url(/wp-content/themes/lbs_2015/Fonts/1479c6cd-a01e-45c3-92f1-64276599c820.ttf) format("truetype"), url(/wp-content/themes/lbs_2015/Fonts/5dfbdeaa-66ad-4913-87c5-a6f779651dd9.svg#5dfbdeaa-66ad-4913-87c5-a6f779651dd9) format("svg");font-weight:400;font-style:Regular}
+@font-face{font-family:"ITC Officina Sans W01";src:url(../../themes/lbs_2015/Fonts/e4f88d1f-2f5e-49a0-9361-9fcdc5bfc795.eot?#iefix);src:url(../../themes/lbs_2015/Fonts/e4f88d1f-2f5e-49a0-9361-9fcdc5bfc795.eot?#iefix) format("eot"), url(../../themes/lbs_2015/Fonts/60567f88-1ef5-4f2c-9951-3ce3845f9967.woff) format("woff"), url(../../themes/lbs_2015/Fonts/ec8c3086-5408-4f25-97d0-f1f4c7014668.ttf) format("truetype"), url(../../themes/lbs_2015/Fonts/d29fed54-ae01-49ef-94e2-3e3fb9df3f70.svg#d29fed54-ae01-49ef-94e2-3e3fb9df3f70) format("svg");font-weight:300;font-style:normal}
+@font-face{font-family:"ITC Officina Sans W01 Bold";src:url(../../themes/lbs_2015/Fonts/2f0ec777-1dee-443a-8545-9f7f99463c7c.eot?#iefix);src:url(../../themes/lbs_2015/Fonts/2f0ec777-1dee-443a-8545-9f7f99463c7c.eot?#iefix) format("eot"), url(../../themes/lbs_2015/Fonts/de07363b-ce31-46ce-aea6-f035147ac203.woff) format("woff"), url(../../themes/lbs_2015/Fonts/c2aa6294-4649-4459-8985-3ea6c56ca7a9.ttf) format("truetype"), url(../../themes/lbs_2015/Fonts/d6cda294-df79-4dd0-9a04-87653b44cb98.svg#d6cda294-df79-4dd0-9a04-87653b44cb98) format("svg");font-weight:700;font-style:normal}
+@font-face{font-family:"ITC Officina Serif W01";src:url(../../themes/lbs_2015/Fonts/d29a1003-aa62-4492-a4ab-3b649c7efccd.eot?#iefix);src:url(../../themes/lbs_2015/Fonts/d29a1003-aa62-4492-a4ab-3b649c7efccd.eot?#iefix) format("eot"), url(../../themes/lbs_2015/Fonts/d8999082-96b7-4355-bab1-d135f4e4bee7.woff) format("woff"), url(../../themes/lbs_2015/Fonts/e0a4e45b-0b2e-4b30-82d9-808d85415dc9.ttf) format("truetype"), url(../../themes/lbs_2015/Fonts/9e9b325c-b638-44e5-9889-91dd0d826f86.svg#9e9b325c-b638-44e5-9889-91dd0d826f86) format("svg");font-weight:300;font-style:Regular}
+@font-face{font-family:"Droid Sans Mono W01";src:url(../../themes/lbs_2015/Fonts/da99e021-1adc-402e-9724-4a7a508c0ca9.eot?#iefix);src:url(../../themes/lbs_2015/Fonts/da99e021-1adc-402e-9724-4a7a508c0ca9.eot?#iefix) format("eot"), url(../../themes/lbs_2015/Fonts/b9064a23-9ce3-4444-8334-a3040698c81f.woff) format("woff"), url(../../themes/lbs_2015/Fonts/1479c6cd-a01e-45c3-92f1-64276599c820.ttf) format("truetype"), url(../../themes/lbs_2015/Fonts/5dfbdeaa-66ad-4913-87c5-a6f779651dd9.svg#5dfbdeaa-66ad-4913-87c5-a6f779651dd9) format("svg");font-weight:400;font-style:Regular}
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td{border:0;font-family:inherit;font-size:100%;font-style:inherit;font-weight:inherit;margin:0;outline:0;padding:0;vertical-align:baseline}
 html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;font-size:62.5%;overflow-y:scroll;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
 *,:before,:after{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}
@@ -865,7 +865,7 @@ h3.master-info, h3.course-info{font-family:"ITC Officina Sans W01", Georgia, "Ti
 .titolo-corso{color:#3c3c3c;font-family:'Oswald', sans-serif;font-size:20px;text-align:left}
 .titolo-corso a::hover{color:#FFF}
 .sx{float:left}
-.grid-row-quotes{background:url(/wp-content/uploads/2017/06/icon-brand-quote.png) no-repeat;background-repeat:no-repeat;background-position:3% 3%;background-color:#fff}
+.grid-row-quotes{background:url(../../uploads/2017/06/icon-brand-quote.png) no-repeat;background-repeat:no-repeat;background-position:3% 3%;background-color:#fff}
 .grid-row-quotes p{padding:55px 15px;color:#3c3c3c;font-size:25px;text-transform:uppercase;font-family:'Oswald', sans-serif}
 .master-image{width:100%;bottom:15%;top:40%;position:absolute;}
 .exe-image{bottom:25%;position:absolute;top:65%;width:100%;}
@@ -926,7 +926,7 @@ strong, b{font-weight:700;line-height:inherit}
 img.left{margin-right:10px}
 .left{float:left!important}
 hr{border-color:#DDD;border-style:solid;border-width:1px 0 0;clear:both;height:0;margin:1.11111rem 0 1.05556rem}
-.offerta{background:url(/wp-content/uploads/2018/03/perche-lbs-studenti-in-aula.jpg) no-repeat scroll 0 0/cover #CC8A00;min-height:528px;margin:0!important}
+.offerta{background:url(../../uploads/2018/03/perche-lbs-studenti-in-aula.jpg) no-repeat scroll 0 0/cover #CC8A00;min-height:528px;margin:0!important}
 #offerta-nav{background:#3c3c3c}
 #offerta-nav ul{padding:0;margin:0}
 #offerta-nav ul li{font-family:'ITC Officina Sans W01', Georgia, 'Times New Roman', serif;font-style:normal;font-weight:400;font-size:18px;text-transform:uppercase;text-align:center;height:100px;line-height:1.1;padding:35px 10px;list-style:none;color:#fff}
@@ -1070,13 +1070,13 @@ footer .fa{padding:5px}
 .oswald{font-family:'Oswald', sans-serif}
 .right{float:right}
 .text-right{text-align:right}
-.bg_3_perche{background:url(/wp-content/uploads/2018/03/perche-lbs-studenti-convegno.jpg) no-repeat center center fixed;-moz-background-size:cover;-webkit-background-size:cover;-o-background-size:cover;background-size:cover}
-.bg_4_perche{background:url(/wp-content/uploads/2018/03/perche-lbs-studenti-convegno.jpg) no-repeat center center fixed;-moz-background-size:cover;-webkit-background-size:cover;-o-background-size:cover;background-size:cover;color:#FFF}
-.bg_2_perche{background:url(/wp-content/uploads/2018/03/perche-lbs-studenti-in-aula.jpg) no-repeat center center fixed;-moz-background-size:cover;-webkit-background-size:cover;-o-background-size:cover;background-size:cover}
-.bg_1_info{background:url(/wp-content/uploads/2018/03/Immagine_Info_Utili_filtro.jpg) no-repeat center center fixed;-moz-background-size:cover;-webkit-background-size:cover;-o-background-size:cover;background-size:cover}
-/*.bg_roma{background:url(http://lgs.luiss.it/wp-content/uploads/2016/06/Roma_Spagna_tagliata.jpg) no-repeat center center fixed;-moz-background-size:cover;-webkit-background-size:cover;-o-background-size:cover;background-size:cover}
-.bg_alumni{background:url(http://lgs.luiss.it/wp-content/uploads/2016/06/Alumni_Mad_In_filter.jpg) no-repeat center center fixed;-moz-background-size:cover;-webkit-background-size:cover;-o-background-size:cover;background-size:cover}*/
-.bg_faculty{background:url(/wp-content/uploads/2018/03/Immagine_Info_Utili_filtro.jpg) no-repeat center center fixed;-moz-background-size:cover;-webkit-background-size:cover;-o-background-size:cover;background-size:cover}
+.bg_3_perche{background:url(../../uploads/2018/03/perche-lbs-studenti-convegno.jpg) no-repeat center center fixed;-moz-background-size:cover;-webkit-background-size:cover;-o-background-size:cover;background-size:cover}
+.bg_4_perche{background:url(../../uploads/2018/03/perche-lbs-studenti-convegno.jpg) no-repeat center center fixed;-moz-background-size:cover;-webkit-background-size:cover;-o-background-size:cover;background-size:cover;color:#FFF}
+.bg_2_perche{background:url(../../uploads/2018/03/perche-lbs-studenti-in-aula.jpg) no-repeat center center fixed;-moz-background-size:cover;-webkit-background-size:cover;-o-background-size:cover;background-size:cover}
+.bg_1_info{background:url(../../uploads/2018/03/Immagine_Info_Utili_filtro.jpg) no-repeat center center fixed;-moz-background-size:cover;-webkit-background-size:cover;-o-background-size:cover;background-size:cover}
+/*.bg_roma{background:url(http://lgs.luiss.it../../uploads/2016/06/Roma_Spagna_tagliata.jpg) no-repeat center center fixed;-moz-background-size:cover;-webkit-background-size:cover;-o-background-size:cover;background-size:cover}
+.bg_alumni{background:url(http://lgs.luiss.it../../uploads/2016/06/Alumni_Mad_In_filter.jpg) no-repeat center center fixed;-moz-background-size:cover;-webkit-background-size:cover;-o-background-size:cover;background-size:cover}*/
+.bg_faculty{background:url(../../uploads/2018/03/Immagine_Info_Utili_filtro.jpg) no-repeat center center fixed;-moz-background-size:cover;-webkit-background-size:cover;-o-background-size:cover;background-size:cover}
 .menu-master-container{margin:40px 0;background:#3C3C3C;display:block;width:100%;min-height:52px}
 .menu-master{list-style:none;margin:0;padding:0;display:block;width:100%;position:relative}
 .menu-master:after{content:" ";display:table}
@@ -1700,14 +1700,14 @@ aside#sidebar .block .desc, aside#sidebar .block p{font-size:16px;font-style:ita
 .pipe{height: 139px;
  padding-top:1.1em;
  padding-left:0.5em;
- background: url(//businessschool.luiss.it/wp-content/uploads/2018/06/parentesi-mission.png); 
+ background: url(//businessschool.luiss.it../../uploads/2018/06/parentesi-mission.png); 
  background-repeat:no-repeat;
 }
 .pipe-2{
  height: 51px;
  padding-top: 0.3em;
  padding-left: 0.8em;
- background: url(//businessschool.luiss.it/wp-content/uploads/2018/06/parentesi-centri.png); 
+ background: url(//businessschool.luiss.it../../uploads/2018/06/parentesi-centri.png); 
  background-repeat:no-repeat;
 }
 

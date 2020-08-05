@@ -27,7 +27,7 @@ get_header();
           </div>
         </div>
         <div class="col-md-8 nopadding">
-          <div class="sub-home-item-info"> <img  src="/wp-content/uploads/2015/04/LUISS_POLA_091001_030.jpg" alt="Prendi-il-controllo-della-tua-carriera"  class="img-responsive"/> </div>
+          <div class="sub-home-item-info"> <img  src="<?php echo get_site_url() ?>/wp-content/uploads/2015/04/LUISS_POLA_091001_030.jpg" alt="Prendi-il-controllo-della-tua-carriera"  class="img-responsive"/> </div>
         </div>
       </div>
     </div>

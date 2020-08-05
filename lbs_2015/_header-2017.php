@@ -13,7 +13,7 @@
 ?>
 </title>
 <link rel="shortcut icon" type="image/x-icon" href="<?php bloginfo('template_directory'); ?>/img/favicon.ico" />
-<link href="<?php  bloginfo('template_directory'); ?>/style_2017.css" rel="stylesheet">
+<link href="<?php  bloginfo('template_directory'); ?>/style_2017.css?ver=<?php echo time() ?>" rel="stylesheet">
 <link rel='stylesheet' id='Googge_Web_Font_Oswald-css'  href='https://fonts.googleapis.com/css?family=Oswald' type='text/css' media='all' />
 <?php  wp_head(); ?>
 </head>

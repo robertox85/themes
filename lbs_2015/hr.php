@@ -230,7 +230,7 @@ if ( !defined('ABSPATH')) exit;
 				</ul>
 				<p><strong>Cocktail</strong>
 				</p>
-				<p><a href="/wp-content/uploads/2015/05/XX-HR-Meeting-Glocal-Recruitment.pdf" class="a_freccia"><strong>Clicca qui per le immagini e la sintesi del meeting</strong></a> </p>
+				<p><a href="<?php echo site_url() ?>/wp-content/uploads/2015/05/XX-HR-Meeting-Glocal-Recruitment.pdf" class="a_freccia"><strong>Clicca qui per le immagini e la sintesi del meeting</strong></a> </p>
 			</div>
 		</div>
 	</div>

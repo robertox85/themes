@@ -10,7 +10,7 @@ $titolo_centro['it'] = ' Informazioni Utili';
 $titolo_centro['en'] = 'Useful information';
 ?>
 
-<div class="item-centre"><img src="/wp-content/uploads/2017/06/Campus_etc.jpg" alt="<?php
+<div class="item-centre"><img src="<?php echo site_url() ?>/wp-content/uploads/2017/06/Campus_etc.jpg" alt="<?php
 the_title();
 ?>" >
   <div class="container">

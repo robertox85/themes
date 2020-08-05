@@ -9,7 +9,7 @@ get_header( 2017 );
 ?>
 <div id="HomeCarousel" class="carousel slide" data-ride="carousel">
 	<div class="carousel-inner">
-		<div class="item active"><img src="/wp-content/uploads/2018/02/Immagine_LforT.png" alt="<?php the_title()?>" height="600">
+		<div class="item active"><img src="<?php echo site_url() ?>/wp-content/uploads/2018/02/Immagine_LforT.png" alt="<?php the_title()?>" height="600">
 			<div class="container">
 				<div class="carousel-caption">
 					<h1>

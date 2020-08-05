@@ -12702,6 +12702,8 @@ body.theme-blue .accordion .panel-title {
 }
 
 body.theme-blue .accordion .panel-title a {
+  font-family: 'Luiss Sans', sans-serif !important;
+  font-weight: bold;
   text-transform: lowercase;
 }
 
@@ -13586,6 +13588,8 @@ body.theme-light_blue .accordion .panel-title {
 }
 
 body.theme-light_blue .accordion .panel-title a {
+  font-family: 'Luiss Sans', sans-serif !important;
+  font-weight: bold;
   text-transform: lowercase;
 }
 
@@ -14470,6 +14474,8 @@ body.theme-green .accordion .panel-title {
 }
 
 body.theme-green .accordion .panel-title a {
+  font-family: 'Luiss Sans', sans-serif !important;
+  font-weight: bold;
   text-transform: lowercase;
 }
 
@@ -15354,6 +15360,8 @@ body.theme-red .accordion .panel-title {
 }
 
 body.theme-red .accordion .panel-title a {
+  font-family: 'Luiss Sans', sans-serif !important;
+  font-weight: bold;
   text-transform: lowercase;
 }
 
@@ -16238,6 +16246,8 @@ body.theme-orange .accordion .panel-title {
 }
 
 body.theme-orange .accordion .panel-title a {
+  font-family: 'Luiss Sans', sans-serif !important;
+  font-weight: bold;
   text-transform: lowercase;
 }
 
@@ -17122,6 +17132,8 @@ body.theme-gold .accordion .panel-title {
 }
 
 body.theme-gold .accordion .panel-title a {
+  font-family: 'Luiss Sans', sans-serif !important;
+  font-weight: bold;
   text-transform: lowercase;
 }
 

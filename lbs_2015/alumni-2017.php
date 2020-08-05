@@ -10,7 +10,7 @@ get_header( 2017 );
 ?>
 <div id="Carousel" class="carousel slide" data-ride="carousel">
 	<div class="carousel-inner">
-		<div class="item active"><img src="//businessschool.luiss.it/wp-content/uploads/2018/04/alumni.jpg" alt="<?php the_title()?>" class="img-responsive">
+		<div class="item active"><img src="<?php echo site_url() ?>/wp-content/uploads/2018/04/alumni.jpg" alt="<?php the_title()?>" class="img-responsive">
 			<div class="container">
 				<div class="carousel-caption">
 					<h1>

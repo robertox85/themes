@@ -19,7 +19,7 @@ get_header(2017);
 
 <div id="Carousel" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
-    <div class="item active"><img src="/wp-content/uploads/2017/04/Roma_filtro.jpg" alt="<?php the_title()?>" >
+    <div class="item active"><img src="<?php echo site_url() ?>/wp-content/uploads/2017/04/Roma_filtro.jpg" alt="<?php the_title()?>" >
       <div class="container">
         <div class="carousel-caption">
           <h1><?php the_title()?></h1>
@@ -130,25 +130,25 @@ get_header(2017);
   <div class="row">
     <div class="col-md-4">
       <h2 class="tagline"> Pantheon</h2>
-      <img src="/wp-content/uploads/2015/05/pantheon.jpg" alt="Pantheon - Basilica Santa Maria ad Martyres" class="img-responsive"/> </div>
+      <img src="<?php echo site_url() ?>/wp-content/uploads/2015/05/pantheon.jpg" alt="Pantheon - Basilica Santa Maria ad Martyres" class="img-responsive"/> </div>
     <div class="col-md-4">
       <h2 class="tagline"> Fontana di Trevi </h2>
-      <img src="/wp-content/uploads/2015/05/fontana-trevi.jpg" alt="Fontana di Trevi" class="img-responsive"/> </div>
+      <img src="<?php echo site_url() ?>/wp-content/uploads/2015/05/fontana-trevi.jpg" alt="Fontana di Trevi" class="img-responsive"/> </div>
     <div class="col-md-4">
       <h2 class="tagline">Piazza di Spagna</h2>
-      <img src="/wp-content/uploads/2015/05/piazza-spagna.jpg" alt="Piazza di Spagna" class="img-responsive"/></div>
+      <img src="<?php echo site_url() ?>/wp-content/uploads/2015/05/piazza-spagna.jpg" alt="Piazza di Spagna" class="img-responsive"/></div>
   </div>
   <div class="featurette-divider"></div>
   <div class="row">
     <div class="col-md-4">
       <h2 class="tagline"> Piazza del Popolo </h2>
-      <img src="/wp-content/uploads/2015/05/pizza-del-popolo.jpg" alt="Piazza del Popolo" class="img-responsive"/> </div>
+      <img src="<?php echo site_url() ?>/wp-content/uploads/2015/05/pizza-del-popolo.jpg" alt="Piazza del Popolo" class="img-responsive"/> </div>
     <div class="col-md-4">
       <h2 class="tagline">Fori Imperiali </h2>
-      <img src="/wp-content/uploads/2015/05/fori-imperiali.jpg" alt="Fori Imperiali di Roma" class="img-responsive"/> </div>
+      <img src="<?php echo site_url() ?>/wp-content/uploads/2015/05/fori-imperiali.jpg" alt="Fori Imperiali di Roma" class="img-responsive"/> </div>
     <div class="col-md-4">
       <h2 class="tagline"> Basilica di San Pietro </h2>
-      <img src="/wp-content/uploads/2015/05/Basilica-di-San-Pietro-in-Vaticano.jpg" alt="La Santa Sede" class="img-responsive"/> </div>
+      <img src="<?php echo site_url() ?>/wp-content/uploads/2015/05/Basilica-di-San-Pietro-in-Vaticano.jpg" alt="La Santa Sede" class="img-responsive"/> </div>
   </div>
 </div>
 </section>

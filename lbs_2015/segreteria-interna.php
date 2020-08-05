@@ -10,7 +10,7 @@ $titolo_centro['it'] = ' Servizi per gli studenti';
 $titolo_centro['en'] = 'Student Services';
 ?>
 
-<div class="item-centre"><img src="/wp-content/uploads/2017/06/Campus_etc.jpg" alt="<?php
+<div class="item-centre"><img src="<?php echo site_url() ?>/wp-content/uploads/2017/06/Campus_etc.jpg" alt="<?php
 the_title();
 ?>" >
   <div class="container">

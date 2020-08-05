@@ -283,6 +283,8 @@
         position: relative;
         
         a{
+          font-family: 'Luiss Sans', sans-serif !important;
+          font-weight: bold;
           &::first-letter{
             text-transform: uppercase;
           }

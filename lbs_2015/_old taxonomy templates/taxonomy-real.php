@@ -31,7 +31,7 @@ the_title();
     <div class="row">
       <div class="col-md-8 sx">
       <?php edit_post_link('<p class="button arr featured-links">Modifica Pagina</p>', ''); ?>
-      <img  src="/wp-content/uploads/2015/07/welfare.jpg" alt="Formare figure professionali specializzate nella gestione e nell’organizzazione dei processi tipici delle forme di welfare"  class="img-responsive"/>
+      <img  src="<?php echo get_site_url() ?>/wp-content/uploads/2015/07/welfare.jpg" alt="Formare figure professionali specializzate nella gestione e nell’organizzazione dei processi tipici delle forme di welfare"  class="img-responsive"/>
 
       </div>
       <div class="col-md-4 grid-row-quotes grid-col">

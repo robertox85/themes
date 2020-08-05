@@ -1264,6 +1264,3 @@ function wpb_hook_javascript_footer() {
 }
 add_action('wp_footer', 'wpb_hook_javascript_footer');
 
-?>
-
-

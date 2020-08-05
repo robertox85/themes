@@ -32,7 +32,7 @@ the_title();
       <div class="col-md-8 sx">
         
         <?php edit_post_link('<p class="button arr featured-links">Modifica Pagina</p>', ''); ?>
-        <div class="sub-home-item-info"> <img  src="/wp-content/uploads/2015/07/tax-legal.jpg" alt="Prendi-il-controllo-della-tua-carriera"  class="img-responsive"/> </div>
+        <div class="sub-home-item-info"> <img  src="<?php echo get_site_url() ?>/wp-content/uploads/2015/07/tax-legal.jpg" alt="Prendi-il-controllo-della-tua-carriera"  class="img-responsive"/> </div>
         
 
       </div>

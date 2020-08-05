@@ -17,7 +17,7 @@ get_header( 2017 );
 
 <style type="text/css">
 	.bg_faculty {
-		background: url(/wp-content/uploads/2017/03/Immagine_Faculty_filtro_2.jpg) no-repeat center center fixed;
+		background: url(<?php echo get_site_url() ?>/wp-content/uploads/2017/03/Immagine_Faculty_filtro_2.jpg) no-repeat center center fixed;
 		-moz-background-size: cover;
 		-webkit-background-size: cover;
 		-o-background-size: cover;
@@ -27,7 +27,7 @@ get_header( 2017 );
 
 <div id="Carousel" class="carousel slide" data-ride="carousel">
 	<div class="carousel-inner">
-		<div class="item active"><img src="/wp-content/uploads/2017/04/Faculty-luissbs.jpg" alt="Faculty">
+		<div class="item active"><img src="<?php echo get_site_url() ?>/wp-content/uploads/2017/04/Faculty-luissbs.jpg" alt="Faculty">
 			<div class="container">
 				<div class="carousel-caption">
 					<h1>

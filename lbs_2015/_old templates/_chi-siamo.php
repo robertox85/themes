@@ -150,13 +150,13 @@ get_header();
     <div class="row">
       <div class="col-md-4">
         <h2 class="tagline"> <?php echo html_entity_decode($ev_1); ?> </h2>
-        <a href="<?php echo html_entity_decode($link_tutti_valori); ?>"> <img src="/wp-content/uploads/2015/03/boutique-service.jpg" alt="" class="img-responsive"/></a> </div>
+        <a href="<?php echo html_entity_decode($link_tutti_valori); ?>"> <img src="<?php echo get_site_url() ?>/wp-content/uploads/2015/03/boutique-service.jpg" alt="" class="img-responsive"/></a> </div>
       <div class="col-md-4">
         <h2 class="tagline"> <?php echo html_entity_decode($ev_2); ?> </h2>
-        <a href="<?php echo html_entity_decode($link_tutti_valori); ?>"> <img src="/wp-content/uploads/2015/03/change-makers.jpg" alt="" class="img-responsive"/></a> </div>
+        <a href="<?php echo html_entity_decode($link_tutti_valori); ?>"> <img src="<?php echo get_site_url() ?>/wp-content/uploads/2015/03/change-makers.jpg" alt="" class="img-responsive"/></a> </div>
       <div class="col-md-4">
         <h2 class="tagline"> <?php echo html_entity_decode($ev_3); ?> </h2>
-        <a href="<?php echo html_entity_decode($link_tutti_valori); ?>"> <img src="/wp-content/uploads/2015/04/responsabilita.jpg" alt="" class="img-responsive"/></a> </div>
+        <a href="<?php echo html_entity_decode($link_tutti_valori); ?>"> <img src="<?php echo get_site_url() ?>/wp-content/uploads/2015/04/responsabilita.jpg" alt="" class="img-responsive"/></a> </div>
     </div>
   </div>
 </section>
@@ -249,23 +249,23 @@ $s++
         <h2 class="section-grey title"><a href="<?php echo html_entity_decode($accreditations); ?>" class="link-h2"> <?php echo html_entity_decode($cr); ?></a></h2>
       </div>
       <div class="col-md-3">
-        <h3><img src="/wp-content/uploads/2015/10/equis.gif" alt="EFMD Quality Improvement System è la prestigiosa certificazione internazionale che attesta l’eccellenza degli standard qualitativi delle business school"  style="text-align:center" /></h3>
+        <h3><img src="<?php echo get_site_url() ?>/wp-content/uploads/2015/10/equis.gif" alt="EFMD Quality Improvement System è la prestigiosa certificazione internazionale che attesta l’eccellenza degli standard qualitativi delle business school"  style="text-align:center" /></h3>
         <p class="item-desc"><?php echo html_entity_decode($cr_5_testo); ?></p>
       </div>
       <div class="col-md-3">
-        <h3><img src="/wp-content/uploads/2015/05/ins_ISO_9001_COL.gif" alt="Siamo certificati UNI EN ISO 9001 – Settore EA:35 ed EA:37 (attività di consulenza e di formazione)."  style="text-align:center" /></h3>
+        <h3><img src="<?php echo get_site_url() ?>/wp-content/uploads/2015/05/ins_ISO_9001_COL.gif" alt="Siamo certificati UNI EN ISO 9001 – Settore EA:35 ed EA:37 (attività di consulenza e di formazione)."  style="text-align:center" /></h3>
         <p class="item-desc"><?php echo html_entity_decode($cr_1_testo); ?></p>
       </div>
       <div class="col-md-2">
-        <h3><img src="/wp-content/uploads/2015/10/asfor-ordinario-rev.gif" alt="LUISS Business School è socio ASFOR (Associazione per la Formazione alla Direzione Aziendale)." style="text-align:center" /></h3>
+        <h3><img src="<?php echo get_site_url() ?>/wp-content/uploads/2015/10/asfor-ordinario-rev.gif" alt="LUISS Business School è socio ASFOR (Associazione per la Formazione alla Direzione Aziendale)." style="text-align:center" /></h3>
         <p class="item-desc"><?php echo html_entity_decode($cr_2_testo); ?></p>
       </div>
       <div class="col-md-2">
-        <h3><img src="/wp-content/uploads/2015/10/rep-luiss-rev.gif" alt="LUISS Business School è REP – Registrated Education Provider del PMI, il Project Management Institute." style="text-align:center" /></h3>
+        <h3><img src="<?php echo get_site_url() ?>/wp-content/uploads/2015/10/rep-luiss-rev.gif" alt="LUISS Business School è REP – Registrated Education Provider del PMI, il Project Management Institute." style="text-align:center" /></h3>
         <p class="item-desc"><?php echo html_entity_decode($cr_3_testo); ?></p>
       </div>
       <div class="col-md-2">
-        <h3><img src="/wp-content/uploads/2015/10/regione-lazio-rev.gif" alt="UISS Business School è struttura accreditata presso la Regione Lazio per le attività di formazione." style="text-align:center"/></h3>
+        <h3><img src="<?php echo get_site_url() ?>/wp-content/uploads/2015/10/regione-lazio-rev.gif" alt="UISS Business School è struttura accreditata presso la Regione Lazio per le attività di formazione." style="text-align:center"/></h3>
         <p class="item-desc"><?php echo html_entity_decode($cr_4_testo); ?></p>
       </div>
     </div>

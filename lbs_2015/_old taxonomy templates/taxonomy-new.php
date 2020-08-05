@@ -32,7 +32,7 @@ the_title();
       <div class="col-md-8 sx">
         
         
-        <div class="sub-home-item-info"> <img  src="http://businessschool.luiss.it/wp-content/uploads/2015/07/tax-legal.jpg" alt="Prendi-il-controllo-della-tua-carriera"  class="img-responsive"/> </div>
+        <div class="sub-home-item-info"> <img  src="<?php echo get_site_url() ?>/wp-content/uploads/2015/07/tax-legal.jpg" alt="Prendi-il-controllo-della-tua-carriera"  class="img-responsive"/> </div>
         
 
       </div>

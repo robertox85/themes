@@ -10,7 +10,7 @@ $titolo_centro['it'] = 'PERCHÉ LUISS BUSINESS SCHOOL';
 $titolo_centro['en'] = 'WHY LUISS BUSINESS SCHOOL';
 ?>
 
-<div class="item-centre"><img src="/wp-content/uploads/2017/06/ChiSiamo_Governance_Certificazioni.jpg" alt="<?php
+<div class="item-centre"><img src="<?php echo get_site_url() ?>/wp-content/uploads/2017/06/ChiSiamo_Governance_Certificazioni.jpg" alt="<?php
 the_title();
 ?>" >
   <div class="container">
@@ -26,7 +26,7 @@ echo $titolo_centro[ICL_LANGUAGE_CODE];
 </div>
 <div class="container">
   <div class="row">
-    <main id="main" class="site-main centre">
+    <main id="main" class="site-main centre col-md-9">
       <div id="page-content" class="col-md-9 columns  space">
         <?php
 while (have_posts()):

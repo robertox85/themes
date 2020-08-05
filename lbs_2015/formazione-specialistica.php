@@ -80,7 +80,7 @@ $img_m4['en'] = '/wp-content/uploads/2018/05/Specialistici.png';
 		<div class="row">
 			<div class="col-md-8">
 				<div class="vid">
-					<img src="/wp-content/uploads/2015/05/Rafforza-il-tuo-background-specialistico.jpg" alt="Rafforza il tuo background specialistico" class="img-responsive">
+					<img src="<?php echo site_url() ?>/wp-content/uploads/2015/05/Rafforza-il-tuo-background-specialistico.jpg" alt="Rafforza il tuo background specialistico" class="img-responsive">
 				</div>
 			</div>
 			<div class="col-md-4 grid-row-quotes grid-col">

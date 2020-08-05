@@ -29,7 +29,7 @@ document.write('<iframe src="https://9105818.fls.doubleclick.net/activityi;src=9
 
 <div id="CarouselCarousel" class="carousel slide" data-ride="carousel">
 	<div class="carousel-inner">
-		<div class="item active"><img src="//businessschool.luiss.it/wp-content/uploads/2018/04/offerta-formativa.jpg" alt="Offerta Formativa" height="800">
+		<div class="item active"><img src="<?php echo site_url() ?>/wp-content/uploads/2018/04/offerta-formativa.jpg" alt="Offerta Formativa" height="800">
 			<div class="container">
 				<div class="carousel-caption">
 					<h1>

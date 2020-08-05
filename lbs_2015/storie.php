@@ -42,7 +42,7 @@ the_title();
   <div class="container">
     <div class="row">
       <div class="col-md-8 sx">
-      <img  src="/wp-content/uploads/2015/09/LUISS-BS-MBA-Graduation-Day-sh.jpg" alt="LUISS BS MBA Graduation Day, a moment that you will always remember
+      <img  src="<?php echo site_url() ?>/wp-content/uploads/2015/09/LUISS-BS-MBA-Graduation-Day-sh.jpg" alt="LUISS BS MBA Graduation Day, a moment that you will always remember
 "  class="img-responsive"/> 
 
       </div>
