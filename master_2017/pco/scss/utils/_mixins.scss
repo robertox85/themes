@@ -54,6 +54,13 @@
       }
     }
 
+    .shadow-top,
+    .shadow-bottom{
+
+      box-shadow: 5px 5px 20px 5px rgba(0,0,0,0.75);
+      z-index: 1;
+
+    }
     .border-bottom-share{
       border-bottom: 1px solid #fff;
       max-width: 365px;
@@ -108,7 +115,10 @@
     }
 
     #menu-main {
-      border-color: transparent;
+      border-color: $blue;
+      @media screen and(max-width:992px) {
+        z-index: 1;
+      }
       li {
         &:hover {
           a {
@@ -152,7 +162,8 @@
     #nav-main {
       .searchbar a {
         padding: 16px 22px;
-        color: $blue;
+        background-color: $blue;
+        color: #fff;
       }
       .drop-open a {
         background-color: $blue;

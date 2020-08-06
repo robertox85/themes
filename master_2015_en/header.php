@@ -29,7 +29,7 @@ $ = jQuery.noConflict(false);
 <div class="container">
 <div class="row">
   <div id="mobile-menu-trigger"> <a class="main-menu-toggle menu-icon" title="apri il menu"> <span></span> </a> </div>
-  <div class="col-md-4" id="logo"><a href="http://businessschool.luiss.it" title="Home page"><img src="<?php bloginfo('template_directory'); ?>/img/logo-home.png" alt="Luiss Business School Logo" id="logo-img" /></a></div>
+  <div class="col-md-4" id="logo"><a href="<?php echo get_site_url() ?>" title="Home page"><img src="<?php bloginfo('template_directory'); ?>/img/logo-home.png" alt="Luiss Business School Logo" id="logo-img" /></a></div>
   <nav id="secondary-nav" class="col-md-6">
     <ul>
       <li><a href="http://www.luiss.it/">LUISS.it</a></li>
@@ -38,8 +38,8 @@ $ = jQuery.noConflict(false);
   </nav>
   <div class="lang_selector">
     <ul>
-      <li><a  href="http://businessschool.luiss.it/">IT</a></li>
-      <li><a class="active" href="http://businessschool.luiss.it/en/">EN</a></li>
+      <li><a  href="<?php echo get_site_url() ?>">IT</a></li>
+      <li><a class="active" href="<?php echo get_site_url() ?>/en/">EN</a></li>
     </ul>
   </div>
 </div>

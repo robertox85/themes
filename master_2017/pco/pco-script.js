@@ -78,20 +78,36 @@ jQuery(document).ready(function ($) {
     }, 1500);
   };
 
-  $('.select').on('change', function () {
-      
-      var url = $('option:selected', this).data('link');
-      
-      if (url) { // require a URL
-          window.location = url; // redirect
-      }
-      return false;
+  $(".select").on("change", function () {
+    var url = $("option:selected", this).data("link");
+
+    if (url) {
+      // require a URL
+      window.location = url; // redirect
+    }
+    return false;
   });
 
   var $hamburger = $(".hamburger");
-  $hamburger.on("click", function(e) {
+  $hamburger.on("click", function (e) {
     $hamburger.toggleClass("is-active");
     // Do something else, like open/close menu
   });
 
+  $(".sb-icon-search").click(function () {
+    $("#sb-search").toggle("slow");
+    $(".searchbar").toggleClass("drop-open");
+    if ($("#mobile-menu-trigger").css("display") !== "none") {
+      $("#menu-main-container").hide();
+      $(".main-menu-toggle").removeClass("main-menu-toggle-active");
+    }
+  });
+
+  // Mobile menu
+  $(".main-menu-toggle").click(function () {
+    $("#sb-search").hide();
+    $(".searchbar").removeClass("drop-open");
+    $("#menu-main-container").slideToggle("fast");
+    $(".main-menu-toggle").toggleClass("main-menu-toggle-active");
+  });
 });

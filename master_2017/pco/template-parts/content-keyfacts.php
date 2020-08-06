@@ -41,7 +41,7 @@
     </div>
 
     <!-- solo su mobile -->
-    <div class="d-block d-lg-none download-brocure">
+    <div class="d-block d-lg-none download-brocure shadow-top">
         <?php if (function_exists('dynamic_sidebar')): ?>
             <p class="text-center"><?php echo get_query_var( 'site_name' ) ?></p>
         <?php dynamic_sidebar('Custom')?>

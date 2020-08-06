@@ -14,7 +14,7 @@ $titolo_centro['it'] = ' REALE ESTATE & INFRASTRUCTURE';
 $titolo_centro['en'] = 'REALE ESTATE & INFRASTRUCTURE';
 ?>
 
-<div class="item-centre"><img src="/wp-content/uploads/2015/12/Real-Estate-Infrastructure.jpg" alt="<?php
+<div class="item-centre"><img src="<?php echo site_url() ?>/wp-content/uploads/2015/12/Real-Estate-Infrastructure.jpg" alt="<?php
 the_title();
 ?>" >
   <div class="container">

@@ -59,6 +59,10 @@ header#masthead .lang_selector li a.active {
   background-color: transparent !important;
 }
 
+#menu-main{
+  border: 1px solid #003A70;
+}
+
 @media (max-width: 1040px) {
   #menu-main li a {
     display: block !important;
@@ -176,7 +180,9 @@ header#masthead .lang_selector li a.active {
 
 #nav-main .searchbar a {
   padding: 16px 22px;
-  color: #003A70;
+  background-color: #003A70;
+  color: #fff;
+  
 }
 
 #nav-main .drop-open a {

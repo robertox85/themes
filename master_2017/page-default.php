@@ -26,12 +26,12 @@ while (have_posts()): the_post();
 }
 </style>
 <?php $image = get_field('images');?>
-<div class="container-fluid container-header px-0 py-40"
+<div class="container-fluid container-header px-md-0 py-40"
     style="min-height:480px; background-image:url(<?php echo $image['url']; ?>); background-repeat:no-repeat; background-size: cover;background-position:center;">
     <div class="container">
-        <header id="header-master" class="row px-0">
+        <header id="header-master" class="row px-md-0">
             <div class="col-12">
-                <h1 class="small p-0">
+                <h1 class="small p-md-0">
                     <?php
 					global $blog_id;
 					$current_blog_details = get_blog_details(array('blog_id' => $blog_id));
@@ -70,7 +70,7 @@ get_template_part( 'pco/template-parts/content', 'keyfacts' );
                 'menu' => 'Master',
                 'container_class' => 'd-block d-lg-none text-center pt-32',
                 'walker'         => new Walker_Nav_Menu_Dropdown(),
-                'items_wrap'     => '<select class="select w-100"><option disabled selected>Menu</option>%3$s</select>',
+                'items_wrap'     => '<select class="select"><option disabled selected>Menu</option>%3$s</select>',
               ));
 			  
 

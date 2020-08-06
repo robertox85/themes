@@ -157,7 +157,7 @@ bloginfo('name');
 
                         </div>
                         <div class="col-xs-4 col-sm-4 col-md-4" id="logo">
-                            <a href="https://businessschool.luiss.it" title="Home page">
+                            <a href="<?php echo network_home_url() ?>" title="Home page">
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo-new-2.png" alt="Luiss Business School Logo" id="logo-img" />
                             </a>
                         </div>
@@ -165,8 +165,8 @@ bloginfo('name');
                             <ul>
                                 <li><a href="http://www.luiss.it/">Luiss.it</a></li>
                                 <li><a href="javascript:void(0)" id="network-offcanvas-trigger">Luiss Network</a></li>
-                                <li><a href="https://businessschool.luiss.it/milano"><strong>Milano</strong></a></li>
-                                <li><a href="https://businessschool.luiss.it/belluno"><strong>Belluno</strong></a></li>
+                                <li><a href="<?php echo get_site_url() ?>/milano"><strong>Milano</strong></a></li>
+                                <li><a href="<?php echo get_site_url() ?>/belluno"><strong>Belluno</strong></a></li>
                             </ul>
                         </nav>
                         <div class="col-md-2">
@@ -189,7 +189,7 @@ bloginfo('name');
                           </span>
                         </a> 
 
-                        <a class="col-xs-8 mx-24 mx-md-0" href="https://businessschool.luiss.it" title="Home page">
+                        <a class="col-xs-8 mx-24 mx-md-0" href="<?php echo network_home_url() ?>" title="Home page">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo-new-2.png" alt="Luiss Business School Logo" id="logo-img" />
                         </a>
 

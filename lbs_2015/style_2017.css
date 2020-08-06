@@ -1966,7 +1966,7 @@ button, .button, .pagination-nav a,
     -webkit-transition: 0.3s;
     transition: 0.3s;
     border: 1px solid #003A70;
-    width: 100%;
+    /* width: 100%; */
   }
   .button.featured-links .white-style{
     color: #003A70!important;

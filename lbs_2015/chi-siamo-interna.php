@@ -26,7 +26,7 @@ echo $titolo_centro[ICL_LANGUAGE_CODE];
 </div>
 <div class="container">
   <div class="row">
-    <main id="main" class="site-main centre col-md-9">
+    <main id="main" class="site-main centre">
       <div id="page-content" class="col-md-9 columns  space">
         <?php
 while (have_posts()):
@@ -51,8 +51,11 @@ endwhile; // end of the loop.
     edit_post_link('<strong>Modifica Pagina</strong>', '');
 ?></p>
      </div>
-    </main>
-    <div id="sidebar-menu-centro" class="col-md-3 columns  space">
+
+
+
+
+     <div id="sidebar-menu-centro" class="col-md-3 columns  space">
       
       
       <?php
@@ -107,7 +110,13 @@ endif;
    
     
     </div>
-    <aside id="sidebar" class="col-lg-3 col-sm-12 space">
+
+
+
+
+
+
+     <aside id="sidebar" class="col-lg-3 col-sm-12 space">
      
       <div  class="block">
         <div class="content row"> 
@@ -130,6 +139,11 @@ endif;
     
     
     </aside>
+
+
+    </main>
+    
+    
   </div>
   <!--END .row --> 
 </div>

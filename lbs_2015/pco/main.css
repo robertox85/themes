@@ -13208,7 +13208,9 @@ body.theme-blue #menu-main #menu-item-34570 {
 }
 
 body.theme-blue #menu-main {
-  border-color: #fff;
+  border-color: #003a70;
+
+  margin-bottom: 48px;
 }
 
 body.theme-blue #menu-main li:hover a {
@@ -13950,9 +13952,7 @@ body.theme-blue .lang_selector {
   display: inline-block;
 }
 
-body.theme-blue #menu-main {
-  border: none;
-}
+
 
 body.theme-blue #menu-main li:hover a {
   background-color: #003a70 !important;
@@ -13978,6 +13978,7 @@ body.theme-blue #menu-main .current-menu-item a,
 }
 body.theme-blue #menu-main .sub-menu {
   background: #fff !important;
+  border-color: #003a70;
 }
 body.theme-blue #menu-main .sub-menu li:not(:hover) a {
   background: #fff !important;

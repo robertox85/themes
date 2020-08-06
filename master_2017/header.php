@@ -256,8 +256,8 @@ bloginfo('name');
 
                         </div>
                         <div class="col-xs-4 col-sm-4 col-md-4" id="logo">
-                            <a href="https://businessschool.luiss.it" title="Home page">
-                                <img src="/wp-content/themes/master_2017/img/logo-new.png"
+                            <a href="<?php echo network_home_url() ?>" title="Home page">
+                                <img src="<?php echo site_url() ?>/wp-content/themes/master_2017/img/logo-new.png"
                                     alt="Luiss Business School Logo" id="logo-img" />
                             </a>
                         </div>
@@ -278,21 +278,24 @@ bloginfo('name');
                 </div>
                 <!-- END .container -->
             </header>
+    
+
+
 
             <!-- MOBILE -->
-            <header id="masthead" class="d-block d-lg-none pb-24 pl-0">
+            <header id="masthead" class="d-block d-lg-none pb-24 pl-0 shadow-bottom">
                 <div class="container">
                     <div class="row d-flex align-items-center">
                         
 
-                        <a class="col-xs-1 main-menu-toggle hamburger  hamburger--collapse" type="button">
+                        <a class="col-xs-1 main-menu-toggle hamburger  hamburger--collapse" type="button" >
                           <span class="hamburger-box">
                             <span class="hamburger-inner"></span>
                           </span>
                         </a> 
 
-                        <a class="col-xs-8 mx-24 mx-md-0" href="https://businessschool.luiss.it" title="Home page">
-                            <img src="/wp-content/themes/master_2017/img/logo-new.png"
+                        <a class="col-xs-8 mx-24 mx-md-0" href="<?php echo site_url() ?>" title="Home page">
+                            <img src="<?php echo site_url() ?>/wp-content/themes/master_2017/img/logo-new.png"
                                 alt="Luiss Business School Logo" id="logo-img" />
                         </a>
 

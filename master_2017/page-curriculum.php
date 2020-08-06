@@ -73,7 +73,7 @@ wp_nav_menu(array(
     'menu' => 'Master',
     'container_class' => 'd-block d-lg-none text-center pt-32',
     'walker'         => new Walker_Nav_Menu_Dropdown(),
-    'items_wrap'     => '<select class="select w-100"><option disabled selected>Menu</option>%3$s</select>',
+    'items_wrap'     => '<select class="select"><option disabled selected>Menu</option>%3$s</select>',
   ));
 
 								wp_nav_menu(array(
