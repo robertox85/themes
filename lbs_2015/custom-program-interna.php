@@ -21,47 +21,46 @@ get_header(2017);
     <main id="main" class="site-main centre">
       <div id="page-content" class="col-md-9 columns  space">
        
-          
-
-       
-       
         <?php while ( have_posts() ) : the_post(); 
-		$post_id = get_the_ID();?>
-        <?php the_content(''); ?>
+		          $post_id = get_the_ID();?>
+              <?php the_content(''); ?>
         
-        <p> <?php edit_post_link('<strong>Modifica Pagina</strong>', ''); ?></p>
+              <p> <?php edit_post_link('<strong>Modifica Pagina</strong>', ''); ?></p>
       
         <?php endwhile; // end of the loop. ?>
-      </div>
-    </main>
-    <div id="sidebar-menu-centro" class="col-md-3 columns  space col-xs-12">
-     
- 
-     
-  <?php
-if (ICL_LANGUAGE_CODE == 'it'):
-?> 
-     
-<?php
-    wp_nav_menu(array(
-        'menu' => 'Offerta Formativa'
-    ));
-?>
 
-<?php
-elseif (ICL_LANGUAGE_CODE == 'en'):
-?>
-  
- <?php
-    wp_nav_menu(array(
-        'menu' => 'Educational Portfolio'
-    ));
-?>
+      </div>
+
+
+
+      <div id="sidebar-menu-centro" class="col-md-3 columns  space col-xs-12">
+     
  
- 
-<?php
-endif;
-?> 
+     
+            <?php
+          if (ICL_LANGUAGE_CODE == 'it'):
+          ?> 
+              
+          <?php
+              wp_nav_menu(array(
+                  'menu' => 'Offerta Formativa'
+              ));
+          ?>
+
+          <?php
+          elseif (ICL_LANGUAGE_CODE == 'en'):
+          ?>
+            
+          <?php
+              wp_nav_menu(array(
+                  'menu' => 'Educational Portfolio'
+              ));
+          ?>
+          
+          
+          <?php
+          endif;
+          ?> 
     </div>
     <aside id="sidebar" class="col-lg-3 col-sm-12 space">
      
@@ -81,6 +80,9 @@ endif;
       </div>
  
     </aside>
+    
+    </main>
+    
   </div>
   <!--END .row --> 
 </div>

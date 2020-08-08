@@ -44,8 +44,10 @@ get_header( 2017 );
 <section class="body-section" style="padding-bottom: 10px;">
   <div class="container">
     <div class="row">
+      <div class="col-12">
       <h3><strong>Our Expertise</strong></h3>
       <p>Our consulting services focus on the most relevant issues and opportunities for our clients.</p>
+      </div>
       <div class="col-md-2">
         <div class="feature">
           <h2 class="block-title h2" style="font-size: 23px">Top Line </h2>
@@ -120,8 +122,11 @@ get_header( 2017 );
 <section class="body-section">
   <div class="container">
     <div class="row">
+      <div class="col-12">
       <h3><strong>Representative International Projects</strong></h3>
       <p>Our consulting services focus on the most relevant issues and opportunities for our clients.</p>
+      </div>
+      
     
       <div class="col-md-5">
         <div class="feature"> 

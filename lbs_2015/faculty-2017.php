@@ -83,7 +83,7 @@ get_header( 2017 );
 
 	<div class="container">
 		<div class="row">
-			<h2 class="block-title h2 white-style">Faculty</h2>
+			<h2 class="block-title h2 white-style col-12">Faculty</h2>
 			<div class="col-md-9">
 				<a href="<?php echo html_entity_decode(get_field('link_tuti_i_docenti')); ?>" class=""><img src="<?php echo site_url() ?>/wp-content/uploads/2017/05/Faculty.jpg" alt="Faculty" class="img-responsive"></a>
 			</div>
@@ -104,7 +104,7 @@ get_header( 2017 );
 
 
 		<div class="row" style="margin-bottom: 2%">
-			<h2 class="block-title h2 white-style">ADJUNT FACULTY</h2>
+			<h2 class="block-title h2 white-style col-12">ADJUNT FACULTY</h2>
 			<div class="col-md-9">
 				<a href="<?php echo html_entity_decode(get_field('link_tuti_i_docenti')); ?>" class=""><img src="<?php echo site_url() ?>/wp-content/uploads/2017/05/AdjunctFaculty.jpg" alt="Faculty" class="img-responsive"></a>
 			</div>
@@ -128,15 +128,16 @@ get_header( 2017 );
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 space">
-					<h2>Faculty Directory</h2>
-					<label>
-						<?php echo $Search[ICL_LANGUAGE_CODE]; ?> </label>
-					<form action="/faculty-research/docenti/" method="get">
-						<input type="text" class="live-search col-md-10" name="docente" id="search-query" value=""/>
-						<button type="submit" class="button white col-md-2">
-							<?php echo $search_button_text[ICL_LANGUAGE_CODE]  ?>
-						</button>
-						<div id="live-search-output"></div>
+						<h2>Faculty Directory</h2>
+						<label>
+							<?php echo $Search[ICL_LANGUAGE_CODE]; ?> 
+						</label>
+						<form style="align-items:baseline" action="/faculty-research/docenti/" method="get" class="row w-100">
+							<input type="text" class="live-search col-md-10" name="docente" id="search-query" value=""/>
+							<button type="submit" class="button white col-md-2">
+								<?php echo $search_button_text[ICL_LANGUAGE_CODE]  ?>
+							</button>
+							<div id="live-search-output"></div>
 					</form>
 				</div>
 			</div>

@@ -58,7 +58,7 @@ $link_news[ 'en' ] = '/en/news-events/news/';
 
 	<div class="container">
 		<div class="row items">
-			<h2 class="block-title ">
+			<h2 class="block-title col-12">
 				<?php echo $titolo_eventi[ICL_LANGUAGE_CODE] ?>
 			</h2>
 			<div class="spacer-20"></div>
@@ -116,7 +116,7 @@ $link_news[ 'en' ] = '/en/news-events/news/';
 <section class="body-section bg_3_perche">
 	<div class="container">
 		<div class="row items">
-			<h2 class="block-title h2 white-style">News</h2>
+			<h2 class="block-title h2 white-style col-12">News</h2>
 			<div class="spacer-20"></div>
 			<?php
 

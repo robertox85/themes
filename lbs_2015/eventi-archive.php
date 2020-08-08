@@ -6,20 +6,20 @@ Template Name: Archivio Eventi
 get_header(2017); ?>
 
 <header id="content-title" class="wide-row">
-  <div class="container">
-    <div class="row">
-      <div class="sommario col-md-8">
-        <h1><?php echo the_title(); ?></h1>
-      </div>
+    <div class="container">
+        <div class="row">
+            <div class="sommario col-md-8">
+                <h1><?php echo the_title(); ?></h1>
+            </div>
+        </div>
+        <!--END .row -->
     </div>
-    <!--END .row --> 
-  </div>
-  <!--END .container --> 
+    <!--END .container -->
 </header>
 
-   
 
-  <?php
+
+<?php
    
 $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;   
 
@@ -50,59 +50,63 @@ $e++;
  if (substr($data_inizio,5,2) !=$month_num) { 
 $month_num = substr($data_inizio,5,2);
 $year = substr($data_inizio,0,4); ?>
-  <?php if ($e>1) { ?>
-  </div>
-  <!--END .container events-cards cards-->
-  </div>
-  <!--END .row items-->
-  </section>
-  <?php } ?>
-  <section class="events-cards cards">
+<?php if ($e>1) { ?>
+</div>
+<!--END .container events-cards cards-->
+</div>
+<!--END .row items-->
+</section>
+<?php } ?>
+<section class="events-cards cards">
     <div class="archive-month wide-row" id="month-<?php echo $month_num ?>-<?php echo $year ?>">
-      <div class="container">
-        <div class="row">
-           <h2 class="block-title h2"> <?php echo get_date($month_num,"monthname",ICL_LANGUAGE_CODE) ?> <?php echo $year ?></h2>
+        <div class="container">
+            <div class="row">
+                <h2 class="block-title h2"> <?php echo get_date($month_num,"monthname",ICL_LANGUAGE_CODE) ?>
+                    <?php echo $year ?></h2>
+            </div>
         </div>
-      </div>
     </div>
     <!--END .wide-row-->
- 
-  <div class="container" >
-    <div class="row items">
-        <?php } ?>
-       
-        
-        
-        
-      <article itemscope itemtype="http://schema.org/Article">
-    
-     <div class="event-date"><?php echo get_date($data_inizio,"events",ICL_LANGUAGE_CODE) ?></div>   
-    <div class="pull-left pull-left event-preview"><h3 itemprop="name headline" class="home-news-headline"><a href="<?php echo get_permalink($event->ID) ?>" title="<?php echo $event->post_title ?>"><?php echo $event->post_title ?></a></h3>
- 	 <p><?php echo $event->post_excerpt ?></p>
-		 <p class="">
-			 <?php echo $event->programma?>
-			  <?php echo $event->tipo_evento?>
-			 
-			 </p>
-     </div>
- 
-  <div class="clearfix"></div>
-              </article>
-        
-        <?php 
+
+    <div class="container">
+        <div class="row items">
+            <?php } ?>
+
+
+
+
+            <article class="col-6" itemscope itemtype="http://schema.org/Article">
+
+                <div class="event-date"><?php echo get_date($data_inizio,"events",ICL_LANGUAGE_CODE) ?></div>
+                <div class="pull-left pull-left event-preview">
+                    <h3 itemprop="name headline" class="home-news-headline"><a
+                            href="<?php echo get_permalink($event->ID) ?>"
+                            title="<?php echo $event->post_title ?>"><?php echo $event->post_title ?></a></h3>
+                    <p><?php echo $event->post_excerpt ?></p>
+                    <p class="">
+                        <?php echo $event->programma?>
+                        <?php echo $event->tipo_evento?>
+
+                    </p>
+                </div>
+
+                <div class="clearfix"></div>
+            </article>
+
+            <?php 
 } // END foreach
 
 } // END if ?>
-</div>
-<!--END .row -->
+        </div>
+        <!--END .row -->
 
-</div>
+    </div>
 </section>
 <!--END .container -->
 <div class="container ">
-  <div class="row ">
-    <nav class="pagination-nav">
-      <?php
+    <div class="row ">
+        <nav class="pagination-nav">
+            <?php
 
 $next_label['it']= 'Eventi più vecchi &raquo;';
 $next_label['en']= 'Older Events &raquo;';
@@ -115,9 +119,9 @@ previous_posts_link($prev_label[ICL_LANGUAGE_CODE]);
 next_posts_link($next_label[ICL_LANGUAGE_CODE], $events_list->max_num_pages );
 
 ?>
-</nav>
-</div>
-<!--END .row -->
+        </nav>
+    </div>
+    <!--END .row -->
 
 </div>
 <!--END .container -->
@@ -125,9 +129,9 @@ next_posts_link($next_label[ICL_LANGUAGE_CODE], $events_list->max_num_pages );
 // clean up after the query and pagination
 wp_reset_postdata(); 
 ?>
-  
-  
-    
+
+
+
 
 <?php 
 

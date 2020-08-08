@@ -36,7 +36,7 @@ get_header(2017);
 </header>
 <div class="container">
   <div class="row">
-    <main id="main" class="site-main" role="main">
+    <main id="main" class="site-main w-100" role="main">
       <div id="page-content" class="col-md-12 columns  space">
        
        <div class="row">
