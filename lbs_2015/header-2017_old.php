@@ -18,53 +18,53 @@ bloginfo('name');
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-63172324-1"></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
+    window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', 'UA-63172324-1', {
-            'anonymize_ip': true
-        });
-        gtag('config', 'UA-63172324-1', {
-            'optimize_id': 'GTM-K2JVW5J'
-        });
-        gtag('config', 'UA-63172324-1');
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-63172324-1', {
+        'anonymize_ip': true
+    });
+    gtag('config', 'UA-63172324-1', {
+        'optimize_id': 'GTM-K2JVW5J'
+    });
+    gtag('config', 'UA-63172324-1');
     </script>
     <!-- Global site tag (gtag.js) - Google Ads: 969246841 -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-969246841"></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
+    window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', 'AW-969246841');
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'AW-969246841');
     </script>
     <!-- Facebook Pixel Code -->
     <script>
-        ! function(f, b, e, v, n, t, s) {
-            if (f.fbq) return;
-            n = f.fbq = function() {
-                n.callMethod ?
-                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-            };
-            if (!f._fbq) f._fbq = n;
-            n.push = n;
-            n.loaded = !0;
-            n.version = '2.0';
-            n.queue = [];
-            t = b.createElement(e);
-            t.async = !0;
-            t.src = v;
-            s = b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t, s)
-        }(window, document, 'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '203976930981295');
-        fbq('track', 'PageView');
+    ! function(f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function() {
+            n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '203976930981295');
+    fbq('track', 'PageView');
     </script>
     <noscript>
         <img height="1" width="1" src="https://www.facebook.com/tr?id=203976930981295&ev=PageView
@@ -72,60 +72,61 @@ bloginfo('name');
     </noscript>
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-672809849"></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
+    window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', 'AW-672809849');
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'AW-672809849');
     </script>
     <!-- Hotjar Tracking Code for https://businessschool.luiss.it/ -->
     <script>
-        (function(h, o, t, j, a, r) {
-            h.hj = h.hj || function() {
-                (h.hj.q = h.hj.q || []).push(arguments)
-            };
-            h._hjSettings = {
-                hjid: 1739676,
-                hjsv: 6
-            };
-            a = o.getElementsByTagName('head')[0];
-            r = o.createElement('script');
-            r.async = 1;
-            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-            a.appendChild(r);
-        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    (function(h, o, t, j, a, r) {
+        h.hj = h.hj || function() {
+            (h.hj.q = h.hj.q || []).push(arguments)
+        };
+        h._hjSettings = {
+            hjid: 1739676,
+            hjsv: 6
+        };
+        a = o.getElementsByTagName('head')[0];
+        r = o.createElement('script');
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
     </script>
     <script data-obct type="text/javascript">
-        /** DO NOT MODIFY THIS CODE**/ ! function(_window, _document) {
-            var OB_ADV_ID = '00a4dea5852c992781d1c553f9553aaea5';
-            if (_window.obApi) {
-                var toArray = function(object) {
-                    return Object.prototype.toString.call(object) === '[object Array]' ? object : [object];
-                };
-                _window.obApi.marketerId = toArray(_window.obApi.marketerId).concat(toArray(OB_ADV_ID));
-                return;
-            }
-            var api = _window.obApi = function() {
-                api.dispatch ? api.dispatch.apply(api, arguments) : api.queue.push(arguments);
+    /** DO NOT MODIFY THIS CODE**/ ! function(_window, _document) {
+        var OB_ADV_ID = '00a4dea5852c992781d1c553f9553aaea5';
+        if (_window.obApi) {
+            var toArray = function(object) {
+                return Object.prototype.toString.call(object) === '[object Array]' ? object : [object];
             };
-            api.version = '1.1';
-            api.loaded = true;
-            api.marketerId = OB_ADV_ID;
-            api.queue = [];
-            var tag = _document.createElement('script');
-            tag.async = true;
-            tag.src = '//amplify.outbrain.com/cp/obtp.js';
-            tag.type = 'text/javascript';
-            var script = _document.getElementsByTagName('script')[0];
-            script.parentNode.insertBefore(tag, script);
-        }(window, document);
-        obApi('track', 'PAGE_VIEW');
+            _window.obApi.marketerId = toArray(_window.obApi.marketerId).concat(toArray(OB_ADV_ID));
+            return;
+        }
+        var api = _window.obApi = function() {
+            api.dispatch ? api.dispatch.apply(api, arguments) : api.queue.push(arguments);
+        };
+        api.version = '1.1';
+        api.loaded = true;
+        api.marketerId = OB_ADV_ID;
+        api.queue = [];
+        var tag = _document.createElement('script');
+        tag.async = true;
+        tag.src = '//amplify.outbrain.com/cp/obtp.js';
+        tag.type = 'text/javascript';
+        var script = _document.getElementsByTagName('script')[0];
+        script.parentNode.insertBefore(tag, script);
+    }(window, document);
+    obApi('track', 'PAGE_VIEW');
     </script>
     <link rel="shortcut icon" type="image/x-icon" href="<?php bloginfo('template_directory');?>/img/favicon.ico" />
     <link href="<?php bloginfo('template_directory');?>/style_2017.css?ver=<?php echo time() ?>" rel="stylesheet">
-    <link rel='stylesheet' id='Googge_Web_Font_Oswald-css' href='https://fonts.googleapis.com/css?family=Oswald' type='text/css' media='all' />
+    <link rel='stylesheet' id='Googge_Web_Font_Oswald-css' href='https://fonts.googleapis.com/css?family=Oswald'
+        type='text/css' media='all' />
     <?php wp_head();?>
 
 
@@ -138,25 +139,29 @@ bloginfo('name');
 
 <body <?php body_class();?>>
     <script type="text/javascript">
-        $ = jQuery.noConflict(false);
+    $ = jQuery.noConflict(false);
     </script>
     <div id="site-wrapper">
         <div id="site-canvas">
-
+            
 
             <!-- DESKTOP -->
-            <header id="masthead" class="d-none d-lg-block">
-                <div class="container px-0 pt-16 pb-24">
-                <div class="d-flex flex-row align-items-center justify-content-between">
-                    <div class="header-first-block">
-                        <div class="" id="logo">
+            <header id="masthead" class="d-none d-lg-block pb-24 pl-0">
+                <div class="container">
+                    <div class="row">
+                        <div id="mobile-menu-trigger">
+
+                            <a class="main-menu-toggle menu-icon" title="apri il menu"><span></span>
+                            </a>
+
+
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4" id="logo">
                             <a href="<?php echo network_home_url() ?>" title="Home page">
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo-new-2.png" alt="Luiss Business School Logo" id="logo-img" />
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo-new-2.png" alt="Luiss Business School Logo" id="logo-img" />
                             </a>
                         </div>
-                    </div>
-                    <div class="header-second-block">
-                        <nav id="secondary-nav" class="">
+                        <nav id="secondary-nav" class="col-md-6">
                             <ul>
                                 <li><a href="http://www.luiss.it/">Luiss.it</a></li>
                                 <li><a href="javascript:void(0)" id="network-offcanvas-trigger">Luiss Network</a></li>
@@ -164,33 +169,35 @@ bloginfo('name');
                                 <li><a href="<?php echo get_site_url() ?>/belluno"><strong>Belluno</strong></a></li>
                             </ul>
                         </nav>
-                        <?php language_selector_flags();?>
+                        <div class="col-md-2">
+                            <?php language_selector_flags();?>
+                        </div>
+
                     </div>
-                </div>
+                    <!-- END .row -->
                 </div>
                 <!-- END .container -->
             </header>
 
             <!-- MOBILE -->
-            <header id="masthead" class="d-lg-none">
-                <div class="container px-0 py-16">
-                    <div class="d-flex align-items-center flex-row justify-content-between">
-                        <div class="header-first-block">
-                        <a class="main-menu-toggle hamburger  hamburger--collapse" type="button">
-                            <span class="hamburger-box">
-                                <span class="hamburger-inner"></span>
-                            </span>
+            <header id="masthead" class="d-block d-lg-none pb-24 pl-0">
+                <div class="container">
+                    <div class="row d-flex align-items-center">
+                        <a class="col-xs-1 main-menu-toggle hamburger  hamburger--collapse" type="button">
+                          <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                          </span>
+                        </a> 
+
+                        <a class="col-xs-8 mx-24 mx-md-0" href="<?php echo network_home_url() ?>" title="Home page">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo-new-2.png" alt="Luiss Business School Logo" id="logo-img" />
                         </a>
-                        <a class="" href="<?php echo network_home_url() ?>" title="Home page">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo-new-2.png" alt="Luiss Business School Logo" id="logo-img" />
-                        </a>
-                        </div>
-                        <div class="header-second-block">
+
                         <?php language_selector_flags();?>
-                        </div>
                     </div>
+                    <!-- END .row -->
                 </div>
-                    <!-- END .container -->
+                <!-- END .container -->
             </header>
 
             <nav id="nav-main">
@@ -221,15 +228,15 @@ bloginfo('name');
 
 
                             <script>
-                                (function() {
-                                    var cx = '012139100949894875782:1dp0jtr1a6w';
-                                    var gcse = document.createElement('script');
-                                    gcse.type = 'text/javascript';
-                                    gcse.async = true;
-                                    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-                                    var s = document.getElementsByTagName('script')[0];
-                                    s.parentNode.insertBefore(gcse, s);
-                                })();
+                            (function() {
+                                var cx = '012139100949894875782:1dp0jtr1a6w';
+                                var gcse = document.createElement('script');
+                                gcse.type = 'text/javascript';
+                                gcse.async = true;
+                                gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                                var s = document.getElementsByTagName('script')[0];
+                                s.parentNode.insertBefore(gcse, s);
+                            })();
                             </script>
                             <gcse:searchbox-only></gcse:searchbox-only>
 
@@ -242,9 +249,9 @@ bloginfo('name');
             </nav>
 
             <nav id="network-container-offcanvas">
-                <div class="container px-0">
+                <div class="container">
                     <div class="row">
-                        <div class="container px-0" id="network-container-offcanvas-ul">
+                        <div class="container" id="network-container-offcanvas-ul">
                             <div class="col-xs-6 col-sm-3">
                                 <ul>
                                     <li><a href="http://www.luissuniversitypress.it/">University Press</a></li>
@@ -275,7 +282,7 @@ bloginfo('name');
                     </div>
                 </div>
             </nav>
-
+            
 
             <?php if (!is_front_page()): ?>
 
@@ -292,10 +299,10 @@ bloginfo('name');
                             $back_to_top_text['en'] = 'Back to top';
 
                         ?>
-                        <span class="back-to-top"><a id="backtotop" href="javascript:void(0)"><i class="fa fa-angle-up"></i> <?php echo $back_to_top_text[ICL_LANGUAGE_CODE] ?></a></span>
+                        <span class="back-to-top"><a id="backtotop" href="javascript:void(0)"><i class="fa fa-angle-up"></i> <?php echo $back_to_top_text[ICL_LANGUAGE_CODE] ?></a></span> 
                     </div>
 
-
+                    
                     <!--END .row -->
                 </div>
                 <!-- .END container -->
