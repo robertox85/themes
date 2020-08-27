@@ -2,6 +2,7 @@
 /*
 Template Name: Chi siamo interna
 */
+wp_enqueue_style('Bootstrap_Styles','https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css');
 get_header(2017);
 ?>
 <?php
