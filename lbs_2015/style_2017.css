@@ -731,7 +731,7 @@ a img{border:0}
 .column.large-centered, .columns.large-centered{float:none;margin-left:auto;margin-right:auto}
 .large-10{width:83.3333%}
 #site-canvas{width:100%;height:100%;position:relative;-webkit-transform:translateX(0);transform:translateX(0);-webkit-transition:.3s ease all;transition:.3s ease all;padding:0}
-#masthead{padding:20px 15px 10px}
+#masthead{padding:0px}
 #mobile-menu-trigger{display:none}
 #nav-main{padding:0;position:relative}
 #secondary-nav{float:left}
@@ -746,7 +746,7 @@ a img{border:0}
 #network-container-offcanvas a{font-family:"ITC Officina Sans W01 Bold", "Georgia", "Times New Roman", serif;color:#3c3c3c;font-size:14px;text-transform:uppercase}
 #network-container-offcanvas button.close-menu{background-color:#ebebeb;color:#333;font-size:28px;font-family:"ITC Officina Sans W01 Bold", "Georgia", "Times New Roman", serif;height:210px;position:absolute;right:0;top:0;width:210px;border:none}
 #site-wrapper.show-network #site-canvas{-webkit-transform:translateY(210px);transform:translateY(210px)}
-#menu-main{background:none;width:100%;border:1px solid #333;float:left;line-height:2;list-style:none;margin:0;padding:0;position:relative}
+#menu-main{background:none;width:100%;border:0px;float:left;line-height:2;list-style:none;margin:0;padding:0;position:relative}
 #menu-main li{display:inline-block;float:left;font-family:"ITC Officina Sans W01";font-size:14px;font-weight:400;text-transform:uppercase}
 #menu-main li a{color:#2A2A2A;display:inline-block;padding:16px;text-decoration:none;-o-transition:all .3s linear;-webkit-transition:all .3s linear;-moz-transition:all .3s linear;transition:all .3s linear}
 .body-master #menu-main .current-menu-item a, .body-master #menu-main .current-page-ancestor a{background:none;color:#2A2A2A;}
@@ -825,7 +825,7 @@ li#menu-item-34007 a{text-indent:-9999px;IMPORTANT}
 aside#sidebar{background:#3c3c3c;color:#ddd;font-size:14px;margin:-62px 0 0;padding-top:40px;position:relative;min-height:200px}
 .space{margin:20px auto;padding:16px;position:relative}
 input[type="text"], input[type="password"], input[type="date"], textarea{background-color:#fff;border:1px solid #333;box-shadow:0 1px 2px rgba(0,0,0,0.6);color:rgba(0,0,0,1);display:block;font-family:inherit;font-size:16px;height:2.9em;margin:0;padding:10px;transition:box-shadow .3s ease 0s, border-color .3s ease-in-out 0;width:100%;font-family:"ITC Officina Sans W01"}
-.lang_selector{color:#fff;position:relative}
+.lang_selector{color:#fff;position:unset;display:flex;}
 .lang_selector ul{line-height:14px;list-style:none;margin-top:14px;float:right}
 .lang_selector li{display:inline-block;font-size:16px;color:#fff}
 .lang_selector a{color:#fff;padding:5px 8px}
@@ -1780,8 +1780,8 @@ display: none;
 .drawers .description{position:absolute;top:0;left:0;color:#fff;z-index:10;background:#3c3c3c;height:100%;padding:1.333rem;-webkit-transform:translateY(600px);transform:translateY(600px)}
 .drawers .description p{color:#fff}
 .drawers .description .button{background-color:transparent;border:1px solid #fff;display:inline-block;margin:18px 25%;text-transform:uppercase;width:50%}
-@media (max-width:1040px){#masthead{padding:0;position:relative}
-.page #masthead, #masthead{background:#111;height:48px}
+@media (max-width:991px){#masthead{padding:0;position:relative}
+.page #masthead, #masthead{background:#111;height:auto !important}
 .single #masthead, #masthead{background:#111}
 .error404 #masthead, #masthead{background:#111}
 #logo-img{display:none}
@@ -1790,7 +1790,7 @@ display: none;
 .menu-icon{background:url(img/uiicons.png) no-repeat center 8px;width:48px;height:48px;display:block}
 #nav-main{padding:0}
 #secondary-nav{display:none}
-#menu-main-container{position:relative;left:0;background:#2d2d2d;padding:0;width:100%;display:none}
+#menu-main-container{position:relative;left:0;background:transparent;padding:0;width:100%;display:none}
 #menu-main-container-offcanvas{width:250px;height:100%;position:absolute;top:-43px;left:-250px;background:#2d2d2d;padding:0}
 #site-wrapper.show-nav #site-canvas{-webkit-transform:translateX(250px);transform:translateX(250px)}
 #network-container-offcanvas{display:none}
@@ -1801,8 +1801,8 @@ display: none;
 #nav-main .searchbar a{border-bottom:none;display:block!important;height:56px;width:40px;color:#fff;padding:22px 16px 16px}
 #sb-search{background:#2d2d2d;padding:10px}
 #nav-main .drop-open a{background:#2d2d2d;color:#fff}
-.lang_selector{position:absolute;right:56px;margin:0;top:4px}
-.lang_selector li a{padding:8px 8px 5px;border-radius:2px}
+.lang_selector{position:unset;right:0px;margin:0;top:0px}
+.lang_selector li a{padding:16px;border-radius:0px}
 .lang_selector li a.active{border-bottom:none;background-color:#666}
 .page-template-chi-siamo #breadcrumb-top .breadcrumb, .page-template-offerta #breadcrumb-top .breadcrumb, .page-template-faculty #breadcrumb-top .breadcrumb, .page-template-agevolazioni-servizi #breadcrumb-top .breadcrumb, .page-template-alumni #breadcrumb-top .breadcrumb, .page-template-eventi #breadcrumb-top .breadcrumb, .page-template-mba #breadcrumb-top .breadcrumb, .page-template-corsi-laurea #breadcrumb-top .breadcrumb, .page-template-executive-program #breadcrumb-top .breadcrumb, .page-template-master #breadcrumb-top .breadcrumb, .page-template-doctoral #breadcrumb-top .breadcrumb, .page-template-formazione-specialistica #breadcrumb-top .breadcrumb{border-bottom:1px solid #fff}
 .breadcrumb{padding:10px}
@@ -1987,3 +1987,49 @@ button, .button, .pagination-nav a,
     -webkit-box-shadow: inset 0 0 10px 0 rgba(60, 60, 60, 0.2);
             box-shadow: inset 0 0 10px 0 rgba(60, 60, 60, 0.2);
   }
+
+/* CORREZIONI HEADER */
+
+body.theme-blue .sub-menu li a {
+    font-size: 1rem !important;
+}
+
+@media screen and (max-width: 767px) {
+#logo-img {
+    height: 60px;
+} 
+    }
+
+@media screen and (min-width: 768px) {
+#logo-img {
+    height: 80px;
+}   
+    }
+
+
+@media screen and (min-width: 1440px) {
+    .sub-menu {
+        width: 120% !important;
+    }    
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1439px) {
+        .sub-menu {
+        width: 110.35% !important;
+    }   
+}
+
+@media screen and (max-width: 1199px) {
+        .sub-menu {
+        width: 100.2% !important;
+    }    
+    
+}
+
+@media screen and (min-width: 991px) and (max-width: 1199px) {
+#menu-main {
+    width: 94%;
+}    
+    
+}
+
