@@ -279,9 +279,11 @@ bloginfo('name');
 
             <?php if (!is_front_page()): ?>
 
-            <nav id="breadcrumb-top" class="d-none d-md-block">
-                <div class="container">
-                    <div class="row breadcrumb ">
+            <nav id="breadcrumb-top" class="d-none d-md-block p-0 m-0">
+                <div class="container-fluid px-0 breadcrumb">
+                    <div class="container">
+                    <div class="d-flex flex-row justify-content-between align-items-center w-100">
+                        <div class="first-block first-block d-flex flex-row align-items-center justify-contetn-start">
                         <?php
                             if (function_exists('bcn_display')) {
                                 bcn_display();
@@ -292,11 +294,12 @@ bloginfo('name');
                             $back_to_top_text['en'] = 'Back to top';
 
                         ?>
-                        <span class="back-to-top"><a id="backtotop" href="javascript:void(0)"><i class="fa fa-angle-up"></i> <?php echo $back_to_top_text[ICL_LANGUAGE_CODE] ?></a></span>
+                        </div>
+                        <div class="second-block">
+                        <span class="back-to-top d-flex flex-row align-items-center justify-content-start"><a id="backtotop" href="javascript:void(0)"><?php echo $back_to_top_text[ICL_LANGUAGE_CODE] ?><i class="fal fa-chevron-up pl-16"></i></a></span>
+                        </div>
                     </div>
-
-
-                    <!--END .row -->
+                </div>
                 </div>
                 <!-- .END container -->
             </nav>

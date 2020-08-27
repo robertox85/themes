@@ -760,7 +760,13 @@ a img{border:0}
 #menu-main .sub-menu li a:after{color:#F7F7F7;content:"\203A";position:absolute;right:14px}
 #menu-main .sub-menu li a:hover{color:#fff;background:rgba(60,60,60,0.5);text-decoration:none}
 #nav-main .searchbar{border-left:1px solid #333;position:absolute;right:0;top:1px;float:right;display:block}
-#nav-main .searchbar a{padding:20px 22px;display:block;width:100%;color:#2A2A2A;font-size:14px;min-height:20px}
+#nav-main .searchbar a{padding:20px 22px;    display: block;
+    width: 100%;
+    color: #2A2A2A;
+    font-size: 14px;
+    min-height: 22px;
+    position: relative;
+    top: -1px;}
 #nav-main .searchbar a:hover{cursor:pointer}
 #nav-main .drop-open a{background:#111;color:#fff}
 #sb-search{display:none;float:right;width:100%;margin-top:-1px}
@@ -1262,10 +1268,22 @@ body.home .lang_selector a{color:#fff}
 .twitter:{color:#42a5f5}
 .Google:{color:#d84315}
 .LinkedIn:{color:#4992bf}
-.item-centre img{width:100%;max-height:800px}
-.centre-caption{bottom:330px;color:#fff;position:absolute;right:15%;text-shadow:0 1px 2px rgba(0,0,0,0.6);height:auto;left:1%;text-align:left}
-.centre h1{color:#fff;font-family:"Oswald", sans-serif;font-size:62px;line-height:62px;text-transform:uppercase;line-height:150%;background-color:#CC8A00;padding:3px;background-position:0 0;width:70%}
-.centre h2{font-family:"Oswald", sans-serif;font-size:52px;line-height:52px;text-transform:uppercase;line-height:150%;padding:4px;width:66%;background-color:#3c3c3c;color:#fff}
+.item-centre img{width: 100%;
+    height: 480px;
+    object-fit: cover;
+    position: relative;}
+.centre-caption{bottom:128px;position:absolute;}
+.centre h1{ font-family: 'Luiss Serif' !important;
+    font-weight: 400;
+    font-size: 5rem;
+    line-height: 4.5rem;
+    text-shadow: 0px 0px 50px rgba(0, 58, 112, 0.9);
+    color: #fff;
+    padding: 0;}
+.centre h2{
+    font-size: 48px;
+    line-height: 52px;
+    color: #fff;}
 .centre h3{display:inline-block;font-size:34px;margin-bottom:35px;margin-top:10px;position:relative}
 .centre h3::after{background-color:#CC8A00;bottom:-15px;content:"";height:2px;left:0;position:absolute;width:40px;z-index:0}
 #sidebar-menu-lab{background:rgba(10,10,10,0.5) none repeat scroll 0 0;font-size:14px;margin:-530px 0 100px;padding-top:0;position:relative}
@@ -1322,7 +1340,7 @@ aside#sidebar{margin:10px 0;padding-top:0px;}
 .menu-useful-information-container ul li a{border-bottom:1px solid #2a2a2a;color:#2a2a2a;display:block;font-size:16px;font-weight:500;line-height:18px;padding:12px 0}
 .menu-useful-information-container ul li.current-menu-item{padding-left:0;padding-right:0}
 .menu-useful-information ul li.current-menu-item a{color:#CC8A00;background:rgba(0,0,0,0.8);padding-left:16px;padding-right:16px;border-bottom:none}
-.centre-caption-info{bottom:330px;color:#fff;height:auto;left:1%;position:absolute;right:15%;text-align:left;text-shadow:0 1px 2px rgba(0, 0, 0, 0.6);}
+.centre-caption-info{bottom:128px;position:absolute;}
 .menu-project-organising-container ul{list-style-type:none;margin-left:0;line-height:2.5}
 .menu-project-organising-container ul li a{border-bottom-color:#fff;border-bottom-style:solid;border-bottom-width:2px;color:#fff;display:block;font-weight:700;line-height:25px;font-size:18px;padding:15px 0}
 .menu-project-organising-container ul{list-style-type:none;margin-left:0;line-height:2.5}
@@ -1515,9 +1533,17 @@ aside#sidebar{margin:10px 0;padding-top:0px;}
 .menu-item-language a{font-weight:400!important;background-color:#eee!important}
 li.menu-item-language-current a{font-weight:700!important;padding:0!important;margin-left:10px!important}
 @media only screen and (max-width:1024px){#sidebar-menu-lab{margin:0;padding-top:10px;font-size:14px;color:#ddd;position:relative}
-.centre{bottom:6%}
-.centre h1{color:#fff;font-family:"Oswald", sans-serif;font-size:25px;text-transform:uppercase;line-height:150%;background-color:#CC8A00;padding:3px;background-position:0 0;width:100%}
-.centre h2{font-family:"Oswald", sans-serif;font-size:23px;text-transform:uppercase;padding:4px;width:66%;background-color:#3c3c3c;color:#fff}
+.centre h1{font-family: 'Luiss Serif' !important;
+    font-weight: 400;
+    font-size: 2.5rem;
+    line-height: 2rem;
+    text-shadow: 0px 0px 50px rgba(0, 58, 112, 0.9);
+    color: #fff;
+    padding: 0;}
+.centre h2{
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff;}
 }
 @media (min-width:1024px){.footer .footer-logos{text-align:left}
 }
@@ -1897,7 +1923,7 @@ aside#sidebar{margin:350px 0 20px;}
 .news-cards article.img img{float:right}
 .news-cards article.img .text{position:static;background:#3c3c3c}
 .events-cards article, .courses-cards article{min-height:inherit}
-.centre-caption-info{bottom:130px;}
+.centre-caption-info{bottom:128px;}
 }
 @media only screen and (min-width:320px) and (max-width:980px){.menu-master-container{min-height:200px;background:#3c3c3c none repeat scroll 0 0;}
 }
@@ -1990,8 +2016,20 @@ button, .button, .pagination-nav a,
 
 /* CORREZIONI HEADER */
 
+body.theme-blue #menu-main li a {
+  font-size: .85rem;
+}
+
 body.theme-blue .sub-menu li a {
     font-size: 1rem !important;
+}
+
+@media screen and (min-width:992px) {
+#nav-main .container {
+    border:1px solid #003a70;
+    margin-bottom: 32px;
+}
+    
 }
 
 @media screen and (max-width: 767px) {
@@ -2033,3 +2071,68 @@ body.theme-blue .sub-menu li a {
     
 }
 
+/* TEMPLATE CHI SIAMO INTERNA */
+
+#sidebar-menu {
+    background-color: #F7F9FA;
+    padding: 16px 24px 48px 24px;
+    border-top: 1px solid #003A70;
+}
+
+#sidebar-menu h5,
+#sidebar-menu h5 a,
+#sidebar-menu h5 a:hover,
+{
+    font-size: 30px;
+    color: #CC8A00;
+    text-align: left;
+    line-height: 36px;
+    margin-top: 48px;
+}
+
+.section-title h3
+{
+    font-size: 48px;
+    color: #CC8A00;
+    line-height: 56px;
+}
+
+#sidebar-menu ul li a,
+#sidebar-menu .sub-menu ul li a
+{
+    border-bottom: 1px solid #e8e8e8;
+    font-size: 18px !important;
+    font-family: inherit;
+    font-weight: 700;
+    line-height: 20px;
+    padding: 24px 0;
+}
+
+#sidebar-menu ul li a:hover,
+#sidebar-menu .sub-menu ul li a:hover
+{
+   text-decoration:underline;
+}
+
+#sidebar-menu .sub-menu {
+    padding: 0px 5%;
+    width: 105% !important;
+    background-color: transparent;
+}
+
+.bg__gold {
+  background-color: #cc8a00 !important;
+}
+
+span.bg__gold {
+    padding: 8px 0 4px 0;
+    box-shadow: 16px 0 0 #cc8a00, -16px 0 0 #cc8a00;
+    background-color: #cc8a00;
+}
+
+@media screen and (min-width: 992px) {
+    #sidebar-menu {
+    margin-top: -24rem;
+}
+        
+}

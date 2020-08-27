@@ -3,25 +3,20 @@
 if ( !defined(
 'ABSPATH' ) )exit;
 /** * Template Name: Chi Siamo 2017 
-* @file chi-siamo.php */ 
+* @file chi-siamo.php */
+wp_enqueue_style('Bootstrap_Styles','https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css');
 get_header(2017); ?>
-<div id="HomeCarousel" class="carousel slide"
-data-ride="carousel">
-    <div class="carousel-inner">
-        <div class="item active"><img src="<?php echo site_url() ?>/wp-content/uploads/2017/04/perche-lbs-palazzina-blanc.jpg"
-            alt="Luiss via Pola">
-            <div class="container">
-                <div class="carousel-caption">
-                    <h1>
-						<?php the_title()?>
-					</h1>
-                    <p><span class="slider_paragraf"><strong><?php echo get_field('sub_home_description') ?></strong></span>
-                </div>
-            </div>
+<div class="item-centre">
+    <img src="<?php echo site_url() ?>/wp-content/uploads/2017/04/perche-lbs-palazzina-blanc.jpg" alt="Luiss via Pola">
+    <div class="container">
+        <div class="centre-caption-info centre">
+            <h1><?php echo the_title(); ?></h1>
+            <h2><span class="bg__gold"><?php echo get_field('sub_home_description') ?></span></h2>
         </div>
     </div>
 </div>
-<?php $vision_desc=array(); $vision_desc[
+<section class="py-64">
+    <?php $vision_desc=array(); $vision_desc[
 'it']='Sii pronto al cambiamento' ; $vision_desc[
 'en']='Be ready for change' ; ?>
 <?php $mission_desc=array(); $mission_desc[
@@ -30,104 +25,106 @@ data-ride="carousel">
 <?php $fattori=array(); $fattori [ 'it']='I fattori di differenziazione'
 ; $fattori [ 'en']="The differentiation factors"
 ; ?>
-<section class="body-section">
     <div class="container">
-       
-       
-       
-        <div class="featurette-divider"></div>
         <div class="row">
-            <div class="col-md-3">
-                <div class="feature">
-   <h2 class="block-title pipe">MISSION</h2>
-                   
-                </div>
+            <div class="col-md-3 section-title">
+                <h3>Mission</h3>
             </div>
             <div class="col-md-9">
-                <div class="feature">
-                    <p>
-                        <?php echo get_field('content_mission') ?>
-                    </p>
-                </div>
+                <p><?php echo get_field('content_mission') ?></p>
             </div>
         </div>
     </div>
 </section>
-<section class="body-section" style="background-color: #ebebeb">
+
+<section class="py-64" style="background-color: #F7F9FA">
     <div class="container">
         <div class="row">
-
-
-            <div class="col-md-4">
-                <div class="feature">
-                    <img src="//businessschool.luiss.it/wp-content/uploads/2018/06/img_perche450x650.png"
-                    alt="" class="img-responsive">
+            <div class="col-lg-7 section-title">
+                <h3>
+                    <?php echo $fattori[ICL_LANGUAGE_CODE]; ?>
+                </h3>
+                <div id="accordion" class="mt-48">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0 strong">
+                                <button class="btn" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <?php echo get_field('box_launch_box_1') ?>
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div class="card-body">
+                                <?php echo get_field('box_di_lancio_content_1') ?>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0 strong">
+                                <button class="btn collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <?php echo get_field('box_launch_box_2') ?>
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                                <?php echo get_field('box_di_lancio_content_2') ?>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h5 class="mb-0 strong">
+                                <button class="btn collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <?php echo get_field('box_launch_box_3') ?>
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                            <div class="card-body">
+                                <?php echo get_field('box_di_lancio_content_3') ?>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingFour">
+                            <h5 class="mb-0 strong">
+                                <button class="btn collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    <?php echo get_field('box_launch_box_4') ?>
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                            <div class="card-body">
+                                <?php echo get_field('box_di_lancio_content_4') ?>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingFive">
+                            <h5 class="mb-0 strong">
+                                <button class="btn collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    <?php echo get_field('box_launch_box_5') ?>
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                            <div class="card-body">
+                                <?php echo get_field('box_di_lancio_content_5') ?>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-             <div class="col-md-5">
- 
-            <h3 class="pipe-2">
-					<?php echo $fattori[ICL_LANGUAGE_CODE]; ?>
-				</h3>
-            
-               <div class="featurette-divider-perche"></div>
-            
-     <div class="nav nav-tabs nav-stacked">
-  <div class="feature botton"><h4 class="block-title"><a href="#tab1" data-toggle="tab"><?php echo get_field('box_launch_box_1') ?></a></h4> </div>
-     <div class="feature botton"><h4 class="block-title"><a href="#tab2" data-toggle="tab"><?php echo get_field('box_launch_box_2') ?></a></h4> </div>
-   <div class="feature botton"><h4 class="block-title"><a href="#tab3" data-toggle="tab"><?php  echo get_field('box_launch_box_3') ?></a></h4> </div>
-      <div class="feature botton"><h4 class="block-title"><a href="#tab4" data-toggle="tab"><?php  echo get_field('box_launch_box_4') ?></a></h4> </div>
-    <div class="feature botton"><h4 class="block-title"><a href="#tab5" data-toggle="tab"><?php  echo get_field('box_launch_box_5') ?></a></h4> </div>
-    </div>
-			</div>
-
-            <div class="featurette-divider-perche"></div>
-
-
-            <div class="col-md-3">
-              
-              
-              <div class="tab-content">
-              
-        <div class="tab-pane fade" id="tab1">
-          <?php echo get_field('box_di_lancio_content_1') ?> 
-        </div>
-     
-
-
-        <div class="tab-pane fade" id="tab2">
-         <?php  echo get_field('box_di_lancio_content_2') ?>      
-        </div>
-	
-				
-
-        <div class="tab-pane fade" id="tab3">
-       <?php echo get_field('box_di_lancio_content_3') ?>
-        </div>
-        
-      
-        <div class="tab-pane fade" id="tab4">
-           <?php  echo get_field('box_di_lancio_content_4') ?>
-        </div>
-
-             
-           <div class="tab-pane fade" id="tab5">
-           <?php  echo get_field('box_di_lancio_content_5') ?>
-        </div>   
-             
-             </div>
-              
-               
-                
-                
-                
+            <div class="col-lg-5">
+                    <img src="//businessschool.luiss.it/wp-content/uploads/2018/06/img_perche450x650.png" alt="" class="float-right my-48">
             </div>
-
         </div>
-
-        
     </div>
 </section>
+
+
 <?php $centri=array(); $centri [ 'it']='Centri di competenza'
 ; $centri [ 'en']="COMPETENCE CENTRES" ;
 ?>
@@ -183,77 +180,77 @@ $link_governance [ 'en']='/en/why-luiss-bs/the-governance/'
         <div class="row">
             <div class="col-lg-4">
                 <h3 class="pipe-2">
-					<?php echo $osservatori[ICL_LANGUAGE_CODE]; ?>
-				</h3>
+                    <?php echo $osservatori[ICL_LANGUAGE_CODE]; ?>
+                </h3>
 
                 <div class="featurette-divider"></div>
                 <h4 class="block-title">
-				<span>
-					<a href="<?php echo $link_osservatorio[ICL_LANGUAGE_CODE]; ?>">Executive compensation</a> 
-							</span></h4>
-           
-           
-              <h4 class="block-title">
-				<span>
-					<a href="/osservatorio-ethos/">Ethos </a> 
-							</span></h4>
-				
-				
-				
-				     <h4 class="block-title">
-				<span>
-					<a href="./osservatorio-sulla-gestione-del-rischio-in-sanita/">Gestione del Rischio in Sanità </a> 
-							</span></h4>
-				
+                    <span>
+                        <a href="<?php echo $link_osservatorio[ICL_LANGUAGE_CODE]; ?>">Executive compensation</a>
+                    </span></h4>
+
+
+                <h4 class="block-title">
+                    <span>
+                        <a href="/osservatorio-ethos/">Ethos </a>
+                    </span></h4>
+
+
+
+                <h4 class="block-title">
+                    <span>
+                        <a href="./osservatorio-sulla-gestione-del-rischio-in-sanita/">Gestione del Rischio in Sanità </a>
+                    </span></h4>
+
             </div>
 
             <div class="col-lg-4">
                 <h3 class="pipe-2">
-					<?php echo $centri_r[ICL_LANGUAGE_CODE]; ?>
-				</h3>
+                    <?php echo $centri_r[ICL_LANGUAGE_CODE]; ?>
+                </h3>
                 <div class="featurette-divider"></div>
                 <h4 class="block-title">
-				<span>
-					<a href="//businessschool.luiss.it/en/why-luiss-bs/business-transformation-reboot/">Reboot</a> 
-							</span></h4>
+                    <span>
+                        <a href="//businessschool.luiss.it/en/why-luiss-bs/business-transformation-reboot/">Reboot</a>
+                    </span></h4>
             </div>
 
             <div class="col-lg-4">
                 <h3 class="pipe-2">
-					<?php echo $centri[ICL_LANGUAGE_CODE]; ?>
-				</h3>
+                    <?php echo $centri[ICL_LANGUAGE_CODE]; ?>
+                </h3>
 
                 <div class="featurette-divider"></div>
                 <h4 class="block-title">
-				<span>
-					<a href="<?php echo $link_lab_9[ICL_LANGUAGE_CODE]; ?>">	CERIIS</a> 
-				</span></h4>
-            
+                    <span>
+                        <a href="<?php echo $link_lab_9[ICL_LANGUAGE_CODE]; ?>"> CERIIS</a>
+                    </span></h4>
+
                 <div class="featurette-divider"></div>
                 <h4 class="block-title">
-				<span>
-					<a href="<?php echo $link_lab_2[ICL_LANGUAGE_CODE]; ?>">	ERShub</a> 
-				</span></h4>
-            
-            
-               
-<!-- <div class="featurette-divider"></div>
+                    <span>
+                        <a href="<?php echo $link_lab_2[ICL_LANGUAGE_CODE]; ?>"> ERShub</a>
+                    </span></h4>
+
+
+
+                <!-- <div class="featurette-divider"></div>
                 <h4 class="block-title">
 				<span>
 					<a href="<?php echo $link_lab_7[ICL_LANGUAGE_CODE]; ?>">	People Management </a> 
 				</span></h4>
 -->
-            
-            
-            <div class="featurette-divider"></div>
+
+
+                <div class="featurette-divider"></div>
                 <h4 class="block-title">
-				<span>
-					<a href="<?php echo $link_lab_8[ICL_LANGUAGE_CODE]; ?>">	Creative Industry </a> 
-				</span></h4>
+                    <span>
+                        <a href="<?php echo $link_lab_8[ICL_LANGUAGE_CODE]; ?>"> Creative Industry </a>
+                    </span></h4>
 
             </div>
-            
-            
+
+
 
 </section>
 
@@ -295,14 +292,14 @@ $link_governance [ 'en']='/en/why-luiss-bs/the-governance/'
             <div class="col-md-6">
                 <div class="col-lg-12 pull-right">
                     <h2 class="white-style  pull-right">
-						<?php echo get_field('titolo_sidebar_destra') ?>
-					</h2>
+                        <?php echo get_field('titolo_sidebar_destra') ?>
+                    </h2>
                 </div>
                 <div class="col-lg-11 pull-right">
                     <div class="col-lg-12">
                         <h3 class="block-title h3 pull-right white-style">
-							<?php echo get_field('valori_lancio_titolo_1') ?>
-						</h3>
+                            <?php echo get_field('valori_lancio_titolo_1') ?>
+                        </h3>
                     </div>
                     <div class="col-lg-12">
                         <p class=" pull-right text-right white-style">
@@ -311,8 +308,8 @@ $link_governance [ 'en']='/en/why-luiss-bs/the-governance/'
                     </div>
                     <div class="col-lg-12">
                         <h3 class="block-title h3 pull-right white-style">
-							<?php echo get_field('valori_lancio_titolo_2') ?>
-						</h3>
+                            <?php echo get_field('valori_lancio_titolo_2') ?>
+                        </h3>
                     </div>
                     <div class="col-lg-12">
                         <p class=" pull-right text-right white-style">
@@ -321,8 +318,8 @@ $link_governance [ 'en']='/en/why-luiss-bs/the-governance/'
                     </div>
                     <div class="col-lg-12">
                         <h3 class="block-title h3 pull-right white-style">
-							<?php echo get_field('valori_lancio_titolo_3') ?>
-						</h3>
+                            <?php echo get_field('valori_lancio_titolo_3') ?>
+                        </h3>
                     </div>
                     <div class="col-lg-12">
                         <p class=" pull-right text-right white-style">
@@ -331,8 +328,8 @@ $link_governance [ 'en']='/en/why-luiss-bs/the-governance/'
                     </div>
                     <div class="col-lg-12">
                         <h3 class="block-title h3 pull-right white-style">
-							<?php echo get_field('valori_lancio_titolo_4') ?>
-						</h3>
+                            <?php echo get_field('valori_lancio_titolo_4') ?>
+                        </h3>
                     </div>
                     <div class="col-lg-12">
                         <p class="pull-right text-right white-style">
@@ -344,8 +341,6 @@ $link_governance [ 'en']='/en/why-luiss-bs/the-governance/'
         </div>
     </div>
 </section>
-
-
-   <?php edit_post_link('<strong>Modifica Pagina</strong>', ''); ?>
+<p><?php edit_post_link('<strong>Modifica Pagina</strong>', ''); ?></p>
 
 <?php get_footer(2017); ?>
