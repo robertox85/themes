@@ -5,7 +5,7 @@
  *
  * This sample code was based off of the Starkers Baseline theme: http://starkerstheme.com/
  */
-
+wp_enqueue_style('Bootstrap_Styles','https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css');
 get_header(2017); ?>
 
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>

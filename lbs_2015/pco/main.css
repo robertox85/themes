@@ -476,7 +476,7 @@ h6 {
   font-weight: bold;
   font-size: calc(1.3125rem + 0.75vw);
   line-height: 2.175rem;
-  font-family: 'Luiss sans';
+  font-family: 'Luiss Sans' !important;
 }
 
 @media (min-width: 1200px) {
@@ -13716,7 +13716,7 @@ ul.exarea-list > li > a {
   font-weight: bold;
   font-size: calc(1.025rem + 0.75vw);
   line-height: 1.675rem;
-  font-family: 'Luiss sans';
+  font-family: 'Luiss Sans';
   text-align: center;
 }
 

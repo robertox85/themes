@@ -26,6 +26,139 @@ Bootstrap
  *//*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 
+/* FONT NUOVI */
+
+@font-face {
+  font-family: 'Luiss Sans';
+  src: url('pco/fonts/luiss_sans/LuissSans-Regular.eot');
+  src: url('pco/fonts/luiss_sans/LuissSans-Regular.eot?#iefix')
+      format('embedded-opentype'),
+    url('pco/fonts/luiss_sans/luisssans-regular-webfont.woff2') format('woff2'),
+    url('pco/fonts/luiss_sans/luisssans-regular-webfont.woff') format('woff'),
+    url('pco/fonts/luiss_sans/LuissSans-Regular.ttf') format('truetype'),
+    url('pco/fonts/luiss_sans/LuissSans-Regular.svg#webfont') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Luiss Sans';
+  src: url('pco/fonts/luiss_sans/LuissSans-Italic.eot');
+  src: url('pco/fonts/luiss_sans/LuissSans-Italic.eot?#iefix')
+      format('embedded-opentype'),
+    url('pco/fonts/luiss_sans/luisssans-italic-webfont.woff2') format('woff2'),
+    url('pco/fonts/luiss_sans/luisssans-italic-webfont.woff') format('woff'),
+    url('pco/fonts/luiss_sans/LuissSans-Italic.ttf') format('truetype'),
+    url('pco/fonts/luiss_sans/LuissSans-Italic.svg#webfont') format('svg');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Luiss Sans';
+  src: url('pco/fonts/luiss_sans/LuissSans-Bold.eot');
+  src: url('pco/fonts/luiss_sans/LuissSans-Bold.eot?#iefix')
+      format('embedded-opentype'),
+    url('pco/fonts/luiss_sans/luisssans-bold-webfont.woff2') format('woff2'),
+    url('pco/fonts/luiss_sans/luisssans-bold-webfont.woff') format('woff'),
+    url('pco/fonts/luiss_sans/LuissSans-Bold.ttf') format('truetype'),
+    url('pco/fonts/luiss_sans/LuissSans-Bold.svg#webfont') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Luiss Sans';
+  src: url('pco/fonts/luiss_sans/LuissSans-BoldItalic.eot');
+  src: url('pco/fonts/luiss_sans/LuissSans-BoldItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('pco/fonts/luiss_sans/luisssans-bolditalic-webfont.woff2') format('woff2'),
+    url('pco/fonts/luiss_sans/luisssans-bolditalic-webfont.woff') format('woff'),
+    url('pco/fonts/luiss_sans/LuissSans-BoldItalic.ttf') format('truetype'),
+    url('pco/fonts/luiss_sans/LuissSans-BoldItalic.svg#webfont') format('svg');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Luiss Sans';
+  src: url('pco/fonts/luiss_sans/LuissSans-ThinSans.eot');
+  src: url('pco/fonts/luiss_sans/LuissSans-ThinSans.eot?#iefix')
+      format('embedded-opentype'),
+    url('pco/fonts/luiss_sans/luisssans-thinsans-webfont.woff2') format('woff2'),
+    url('pco/fonts/luiss_sans/luisssans-thinsans-webfont.woff') format('woff'),
+    url('pco/fonts/luiss_sans/LuissSans-ThinSans.ttf') format('truetype'),
+    url('pco/fonts/luiss_sans/LuissSans-ThinSans.svg#webfont') format('svg');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Luiss Sans';
+  src: url('pco/fonts/luiss_sans/LuissSans-ThinItalic.eot');
+  src: url('pco/fonts/luiss_sans/LuissSans-ThinItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('pco/fonts/luiss_sans/luisssans-thinitalic-webfont.woff2') format('woff2'),
+    url('pco/fonts/luiss_sans/luisssans-thinitalic-webfont.woff') format('woff'),
+    url('pco/fonts/luiss_sans/LuissSans-ThinItalic.ttf') format('truetype'),
+    url('pco/fonts/luiss_sans/LuissSans-ThinItalic.svg#webfont') format('svg');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Luiss Serif';
+  src: url('pco/fonts/luiss_serif/LuissSerif-Bold.eot');
+  src: url('pco/fonts/luiss_serif/LuissSerif-Bold.eot?#iefix')
+      format('embedded-opentype'),
+    url('pco/fonts/luiss_serif/luissserif-bold-webfont.woff2') format('woff2'),
+    url('pco/fonts/luiss_serif/luissserif-bold-webfont.woff') format('woff'),
+    url('pco/fonts/luiss_serif/LuissSerif-Bold.ttf') format('truetype'),
+    url('pco/fonts/luiss_serif/LuissSerif-Bold.svg#webfont') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Luiss Serif';
+  src: url('pco/fonts/luiss_serif/LuissSerif-BoldItalic.eot');
+  src: url('pco/fonts/luiss_serif/LuissSerif-BoldItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('pco/fonts/luiss_serif/luissserif-bolditalic-webfont.woff2') format('woff2'),
+    url('pco/fonts/luiss_serif/luissserif-bolditalic-webfont.woff') format('woff'),
+    url('pco/fonts/luiss_serif/LuissSerif-BoldItalic.ttf') format('truetype'),
+    url('pco/fonts/luiss_serif/LuissSerif-BoldItalic.svg#webfont') format('svg');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Luiss Serif';
+  src: url('pco/fonts/luiss_serif/LuissSerif-Italic.eot');
+  src: url('pco/fonts/luiss_serif/LuissSerif-Italic.eot?#iefix')
+      format('embedded-opentype'),
+    url('pco/fonts/luiss_serif/luissserif-italic-webfont.woff2') format('woff2'),
+    url('pco/fonts/luiss_serif/luissserif-italic-webfont.woff') format('woff'),
+    url('pco/fonts/luiss_serif/LuissSerif-Italic.ttf') format('truetype'),
+    url('pco/fonts/luiss_serif/LuissSerif-Italic.svg#webfont') format('svg');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Luiss Serif';
+  src: url('pco/fonts/luiss_serif/LuissSerif-Regular.eot');
+  src: url('pco/fonts/luiss_serif/LuissSerif-Regular.eot?#iefix')
+      format('embedded-opentype'),
+    url('pco/fonts/luiss_serif/luissserif-regular-webfont.woff2') format('woff2'),
+    url('pco/fonts/luiss_serif/luissserif-regular-webfont.woff') format('woff'),
+    url('pco/fonts/luiss_serif/LuissSerif-Regular.ttf') format('truetype'),
+    url('pco/fonts/luiss_serif/LuissSerif-Regular.svg#webfont') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 body{margin:0}
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary{display:block}
@@ -655,7 +788,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
 .fade{opacity:0;-webkit-transition:opacity .15s linear;-o-transition:opacity .15s linear;transition:opacity .15s linear}
 .fade.in{opacity:1}
 .collapse{display:none}
-.collapse.in{display:block}
+.collapse.in{display:block !important}
 tr.collapse.in{display:table-row}
 tbody.collapse.in{display:table-row-group}
 .collapsing{position:relative;height:0;overflow:hidden;-webkit-transition-property:height, visibility;-o-transition-property:height, visibility;transition-property:height, visibility;-webkit-transition-duration:.35s;-o-transition-duration:.35s;transition-duration:.35s;-webkit-transition-timing-function:ease;-o-transition-timing-function:ease;transition-timing-function:ease}
@@ -709,14 +842,10 @@ tbody.collapse.in{display:table-row-group}
 .hidden{display:none !important}
 .affix{position:fixed}
 .slider_paragraf{padding:2px;color:#fff;font-size:14px;line-height:16px;color:#3c3c3c;}
-@font-face{font-family:"ITC Officina Sans W01";src:url(../../themes/lbs_2015/Fonts/e4f88d1f-2f5e-49a0-9361-9fcdc5bfc795.eot?#iefix);src:url(../../themes/lbs_2015/Fonts/e4f88d1f-2f5e-49a0-9361-9fcdc5bfc795.eot?#iefix) format("eot"), url(../../themes/lbs_2015/Fonts/60567f88-1ef5-4f2c-9951-3ce3845f9967.woff) format("woff"), url(../../themes/lbs_2015/Fonts/ec8c3086-5408-4f25-97d0-f1f4c7014668.ttf) format("truetype"), url(../../themes/lbs_2015/Fonts/d29fed54-ae01-49ef-94e2-3e3fb9df3f70.svg#d29fed54-ae01-49ef-94e2-3e3fb9df3f70) format("svg");font-weight:300;font-style:normal}
-@font-face{font-family:"Luiss sans";src:url(../../themes/lbs_2015/Fonts/2f0ec777-1dee-443a-8545-9f7f99463c7c.eot?#iefix);src:url(../../themes/lbs_2015/Fonts/2f0ec777-1dee-443a-8545-9f7f99463c7c.eot?#iefix) format("eot"), url(../../themes/lbs_2015/Fonts/de07363b-ce31-46ce-aea6-f035147ac203.woff) format("woff"), url(../../themes/lbs_2015/Fonts/c2aa6294-4649-4459-8985-3ea6c56ca7a9.ttf) format("truetype"), url(../../themes/lbs_2015/Fonts/d6cda294-df79-4dd0-9a04-87653b44cb98.svg#d6cda294-df79-4dd0-9a04-87653b44cb98) format("svg");font-weight:700;font-style:normal}
-@font-face{font-family:"ITC Officina Serif W01";src:url(../../themes/lbs_2015/Fonts/d29a1003-aa62-4492-a4ab-3b649c7efccd.eot?#iefix);src:url(../../themes/lbs_2015/Fonts/d29a1003-aa62-4492-a4ab-3b649c7efccd.eot?#iefix) format("eot"), url(../../themes/lbs_2015/Fonts/d8999082-96b7-4355-bab1-d135f4e4bee7.woff) format("woff"), url(../../themes/lbs_2015/Fonts/e0a4e45b-0b2e-4b30-82d9-808d85415dc9.ttf) format("truetype"), url(../../themes/lbs_2015/Fonts/9e9b325c-b638-44e5-9889-91dd0d826f86.svg#9e9b325c-b638-44e5-9889-91dd0d826f86) format("svg");font-weight:300;font-style:Regular}
-@font-face{font-family:"Droid Sans Mono W01";src:url(../../themes/lbs_2015/Fonts/da99e021-1adc-402e-9724-4a7a508c0ca9.eot?#iefix);src:url(../../themes/lbs_2015/Fonts/da99e021-1adc-402e-9724-4a7a508c0ca9.eot?#iefix) format("eot"), url(../../themes/lbs_2015/Fonts/b9064a23-9ce3-4444-8334-a3040698c81f.woff) format("woff"), url(../../themes/lbs_2015/Fonts/1479c6cd-a01e-45c3-92f1-64276599c820.ttf) format("truetype"), url(../../themes/lbs_2015/Fonts/5dfbdeaa-66ad-4913-87c5-a6f779651dd9.svg#5dfbdeaa-66ad-4913-87c5-a6f779651dd9) format("svg");font-weight:400;font-style:Regular}
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td{border:0;font-family:inherit;font-size:100%;font-style:inherit;font-weight:inherit;margin:0;outline:0;padding:0;vertical-align:baseline}
 html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;font-size:62.5%;overflow-y:scroll;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
 *,:before,:after{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}
-body{font-family:"ITC Officina Sans W01"}
+body{font-family:'Luiss Sans', Arial, Helvetica, sans-serif;}
 article, aside, details, figcaption, figure, footer, header, main, nav, section{display:block}
 ol, ul{list-style:none}
 table{border-collapse:separate;border-spacing:0}
@@ -743,11 +872,11 @@ a img{border:0}
 #network-container-offcanvas-ul{height:210px;position:relative}
 #site-canvas.show-network #network-offcanvas-trigger:before{right:26px;top:-35px;border:solid transparent;content:" ";height:0;width:0;position:absolute;pointer-events:none;border-color:rgba(247,247,247,0);border-top-color:#f7f7f7;border-width:15px;margin-left:-15px}
 #network-container-offcanvas ul{list-style:none;margin:30px 0 0}
-#network-container-offcanvas a{font-family:"Luiss sans", Arial, Helvetica, sans-serif;color:#003a70;font-size:.85rem;font-weight:bold;text-transform:uppercase}
-#network-container-offcanvas button.close-menu{background-color:#ebebeb;color:#333;font-size:28px;font-family:"Luiss sans", Arial, Helvetica, sans-serif;height:210px;position:absolute;right:0;top:0;width:210px;border:none}
+#network-container-offcanvas a{font-family:"Luiss Sans", Arial, Helvetica, sans-serif;color:#003a70;font-size:.85rem;font-weight:bold;text-transform:uppercase}
+#network-container-offcanvas button.close-menu{background-color:#ebebeb;color:#333;font-size:28px;font-family:"Luiss Sans", Arial, Helvetica, sans-serif;height:210px;position:absolute;right:0;top:0;width:210px;border:none}
 #site-wrapper.show-network #site-canvas{-webkit-transform:translateY(210px);transform:translateY(210px)}
 #menu-main{background:none;width:100%;border:0px;float:left;line-height:2;list-style:none;margin:0;padding:0;position:relative}
-#menu-main li{display:inline-block;float:left;font-family:"ITC Officina Sans W01";font-size:14px;font-weight:400;text-transform:uppercase}
+#menu-main li{display:inline-block;float:left;font-family:'Luiss Sans', Arial, Helvetica, sans-serif;font-size:14px;font-weight:400;text-transform:uppercase}
 #menu-main li a{color:#2A2A2A;display:inline-block;padding:16px;text-decoration:none;-o-transition:all .3s linear;-webkit-transition:all .3s linear;-moz-transition:all .3s linear;transition:all .3s linear}
 .body-master #menu-main .current-menu-item a, .body-master #menu-main .current-page-ancestor a{background:none;color:#2A2A2A;}
 #menu-main .current-menu-item a, #menu-main .current-page-ancestor a, #menu-main li:hover > a, .body-master #menu-main li:hover > a, .sub-menu{background:#111;color:#fff}
@@ -773,7 +902,7 @@ a img{border:0}
 #sb-search .sb-search-input{height:5rem}
 
 
-h1, h2, h3, h4, h5, h6{color:#222;font-style:normal;font-weight:700;line-height:1.4;margin-bottom:9px;margin-top:4px;text-rendering:optimizelegibility;font-family:"Luiss sans"}
+h1, h2, h3, h4, h5, h6{color:#222;font-style:normal;font-weight:700;line-height:1.4;margin-bottom:9px;margin-top:4px;text-rendering:optimizelegibility;font-family:"Luiss Sans"}
 h1, .h1{color:#fff;font-size:36px;padding-top:20px;padding-bottom:20px;margin:0;font-weight:700}
 h2, .h2{font-size:36px;font-weight:700}
 h3, .h3{font-size:24px}
@@ -793,7 +922,7 @@ ul{list-style:disc}
 .fixed{width:100%;left:0;position:fixed;top:0;z-index:99;padding:0;-webkit-backface-visibility:hidden;-webkit-transform:translateZ(0)}
 .fixed .back-to-top{display:inline-block;float:right}
 .page-template-chi-siamo-2017 #breadcrumb-top .breadcrumb, .page-template-offerta-2017 #breadcrumb-top .breadcrumb, .page-template-faculty-2017 #breadcrumb-top .breadcrumb, .page-template-agevolazioni-servizi-2017 #breadcrumb-top .breadcrumb, .page-template-alumni-2017 #breadcrumb-top .breadcrumb, .page-template-eventi #breadcrumb-top .breadcrumb, .page-template-mba #breadcrumb-top .breadcrumb, .page-template-corsi-laurea #breadcrumb-top .breadcrumb, .page-template-executive-program #breadcrumb-top .breadcrumb, .page-template-master #breadcrumb-top .breadcrumb, .page-template-doctoral #breadcrumb-top .breadcrumb, .page-template-formazione-specialistica #breadcrumb-top .breadcrumb, .page-template-taxonomy-afc #breadcrumb-top .breadcrumb, .page-template-taxonomy-banche #breadcrumb-top .breadcrumb, .page-template-taxonomy-corporate #breadcrumb-top .breadcrumb, .page-template-taxonomy-soft #breadcrumb-top .breadcrumb, .page-template-taxonomy-management #breadcrumb-top .breadcrumb, .page-template-taxonomy-marketing #breadcrumb-top .breadcrumb, .page-template-taxonomy-people #breadcrumb-top .breadcrumb, .page-template-taxonomy-project #breadcrumb-top .breadcrumb, .page-template-taxonomy-sanita #breadcrumb-top .breadcrumb, .page-template-taxonomy-real #breadcrumb-top .breadcrumb, .page-template-taxonomy-sport #breadcrumb-top .breadcrumb, .page-template-taxonomy-tax #breadcrumb-top .breadcrumb, .page-template-roma-2017 #breadcrumb-top .breadcrumb, .page-template-roma-2017 #breadcrumb-top .breadcrumb, .page-template-news-eventi-2017 #breadcrumb-top .breadcrumb, .page-template-progetti-speciali-2017 #breadcrumb-top .breadcrumb{border-bottom:none}
-.breadcrumb{margin:0;font-family:"ITC Officina Sans W01";font-size:14px;line-height:14px;background:none;padding:20px 10px}
+.breadcrumb{margin:0;font-family:'Luiss Sans', Arial, Helvetica, sans-serif;font-size:14px;line-height:14px;background:none;padding:20px 10px}
 .breadcrumb div{color:#fff;float:left;font-size:14px;line-height:14px;padding:0 5px}
 .breadcrumb a{color:#fff}
 #breadcrumb-top.fixed .breadcrumb{border-bottom:none;background:#fdbb4d}
@@ -807,13 +936,13 @@ ul{list-style:disc}
 #menu-local h2{color:#333;font-size:16px;font-weight:700;margin:0;padding-left:10px;text-transform:uppercase}
 #menu-local h2 a{color:#333}
 #menu-local ul.menu{padding:20px 0;list-style:none;margin-left:0}
-#menu-local ul.menu li{font-size:14px;font-family:"Luiss sans", "Georgia", "Times New Roman", serif}
+#menu-local ul.menu li{font-size:14px;font-family:"Luiss Sans", "Georgia", "Times New Roman", serif}
 #menu-local ul.menu a{padding:5px 25px;color:#3c3c3c;display:block;margin-left:-15px;margin-right:-15px;-o-transition:all .3s linear;-webkit-transition:all .3s linear;-moz-transition:all .3s linear;transition:all .3s linear}
 #menu-local ul.menu a:hover{background:#3c3c3c;text-decoration:none;color:#fff}
 #menu-local ul.menu .current-menu-item a{background:#3c3c3c;color:#fff}
 #menu-local ul.menu .sub-menu{display:none;list-style:none;margin:0;padding:0;background:none}
 #menu-local ul.menu .current-menu-item .sub-menu, #menu-local ul.menu .current-menu-parent .sub-menu{display:block}
-#menu-local ul.menu .sub-menu li{background:none;font-style:italic;font-weight:400;font-family:"ITC Officina Sans W01"}
+#menu-local ul.menu .sub-menu li{background:none;font-style:italic;font-weight:400;font-family:'Luiss Sans', Arial, Helvetica, sans-serif}
 #menu-local ul.menu .current-menu-item .sub-menu a{background:none;color:#3c3c3c}
 #menu-local ul.menu .current-menu-item .sub-menu a:hover{background:#3c3c3c;text-decoration:none;color:#fff}
 #menu-local ul.menu .current-menu-item .sub-menu .sub-menu{display:none}
@@ -828,9 +957,9 @@ li#menu-item-27833 a{text-indent:-9999px;IMPORTANT}
 li#menu-item-37115 a{text-indent:-9999px;IMPORTANT}
 li#menu-item-27835 a{text-indent:-9999px;IMPORTANT}
 li#menu-item-34007 a{text-indent:-9999px;IMPORTANT}
-aside#sidebar{background:#3c3c3c;color:#ddd;font-size:14px;margin:-62px 0 0;padding-top:40px;position:relative;min-height:200px}
+aside#sidebar{background:#3c3c3c;color:#ddd;font-size:16px;;padding-top:40px;position:relative;min-height:200px}
 .space{margin:20px auto;padding:16px;position:relative}
-input[type="text"], input[type="password"], input[type="date"], textarea{background-color:#fff;border:1px solid #333;box-shadow:0 1px 2px rgba(0,0,0,0.6);color:rgba(0,0,0,1);display:block;font-family:inherit;font-size:16px;height:2.9em;margin:0;padding:10px;transition:box-shadow .3s ease 0s, border-color .3s ease-in-out 0;width:100%;font-family:"ITC Officina Sans W01"}
+input[type="text"], input[type="password"], input[type="date"], textarea{background-color:#fff;border:1px solid #333;box-shadow:0 1px 2px rgba(0,0,0,0.6);color:rgba(0,0,0,1);display:block;font-family:inherit;font-size:16px;height:2.9em;margin:0;padding:10px;transition:box-shadow .3s ease 0s, border-color .3s ease-in-out 0;width:100%;font-family:'Luiss Sans', Arial, Helvetica, sans-serif}
 .lang_selector{color:#fff;position:unset;display:flex;}
 .lang_selector ul{line-height:14px;list-style:none;margin-top:14px;float:right}
 .lang_selector li{display:inline-block;font-size:16px;color:#fff}
@@ -839,13 +968,13 @@ input[type="text"], input[type="password"], input[type="date"], textarea{backgro
 #lang_sel_list ul{line-height:24px;list-style:none;margin-left:0px;}
 #lang_sel_list li{display:inline-block;}
 .icl-it{border-right:1px solid #000000;padding-right:5px;}
-#lang_sel_list a{font-family:"ITC Officina Sans W01", "Georgia", "Times New Roman", serif;color:#fdbb4d;font-size:18px}
-.home-headline{font-weight:400;padding-top:9px;text-transform:uppercase;font-family:"ITC Officina Sans W01", "Georgia", "Times New Roman", serif;color:#fdbb4d;font-size:18px}
+#lang_sel_list a{font-family: 'Luiss Sans', Arial, Helvetica, sans-serif;color:#fdbb4d;font-size:18px}
+.home-headline{font-weight:400;padding-top:9px;text-transform:uppercase;font-family: 'Luiss Sans', Arial, Helvetica, sans-serif;color:#fdbb4d;font-size:18px}
 .home-headline a{color:#fdbb4d;text-decoration:none}
 .sub-home{position:relative;color:#fff;margin:0;padding:0;border:0;overflow:hidden;*zoom:1;margin:0 auto 0}
 .sub-home-heading{padding:40px 20px}
 .sub-home h1, .sub-home h2.h1{color:#fff;font-size:46px;line-height:46px;text-transform:uppercase;font-weight:700}
-.sub-home .h1-sub{color:#fff;font-size:26px;line-height:32px;font-style:italic;font-family:"Luiss sans"}
+.sub-home .h1-sub{color:#fff;font-size:26px;line-height:32px;font-style:italic;font-family:"Luiss Sans"}
 .sub-home p{color:#fff;font-size:18px}
 .sub-home-grid{margin:0;padding:0;border:0;overflow:hidden;*zoom:1;margin:0 auto;background-color:#fdbb4d;height:100%}
 .sub-home-master, .sub-home-executive-programme{background:#fdbb4d;padding-bottom:32px}
@@ -859,7 +988,7 @@ input[type="text"], input[type="password"], input[type="date"], textarea{backgro
 .master-preview, .course-preview{margin:15px auto;}
 .fix-box{min-height:390px;}
 .master-preview .glyphicon, .course-preview .glyphicon{margin-right:10px}
-h3.master-info, h3.course-info{font-family:"ITC Officina Sans W01", Georgia, "Times New Roman", serif;font-size:16px;text-transform:uppercase;margin:0}
+h3.master-info, h3.course-info{font-family:'Luiss Sans', Arial, Helvetica, sans-serif, Georgia, "Times New Roman", serif;font-size:16px;text-transform:uppercase;margin:0}
 .course-item .course-hover{overflow:hidden;position:relative;width:100%;z-index:1}
 .course-hover .hover-bg{bottom:0;left:0;opacity:0;position:absolute;right:0;top:0;transition:all .3s ease 0;z-index:1}
 .course-hover .more-info{background-color:rgba(0,0,0,0.1);border:2px solid #CC8A00;border-radius:4px;box-sizing:border-box;color:#CC8A00;display:inline-block;font-size:15px;left:50%;line-height:20px;opacity:0;overflow:hidden;padding:8px 30px;position:absolute;top:50%;transform:translate(-50%, -50%) scale(0.5);transition:all .3s ease 0;white-space:nowrap;z-index:3}
@@ -892,13 +1021,14 @@ h3.master-info, h3.course-info{font-family:"ITC Officina Sans W01", Georgia, "Ti
 .Flexible-container iframe, .Flexible-container object, .Flexible-container embed{position:absolute;top:0;left:0;width:100%;height:100%}
 .img-responsive{max-width:100%;display:block}
 .responsive{max-width:100%;display:block;width:100%}
-button, .button, .pagination-nav a{-webkit-appearance:none;-webkit-transition:background-color 300ms ease-out;background-color:#3c3c3c;border:0 solid #3c3c3c;border-radius:0;color:#FFF;cursor:pointer;display:inline-block;font-family:'ITC Officina Sans W01', Georgia, 'Times New Roman', serif;font-size:16px;font-weight:400;line-height:normal;margin:0 0 19px;padding:16px 32px;position:relative;text-align:center;text-decoration:none;transition:background-color 300ms ease-out}
+button, .button, .pagination-nav a{-webkit-appearance:none;-webkit-transition:background-color 300ms ease-out;background-color:#3c3c3c;border:0 solid #3c3c3c;border-radius:0;color:#FFF;cursor:pointer;display:inline-block;font-family:'Luiss Sans',  Arial, Helvetica, sans-serif;font-size:16px;font-weight:400;line-height:normal;margin:0 0 19px;padding:16px 32px;position:relative;text-align:center;text-decoration:none;transition:background-color 300ms ease-out}
 .pagination-nav a{margin-right:10px}
 .white{background-color:#fff;color:#CC8A00;margin-top:5px;font-weight:700}
 strong, b{font-weight:700;line-height:inherit}
 em, i{font-style:italic;line-height:inherit}
-#main a{line-height:inherit;text-decoration:none;text-rendering:optimizelegibility;color:#FDBB4D}
-#main a.button{color:#fff;transition:background-color 300ms ease-out 0}
+#main a{line-height:inherit;text-decoration:none;text-rendering:optimizelegibility;color:#CC8A00;font-weight:bold;}
+#main a:hover{text-decoration:underline;}
+#main a.button{color:#fff !important;background-color: #003A70;}
 img.left{margin-right:10px}
 .left{float:left!important}
 img{display:inline-block;vertical-align:middle;height:auto}
@@ -917,7 +1047,7 @@ hr{border-color:#DDD;border-style:solid;border-width:1px 0 0;clear:both;height:0
 .nav-alphabet ul li a:hover{float:left;border:1px solid #a8a8a8;background:#3c3c3c;color:#fff!important}
 .nav-alphabet ul li.disabled a:hover{background:none;color:#999!important}
 .finder-text{min-height:300px;position:relative;right:0;top:0;padding:30px 40px 20px;background-color:#ebebeb;font-weight:700}
-.finder-title, .finder-description{color:#3c3c3c!important;line-height:1.25em;text-transform:uppercase;font-family:"ITC Officina Sans W01"}
+.finder-title, .finder-description{color:#3c3c3c!important;line-height:1.25em;text-transform:uppercase;font-family:'Luiss Sans', Arial, Helvetica, sans-serif}
 .finder-title{font-size:35px}
 .finder-description{font-size:30px;font-weight:400}
 .finder-button, .finder-send-button{background-color:#CC8A00;border:1px solid #e3a745;color:#fff;cursor:pointer;display:block;font-size:15px;font-weight:700;padding:10px 20px;text-align:center;text-decoration:none;text-transform:uppercase;width:100%}
@@ -935,7 +1065,7 @@ hr{border-color:#DDD;border-style:solid;border-width:1px 0 0;clear:both;height:0
 .offerta{background:url(../../uploads/2018/03/perche-lbs-studenti-in-aula.jpg) no-repeat scroll 0 0/cover #CC8A00;min-height:528px;margin:0!important}
 #offerta-nav{background:#3c3c3c}
 #offerta-nav ul{padding:0;margin:0}
-#offerta-nav ul li{font-family:'ITC Officina Sans W01', Georgia, 'Times New Roman', serif;font-style:normal;font-weight:400;font-size:18px;text-transform:uppercase;text-align:center;height:100px;line-height:1.1;padding:35px 10px;list-style:none;color:#fff}
+#offerta-nav ul li{font-family:'Luiss Sans',  Arial, Helvetica, sans-serif;font-style:normal;font-weight:400;font-size:18px;text-transform:uppercase;text-align:center;height:100px;line-height:1.1;padding:35px 10px;list-style:none;color:#fff}
 #offerta-nav ul li.active{background:none repeat scroll 0 0 #ebebeb}
 #offerta-nav a{color:#fff;text-decoration:none}
 #offerta-nav ul li.active a{color:#3c3c3c}
@@ -944,14 +1074,14 @@ hr{border-color:#DDD;border-style:solid;border-width:1px 0 0;clear:both;height:0
 .duecolonne{column-count: 2}
 #sub-offerta-nav{background:none repeat scroll 0 0 #ebebeb;display:block}
 #sub-offerta-nav ul{margin:0;padding:0}
-#sub-offerta-nav ul li{font-family:"ITC Officina Sans W01", Georgia, "Times New Roman", serif;font-size:14px;font-style:normal;font-weight:400;height:100px;line-height:1.1;list-style:outside none none;padding:35px 10px;text-align:center;text-transform:uppercase}
+#sub-offerta-nav ul li{font-family:'Luiss Sans', Arial, Helvetica, sans-serif, Georgia, "Times New Roman", serif;font-size:14px;font-style:normal;font-weight:400;height:100px;line-height:1.1;list-style:outside none none;padding:35px 10px;text-align:center;text-transform:uppercase}
 #sub-offerta-nav ul li.active, #menu-tematiche .current_page_item{background:#666;color:#fff}
 #sub-offerta-nav a{color:#3b3b3b;text-decoration:none}
 #sub-offerta-nav ul li.active a, #menu-tematiche .current_page_item a{color:#fff}
-.footer{background:none repeat scroll 0 0 #f7f7f7;padding:40px 0;font-family:"ITC Officina Sans W01"}
+.footer{background:none repeat scroll 0 0 #f7f7f7;padding:40px 0;font-family:'Luiss Sans', Arial, Helvetica, sans-serif}
 .footer p{color:#222;font-size:16px}
 .footer .footer h2{color:#222;font-weight:700}
-.footer .headline{display:block;margin:10px 0 25px;font-size:20px;font-weight:700;font-family:"ITC Officina Sans W01";text-transform:uppercase}
+.footer .headline{display:block;margin:10px 0 25px;font-size:20px;font-weight:700;font-family:'Luiss Sans', Arial, Helvetica, sans-serif;text-transform:uppercase}
 .list-unstyled{list-style:outside none none;padding-left:0}
 .footer .link-list li{display:block;text-decoration:none;color:#3c3c3c;font-size:13px;font-weight:700;padding:2px;text-transform:uppercase}
 .footer address, .footer .link-list a, .footer .link-list i{color:#3C3C3C}
@@ -988,7 +1118,7 @@ address{font-style:normal;line-height:1.42857;margin-bottom:20px;height:auto;fon
 .link-conf{background:url(img/confindustria.png) no-repeat center center;display:block;width:120px;height:64px;text-indent:-9999px;margin-top:80px}
 .md-margin-bottom-40{margin-bottom:40px}
 .link-h2{color:#3c3c3c;text-decoration:none}
-.link-h2:hover{color:#FDBB4D;text-decoration:none}
+.link-h2:hover{color:#CC8A00;text-decoration:none}
 table{width:100%}
 table{background:none repeat scroll 0 0 #fff;margin-bottom:19px;table-layout:auto}
 table caption{background:none repeat scroll 0 0 transparent;color:#222;font-size:18px;font-weight:700}
@@ -1024,7 +1154,7 @@ footer .fa{padding:5px}
 .events-compact-list h4, .events-compact-list p{padding-left:0}
 .event-list-item p{margin:0;font-size:18px}
 .events-compact-list .event-list-thumb{margin-bottom:10px;margin-top:5px}
-.event-date{display:block;float:left;margin-right:20px;padding:8px;color:#fff;width:80px;text-align:center;font-family:"ITC Officina Sans W01", "Georgia", "Times New Roman", serif;margin-bottom:20px}
+.event-date{display:block;float:left;margin-right:20px;padding:8px;color:#fff;width:80px;text-align:center;font-family: 'Luiss Serif', Georgia, 'Times New Roman', serif;margin-bottom:20px}
 .event-preview{width:calc(100% - 120px)}
 .event-time{margin-top:5px}
 .event-date .day{font-size:34px;line-height:34px;display:block;position:relative}
@@ -1053,7 +1183,7 @@ footer .fa{padding:5px}
 .body-section h2{text-transform:uppercase;color:#3c3c3c;cursor:pointer;display:block;font-family:'Oswald', sans-serif}
 .body-section a{color:#CC8A00}
 .body-section h3{color:#3c3c3c;cursor:pointer;display:block;font-family:'Oswald', sans-serif;font-size:25px;text-transform:uppercase}
-.body-section p{color:#3c3c3c;display:block;font-size:18px;font-family:"ITC Officina Sans W01"}
+.body-section p{color:#3c3c3c;display:block;font-size:18px;font-family:'Luiss Sans', Arial, Helvetica, sans-serif}
 .body-section p.h2{font-size:36px;font-weight:700;font-family:'Oswald', sans-serif}
 .body-section article{overflow:hidden;position:relative;margin-bottom:20px}
 .feature{padding:0;position:relative}
@@ -1086,7 +1216,7 @@ footer .fa{padding:5px}
 .menu-master-container{margin:40px 0;background:#3C3C3C;display:block;width:100%;min-height:52px}
 .menu-master{list-style:none;margin:0;padding:0;display:block;width:100%;position:relative}
 .menu-master:after{content:" ";display:table}
-.menu-master li{display:inline-block;float:left;font-family:"ITC Officina Sans W01";font-size:14px;font-weight:400;text-transform:uppercase}
+.menu-master li{display:inline-block;float:left;font-family:'Luiss Sans', Arial, Helvetica, sans-serif;font-size:14px;font-weight:400;text-transform:uppercase}
 .menu-master li a{color:#fff;padding:13px 18px;display:block}
 .menu-master li a:hover{color:#fff;padding:13px 18px;display:block;background-color:#6E6E6E}
 .menu-master li.current-menu-item a{background-color:#FCBA4B}
@@ -1105,7 +1235,7 @@ aside.sidebar-master .block{display:table;width:100%;padding:0 10px}
 .menu-master-container{margin:40px 0px;background:#3C3C3C;width:100%;min-height:52px;}
 .menu-master{list-style:none;margin:0;padding:0;display:block;width:100%;position:relative;}
 .menu-master:after{content:" ";display:table;}
-.menu-master li{font-family:"ITC Officina Sans W01";font-size:14px;font-weight:400;text-transform:uppercase;}
+.menu-master li{font-family:'Luiss Sans', Arial, Helvetica, sans-serif;font-size:14px;font-weight:400;text-transform:uppercase;}
 .menu-master li a{color:#fff!important;padding:15px 18px 12px 18px;line-height:25px;}
 .menu-master li a:hover{color:#fff!important;display:block;background-color:#6E6E6E!important;}
 .menu-master li.current-menu-item a{background-color:#FCBA4B;}
@@ -1237,9 +1367,6 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
 	color: #fff;
 	}
 	
-/*    */
-
-
 .carousel-inner{background:#fff;}
 .slide-text{color:#fff;padding:50px 30px;}
 .slide-text h3{font-family:"Droid Sans Mono W01", courier, monospace;text-transform:uppercase;color:#fff;text-align:center;position:relative;margin-bottom:30px;}
@@ -1279,18 +1406,20 @@ body.home .lang_selector a{color:#fff}
     line-height: 4.5rem;
     text-shadow: 0px 0px 50px rgba(0, 58, 112, 0.9);
     color: #fff;
-    padding: 0;}
+    padding: 0 0 16px 0;}
 .centre h2{
     font-size: 48px;
     line-height: 52px;
     color: #fff;}
 .centre h3{display:inline-block;font-size:34px;margin-bottom:35px;margin-top:10px;position:relative}
 .centre h3::after{background-color:#CC8A00;bottom:-15px;content:"";height:2px;left:0;position:absolute;width:40px;z-index:0}
+
+/*
 #sidebar-menu-lab{background:rgba(10,10,10,0.5) none repeat scroll 0 0;font-size:14px;margin:-530px 0 100px;padding-top:0;position:relative}
 #sidebar-menu-lab h2{font-size:26px;font-weight:700;line-height:26px}
 #sidebar-menu-lab h2 a{text-decoration:none;border:0;color:#3c3c3c}
-#sidebar-menu-centro{background-color:#FDBB4D;font-size:14px;margin:-530px 0 100px;padding-top:0;position:relative}
-@media only screen and (max-width:767px){#sidebar-menu-centro{background-color:#FDBB4D;font-size:14px;margin:20px 0;padding-top:20px;position:relative}
+#sidebar-menu-centro{background-color:#CC8A00;font-size:14px;margin:-530px 0 100px;padding-top:0;position:relative}
+@media only screen and (max-width:767px){#sidebar-menu-centro{background-color:#CC8A00;font-size:14px;margin:20px 0;padding-top:20px;position:relative}
 aside#sidebar{margin:10px 0;padding-top:0px;}
 }
 .menu-perche-luiss-business-school-container ul{list-style-type:none;margin-left:0;line-height:2.5}
@@ -1340,7 +1469,6 @@ aside#sidebar{margin:10px 0;padding-top:0px;}
 .menu-useful-information-container ul li a{border-bottom:1px solid #2a2a2a;color:#2a2a2a;display:block;font-size:16px;font-weight:500;line-height:18px;padding:12px 0}
 .menu-useful-information-container ul li.current-menu-item{padding-left:0;padding-right:0}
 .menu-useful-information ul li.current-menu-item a{color:#CC8A00;background:rgba(0,0,0,0.8);padding-left:16px;padding-right:16px;border-bottom:none}
-.centre-caption-info{bottom:128px;position:absolute;}
 .menu-project-organising-container ul{list-style-type:none;margin-left:0;line-height:2.5}
 .menu-project-organising-container ul li a{border-bottom-color:#fff;border-bottom-style:solid;border-bottom-width:2px;color:#fff;display:block;font-weight:700;line-height:25px;font-size:18px;padding:15px 0}
 .menu-project-organising-container ul{list-style-type:none;margin-left:0;line-height:2.5}
@@ -1385,14 +1513,9 @@ aside#sidebar{margin:10px 0;padding-top:0px;}
 .menu-public-administration-container ul li a{border-bottom-color:#fff;border-bottom-style:solid;border-bottom-width:2px;color:#fff;display:block;font-weight:700;line-height:25px;font-size:18px;padding:15px 0}
 .menu-public-administration-container ul{list-style-type:none;margin-left:0;line-height:2.5}
 .menu-public-administration-container ul li a{border-bottom:1px solid #CC8A00;color:#fff;display:block;font-size:18px;font-weight:700;line-height:20px;padding:12px 0}
-.menu-public-administration-container ul li.current-menu-item{margin-left:-16px;margin-right:-16px;padding-left:0;padding-right:0}
-.menu-public-administration-container ul li.current-menu-item a{color:#CC8A00;background:rgba(0,0,0,0.8);padding-left:16px;padding-right:16px;border-bottom:none}
+.menu-public-administration-container ul li.current-menu-item a{color:#CC8A00 !important;background:transparent;padding-left:16px;padding-right:16px;border-bottom:none}
 .menu-public-administration-container .sub-menu{display:none}
 .menu-public-administration-container ul li.current-menu-item .sub-menu, .menu-public-administration-container ul li.current-page-ancestor .sub-menu{display:block;margin:0 16px 5px}
-.menu-public-administration-container .sub-menu a{padding:5px 10px;font-size:16px;line-height:20px;color:#fff!important;border-bottom:1px solid rgba(100,100,100,0.8);display:block;font-weight:400}
-
-
-
 .menu-big-data-cita-container ul{list-style-type:none;margin-left:0;line-height:2.5}
 .menu-big-data-cita-container ul li a{border-bottom-color:#fff;border-bottom-style:solid;border-bottom-width:2px;color:#fff;display:block;font-weight:700;line-height:25px;font-size:18px;padding:15px 0}
 .menu-big-data-cita-container ul{list-style-type:none;margin-left:0;line-height:2.5}
@@ -1438,7 +1561,7 @@ aside#sidebar{margin:10px 0;padding-top:0px;}
 .menu-ethos-container ul li.current-menu-item .sub-menu, .menu-ethos-container ul li.current-page-ancestor .sub-menu{display:block;margin:0 16px 5px}
 .menu-ethos-container .sub-menu a{padding:5px 10px;font-size:16px;line-height:20px;color:#fff!important;border-bottom:1px solid rgba(100,100,100,0.8);display:block;font-weight:400}
 
-
+*/
 
 /*
 .menu-segreteria-studenti-container ul{list-style-type:none;margin-left:0;line-height:2.5}
@@ -1475,7 +1598,7 @@ aside#sidebar{margin:10px 0;padding-top:0px;}
 
 
 #sidebar-menu-segreteria {
-    background-color: #FDBB4D;
+    background-color: #CC8A00;
     font-size: 14px;
     margin: -530px 0 100px;
     padding-top: 0;
@@ -1484,7 +1607,7 @@ aside#sidebar{margin:10px 0;padding-top:0px;}
 
 
 
-
+/*
 .menu-roma-container ul{list-style-type:none;margin-left:0;line-height:2.5}
 .menu-roma-container ul li a{border-bottom-color:#fff;border-bottom-style:solid;border-bottom-width:2px;color:#fff;display:block;font-weight:700;line-height:25px;font-size:18px;padding:15px 0}
 .menu-roma-container ul{list-style-type:none;margin-left:0;line-height:2.5}
@@ -1507,8 +1630,7 @@ aside#sidebar{margin:10px 0;padding-top:0px;}
 .menu-ceeris-ita-container ul li a{border-bottom-color:#fff;border-bottom-style:solid;border-bottom-width:2px;color:#fff;display:block;font-weight:700;line-height:25px;font-size:18px;padding:15px 0}
 .menu-ceeris-ita-container ul{list-style-type:none;margin-left:0;line-height:2.5}
 .menu-ceeris-ita-container ul li a{border-bottom:1px solid #CC8A00;color:#fff;display:block;font-size:18px;font-weight:700;line-height:20px;padding:12px 0}
-.menu-ceeris-ita-container ul li.current-menu-item{margin-left:-16px;margin-right:-16px;padding-left:0;padding-right:0}
-.menu-ceeris-ita-container ul li.current-menu-item a{color:#CC8A00;background:rgba(0,0,0,0.8);padding-left:16px;padding-right:16px;border-bottom:none}
+.menu-ceeris-ita-container ul li.current-menu-item a{color:#CC8A00 !important;background:transparent;border-bottom:none}
 .menu-ceeris-ita-container .sub-menu{display:none}
 .mmenu-ceeris-ita-container ul li.current-menu-item .sub-menu, .menu-ceeris-ita-container ul li.current-page-ancestor .sub-menu{display:block;margin:0 16px 5px}
 .menu-ceeris-ita-container .sub-menu a{padding:5px 10px;font-size:16px;line-height:20px;color:#fff!important;border-bottom:1px solid rgba(100,100,100,0.8);display:block;font-weight:400}
@@ -1525,14 +1647,16 @@ aside#sidebar{margin:10px 0;padding-top:0px;}
 .menu-executive-compensation-container ul li a{border-bottom-color:#fff;border-bottom-style:solid;border-bottom-width:2px;color:#fff;display:block;font-weight:700;line-height:25px;font-size:18px;padding:15px 0}
 .menu-executive-compensation-container ul{list-style-type:none;margin-left:0;line-height:2.5}
 .menu-executive-compensation-container ul li a{border-bottom:1px solid #CC8A00;color:#fff;display:block;font-size:18px;font-weight:700;line-height:20px;padding:12px 0}
-.menu-executive-compensation-container ul li.current-menu-item{margin-left:-16px;margin-right:-16px;padding-left:0;padding-right:0}
-.menu-executive-compensation-container ul li.current-menu-item a{color:#CC8A00;background:rgba(0,0,0,0.8);padding-left:16px;padding-right:16px;border-bottom:none}
+.menu-executive-compensation-container ul li.current-menu-item a{color:#CC8A00 !important;background:transparent;border-bottom:none}
 .menu-executive-compensation-container .sub-menu{display:none}
 .menu-executive-compensation-container ul li.current-menu-item .sub-menu, .menu-executive-compensation-container ul li.current-page-ancestor .sub-menu{display:block;margin:0 16px 5px}
 .menu-executive-compensation-container .sub-menu a{padding:5px 10px;font-size:16px;line-height:20px;color:#fff!important;border-bottom:1px solid rgba(100,100,100,0.8);display:block;font-weight:400}
 .menu-item-language a{font-weight:400!important;background-color:#eee!important}
 li.menu-item-language-current a{font-weight:700!important;padding:0!important;margin-left:10px!important}
 @media only screen and (max-width:1024px){#sidebar-menu-lab{margin:0;padding-top:10px;font-size:14px;color:#ddd;position:relative}
+*/
+@media only screen and (max-width:1024px){
+.centre-caption-info{bottom:128px;position:absolute;}
 .centre h1{font-family: 'Luiss Serif' !important;
     font-weight: 400;
     font-size: 2.5rem;
@@ -1561,21 +1685,21 @@ main.site-master h2{font-size:20px;}
 .menu-master-toggle-container .icon-bar{display:block;width:32px;height:2px;background-color:#fff;border-radius:1px;margin:4px auto;}
 .menu-master-toggle-container .navbar-toggle{display:inline-block;float:none;width:auto;cursor:pointer;margin:0 auto;text-align:center;border:none;}
 }
-section > .wide-row h2{color:#3C3C3C;font-size:35px;font-weight:700;text-transform:uppercase;font-family:"Luiss sans"}
+section > .wide-row h2{color:#3C3C3C;font-size:35px;font-weight:700;text-transform:uppercase;font-family:"Luiss Sans"}
 .section-black{background:none repeat scroll 0 0 #3c3c3c;display:block;padding:20px 0;position:relative}
 .section-black .item{border-left:1px solid #313131;color:#fff;line-height:1.1;height:133px;background:none repeat scroll 0 0 #3c3c3c}
 .section-black .item a{text-decoration:none}
 .section-black .active{background-color:#ebebeb}
 .section-black .item-desc{font-family:"ITC Officina Serif W01";color:#fff;font-size:14px;font-style:italic;padding:5px;text-transform:none;word-wrap:break-word;display:block}
-.section-black .headline{padding:5px;color:#fff;font-size:16px;text-transform:uppercase;font-family:"ITC Officina Sans W01"}
+.section-black .headline{padding:5px;color:#fff;font-size:16px;text-transform:uppercase;font-family:'Luiss Sans', Arial, Helvetica, sans-serif}
 .section-black .headline a{display:block;height:100%;padding:30px 10px;text-align:center;width:100%;color:#fff}
-.section-grey{background:none repeat scroll 0 0 #f7f7f7;display:block;font-family:"ITC Officina Sans W01";padding:20px 0}
-.section-grey h3{font-family:'ITC Officina Sans W01', Georgia, 'Times New Roman', serif;font-size:26px;font-weight:700}
+.section-grey{background:none repeat scroll 0 0 #f7f7f7;display:block;font-family:'Luiss Sans', Arial, Helvetica, sans-serif;padding:20px 0}
+.section-grey h3{font-family:'Luiss Serif',  Georgia, 'Times New Roman', serif;font-size:26px;font-weight:70}
 .section-grey .title{text-align:center;margin-bottom:30px;margin-top:30px;font-weight:700;font-size:26px;text-transform:uppercase}
 .section-grey .item{color:#3c3c3c;line-height:1.1}
-.section-grey .item-desc{color:#3c3c3c;font-size:12px;font-style:italic;text-align:center;padding:5px;text-transform:none;word-wrap:break-word;display:block;color:#a8a8a8;font-family:"ITC Officina Sans W01"}
+.section-grey .item-desc{color:#3c3c3c;font-size:12px;font-style:italic;text-align:center;padding:5px;text-transform:none;word-wrap:break-word;display:block;color:#a8a8a8;font-family:'Luiss Sans', Arial, Helvetica, sans-serif}
 .section-grey img{text-align:center;background-repeat:no-repeat;background-position:center center;display:block}
-.section-grey .headline{display:block;height:100%;padding:5px;color:#fff;font-size:14px;word-wrap:break-word;font-family:"ITC Officina Sans W01";text-transform:uppercase;font-weight:300}
+.section-grey .headline{display:block;height:100%;padding:5px;color:#fff;font-size:14px;word-wrap:break-word;font-family:'Luiss Sans', Arial, Helvetica, sans-serif;text-transform:uppercase;font-weight:300}
 .section-grey .headline a{display:block;height:100%;padding:30px 10px;text-align:center;width:100%;color:#5a5a5a}
 .featurette-divider{margin:30px 0}
 .faq{background-color:#fdbb4d;padding-top:10px}
@@ -1606,7 +1730,7 @@ a.arr::after, a.button.arr::after{content:"";font-family:"FontAwesome";margin-le
 .accordion.accordion-bordered .accordion-toggle.collapsed:hover{background-color:transparent;color:#fdbb4d}
 .accordion.accordion-bordered .panel{-webkit-box-shadow:none;border-color:transparent;box-shadow:none}
 .accordion.accordion-bordered .panel .panel-body{border-color:transparent}
-.tagline{z-index:100;position:absolute;color:#fff;font-weight:700;text-align:center;width:auto;background-color:#CC8A00;padding:10px 20px;font-family:"ITC Officina Sans W01";font-size:23px;text-transform:uppercase;margin-top:0}
+.tagline{z-index:100;position:absolute;color:#fff;font-weight:700;text-align:center;width:auto;background-color:#CC8A00;padding:10px 20px;font-family:'Luiss Sans', Arial, Helvetica, sans-serif;font-size:24px;text-transform:uppercase;margin-top:0}
 .panel{background:none repeat scroll 0 0 #f2f2f2;border-color:#d8d8d8;border-style:solid;border-width:0;margin-bottom:22px;padding:22px}
 .cards item{height:220px}
 .cards .items .columns{padding:0}
@@ -1619,13 +1743,24 @@ a.arr::after, a.button.arr::after{content:"";font-family:"FontAwesome";margin-le
 .cards .items .columns{padding:0}
 .cards .more{margin-top:10px}
 .cards .headline{padding-top:22px;font-size:18px}
-.cards .nome{font-family:"ITC Officina Serif W01", "Georgia", "Times New Roman", serif;font-size:18px;padding-top:22px}
-.docente-features{font-family:"ITC Officina Serif W01", "Georgia", "Times New Roman", serif;font-size:14px;color:#000;display:block}
-.cards .address{padding-top:10px;font-family:"ITC Officina Sans W01";font-size:12px;color:#a8a8a8;font-style:italic}
-.cards .wide-row, .drawers .wide-row, .numbers .wide-row{background:#EBEBEB;padding:20px 0}
+.cards .nome{font-family:'Luiss Sans', Arial, Helvetica, sans-serif;font-size:18px;padding-top:22px}
+.docente-features{font-family: 'Luiss Sans', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    display: block;
+    list-style: none;
+    margin-left: 0;
+    line-height: 22px;
+    font-weight: normal;}
+ul.docente-features li:first-child {
+    font-weight: bold;}
+.cards .address{padding-top:10px;font-family:'Luiss Sans', Arial, Helvetica, sans-serif;font-size:12px;color:#a8a8a8;font-style:italic}
+.cards .wide-row, .drawers .wide-row, .numbers .wide-row{background:#E8e8e8;padding:20px 0}
 .cards .more{margin-top:16px}
 .cards .button.more{background:none repeat scroll 0 0 rgba(0,0,0,0);border:1px solid #a8a8a8;color:#3c3c3c;text-transform:uppercase;text-decoration:none}
-.cards article{overflow:hidden;position:relative}
+.cards article{overflow: hidden;
+    position: relative;
+    border: 1px solid #e8e8e8;
+    margin: 8px;}
 .cards article a{color:#3c3c3c}
 .cards .text{padding-left:17px;padding-right:17px}
 .cards .titolo-corso{font-size:21px}
@@ -1643,8 +1778,8 @@ a.arr::after, a.button.arr::after{content:"";font-family:"FontAwesome";margin-le
 .stories-cards .medium article .headline{display:table-cell;height:240px;padding:0;vertical-align:middle}
 .stories-cards .medium img{width:240px;height:auto}
 .stories-cards article p, .faculty-cards article p{font-size:15px;line-height:1.6}
-.faculty-cards article .text{background:#fdbb4d;bottom:0;min-height:50%;position:absolute;right:0;width:calc(75% - 100px);height:241px}
-.faculty-cards article .text:before{border-color:transparent #fdbb4d transparent transparent;border-style:solid;border-width:16px;content:"";left:0;position:absolute;top:50%;transform:translateY(-50%) translateX(-100%);width:50%}
+.faculty-cards article .text{background:#f7f9fa;bottom:0;min-height:50%;position:absolute;right:0;width:calc(75% - 100px);height:241px}
+/*.faculty-cards article .text:before{border-color:transparent #fdbb4d transparent transparent;border-style:solid;border-width:16px;content:"";left:0;position:absolute;top:50%;transform:translateY(-50%) translateX(-100%);width:50%}*/
 .faculty-cards article h2, .faculty-cards article a{color:#fff;text-decoration:none}
 .az-chapter{clear:both}
 .highlight{background:#ff0}
@@ -1662,8 +1797,8 @@ a.arr::after, a.button.arr::after{content:"";font-family:"FontAwesome";margin-le
 .courses-cards hr.grey{border-color:#999}
 .courses-cards hr.part_time{border-color:#fdba4d}
 .courses-cards hr.short_course{border-color:#999}
-.courses-cards .course-english{background:#fdba4d;color:#FFF;font-family:'ITC Officina Sans W01', Georgia, 'Times New Roman', serif;font-size:14px;padding:4px;text-transform:uppercase}
-.courses-cards .course-type{color:#222;font-family:'ITC Officina Sans W01', Georgia, 'Times New Roman', serif;font-size:14px;padding:5px;text-transform:uppercase;display:block}
+.courses-cards .course-english{background:#fdba4d;color:#FFF;font-family:'Luiss Sans',  Arial, Helvetica, sans-serif;font-size:14px;padding:4px;text-transform:uppercase}
+.courses-cards .course-type{color:#222;font-family:'Luiss Sans',  Arial, Helvetica, sans-serif;font-size:14px;padding:5px;text-transform:uppercase;display:block}
 .courses-cards .course-start-date{color:#222;font-family:'Droid Sans Mono W01', courier, monospace;font-size:14px;padding:2px;display:block}
 .courses-cards dl{margin:0;padding:0}
 .courses-cards dt{font-size:18px;font-weight:700;margin-top:5px}
@@ -1671,16 +1806,16 @@ a.arr::after, a.button.arr::after{content:"";font-family:"FontAwesome";margin-le
 .iframe-rwd{position:relative;padding-bottom:40%;padding-top:30px;height:0;overflow:hidden}
 .iframe-rwd iframe{position:absolute;top:0;left:0;width:100%;height:100%}
 .ricerca-col .row{background:none repeat scroll 0 0 #CC8A00}
-.ricerca-col h2{color:#202020;font-family:"ITC Officina Serif W01", "Georgia", "Times New Roman", serif;margin-top:20px;text-transform:uppercase}
+.ricerca-col h2{color:#202020;font-family:'Luiss Sans', Arial, Helvetica, sans-serif;margin-top:20px;text-transform:uppercase}
 .ricerca-col{background:none repeat scroll 0 0 #CC8A00;margin-bottom:40px;padding-top:10px}
-.ricerca-col label{color:#202020;font-family:"ITC Officina Serif W01", "Georgia", "Times New Roman", serif;font-size:22px;padding-bottom:10px}
-aside#sidebar{background:#3c3c3c;margin:-62px 0 20px;padding-top:40px;font-size:14px;color:#ddd;position:relative}
-aside#sidebar a{color:#fff;font-family:"ITC Officina Serif W01", "Georgia", "Times New Roman", serif}
-aside#sidebar a.button{font-family:"ITC Officina Sans W01", "Georgia", "Times New Roman", serif;font-weight:700;width:100%;color:#202020;text-decoration:none}
+.ricerca-col label{color:#202020;font-family:'Luiss Sans', Arial, Helvetica, sans-serif;font-size:22px;padding-bottom:10px}
+aside#sidebar{background:#3c3c3c;padding-top:40px;font-size:16px;line-height:22px;color:#ddd;position:relative}
+aside#sidebar a{color:#fff;font-family:'Luiss Sans', Arial, Helvetica, sans-serif;}
+aside#sidebar a.button{font-family: 'Luiss Sans', Arial, Helvetica, sans-serif;font-weight:700;width:100%;color:#202020;text-decoration:none}
 aside#sidebar .block{margin:0;padding:0}
 aside#sidebar .block .content{margin:22px auto}
-aside#sidebar h2{color:#fff;font-weight:700;font-size:16px;text-transform:uppercase;margin:0;padding-bottom:20px;font-family:"ITC Officina Sans W01", "Georgia", "Times New Roman", serif}
-aside#sidebar .block a h5, aside#sidebar .block h5 a{color:#fff;font-size:19px;font-family:"ITC Officina Serif W01", "Georgia", "Times New Roman", serif}
+aside#sidebar h2{color:#fff;font-weight:700;font-size:24px;margin:0;padding-bottom:20px;font-family: 'Luiss Serif', Georgia, 'Times New Roman', serif}
+aside#sidebar .block a h5, aside#sidebar .block h5 a{color:#fff;font-size:24px;line-height:28px;font-family:'Luiss Sans', Arial, Helvetica, sans-serif;}
 aside#sidebar .block{border-bottom:1px #000 solid}
 aside#sidebar .block .content ul{list-style:outside none none;margin-bottom:5px;padding:0}
 aside#sidebar .block .content ul li{padding:0}
@@ -1690,10 +1825,10 @@ aside#sidebar .block .content .number ul li{font-family:"Droid Sans Mono W01", "
 aside#sidebar .block .content .number p{font-family:"Droid Sans Mono W01", "courier", monospace;font-size:30px;padding-top:5px;padding-left:0;list-style:outside none none;color:#fdbb4d}
 aside#sidebar .block .content ul li:before{font-family:FontAwesome;display:inline-block;content:"\f105";color:#fff;margin:auto 3px 3px 5px;font-size:12px;vertical-align:middle}
 aside#sidebar .block .content ul li a{font-size:18px;font-weight:700}
-aside#sidebar .block .content h3{font-family:"ITC Officina Sans W01", "Georgia", "Times New Roman", serif;font-size:19px;text-transform:uppercase;color:#FFF;font-weight:400}
+aside#sidebar .block .content h3{font-family: 'Luiss Serif', Georgia, 'Times New Roman', serif;font-size:19px;text-transform:uppercase;color:#FFF;font-weight:400}
 aside#sidebar .block .article, aside#sidebar .block .views-row{margin-bottom:36px}
 aside#sidebar .block .date{display:inline-block;margin-bottom:9px}
-aside#sidebar .block .desc, aside#sidebar .block p{font-size:16px;font-style:italic;font-family:"ITC Officina Sans W01", "Georgia", "Times New Roman", serif;text-transform:none;padding-top:4px;color:#ccc;line-height:1.1}
+aside#sidebar .block .desc, aside#sidebar .block p{font-size:16px;font-style:normal;font-family: 'Luiss Sans', Arial, Helvetica, sans-serif;text-transform:none;color:#ccc;line-height:22px;}
 .widget_text{list-style-type:none;margin-top:20px}
 #main .accordion.accordion-bordered .accordion-toggle.collapsed{color:#3C3C3C}
 #main .accordion.accordion-bordered .accordion-toggle.collapsed p{font-size:18px}
@@ -1771,9 +1906,6 @@ display: none;
 /* Aggiunti tempalte 2018 */
 
 
-
-
-
 .events-cards .panel{border-color:#333;border-radius:0;text-align:left}
 .events-cards article{margin:20px 0}
 .events-cards article time{font-size:14px;display:block;padding-top:50px;font-family:'Droid Sans Mono W01', courier, monospace;font-weight:400}
@@ -1801,7 +1933,7 @@ display: none;
 .drawers .panel:nth-child(3) article{background:rgba(254,184,72,0.6)}
 .drawers .panel:nth-child(4) article{background:rgba(254,184,72,0.4)}
 .drawers .text{padding-right:16px;padding-left:16px}
-.drawers .headline{padding-top:59px;font-family:"ITC Officina Sans W01";color:#fff}
+.drawers .headline{padding-top:59px;font-family:'Luiss Sans', Arial, Helvetica, sans-serif;color:#fff}
 .drawers a{color:#fff;line-height:inherit;text-decoration:none}
 .drawers .description{position:absolute;top:0;left:0;color:#fff;z-index:10;background:#3c3c3c;height:100%;padding:1.333rem;-webkit-transform:translateY(600px);transform:translateY(600px)}
 .drawers .description p{color:#fff}
@@ -2071,6 +2203,166 @@ body.theme-blue .sub-menu li a {
     
 }
 
+/* COLORI */
+
+.color__dark_grey {
+  color: #3c3c3c !important;
+}
+
+.color__grey {
+  color: #a1a1a1 !important;
+}
+
+.color__light_grey {
+  color: #e8e8e8 !important;
+}
+
+.color__superlight_grey {
+  color: #f8f8f8 !important;
+}
+
+.color__white {
+  color: #ffffff !important;
+}
+
+.color__blue {
+  color: #003a70 !important;
+}
+
+.color__light_blue {
+  color: #0077c8 !important;
+}
+
+.color__green {
+  color: #00968f !important;
+}
+
+.color__red {
+  color: #d50032 !important;
+}
+
+.color__orange {
+  color: #d45d00 !important;
+}
+
+.color__gold {
+  color: #cc8a00 !important;
+}
+
+.bg__dark_grey {
+  background-color: #3c3c3c !important;
+}
+
+.bg__grey {
+  background-color: #a1a1a1 !important;
+}
+
+.bg__light_grey {
+  background-color: #e8e8e8 !important;
+}
+
+.bg__superlight_grey {
+  background-color: #f8f8f8 !important;
+}
+
+.bg__white {
+  background-color: #ffffff !important;
+}
+
+.bg__blue {
+  background-color: #003a70 !important;
+}
+
+.bg__light_blue {
+  background-color: #0077c8 !important;
+}
+
+.bg__green {
+  background-color: #00968f !important;
+}
+
+.bg__red {
+  background-color: #d50032 !important;
+}
+
+.bg__orange {
+  background-color: #d45d00 !important;
+}
+
+.bg__gold {
+  background-color: #cc8a00 !important;
+}
+
+.bg__gradient_blue {
+  background-color: linear-gradient(
+    225deg,
+    rgba(0, 58, 112, 0) 0%,
+    rgba(0, 58, 112, 0.5) 39%,
+    #003a70 89%,
+    #003a70 100%
+  ) !important;
+}
+
+.bg__gradient_light_blue {
+  background-color: linear-gradient(
+    225deg,
+    rgba(0, 119, 200, 0) 0%,
+    rgba(0, 119, 200, 0.5) 38%,
+    #0077c8 89%,
+    #0077c8 100%
+  ) !important;
+}
+
+.bg__gradient_green {
+  background-color: linear-gradient(
+    225deg,
+    rgba(0, 150, 143, 0) 0%,
+    rgba(0, 106, 128, 0.5) 39%,
+    #008f8d 89%,
+    var(--current-color) 100%
+  ) !important;
+}
+
+.bg__gradient_red {
+  background-color: linear-gradient(
+    225deg,
+    rgba(157, 34, 53, 0) 0%,
+    rgba(157, 34, 53, 0.5) 39%,
+    #9d2235 87%,
+    #9d2235 100%
+  ) !important;
+}
+
+.bg__gradient_orange {
+  background-color: linear-gradient(
+    225deg,
+    rgba(212, 93, 0, 0) 0%,
+    rgba(212, 93, 0, 0.5) 39%,
+    #d45d00 89%,
+    #d45d00 100%
+  ) !important;
+}
+
+.bg__gradient_gold {
+  background-color: linear-gradient(
+    225deg,
+    rgba(204, 138, 0, 0) 0%,
+    rgba(204, 138, 0, 0.5) 39%,
+    #cc8a00 89%,
+    #cc8a00 100%
+  ) !important;
+}
+
+.bg__home_hero_desktop {
+  background-color: linear-gradient(
+    180deg,
+    rgba(0, 58, 112, 0.4) 0%,
+    rgba(0, 58, 112, 0) 54%,
+    rgba(0, 58, 112, 0.8) 100%
+  );
+}
+
+
 /* TEMPLATE CHI SIAMO INTERNA */
 
 #sidebar-menu {
@@ -2097,15 +2389,30 @@ body.theme-blue .sub-menu li a {
     line-height: 56px;
 }
 
+
+#sidebar-menu ul {
+    list-style: none;
+    margin: 0;
+}
+
+#sidebar-menu ul li,
+#sidebar-menu .sub-menu ul li {
+    border-bottom: 1px solid #e8e8e8;
+    padding: 16px 0;
+}
+
+#sidebar-menu ul li:last-child,
+#sidebar-menu .sub-menu ul li:last-child {
+    border-bottom: 0px;
+}
+
 #sidebar-menu ul li a,
 #sidebar-menu .sub-menu ul li a
 {
-    border-bottom: 1px solid #e8e8e8;
     font-size: 18px !important;
     font-family: inherit;
     font-weight: 700;
     line-height: 20px;
-    padding: 24px 0;
 }
 
 #sidebar-menu ul li a:hover,
@@ -2114,14 +2421,14 @@ body.theme-blue .sub-menu li a {
    text-decoration:underline;
 }
 
+#sidebar-menu ul li.current-menu-item a {
+    color:#CC8A00 !important;
+}
+
 #sidebar-menu .sub-menu {
     padding: 0px 5%;
     width: 105% !important;
     background-color: transparent;
-}
-
-.bg__gold {
-  background-color: #cc8a00 !important;
 }
 
 span.bg__gold {
@@ -2136,3 +2443,155 @@ span.bg__gold {
 }
         
 }
+
+/* TEMPLATE CHI SIAMO 2017 */
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Luiss Sans', sans-serif !important;
+  font-weight: normal;
+  color: #003a70;
+  line-height: 1.625rem;
+  font-size: 1.125rem;
+}
+
+p {
+  color: #003a70;
+  line-height: 1.625rem;
+  font-size: 1.125rem;
+}
+
+a.big,
+p.big {
+  font-size: calc(1.275rem + 0.3vw) !important;
+  line-height: 2rem !important;
+}
+
+@media (min-width: 1200px) {
+  a.big,
+  p.big {
+    font-size: 1.5rem !important;
+  }
+
+}
+
+a.small,
+p.small {
+  font-size: 1rem !important;
+  line-height: 1.5rem !important;
+}
+
+
+h5 {
+  font-family: 'Luiss Serif' !important;
+  font-weight: 400 !important;
+  font-size: calc(1.35rem + 1.2vw) !important;
+  line-height: 2.5rem !important;
+}
+
+@media (min-width: 1200px) {
+  h5 {
+    font-size: 2.25rem !important;
+  }
+}
+
+h6 {
+  font-weight: bold !important;
+  font-size: calc(1.3125rem + 0.75vw) !important;
+  line-height: 2.175rem !important;
+  font-family: 'Luiss Sans' !important;
+}
+
+@media (min-width: 1200px) {
+  h6 {
+    font-size: 1.875rem !important;
+  }
+}
+
+.box-cover-page {
+  min-height: 480px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: rgba(0, 58, 112, 0.6);
+  background-blend-mode: multiply;
+}
+
+.box-cover-subhome {
+  min-height: 480px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: rgba(0, 58, 112, 0.3);
+  background-blend-mode: multiply;
+}
+
+.button {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #ffffff;
+  line-height: 1.5rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  padding: 16px 32px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-weight: bold !important;
+  font-family: 'Luiss Sans';
+}
+
+.button.button__primary {
+  background: var(--current-color);
+  border: 1px solid transparent;
+}
+
+.button.button__primary:hover {
+  background: #ffffff;
+  border: 1px solid var(--current-color);
+  color: var(--current-color);
+  text-decoration: none;
+}
+
+.button.button__primary:focus {
+  -webkit-box-shadow: inset 0 0 10px 0 rgba(60, 60, 60, 0.2);
+  box-shadow: inset 0 0 10px 0 rgba(60, 60, 60, 0.2);
+}
+
+a.link-scale,
+a.link-scale:visited {
+    text-decoration: none;
+    transition: ease-in-out .3s;
+}
+
+a.link-scale:hover,
+a.link-scale:focus {
+    text-decoration: none;
+    transform:scale(1.1);
+    transition: ease-in-out .3s;
+}
+
+.accordion-card {
+        border: 1px solid #e8e8e8;
+        background-color: #fff;
+    }
+    
+    .accordion-card-header {
+        background-color: #F7F9FA;
+        border-bottom: 1px solid #e8e8e8;
+    }
+    
+    .accordion-card-header h6 {
+        font-size: 1.4rem !important;
+        line-height: 1.8rem !important;
+    }
+    

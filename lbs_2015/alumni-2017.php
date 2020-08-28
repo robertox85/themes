@@ -164,7 +164,7 @@ $s++
 	
 	}?>
 							<div class="text">
-								<h3 class="headline">
+								<h3 class="color__gold pt-16 pb-4">
 									<?php echo $storia->post_title ?>
 								</h3>
 								<?php if (in_array($s, array(1,7))) {  ?>

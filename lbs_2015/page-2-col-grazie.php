@@ -2,8 +2,8 @@
 /*
 Template Name: Thank you page
 */
-
-get_header(2019); 
+wp_enqueue_style('Bootstrap_Styles','https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css');
+get_header(2017); 
 ?>
 <header id="content-title" class="wide-row">
   <div class="container">
@@ -26,18 +26,18 @@ get_header(2019);
          <?php edit_post_link('<strong>Modifica Pagina</strong>', ''); ?>
         <?php endwhile; // end of the loop. ?>
       </div>
-    </main>
-    <aside id="sidebar" class="col-md-3 columns col-md-push-1 space col-xs-12">
+        <aside id="sidebar" class="col-md-3 columns col-md-push-1 space col-xs-12">
       <div  class="block">
         <div class="content row"> <?php echo do_shortcode('[ssba]'); ?> </div>
       </div>
     </aside>
+    </main>
   </div>
   <!--END .row --> 
 </div>
 <!--END .container -->
 <?php 
 
-get_footer(2018);
+get_footer(2017);
 
 ?>

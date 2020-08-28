@@ -19,7 +19,7 @@ Template Name: Corporate Immagini
 	$no_14 = get_field('immagine_14'); 
 	$no_15 = get_field('immagine_15'); 
 	$no_16 = get_field('immagine_16'); 
-
+wp_enqueue_style('Bootstrap_Styles','https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css');
 get_header(2017); 
 ?>
 

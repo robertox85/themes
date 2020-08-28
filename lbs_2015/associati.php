@@ -2,24 +2,25 @@
 /*
 Template Name: Associati
 */
+wp_enqueue_style('Bootstrap_Styles','https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css');
 get_header(2017); 
 ?>
 
 <header id="content-title" class="wide-row">
-  <div class="container">
-    <div class="row">
-      <h1 class="col-md-7"><?php echo the_title(); ?></h1>
+    <div class="container">
+        <div class="row">
+            <h1 class="col-md-7"><?php echo the_title(); ?></h1>
+        </div>
+        <!--END .row -->
     </div>
-    <!--END .row --> 
-  </div>
-  <!--END .container --> 
+    <!--END .container -->
 </header>
 
-    <main id="main" class="site-main faculty-cards cards" role="main">
-    
-    
-    
-        <?php 
+<main id="main" class="site-main faculty-cards cards" role="main">
+
+
+
+    <?php 
 		
 $docente = sanitize_GET_param($_GET['docente'])  ? sanitize_GET_param($_GET['docente']) : '';		
 		 
@@ -91,13 +92,13 @@ $docenti_list .= '</div> <!--END .container-->
 <div class="container">
   <div class="row">';
  }   
-$docenti_list .='<div class="col-lg-4 columns nopadding">
+$docenti_list .='<div class="col-md-6 col-xl-4 columns nopadding">
       <div class="medium">
         <article class="docente">
         <a href="'.get_permalink($docente->ID).'" title="'.$docente->post_title.'">'.get_the_post_thumbnail($docente->ID, 'thumbnail',$img_attr).'
 		<div class="text">
            
-            <h3 class="headline nome">'.$docente->post_title.'</h3>
+            <h3 class="color__gold pt-16 pb-4">'.$docente->post_title.'</h3>
          
              <ul class="docente-features">
             <li class="classificazione">'.get_post_meta($docente->ID, 'classificazione', true).'</li>
@@ -118,11 +119,11 @@ $docenti_list .='</div> <!--END .container-->
  
  ?>
 
- <div class="wide-row nav-alphabet">
-		<div class="container">
-		<nav class="row ">
- <ul>
- <?php foreach($letters as $letter )  { 
+    <div class="wide-row nav-alphabet">
+        <div class="container">
+            <nav class="row ">
+                <ul>
+                    <?php foreach($letters as $letter )  { 
  
  if (in_array($letter, $letters_active)) {
 	$class ='';
@@ -133,20 +134,22 @@ $docenti_list .='</div> <!--END .container-->
  }
  
  ?>
- <li <?php echo $class ?>><a href="<?php echo $link ?>" ><?php echo $letter ?></a></li>
- <?php  } ?>
- </ul>
- </nav> 
- </div> <!--END .container-->
-</div> <!--END .wide-row-->
+                    <li <?php echo $class ?>><a href="<?php echo $link ?>"><?php echo $letter ?></a></li>
+                    <?php  } ?>
+                </ul>
+            </nav>
+        </div>
+        <!--END .container-->
+    </div>
+    <!--END .wide-row-->
 
 
- 
-<?php  echo  $docenti_list;?>
 
-<?php } // END if ?>
-      
-   <?php } else {
+    <?php  echo  $docenti_list;?>
+
+    <?php } // END if ?>
+
+    <?php } else {
 	   
 	   //search results
 	  
@@ -188,17 +191,17 @@ foreach($docenti as $docente )  {
 $d++;	
 	 
 	 ?>
- 
 
 
 
 
-     
-<div class="col-lg-4 columns nopadding">
-      <div class="medium">
-        <article class="docente">
-        <a href="<?php echo get_permalink($docente->ID) ?>" title="<?php echo $docente->post_title ?>"> 
-        <?php 
+
+
+    <div class="col-lg-4 columns nopadding">
+        <div class="medium">
+            <article class="docente">
+                <a href="<?php echo get_permalink($docente->ID) ?>" title="<?php echo $docente->post_title ?>">
+                    <?php 
 	$img_attr = array(
 	'class'	=> "img-responsive",
 	'alt'	=> $docente->post_title,
@@ -206,37 +209,41 @@ $d++;
 	echo get_the_post_thumbnail($docente->ID, 'thumbnail',$img_attr);
 	
 	?>
-          <div class="text">
-           
-            <h3 class="headline"><?php echo $docente->post_title ?></h3>
-         
-           <ul class="docente-features">
-            <li class="insegnamento"><?php echo get_post_meta($docente->ID, 'insegnamento', true); ?></li>
-            <li class="classificazione"><?php echo get_post_meta($docente->ID, 'classificazione', true); ?></li>
-            <li class="email"><?php echo get_post_meta($docente->ID, 'email', true); ?></li>
-            </ul>
-           
-          </div>
-          </a> 
-          </article>
-      </div><!--END .medium-->
-    </div><!--END .col-lg-4 columns nopadding-->
+                    <div class="text">
 
- <?php } // END foreach ?>
-</div> <!--END .container-->
-</div> <!--END .row-->
-<?php } // END if ?> 
- <?php } // END if ($docente=='') {  ?>  
+                        <h3 class="color__gold pt-16 pb-4"><?php echo $docente->post_title ?></h3>
 
-    
-    
-      
-    </main>
-    <div id="menu-local" class="col-lg-2 col-sm-12 col-lg-pull-7">
-    
+                        <ul class="docente-features">
+                            <li class="insegnamento"><?php echo get_post_meta($docente->ID, 'insegnamento', true); ?></li>
+                            <li class="classificazione"><?php echo get_post_meta($docente->ID, 'classificazione', true); ?></li>
+                            <li class="email"><?php echo get_post_meta($docente->ID, 'email', true); ?></li>
+                        </ul>
+
+                    </div>
+                </a>
+            </article>
+        </div>
+        <!--END .medium-->
     </div>
-  </div>
-  <!--END .row --> 
+    <!--END .col-lg-4 columns nopadding-->
+
+    <?php } // END foreach ?>
+    </div>
+    <!--END .container-->
+    </div>
+    <!--END .row-->
+    <?php } // END if ?>
+    <?php } // END if ($docente=='') {  ?>
+
+
+
+
+</main>
+<div id="menu-local" class="col-lg-2 col-sm-12 col-lg-pull-7">
+
+</div>
+</div>
+<!--END .row -->
 </div>
 <!--END .container -->
 <?php get_footer(2017); ?>
