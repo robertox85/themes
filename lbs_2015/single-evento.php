@@ -115,6 +115,7 @@ if (!(empty($news))) {
   </div>
 </div>
 <!--END .row -->
+<p><?php edit_post_link('<strong>Modifica Evento</strong>', ''); ?></p>
 </div>
 <!--END .container -->
 

@@ -2,82 +2,63 @@
 /*
 Template Name: Info Utili interna
 */
+wp_enqueue_style('Bootstrap_Styles','https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css');
 get_header(2017);
 ?>
 <?php
 $titolo_centro       = array();
-$titolo_centro['it'] = ' Informazioni Utili';
+$titolo_centro['it'] = 'Informazioni Utili';
 $titolo_centro['en'] = 'Useful information';
+$contatti       = array();
+$contatti['it'] = 'Contatti';
+$contatti['en'] = 'Contact Information';
 ?>
 
-<div class="item-centre"><img src="<?php echo site_url() ?>/wp-content/uploads/2017/06/Campus_etc.jpg" alt="<?php
-the_title();
-?>" >
-  <div class="container">
-    <div class="centre-caption-info centre">
-      <h1><?php
-echo the_title();
-?></h1>
-      <h2> <?php
-echo $titolo_centro[ICL_LANGUAGE_CODE];
-?> </h2>
+<div class="item-centre box-cover-subhome" style="background-image:url(<?php echo site_url() ?>/wp-content/uploads/2017/06/Campus_etc.jpg)">
+    <div class="container">
+        <div class="row centre mt-128 pt-80">
+            <div class="col-md-12">
+            <h1><?php echo the_title(); ?></h1>
+            <h2><span class="bg__gold"><?php echo $titolo_centro[ICL_LANGUAGE_CODE];?></span></h2>
+            </div>
+        </div>
     </div>
-  </div>
 </div>
+
 <div class="container">
-  <div class="row">
-    <main id="main" class="site-main centre">
-      <div id="page-content" class="col-md-9 columns  space">
-        <?php
-while (have_posts()):
-    the_post();
-    $post_id = get_the_ID();
+    <div class="row">
+        <main id="main" class="site-main">
+            <div id="page-content" class="col-md-8">
+<?php
+while (have_posts()): the_post();
+$post_id = get_the_ID();
 ?>
-       <?php
-    the_content('');
-?>
-       
-       
-      
-        <?php
+<?php the_content(''); ?>
+
+<?php
 endwhile; // end of the loop. 
 ?>
-    
-    <p> <?php if (is_page("attivita-culturali-luiss")) { ?>
-          <?php get_template_part('attivitarss'); ?>
-          <?php } ?></p>
-    
-     <p> <?php
-    edit_post_link('<strong>Modifica Pagina</strong>', '');
-?></p>
-     </div>
-    </main>
-    <div id="sidebar-menu-centro" class="col-md-3 columns  space col-xs-12">
-      
-      
-      <?php
+
+<p><?php if (is_page("attivita-culturali-luiss")) { ?>
+<?php get_template_part('attivitarss'); ?>
+<?php } ?></p>
+
+            </div>
+            <div id="sidebar-menu" class="col-md-3 offset-md-1">
+                <?php
 $centro       = array();
-$centro['it'] = 'INFORMAZIONI UTILI';
-$centro['en'] = 'USEFUL INFORMATION';
-?>
- 
- 
-       <?php
+$centro['it'] = 'Informazioni utili';
+$centro['en'] = 'Useful Information';
+
 $link_centro       = array();
 $link_centro['it'] = '/agevolazioni-e-servizi/';
 $link_centro['en'] = '/en/service-facilities/';
 ?>
- 
- 
- <h2 ><a  class=" white-style" title="<?php
-echo $centro[ICL_LANGUAGE_CODE];
- ?>" href="<?php
-echo $link_centro[ICL_LANGUAGE_CODE];
-?>" ><?php
-echo $centro[ICL_LANGUAGE_CODE];
- ?> </a></h2>
-     
-      <?php
+
+                <a title="<?php echo $centro[ICL_LANGUAGE_CODE];?>" href="<?php echo $link_centro[ICL_LANGUAGE_CODE]; ?>">
+                <h5 class="color__gold mt-48"><?php echo $centro[ICL_LANGUAGE_CODE];?></h5>
+                </a>
+                <?php
 if (ICL_LANGUAGE_CODE == 'it'):
 ?> 
      
@@ -98,45 +79,22 @@ elseif (ICL_LANGUAGE_CODE == 'en'):
 ?>
  
  
-<?php
-endif;
-?> 
-   
-    
-    </div>
-    
-     <?php 
-		$contatti = array();
-		$contatti['it'] = 'Contatti';
-		$contatti['en'] = "Contact Information";
-?>
-    
-    
-    <aside id="sidebar" class="col-lg-3 col-sm-12 space">
-     
-      <div  class="block">
-        <div class="content row"> 
-         <h2><?php echo $contatti[ICL_LANGUAGE_CODE]; ?></h2>
-         
-			<p class="title"><strong>LUISS Business School</strong></p>
-         
-        <p> Villa Blanc,
-          Via Nomentana, 216 - 00162 Roma <br />
-          Roma, Italia <br />
-          Tel. +39 06 852251 <br />
+<?php endif; ?> 
 
-          Email: <a href="mailto:luissbs@luiss.it" class="">luissbs@luiss.it </a></p>
-          
-           
-             </div>
-      </div>
-      
-    
-    
-    
-    </aside>
-  </div>
-  <!--END .row --> 
+                <div class="">
+                    <h5 class="color__gold mt-48"><?php echo $contatti[ICL_LANGUAGE_CODE]; ?></h5>
+                    <p class="title"><strong>Luiss Business School</strong></p>
+                    <p> Villa Blanc,
+                        <br />Via Nomentana, 216 - 00162 Roma
+                        <br />Italia
+                        <br />Tel. +39 06 852251
+                        <br />Email: <a href="mailto:luissbs@luiss.it" class="">luissbs@luiss.it</a></p>
+                </div>
+            </div>
+        </main>
+    </div>
+    <!--END .row -->
+    <p><?php edit_post_link('<strong>Modifica Pagina</strong>', ''); ?></p>
 </div>
 <!--END .container -->
 <?php
@@ -144,4 +102,3 @@ endif;
 get_footer(2017);
 
 ?>
-

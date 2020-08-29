@@ -2,42 +2,45 @@
 /*
 Template Name: Custom Programmes Interna
 */
-get_header(2017); 
+wp_enqueue_style('Bootstrap_Styles','https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css');
+get_header(2017);
+?>
+<?php
+$titolo_centro       = array();
+$titolo_centro['it'] = 'Informazioni Utili';
+$titolo_centro['en'] = 'Useful information';
+$contatti       = array();
+$contatti['it'] = 'Contatti';
+$contatti['en'] = 'Contact Information';
 ?>
 
-
-
-<div class="item-centre"><img src="<?php echo site_url() ?>/wp-content/uploads/2017/06/ChiSiamo_Governance_Certificazioni.jpg" alt="<?php the_title()?>" >
-  <div class="container">
-    <div class="centre-caption centre">
-    <h1><?php echo the_title(); ?></h1>
-     
+<div class="item-centre box-cover-subhome" style="background-image:url(<?php echo site_url() ?>/wp-content/uploads/2017/06/ChiSiamo_Governance_Certificazioni.jpg)">
+    <div class="container">
+        <div class="row centre mt-128 pt-80">
+            <div class="col-md-8">
+            <h1><?php echo the_title(); ?></h1>
+            </div>
+        </div>
     </div>
-  </div>
 </div>
 
 <div class="container">
-  <div class="row">
-    <main id="main" class="site-main centre">
-      <div id="page-content" class="col-md-9 columns  space">
-       
-        <?php while ( have_posts() ) : the_post(); 
-		          $post_id = get_the_ID();?>
-              <?php the_content(''); ?>
-        
-              <p> <?php edit_post_link('<strong>Modifica Pagina</strong>', ''); ?></p>
-      
-        <?php endwhile; // end of the loop. ?>
+    <div class="row">
+        <main id="main" class="site-main">
+            <div id="page-content" class="col-md-8">
+<?php
+while (have_posts()): the_post();
+$post_id = get_the_ID();
+?>
+<?php the_content(''); ?>
 
-      </div>
+<?php
+endwhile; // end of the loop. 
+?>
 
-
-
-      <div id="sidebar-menu-centro" class="col-md-3 columns  space col-xs-12">
-     
- 
-     
-            <?php
+            </div>
+            <div id="sidebar-menu" class="col-md-3 offset-md-1">
+                <?php
           if (ICL_LANGUAGE_CODE == 'it'):
           ?> 
               
@@ -56,37 +59,35 @@ get_header(2017);
                   'menu' => 'Educational Portfolio'
               ));
           ?>
-          
-          
-          <?php
-          endif;
-          ?> 
-    </div>
-    <aside id="sidebar" class="col-lg-3 col-sm-12 space">
-     
-      <div  class="block">
-        <div class="content row"> 
-         <h2><?php echo $contatti[ICL_LANGUAGE_CODE]; ?></h2>
-         
-			<p class="title"><strong>LUISS Business School</strong></p>
-         
-        <p>Villa Blanc, Via Nomentana, 216 - 00162 Roma <br>
-          Roma, Italia <br>
-          Tel. +39 06 852251 <br>
-          Email: <a href="mailto:luissbs@luiss.it">luissbs@luiss.it</a></p>
-          
-           
-             </div>
-      </div>
  
-    </aside>
-    
-    </main>
-    
-  </div>
-  <!--END .row --> 
+<?php endif; ?> 
+
+                <div class="">
+                    <h5 class="color__gold mt-48"><?php echo $contatti[ICL_LANGUAGE_CODE]; ?></h5>
+                    <p class="title"><strong>Luiss Business School</strong></p>
+                    <p> Villa Blanc,
+                        <br />Via Nomentana, 216 - 00162 Roma
+                        <br />Italia
+                        <br />Tel. +39 06 852251
+                        <br />Email: <a href="mailto:luissbs@luiss.it" class="">luissbs@luiss.it</a></p>
+                </div>
+            </div>
+        </main>
+    </div>
+    <!--END .row -->
+    <p><?php edit_post_link('<strong>Modifica Pagina</strong>', ''); ?></p>
 </div>
 <!--END .container -->
-<?php 
+<?php
+
 get_footer(2017);
+
+?>
+
+
+<?php
+/*
+Template Name: Custom Programmes Interna
+*/
+get_header(2017); 
 ?>

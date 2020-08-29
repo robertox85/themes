@@ -163,4 +163,5 @@ get_header( 2017 );
         <?php edit_post_link('<p><strong>Modifica Pagina</strong></p>'); ?>
     </div>
 </section>
+<p><?php edit_post_link('<strong>Modifica Pagina</strong>', ''); ?></p>
 <?php get_footer(2017); ?>
