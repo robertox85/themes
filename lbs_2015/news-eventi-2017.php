@@ -180,5 +180,4 @@ $link_news[ 'en' ] = '/en/news-events/news/';
 	</div>
 </section>
 
-
 <?php get_footer(2017); ?>
