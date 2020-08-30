@@ -55,7 +55,6 @@ get_header(2017);
 
     </div>
     <!--END .row -->
-    <p><?php edit_post_link('<strong>Modifica Accordo</strong>', ''); ?></p>
 </div>
 <!--END .container -->
 <?php 

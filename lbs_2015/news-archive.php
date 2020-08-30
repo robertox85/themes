@@ -2,8 +2,14 @@
 /*
 Template Name: Archivio News
 */
-
+wp_enqueue_style('Bootstrap_Styles','https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css');
 get_header(2017); ?>
+
+<style>
+    :root {
+        --current-color: #003A70;
+    }
+</style>
 
 <header id="content-title" class="wide-row">
   <div class="container">
@@ -16,16 +22,12 @@ get_header(2017); ?>
   </div>
   <!--END .container --> 
 </header>
-<section class="body-section">
 
+<section>
 <div class="container">
-<div class="row items">
+<div class="row">
 <?php
-   
-   
 
-
-   
 $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;   
 $news_cat=array();	 		
 $news_cat['it']=1;
@@ -47,10 +49,7 @@ $news_cat['en']=2;
  $news_list  = new WP_Query($args);
 if ( $news_list->have_posts() ) {
 while ( $news_list->have_posts() ) {
-$news_list->the_post();
-
-
- 
+$news_list->the_post(); 
  ?>
  
  <?php $leggi = array();
@@ -58,43 +57,47 @@ $leggi[ 'it' ] = 'Leggi di più';
 $leggi[ 'en' ] = 'Read more';
 ?>
  
- 
- <article itemscope itemtype="http://schema.org/Article" class="col-md-6 fix-box">
-       
-       <div class="col-md-4 nopadding">
-        <span itemscope itemtype='http://schema.org/ImageObject'>
-                <?php 
+    
+    <div class="col-12 col-lg-6 my-16" style="border: 1px solid #e8e8e8;">
+            <article itemscope="" itemtype="http://schema.org/Article">
+                    <div class="row d-flex flex-row align-items-center justify-content-between my-16 px-16">
+                        <div class="col-xs-4">
+                            <span itemscope itemtype='http://schema.org/ImageObject'>
+						<?php 
 	$img_attr = array(
 	'class'	=> "img-responsive",
-	'alt'	=> $news->post_title,
 );
 	echo get_the_post_thumbnail($news->ID, 'thumbnail',$img_attr);
 	
 	?>
-    </span>
-  </div>
-  <div class="col-md-8">
-  <h3 itemprop="name headline" class="home-news-headline"><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3>
-  <?php the_excerpt() ?>
-  
-  <p><a href="<?php the_permalink(); ?>"  title="<?php the_title(); ?>"><?php
-echo $leggi[ICL_LANGUAGE_CODE]; ?> »</a></p>
-  
-  </div>
-  <div class="clearfix"></div>
-              </article>
+					</span>
+                        </div>
+                        <div class="col-xs-8">
+                            <h6 class="my-0" itemprop="name headline"><?php echo the_title() ?></h6>
+                            <p>
+						<?php echo the_excerpt() ?>
+					</p>
+                            <a class="button button__secondary" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php
+echo $leggi[ICL_LANGUAGE_CODE]; ?></a>
+   
+                        </div>
+                    </div>
+                </article>
+            </div>
+
 <?php 
 } // END foreach
 
 } // END if ?>
+    </div>
 <nav class="pagination-nav">
   <?php
 
-$next_label['it']= '<span class="white-style">News più vecchie &raquo;</span>';
-$next_label['en']= '<span class="white-style">Older News &raquo;</span>';
+$next_label['it']= '<span class="text-uppercase color__white strong">News più vecchie <i class="fal fa-angle-right"></i></span>';
+$next_label['en']= '<span class="text-uppercase color__white strong">Older News <i class="fal fa-angle-right"></i></span>';
 
-$prev_label['it']= '<span class="white-style">&laquo; News più recenti</span>';
-$prev_label['en']= '<span class="white-style">&laquo; Newer News</span>';
+$prev_label['it']= '<span class="text-uppercase color__white strong"><i class="fal fa-angle-left"></i> News più recenti</span>';
+$prev_label['en']= '<span class="text-uppercase color__white strong"><i class="fal fa-angle-left"></i> Newer News</span>';
 
 // next_posts_link() usage with max_num_pages
 previous_posts_link($prev_label[ICL_LANGUAGE_CODE]);
@@ -106,7 +109,7 @@ next_posts_link($next_label[ICL_LANGUAGE_CODE], $news_list->max_num_pages );
 // clean up after the query and pagination
 wp_reset_postdata(); 
 ?>
-</div>
+
 <!--END .row -->
 
 </div>

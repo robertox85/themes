@@ -74,7 +74,6 @@ if (!(empty($news))) {
         </main>
     </div>
     <!--END .row -->
-    <p><?php edit_post_link('<strong>Modifica</strong>', ''); ?></p>
 </div>
 <!--END .container -->
 <?php 

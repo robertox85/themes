@@ -919,12 +919,14 @@ ul{list-style:disc}
 .single #masthead, .single #nav-main, .single #content-title, .single #breadcrumb-top{background:#fdbb4d}
 .error404 #masthead, .error404 #nav-main, .error404 #content-title, .error404 #breadcrumb-top{background:#fdbb4d}
 #header-master{background:#303030;padding:50px 0 30px 50px;color:#fff}
-#breadcrumb-top .breadcrumb{border-bottom:1px solid #fff}
+#breadcrumb-top .breadcrumb{border-bottom:1px solid #e8e8e8 !important; padding-bottom:24px !important; margin-bottom:0px; !important}
 .notransform{transform:none!important}
 .back-to-top{padding:10px;color:#fff;border:1px solid #fff;float:right;display:none}
 .fixed{width:100%;left:0;position:fixed;top:0;z-index:99;padding:0;-webkit-backface-visibility:hidden;-webkit-transform:translateZ(0)}
 .fixed .back-to-top{display:inline-block;float:right}
+/*
 .page-template-chi-siamo-2017 #breadcrumb-top .breadcrumb, .page-template-offerta-2017 #breadcrumb-top .breadcrumb, .page-template-faculty-2017 #breadcrumb-top .breadcrumb, .page-template-agevolazioni-servizi-2017 #breadcrumb-top .breadcrumb, .page-template-alumni-2017 #breadcrumb-top .breadcrumb, .page-template-eventi #breadcrumb-top .breadcrumb, .page-template-mba #breadcrumb-top .breadcrumb, .page-template-corsi-laurea #breadcrumb-top .breadcrumb, .page-template-executive-program #breadcrumb-top .breadcrumb, .page-template-master #breadcrumb-top .breadcrumb, .page-template-doctoral #breadcrumb-top .breadcrumb, .page-template-formazione-specialistica #breadcrumb-top .breadcrumb, .page-template-taxonomy-afc #breadcrumb-top .breadcrumb, .page-template-taxonomy-banche #breadcrumb-top .breadcrumb, .page-template-taxonomy-corporate #breadcrumb-top .breadcrumb, .page-template-taxonomy-soft #breadcrumb-top .breadcrumb, .page-template-taxonomy-management #breadcrumb-top .breadcrumb, .page-template-taxonomy-marketing #breadcrumb-top .breadcrumb, .page-template-taxonomy-people #breadcrumb-top .breadcrumb, .page-template-taxonomy-project #breadcrumb-top .breadcrumb, .page-template-taxonomy-sanita #breadcrumb-top .breadcrumb, .page-template-taxonomy-real #breadcrumb-top .breadcrumb, .page-template-taxonomy-sport #breadcrumb-top .breadcrumb, .page-template-taxonomy-tax #breadcrumb-top .breadcrumb, .page-template-roma-2017 #breadcrumb-top .breadcrumb, .page-template-roma-2017 #breadcrumb-top .breadcrumb, .page-template-news-eventi-2017 #breadcrumb-top .breadcrumb, .page-template-progetti-speciali-2017 #breadcrumb-top .breadcrumb{border-bottom:none}
+*/
 .breadcrumb{margin:0;font-family:'Luiss Sans', Arial, Helvetica, sans-serif;font-size:14px;line-height:14px;background:none;padding:20px 10px}
 .breadcrumb div{color:#fff;float:left;font-size:14px;line-height:14px;padding:0 5px}
 .breadcrumb a{color:#fff}
@@ -1022,7 +1024,7 @@ h3.master-info, h3.course-info{font-family:'Luiss Sans', Arial, Helvetica, sans-
 .nopadding{padding:0!important;margin:0!important}
 .Flexible-container{position:relative;padding-bottom:56.25%;padding-top:30px;height:0;overflow:hidden}
 .Flexible-container iframe, .Flexible-container object, .Flexible-container embed{position:absolute;top:0;left:0;width:100%;height:100%}
-.img-responsive{max-width:100%;display:block}
+.img-responsive{max-width:100%;display:block; padding-bottom: 24px;}
 .responsive{max-width:100%;display:block;width:100%}
 button, .button, .pagination-nav a{-webkit-appearance:none;-webkit-transition:background-color 300ms ease-out;background-color:#3c3c3c;border:0 solid #3c3c3c;border-radius:0;color:#FFF;cursor:pointer;display:inline-block;font-family:'Luiss Sans',  Arial, Helvetica, sans-serif;font-size:16px;font-weight:400;line-height:normal;margin:0 0 19px;padding:16px 32px;position:relative;text-align:center;text-decoration:none;transition:background-color 300ms ease-out}
 .pagination-nav a{margin-right:10px}
@@ -1968,7 +1970,9 @@ display: none;
 .lang_selector{position:unset;right:0px;margin:0;top:0px}
 .lang_selector li a{padding:16px;border-radius:0px}
 .lang_selector li a.active{border-bottom:none;background-color:#666}
-.page-template-chi-siamo #breadcrumb-top .breadcrumb, .page-template-offerta #breadcrumb-top .breadcrumb, .page-template-faculty #breadcrumb-top .breadcrumb, .page-template-agevolazioni-servizi #breadcrumb-top .breadcrumb, .page-template-alumni #breadcrumb-top .breadcrumb, .page-template-eventi #breadcrumb-top .breadcrumb, .page-template-mba #breadcrumb-top .breadcrumb, .page-template-corsi-laurea #breadcrumb-top .breadcrumb, .page-template-executive-program #breadcrumb-top .breadcrumb, .page-template-master #breadcrumb-top .breadcrumb, .page-template-doctoral #breadcrumb-top .breadcrumb, .page-template-formazione-specialistica #breadcrumb-top .breadcrumb{border-bottom:1px solid #fff}
+    /*
+.page-template-chi-siamo #breadcrumb-top .breadcrumb, .page-template-offerta #breadcrumb-top .breadcrumb, .page-template-faculty #breadcrumb-top .breadcrumb, .page-template-agevolazioni-servizi #breadcrumb-top .breadcrumb, .page-template-alumni #breadcrumb-top .breadcrumb, .page-template-eventi #breadcrumb-top .breadcrumb, .page-template-mba #breadcrumb-top .breadcrumb, .page-template-corsi-laurea #breadcrumb-top .breadcrumb, .page-template-executive-program #breadcrumb-top .breadcrumb, .page-template-master #breadcrumb-top .breadcrumb, .page-template-doctoral #breadcrumb-top .breadcrumb, .page-template-formazione-specialistica #breadcrumb-top .breadcrumb{border-bottom:1px solid #e8e8e8; padding-bottom: 24px;}
+    */
 .breadcrumb{padding:10px}
 .breadcrumb div{line-height:14px;margin-bottom:5px;padding:0 2px}
 .fixed{display:none}
@@ -2170,13 +2174,13 @@ body.theme-blue .sub-menu li a {
     
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1023px) {
 #logo-img {
     height: 60px;
 } 
     }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
 #logo-img {
     height: 80px;
 }   
@@ -2618,4 +2622,103 @@ a.link-scale:focus {
         font-size: 1.4rem !important;
         line-height: 1.8rem !important;
     }
-    
+
+@media screen and (min-width: 768px) {
+.img-card {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    display:block;
+}
+    }
+
+@media screen and (max-width: 767px) {
+.img-card {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    display:block;
+}
+    }
+
+/* MEET US ONLINE */
+
+.box-event-date {
+  border: 1px solid var(--current-color);
+  text-transform: uppercase !important;
+}
+
+@media screen and (max-width: 991px) {
+
+  .box-event-date {
+    height: 9.4rem;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+  .box-event-date {
+    height: 8.4rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+  .box-event-date {
+    height: 9.4rem;
+  }
+}
+
+ @media screen and (max-width: 1023px) {
+
+        .w-30,
+        .w-20,
+        .w-15,
+        .w-10 {
+            width: 100%;
+        }
+
+        .card-meet {
+            border: 1px solid #e8e8e8;
+            margin: 16px 0;
+        }
+
+    }
+
+    @media screen and (min-width: 1024px) {
+        .w-30 {
+            width: 30%;
+        }
+
+        .w-20 {
+            width: 20%;
+        }
+
+        .w-15 {
+            width: 15%;
+        }
+
+        .w-10 {
+            width: 10%;
+        }
+
+        .card-meet {
+            border-bottom: 1px solid #e8e8e8;
+        }
+    }
+
+/* NEWS & EVENTS */
+
+.box-event-title h6,
+.box-news-title h6 {
+  font-weight: normal !important;
+  line-height: 1.65rem !important;
+}
+
+/* FOOTER */
+
+@media screen and (min-width: 1200px) {
+.footer h3 {
+    font-size: 3rem;
+}
+}

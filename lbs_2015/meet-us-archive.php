@@ -2,72 +2,41 @@
 /*
 Template Name: Meet us online
 */
-
+wp_enqueue_style('Bootstrap_Styles','https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css');
 get_header( 2017 );
 ?>
-<header id="content-title" class="wide-row">
-  <div class="container">
-    <div class="row">
-      <div class="sommario col-md-8">
-        <h1><?php echo the_title(); ?></h1>
-      </div>
-    </div>
-    <!--END .row --> 
-  </div>
-  <!--END .container -->
-  
-  <style type="text/css" media="all">
-	
 
-	
-.programma a	{
-    color: #feba4d;
-    text-transform: uppercase;
-	font-weight: 600
-	
-	}	
-	  
-	@media (max-width: 767px) {
-.hidden-xs {
-	display: none !important;
-	
-}
-.top	{
-	margin-top: 4%;
-	
-}	
-		
-		
-.btn-warning-mob {
-    margin: 20px auto;
-    margin-top: 20px;
-    max-width: 100%;
-    color: #fff !important;
-    background-image: linear-gradient(to top, #eaaa00, #fdcf54);
-    border-radius: 0px;
-    border: 0;
-    box-shadow: 0 0 1.25rem 0 rgba(0, 0, 0, 0.3);
-    margin-top: 1.125rem;
-	padding: 7px;
-	text-align: center
-}		
-}  
+<style>
+    :root {
+        --current-color: #cc8a00;
+    }
 </style>
+
+<header id="content-title" class="wide-row">
+    <div class="container">
+        <div class="row">
+            <div class="sommario col-md-8">
+                <h1><?php echo the_title(); ?></h1>
+            </div>
+        </div>
+        <!--END .row -->
+    </div>
+    <!--END .container -->
 </header>
 <div class="container">
-  <div class="row">
-    <main id="main" class="site-main" role="main">
-      <div id="page-content" class="col-md-12 columns  space">
-        <?php
+    <div class="row">
+        <main id="main" class="site-main" role="main">
+            <div id="page-content" class="col-12 col-md-8">
+                <?php
         while ( have_posts() ): the_post();
         $post_id = get_the_ID();
         ?>
-        <?php the_content(''); ?>
-        <?php edit_post_link('<strong>Modifica Pagina</strong>', ''); ?>
-        <?php endwhile; // end of the loop. ?>
-      </div>
-    </main>
-  </div>
+                <?php the_content(''); ?>
+                <?php edit_post_link('<strong>Modifica Pagina</strong>', ''); ?>
+                <?php endwhile; // end of the loop. ?>
+            </div>
+        </main>
+    </div>
 </div>
 <?php
 
@@ -105,122 +74,78 @@ if ( !( empty( $events ) ) ) {
 <!--END .row items-->
 </section>
 <?php } ?>
-<section class="events-cards cards">
-  <div class="archive-month wide-row" id="month-<?php echo $month_num ?>-<?php echo $year ?>">
-    <div class="container">
-      <div class="row">
-        <h2 class="block-title h2"> <?php echo get_date($month_num,"monthname",ICL_LANGUAGE_CODE) ?> <?php echo $year ?></h2>
-      </div>
+
+<section class="py-32 my-48" style="background-color: #F7F9FA">
+    <div class="container" id="month-<?php echo $month_num ?>-<?php echo $year ?>">
+        <div class="col-12 section-title px-0">
+            <h3 class="color__gold"><?php echo get_date($month_num,"monthname",ICL_LANGUAGE_CODE) ?> <?php echo $year ?></h3>
+        </div>
     </div>
-  </div>
-  <!--END .wide-row-->
-  
-  <?php
+</section>
+
+<?php
   $compila_form = array();
   $compila_form[ 'it' ] = 'Compila il form';
   $compila_form[ 'en' ] = 'Fill out the Form';
-  ?>
-  <?php
+
   $label_evento = array();
   $label_evento[ 'it' ] = 'Tipo evento';
-  $label_evento[ 'en' ] = 'Event';
-  ?>
-  <?php
+  $label_evento[ 'en' ] = 'Event type';
+
   $label_registrati = array();
   $label_registrati[ 'it' ] = 'Registrati';
   $label_registrati[ 'en' ] = 'Register';
-  ?>
-	
-  <?php
+
   $label_dettagli = array();
   $label_dettagli[ 'it' ] = 'Dettagli';
   $label_dettagli[ 'en' ] = 'Details';
-  ?>
-	
-  <?php
+
   $label_lingua = array();
   $label_lingua[ 'it' ] = 'Lingua';
   $label_lingua[ 'en' ] = 'Language';
-  ?>
-	
- <?php
+
   $label_dettagli_2 = array();
   $label_dettagli_2[ 'it' ] = 'Leggi di più';
   $label_dettagli_2[ 'en' ] = 'Read More';
-  ?>	
+  ?>
 
-  <section class="events-cards cards hidden-xs">
-    <div class="container" >
-      <div class="row items">
-        <div class="col-md-1 columns  space">
-          <h3>Data</h3>
+<section class="d-none d-lg-block pb-16 mb-24" style="border-bottom: 1px solid #e8e8e8;">
+    <div class="container">
+        <div class="d-flex flex-row align-items-center justify-content-between flex-wrap flex-lg-nowrap p-16">
+            <h3 class="w-10 p-8">Data</h3>
+            <h3 class="w-30 p-8">Evento</h3>
+            <h3 class="w-20 p-8"><?php echo $label_evento[ICL_LANGUAGE_CODE]; ?></h3>
+            <h3 class="w-10 p-8"><?php echo $label_lingua[ICL_LANGUAGE_CODE]; ?></h3>
+            <h3 class="w-15 p-8"><?php echo $label_dettagli[ICL_LANGUAGE_CODE]; ?></h3>
+            <h3 class="w-15 p-8"><?php echo $label_registrati[ICL_LANGUAGE_CODE]; ?></h3>
         </div>
-        <div class="col-md-4 columns  space programma">
-          <h3>Evento</h3>
-        </div>
-        <div class="col-md-2 columns  space">
-          <h3><?php echo $label_evento[ICL_LANGUAGE_CODE]; ?></h3>
-        </div>
-		  
-		 <div class="col-md-1 columns  space">
-          <h3><?php echo $label_lingua[ICL_LANGUAGE_CODE]; ?></h3>
-        </div>   
-		  
-		 <div class="col-md-2 columns  space">
-          <h3><?php echo $label_dettagli[ICL_LANGUAGE_CODE]; ?></h3>
-        </div>  
-		  
-        <div class="col-md-2 columns  space">
-          <h3><?php echo $label_registrati[ICL_LANGUAGE_CODE]; ?></h3>
-        </div>
-      </div>
-      <!--END .row --> 
-      
+        <!--END .row -->
     </div>
-  </section>
-  <div class="container">
+</section>
+
+<div class="container">
     <?php } ?>
-    <div class="row top">
-      <div class="col-md-1 col-xs-3">
-        <div class="event-date"><?php echo get_date($data_inizio,"events",ICL_LANGUAGE_CODE) ?></div>
-      </div>
-      <div class="col-md-4 col-xs-9 programma" style="min-height:125px">
-        <h3 itemprop="name headline" class="home-news-headline"> <?php echo $event->post_title ?> </h3>
-      </div>
-		
-	
-		
-		
-      <div class="col-md-2 col-xs-6">
-        <p> <strong><?php echo $event->tipo_evento?></strong></p>
-      </div>
-		
-		<div class="col-md-1 col-xs-6">
-        <p> <strong><?php echo $event->lingua?></strong></p>
-      </div>	
-	 
-	  <div class="col-md-2 col-xs-12">
-
-      <p class="programma"><a  href="<?php echo $event->dettagli?>" title="<?php echo $event->post_title ?>" class="btn-warning-mob"> <?php echo $label_dettagli_2[ICL_LANGUAGE_CODE]; ?> </a> </p>
-      </div>	
-	 	
-      <div class="col-md-2 col-xs-6">
-        <p class="programma"><a  href="<?php echo $event->registrati?>" title="<?php echo $event->post_title ?>" class="btn-warning-mob"> <?php echo $compila_form[ICL_LANGUAGE_CODE]; ?> </a> </p>
-      </div>
+    <div class="d-flex flex-row align-items-center justify-content-between flex-wrap flex-lg-nowrap card-meet p-16">
+        <div class="w-10 p-md-16 m-md-16 bg__white box-event-date d-flex flex-row align-items-center justify-content-center">
+            <h6 class="my-0" style="color:var(--current-color);"><?php echo get_date($data_inizio,"events",ICL_LANGUAGE_CODE) ?></h6>
+        </div>
+        <h6 class="color__blue m-0 w-30 p-8" itemprop="name headline"><?php echo $event->post_title ?> </h6>
+        <p class="m-0 w-20 p-8"><?php echo $event->tipo_evento?></p>
+        <p class="w-10 p-8"><?php echo $event->lingua?></p>
+        <a class="button button__secondary w-15 m-8" href="<?php echo $event->dettagli?>" title="<?php echo $event->post_title ?>"><?php echo $label_dettagli_2[ICL_LANGUAGE_CODE]; ?></a>
+        <a class="button button__primary w-15 m-8" href="<?php echo $event->registrati?>" title="<?php echo $event->post_title ?>"><?php echo $compila_form[ICL_LANGUAGE_CODE]; ?></a>
     </div>
-    
     <!--END .row -->
-    <hr>
     <?php
     } // END foreach?>
-  </div>
-  <?php  } // END if ?>
-</section>
+</div>
+<?php  } // END if ?>
+
 <!--END .container -->
-<div class="container ">
-  <div class="row ">
-    <nav class="pagination-nav">
-      <?php
+<div class="container mb-64">
+    <div class="row ">
+        <nav class="pagination-nav">
+            <?php
 
       $next_label[ 'it' ] = 'Eventi più vecchi &raquo;';
       $next_label[ 'en' ] = 'Older Events &raquo;';
@@ -233,10 +158,10 @@ if ( !( empty( $events ) ) ) {
       next_posts_link( $next_label[ ICL_LANGUAGE_CODE ], $events_list->max_num_pages );
 
       ?>
-    </nav>
-  </div>
-  <!--END .row --> 
-  
+        </nav>
+    </div>
+    <!--END .row -->
+
 </div>
 <!--END .container -->
 <?php

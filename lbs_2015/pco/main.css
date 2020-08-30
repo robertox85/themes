@@ -14106,3 +14106,13 @@ body.theme-blue .lang_selector li a.active {
   background-color: #fff;
   transition: ease-in-out 0.3s;
 }
+
+
+.box-cover-home {
+  min-height: 65vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: rgba(0, 58, 112, 0.3);
+  background-blend-mode: multiply;
+}

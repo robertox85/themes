@@ -33,5 +33,4 @@ get_header(2017); ?>
 <?php endwhile; // end of the loop. ?>
 
 <?php get_sidebar(); ?>
-<p><?php edit_post_link('<strong>Modifica eDocent</strong>', ''); ?></p>
 <?php get_footer(2017); ?>

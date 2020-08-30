@@ -52,8 +52,8 @@ $img_governance['en']='/wp-content/uploads/2017/06/ChiSiamo_Governance_Certifica
         </div>
         <div class="row mt-24">
             <div class="col-xs-12 d-flex flex-row flex-wrap align-items-center justify-content-start">
-                <a class="button button__primary bg__white color__blue" href="<?php echo $link_governance[ICL_LANGUAGE_CODE]; ?>"><?php echo $label_governance[ICL_LANGUAGE_CODE] ?></a>
-                <a class="button button__primary bg__white color__blue ml-0 ml-lg-24" href="<?php echo $link_regolamento[ICL_LANGUAGE_CODE]; ?>"><?php echo $label_regolamento[ICL_LANGUAGE_CODE] ?></a>
+                <a class="button bg__white color__blue" href="<?php echo $link_governance[ICL_LANGUAGE_CODE]; ?>"><?php echo $label_governance[ICL_LANGUAGE_CODE] ?></a>
+                <a class="button bg__white color__blue ml-0 ml-lg-24" href="<?php echo $link_regolamento[ICL_LANGUAGE_CODE]; ?>"><?php echo $label_regolamento[ICL_LANGUAGE_CODE] ?></a>
             </div>
         </div>
     </div>

@@ -2,8 +2,14 @@
 /*
 Template Name: Archivio Eventi
 */
-
+wp_enqueue_style('Bootstrap_Styles','https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css');
 get_header(2017); ?>
+
+<style>
+    :root {
+        --current-color: #003A70;
+    }
+</style>
 
 <header id="content-title" class="wide-row">
     <div class="container">
@@ -18,12 +24,9 @@ get_header(2017); ?>
 </header>
 
 
-
 <?php
    
 $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;   
-
-
 
 $eventi_cat=array(); 
 $eventi_cat['it']=22;
@@ -57,41 +60,36 @@ $year = substr($data_inizio,0,4); ?>
 <!--END .row items-->
 </section>
 <?php } ?>
-<section class="events-cards cards">
-    <div class="archive-month wide-row" id="month-<?php echo $month_num ?>-<?php echo $year ?>">
-        <div class="container">
-            <div class="row">
-                <h2 class="block-title h2"> <?php echo get_date($month_num,"monthname",ICL_LANGUAGE_CODE) ?>
-                    <?php echo $year ?></h2>
-            </div>
+
+<section class="py-32 mt-48" style="background-color: #F7F9FA">
+    <div class="container" id="month-<?php echo $month_num ?>-<?php echo $year ?>">
+        <div class="col-12 section-title px-0">
+            <h3 class="color__gold"><?php echo get_date($month_num,"monthname",ICL_LANGUAGE_CODE) ?>
+                    <?php echo $year ?></h3>
         </div>
     </div>
-    <!--END .wide-row-->
-
+</section>
     <div class="container">
-        <div class="row items">
+		<div class="row my-48">
             <?php } ?>
 
-
-
-
-            <article class="col-6" itemscope itemtype="http://schema.org/Article">
-
-                <div class="event-date"><?php echo get_date($data_inizio,"events",ICL_LANGUAGE_CODE) ?></div>
-                <div class="pull-left pull-left event-preview">
-                    <h3 itemprop="name headline" class="home-news-headline"><a
-                            href="<?php echo get_permalink($event->ID) ?>"
-                            title="<?php echo $event->post_title ?>"><?php echo $event->post_title ?></a></h3>
-                    <p><?php echo $event->post_excerpt ?></p>
-                    <p class="">
+            <div class="col-12 col-lg-4">
+            <article itemscope="" itemtype="http://schema.org/Article">
+                    <div class="row d-flex flex-row align-items-center justify-content-between my-16 px-16">
+                        <div class="col-xs-4 bg__white box-event-date d-flex flex-row align-items-center justify-content-center">
+                            <h6 class="my-0"><?php echo get_date($data_inizio,"events",ICL_LANGUAGE_CODE) ?></h6>
+                        </div>
+                        <div class="col-xs-8 box-event-title">
+                            <h6 class="my-0" itemprop="name headline"><a href="<?php echo get_permalink($event->ID) ?>" title="<?php echo $event->post_title ?>" title="<?php echo $event->post_title ?>"><?php echo $event->post_title ?></a></h6>
+                            <p>
+						<?php echo $event->post_excerpt ?>
                         <?php echo $event->programma?>
                         <?php echo $event->tipo_evento?>
-
-                    </p>
-                </div>
-
-                <div class="clearfix"></div>
-            </article>
+					</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
 
             <?php 
 } // END foreach

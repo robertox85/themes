@@ -87,17 +87,13 @@ $testo3 = get_field('testo_visore_3');
 
 ?>
 
-<div id="HomeCarousel" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner home-carousel">
-        <div class="item active">
-            <img src="<?php echo $img1['url']; ?>" alt="<?php echo $img1['alt']; ?>" />
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-md-8 home-carousel-content mb-64 mb-lg-128">
-                        <h1 class="color__white"><?php echo $desc1; ?></h1>
-                        <h6 class="color__white"><?php echo $testo1; ?></h6>
-                    </div>
-                </div>
+
+<div class="item-centre box-cover-home" style="background-image:url(<?php echo $img1['url']; ?>)">
+    <div class="container">
+        <div class="row centre mt-128 pt-128">
+            <div class="col-md-12">
+            <h1><?php echo $desc1; ?></h1>
+            <h2><span class="bg__gold"><?php echo $testo1; ?></span></h2>
             </div>
         </div>
     </div>
@@ -105,6 +101,7 @@ $testo3 = get_field('testo_visore_3');
 
 <!-- CAROUSEL BANNER DESKTOP -->
 
+<section style="border-bottom: 1px solid #e8e8e8;" class="py-24 pt-md-48 pb-md-80">
 <?php 
 $img_link_desk_1 = array();
 $img_link_desk_1['it'] = get_stylesheet_directory_uri() . '/pco/images/flex-ita-desk.png';
@@ -124,7 +121,8 @@ $img_link_mob_2['en'] = get_stylesheet_directory_uri() . '/pco/images/meet-us-on
 ?>
 
 <div class="container">
-    <div class="row my-24">
+    <div class="row">
+    <p><?php edit_post_link('<p>Modifica Pagina</p>', ''); ?></p>
         <div id="myCarousel" class="carousel slide" data-ride="carousel" style="z-index: 1" data-interval="4000">
             <!-- Content -->
             <div class="carousel-inner">
@@ -153,10 +151,11 @@ $img_link_mob_2['en'] = get_stylesheet_directory_uri() . '/pco/images/meet-us-on
         </div>
     </div>
 </div>
+</section>
 
 <!-- SEZIONE 1-->
 
-<section id="home-section-1" class="home-section my-80 my-lg-128">
+<section id="home-section-1" class="home-section py-24 pt-md-48 pb-md-80" style="border-bottom: 1px solid #e8e8e8;">
     <div class="container px-0">
         <div class="px-0 d-flex flex-row flex-wrap align-items-center justify-content-between">
             <!-- Box delle tipologia di corso -->
@@ -221,7 +220,7 @@ _6 = Programmi di alta formazione - non utilizzato
 
 <!-- SEZIONE 2 -->
 
-<section id="home-section-2" class="home-section">
+<section id="home-section-2" class="home-section py-24 pt-md-48 pb-md-32" style="border-bottom: 1px solid #e8e8e8;">
     <div class="container">
         <div class="row">
 
@@ -239,7 +238,7 @@ $events_section_title['en'] = 'Upcoming events';
 
             <!-- Ultime News -->
 
-            <div class="col-xs-12 col-lg-4 mb-80">
+            <div class="col-xs-12 col-lg-4 mb-48">
                 <h3 class="mb-16"><?php echo $news_section_title[ICL_LANGUAGE_CODE]; ?></h3>
                 <?php
  
@@ -292,7 +291,7 @@ if (!(empty($news))) {
 
             <!-- Ultime Eventi -->
 
-            <div class="col-xs-12 col-lg-4 mb-80">
+            <div class="col-xs-12 col-lg-4 mb-48">
                 <h3 class="mb-16"><?php echo $events_section_title[ICL_LANGUAGE_CODE]; ?></h3>
                 <?php
  
@@ -333,7 +332,7 @@ if (!(empty($events))) {
             </div>
 
             <!-- Trova il tuo corso -->
-            <div class="col-xs-12 col-lg-4 mb-80">
+            <div class="col-xs-12 col-lg-4 mb-48">
                 <h3 class="mb-16">Programme Explorer</h3>
                 <?php 
 		$finder_description = array();
@@ -398,8 +397,6 @@ if (!(empty($events))) {
         </div>
     </div>
 </section>
-
-<?php edit_post_link('<p>Modifica Pagina</p>', ''); ?>
 
 <?php 
 
