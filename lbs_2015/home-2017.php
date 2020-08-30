@@ -155,7 +155,7 @@ $img_link_mob_2['en'] = get_stylesheet_directory_uri() . '/pco/images/meet-us-on
 
 <!-- SEZIONE 1-->
 
-<section id="home-section-1" class="home-section py-24 pt-md-48 pb-md-80" style="border-bottom: 1px solid #e8e8e8;">
+<section class="py-24 pt-md-48 pb-md-80" style="border-bottom: 1px solid #e8e8e8;">
     <div class="container px-0">
         <div class="px-0 d-flex flex-row flex-wrap align-items-center justify-content-between">
             <!-- Box delle tipologia di corso -->
@@ -168,12 +168,12 @@ _5 = Programmi Custom - N.B. EDITARE IN PAGINA AL POSTO DI PHD
 _6 = Programmi di alta formazione - non utilizzato
             <!-- Box MBA -->
             <div class="card-course-big p-24 m-16 d-flex flex-column align-items-start justify-content-between">
-                <h2 class="color__green text-uppercase"><?php echo get_field('home_launch_box_title_2'); ?></h2>
+                <h2 class="color__green"><?php echo get_field('home_launch_box_title_2'); ?></h2>
                 <p class="big"><?php echo get_field('home_launch_box_excerpt_2'); ?></p>
                 <!-- Pulsanti -->
                 <div class="row">
                     <div class="col-xs-12">
-                        <a class="button button__primary bg__green" href="<?php echo get_field('home_launch_box_url_2'); ?>">Scopri</a>
+                        <a class="button button__primary bg__green hp" href="<?php echo get_field('home_launch_box_url_2'); ?>">Scopri</a>
                     </div>
                 </div>
             </div>
@@ -185,7 +185,7 @@ _6 = Programmi di alta formazione - non utilizzato
                 <!-- Pulsanti -->
                 <div class="row">
                     <div class="col-xs-12">
-                        <a class="button button__primary bg__red" href="<?php echo get_field('home_launch_box_url_3'); ?>">Scopri</a>
+                        <a class="button button__primary bg__red hp" href="<?php echo get_field('home_launch_box_url_3'); ?>">Scopri</a>
                     </div>
                 </div>
             </div>
@@ -197,7 +197,7 @@ _6 = Programmi di alta formazione - non utilizzato
                 <!-- Pulsanti -->
                 <div class="row">
                     <div class="col-xs-12">
-                        <a class="button button__primary bg__light_blue" href="<?php echo get_field('home_launch_box_url_4'); ?>">Scopri</a>
+                        <a class="button button__primary bg__light_blue hp" href="<?php echo get_field('home_launch_box_url_4'); ?>">Scopri</a>
                     </div>
                 </div>
             </div>
@@ -209,7 +209,7 @@ _6 = Programmi di alta formazione - non utilizzato
                 <!-- Pulsanti -->
                 <div class="row">
                     <div class="col-xs-12">
-                        <a class="button button__primary bg__orange" href="<?php echo get_field('home_launch_box_url_5'); ?>">Scopri</a>
+                        <a class="button button__primary bg__orange hp" href="<?php echo get_field('home_launch_box_url_5'); ?>">Scopri</a>
                     </div>
                 </div>
             </div>

@@ -1,18 +1,13 @@
-<div  class="block">  <div class="content row">
-
-    
-
-
-       
+<?php wp_enqueue_style('Bootstrap_Styles','https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css');
+?>
+<div class="row">
         <!--BEGIN widget course finder -->
         
         <?php 
 		$finder_description = array();
 			$finder_description['it'] = 'Vuoi scoprire qual è il corso ideale per te? Scoprilo in 3 semplici step!';
 		$finder_description['en'] = "Do you want to discover your ideal course? Here are 3 simple steps of our Programme Finder!";
-		
-		
-		
+
 		$finder_button_open = array();
 		$finder_button_open['it'] = 'Inizia da qui';
 		$finder_button_open['en'] = 'Find your Course';
@@ -33,21 +28,13 @@
 		
 		?> 
         
-        
-        
-      <div class="finder-text">
-        <h2 class="finder-title">Programme Explorer</h2>
-        <hr class="hide-for-small" style="color:#202020" />
-        <p class="finder-description"><?php echo $finder_description[ICL_LANGUAGE_CODE]; ?></p>
-        <div class="featurette-divider"></div>
-        
+
+      <div class="col-12 col-md-8 offset-lg-2 my-80 p-48 section-title bg__white" style="border: 1px solid #e8e8e8;">
+        <h3 class="color__gold pb-26">Programme Explorer</h3>
+        <p class="big pb-24"><?php echo $finder_description[ICL_LANGUAGE_CODE]; ?></p>
         <form id="form-course-finder" action="<?php echo $finder_form_action[ICL_LANGUAGE_CODE] ?>" method="get">
         <ul>
-        
-        
- 
-        
-        
+
         <?php $selected_taxonomies =array('lingue','lunghezza_corsi','tematiche');	  
 $custom_taxonomies = corsi_get_taxonomies($selected_taxonomies);
 		$choose_label['it']='scegli';
@@ -75,14 +62,10 @@ $custom_taxonomies = corsi_get_taxonomies($selected_taxonomies);
  
 
 <?php } // END foreach ?>
-        
-        
-        
-    
-        
+
         </ul>
        
-         <p><button class="finder-send-button" type="submit"><?php echo $finder_button_button_send[ICL_LANGUAGE_CODE]; ?></button>
+        <p class="mt-48"><button class="finder-send-button" type="submit"><?php echo $finder_button_button_send[ICL_LANGUAGE_CODE]; ?></button>
         </form>
         
         <p><button class="finder-button" type="button"><?php echo $finder_button_open[ICL_LANGUAGE_CODE]; ?></button></p>
@@ -111,4 +94,4 @@ $custom_taxonomies = corsi_get_taxonomies($selected_taxonomies);
        
       <!--END widget course finder -->     
 
-</div></div>
+</div>
