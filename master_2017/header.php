@@ -133,78 +133,109 @@ bloginfo('name');
 
     <!-- SNIPCART -->
     <!-- Snipcart stylesheet -->
-<link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.16/default/snipcart.css" />
-<style type="text/css">
-input[type="text"] {
-  border: none; }
+    <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.16/default/snipcart.css" />
+    <style type="text/css">
+    input[type="text"] {
+        border: none;
+    }
 
-.snipcart * {
-  font-family: "ITC Officina Sans W01"; }
+    .snipcart * {
+        font-family: "ITC Officina Sans W01";
+    }
 
-.snipcart-modal__container {
-  z-index: 1000; }
+    .snipcart-modal__container {
+        z-index: 1000;
+    }
 
-.snipcart-input__input:-webkit-autofill {
-  background-color: transparent !important; }
+    .snipcart-input__input:-webkit-autofill {
+        background-color: transparent !important;
+    }
 
-.snipcart__icon--blue-light path {
-  fill: #fdbb4d; }
+    .snipcart__icon--blue-light path {
+        fill: #fdbb4d;
+    }
 
-.snipcart__icon--blue-dark path {
-  fill: #fdbb4d; }
+    .snipcart__icon--blue-dark path {
+        fill: #fdbb4d;
+    }
 
-.snipcart-payment-form--focused {
-  border: 1px solid #fdbb4d !important; }
+    .snipcart-payment-form--focused {
+        border: 1px solid #fdbb4d !important;
+    }
 
-@media screen and (max-width: 800px) {
-  .snipcart-item-line__title {
-    padding: 0 10px; } }
+    @media screen and (max-width: 800px) {
+        .snipcart-item-line__title {
+            padding: 0 10px;
+        }
+    }
 
-.snipcart-discount-box__form {
-  border: 1px solid #fdbb4d; }
-  .snipcart-discount-box__form .snipcart-input {
-    outline: none; }
+    .snipcart-discount-box__form {
+        border: 1px solid #fdbb4d;
+    }
+
+    .snipcart-discount-box__form .snipcart-input {
+        outline: none;
+    }
+
     .snipcart-discount-box__form .snipcart-input:focus-within {
-      border: none; }
-  .snipcart-discount-box__form .snipcart-discount-box__submit {
-    color: #fdbb4d; }
+        border: none;
+    }
 
-.snipcart__box--badge-highlight {
-  background: #fdbb4d; }
+    .snipcart-discount-box__form .snipcart-discount-box__submit {
+        color: #fdbb4d;
+    }
 
-.snipcart__font--subtitle {
-  font-family: "ITC Officina Sans W01 Bold"; }
+    .snipcart__box--badge-highlight {
+        background: #fdbb4d;
+    }
 
-.snipcart-input {
-  outline-color: #fdbb4d; }
-  .snipcart-input:focus-within {
-    border: 1px solid #fdbb4d; }
+    .snipcart__font--subtitle {
+        font-family: "ITC Officina Sans W01 Bold";
+    }
 
-.snipcart-form__select:focus {
-  border: 1px solid #fdbb4d; }
+    .snipcart-input {
+        outline-color: #fdbb4d;
+    }
 
-.snipcart-typeahead__suggestions {
-  border: 1px solid #fdbb4d; }
+    .snipcart-input:focus-within {
+        border: 1px solid #fdbb4d;
+    }
 
-.snipcart-textbox--focus {
-  border: 1px solid #fdbb4d; }
+    .snipcart-form__select:focus {
+        border: 1px solid #fdbb4d;
+    }
 
-.snipcart-checkbox:checked + label:before {
-  border: 1px solid #fdbb4d;
-  background-color: #fdbb4d; }
+    .snipcart-typeahead__suggestions {
+        border: 1px solid #fdbb4d;
+    }
 
-.snipcart-checkbox:focus + label:before, .snipcart-checkbox:hover + label:before {
-  border: 1px solid #fdbb4d; }
+    .snipcart-textbox--focus {
+        border: 1px solid #fdbb4d;
+    }
 
-.snipcart-cart-button {
-  font-family: "Droid Sans Mono W01"; }
-  .snipcart-cart-button.snipcart-cart-button--highlight {
-    background-image: linear-gradient(90deg, #fdbb4d, #fdbb4d); }
+    .snipcart-checkbox:checked+label:before {
+        border: 1px solid #fdbb4d;
+        background-color: #fdbb4d;
+    }
 
-.snipcart__actions--link {
-  color: #fdbb4d; }
-  </style>
-    
+    .snipcart-checkbox:focus+label:before,
+    .snipcart-checkbox:hover+label:before {
+        border: 1px solid #fdbb4d;
+    }
+
+    .snipcart-cart-button {
+        font-family: "Droid Sans Mono W01";
+    }
+
+    .snipcart-cart-button.snipcart-cart-button--highlight {
+        background-image: linear-gradient(90deg, #fdbb4d, #fdbb4d);
+    }
+
+    .snipcart__actions--link {
+        color: #fdbb4d;
+    }
+    </style>
+
     <!-- Snipcart custom script -->
     <script>
     window.SNIPCART_STOCK_LAMBDA_URL = 'https://lw0s05w009.execute-api.eu-west-1.amazonaws.com/api/';
@@ -220,72 +251,65 @@ input[type="text"] {
     <div id="site-wrapper">
         <div id="site-canvas">
 
+
             <!-- DESKTOP -->
-            <header id="masthead" class="d-none d-lg-block pb-24 pl-0">
-                <div class="container">
-                    <div class="row">
-                        <div id="mobile-menu-trigger">
-
-                            <a class="main-menu-toggle menu-icon" title="apri il menu"><span></span>
-                            </a>
-
-
+            <header id="masthead" class="d-none d-lg-block">
+                <div class="container px-0 pt-16 pb-24">
+                    <div class="d-flex flex-row align-items-center justify-content-between">
+                        <div class="header-first-block">
+                            <div class="" id="logo">
+                                <a href="<?php echo network_home_url() ?>" title="Home page">
+                                    <img src="<?php echo site_url(); ?>/wp-content/themes/master_2017/img/logo-new-2.png"
+                                        alt="Luiss Business School Logo" id="logo-img" />
+                                </a>
+                            </div>
                         </div>
-                        <div class="col-xs-4 col-sm-4 col-md-4" id="logo">
-                            <a href="<?php echo network_home_url() ?>" title="Home page">
-                                <img src="<?php echo site_url() ?>/wp-content/themes/master_2017/img/logo-new.png"
+                        <div class="header-second-block">
+                            <nav id="secondary-nav" class="">
+                                <ul>
+                                    <li><a href="http://www.luiss.it/">Luiss.it</a></li>
+                                    <li><a href="javascript:void(0)" id="network-offcanvas-trigger">Luiss Network</a>
+                                    </li>
+                                    <li><a href="<?php echo get_site_url() ?>/milano"><strong>Milano</strong></a></li>
+                                    <li><a href="<?php echo get_site_url() ?>/belluno"><strong>Belluno</strong></a></li>
+                                </ul>
+                            </nav>
+                            <?php language_selector_flags();?>
+                        </div>
+                    </div>
+                </div>
+                <!-- END .container -->
+            </header>
+
+            <!-- MOBILE -->
+            <header id="masthead" class="d-lg-none">
+                <div class="container px-0 py-16">
+                    <div class="d-flex align-items-center flex-row justify-content-between">
+                        <div class="header-first-block">
+                            <a class="main-menu-toggle hamburger  hamburger--collapse" type="button">
+                                <span class="hamburger-box">
+                                    <span class="hamburger-inner"></span>
+                                </span>
+                            </a>
+                            <a class="" href="<?php echo network_home_url() ?>" title="Home page">
+                                <img src="<?php echo site_url(); ?>/wp-content/themes/master_2017/img/logo-new-2.png"
                                     alt="Luiss Business School Logo" id="logo-img" />
                             </a>
                         </div>
-                        <nav id="secondary-nav" class="col-md-6">
-                            <ul>
-                                <li><a href="http://www.luiss.it/">Luiss.it</a></li>
-                                <li><a href="javascript:void(0)" id="network-offcanvas-trigger">Luiss Network</a></li>
-                                <li><a href="https://businessschool.luiss.it/milano"><strong>Milano</strong></a></li>
-                                <li><a href="https://businessschool.luiss.it/belluno"><strong>Belluno</strong></a></li>
-                            </ul>
-                        </nav>
-                        <div class="col-md-2">
+                        <div class="header-second-block">
                             <?php language_selector_flags();?>
                         </div>
-
                     </div>
-                    <!-- END .row -->
                 </div>
                 <!-- END .container -->
             </header>
-    
 
-
-
-            <!-- MOBILE -->
-            <header id="masthead" class="d-block d-lg-none pb-24 pl-0 shadow-bottom">
-                <div class="container">
-                    <div class="row d-flex align-items-center">
-                        
-
-                        <a class="col-xs-1 main-menu-toggle hamburger  hamburger--collapse" type="button" >
-                          <span class="hamburger-box">
-                            <span class="hamburger-inner"></span>
-                          </span>
-                        </a> 
-
-                        <a class="col-xs-8 mx-24 mx-md-0" href="<?php echo site_url() ?>" title="Home page">
-                            <img src="<?php echo site_url() ?>/wp-content/themes/master_2017/img/logo-new.png"
-                                alt="Luiss Business School Logo" id="logo-img" />
-                        </a>
-
-                        <?php language_selector_flags();?>
-                    </div>
-                    <!-- END .row -->
-                </div>
-                <!-- END .container -->
-            </header>
+            
 
             <!-- // Navigation bar to use in single pages (nav-it.php) -->
             <?php get_template_part('nav', 'it');  ?>
 
-            
+
 
             <nav id="network-container-offcanvas">
                 <div class="container px-0">
@@ -339,7 +363,8 @@ input[type="text"] {
                           ?>
                         <span class="back-to-top"><a id="backtotop" href="javascript:void(0)"><i
                                     class="fa fa-angle-up"></i>
-                                <?php echo $back_to_top_text[ICL_LANGUAGE_CODE] ?></a></span> </div>
+                                <?php echo $back_to_top_text[ICL_LANGUAGE_CODE] ?></a></span>
+                    </div>
                     <!--END .row -->
                 </div>
                 <!-- .END container -->
