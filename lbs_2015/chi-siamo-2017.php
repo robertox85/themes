@@ -9,8 +9,8 @@ get_header(2017); ?>
 
 <?php
 $img_chisiamo=array();
-$img_chisiamo['it']='/wp-content/uploads/2017/04/perche-lbs-palazzina-blanc.jpg';
-$img_chisiamo['en']='/wp-content/uploads/2017/04/perche-lbs-palazzina-blanc.jpg';
+$img_chisiamo['it']=site_url().'/wp-content/uploads/2017/04/perche-lbs-palazzina-blanc.jpg';
+$img_chisiamo['en']=site_url().'/wp-content/uploads/2017/04/perche-lbs-palazzina-blanc.jpg';
 ?>
 <div class="item-centre box-cover-subhome" style="background-image:url(<?php echo $img_chisiamo[ICL_LANGUAGE_CODE]; ?>)">
     <div class="container">
@@ -45,43 +45,43 @@ $osservatori['it']='Osservatori';
 $osservatori['en']='Observatories'; 
                                     
 $link_lab_1=array();
-$link_lab_1['it']='/perche-luiss-bs/competence-center-big-data/';
+$link_lab_1['it']=site_url().'/perche-luiss-bs/competence-center-big-data/';
 $link_lab_1['en']="/en/why-luiss-bs/competence-center-big-data/";
                                     
 $link_lab_2=array();
-$link_lab_2 ['it']='/ershub/';
-$link_lab_2 ['en']='/ershub/en/'; 
+$link_lab_2 ['it']=site_url().'/ershub/';
+$link_lab_2 ['en']=site_url().'/ershub/en/'; 
                                     
 $link_lab_4=array();
-$link_lab_4['it']='/perche-luiss-bs/competence-center-public-administration-healthcare-and-no-profit/'; $link_lab_4['en']='/en/'; 
+$link_lab_4['it']=site_url().'/perche-luiss-bs/competence-center-public-administration-healthcare-and-no-profit/'; $link_lab_4['en']=site_url().'/en/'; 
     
 $link_lab_6=array();
-$link_lab_6['it']='/perche-luiss-bs/project-organising-competence-centre/';
-$link_lab_6['en']='/en/'; 
+$link_lab_6['it']=site_url().'/perche-luiss-bs/project-organising-competence-centre/';
+$link_lab_6['en']=site_url().'/en/'; 
 
 $link_lab_7=array();
-$link_lab_7['it']='/perche-luiss-bs/people-management-competence-center-lab/';
-$link_lab_7['en']='/en/';
+$link_lab_7['it']=site_url().'/perche-luiss-bs/people-management-competence-center-lab/';
+$link_lab_7['en']=site_url().'/en/';
     
 $link_lab_8=array();
-$link_lab_8['it']='/perche-luiss-bs/creative-industry/';
-$link_lab_8['en']='/en/';
+$link_lab_8['it']=site_url().'/perche-luiss-bs/creative-industry/';
+$link_lab_8['en']=site_url().'/en/';
     
 $link_lab_9=array();
-$link_lab_9['it']='/perche-luiss-bs/ceriis/';
-$link_lab_9['en']='/en/why-luiss-bs/ceriis/'; 
+$link_lab_9['it']=site_url().'/perche-luiss-bs/ceriis/';
+$link_lab_9['en']=site_url().'/en/why-luiss-bs/ceriis/'; 
     
 $link_osservatorio_1=array();
-$link_osservatorio_1['it']='/perche-luiss-bs/osservatorio-executive-compensation-e-governance/';
-$link_osservatorio_1['en']='/en/'; 
+$link_osservatorio_1['it']=site_url().'/perche-luiss-bs/osservatorio-executive-compensation-e-governance/';
+$link_osservatorio_1['en']=site_url().'/en/'; 
                                     
 $link_osservatorio_2=array();
-$link_osservatorio_2['it']='/osservatorio-ethos/';
-$link_osservatorio_2['en']='/en/'; 
+$link_osservatorio_2['it']=site_url().'/osservatorio-ethos/';
+$link_osservatorio_2['en']=site_url().'/en/'; 
                                     
 $link_osservatorio_3=array();
-$link_osservatorio_3['it']='/perche-luiss-bs/osservatorio-sulla-gestione-del-rischio-in-sanita/';
-$link_osservatorio_3['en']='/en/'; 
+$link_osservatorio_3['it']=site_url().'/perche-luiss-bs/osservatorio-sulla-gestione-del-rischio-in-sanita/';
+$link_osservatorio_3['en']=site_url().'/en/'; 
     
 ?>
 <a name="centri"></a>

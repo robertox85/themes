@@ -9,20 +9,20 @@ $label_governance['it']='Scopri la Governance';
 $label_governance['en']='Find out more';
 
 $link_governance=array();
-$link_governance['it']='/perche-luiss-bs/governance/';
-$link_governance['en']='/en/perche-luiss-bs/governance/';
+$link_governance['it']=site_url().'/perche-luiss-bs/governance/';
+$link_governance['en']=site_url().'/en/perche-luiss-bs/governance/';
 
 $link_governance_1=array();
-$link_governance_1['it']='/perche-luiss-bs/governance/steering-committee/';
-$link_governance_1['en']='/en/why-luiss-bs/governance/steering-committee/';
+$link_governance_1['it']=site_url().'/perche-luiss-bs/governance/steering-committee/';
+$link_governance_1['en']=site_url().'/en/why-luiss-bs/governance/steering-committee/';
 
 $link_governance_2=array();
-$link_governance_2['it']='/perche-luiss-bs/governance/corporate-advisory-board/';
-$link_governance_2['en']='/en/why-luiss-bs/governance/corporate-advisory-board/';
+$link_governance_2['it']=site_url().'/perche-luiss-bs/governance/corporate-advisory-board/';
+$link_governance_2['en']=site_url().'/en/why-luiss-bs/governance/corporate-advisory-board/';
 
 $link_governance_3=array();
-$link_governance_3['it']='/perche-luiss-bs/governance/international-advisory-board/';
-$link_governance_3['en']='/en/why-luiss-bs/governance/international-advisory-board/';
+$link_governance_3['it']=site_url().'/perche-luiss-bs/governance/international-advisory-board/';
+$link_governance_3['en']=site_url().'/en/why-luiss-bs/governance/international-advisory-board/';
 
 $link_regolamento=array();
 $link_regolamento['it']='https://www.luiss.it/sites/www.luiss.it/files/Regolamento-LBS-Comitato-Esecutivo-10-dicembre-2014.pdf';
@@ -33,8 +33,8 @@ $label_regolamento['it']='Regolamento della Luiss Business School (pdf)';
 $label_regolamento['en']='Luiss Business School Regulation (pdf)';
 
 $img_governance=array();
-$img_governance['it']='/wp-content/uploads/2017/06/ChiSiamo_Governance_Certificazioni.jpg';
-$img_governance['en']='/wp-content/uploads/2017/06/ChiSiamo_Governance_Certificazioni.jpg';
+$img_governance['it']=site_url().'/wp-content/uploads/2017/06/ChiSiamo_Governance_Certificazioni.jpg';
+$img_governance['en']=site_url().'/wp-content/uploads/2017/06/ChiSiamo_Governance_Certificazioni.jpg';
 ?>
 
 <!-- Inizio template -->
