@@ -233,13 +233,13 @@ $inizio_mba_1[ 'en' ] = 'Oct 19, 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_mba_1 = array();
-$link_site_mba_1[ 'it' ] = site_url().site_url().'/mba/';
-$link_site_mba_1[ 'en' ] = site_url().site_url().'/mba/';
+$link_site_mba_1[ 'it' ] = site_url().'/mba/';
+$link_site_mba_1[ 'en' ] = site_url().'/mba/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_mba_1 = array();
-$link_brochure_mba_1[ 'it' ] = site_url().site_url().'/mba/download-brochure/';
-$link_brochure_mba_1[ 'en' ] = site_url().site_url().'/mba/download-brochure/';
+$link_brochure_mba_1[ 'it' ] = site_url().'/mba/download-brochure/';
+$link_brochure_mba_1[ 'en' ] = site_url().'/mba/download-brochure/';
 ?>
 
 <!-- MBA 2 -->
