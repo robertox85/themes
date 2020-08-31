@@ -111,13 +111,13 @@ if ( !( empty( $events ) ) ) {
 
 <section class="d-none d-lg-block pb-16 mb-24" style="border-bottom: 1px solid #e8e8e8;">
     <div class="container">
-        <div class="d-flex flex-row align-items-center justify-content-between flex-wrap flex-lg-nowrap p-16">
-            <h3 class="w-10 p-8">Data</h3>
-            <h3 class="w-30 p-8">Evento</h3>
-            <h3 class="w-20 p-8"><?php echo $label_evento[ICL_LANGUAGE_CODE]; ?></h3>
-            <h3 class="w-10 p-8"><?php echo $label_lingua[ICL_LANGUAGE_CODE]; ?></h3>
-            <h3 class="w-15 p-8"><?php echo $label_dettagli[ICL_LANGUAGE_CODE]; ?></h3>
-            <h3 class="w-15 p-8"><?php echo $label_registrati[ICL_LANGUAGE_CODE]; ?></h3>
+        <div class="d-flex flex-row align-items-center justify-content-start flex-wrap flex-lg-nowrap p-16">
+            <div class="w-10"><h3 class="p-16">Data</h3></div>
+            <div class="w-20"><h3 class="p-16">Evento</h3></div>
+            <div class="w-20"><h3 class="p-16"><?php echo $label_evento[ICL_LANGUAGE_CODE]; ?></h3></div>
+            <div class="w-15"><h3 class="p-16"><?php echo $label_lingua[ICL_LANGUAGE_CODE]; ?></h3></div>
+            <div class="w-15"><h3 class="p-16"><?php echo $label_dettagli[ICL_LANGUAGE_CODE]; ?></h3></div>
+            <div class="w-20"><h3 class="p-16"><?php echo $label_registrati[ICL_LANGUAGE_CODE]; ?></h3></div>
         </div>
         <!--END .row -->
     </div>
@@ -125,15 +125,25 @@ if ( !( empty( $events ) ) ) {
 
 <div class="container">
     <?php } ?>
-    <div class="d-flex flex-row align-items-center justify-content-between flex-wrap flex-lg-nowrap card-meet p-16">
-        <div class="w-10 p-md-16 m-md-16 bg__white box-event-date d-flex flex-row align-items-center justify-content-center">
+    <div class="d-flex flex-row align-items-center justify-content-start flex-wrap flex-lg-nowrap card-meet p-16">
+        <div class="w-10 p-md-16 bg__white box-event-date d-flex flex-row align-items-center justify-content-center">
             <h6 class="my-0" style="color:var(--current-color);"><?php echo get_date($data_inizio,"events",ICL_LANGUAGE_CODE) ?></h6>
         </div>
-        <h6 class="color__blue m-0 w-30 p-8" itemprop="name headline"><?php echo $event->post_title ?> </h6>
-        <p class="m-0 w-20 p-8"><?php echo $event->tipo_evento?></p>
-        <p class="w-10 p-8"><?php echo $event->lingua?></p>
-        <a class="button button__secondary w-15 m-8" href="<?php echo $event->dettagli?>" title="<?php echo $event->post_title ?>"><?php echo $label_dettagli_2[ICL_LANGUAGE_CODE]; ?></a>
-        <a class="button button__primary w-15 m-8" href="<?php echo $event->registrati?>" title="<?php echo $event->post_title ?>"><?php echo $compila_form[ICL_LANGUAGE_CODE]; ?></a>
+        <div class="w-20">
+            <h6 class="color__blue m-0 p-16" itemprop="name headline"><?php echo $event->post_title ?></h6>
+        </div>
+        <div class="w-20">
+            <p class="m-0 p-16"><?php echo $event->tipo_evento?></p>
+        </div>
+        <div class="w-15">
+            <p class="m-0 p-16"><?php echo $event->lingua?></p>
+        </div>
+        <div class="w-15">
+            <a class="button button__secondary m-16" href="<?php echo $event->dettagli?>" title="<?php echo $event->post_title ?>"><?php echo $label_dettagli_2[ICL_LANGUAGE_CODE]; ?></a>
+        </div>
+        <div class="w-20">
+            <a class="button button__primary m-16" href="<?php echo $event->registrati?>" title="<?php echo $event->post_title ?>"><?php echo $compila_form[ICL_LANGUAGE_CODE]; ?></a>
+        </div>
     </div>
     <!--END .row -->
     <?php
