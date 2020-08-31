@@ -200,7 +200,7 @@ input[type="text"] {
 
 .snipcart__actions--link {
   color: #fdbb4d; }
-  
+  </style>
     <!--FONTAWESOME -->
 
     <script src="https://kit.fontawesome.com/e49ea6f2fb.js" crossorigin="anonymous"></script>

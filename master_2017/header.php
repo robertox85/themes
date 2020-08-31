@@ -203,6 +203,7 @@ input[type="text"] {
 
 .snipcart__actions--link {
   color: #fdbb4d; }
+  </style>
     
     <!-- Snipcart custom script -->
     <script>
