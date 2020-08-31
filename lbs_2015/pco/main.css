@@ -395,7 +395,6 @@ h1 {
   font-family: 'Luiss Serif' !important;
   font-weight: 400;
   font-size: calc(1.625rem + 4.5vw);
-  font-size: 80px;
   line-height: 4.5rem;
 }
 
@@ -404,6 +403,13 @@ h1 {
     font-size: 5rem;
   }
 }
+
+@media (max-width: 767px) {
+  h1 {
+    line-height: 3.2rem;
+  }
+}
+
 
 h1.small {
   font-size: 4.5rem !important;
@@ -419,6 +425,12 @@ h2 {
 @media (min-width: 1200px) {
   h2 {
     font-size: 3.75rem;
+  }
+}
+
+@media (max-width: 767px) {
+  h2 {
+    line-height: 3rem;
   }
 }
 
@@ -13646,17 +13658,8 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-color: rgba(0, 58, 112, 0.3);
+  background-color: rgba(0, 58, 112, 0);
   background-blend-mode: multiply;
-}
-
-.box-cover-light_blue {
-  background: #0077c8 !important;
-  background: linear-gradient(
-    30deg,
-    #0077c8 0%,
-    rgba(0, 119, 200, 0) 100%
-  ) !important;
 }
 
 .exarea {

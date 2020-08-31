@@ -706,7 +706,7 @@ Creation Date: 12/20/2018
 
 	                    </div>
 
-
+                        <a name="altaformazione"></a>
 	                    <div class="row">
 	                        <div class="col-xs-12 my-24 my-md-48">
 	                            <h3><?php echo $altaformazione[ICL_LANGUAGE_CODE] ?></h3>
