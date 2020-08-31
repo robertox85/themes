@@ -251,67 +251,60 @@ bloginfo('name');
     <div id="site-wrapper">
         <div id="site-canvas">
 
+
             <!-- DESKTOP -->
-            <header id="masthead" class="d-none d-lg-block pb-24 pl-0">
-                <div class="container">
-                    <div class="row">
-                        <div id="mobile-menu-trigger">
-
-                            <a class="main-menu-toggle menu-icon" title="apri il menu"><span></span>
-                            </a>
-
-
+            <header id="masthead" class="d-none d-lg-block">
+                <div class="container px-0 pt-16 pb-24">
+                    <div class="d-flex flex-row align-items-center justify-content-between">
+                        <div class="header-first-block">
+                            <div class="" id="logo">
+                                <a href="<?php echo network_home_url() ?>" title="Home page">
+                                    <img src="<?php echo site_url(); ?>/wp-content/themes/master_2017/img/logo-new-2.png"
+                                        alt="Luiss Business School Logo" id="logo-img" />
+                                </a>
+                            </div>
                         </div>
-                        <div class="col-xs-4 col-sm-4 col-md-4" id="logo">
-                            <a href="<?php echo network_home_url() ?>" title="Home page">
-                                <img src="<?php echo site_url() ?>/wp-content/themes/master_2017/img/logo-new.png"
+                        <div class="header-second-block">
+                            <nav id="secondary-nav" class="">
+                                <ul>
+                                    <li><a href="http://www.luiss.it/">Luiss.it</a></li>
+                                    <li><a href="javascript:void(0)" id="network-offcanvas-trigger">Luiss Network</a>
+                                    </li>
+                                    <li><a href="<?php echo get_site_url() ?>/milano"><strong>Milano</strong></a></li>
+                                    <li><a href="<?php echo get_site_url() ?>/belluno"><strong>Belluno</strong></a></li>
+                                </ul>
+                            </nav>
+                            <?php language_selector_flags();?>
+                        </div>
+                    </div>
+                </div>
+                <!-- END .container -->
+            </header>
+
+            <!-- MOBILE -->
+            <header id="masthead" class="d-lg-none">
+                <div class="container px-0 py-16">
+                    <div class="d-flex align-items-center flex-row justify-content-between">
+                        <div class="header-first-block">
+                            <a class="main-menu-toggle hamburger  hamburger--collapse" type="button">
+                                <span class="hamburger-box">
+                                    <span class="hamburger-inner"></span>
+                                </span>
+                            </a>
+                            <a class="" href="<?php echo network_home_url() ?>" title="Home page">
+                                <img src="<?php echo site_url(); ?>/wp-content/themes/master_2017/img/logo-new-2.png"
                                     alt="Luiss Business School Logo" id="logo-img" />
                             </a>
                         </div>
-                        <nav id="secondary-nav" class="col-md-6">
-                            <ul>
-                                <li><a href="http://www.luiss.it/">Luiss.it</a></li>
-                                <li><a href="javascript:void(0)" id="network-offcanvas-trigger">Luiss Network</a></li>
-                                <li><a href="https://businessschool.luiss.it/milano"><strong>Milano</strong></a></li>
-                                <li><a href="https://businessschool.luiss.it/belluno"><strong>Belluno</strong></a></li>
-                            </ul>
-                        </nav>
-                        <div class="col-md-2">
+                        <div class="header-second-block">
                             <?php language_selector_flags();?>
                         </div>
-
                     </div>
-                    <!-- END .row -->
                 </div>
                 <!-- END .container -->
             </header>
 
-
-
-
-            <!-- MOBILE -->
-            <header id="masthead" class="d-block d-lg-none pb-24 pl-0 shadow-bottom">
-                <div class="container">
-                    <div class="row d-flex align-items-center">
-
-
-                        <a class="col-xs-1 main-menu-toggle hamburger  hamburger--collapse" type="button">
-                            <span class="hamburger-box">
-                                <span class="hamburger-inner"></span>
-                            </span>
-                        </a>
-
-                        <a class="col-xs-8 mx-24 mx-md-0" href="<?php echo site_url() ?>" title="Home page">
-                            <img src="<?php echo site_url() ?>/wp-content/themes/master_2017/img/logo-new.png"
-                                alt="Luiss Business School Logo" id="logo-img" />
-                        </a>
-
-                        <?php language_selector_flags();?>
-                    </div>
-                    <!-- END .row -->
-                </div>
-                <!-- END .container -->
-            </header>
+            
 
             <!-- // Navigation bar to use in single pages (nav-it.php) -->
             <?php get_template_part('nav', 'it');  ?>

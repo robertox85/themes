@@ -5,7 +5,8 @@
                 <ul id="menu-main" class="menu">
                     <li id="menu-item-18913"
                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-17358 current_page_item menu-item-18913">
-                        <a href="https://businessschool.luiss.it/">Home</a></li>
+                        <a href="https://businessschool.luiss.it/">Home</a>
+                    </li>
                     <li id="menu-item-18890"
                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-18890">
                         <a href="https://businessschool.luiss.it/perche-luiss-bs/">Perché LUISS Business School</a>
@@ -116,11 +117,13 @@
                     <li id="menu-item-34570"
                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34570 "><a
                             href="/belluno">BELLUNO</a></li>
-                    
-                    <li id="menu-item-36564" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36564"><a href="https://businessschool.luiss.it/meet-us-online/">MEET US ONLINE</a></li>
+
+                    <li id="menu-item-36564"
+                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36564"><a
+                            href="https://businessschool.luiss.it/meet-us-online/">MEET US ONLINE</a></li>
                 </ul>
 
-                
+
                 <ul class="list-unstyled secondary-nav d-inline-block d-lg-none w-100 m-0">
                     <li><a href="http://www.luiss.it/">Luiss.it</a></li>
                     <li><a href="javascript:void(0)" id="network-offcanvas-trigger">Luiss Network</a></li>
@@ -152,7 +155,7 @@
 
 
             </div>
-            
+
         </div>
         <!--END .row -->
     </div>

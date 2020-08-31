@@ -55,6 +55,39 @@
                 font-size: 1rem;
             }
         }
+
+        @media screen and (min-width: 992px){
+            #menu-main-container {
+                display: block !important;
+            }
+        }
+
+
+        /* CORREZIONI SEARCH BAR */
+        .gsc-search-button {
+            height: 5rem !important;
+            width: 16px !important;
+        }
+
+        
+
+        .gsc-input-box {
+            margin: 0 0 0 16px !important;
+        }
+
+        
+
+        .gsib_b {
+            display: none !important;
+        }
+
+        
+
+        button.gsc-search-button.gsc-search-button-v2 {
+            display: none !important;
+        }
+        /* FINE */
+
         .shadow-top{
             box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.75);
             z-index: 1;
@@ -199,6 +232,9 @@
             border-bottom: 1px solid $blue;
             background-color: transparent!important;
         }
+
+        
+
         .site-main {
             h1,
             h2,

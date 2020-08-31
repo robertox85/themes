@@ -12522,6 +12522,8 @@ body.theme-blue {
   overflow-x: hidden;
   font-family: 'Luiss Sans', sans-serif !important;
   font-weight: normal;
+  /* CORREZIONI SEARCH BAR */
+  /* FINE */
 }
 
 body.theme-blue h1,
@@ -12555,6 +12557,29 @@ body.theme-blue #menu-main li {
 
 body.theme-blue #menu-main li > a {
   font-size: 1rem;
+}
+
+@media screen and (min-width: 992px) {
+  body.theme-blue #menu-main-container {
+    display: block !important;
+  }
+}
+
+body.theme-blue .gsc-search-button {
+  height: 5rem !important;
+  width: 16px !important;
+}
+
+body.theme-blue .gsc-input-box {
+  margin: 0 0 0 16px !important;
+}
+
+body.theme-blue .gsib_b {
+  display: none !important;
+}
+
+body.theme-blue button.gsc-search-button.gsc-search-button-v2 {
+  display: none !important;
 }
 
 body.theme-blue .shadow-top {
@@ -13482,6 +13507,8 @@ body.theme-light_blue {
   overflow-x: hidden;
   font-family: 'Luiss Sans', sans-serif !important;
   font-weight: normal;
+  /* CORREZIONI SEARCH BAR */
+  /* FINE */
 }
 
 body.theme-light_blue h1,
@@ -13515,6 +13542,29 @@ body.theme-light_blue #menu-main li {
 
 body.theme-light_blue #menu-main li > a {
   font-size: 1rem;
+}
+
+@media screen and (min-width: 992px) {
+  body.theme-light_blue #menu-main-container {
+    display: block !important;
+  }
+}
+
+body.theme-light_blue .gsc-search-button {
+  height: 5rem !important;
+  width: 16px !important;
+}
+
+body.theme-light_blue .gsc-input-box {
+  margin: 0 0 0 16px !important;
+}
+
+body.theme-light_blue .gsib_b {
+  display: none !important;
+}
+
+body.theme-light_blue button.gsc-search-button.gsc-search-button-v2 {
+  display: none !important;
 }
 
 body.theme-light_blue .shadow-top {
@@ -14442,6 +14492,8 @@ body.theme-green {
   overflow-x: hidden;
   font-family: 'Luiss Sans', sans-serif !important;
   font-weight: normal;
+  /* CORREZIONI SEARCH BAR */
+  /* FINE */
 }
 
 body.theme-green h1,
@@ -14475,6 +14527,29 @@ body.theme-green #menu-main li {
 
 body.theme-green #menu-main li > a {
   font-size: 1rem;
+}
+
+@media screen and (min-width: 992px) {
+  body.theme-green #menu-main-container {
+    display: block !important;
+  }
+}
+
+body.theme-green .gsc-search-button {
+  height: 5rem !important;
+  width: 16px !important;
+}
+
+body.theme-green .gsc-input-box {
+  margin: 0 0 0 16px !important;
+}
+
+body.theme-green .gsib_b {
+  display: none !important;
+}
+
+body.theme-green button.gsc-search-button.gsc-search-button-v2 {
+  display: none !important;
 }
 
 body.theme-green .shadow-top {
@@ -15402,6 +15477,8 @@ body.theme-red {
   overflow-x: hidden;
   font-family: 'Luiss Sans', sans-serif !important;
   font-weight: normal;
+  /* CORREZIONI SEARCH BAR */
+  /* FINE */
 }
 
 body.theme-red h1,
@@ -15435,6 +15512,29 @@ body.theme-red #menu-main li {
 
 body.theme-red #menu-main li > a {
   font-size: 1rem;
+}
+
+@media screen and (min-width: 992px) {
+  body.theme-red #menu-main-container {
+    display: block !important;
+  }
+}
+
+body.theme-red .gsc-search-button {
+  height: 5rem !important;
+  width: 16px !important;
+}
+
+body.theme-red .gsc-input-box {
+  margin: 0 0 0 16px !important;
+}
+
+body.theme-red .gsib_b {
+  display: none !important;
+}
+
+body.theme-red button.gsc-search-button.gsc-search-button-v2 {
+  display: none !important;
 }
 
 body.theme-red .shadow-top {
@@ -16362,6 +16462,8 @@ body.theme-orange {
   overflow-x: hidden;
   font-family: 'Luiss Sans', sans-serif !important;
   font-weight: normal;
+  /* CORREZIONI SEARCH BAR */
+  /* FINE */
 }
 
 body.theme-orange h1,
@@ -16395,6 +16497,29 @@ body.theme-orange #menu-main li {
 
 body.theme-orange #menu-main li > a {
   font-size: 1rem;
+}
+
+@media screen and (min-width: 992px) {
+  body.theme-orange #menu-main-container {
+    display: block !important;
+  }
+}
+
+body.theme-orange .gsc-search-button {
+  height: 5rem !important;
+  width: 16px !important;
+}
+
+body.theme-orange .gsc-input-box {
+  margin: 0 0 0 16px !important;
+}
+
+body.theme-orange .gsib_b {
+  display: none !important;
+}
+
+body.theme-orange button.gsc-search-button.gsc-search-button-v2 {
+  display: none !important;
 }
 
 body.theme-orange .shadow-top {
@@ -17322,6 +17447,8 @@ body.theme-gold {
   overflow-x: hidden;
   font-family: 'Luiss Sans', sans-serif !important;
   font-weight: normal;
+  /* CORREZIONI SEARCH BAR */
+  /* FINE */
 }
 
 body.theme-gold h1,
@@ -17355,6 +17482,29 @@ body.theme-gold #menu-main li {
 
 body.theme-gold #menu-main li > a {
   font-size: 1rem;
+}
+
+@media screen and (min-width: 992px) {
+  body.theme-gold #menu-main-container {
+    display: block !important;
+  }
+}
+
+body.theme-gold .gsc-search-button {
+  height: 5rem !important;
+  width: 16px !important;
+}
+
+body.theme-gold .gsc-input-box {
+  margin: 0 0 0 16px !important;
+}
+
+body.theme-gold .gsib_b {
+  display: none !important;
+}
+
+body.theme-gold button.gsc-search-button.gsc-search-button-v2 {
+  display: none !important;
 }
 
 body.theme-gold .shadow-top {
