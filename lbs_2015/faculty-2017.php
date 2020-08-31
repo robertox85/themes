@@ -57,12 +57,12 @@ get_header( 2017 );
             <div class="col-md-5 offset-md-1 section-title pt-48 pt-md-64">
                 <img src="<?php echo site_url() ?>/wp-content/uploads/2017/05/Faculty.jpg" alt="Faculty" class="img-responsive">
                 <h6 class="color__white py-24">Faculty</h6>
-                <a class="button button__primary bg__gold color__white" href="<?php echo get_field('link_tuti_i_docenti') ?>"><?php echo get_field('etichetta_tutti_i_docenti') ?></a>
+                <a class="hp button button__primary bg__gold color__white" href="<?php echo get_field('link_tuti_i_docenti') ?>"><?php echo get_field('etichetta_tutti_i_docenti') ?></a>
             </div>
             <div class="col-md-5 section-title pt-48 pt-md-64">
                 <img src="<?php echo site_url() ?>/wp-content/uploads/2017/05/AdjunctFaculty.jpg" alt="Faculty" class="img-responsive">
                 <h6 class="color__white py-24">Adjunt Faculty</h6>
-                <a class="button button__primary bg__gold color__white" href="<?php echo get_field('link_tuti_i_docenti_adjunt') ?>"><?php echo get_field('etichetta_tutti_i_docenti_adjunt') ?></a>
+                <a class="hp button button__primary bg__gold color__white" href="<?php echo get_field('link_tuti_i_docenti_adjunt') ?>"><?php echo get_field('etichetta_tutti_i_docenti_adjunt') ?></a>
             </div>
         </div>
     </div>
@@ -89,7 +89,7 @@ get_header( 2017 );
         </div>
                 <form style="align-items:baseline; width: 100%" action="/faculty-research/docenti/" method="get" class="d-flex flex-row align-items-stretch justify-content-between">
                 <input type="text" class="live-search" name="docente" id="search-query" value="" style="width:75%; height:auto" />
-                <button type="submit" class="button button__primary bg__white color__blue" style="width: 20%; margin-bottom:0;">
+                <button type="submit" class="hp button button__primary bg__white color__blue" style="width: 20%; margin-bottom:0;">
                 <?php echo $search_button_text[ICL_LANGUAGE_CODE]  ?>
                 </button>
                 <div id="live-search-output"></div>

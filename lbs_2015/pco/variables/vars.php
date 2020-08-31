@@ -131,13 +131,13 @@ $durata_16[ 'en' ] = '16 months';
 ?>
 
 <?php $durata_17 = array();
-$durata_16[ 'it' ] = '17 mesi';
-$durata_16[ 'en' ] = '17 months';
+$durata_17[ 'it' ] = '17 mesi';
+$durata_17[ 'en' ] = '17 months';
 ?>
 
 <?php $durata_22 = array();
-$durata_16[ 'it' ] = '17 mesi';
-$durata_16[ 'en' ] = '17 months';
+$durata_22[ 'it' ] = '17 mesi';
+$durata_22[ 'en' ] = '17 months';
 ?>
 
 	<?php $durata_full = array();
@@ -232,14 +232,14 @@ $inizio_mba_1[ 'it' ] = '19 Ott 2020';
 $inizio_mba_1[ 'en' ] = 'Oct 19, 2020';
 ?>
 	<!-- Programma -->
-	<?php $link_site_mbar_1 = array();
-$link_site_mba_1[ 'it' ] = '/mba/';
-$link_site_mba_1[ 'en' ] = '/mba/';
+	<?php $link_site_mba_1 = array();
+$link_site_mba_1[ 'it' ] = site_url().site_url().'/mba/';
+$link_site_mba_1[ 'en' ] = site_url().site_url().'/mba/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_mba_1 = array();
-$link_brochure_mba_1[ 'it' ] = '/mba/download-brochure/';
-$link_brochure_mba_1[ 'en' ] = '/mba/download-brochure/';
+$link_brochure_mba_1[ 'it' ] = site_url().site_url().'/mba/download-brochure/';
+$link_brochure_mba_1[ 'en' ] = site_url().site_url().'/mba/download-brochure/';
 ?>
 
 <!-- MBA 2 -->
@@ -261,13 +261,13 @@ $inizio_mba_2[ 'en' ] = 'Mar 2021';
 ?>
 	<!-- Programma -->
 <?php $link_site_mba_2 = array();
-$link_site_mba_2[ 'it' ] =  '/mba-part-time/';
-$link_site_mba_2[ 'en' ] = '/mba-part-time/';
+$link_site_mba_2[ 'it' ] =  site_url().'/mba-part-time/';
+$link_site_mba_2[ 'en' ] = site_url().'/mba-part-time/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_mba_2 = array();
-$link_brochure_mba_2[ 'it' ] = '/mba-part-time/download-brochure/';
-$link_brochure_mba_2[ 'en' ] = '/mba-part-time/download-brochure/';
+$link_brochure_mba_2[ 'it' ] = site_url().'/mba-part-time/download-brochure/';
+$link_brochure_mba_2[ 'en' ] = site_url().'/mba-part-time/download-brochure/';
 ?>
 
 
@@ -289,14 +289,14 @@ $inizio_mba_3[ 'it' ] = '13 Nov 2020';
 $inizio_mba_3[ 'en' ] = 'Nov 13, 2020';
 ?>
 	<!-- Programma -->
-	<?php $link_site_mbar_3 = array();
-$link_site_mba_3[ 'it' ] = '/mba-milan/';
-$link_site_mba_3[ 'en' ] = '/mba-milan/';
+	<?php $link_site_mba_3 = array();
+$link_site_mba_3[ 'it' ] = site_url().'/mba-milan/';
+$link_site_mba_3[ 'en' ] = site_url().'/mba-milan/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_mba_3 = array();
-$link_brochure_mba_3[ 'it' ] = '/mba-milan/download-brochure/';
-$link_brochure_mba_3[ 'en' ] = '/mba-milan/download-brochure/';
+$link_brochure_mba_3[ 'it' ] = site_url().'/mba-milan/download-brochure/';
+$link_brochure_mba_3[ 'en' ] = site_url().'/mba-milan/download-brochure/';
 ?>
 
 
@@ -318,14 +318,14 @@ $inizio_mba_4[ 'it' ] = '26 Giu 2020';
 $inizio_mba_4[ 'en' ] = 'Jun 26, 2020';
 ?>
 	<!-- Programma -->
-	<?php $link_site_mbar_4 = array();
-$link_site_mba_4[ 'it' ] = '/emba/';
-$link_site_mba_4[ 'en' ] = '/emba/';
+	<?php $link_site_mba_4 = array();
+$link_site_mba_4[ 'it' ] = site_url().'/emba/';
+$link_site_mba_4[ 'en' ] = site_url().'/emba/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_mba_4 = array();
-$link_brochure_mba_4[ 'it' ] = '/emba/brochure/';
-$link_brochure_mba_4[ 'en' ] = '/emba/brochure/';
+$link_brochure_mba_4[ 'it' ] = site_url().'/emba/brochure/';
+$link_brochure_mba_4[ 'en' ] = site_url().'/emba/brochure/';
 ?>
 
 
@@ -347,14 +347,14 @@ $inizio_mba_5[ 'it' ] = 'Feb 2021';
 $inizio_mba_5[ 'en' ] = 'Feb 2021';
 ?>
 	<!-- Programma -->
-	<?php $link_site_mbar_5 = array();
-$link_site_mba_5[ 'it' ] = '/flex-emba/';
-$link_site_mba_5[ 'en' ] = '/flex-emba/';
+	<?php $link_site_mba_5 = array();
+$link_site_mba_5[ 'it' ] = site_url().'/flex-emba/';
+$link_site_mba_5[ 'en' ] = site_url().'/flex-emba/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_mba_5 = array();
-$link_brochure_mba_5[ 'it' ] = '/flex-emba/download-brochure/';
-$link_brochure_mba_5[ 'en' ] = '/flex-emba/download-brochure/';
+$link_brochure_mba_5[ 'it' ] = site_url().'/flex-emba/download-brochure/';
+$link_brochure_mba_5[ 'en' ] = site_url().'/flex-emba/download-brochure/';
 ?>
 
 
@@ -379,13 +379,13 @@ $inizio_master_1[ 'en' ] = 'Set 21, 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_1 = array();
-$link_site_master_1[ 'it' ] = '/international-management/';
-$link_site_master_1[ 'en' ] = '/international-management/';
+$link_site_master_1[ 'it' ] = site_url().'/international-management/';
+$link_site_master_1[ 'en' ] = site_url().'/international-management/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_1 = array();
-$link_brochure_master_1[ 'it' ] = '/international-management/download-brochure/';
-$link_brochure_master_1[ 'en' ] = '/international-management/download-brochure/';
+$link_brochure_master_1[ 'it' ] = site_url().'/international-management/download-brochure/';
+$link_brochure_master_1[ 'en' ] = site_url().'/international-management/download-brochure/';
 ?>
 
 	<!-- Master 2 -->
@@ -407,13 +407,13 @@ $inizio_master_2[ 'en' ] = 'Set 21, 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_2 = array();
-$link_site_master_2[ 'it' ] = '/management-energy-industry/download-brochure/';
-$link_site_master_2[ 'en' ] = '/management-energy-industry/download-brochure/';
+$link_site_master_2[ 'it' ] = site_url().'/management-energy-industry/download-brochure/';
+$link_site_master_2[ 'en' ] = site_url().'/management-energy-industry/download-brochure/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_2 = array();
-$link_brochure_master_2[ 'it' ] = '/management-energy-industry/download-brochure/';
-$link_brochure_master_2[ 'en' ] = '/management-energy-industry/download-brochure/';
+$link_brochure_master_2[ 'it' ] = site_url().'/management-energy-industry/download-brochure/';
+$link_brochure_master_2[ 'en' ] = site_url().'/management-energy-industry/download-brochure/';
 ?>
 
 	<!-- Master 3 -->
@@ -435,13 +435,13 @@ $inizio_master_3[ 'en' ] = 'Set 21, 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_3 = array();
-$link_site_master_3[ 'it' ] = '/management-technology-risk-management-insurance/';
-$link_site_master_3[ 'en' ] = '/management-technology-risk-management-insurance/';
+$link_site_master_3[ 'it' ] = site_url().'/management-technology-risk-management-insurance/';
+$link_site_master_3[ 'en' ] = site_url().'/management-technology-risk-management-insurance/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_3 = array();
-$link_brochure_master_3[ 'it' ] = '/management-technology-risk-management-insurance/download-brochure/';
-$link_brochure_master_3[ 'en' ] = '/management-technology-risk-management-insurance/download-brochure/';
+$link_brochure_master_3[ 'it' ] = site_url().'/management-technology-risk-management-insurance/download-brochure/';
+$link_brochure_master_3[ 'en' ] = site_url().'/management-technology-risk-management-insurance/download-brochure/';
 ?>
 
 	<!-- Master 4 -->
@@ -463,13 +463,13 @@ $inizio_master_4[ 'en' ] = 'Set 21, 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_4 = array();
-$link_site_master_4[ 'it' ] = '/macofin/';
-$link_site_master_4[ 'en' ] = '/macofin/';
+$link_site_master_4[ 'it' ] = site_url().'/macofin/';
+$link_site_master_4[ 'en' ] = site_url().'/macofin/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_4 = array();
-$link_brochure_master_4[ 'it' ] = '/macofin/download-brochure-master-macofin/';
-$link_brochure_master_4[ 'en' ] = '/macofin/download-brochure-master-macofin/';
+$link_brochure_master_4[ 'it' ] = site_url().'/macofin/download-brochure-master-macofin/';
+$link_brochure_master_4[ 'en' ] = site_url().'/macofin/download-brochure-master-macofin/';
 ?>
 
 	<!-- Master 5 -->
@@ -491,13 +491,13 @@ $inizio_master_5[ 'en' ] = 'Oct 26, 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_5 = array();
-$link_site_master_5[ 'it' ] = '/corporate-finance-banking-major-banking/';
-$link_site_master_5[ 'en' ] = '/corporate-finance-banking-major-banking/';
+$link_site_master_5[ 'it' ] = site_url().'/corporate-finance-banking-major-banking/';
+$link_site_master_5[ 'en' ] = site_url().'/corporate-finance-banking-major-banking/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_5 = array();
-$link_brochure_master_5[ 'it' ] = '/corporate-finance-banking-major-banking/download-brochure/';
-$link_brochure_master_5[ 'en' ] = '/corporate-finance-banking-major-banking/download-brochure/';
+$link_brochure_master_5[ 'it' ] = site_url().'/corporate-finance-banking-major-banking/download-brochure/';
+$link_brochure_master_5[ 'en' ] = site_url().'/corporate-finance-banking-major-banking/download-brochure/';
 ?>
 
 	<!-- Master 6 -->
@@ -519,13 +519,13 @@ $inizio_master_6[ 'en' ] = 'Oct 26, 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_6 = array();
-$link_site_master_6[ 'it' ] = '/corporare-finance-banking-major-finanza-aziendale/';
-$link_site_master_6[ 'en' ] = '/corporare-finance-banking-major-finanza-aziendale/';
+$link_site_master_6[ 'it' ] = site_url().'/corporare-finance-banking-major-finanza-aziendale/';
+$link_site_master_6[ 'en' ] = site_url().'/corporare-finance-banking-major-finanza-aziendale/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_6 = array();
-$link_brochure_master_6[ 'it' ] = '/corporare-finance-banking-major-finanza-aziendale/download-brochure/';
-$link_brochure_master_6[ 'en' ] = '/corporare-finance-banking-major-finanza-aziendale/download-brochure/';
+$link_brochure_master_6[ 'it' ] = site_url().'/corporare-finance-banking-major-finanza-aziendale/download-brochure/';
+$link_brochure_master_6[ 'en' ] = site_url().'/corporare-finance-banking-major-finanza-aziendale/download-brochure/';
 ?>
 
 	<!-- Master 7 -->
@@ -547,13 +547,13 @@ $inizio_master_7[ 'en' ] = 'Nov 9, 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_7 = array();
-$link_site_master_7[ 'it' ] = '/corporare-finance-banking-major-finanza-aziendale/';
-$link_site_master_7[ 'en' ] = '/corporare-finance-banking-major-finanza-aziendale/';
+$link_site_master_7[ 'it' ] = site_url().'/corporare-finance-banking-major-finanza-aziendale/';
+$link_site_master_7[ 'en' ] = site_url().'/corporare-finance-banking-major-finanza-aziendale/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_7 = array();
-$link_brochure_master_7[ 'it' ] = '/corporare-finance-banking-major-finanza-aziendale/download-brochure/';
-$link_brochure_master_7[ 'en' ] = '/corporare-finance-banking-major-finanza-aziendale/download-brochure/';
+$link_brochure_master_7[ 'it' ] = site_url().'/corporare-finance-banking-major-finanza-aziendale/download-brochure/';
+$link_brochure_master_7[ 'en' ] = site_url().'/corporare-finance-banking-major-finanza-aziendale/download-brochure/';
 ?>
 
 	<!-- Master 8 -->
@@ -603,13 +603,13 @@ $inizio_master_9[ 'en' ] = 'Set 21, 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_9 = array();
-$link_site_master_9[ 'it' ] = '/management-technology-digital-ecosystem/';
-$link_site_master_9[ 'en' ] = '/management-technology-digital-ecosystem/';
+$link_site_master_9[ 'it' ] = site_url().'/management-technology-digital-ecosystem/';
+$link_site_master_9[ 'en' ] = site_url().'/management-technology-digital-ecosystem/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_9 = array();
-$link_brochure_master_9[ 'it' ] = '/management-technology-digital-ecosystem/download-brochure/';
-$link_brochure_master_9[ 'en' ] = '/management-technology-digital-ecosystem/download-brochure/';
+$link_brochure_master_9[ 'it' ] = site_url().'/management-technology-digital-ecosystem/download-brochure/';
+$link_brochure_master_9[ 'en' ] = site_url().'/management-technology-digital-ecosystem/download-brochure/';
 ?>
 
 	<!-- Master 10 -->
@@ -631,13 +631,13 @@ $inizio_master_10[ 'en' ] = 'Set 21, 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_10 = array();
-$link_site_master_10[ 'it' ] = '/global-supply-chain-management/';
-$link_site_master_10[ 'en' ] = '/global-supply-chain-management/';
+$link_site_master_10[ 'it' ] = site_url().'/global-supply-chain-management/';
+$link_site_master_10[ 'en' ] = site_url().'/global-supply-chain-management/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_10 = array();
-$link_brochure_master_10[ 'it' ] = '/global-supply-chain-management/download-brochure/';
-$link_brochure_master_10[ 'en' ] = '/global-supply-chain-management/download-brochure/';
+$link_brochure_master_10[ 'it' ] = site_url().'/global-supply-chain-management/download-brochure/';
+$link_brochure_master_10[ 'en' ] = site_url().'/global-supply-chain-management/download-brochure/';
 ?>
 
 <!-- Master 11 -->
@@ -659,13 +659,13 @@ $inizio_master_11[ 'en' ] = 'Oct 26, 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_11 = array();
-$link_site_master_11[ 'it' ] = '/disruptive-ma/';
-$link_site_master_11[ 'en' ] = '/disruptive-ma/';
+$link_site_master_11[ 'it' ] = site_url().'/disruptive-ma/';
+$link_site_master_11[ 'en' ] = site_url().'/disruptive-ma/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_11 = array();
-$link_brochure_master_11[ 'it' ] = '/disruptive-ma/download-brochure/';
-$link_brochure_master_11[ 'en' ] = '/disruptive-ma/download-brochure/';
+$link_brochure_master_11[ 'it' ] = site_url().'/disruptive-ma/download-brochure/';
+$link_brochure_master_11[ 'en' ] = site_url().'/disruptive-ma/download-brochure/';
 ?>
 
 	<!-- Master 12 -->
@@ -687,13 +687,13 @@ $inizio_master_12[ 'en' ] = 'Nov 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_12 = array();
-$link_site_master_12[ 'it' ] = '/digital-business-strategy/';
-$link_site_master_12[ 'en' ] = '/digital-business-strategy/';
+$link_site_master_12[ 'it' ] = site_url().'/digital-business-strategy/';
+$link_site_master_12[ 'en' ] = site_url().'/digital-business-strategy/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_12 = array();
-$link_brochure_master_12[ 'it' ] = '/digital-business-strategy/download-brochure/';
-$link_brochure_master_12[ 'en' ] = '/digital-business-strategy/download-brochure/';
+$link_brochure_master_12[ 'it' ] = site_url().'/digital-business-strategy/download-brochure/';
+$link_brochure_master_12[ 'en' ] = site_url().'/digital-business-strategy/download-brochure/';
 ?>
 
 	<!-- Master 13 -->
@@ -715,13 +715,13 @@ $inizio_master_13[ 'en' ] = 'Nov 9, 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_13 = array();
-$link_site_master_13[ 'it' ] = '/digital-business-strategy-belluno/download-brochure/';
-$link_site_master_13[ 'en' ] = '/digital-business-strategy-belluno/download-brochure/';
+$link_site_master_13[ 'it' ] = site_url().'/digital-business-strategy-belluno/download-brochure/';
+$link_site_master_13[ 'en' ] = site_url().'/digital-business-strategy-belluno/download-brochure/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_13 = array();
-$link_brochure_master_13[ 'it' ] = '/digital-business-strategy-belluno//';
-$link_brochure_master_13[ 'en' ] = '/digital-business-strategy-belluno/';
+$link_brochure_master_13[ 'it' ] = site_url().'/digital-business-strategy-belluno//';
+$link_brochure_master_13[ 'en' ] = site_url().'/digital-business-strategy-belluno/';
 ?>
 
 	<!-- Master 14 -->
@@ -743,13 +743,13 @@ $inizio_master_14[ 'en' ] = 'Set 21, 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_14 = array();
-$link_site_master_14[ 'it' ] = '/master-of-fashion/';
-$link_site_master_14[ 'en' ] = '/master-of-fashion/';
+$link_site_master_14[ 'it' ] = site_url().'/master-of-fashion/';
+$link_site_master_14[ 'en' ] = site_url().'/master-of-fashion/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_14 = array();
-$link_brochure_master_14[ 'it' ] = '/master-of-fashion/download-brochure/';
-$link_brochure_master_14[ 'en' ] = '/master-of-fashion/download-brochure/';
+$link_brochure_master_14[ 'it' ] = site_url().'/master-of-fashion/download-brochure/';
+$link_brochure_master_14[ 'en' ] = site_url().'/master-of-fashion/download-brochure/';
 ?>
 
 	<!-- Master 15 -->
@@ -771,13 +771,13 @@ $inizio_master_15[ 'en' ] = 'Set 21, 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_15 = array();
-$link_site_master_15[ 'it' ] = '/master-of-luxury/';
-$link_site_master_15[ 'en' ] = '/master-of-luxury/';
+$link_site_master_15[ 'it' ] = site_url().'/master-of-luxury/';
+$link_site_master_15[ 'en' ] = site_url().'/master-of-luxury/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_15 = array();
-$link_brochure_master_15[ 'it' ] = '/master-of-luxury/download-brochure/';
-$link_brochure_master_15[ 'en' ] = '/master-of-luxury/download-brochure/';
+$link_brochure_master_15[ 'it' ] = site_url().'/master-of-luxury/download-brochure/';
+$link_brochure_master_15[ 'en' ] = site_url().'/master-of-luxury/download-brochure/';
 ?>
 
 	<!-- Master 16 -->
@@ -799,13 +799,13 @@ $inizio_master_16[ 'en' ] = 'Set 21, 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_16 = array();
-$link_site_master_16[ 'it' ] = '/tourism-management/';
-$link_site_master_16[ 'en' ] = '/tourism-management/';
+$link_site_master_16[ 'it' ] = site_url().'/tourism-management/';
+$link_site_master_16[ 'en' ] = site_url().'/tourism-management/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_16 = array();
-$link_brochure_master_16[ 'it' ] = '/tourism-management/download-brochure/';
-$link_brochure_master_16[ 'en' ] = '/tourism-management/download-brochure/';
+$link_brochure_master_16[ 'it' ] = site_url().'/tourism-management/download-brochure/';
+$link_brochure_master_16[ 'en' ] = site_url().'/tourism-management/download-brochure/';
 ?>
 
 	<!-- Master 17 -->
@@ -827,13 +827,13 @@ $inizio_master_17[ 'en' ] = 'Set 21, 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_17 = array();
-$link_site_master_17[ 'it' ] = '/tourism-management-belluno/';
-$link_site_master_17[ 'en' ] = '/tourism-management-belluno/';
+$link_site_master_17[ 'it' ] = site_url().'/tourism-management-belluno/';
+$link_site_master_17[ 'en' ] = site_url().'/tourism-management-belluno/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_17 = array();
-$link_brochure_master_17[ 'it' ] = '/tourism-management-belluno/download-brochure/';
-$link_brochure_master_17[ 'en' ] = '/tourism-management-belluno/download-brochure/';
+$link_brochure_master_17[ 'it' ] = site_url().'/tourism-management-belluno/download-brochure/';
+$link_brochure_master_17[ 'en' ] = site_url().'/tourism-management-belluno/download-brochure/';
 ?>
 
 	<!-- Master 18 -->
@@ -883,13 +883,13 @@ $inizio_master_19[ 'en' ] = 'Oct 26, 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_19 = array();
-$link_site_master_19[ 'it' ] = '/project-management/';
-$link_site_master_19[ 'en' ] = '/project-management/';
+$link_site_master_19[ 'it' ] = site_url().'/project-management/';
+$link_site_master_19[ 'en' ] = site_url().'/project-management/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_19 = array();
-$link_brochure_master_19[ 'it' ] = '/project-management/download-brochure/';
-$link_brochure_master_19[ 'en' ] = '/project-management/download-brochure/';
+$link_brochure_master_19[ 'it' ] = site_url().'/project-management/download-brochure/';
+$link_brochure_master_19[ 'en' ] = site_url().'/project-management/download-brochure/';
 ?>
 
 	<!-- Master 20 -->
@@ -911,13 +911,13 @@ $inizio_master_20[ 'en' ] = 'Oct 26, 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_20 = array();
-$link_site_master_20[ 'it' ] = '/project-management-cooperazione-internazionale/';
-$link_site_master_20[ 'en' ] = '/project-management-cooperazione-internazionale/';
+$link_site_master_20[ 'it' ] = site_url().'/project-management-cooperazione-internazionale/';
+$link_site_master_20[ 'en' ] = site_url().'/project-management-cooperazione-internazionale/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_20 = array();
-$link_brochure_master_20[ 'it' ] = '/project-management-cooperazione-internazionale/download-brochure/';
-$link_brochure_master_20[ 'en' ] = '/project-management-cooperazione-internazionale/download-brochure/';
+$link_brochure_master_20[ 'it' ] = site_url().'/project-management-cooperazione-internazionale/download-brochure/';
+$link_brochure_master_20[ 'en' ] = site_url().'/project-management-cooperazione-internazionale/download-brochure/';
 ?>
 
 	<!-- Master 21 -->
@@ -939,13 +939,13 @@ $inizio_master_21[ 'en' ] = 'TBD';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_21 = array();
-$link_site_master_21[ 'it' ] = '/entrepreneurship/';
-$link_site_master_21[ 'en' ] = '/entrepreneurship/';
+$link_site_master_21[ 'it' ] = site_url().'/entrepreneurship/';
+$link_site_master_21[ 'en' ] = site_url().'/entrepreneurship/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_21 = array();
-$link_brochure_master_21[ 'it' ] = '/entrepreneurship/download-brochure/';
-$link_brochure_master_21[ 'en' ] = '/entrepreneurship/download-brochure/';
+$link_brochure_master_21[ 'it' ] = site_url().'/entrepreneurship/download-brochure/';
+$link_brochure_master_21[ 'en' ] = site_url().'/entrepreneurship/download-brochure/';
 ?>
 
 	<!-- Master 22 -->
@@ -967,13 +967,13 @@ $inizio_master_22[ 'en' ] = 'Oct 26, 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_22 = array();
-$link_site_master_22[ 'it' ] = '/gruo/';
-$link_site_master_22[ 'en' ] = '/gruo/';
+$link_site_master_22[ 'it' ] = site_url().'/gruo/';
+$link_site_master_22[ 'en' ] = site_url().'/gruo/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_22 = array();
-$link_brochure_master_22[ 'it' ] = '/gruo/download-brochure/';
-$link_brochure_master_22[ 'en' ] = '/gruo/download-brochure/';
+$link_brochure_master_22[ 'it' ] = site_url().'/gruo/download-brochure/';
+$link_brochure_master_22[ 'en' ] = site_url().'/gruo/download-brochure/';
 ?>
 
 	<!-- Master 23 MILANO -->
@@ -995,13 +995,13 @@ $inizio_master_23[ 'en' ] = 'Nov 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_23 = array();
-$link_site_master_23[ 'it' ] = '/gruo/';
-$link_site_master_23[ 'en' ] = '/gruo/';
+$link_site_master_23[ 'it' ] = site_url().'/gruo/';
+$link_site_master_23[ 'en' ] = site_url().'/gruo/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_23 = array();
-$link_brochure_master_23[ 'it' ] = '/gruo/download-brochure/';
-$link_brochure_master_23[ 'en' ] = '/gruo/download-brochure/';
+$link_brochure_master_23[ 'it' ] = site_url().'/gruo/download-brochure/';
+$link_brochure_master_23[ 'en' ] = site_url().'/gruo/download-brochure/';
 ?>
 
 	<!-- Master 24 -->
@@ -1023,13 +1023,13 @@ $inizio_master_24[ 'en' ] = 'Oct 26, 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_24 = array();
-$link_site_master_24[ 'it' ] = '/diritto-tributario/';
-$link_site_master_24[ 'en' ] = '/diritto-tributario/';
+$link_site_master_24[ 'it' ] = site_url().'/diritto-tributario/';
+$link_site_master_24[ 'en' ] = site_url().'/diritto-tributario/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_24 = array();
-$link_brochure_master_24[ 'it' ] = '/diritto-tributario/download-brochure/';
-$link_brochure_master_24[ 'en' ] = '/diritto-tributario/download-brochure/';
+$link_brochure_master_24[ 'it' ] = site_url().'/diritto-tributario/download-brochure/';
+$link_brochure_master_24[ 'en' ] = site_url().'/diritto-tributario/download-brochure/';
 ?>
 
 	<!-- Master 25 -->
@@ -1051,13 +1051,13 @@ $inizio_master_25[ 'en' ] = 'Oct 26, 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_25 = array();
-$link_site_master_25[ 'it' ] = '/marketing-management-digital-marketing/';
-$link_site_master_25[ 'en' ] = '/marketing-management-digital-marketing/';
+$link_site_master_25[ 'it' ] = site_url().'/marketing-management-digital-marketing/';
+$link_site_master_25[ 'en' ] = site_url().'/marketing-management-digital-marketing/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_25 = array();
-$link_brochure_master_25[ 'it' ] = '/marketing-management-digital-marketing/download-brochure/';
-$link_brochure_master_25[ 'en' ] = '/marketing-management-digital-marketing/download-brochure/';
+$link_brochure_master_25[ 'it' ] = site_url().'/marketing-management-digital-marketing/download-brochure/';
+$link_brochure_master_25[ 'en' ] = site_url().'/marketing-management-digital-marketing/download-brochure/';
 ?>
 
 	<!-- Master 26 MILANO -->
@@ -1079,13 +1079,13 @@ $inizio_master_26[ 'en' ] = 'Nov 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_26 = array();
-$link_site_master_26[ 'it' ] = '/marketing-management-digital-marketing/';
-$link_site_master_26[ 'en' ] = '/marketing-management-digital-marketing/';
+$link_site_master_26[ 'it' ] = site_url().'/marketing-management-digital-marketing/';
+$link_site_master_26[ 'en' ] = site_url().'/marketing-management-digital-marketing/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_26 = array();
-$link_brochure_master_26[ 'it' ] = '/marketing-management-digital-marketing/download-brochure/';
-$link_brochure_master_26[ 'en' ] = '/marketing-management-digital-marketing/download-brochure/';
+$link_brochure_master_26[ 'it' ] = site_url().'/marketing-management-digital-marketing/download-brochure/';
+$link_brochure_master_26[ 'en' ] = site_url().'/marketing-management-digital-marketing/download-brochure/';
 ?>
 
 	<!-- Master 27 -->
@@ -1107,13 +1107,13 @@ $inizio_master_27[ 'en' ] = 'Oct 26, 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_27 = array();
-$link_site_master_27[ 'it' ] = '/marketing-management/';
-$link_site_master_27[ 'en' ] = '/marketing-management/';
+$link_site_master_27[ 'it' ] = site_url().'/marketing-management/';
+$link_site_master_27[ 'en' ] = site_url().'/marketing-management/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_27 = array();
-$link_brochure_master_27[ 'it' ] = '/marketing-management/downlaod-brochure/';
-$link_brochure_master_27[ 'en' ] = '/marketing-management/downlaod-brochure/';
+$link_brochure_master_27[ 'it' ] = site_url().'/marketing-management/downlaod-brochure/';
+$link_brochure_master_27[ 'en' ] = site_url().'/marketing-management/downlaod-brochure/';
 ?>
 
 	<!-- Master 28 MILANO -->
@@ -1135,13 +1135,13 @@ $inizio_master_28[ 'en' ] = 'Nov 9, 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_28 = array();
-$link_site_master_28[ 'it' ] = '/marketing-management/';
-$link_site_master_28[ 'en' ] = '/marketing-management/';
+$link_site_master_28[ 'it' ] = site_url().'/marketing-management/';
+$link_site_master_28[ 'en' ] = site_url().'/marketing-management/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_28 = array();
-$link_brochure_master_28[ 'it' ] = '/marketing-management/downlaod-brochure/';
-$link_brochure_master_28[ 'en' ] = '/marketing-management/downlaod-brochure/';
+$link_brochure_master_28[ 'it' ] = site_url().'/marketing-management/downlaod-brochure/';
+$link_brochure_master_28[ 'en' ] = site_url().'/marketing-management/downlaod-brochure/';
 ?>
 
 	<!-- Master 29 -->
@@ -1163,13 +1163,13 @@ $inizio_master_29[ 'en' ] = 'oct 26, 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_29 = array();
-$link_site_master_29[ 'it' ] = '/marketing-management-retailing-ecommerce/';
-$link_site_master_29[ 'en' ] = '/marketing-management-retailing-ecommerce/';
+$link_site_master_29[ 'it' ] = site_url().'/marketing-management-retailing-ecommerce/';
+$link_site_master_29[ 'en' ] = site_url().'/marketing-management-retailing-ecommerce/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_29 = array();
-$link_brochure_master_29[ 'it' ] = '/marketing-management-retailing-ecommerce/download-brochure/';
-$link_brochure_master_29[ 'en' ] = '/marketing-management-retailing-ecommerce/download-brochure/';
+$link_brochure_master_29[ 'it' ] = site_url().'/marketing-management-retailing-ecommerce/download-brochure/';
+$link_brochure_master_29[ 'en' ] = site_url().'/marketing-management-retailing-ecommerce/download-brochure/';
 ?>
 
 	<!-- Master 30 -->
@@ -1191,13 +1191,13 @@ $inizio_master_30[ 'en' ] = 'oct 26, 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_30 = array();
-$link_site_master_30[ 'it' ] = '/trade-management/';
-$link_site_master_30[ 'en' ] = '/trade-management/';
+$link_site_master_30[ 'it' ] = site_url().'/trade-management/';
+$link_site_master_30[ 'en' ] = site_url().'/trade-management/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_30 = array();
-$link_brochure_master_30[ 'it' ] = '/trade-management/download-brochure/';
-$link_brochure_master_30[ 'en' ] = '/trade-management/download-brochure/';
+$link_brochure_master_30[ 'it' ] = site_url().'/trade-management/download-brochure/';
+$link_brochure_master_30[ 'en' ] = site_url().'/trade-management/download-brochure/';
 ?>
 
 	<!-- Master 31 -->
@@ -1219,13 +1219,13 @@ $inizio_master_31[ 'en' ] = 'oct 26, 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_31 = array();
-$link_site_master_31[ 'it' ] = '/master-digital-export/';
-$link_site_master_31[ 'en' ] = '/master-digital-export/';
+$link_site_master_31[ 'it' ] = site_url().'/master-digital-export/';
+$link_site_master_31[ 'en' ] = site_url().'/master-digital-export/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_31 = array();
-$link_brochure_master_31[ 'it' ] = '/master-digital-export/download-brochure/';
-$link_brochure_master_31[ 'en' ] = '/master-digital-export/download-brochure/';
+$link_brochure_master_31[ 'it' ] = site_url().'/master-digital-export/download-brochure/';
+$link_brochure_master_31[ 'en' ] = site_url().'/master-digital-export/download-brochure/';
 ?>
 
 	<!-- Master 32 -->
@@ -1247,13 +1247,13 @@ $inizio_master_32[ 'en' ] = 'Nov 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_32 = array();
-$link_site_master_32[ 'it' ] = '/pr-communication-event-management/';
-$link_site_master_32[ 'en' ] = '/pr-communication-event-management/';
+$link_site_master_32[ 'it' ] = site_url().'/pr-communication-event-management/';
+$link_site_master_32[ 'en' ] = site_url().'/pr-communication-event-management/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_32 = array();
-$link_brochure_master_32[ 'it' ] = '/pr-communication-event-management/download-brochure/';
-$link_brochure_master_32[ 'en' ] = '/pr-communication-event-management/download-brochure/';
+$link_brochure_master_32[ 'it' ] = site_url().'/pr-communication-event-management/download-brochure/';
+$link_brochure_master_32[ 'en' ] = site_url().'/pr-communication-event-management/download-brochure/';
 ?>
 
 	<!-- Master 33 -->
@@ -1275,13 +1275,13 @@ $sottotitolo_master_33[ 'en' ] = 'Major of the Master in Marketing Management';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_33 = array();
-$link_site_master_33[ 'it' ] = '/pr-communication-event-management/';
-$link_site_master_33[ 'en' ] = '/pr-communication-event-management/';
+$link_site_master_33[ 'it' ] = site_url().'/pr-communication-event-management/';
+$link_site_master_33[ 'en' ] = site_url().'/pr-communication-event-management/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_33 = array();
-$link_brochure_master_33[ 'it' ] = '/pr-communication-event-management/download-brochure/';
-$link_brochure_master_33[ 'en' ] = '/pr-communication-event-management/download-brochure/';
+$link_brochure_master_33[ 'it' ] = site_url().'/pr-communication-event-management/download-brochure/';
+$link_brochure_master_33[ 'en' ] = site_url().'/pr-communication-event-management/download-brochure/';
 ?>
 
 	<!-- Master 34 -->
@@ -1303,13 +1303,13 @@ $inizio_master_34[ 'en' ] = 'Set 21, 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_34 = array();
-$link_site_master_34[ 'it' ] = '/mabda/';
-$link_site_master_34[ 'en' ] = '/mabda/';
+$link_site_master_34[ 'it' ] = site_url().'/mabda/';
+$link_site_master_34[ 'en' ] = site_url().'/mabda/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_34 = array();
-$link_brochure_master_34[ 'it' ] = '/mabda/download-brochure/';
-$link_brochure_master_34[ 'en' ] = '/mabda/download-brochure/';
+$link_brochure_master_34[ 'it' ] = site_url().'/mabda/download-brochure/';
+$link_brochure_master_34[ 'en' ] = site_url().'/mabda/download-brochure/';
 ?>
 
 	<!-- Master 35 -->
@@ -1359,13 +1359,13 @@ $inizio_master_36[ 'en' ] = 'Nov 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_36 = array();
-$link_site_master_36[ 'it' ] = '/food-and-wine-business-belluno/';
-$link_site_master_36[ 'en' ] = '/food-and-wine-business-belluno/';
+$link_site_master_36[ 'it' ] = site_url().'/food-and-wine-business-belluno/';
+$link_site_master_36[ 'en' ] = site_url().'/food-and-wine-business-belluno/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_36 = array();
-$link_brochure_master_36[ 'it' ] = '/food-and-wine-business-belluno/download-brochure/';
-$link_brochure_master_36[ 'en' ] = '/food-and-wine-business-belluno/download-brochure/';
+$link_brochure_master_36[ 'it' ] = site_url().'/food-and-wine-business-belluno/download-brochure/';
+$link_brochure_master_36[ 'en' ] = site_url().'/food-and-wine-business-belluno/download-brochure/';
 ?>
 
 	<!-- Master 37 -->
@@ -1387,13 +1387,13 @@ $inizio_master_37[ 'en' ] = 'Jan 2021';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_37 = array();
-$link_site_master_37[ 'it' ] = '/master-food-wine/';
-$link_site_master_37[ 'en' ] = '/master-food-wine/';
+$link_site_master_37[ 'it' ] = site_url().'/master-food-wine/';
+$link_site_master_37[ 'en' ] = site_url().'/master-food-wine/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_37 = array();
-$link_brochure_master_37[ 'it' ] = '/master-food-wine/download-brochure/';
-$link_brochure_master_37[ 'en' ] = '/master-food-wine/download-brochure/';
+$link_brochure_master_37[ 'it' ] = site_url().'/master-food-wine/download-brochure/';
+$link_brochure_master_37[ 'en' ] = site_url().'/master-food-wine/download-brochure/';
 ?>
 
 	<!-- Master 38 -->
@@ -1415,13 +1415,13 @@ $inizio_master_38[ 'en' ] = 'Jan 2021';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_38= array();
-$link_site_master_38[ 'it' ] = '/master-of-art/';
-$link_site_master_38[ 'en' ] = '/master-of-art/';
+$link_site_master_38[ 'it' ] = site_url().'/master-of-art/';
+$link_site_master_38[ 'en' ] = site_url().'/master-of-art/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_38 = array();
-$link_brochure_master_38[ 'it' ] = '/master-of-art/download-brochure/';
-$link_brochure_master_38[ 'en' ] = '/master-of-art/download-brochure/';
+$link_brochure_master_38[ 'it' ] = site_url().'/master-of-art/download-brochure/';
+$link_brochure_master_38[ 'en' ] = site_url().'/master-of-art/download-brochure/';
 ?>
 
 	<!-- Master 39 -->
@@ -1443,13 +1443,13 @@ $inizio_master_39[ 'en' ] = 'Jan 2021';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_39 = array();
-$link_site_master_39[ 'it' ] = '/master-of-music/';
-$link_site_master_39[ 'en' ] = '/master-of-music/';
+$link_site_master_39[ 'it' ] = site_url().'/master-of-music/';
+$link_site_master_39[ 'en' ] = site_url().'/master-of-music/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_39 = array();
-$link_brochure_master_39[ 'it' ] = '/master-of-music/download-brochure/';
-$link_brochure_master_39[ 'en' ] = '/master-of-music/download-brochure/';
+$link_brochure_master_39[ 'it' ] = site_url().'/master-of-music/download-brochure/';
+$link_brochure_master_39[ 'en' ] = site_url().'/master-of-music/download-brochure/';
 ?>
 
 	<!-- Master 40 -->
@@ -1499,13 +1499,13 @@ $inizio_master_41[ 'en' ] = 'Jan 2021';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_41 = array();
-$link_site_master_41[ 'it' ] = '/gestione-produzione-cinematografica/';
-$link_site_master_41[ 'en' ] = '/gestione-produzione-cinematografica/';
+$link_site_master_41[ 'it' ] = site_url().'/gestione-produzione-cinematografica/';
+$link_site_master_41[ 'en' ] = site_url().'/gestione-produzione-cinematografica/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_41 = array();
-$link_brochure_master_41[ 'it' ] = '/gestione-produzione-cinematografica/download-brochure/';
-$link_brochure_master_41[ 'en' ] = '/gestione-produzione-cinematografica/download-brochure/';
+$link_brochure_master_41[ 'it' ] = site_url().'/gestione-produzione-cinematografica/download-brochure/';
+$link_brochure_master_41[ 'en' ] = site_url().'/gestione-produzione-cinematografica/download-brochure/';
 ?>
 
 	<!-- Master 42 -->
@@ -1527,13 +1527,13 @@ $inizio_master_42[ 'en' ] = 'Jan 2021';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_42 = array();
-$link_site_master_42[ 'it' ] = '/writing-school-for-television/';
-$link_site_master_42[ 'en' ] = '/writing-school-for-television/';
+$link_site_master_42[ 'it' ] = site_url().'/writing-school-for-television/';
+$link_site_master_42[ 'en' ] = site_url().'/writing-school-for-television/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_42 = array();
-$link_brochure_master_42[ 'it' ] = '/writing-school-for-television/download-brochure/';
-$link_brochure_master_42[ 'en' ] = '/writing-school-for-television/download-brochure/';
+$link_brochure_master_42[ 'it' ] = site_url().'/writing-school-for-television/download-brochure/';
+$link_brochure_master_42[ 'en' ] = site_url().'/writing-school-for-television/download-brochure/';
 ?>
 
 	<!-- Master 43 -->
@@ -1555,13 +1555,13 @@ $inizio_master_43[ 'en' ] = 'TBD';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_43 = array();
-$link_site_master_43[ 'it' ] = '/relazioni-istituzionali-lobby-comunicazione-impresa/';
-$link_site_master_43[ 'en' ] = '/relazioni-istituzionali-lobby-comunicazione-impresa/';
+$link_site_master_43[ 'it' ] = site_url().'/relazioni-istituzionali-lobby-comunicazione-impresa/';
+$link_site_master_43[ 'en' ] = site_url().'/relazioni-istituzionali-lobby-comunicazione-impresa/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_43 = array();
-$link_brochure_master_43[ 'it' ] = '/relazioni-istituzionali-lobby-comunicazione-impresa/download-brochure/';
-$link_brochure_master_43[ 'en' ] = '/relazioni-istituzionali-lobby-comunicazione-impresa/download-brochure/';
+$link_brochure_master_43[ 'it' ] = site_url().'/relazioni-istituzionali-lobby-comunicazione-impresa/download-brochure/';
+$link_brochure_master_43[ 'en' ] = site_url().'/relazioni-istituzionali-lobby-comunicazione-impresa/download-brochure/';
 ?>
 
 	<!-- Master 44 -->
@@ -1583,13 +1583,13 @@ $inizio_master_44[ 'en' ] = 'Apr 16, 2021';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_44 = array();
-$link_site_master_44[ 'it' ] = '/openinnovation-ip/';
-$link_site_master_44[ 'en' ] = '/openinnovation-ip/';
+$link_site_master_44[ 'it' ] = site_url().'/openinnovation-ip/';
+$link_site_master_44[ 'en' ] = site_url().'/openinnovation-ip/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_44 = array();
-$link_brochure_master_44[ 'it' ] = '/openinnovation-ip/brochure/';
-$link_brochure_master_44[ 'en' ] = '/openinnovation-ip/brochure/';
+$link_brochure_master_44[ 'it' ] = site_url().'/openinnovation-ip/brochure/';
+$link_brochure_master_44[ 'en' ] = site_url().'/openinnovation-ip/brochure/';
 ?>
 
 	<!-- Master 45 Tipo EXECUTIVE MASTER-->
@@ -1611,13 +1611,13 @@ $inizio_master_45[ 'en' ] = 'Oct 23, 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_45 = array();
-$link_site_master_45[ 'it' ] = '/master-circular-economy/';
-$link_site_master_45[ 'en' ] = '/master-circular-economy/';
+$link_site_master_45[ 'it' ] = site_url().'/master-circular-economy/';
+$link_site_master_45[ 'en' ] = site_url().'/master-circular-economy/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_45 = array();
-$link_brochure_master_45[ 'it' ] = '/master-circular-economy/download-brochre/';
-$link_brochure_master_45[ 'en' ] = '/master-circular-economy/download-brochre/';
+$link_brochure_master_45[ 'it' ] = site_url().'/master-circular-economy/download-brochre/';
+$link_brochure_master_45[ 'en' ] = site_url().'/master-circular-economy/download-brochre/';
 ?>
 
 	<!-- Master 46 -->
@@ -1639,13 +1639,13 @@ $inizio_master_46[ 'en' ] = 'Mar 11, 2021';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_46 = array();
-$link_site_master_46[ 'it' ] = '/probiomed/';
-$link_site_master_46[ 'en' ] = '/probiomed/';
+$link_site_master_46[ 'it' ] = site_url().'/probiomed/';
+$link_site_master_46[ 'en' ] = site_url().'/probiomed/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_46 = array();
-$link_brochure_master_46[ 'it' ] = '/probiomed/brochure/';
-$link_brochure_master_46[ 'en' ] = '/probiomed/brochure/';
+$link_brochure_master_46[ 'it' ] = site_url().'/probiomed/brochure/';
+$link_brochure_master_46[ 'en' ] = site_url().'/probiomed/brochure/';
 ?>
 
 	<!-- Master 47 -->
@@ -1667,13 +1667,13 @@ $inizio_master_47[ 'en' ] = 'Oct 9, 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_47 = array();
-$link_site_master_47[ 'it' ] = '/management-aziende-sanitarie/';
-$link_site_master_47[ 'en' ] = '/management-aziende-sanitarie/';
+$link_site_master_47[ 'it' ] = site_url().'/management-aziende-sanitarie/';
+$link_site_master_47[ 'en' ] = site_url().'/management-aziende-sanitarie/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_47 = array();
-$link_brochure_master_47[ 'it' ] = '/management-aziende-sanitarie/download-brochure/';
-$link_brochure_master_47[ 'en' ] = '/management-aziende-sanitarie/download-brochure/';
+$link_brochure_master_47[ 'it' ] = site_url().'/management-aziende-sanitarie/download-brochure/';
+$link_brochure_master_47[ 'en' ] = site_url().'/management-aziende-sanitarie/download-brochure/';
 ?>
 
 	<!-- Master 48 -->
@@ -1695,13 +1695,13 @@ $inizio_master_48[ 'en' ] = 'Oct 9, 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_48 = array();
-$link_site_master_48[ 'it' ] = '/executive-master-pharmaceutical-healthcare-administration/';
-$link_site_master_48[ 'en' ] = '/executive-master-pharmaceutical-healthcare-administration/';
+$link_site_master_48[ 'it' ] = site_url().'/executive-master-pharmaceutical-healthcare-administration/';
+$link_site_master_48[ 'en' ] = site_url().'/executive-master-pharmaceutical-healthcare-administration/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_48 = array();
-$link_brochure_master_48[ 'it' ] = '/executive-master-pharmaceutical-healthcare-administration/download-brochure/';
-$link_brochure_master_48[ 'en' ] = '/executive-master-pharmaceutical-healthcare-administration/download-brochure/';
+$link_brochure_master_48[ 'it' ] = site_url().'/executive-master-pharmaceutical-healthcare-administration/download-brochure/';
+$link_brochure_master_48[ 'en' ] = site_url().'/executive-master-pharmaceutical-healthcare-administration/download-brochure/';
 ?>
 
 	<!-- Master 49 -->
@@ -1723,13 +1723,13 @@ $inizio_master_49[ 'en' ] = 'Oct 9, 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_49 = array();
-$link_site_master_49[ 'it' ] = '/master-sperimentazione-clinica/';
-$link_site_master_49[ 'en' ] = '/master-sperimentazione-clinica/';
+$link_site_master_49[ 'it' ] = site_url().'/master-sperimentazione-clinica/';
+$link_site_master_49[ 'en' ] = site_url().'/master-sperimentazione-clinica/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_49 = array();
-$link_brochure_master_49[ 'it' ] = '/master-sperimentazione-clinica/download-brochure/';
-$link_brochure_master_49[ 'en' ] = '/master-sperimentazione-clinica/download-brochure/';
+$link_brochure_master_49[ 'it' ] = site_url().'/master-sperimentazione-clinica/download-brochure/';
+$link_brochure_master_49[ 'en' ] = site_url().'/master-sperimentazione-clinica/download-brochure/';
 ?>
 
 	<!-- Master 50 -->
@@ -1781,13 +1781,13 @@ $inizio_programma_a1[ 'en' ] = 'Oct 26, 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_programma_a1 = array();
-$link_site_programma_a1[ 'it' ] = '/consulente-legale-impresa/';
-$link_site_programma_a1[ 'en' ] = '/consulente-legale-impresa/';
+$link_site_programma_a1[ 'it' ] = site_url().'/consulente-legale-impresa/';
+$link_site_programma_a1[ 'en' ] = site_url().'/consulente-legale-impresa/';
 ?>
 	<!-- Brochure -->
 	<?php $link__brochure_programma_a1 = array();
-$link_brochure_programma_a1[ 'it' ] = '/consulente-legale-impresa/download-brochure/';
-$link_brochure_programma_a1[ 'en' ] = '/consulente-legale-impresa/download-brochure/';
+$link_brochure_programma_a1[ 'it' ] = site_url().'/consulente-legale-impresa/download-brochure/';
+$link_brochure_programma_a1[ 'en' ] = site_url().'/consulente-legale-impresa/download-brochure/';
 ?>
 
 <!-- Programma A2 -->
@@ -1809,8 +1809,8 @@ $inizio_programma_a2[ 'en' ] = 'Nov 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_programma_a2 = array();
-$link_site_programma_a2[ 'it' ] = '/five-stars-hotel-management/';
-$link_site_programma_a2[ 'en' ] = '/five-stars-hotel-management/';
+$link_site_programma_a2[ 'it' ] = site_url().'/five-stars-hotel-management/';
+$link_site_programma_a2[ 'en' ] = site_url().'/five-stars-hotel-management/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_programma_a2 = array();
@@ -1837,8 +1837,8 @@ $inizio_programma_a3[ 'en' ] = 'TBD';
 ?>
 	<!-- Programma -->
 	<?php $link_site_programma_a3 = array();
-$link_site_programma_a3[ 'it' ] = '/executive-serie-televisiva-idea-mercato/';
-$link_site_programma_a3[ 'en' ] = '/executive-serie-televisiva-idea-mercato/';
+$link_site_programma_a3[ 'it' ] = site_url().'/executive-serie-televisiva-idea-mercato/';
+$link_site_programma_a3[ 'en' ] = site_url().'/executive-serie-televisiva-idea-mercato/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_programma_a3 = array();
@@ -1865,13 +1865,13 @@ $inizio_programma_a4[ 'en' ] = 'TBD';
 ?>
 	<!-- Programma -->
 	<?php $link_site_programma_a4 = array();
-$link_site_programma_a4[ 'it' ] = '/executive-spa-terme-wellness-management/';
-$link_site_programma_a4[ 'en' ] = '/executive-spa-terme-wellness-management/';
+$link_site_programma_a4[ 'it' ] = site_url().'/executive-spa-terme-wellness-management/';
+$link_site_programma_a4[ 'en' ] = site_url().'/executive-spa-terme-wellness-management/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_programma_a4 = array();
-$link_brochure_programma_a4[ 'it' ] = '/executive-spa-terme-wellness-management/download-brochure/';
-$link_brochure_programma_a4[ 'en' ] = '/executive-spa-terme-wellness-management/download-brochure/';
+$link_brochure_programma_a4[ 'it' ] = site_url().'/executive-spa-terme-wellness-management/download-brochure/';
+$link_brochure_programma_a4[ 'en' ] = site_url().'/executive-spa-terme-wellness-management/download-brochure/';
 ?>
 
 <!-- Fine variabili -->

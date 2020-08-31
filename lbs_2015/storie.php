@@ -61,7 +61,7 @@ $s++
 
 ?>
 
-            <div class="col-md-3 accordion-card my-24 my-md-48">
+            <div class="col-md-6 col-lg-3 px-0 accordion-card my-24 my-md-4">
 
                 <?php
 	$img_attr = array(
@@ -71,10 +71,11 @@ $s++
 	echo get_the_post_thumbnail($storia->ID, 'thumbnail',$img_attr);
 	
 	?>
-                <div class="card-content px-24 pt-48 pb-24">
+
+                <div class="card-content p-24">
                     <h6 class="pb-16"><?php echo $storia->post_title ?></h6>
                     <?php echo $storia->post_excerpt ?>
-                    <a class="button button__secondary pt-32" href="<?php echo get_permalink($storia->ID) ?>"><?php echo $label_button[ICL_LANGUAGE_CODE] ?></a>
+                    <a class="button button__secondary mt-32" href="<?php echo get_permalink($storia->ID) ?>"><?php echo $label_button[ICL_LANGUAGE_CODE] ?></a>
                 </div>
             </div>
 
