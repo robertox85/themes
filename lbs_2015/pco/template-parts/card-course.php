@@ -40,7 +40,7 @@
 <?php else : ?>
 <?php endif; ?>
 
-<div class="card-course-small p-24 m-16 d-flex flex-column justify-content-start align-items-start">
+<div class="card-course-small p-24 m-16 d-flex flex-column justify-content-start align-items-start" style="border-color:var(--current-color);">
     <span class="meta text-uppercase color__grey"><?php the_terms($post->ID, 'lunghezza_corsi', $before = '', $sep = ', ', $after = '' ); ?></span>
 
     <h6 class="py-24 mb-0 each-word"><?php the_title(); ?></h6>

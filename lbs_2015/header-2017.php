@@ -125,8 +125,11 @@ bloginfo('name');
     </script>
     <link rel="shortcut icon" type="image/x-icon" href="<?php bloginfo('template_directory');?>/img/favicon.ico" />
     <link href="<?php bloginfo('template_directory');?>/style_2017.css?ver=<?php echo time() ?>" rel="stylesheet">
+<<<<<<< HEAD
     <link rel='stylesheet' id='Googge_Web_Font_Oswald-css' href='https://fonts.googleapis.com/css?family=Oswald'
         type='text/css' media='all' />
+=======
+>>>>>>> 209ac113637088836cb5a89c4874c1c804066acb
     <?php wp_head();?>
 
 
@@ -323,11 +326,21 @@ bloginfo('name');
                             }
 
                         ?>
+<<<<<<< HEAD
                         <div class="searchbar"><a class="sb-icon-search" title="cerca nel sito"><span
                                     class="glyphicon glyphicon-search"></span></a></div>
+=======
+                        <!--
+                    <ul class="list-unstyled secondary-nav d-inline-block d-lg-none w-100 m-0" id="menu-main-container">
+                    <li><a href="http://www.luiss.it/">Luiss.it</a></li>
+                    <li><a href="javascript:void(0)" id="network-offcanvas-trigger">Luiss Network</a></li>
+                    <li><a href="https://businessschool.luiss.it/milano"><strong>Milano</strong></a></li>
+                    <li><a href="https://businessschool.luiss.it/belluno"><strong>Belluno</strong></a></li>
+                    </ul>
+-->
+                        <div class="searchbar"><a class="sb-icon-search" title="Cerca nel sito"><span class="glyphicon glyphicon-search"></span></a></div>
+>>>>>>> 209ac113637088836cb5a89c4874c1c804066acb
                         <div id="sb-search" class="sb-search">
-
-
                             <script>
                             (function() {
                                 var cx = '012139100949894875782:1dp0jtr1a6w';

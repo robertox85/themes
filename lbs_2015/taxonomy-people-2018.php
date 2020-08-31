@@ -48,7 +48,7 @@ Summer School (specialistici) - 133/134
 
 <!-- Inizio template -->
 
-<div class="container-fluid px-0 box-cover-off d-flex flex-column align-items-start  justify-content-center people-cover">
+<div class="container-fluid px-0 box-cover-page d-flex flex-column align-items-start  justify-content-center people-cover">
     <div class="container my-48">
         <div class="row">
             <div class="col-xs-12 col-lg-8"><h1 class="color__white each-word"><?php the_title();?></h1></div>
