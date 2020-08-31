@@ -41,7 +41,7 @@
 <?php endif; ?>
 
 <div class="card-course-small p-24 m-16 d-flex flex-column justify-content-start align-items-start">
-    <span class="meta text-uppercase"><?php the_terms($post->ID, 'lunghezza_corsi', $before = '', $sep = ', ', $after = '' ); ?></span>
+    <span class="meta text-uppercase color__grey"><?php the_terms($post->ID, 'lunghezza_corsi', $before = '', $sep = ', ', $after = '' ); ?></span>
 
     <h6 class="py-24 mb-0 each-word"><?php the_title(); ?></h6>
 
@@ -144,8 +144,8 @@ $date_be = DateTime::createFromFormat('Ymd', $date_string_be);
                 } ?></strong></p>
 
     <!-- Pulsanti -->
-    <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap ctas">
-        <a class="button button__secondary" href="<?php the_permalink(); ?>">Scopri</a>
+    <div class="mt-24 d-flex flex-row justify-content-between align-items-stretch flex-wrap flex-lg-nowrap  ctas">
+        <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php the_permalink(); ?>">Scopri</a>
         <?php the_field(strip_tags('brochure')); ?>
     </div>
 </div>

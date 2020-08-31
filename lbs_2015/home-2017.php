@@ -127,7 +127,7 @@ $img_link_mob_2['en'] = get_stylesheet_directory_uri() . '/pco/images/meet-us-on
             <!-- Content -->
             <div class="carousel-inner">
                 <div class="item active">
-                    <a href="https://businessschool.luiss.it/flex">
+                    <a href="/flex">
                         <!-- stampo l'immagine desk -->
                         <img class="display-desk" src="<?php echo $img_link_desk_1[ICL_LANGUAGE_CODE]; ?>" alt="Flex Executive Programme" class="img-responsive" style="background-size: cover;background-position: 50% 50%; max-width: 100%; height: auto;" />
                         <!-- stampo l'immagine mobile -->
@@ -135,7 +135,7 @@ $img_link_mob_2['en'] = get_stylesheet_directory_uri() . '/pco/images/meet-us-on
                     </a>
                 </div>
                 <div class="item">
-                    <a href="https://businessschool.luiss.it/meet-us-online/">
+                    <a href="/meet-us-online/">
                         <!-- stampo l'immagine desk -->
                         <img class="display-desk" src="<?php echo $img_link_desk_2[ICL_LANGUAGE_CODE]; ?>" alt="Webinar, Workshop, Masterclass, Open Lesson e Q&A session." class="img-responsive" style="background-size: cover;background-position: 50% 50%; max-width: 100%; height: auto;" />
                         <!-- stampo l'immagine mobile -->

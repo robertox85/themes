@@ -80,7 +80,7 @@ bloginfo('name');
     gtag('js', new Date());
     gtag('config', 'AW-672809849');
     </script>
-    <!-- Hotjar Tracking Code for https://businessschool.luiss.it/ -->
+    <!-- Hotjar Tracking Code for / -->
     <script>
     (function(h, o, t, j, a, r) {
         h.hj = h.hj || function() {

@@ -496,45 +496,56 @@ function get_sidebar_menu($menu_name)
 
 if (function_exists('register_sidebar')) {
     register_sidebar(array(
-        'name' => 'perche',
-        'before_title' => '<h2>',
-        'after_title' => '</h2>',
+        'name' => 'Sidebar DX',
+        'before_title' => '<h3>',
+        'after_title' => '</h3>',
 
-    ));
+   ));
 }
 
 // sidebar right
 
-if (function_exists('register_sidebar')) {
-    register_sidebar(array(
-        'name' => 'faq',
-        'before_title' => '<h2>',
-        'after_title' => '</h2>',
+//if (function_exists('register_sidebar')) {
+//    register_sidebar(array(
+//        'name' => 'perche',
+//        'before_title' => '<h2>',
+//        'after_title' => '</h2>',
 
-    ));
-}
-
-// sidebar right
-
-if (function_exists('register_sidebar')) {
-    register_sidebar(array(
-        'name' => 'agevolazioni',
-        'before_title' => '<h2>',
-        'after_title' => '</h2>',
-
-    ));
-}
+//   ));
+//}
 
 // sidebar right
 
-if (function_exists('register_sidebar')) {
-    register_sidebar(array(
-        'name' => 'evento',
-        'before_title' => '<h2>',
-        'after_title' => '</h2>',
+//if (function_exists('register_sidebar')) {
+//    register_sidebar(array(
+//        'name' => 'faq',
+//        'before_title' => '<h2>',
+//        'after_title' => '</h2>',
 
-    ));
-}
+//    ));
+//}
+
+// sidebar right
+
+//if (function_exists('register_sidebar')) {
+//   register_sidebar(array(
+//        'name' => 'agevolazioni',
+//        'before_title' => '<h2>',
+//        'after_title' => '</h2>',
+
+//    ));
+//}
+
+// sidebar right
+
+//if (function_exists('register_sidebar')) {
+//    register_sidebar(array(
+//        'name' => 'evento',
+//        'before_title' => '<h2>',
+//        'after_title' => '</h2>',
+
+//    ));
+//}
 
 function corsi_get_taxonomies($list)
 {

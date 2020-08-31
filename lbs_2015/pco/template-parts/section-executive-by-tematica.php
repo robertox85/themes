@@ -29,7 +29,7 @@ $desc_3['en'] = '';
                 <h5 class="pb-24">General Management</h5>
                 <p><?php echo $desc_1[ICL_LANGUAGE_CODE] ?></p>
                 <ul class="list-unstyled exarea-list p-0 m-0">
-                    <li class="pt-24 px-16 pb-16"><a class="color__light_blue" href="/offerta-formativa/executive-program/management-family-business/">Management & Family Business</a></li>
+                    <li class="pt-24 px-16 pb-16"><a class="color__light_blue" href="<?php echo site_url() ?>/offerta-formativa/executive-program/management-family-business/">Management & Family Business</a></li>
                 </ul>
             </div>
         </div>
@@ -40,12 +40,12 @@ $desc_3['en'] = '';
                 <h5 class="pb-24">Specialisation</h5>
                 <p><?php echo $desc_2[ICL_LANGUAGE_CODE] ?></p>
                 <ul class="list-unstyled exarea-list p-0 m-0">
-                    <li class="pt-24 px-16 pb-16"><a class="color__light_blue" href="/offerta-formativa/executive-program/accounting-finance-control/">Accounting, Finance & Control</a></li>
-                    <li class="pt-24 px-16 pb-16"><a class="color__light_blue" href="/offerta-formativa/executive-program/communication-lobbying/">Communication & Lobbying</a></li>
-                    <li class="pt-24 px-16 pb-16"><a class="color__light_blue" href="/offerta-formativa/executive-program/tax-legal/"> Governance, Risk & Compliance</a></li>
-                    <li class="pt-24 px-16 pb-16"><a class="color__light_blue" href="/offerta-formativa/executive-program/marketing-sales-communication/"> Marketing & Sales</a></li>
-                    <li class="pt-24 px-16 pb-16"><a class="color__light_blue" href="/offerta-formativa/executive-program/people-and-organization-development/">People, Organization Development & Leadership</a></li>
-                    <li class="pt-24 px-16 pb-16"><a class="color__light_blue" href="/offerta-formativa/executive-program/project_management/">Project Management</a></li>
+                    <li class="pt-24 px-16 pb-16"><a class="color__light_blue" href="<?php echo site_url() ?>/offerta-formativa/executive-program/accounting-finance-control/">Accounting, Finance & Control</a></li>
+                    <li class="pt-24 px-16 pb-16"><a class="color__light_blue" href="<?php echo site_url() ?>/offerta-formativa/executive-program/communication-lobbying/">Communication & Lobbying</a></li>
+                    <li class="pt-24 px-16 pb-16"><a class="color__light_blue" href="<?php echo site_url() ?>/offerta-formativa/executive-program/tax-legal/"> Governance, Risk & Compliance</a></li>
+                    <li class="pt-24 px-16 pb-16"><a class="color__light_blue" href="<?php echo site_url() ?>/offerta-formativa/executive-program/marketing-sales-communication/"> Marketing & Sales</a></li>
+                    <li class="pt-24 px-16 pb-16"><a class="color__light_blue" href="<?php echo site_url() ?>/offerta-formativa/executive-program/people-and-organization-development/">People, Organization Development & Leadership</a></li>
+                    <li class="pt-24 px-16 pb-16"><a class="color__light_blue" href="<?php echo site_url() ?>/offerta-formativa/executive-program/project_management/">Project Management</a></li>
                 </ul>
             </div>
         </div>
@@ -56,10 +56,10 @@ $desc_3['en'] = '';
                 <h5 class="pb-24">Industry</h5>
                 <p><?php echo $desc_3[ICL_LANGUAGE_CODE] ?></p>
                 <ul class="list-unstyled exarea-list p-0 m-0">
-                    <li class="pt-24 px-16 pb-16"><a class="color__light_blue" href="/offerta-formativa/executive-program/public-sector-healthcare-and-no-profit/">Healthcare, Public Sector & No Profit</a></li>
-                    <li class="pt-24 px-16 pb-16"><a class="color__light_blue" href="/offerta-formativa/executive-program/management-innovation/">Innovation, Big Data & Digital Transformation</a></li>
-                    <li class="pt-24 px-16 pb-16"><a class="color__light_blue" href="/offerta-formativa/executive-program/real-estate/"> Real Estate & Infrastructure</a></li>
-                    <li class="pt-24 px-16 pb-16"><a class="color__light_blue" href="/offerta-formativa/executive-program/sport-tourism-leisure-culture/">Sport, Tourism, Leisure & Culture </a></li>
+                    <li class="pt-24 px-16 pb-16"><a class="color__light_blue" href="<?php echo site_url() ?>/offerta-formativa/executive-program/public-sector-healthcare-and-no-profit/">Healthcare, Public Sector & No Profit</a></li>
+                    <li class="pt-24 px-16 pb-16"><a class="color__light_blue" href="<?php echo site_url() ?>/offerta-formativa/executive-program/management-innovation/">Innovation, Big Data & Digital Transformation</a></li>
+                    <li class="pt-24 px-16 pb-16"><a class="color__light_blue" href="<?php echo site_url() ?>/offerta-formativa/executive-program/real-estate/"> Real Estate & Infrastructure</a></li>
+                    <li class="pt-24 px-16 pb-16"><a class="color__light_blue" href="<?php echo site_url() ?>/offerta-formativa/executive-program/sport-tourism-leisure-culture/">Sport, Tourism, Leisure & Culture </a></li>
                 </ul>
             </div>
         </div>

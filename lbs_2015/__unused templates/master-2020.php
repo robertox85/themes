@@ -131,13 +131,13 @@ $sottotitolo_master_1[ 'en' ] = 'Major of the Master in International Management
 
 <!-- Programma -->
 <?php $link_master_1 = array();
-$link_master_1[ 'it' ] = 'https://businessschool.luiss.it/international-management/';
-$link_master_1[ 'en' ] = 'https://businessschool.luiss.it/international-management/';
+$link_master_1[ 'it' ] = '/international-management/';
+$link_master_1[ 'en' ] = '/international-management/';
 ?>
 <!-- Brochure -->
 <?php $link_brochure_1 = array();
-$link_brochure_1[ 'it' ] = 'https://businessschool.luiss.it/international-management/download-brochure/';
-$link_brochure_1[ 'en' ] = 'https://businessschool.luiss.it/international-management/download-brochure/';
+$link_brochure_1[ 'it' ] = '/international-management/download-brochure/';
+$link_brochure_1[ 'en' ] = '/international-management/download-brochure/';
 ?>
 
 <!-- Master 2 -->
@@ -156,13 +156,13 @@ $sottotitolo_master_2[ 'en' ] = 'Major of the Master in International Management
 
 <!-- Programma -->
 <?php $link_master_2 = array();
-$link_master_2[ 'it' ] = 'https://businessschool.luiss.it/management-energy-industry/download-brochure/';
-$link_master_2[ 'en' ] = 'https://businessschool.luiss.it/management-energy-industry/download-brochure/';
+$link_master_2[ 'it' ] = '/management-energy-industry/download-brochure/';
+$link_master_2[ 'en' ] = '/management-energy-industry/download-brochure/';
 ?>
 <!-- Brochure -->
 <?php $link_brochure_2 = array();
-$link_brochure_2[ 'it' ] = 'https://businessschool.luiss.it/management-energy-industry/download-brochure/';
-$link_brochure_2[ 'en' ] = 'https://businessschool.luiss.it/management-energy-industry/download-brochure/';
+$link_brochure_2[ 'it' ] = '/management-energy-industry/download-brochure/';
+$link_brochure_2[ 'en' ] = '/management-energy-industry/download-brochure/';
 ?>
 
 <!-- Master 3 -->
@@ -179,13 +179,13 @@ $sottotitolo_master_3[ 'en' ] = 'Major of the Master in Master in Financial Mana
 ?>
 <!-- Programma -->
 <?php $link_master_3 = array();
-$link_master_3[ 'it' ] = 'https://businessschool.luiss.it/management-technology-risk-management-insurance/';
-$link_master_3[ 'en' ] = 'https://businessschool.luiss.it/management-technology-risk-management-insurance/';
+$link_master_3[ 'it' ] = '/management-technology-risk-management-insurance/';
+$link_master_3[ 'en' ] = '/management-technology-risk-management-insurance/';
 ?>
 <!-- Brochure -->
 <?php $link_brochure_3 = array();
-$link_brochure_3[ 'it' ] = 'https://businessschool.luiss.it/management-technology-risk-management-insurance/download-brochure/';
-$link_brochure_3[ 'en' ] = 'https://businessschool.luiss.it/management-technology-risk-management-insurance/download-brochure/';
+$link_brochure_3[ 'it' ] = '/management-technology-risk-management-insurance/download-brochure/';
+$link_brochure_3[ 'en' ] = '/management-technology-risk-management-insurance/download-brochure/';
 ?>
 
 <!-- Master 4 -->
@@ -202,13 +202,13 @@ $sottotitolo_master_3[ 'en' ] = 'Major of the Master in Master in Financial Mana
 ?>
 <!-- Programma -->
 <?php $link_master_4 = array();
-$link_master_4[ 'it' ] = 'https://businessschool.luiss.it/macofin/';
-$link_master_4[ 'en' ] = 'https://businessschool.luiss.it/macofin/';
+$link_master_4[ 'it' ] = '/macofin/';
+$link_master_4[ 'en' ] = '/macofin/';
 ?>
 <!-- Brochure -->
 <?php $link_brochure_4 = array();
-$link_brochure_4[ 'it' ] = 'https://businessschool.luiss.it/macofin/download-brochure-master-macofin/';
-$link_brochure_4[ 'en' ] = 'https://businessschool.luiss.it/macofin/download-brochure-master-macofin/';
+$link_brochure_4[ 'it' ] = '/macofin/download-brochure-master-macofin/';
+$link_brochure_4[ 'en' ] = '/macofin/download-brochure-master-macofin/';
 ?>
 
 <!-- Master 5 -->
@@ -225,13 +225,13 @@ $sottotitolo_master_3[ 'en' ] = 'Major of the Master in Master in Financial Mana
 ?>
 <!-- Programma -->
 <?php $link_master_5 = array();
-$link_master_5[ 'it' ] = 'https://businessschool.luiss.it/corporate-finance-banking-major-banking/';
-$link_master_5[ 'en' ] = 'https://businessschool.luiss.it/corporate-finance-banking-major-banking/';
+$link_master_5[ 'it' ] = '/corporate-finance-banking-major-banking/';
+$link_master_5[ 'en' ] = '/corporate-finance-banking-major-banking/';
 ?>
 <!-- Brochure -->
 <?php $link_brochure_5 = array();
-$link_brochure_5[ 'it' ] = 'https://businessschool.luiss.it/corporate-finance-banking-major-banking/download-brochure/';
-$link_brochure_5[ 'en' ] = 'https://businessschool.luiss.it/corporate-finance-banking-major-banking/download-brochure/';
+$link_brochure_5[ 'it' ] = '/corporate-finance-banking-major-banking/download-brochure/';
+$link_brochure_5[ 'en' ] = '/corporate-finance-banking-major-banking/download-brochure/';
 ?>
 
 <!-- Master 6 -->
@@ -248,13 +248,13 @@ $sottotitolo_master_3[ 'en' ] = 'Major of the Master in Master in Financial Mana
 ?>
 <!-- Programma -->
 <?php $link_master_6 = array();
-$link_master_6[ 'it' ] = 'https://businessschool.luiss.it/corporare-finance-banking-major-finanza-aziendale/';
-$link_master_6[ 'en' ] = 'https://businessschool.luiss.it/corporare-finance-banking-major-finanza-aziendale/';
+$link_master_6[ 'it' ] = '/corporare-finance-banking-major-finanza-aziendale/';
+$link_master_6[ 'en' ] = '/corporare-finance-banking-major-finanza-aziendale/';
 ?>
 <!-- Brochure -->
 <?php $link_brochure_6 = array();
-$link_brochure_6[ 'it' ] = 'https://businessschool.luiss.it/corporare-finance-banking-major-finanza-aziendale/download-brochure/';
-$link_brochure_6[ 'en' ] = 'https://businessschool.luiss.it/corporare-finance-banking-major-finanza-aziendale/download-brochure/';
+$link_brochure_6[ 'it' ] = '/corporare-finance-banking-major-finanza-aziendale/download-brochure/';
+$link_brochure_6[ 'en' ] = '/corporare-finance-banking-major-finanza-aziendale/download-brochure/';
 ?>
 
 <!-- Master 7 -->
@@ -271,13 +271,13 @@ $sottotitolo_master_3[ 'en' ] = 'Major of the Master in Master in Financial Mana
 ?>
 <!-- Programma -->
 <?php $link_master_7 = array();
-$link_master_7[ 'it' ] = 'https://businessschool.luiss.it/corporare-finance-banking-major-finanza-aziendale/';
-$link_master_7[ 'en' ] = 'https://businessschool.luiss.it/corporare-finance-banking-major-finanza-aziendale/';
+$link_master_7[ 'it' ] = '/corporare-finance-banking-major-finanza-aziendale/';
+$link_master_7[ 'en' ] = '/corporare-finance-banking-major-finanza-aziendale/';
 ?>
 <!-- Brochure -->
 <?php $link_brochure_7 = array();
-$link_brochure_7[ 'it' ] = 'https://businessschool.luiss.it/corporare-finance-banking-major-finanza-aziendale/download-brochure/';
-$link_brochure_7[ 'en' ] = 'https://businessschool.luiss.it/corporare-finance-banking-major-finanza-aziendale/download-brochure/';
+$link_brochure_7[ 'it' ] = '/corporare-finance-banking-major-finanza-aziendale/download-brochure/';
+$link_brochure_7[ 'en' ] = '/corporare-finance-banking-major-finanza-aziendale/download-brochure/';
 ?>
 
 <!-- Master 8 -->

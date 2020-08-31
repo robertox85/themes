@@ -41,7 +41,7 @@ fbq('track', 'PageView');
 src="https://www.facebook.com/tr?id=203976930981295&ev=PageView
 &noscript=1"/>
 </noscript>	
-<!-- Hotjar Tracking Code for https://businessschool.luiss.it/ -->
+<!-- Hotjar Tracking Code for / -->
 <script>
     (function(h,o,t,j,a,r){
         h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};

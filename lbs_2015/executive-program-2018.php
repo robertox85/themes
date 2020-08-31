@@ -21,7 +21,7 @@ $sub_home_2b['en'] = '';
 
 <!-- Inizio Template -->
 
-<div class="container-fluid px-0 box-cover-off bg__gradient_light_blue d-flex flex-column align-items-start justify-content-center executive-cover">
+<div class="container-fluid px-0 box-cover-off d-flex flex-column align-items-start justify-content-center" style="background-image:url(<?php echo site_url() ?>/wp-content/themes/lbs_2015/pco/images/offerta-formativa/executive.jpg)">
     <div class="container">
         <div class="row">
             <div class="col-xs-12">

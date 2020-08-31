@@ -66,9 +66,9 @@ Summer School (specialistici) - 133/134
     <!-- TAB -->
     <section>
         <!-- NAVIGAZIONE -->
-        <ul class="nav nav-tabs auto mx-0 px-0 d-flex flex-row flex-nowrap" id="program-type" role="tablist">
+         <ul class="nav nav-tabs auto mx-0 px-0 d-flex flex-row flex-wrap flex-lg-nowrap flex-xl-nowrap" id="program-type" role="tablist">
             <!-- MASTER -->
-            <li class="nav-item"><a class="nav-link active" id="tab1-tab" data-toggle="tab" href="#exmasters" role="tab" aria-controls="tab1" aria-selected="true"><?php echo $executive_master_label[ICL_LANGUAGE_CODE] ?></a></li>
+            <li class="nav-item active"><a class="nav-link active" id="tab1-tab" data-toggle="tab" href="#exmasters" role="tab" aria-controls="tab1" aria-selected="true"><?php echo $executive_master_label[ICL_LANGUAGE_CODE] ?></a></li>
 
             <!-- PROGRAMME -->
             <li class="nav-item"><a class="nav-link" id="tab2-tab" data-toggle="tab" href="#exprogrammes" role="tab" aria-controls="tab2" aria-selected="false"><?php echo $executive_programme_label[ICL_LANGUAGE_CODE] ?></a></li>
@@ -84,7 +84,7 @@ Summer School (specialistici) - 133/134
         </ul>
 
         <!-- CONTENUTO -->
-        <div class="tab-content my-64" id="ProgramType">
+        <div class="tab-content my-0 my-md-48" id="ProgramType">
             <!-- MASTER -->
             <div class="tab-pane fade active in show show" id="exmasters" role="tabpanel" aria-labelledby="exmasters-tab">
                 <div class="row">
@@ -164,7 +164,6 @@ Summer School (specialistici) - 133/134
             <div class="tab-pane p-4 fade" id="exprogrammes" role="tabpanel" aria-labelledby="exprogrammes-tab">
                 <div class="row">
                     <div class="col-12 col-lg-8">
-                        
                         <p><?php echo get_field('campo_executive_program') ?></p>
                     </div>
                 </div>

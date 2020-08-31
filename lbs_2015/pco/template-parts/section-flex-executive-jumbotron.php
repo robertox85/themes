@@ -13,8 +13,8 @@ $executive_flex_img_link[ 'en' ] = '../images/flex-programme.jpg';
 ?>
 
 <?php $executive_flex_link = array();
-$executive_flex_link[ 'it' ] = 'https://businessschool.luiss.it/flex/';
-$executive_flex_link[ 'en' ] = 'https://businessschool.luiss.it/flex/';
+$executive_flex_link[ 'it' ] = '/flex/';
+$executive_flex_link[ 'en' ] = '/flex/';
 ?>
 
 <?php $titolo_executive_flex_link = array();

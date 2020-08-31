@@ -56,7 +56,7 @@ get_header( 2017 );
                 <p class="big">Competence Centers, Labs and Research Centers</p>
             </div>
             <div class="col-xs-12 col-md-4">
-                <img class="right wp-image-37008 img-responsive" src="https://businessschool.luiss.it/wp-content/uploads/2020/05/immagine-Luiss-Business-School-Consulting.png" alt="" width="562" height="443" />
+                <img class="right wp-image-37008 img-responsive" src="<?php echo site_url() ?>/wp-content/uploads/2020/05/immagine-Luiss-Business-School-Consulting.png" alt="" width="562" height="443" />
             </div>
         </div>
     </div>
@@ -200,7 +200,7 @@ get_header( 2017 );
         <div class="row">
             <div class="col-12 section-title">
                 <h3 class="color__white pb-24 mb-0">Our latest projects</h3>
-                <a class="big color__white" href="https://businessschool.luiss.it/news/credito-dimposta-i-servizi-di-consulenza-luiss-business-school/"><strong>Servizio di Consulenza per il Credito d’Imposta R&amp;S</strong></a>
+                <a class="big color__white" href="<?php echo site_url() ?>/news/credito-dimposta-i-servizi-di-consulenza-luiss-business-school/"><strong>Servizio di Consulenza per il Credito d’Imposta R&amp;S</strong></a>
             </div>
         </div>
     </div>

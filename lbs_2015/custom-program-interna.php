@@ -14,7 +14,7 @@ $contatti['it'] = 'Contatti';
 $contatti['en'] = 'Contact Information';
 ?>
 
-<div class="item-centre box-cover-subhome" style="background-image:url(<?php echo site_url() ?>/wp-content/uploads/2017/06/ChiSiamo_Governance_Certificazioni.jpg)">
+<div class="item-centre box-cover-subhome-custom" style="background-image:url(<?php echo site_url() ?>/wp-content/themes/lbs_2015/pco/images/offerta-formativa/custom.jpg)">
     <div class="container">
         <div class="row centre mt-128 pt-80">
             <div class="col-md-8">
