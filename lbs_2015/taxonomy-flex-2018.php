@@ -67,7 +67,7 @@ Summer School (specialistici) - 133/134
     <section>
         <!-- CONTENUTO -->
             <!-- FLEX -->
-                <div class="row d-flex flex-row flex-wrap justify-content-start align-items-stretch px-0 pt-48">
+                <div class="d-flex flex-row flex-wrap justify-content-between align-items-stretch px-0 pt-24">
                     <?php
 			$query_tax_value = 154;
 			$tax_query = array();
@@ -116,8 +116,8 @@ Summer School (specialistici) - 133/134
                     <?php wp_reset_postdata(); ?>
 
                     <?php endwhile; else : ?>
-                    <?php if (ICL_LANGUAGE_CODE=='it') : ?>Non ci sono ancora programmi.
-                    <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>There are no programmes yet.
+                    <?php if (ICL_LANGUAGE_CODE=='it') : ?><div class="col-12">Non ci sono ancora programmi.</div>
+                    <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?><div class="col-12">There are no programmes yet.</div>
                     <?php else : ?>
                     <?php endif; ?>
 

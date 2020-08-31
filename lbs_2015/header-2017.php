@@ -263,11 +263,11 @@ bloginfo('name');
                         <div class="header-second-block">
                             <nav id="secondary-nav" class="">
                                 <ul>
-                                    <li><a href="http://www.luiss.it/">Luiss.it</a></li>
-                                    <li><a href="javascript:void(0)" id="network-offcanvas-trigger">Luiss Network</a>
+                                    <li><a href="https://www.luiss.it/">Luiss.it</a></li>
+                                    <li><a href="https://www.luiss.it/network">Luiss Network</a>
                                     </li>
-                                    <li><a href="<?php echo get_site_url() ?>/milano"><strong>Milano</strong></a></li>
-                                    <li><a href="<?php echo get_site_url() ?>/belluno"><strong>Belluno</strong></a></li>
+                                    <li><a href="https://businessschool.luiss.it/milano"><strong>Milano</strong></a></li>
+                                    <li><a href="https://businessschool.luiss.it/belluno"><strong>Belluno</strong></a></li>
                                 </ul>
                             </nav>
                             <?php language_selector_flags();?>

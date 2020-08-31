@@ -44,10 +44,10 @@ $sub_home['en'] = 'Based on team working and action learning, our teaching devel
 	</div>
 
 <div class="container">
-<div class="d-flex flex-row flex-wrap justify-content-between align-items-stretch px-0 pt-48">
+<div class="d-flex flex-row flex-wrap justify-content-between align-items-stretch px-0 pt-24">
     
 <!-- MBA 1 -->
-<div class="card-course-big p-24 m-16 d-flex flex-column justify-content-center align-items-start" style="border-color: var(--current-color);">
+<div class="card-course-big my-16 p-24 d-flex flex-column justify-content-center align-items-start" style="border-color: var(--current-color);">
     <span class="meta text-uppercase color__grey"><?php echo $mba[ICL_LANGUAGE_CODE] ?></span>
     <h6 class="py-24 mb-0"><?php echo $titolo_mba_1[ICL_LANGUAGE_CODE] ?>
         <br /><?php echo $sottotitolo_mba_1[ICL_LANGUAGE_CODE] ?></h6>
@@ -69,7 +69,7 @@ $sub_home['en'] = 'Based on team working and action learning, our teaching devel
 <!-- END MBA 1 -->
     
 <!-- MBA 2 -->
-<div class="card-course-big p-24 m-16 d-flex flex-column justify-content-center align-items-start" style="border-color: var(--current-color);">
+<div class="card-course-big my-16 p-24 d-flex flex-column justify-content-center align-items-start" style="border-color: var(--current-color);">
     <span class="meta text-uppercase color__grey"><?php echo $mba[ICL_LANGUAGE_CODE] ?></span>
     <h6 class="py-24 mb-0"><?php echo $titolo_mba_2[ICL_LANGUAGE_CODE] ?>
         <br /><?php echo $sottotitolo_mba_2[ICL_LANGUAGE_CODE] ?></h6>
@@ -91,7 +91,7 @@ $sub_home['en'] = 'Based on team working and action learning, our teaching devel
 <!-- END MBA 2 -->
     
 <!-- MBA 3 -->
-<div class="card-course-big p-24 m-16 d-flex flex-column justify-content-center align-items-start" style="border-color: var(--current-color);">
+<div class="card-course-big my-16 p-24 d-flex flex-column justify-content-center align-items-start" style="border-color: var(--current-color);">
     <span class="meta text-uppercase color__grey"><?php echo $mba[ICL_LANGUAGE_CODE] ?></span>
     <h6 class="py-24 mb-0"><?php echo $titolo_mba_3[ICL_LANGUAGE_CODE] ?>
         <br /><?php echo $sottotitolo_mba_3[ICL_LANGUAGE_CODE] ?></h6>
@@ -113,7 +113,7 @@ $sub_home['en'] = 'Based on team working and action learning, our teaching devel
 <!-- END MBA 3 -->
     
 <!-- MBA 4 -->
-<div class="card-course-big p-24 m-16 d-flex flex-column justify-content-center align-items-start" style="border-color: var(--current-color);">
+<div class="card-course-big my-16 p-24 d-flex flex-column justify-content-center align-items-start" style="border-color: var(--current-color);">
     <span class="meta text-uppercase color__grey"><?php echo $mba[ICL_LANGUAGE_CODE] ?></span>
     <h6 class="py-24 mb-0"><?php echo $titolo_mba_1[ICL_LANGUAGE_CODE] ?>
         <br /><?php echo $sottotitolo_mba_4[ICL_LANGUAGE_CODE] ?></h6>
@@ -135,7 +135,7 @@ $sub_home['en'] = 'Based on team working and action learning, our teaching devel
 <!-- END MBA 4 -->
     
 <!-- MBA 5 -->
-<div class="card-course-big p-24 m-16 d-flex flex-column justify-content-center align-items-start" style="border-color: var(--current-color);">
+<div class="card-course-big my-16 p-24 d-flex flex-column justify-content-center align-items-start" style="border-color: var(--current-color);">
     <span class="meta text-uppercase color__grey"><?php echo $mba[ICL_LANGUAGE_CODE] ?></span>
     <h6 class="py-24 mb-0"><?php echo $titolo_mba_5[ICL_LANGUAGE_CODE] ?>
         <br /><?php echo $sottotitolo_mba_5[ICL_LANGUAGE_CODE] ?></h6>

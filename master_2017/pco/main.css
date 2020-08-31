@@ -12556,7 +12556,7 @@ body.theme-blue #menu-main li {
 }
 
 body.theme-blue #menu-main li > a {
-  font-size: 1rem;
+  font-size: .85rem;
 }
 
 @media screen and (min-width: 992px) {
@@ -12606,7 +12606,7 @@ body.theme-blue .border-bottom-share {
     padding: 14px 12px;
     color: #fff;
     float: none;
-    border-bottom: 1px solid #A1A1A1;
+    border-bottom: 1px solid #e8e8e8;
     background: #fff !important;
   }
   body.theme-blue #menu-main li:last-child a {
@@ -12682,7 +12682,7 @@ body.theme-blue #menu-main .current-page-ancestor a {
 }
 
 body.theme-blue .list-unstyled.secondary-nav {
-  border-top: 7px solid #A1A1A1;
+  border-top: 8px solid #e8e8e8;
 }
 
 body.theme-blue .list-unstyled.secondary-nav li a {
@@ -13541,7 +13541,7 @@ body.theme-light_blue #menu-main li {
 }
 
 body.theme-light_blue #menu-main li > a {
-  font-size: 1rem;
+  font-size: .85rem;
 }
 
 @media screen and (min-width: 992px) {
@@ -13591,7 +13591,7 @@ body.theme-light_blue .border-bottom-share {
     padding: 14px 12px;
     color: #fff;
     float: none;
-    border-bottom: 1px solid #A1A1A1;
+    border-bottom: 1px solid #e8e8e8;
     background: #fff !important;
   }
   body.theme-light_blue #menu-main li:last-child a {
@@ -13667,7 +13667,7 @@ body.theme-light_blue #menu-main .current-page-ancestor a {
 }
 
 body.theme-light_blue .list-unstyled.secondary-nav {
-  border-top: 7px solid #A1A1A1;
+  border-top: 8px solid #e8e8e8;
 }
 
 body.theme-light_blue .list-unstyled.secondary-nav li a {
@@ -14526,7 +14526,7 @@ body.theme-green #menu-main li {
 }
 
 body.theme-green #menu-main li > a {
-  font-size: 1rem;
+  font-size: .85rem;
 }
 
 @media screen and (min-width: 992px) {
@@ -14576,7 +14576,7 @@ body.theme-green .border-bottom-share {
     padding: 14px 12px;
     color: #fff;
     float: none;
-    border-bottom: 1px solid #A1A1A1;
+    border-bottom: 1px solid #e8e8e8;
     background: #fff !important;
   }
   body.theme-green #menu-main li:last-child a {
@@ -14652,7 +14652,7 @@ body.theme-green #menu-main .current-page-ancestor a {
 }
 
 body.theme-green .list-unstyled.secondary-nav {
-  border-top: 7px solid #A1A1A1;
+  border-top: 8px solid #e8e8e8;
 }
 
 body.theme-green .list-unstyled.secondary-nav li a {
@@ -15511,7 +15511,7 @@ body.theme-red #menu-main li {
 }
 
 body.theme-red #menu-main li > a {
-  font-size: 1rem;
+  font-size: .85rem;
 }
 
 @media screen and (min-width: 992px) {
@@ -15561,7 +15561,7 @@ body.theme-red .border-bottom-share {
     padding: 14px 12px;
     color: #fff;
     float: none;
-    border-bottom: 1px solid #A1A1A1;
+    border-bottom: 1px solid #e8e8e8;
     background: #fff !important;
   }
   body.theme-red #menu-main li:last-child a {
@@ -15637,7 +15637,7 @@ body.theme-red #menu-main .current-page-ancestor a {
 }
 
 body.theme-red .list-unstyled.secondary-nav {
-  border-top: 7px solid #A1A1A1;
+  border-top: 8px solid #e8e8e8;
 }
 
 body.theme-red .list-unstyled.secondary-nav li a {
@@ -16496,7 +16496,7 @@ body.theme-orange #menu-main li {
 }
 
 body.theme-orange #menu-main li > a {
-  font-size: 1rem;
+  font-size: .85rem;
 }
 
 @media screen and (min-width: 992px) {
@@ -16546,7 +16546,7 @@ body.theme-orange .border-bottom-share {
     padding: 14px 12px;
     color: #fff;
     float: none;
-    border-bottom: 1px solid #A1A1A1;
+    border-bottom: 1px solid #e8e8e8;
     background: #fff !important;
   }
   body.theme-orange #menu-main li:last-child a {
@@ -16622,7 +16622,7 @@ body.theme-orange #menu-main .current-page-ancestor a {
 }
 
 body.theme-orange .list-unstyled.secondary-nav {
-  border-top: 7px solid #A1A1A1;
+  border-top: 8px solid #e8e8e8;
 }
 
 body.theme-orange .list-unstyled.secondary-nav li a {
@@ -17481,7 +17481,7 @@ body.theme-gold #menu-main li {
 }
 
 body.theme-gold #menu-main li > a {
-  font-size: 1rem;
+  font-size: .85rem;
 }
 
 @media screen and (min-width: 992px) {
@@ -17531,7 +17531,7 @@ body.theme-gold .border-bottom-share {
     padding: 14px 12px;
     color: #fff;
     float: none;
-    border-bottom: 1px solid #A1A1A1;
+    border-bottom: 1px solid #e8e8e8;
     background: #fff !important;
   }
   body.theme-gold #menu-main li:last-child a {
@@ -17607,7 +17607,7 @@ body.theme-gold #menu-main .current-page-ancestor a {
 }
 
 body.theme-gold .list-unstyled.secondary-nav {
-  border-top: 7px solid #A1A1A1;
+  border-top: 8px solid #e8e8e8;
 }
 
 body.theme-gold .list-unstyled.secondary-nav li a {

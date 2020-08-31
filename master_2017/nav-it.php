@@ -111,22 +111,15 @@
                                     eventi</a></li>
                         </ul>
                     </li>
-                    <li id="menu-item-25941"
-                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25941 "><a
-                            href="/milano">MILANO</a></li>
-                    <li id="menu-item-34570"
-                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34570 "><a
-                            href="/belluno">BELLUNO</a></li>
-
                     <li id="menu-item-36564"
                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36564"><a
-                            href="https://businessschool.luiss.it/meet-us-online/">MEET US ONLINE</a></li>
+                            href="https://businessschool.luiss.it/meet-us-online/"><strong>MEET US ONLINE</strong></a></li>
                 </ul>
 
 
                 <ul class="list-unstyled secondary-nav d-inline-block d-lg-none w-100 m-0">
-                    <li><a href="http://www.luiss.it/">Luiss.it</a></li>
-                    <li><a href="javascript:void(0)" id="network-offcanvas-trigger">Luiss Network</a></li>
+                    <li><a href="https://www.luiss.it/">Luiss.it</a></li>
+                    <li><a href="https://www.luiss.it/network">Luiss Network</a></li>
                     <li><a href="https://businessschool.luiss.it/milano"><strong>Milano</strong></a></li>
                     <li><a href="https://businessschool.luiss.it/belluno"><strong>Belluno</strong></a></li>
                 </ul>

@@ -46,8 +46,8 @@
     <?php wp_reset_postdata(); ?>
 
     <?php endwhile; else : ?>
-    <?php if (ICL_LANGUAGE_CODE=='it') : ?>Non ci sono ancora post.
-    <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>There are no posts yet.
+    <?php if (ICL_LANGUAGE_CODE=='it') : ?><div class="col-12">Non ci sono ancora programmi.</div>
+    <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?><div class="col-12"><div class="col-12">There are no programmes yet.</div></div>
     <?php else : ?>
     <?php endif; ?>
 
