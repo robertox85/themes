@@ -133,78 +133,109 @@ bloginfo('name');
 
     <!-- SNIPCART -->
     <!-- Snipcart stylesheet -->
-<link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.16/default/snipcart.css" />
-<style type="text/css">
-input[type="text"] {
-  border: none; }
+    <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.16/default/snipcart.css" />
+    <style type="text/css">
+    input[type="text"] {
+        border: none;
+    }
 
-.snipcart * {
-  font-family: "ITC Officina Sans W01"; }
+    .snipcart * {
+        font-family: "ITC Officina Sans W01";
+    }
 
-.snipcart-modal__container {
-  z-index: 1000; }
+    .snipcart-modal__container {
+        z-index: 1000;
+    }
 
-.snipcart-input__input:-webkit-autofill {
-  background-color: transparent !important; }
+    .snipcart-input__input:-webkit-autofill {
+        background-color: transparent !important;
+    }
 
-.snipcart__icon--blue-light path {
-  fill: #fdbb4d; }
+    .snipcart__icon--blue-light path {
+        fill: #fdbb4d;
+    }
 
-.snipcart__icon--blue-dark path {
-  fill: #fdbb4d; }
+    .snipcart__icon--blue-dark path {
+        fill: #fdbb4d;
+    }
 
-.snipcart-payment-form--focused {
-  border: 1px solid #fdbb4d !important; }
+    .snipcart-payment-form--focused {
+        border: 1px solid #fdbb4d !important;
+    }
 
-@media screen and (max-width: 800px) {
-  .snipcart-item-line__title {
-    padding: 0 10px; } }
+    @media screen and (max-width: 800px) {
+        .snipcart-item-line__title {
+            padding: 0 10px;
+        }
+    }
 
-.snipcart-discount-box__form {
-  border: 1px solid #fdbb4d; }
-  .snipcart-discount-box__form .snipcart-input {
-    outline: none; }
+    .snipcart-discount-box__form {
+        border: 1px solid #fdbb4d;
+    }
+
+    .snipcart-discount-box__form .snipcart-input {
+        outline: none;
+    }
+
     .snipcart-discount-box__form .snipcart-input:focus-within {
-      border: none; }
-  .snipcart-discount-box__form .snipcart-discount-box__submit {
-    color: #fdbb4d; }
+        border: none;
+    }
 
-.snipcart__box--badge-highlight {
-  background: #fdbb4d; }
+    .snipcart-discount-box__form .snipcart-discount-box__submit {
+        color: #fdbb4d;
+    }
 
-.snipcart__font--subtitle {
-  font-family: "ITC Officina Sans W01 Bold"; }
+    .snipcart__box--badge-highlight {
+        background: #fdbb4d;
+    }
 
-.snipcart-input {
-  outline-color: #fdbb4d; }
-  .snipcart-input:focus-within {
-    border: 1px solid #fdbb4d; }
+    .snipcart__font--subtitle {
+        font-family: "ITC Officina Sans W01 Bold";
+    }
 
-.snipcart-form__select:focus {
-  border: 1px solid #fdbb4d; }
+    .snipcart-input {
+        outline-color: #fdbb4d;
+    }
 
-.snipcart-typeahead__suggestions {
-  border: 1px solid #fdbb4d; }
+    .snipcart-input:focus-within {
+        border: 1px solid #fdbb4d;
+    }
 
-.snipcart-textbox--focus {
-  border: 1px solid #fdbb4d; }
+    .snipcart-form__select:focus {
+        border: 1px solid #fdbb4d;
+    }
 
-.snipcart-checkbox:checked + label:before {
-  border: 1px solid #fdbb4d;
-  background-color: #fdbb4d; }
+    .snipcart-typeahead__suggestions {
+        border: 1px solid #fdbb4d;
+    }
 
-.snipcart-checkbox:focus + label:before, .snipcart-checkbox:hover + label:before {
-  border: 1px solid #fdbb4d; }
+    .snipcart-textbox--focus {
+        border: 1px solid #fdbb4d;
+    }
 
-.snipcart-cart-button {
-  font-family: "Droid Sans Mono W01"; }
-  .snipcart-cart-button.snipcart-cart-button--highlight {
-    background-image: linear-gradient(90deg, #fdbb4d, #fdbb4d); }
+    .snipcart-checkbox:checked+label:before {
+        border: 1px solid #fdbb4d;
+        background-color: #fdbb4d;
+    }
 
-.snipcart__actions--link {
-  color: #fdbb4d; }
-  </style>
-    
+    .snipcart-checkbox:focus+label:before,
+    .snipcart-checkbox:hover+label:before {
+        border: 1px solid #fdbb4d;
+    }
+
+    .snipcart-cart-button {
+        font-family: "Droid Sans Mono W01";
+    }
+
+    .snipcart-cart-button.snipcart-cart-button--highlight {
+        background-image: linear-gradient(90deg, #fdbb4d, #fdbb4d);
+    }
+
+    .snipcart__actions--link {
+        color: #fdbb4d;
+    }
+    </style>
+
     <!-- Snipcart custom script -->
     <script>
     window.SNIPCART_STOCK_LAMBDA_URL = 'https://lw0s05w009.execute-api.eu-west-1.amazonaws.com/api/';
@@ -254,7 +285,7 @@ input[type="text"] {
                 </div>
                 <!-- END .container -->
             </header>
-    
+
 
 
 
@@ -262,13 +293,13 @@ input[type="text"] {
             <header id="masthead" class="d-block d-lg-none pb-24 pl-0 shadow-bottom">
                 <div class="container">
                     <div class="row d-flex align-items-center">
-                        
 
-                        <a class="col-xs-1 main-menu-toggle hamburger  hamburger--collapse" type="button" >
-                          <span class="hamburger-box">
-                            <span class="hamburger-inner"></span>
-                          </span>
-                        </a> 
+
+                        <a class="col-xs-1 main-menu-toggle hamburger  hamburger--collapse" type="button">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </a>
 
                         <a class="col-xs-8 mx-24 mx-md-0" href="<?php echo site_url() ?>" title="Home page">
                             <img src="<?php echo site_url() ?>/wp-content/themes/master_2017/img/logo-new.png"
@@ -285,7 +316,7 @@ input[type="text"] {
             <!-- // Navigation bar to use in single pages (nav-it.php) -->
             <?php get_template_part('nav', 'it');  ?>
 
-            
+
 
             <nav id="network-container-offcanvas">
                 <div class="container px-0">
@@ -339,7 +370,8 @@ input[type="text"] {
                           ?>
                         <span class="back-to-top"><a id="backtotop" href="javascript:void(0)"><i
                                     class="fa fa-angle-up"></i>
-                                <?php echo $back_to_top_text[ICL_LANGUAGE_CODE] ?></a></span> </div>
+                                <?php echo $back_to_top_text[ICL_LANGUAGE_CODE] ?></a></span>
+                    </div>
                     <!--END .row -->
                 </div>
                 <!-- .END container -->
