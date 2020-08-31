@@ -312,9 +312,9 @@ bloginfo('name');
             
 
             <nav id="network-container-offcanvas">
-                <div class="container">
+                <div class="container px-0">
                     <div class="row">
-                        <div class="large-centered columns" id="network-container-offcanvas-ul">
+                        <div class="container px-0" id="network-container-offcanvas-ul">
                             <div class="col-xs-6 col-sm-3">
                                 <ul>
                                     <li><a href="http://www.luissuniversitypress.it/">University Press</a></li>
