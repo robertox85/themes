@@ -50,7 +50,7 @@ _4 = Programmi Executive
 _5 = Programmi Custom - N.B. EDITARE IN PAGINA AL POSTO DI PHD
 _6 = Programmi di alta formazione - non utilizzato
             <!-- Box MBA -->
-            <div class="card-course-big p-24 m-16 d-flex flex-column align-items-start justify-content-between" style="border-color:#00968f;">
+            <div class="card-course-big p-24 m-16 d-flex flex-column align-items-stretch justify-content-between" style="border-color:#00968f;">
                 <h2 class="color__green"><?php echo get_field('home_launch_box_title_2'); ?></h2>
                 <p class="big"><?php echo get_field('home_launch_box_excerpt_2'); ?></p>
                 <!-- Pulsanti -->

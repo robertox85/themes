@@ -44,10 +44,10 @@ $sub_home['en'] = 'Based on team working and action learning, our teaching devel
 	</div>
 
 <div class="container">
-<div class="row d-flex flex-row flex-wrap justify-content-between align-items-stretch px-0 pt-48">
+<div class="d-flex flex-row flex-wrap justify-content-between align-items-stretch px-0 pt-48">
     
 <!-- MBA 1 -->
-<div class="card-course-big p-24 m-16 d-flex flex-column justify-content-center align-items-start">
+<div class="card-course-big p-24 m-16 d-flex flex-column justify-content-center align-items-start" style="border-color: var(--current-color);">
     <span class="meta text-uppercase color__grey"><?php echo $mba[ICL_LANGUAGE_CODE] ?></span>
     <h6 class="py-24 mb-0"><?php echo $titolo_mba_1[ICL_LANGUAGE_CODE] ?>
         <br /><?php echo $sottotitolo_mba_1[ICL_LANGUAGE_CODE] ?></h6>
@@ -61,15 +61,15 @@ $sub_home['en'] = 'Based on team working and action learning, our teaching devel
             <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
         </div>
     </div>
-    <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap ctas">
-        <a class="button button__secondary my-8 mr-md-16 my-8 mr-md-16" href="<?php echo $link_site_mba_1[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
+    <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap  ctas">
+        <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_mba_1[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
         <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_mba_1[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
     </div>
 </div>
 <!-- END MBA 1 -->
     
 <!-- MBA 2 -->
-<div class="card-course-big p-24 m-16 d-flex flex-column justify-content-center align-items-start">
+<div class="card-course-big p-24 m-16 d-flex flex-column justify-content-center align-items-start" style="border-color: var(--current-color);">
     <span class="meta text-uppercase color__grey"><?php echo $mba[ICL_LANGUAGE_CODE] ?></span>
     <h6 class="py-24 mb-0"><?php echo $titolo_mba_2[ICL_LANGUAGE_CODE] ?>
         <br /><?php echo $sottotitolo_mba_2[ICL_LANGUAGE_CODE] ?></h6>
@@ -83,15 +83,15 @@ $sub_home['en'] = 'Based on team working and action learning, our teaching devel
             <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
         </div>
     </div>
-    <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap ctas">
-        <a class="button button__secondary my-8 mr-md-16" href="<?php echo $link_site_mba_2[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
-        <a class="button button__primary" href="<?php echo $link_brochure_mba_2[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+    <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap  ctas">
+        <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_mba_2[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
+        <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_mba_2[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
     </div>
 </div>
 <!-- END MBA 2 -->
     
 <!-- MBA 3 -->
-<div class="card-course-big p-24 m-16 d-flex flex-column justify-content-center align-items-start">
+<div class="card-course-big p-24 m-16 d-flex flex-column justify-content-center align-items-start" style="border-color: var(--current-color);">
     <span class="meta text-uppercase color__grey"><?php echo $mba[ICL_LANGUAGE_CODE] ?></span>
     <h6 class="py-24 mb-0"><?php echo $titolo_mba_3[ICL_LANGUAGE_CODE] ?>
         <br /><?php echo $sottotitolo_mba_3[ICL_LANGUAGE_CODE] ?></h6>
@@ -105,15 +105,15 @@ $sub_home['en'] = 'Based on team working and action learning, our teaching devel
             <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
         </div>
     </div>
-    <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap ctas">
-        <a class="button button__secondary my-8 mr-md-16" href="<?php echo $link_site_mba_3[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
-        <a class="button button__primary" href="<?php echo $link_brochure_mba_3[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+    <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap  ctas">
+        <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_mba_3[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
+        <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_mba_3[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
     </div>
 </div>
 <!-- END MBA 3 -->
     
 <!-- MBA 4 -->
-<div class="card-course-big p-24 m-16 d-flex flex-column justify-content-center align-items-start">
+<div class="card-course-big p-24 m-16 d-flex flex-column justify-content-center align-items-start" style="border-color: var(--current-color);">
     <span class="meta text-uppercase color__grey"><?php echo $mba[ICL_LANGUAGE_CODE] ?></span>
     <h6 class="py-24 mb-0"><?php echo $titolo_mba_1[ICL_LANGUAGE_CODE] ?>
         <br /><?php echo $sottotitolo_mba_4[ICL_LANGUAGE_CODE] ?></h6>
@@ -127,15 +127,15 @@ $sub_home['en'] = 'Based on team working and action learning, our teaching devel
             <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
         </div>
     </div>
-    <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap ctas">
-        <a class="button button__secondary my-8 mr-md-16" href="<?php echo $link_site_mba_4[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
-        <a class="button button__primary" href="<?php echo $link_brochure_mba_4[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+    <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap  ctas">
+        <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_mba_4[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
+        <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_mba_4[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
     </div>
 </div>
 <!-- END MBA 4 -->
     
 <!-- MBA 5 -->
-<div class="card-course-big p-24 m-16 d-flex flex-column justify-content-center align-items-start">
+<div class="card-course-big p-24 m-16 d-flex flex-column justify-content-center align-items-start" style="border-color: var(--current-color);">
     <span class="meta text-uppercase color__grey"><?php echo $mba[ICL_LANGUAGE_CODE] ?></span>
     <h6 class="py-24 mb-0"><?php echo $titolo_mba_5[ICL_LANGUAGE_CODE] ?>
         <br /><?php echo $sottotitolo_mba_5[ICL_LANGUAGE_CODE] ?></h6>
@@ -149,9 +149,9 @@ $sub_home['en'] = 'Based on team working and action learning, our teaching devel
             <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
         </div>
     </div>
-    <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap ctas">
-        <a class="button button__secondary my-8 mr-md-16" href="<?php echo $link_site_mba_5[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
-        <a class="button button__primary" href="<?php echo $link_brochure_mba_5[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+    <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap  ctas">
+        <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_mba_5[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
+        <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_mba_5[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
     </div>
 </div>
 <!-- END MBA 5 -->

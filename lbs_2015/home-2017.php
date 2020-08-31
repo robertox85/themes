@@ -62,6 +62,7 @@ Creation Date: 12/20/2018
 <noscript>
     <iframe src="https://9105818.fls.doubleclick.net/activityi;src=9105818;type=hp_6h0;cat=luiss0;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;npa=;ord=1?" width="1" height="1" frameborder="0" style="display:none"></iframe>
 </noscript>
+
 <!-- End of Floodlight Tag: Please do not remove -->
 
 <!-- Includo le variabili comuni -->
@@ -157,7 +158,7 @@ $img_link_mob_2['en'] = get_stylesheet_directory_uri() . '/pco/images/meet-us-on
 
 <section class="py-24 pt-md-48 pb-md-80" style="border-bottom: 1px solid #e8e8e8;">
     <div class="container px-0">
-        <div class="px-0 d-flex flex-row flex-wrap align-items-center justify-content-between">
+        <div class="px-0 d-flex flex-row flex-wrap align-items-stretch justify-content-between">
             <!-- Box delle tipologia di corso -->
             <!--
 _1 = Lauree Triennali e magistrali  - non utilizzato
