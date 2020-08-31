@@ -167,7 +167,7 @@ _4 = Programmi Executive
 _5 = Programmi Custom - N.B. EDITARE IN PAGINA AL POSTO DI PHD
 _6 = Programmi di alta formazione - non utilizzato
             <!-- Box MBA -->
-            <div class="card-course-big p-24 m-16 d-flex flex-column align-items-start justify-content-between">
+            <div class="card-course-big p-24 m-16 d-flex flex-column align-items-start justify-content-between" style="border-color:#00968f;">
                 <h2 class="color__green"><?php echo get_field('home_launch_box_title_2'); ?></h2>
                 <p class="big"><?php echo get_field('home_launch_box_excerpt_2'); ?></p>
                 <!-- Pulsanti -->
@@ -179,7 +179,7 @@ _6 = Programmi di alta formazione - non utilizzato
             </div>
 
             <!-- Box Master -->
-            <div class="card-course-big p-24 m-16 d-flex flex-column align-items-start justify-content-between">
+            <div class="card-course-big p-24 m-16 d-flex flex-column align-items-start justify-content-between" style="border-color:#d50032;">
                 <h2 class="color__red"><?php echo get_field('home_launch_box_title_3'); ?></h2>
                 <p class="big"><?php echo get_field('home_launch_box_excerpt_3'); ?></p>
                 <!-- Pulsanti -->
@@ -191,7 +191,7 @@ _6 = Programmi di alta formazione - non utilizzato
             </div>
 
             <!-- Box Programmi Executive -->
-            <div class="card-course-big p-24 m-16 d-flex flex-column align-items-start justify-content-between">
+            <div class="card-course-big p-24 m-16 d-flex flex-column align-items-start justify-content-between" style="border-color: #0077c8;">
                 <h2 class="color__light_blue"><?php echo get_field('home_launch_box_title_4'); ?></h2>
                 <p class="big"><?php echo get_field('home_launch_box_excerpt_4'); ?></p>
                 <!-- Pulsanti -->
@@ -203,7 +203,7 @@ _6 = Programmi di alta formazione - non utilizzato
             </div>
 
             <!-- Box Programmi Custom -->
-            <div class="card-course-big p-24 m-16 d-flex flex-column align-items-start justify-content-between">
+            <div class="card-course-big p-24 m-16 d-flex flex-column align-items-start justify-content-between" style="border-color: #d45d00;">
                 <h2 class="color__orange"><?php echo get_field('home_launch_box_title_5'); ?></h2>
                 <p class="big"><?php echo get_field('home_launch_box_excerpt_5'); ?></p>
                 <!-- Pulsanti -->

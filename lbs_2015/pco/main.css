@@ -13432,6 +13432,7 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
   mask-size: cover;
 }
 
+/*
 .card-course-big h2 {
   text-transform: lowercase !important;
 }
@@ -13448,6 +13449,7 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
 .home .card-course-big h2.hp:first-letter {
   text-transform: none !important;
 }
+*/
 
 .card-course-small {
   width: 30%;
