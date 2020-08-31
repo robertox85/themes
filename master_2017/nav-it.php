@@ -111,11 +111,13 @@
                         </ul>
                     </li>
                     <li id="menu-item-25941"
-                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25941"><a
+                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25941 "><a
                             href="/milano">MILANO</a></li>
                     <li id="menu-item-34570"
-                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34570"><a
+                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34570 "><a
                             href="/belluno">BELLUNO</a></li>
+                    
+                    <li id="menu-item-36564" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36564"><a href="https://businessschool.luiss.it/meet-us-online/">MEET US ONLINE</a></li>
                 </ul>
 
                 

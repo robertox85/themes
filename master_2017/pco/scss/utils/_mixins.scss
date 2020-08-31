@@ -55,9 +55,12 @@
                 font-size: 1rem;
             }
         }
-        .shadow-top,
+        .shadow-top{
+            box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.75);
+            z-index: 1;
+        }
         .shadow-bottom {
-            box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.75);
+            box-shadow: 5px 0px 10px 5px rgba(0, 0, 0, 0.75);
             z-index: 1;
         }
         .border-bottom-share {
@@ -186,7 +189,7 @@
         #menu-main {
             #menu-item-25941,
             #menu-item-34570 {
-                display: none;
+                display: none!important;
             }
         }
         .lang_selector li a {
@@ -223,6 +226,28 @@
         }
         #accordion-curriculum .panel-accordion {
             margin-bottom: rem(32px);
+        }
+        nav select{
+            background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+            background-repeat: no-repeat;
+            background-position: right 5px center; /* Change the px value here to change the distance */
+            -moz-appearance: none; 
+            -moz-appearance: none; 
+            -webkit-appearance: none; 
+            appearance: none;
+            padding : 4px 20px
+          }
+        .border-right-white{
+            position: relative;
+            &:after{
+                content: '';
+                width: 1px;
+                height: 100%;
+                background-color: $white;
+                position: absolute;
+                right: -24px;
+                top: 0;
+            }
         }
         .share {
             .meta {
@@ -509,15 +534,23 @@
                     h3 {
                         font-family: 'Luiss Sans', sans-serif !important;
                         text-transform: uppercase;
+                        padding: 0;
+                        margin-top: 1rem !important;
+                        margin-bottom: 0.5rem !important;
+                        @media (min-width: 992px) {
+                            margin-top: 2rem !important;
+                            margin-bottom: 1rem !important;
+                        }
                     }
                     h3,
                     .meta {
-                        line-height: 1.625rem;
-                        font-size: 1.125rem;
+                        @include font-size(18px!important);
+                        line-height: rem(24px);
                     }
                     .textwidget {
                         p {
                             font-weight: bold;
+                            @include font-size(24px!important);
                         }
                     }
                 }
@@ -600,6 +633,7 @@
                 background: linear-gradient( -225deg, rgba($color: $bgColor, $alpha: 1) 0%, rgba($color: $bgColor, $alpha: 0) 100%);
             }
         }
+
         #header-master {
             padding: 0;
             h1 {

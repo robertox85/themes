@@ -28,10 +28,14 @@
             
             <div class="col-md-12 py-32">
                 <div class="colonna_key_facts-container colonna_key_facts-fixed">
-                    <h5><?php echo get_query_var( 'site_name' ) ?></h5>
-                    <div class="share_links share_links-fixed">
-                        <?php get_template_part('pco/template-parts/content', 'share-inline')?>
-                    </div>
+                    
+                    <a class="mr-24 border-right-white" href="<?php echo site_url() ?>" title="Home page">
+                        <img src="<?php echo site_url() ?>/wp-content/themes/master_2017/img/lbs-bianco.png" alt="Luiss Business School Logo" id="logo-img" />
+                    </a>
+
+                    <h5 class="ml-24"><?php echo get_query_var( 'site_name' ) ?></h5>
+
+                    
                     <?php if (function_exists('dynamic_sidebar')): ?>
                     <?php dynamic_sidebar('Custom')?>
                     <?php endif;?>
