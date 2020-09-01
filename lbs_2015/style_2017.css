@@ -8019,10 +8019,6 @@ h4:before {
         background: #111
     }
 
-    ##logo-bs {
-        display: none
-    }
-
     #logo a {
         background: #111 url(img/logo-luiss-bianco-mob.png) no-repeat 46px 14px !important;
         display: block;
