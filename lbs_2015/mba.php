@@ -119,7 +119,7 @@ $sub_home['en'] = 'Based on team working and action learning, our teaching devel
         <br /><?php echo $sottotitolo_mba_4[ICL_LANGUAGE_CODE] ?></h6>
     <div class="w-100 d-flex flex-row justify-content-between flex-wrap flex-md-nowrap align-items-stretch">
         <div class="first-block w-50">
-            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_17[ICL_LANGUAGE_CODE] ?></p>
+            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_19[ICL_LANGUAGE_CODE] ?></p>
             <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
         </div>
         <div class="second-block w-50">

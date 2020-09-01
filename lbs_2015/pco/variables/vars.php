@@ -135,6 +135,11 @@ $durata_17[ 'it' ] = '17 mesi';
 $durata_17[ 'en' ] = '17 Months';
 ?>
 
+<?php $durata_19 = array();
+$durata_19[ 'it' ] = '19 mesi';
+$durata_19[ 'en' ] = '19 Months';
+?>
+
 <?php $durata_22 = array();
 $durata_22[ 'it' ] = '22 mesi';
 $durata_22[ 'en' ] = '22 Months';
@@ -319,8 +324,8 @@ $sottotitolo_mba_4[ 'en' ] = '';
 ?>
 	<!-- Inizio -->
 	<?php $inizio_mba_4 = array();
-$inizio_mba_4[ 'it' ] = '26 Giu 2020';
-$inizio_mba_4[ 'en' ] = 'Jun 26, 2020';
+$inizio_mba_4[ 'it' ] = 'Apr 2021';
+$inizio_mba_4[ 'en' ] = 'Apr 2021';
 ?>
 	<!-- Programma -->
 	<?php $link_site_mba_4 = array();
