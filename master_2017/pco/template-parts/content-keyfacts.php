@@ -26,7 +26,7 @@
         <!-- questa riga quando c'è lo scroll -->
         <div class="row row-fixed row-hidden">
             
-            <div class="col-md-12 py-32">
+            <div class="col-md-12 py-0">
                 <div class="colonna_key_facts-container colonna_key_facts-fixed">
                     
                     <a class="mr-24 border-right-white" href="<?php echo site_url() ?>" title="Home page">
@@ -45,7 +45,7 @@
     </div>
 
     <!-- solo su mobile -->
-    <div class="d-block d-lg-none download-brocure shadow-top">
+    <div class="p-24 d-block d-lg-none download-brocure shadow-top">
         <?php if (function_exists('dynamic_sidebar')): ?>
             <p class="text-center"><?php echo get_query_var( 'site_name' ) ?></p>
         <?php dynamic_sidebar('Custom')?>

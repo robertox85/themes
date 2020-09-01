@@ -267,11 +267,11 @@ bloginfo('name');
                         <div class="header-second-block">
                             <nav id="secondary-nav" class="">
                                 <ul>
-                                    <li><a href="http://www.luiss.it/">Luiss.it</a></li>
-                                    <li><a href="javascript:void(0)" id="network-offcanvas-trigger">Luiss Network</a>
+                                    <li><a href="https://www.luiss.it/">Luiss.it</a></li>
+                                    <li><a href="https://www.luiss.it/network">Luiss Network</a>
                                     </li>
-                                    <li><a href="<?php echo get_site_url() ?>/milano"><strong>Milano</strong></a></li>
-                                    <li><a href="<?php echo get_site_url() ?>/belluno"><strong>Belluno</strong></a></li>
+                                    <li><a href="https://businesschool.luiss.it/milano"><strong>Milano</strong></a></li>
+                                    <li><a href="https://businesschool.luiss.it/belluno"><strong>Belluno</strong></a></li>
                                 </ul>
                             </nav>
                             <?php language_selector_flags();?>
@@ -310,7 +310,7 @@ bloginfo('name');
             <?php get_template_part('nav', 'it');  ?>
 
 
-
+<!--
             <nav id="network-container-offcanvas">
                 <div class="container px-0">
                     <div class="row">
@@ -347,8 +347,8 @@ bloginfo('name');
                     </div>
                 </div>
             </nav>
-
-
+-->
+<!--
             <nav id="breadcrumb-top-2" class="d-none d-lg-block">
                 <div class="container px-0">
                     <div class="row breadcrumb px-0 pt-24 pb-16">
@@ -365,7 +365,6 @@ bloginfo('name');
                                     class="fa fa-angle-up"></i>
                                 <?php echo $back_to_top_text[ICL_LANGUAGE_CODE] ?></a></span>
                     </div>
-                    <!--END .row -->
                 </div>
-                <!-- .END container -->
             </nav>
+    -->
