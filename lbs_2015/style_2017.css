@@ -9202,6 +9202,31 @@ h6 {
     box-shadow: inset 0 0 10px 0 rgba(60, 60, 60, 0.2) !important;
 }
 
+.button.button__primary.button__blue {
+  background: #003a70 !important;
+  border: 1px solid transparent;
+}
+
+.button.button__primary.button__blue:hover {
+  background: #ffffff;
+  border: 1px solid #003a70 !important;
+  color: #003a70 !important;
+  text-decoration: none;
+}
+
+.button.button__secondary.button__blue {
+  border: 1px solid #003a70 !important;
+  color: #003a70;
+}
+
+.button.button__secondary.button__blue:hover {
+    background: #003a70 !important;
+    border: 1px solid #003a70 !important;
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+
 a.link-scale,
 a.link-scale:visited {
     text-decoration: none;
@@ -9230,23 +9255,13 @@ a.link-scale:focus {
     line-height: 1.8rem !important;
 }
 
-@media screen and (min-width: 768px) {
-    .img-card {
-        height: 200px;
+.img-card {
+        height: 300px;
         width: 100%;
         object-fit: cover;
         display: block;
     }
-}
 
-@media screen and (max-width: 767px) {
-    .img-card {
-        height: 250px;
-        width: 100%;
-        object-fit: cover;
-        display: block;
-    }
-}
 
 /* MEET US ONLINE */
 

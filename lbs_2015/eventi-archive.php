@@ -75,7 +75,7 @@ $year = substr($data_inizio,0,4); ?>
 
             <div class="col-12 col-lg-4">
             <article itemscope="" itemtype="http://schema.org/Article">
-                    <div class="row d-flex flex-row align-items-center justify-content-between my-16 px-16">
+                    <div class="d-flex flex-row align-items-center justify-content-between my-16">
                         <div class="col-xs-4 bg__white box-event-date d-flex flex-row align-items-center justify-content-center">
                             <h6 class="my-0"><?php echo get_date($data_inizio,"events",ICL_LANGUAGE_CODE) ?></h6>
                         </div>

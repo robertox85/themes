@@ -113,7 +113,7 @@ header#masthead .lang_selector li a.active {
     line-height: 1rem;
     border-bottom: 0px;
     background-color: transparent;
-    padding: 0px 4px 0px 0px;
+    padding: 0px 4px 0px 4px;
     font-family: "Luiss Sans", Arial, Helvetica, sans-serif;
 }
 

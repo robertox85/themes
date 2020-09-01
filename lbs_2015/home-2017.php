@@ -102,7 +102,7 @@ $testo3 = get_field('testo_visore_3');
 
 <!-- CAROUSEL BANNER DESKTOP -->
 
-<section style="border-bottom: 1px solid #e8e8e8;" class="py-24 pt-md-48 pb-md-80">
+<section style="border-bottom: 1px solid #e8e8e8;" class="pt-0 pb-48 pt-md-48 pb-md-80">
 <?php 
 $img_link_desk_1 = array();
 $img_link_desk_1['it'] = get_stylesheet_directory_uri() . '/pco/images/flex-ita-desk.png';

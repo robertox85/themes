@@ -61,7 +61,7 @@ $s++
 
 ?>
 
-            <div class="col-md-6 col-lg-3 px-0 accordion-card my-24 my-md-4">
+            <div class="col-md-6 col-lg-3 accordion-card my-24 my-md-48 px-0">
 
                 <?php
 	$img_attr = array(

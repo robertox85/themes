@@ -83,8 +83,14 @@ Creation Date: 12/20/2018
 	                <div class="row">
 	                    <div class="col-xs-12 col-lg-8 mb-48 mb-md-64">
 	                        <p>Tutti i Master che si svolgono a <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?>.</p>
+                            <ul>
+                                <li><a href="#primolivello-roma"><strong>Master di primo livello a Roma</strong></a></li>
+                                <li><a href="#secondolivello-roma"><strong>Master di secondo livello a Roma</strong></a></li>
+                                <li><a href="#altaformazione"><strong>Programmi di Alta Formazione a Roma</strong></a></li>
+                            </ul>
 	                    </div>
 	                </div>
+                    <a name="primolivello-roma"></a>
 	                <div class="row">
 	                    <div class="col-xs-12 mb-0">
 	                        <h3><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></h3>
@@ -557,6 +563,7 @@ Creation Date: 12/20/2018
 
 	                    </div>
 
+                        <a name="secondolivello-roma"></a>
 	                    <div class="row">
 	                        <div class="col-xs-12 mb-0 mt-48">
 	                            <h3><?php echo $secondo_livello[ICL_LANGUAGE_CODE] ?></h3>
@@ -717,7 +724,7 @@ Creation Date: 12/20/2018
                     </div>
                     <div class="d-flex flex-row px-0 pt-24 align-items-stretch justify-content-between  flex-wrap">
 	                        <!-- PROGRAMMA A1 -->
-	                        <div class="card-course-small p-24 my-16 d-flex flex-column justify-content-start align-items-start" style="border-color: var(--current-color);">
+	                        <div class="card-course-small card__blue p-24 my-16 d-flex flex-column justify-content-start align-items-start">
 	                            <span class="meta text-uppercase color__grey"><?php echo $altaformazione[ICL_LANGUAGE_CODE] ?></span>
 	                            <h6 class="py-24 mb-0"><?php echo $titolo_programma_a1[ICL_LANGUAGE_CODE] ?>
 	                                <br /><?php echo $sottotitolo_programma_a1[ICL_LANGUAGE_CODE] ?></h6>
@@ -726,14 +733,14 @@ Creation Date: 12/20/2018
 	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_programma_a1[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
-	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_siteprogramma_a1[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
-	                                <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_programma_a1[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                                <a class="button button__secondary button__blue my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_siteprogramma_a1[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
+	                                <a class="button button__primary button__blue my-8 m-md-0" href="<?php echo $link_brochure_programma_a1[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
 	                            </div>
 	                        </div>
 	                        <!-- END PROGRAMMA A1 -->
 
 	                        <!-- PROGRAMMA A2 -->
-	                        <div class="card-course-small p-24 my-16 d-flex flex-column justify-content-start align-items-start" style="border-color: var(--current-color);">
+	                        <div class="card-course-small card__blue p-24 my-16 d-flex flex-column justify-content-start align-items-start" style="border-color: var(--current-color);">
 	                            <span class="meta text-uppercase color__grey"><?php echo $altaformazione[ICL_LANGUAGE_CODE] ?></span>
 	                            <h6 class="py-24 mb-0"><?php echo $titolo_programma_a2[ICL_LANGUAGE_CODE] ?>
 	                                <br /><?php echo $sottotitolo_programma_a2[ICL_LANGUAGE_CODE] ?></h6>
@@ -742,14 +749,14 @@ Creation Date: 12/20/2018
 	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_programma_a2[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
-	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_siteprogramma_a2[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
-	                                <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_programma_a2[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                                <a class="button button__secondary button__blue my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_siteprogramma_a2[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
+	                                <a class="button button__primary button__blue my-8 m-md-0" href="<?php echo $link_brochure_programma_a2[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
 	                            </div>
 	                        </div>
 	                        <!-- END PROGRAMMA A2 -->
 
 	                        <!-- PROGRAMMA A3 -->
-	                        <div class="card-course-small p-24 my-16 d-flex flex-column justify-content-start align-items-start" style="border-color: var(--current-color);">
+	                        <div class="card-course-small card__blue p-24 my-16 d-flex flex-column justify-content-start align-items-start" style="border-color: var(--current-color);">
 	                            <span class="meta text-uppercase color__grey"><?php echo $altaformazione[ICL_LANGUAGE_CODE] ?></span>
 	                            <h6 class="py-24 mb-0"><?php echo $titolo_programma_a1[ICL_LANGUAGE_CODE] ?>
 	                                <br /><?php echo $sottotitolo_programma_a3[ICL_LANGUAGE_CODE] ?></h6>
@@ -758,14 +765,14 @@ Creation Date: 12/20/2018
 	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_programma_a1[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
-	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_siteprogramma_a3[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
-	                                <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_programma_a3[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                                <a class="button button__secondary button__blue my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_siteprogramma_a3[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
+	                                <a class="button button__primary button__blue my-8 m-md-0" href="<?php echo $link_brochure_programma_a3[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
 	                            </div>
 	                        </div>
 	                        <!-- END PROGRAMMA A3 -->
 
 	                        <!-- PROGRAMMA A4 -->
-	                        <div class="card-course-small p-24 my-16 d-flex flex-column justify-content-start align-items-start" style="border-color: var(--current-color);">
+	                        <div class="card-course-small card__blue p-24 my-16 d-flex flex-column justify-content-start align-items-start" style="border-color: var(--current-color);">
 	                            <span class="meta text-uppercase color__grey"><?php echo $altaformazione[ICL_LANGUAGE_CODE] ?></span>
 	                            <h6 class="py-24 mb-0"><?php echo $titolo_programma_a4[ICL_LANGUAGE_CODE] ?>
 	                                <br /><?php echo $sottotitolo_programma_a4[ICL_LANGUAGE_CODE] ?></h6>
@@ -774,8 +781,8 @@ Creation Date: 12/20/2018
 	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_programma_a3[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
-	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_siteprogramma_a4[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
-	                                <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_programma_a4[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                                <a class="button button__secondary button__blue my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_siteprogramma_a4[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
+	                                <a class="button button__primary button__blue my-8 m-md-0" href="<?php echo $link_brochure_programma_a4[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
 	                            </div>
 	                        </div>
 	                        <!-- END PROGRAMMA A4 -->

@@ -60,7 +60,7 @@ $leggi[ 'en' ] = 'Read more';
     
     <div class="col-12 col-lg-6 my-16" style="border: 1px solid #e8e8e8;">
             <article itemscope="" itemtype="http://schema.org/Article">
-                    <div class="row d-flex flex-row align-items-center justify-content-between my-16 px-16">
+                    <div class="d-flex flex-row align-items-center justify-content-between my-16">
                         <div class="col-xs-4">
                             <span itemscope itemtype='http://schema.org/ImageObject'>
 						<?php 

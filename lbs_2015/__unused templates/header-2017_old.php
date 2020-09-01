@@ -182,7 +182,7 @@ bloginfo('name');
             <!-- MOBILE -->
             <header id="masthead" class="d-block d-lg-none pb-24 pl-0">
                 <div class="container">
-                    <div class="row d-flex align-items-center">
+                    <div class="d-flex align-items-center">
                         <a class="col-xs-1 main-menu-toggle hamburger  hamburger--collapse" type="button">
                           <span class="hamburger-box">
                             <span class="hamburger-inner"></span>

@@ -13164,6 +13164,43 @@ h6 {
   color: var(--current-color);
 }
 
+.button.button__secondary:hover {
+    background: var(--current-color) !important;
+    border: 1px solid var(--current-color) !important;
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+.button.button__secondary:focus {
+    -webkit-box-shadow: inset 0 0 10px 0 rgba(60, 60, 60, 0.2) !important;
+    box-shadow: inset 0 0 10px 0 rgba(60, 60, 60, 0.2) !important;
+}
+
+.button.button__primary.button__blue {
+  background: #003a70 !important;
+  border: 1px solid transparent !important;
+}
+
+.button.button__primary.button__blue:hover {
+  background: #ffffff;
+  border: 1px solid #003a70 !important;
+  color: #003a70 !important;
+  text-decoration: none;
+}
+
+.button.button__secondary.button__blue {
+  border: 1px solid #003a70 !important;
+  color: #003a70 !important;
+}
+
+.button.button__secondary.button__blue:hover {
+    background: #003a70 !important;
+    border: 1px solid #003a70 !important;
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+
 .textwidget .arr {
   border: 1px solid var(--current-color);
   color: var(--current-color);
@@ -13189,8 +13226,8 @@ h6 {
 
 .keyfacts-box .button.arr,
 .keyfacts-box .arr {
-  border: 1px solid #fff;
-  color: var(--current-color);
+  border: 1px solid #fff !important;
+  color: var(--current-color) !important;
   font-size: 1.5rem;
   line-height: 1.75rem;
   padding: 25px 70px;
@@ -13510,6 +13547,14 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
   mask-size: cover;
 }
 
+.card-course-small.card__blue {
+  border-color: #003a70 !important;
+}
+
+.card-course-small.card__blue h6 {
+  color: #003a70 !important;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .card-course-small {
     width: 45%;
@@ -13791,6 +13836,8 @@ ul.exarea-list > li > a:hover {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+background-color: rgba(0, 58, 112, 0.6);
+background-blend-mode: multiply;
 }
 
 .flex-cover {
@@ -14015,7 +14062,7 @@ body.theme-blue #menu-main li {
     line-height: 1rem;
     border-bottom: 0px;
     background-color: transparent;
-    padding: 0px 4px 0px 0px;
+    padding: 0px 4px 0px 4px;
     font-family: "Luiss Sans", Arial, Helvetica, sans-serif;
 }
 
@@ -14276,7 +14323,8 @@ position:relative;
 
 /* SECONDARY NAV MOBILE E MODIFICHE ALLA MAIN */
 
-li#menu-item-36564 > a {
+li#menu-item-36564 > a,
+li#menu-item-36565 > a{
     font-weight: bold;
 }
 
@@ -14290,6 +14338,8 @@ li.secondary-nav-item > a {
 }
 
 li.secondary-nav-item#menu-item-38267 > a,
-li.secondary-nav-item#menu-item-38268 > a {
+li.secondary-nav-item#menu-item-38268 > a,
+li.secondary-nav-item#menu-item-38272 > a,
+li.secondary-nav-item#menu-item-38273 > a {
     font-weight: bold;
 }
