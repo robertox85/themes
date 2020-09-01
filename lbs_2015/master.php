@@ -102,9 +102,9 @@ Creation Date: 12/20/2018
 	                            <span class="meta text-uppercase color__grey"><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                            <h6 class="py-24 mb-0"><?php echo $titolo_master_34[ICL_LANGUAGE_CODE] ?>
 	                                <br /><?php echo $sottotitolo_master_34[ICL_LANGUAGE_CODE] ?></h6>
-	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_12[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_34[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_34[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
@@ -112,6 +112,8 @@ Creation Date: 12/20/2018
 	                            </div>
 	                        </div>
 	                        <!-- END MASTER 34 -->
+                            
+                            <!-- 24? -->
 
 	                        <!-- MASTER 21 -->
 	                        <div class="card-course-small p-24 my-16 d-flex flex-column justify-content-start align-items-start" style="border-color: var(--current-color);">
@@ -120,14 +122,16 @@ Creation Date: 12/20/2018
 	                                <br /><?php echo $sottotitolo_master_21[ICL_LANGUAGE_CODE] ?></h6>
 	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_21[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_21[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
 	                                <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_master_21[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
 	                            </div>
 	                        </div>
 	                        <!-- END MASTER 21 -->
+                            
+                            <!-- 18? -->
 
 	                        <!-- MASTER 14 -->
 	                        <div class="card-course-small p-24 my-16 d-flex flex-column justify-content-start align-items-start" style="border-color: var(--current-color);">
@@ -136,7 +140,7 @@ Creation Date: 12/20/2018
 	                                <br /><?php echo $sottotitolo_master_14[ICL_LANGUAGE_CODE] ?></h6>
 	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_14[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_14[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
@@ -152,7 +156,7 @@ Creation Date: 12/20/2018
 	                                <br /><?php echo $sottotitolo_master_15[ICL_LANGUAGE_CODE] ?></h6>
 	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_15[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_15[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
@@ -168,7 +172,7 @@ Creation Date: 12/20/2018
 	                                <br /><?php echo $sottotitolo_master_16[ICL_LANGUAGE_CODE] ?></h6>
 	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_16[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_16[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
@@ -176,6 +180,8 @@ Creation Date: 12/20/2018
 	                            </div>
 	                        </div>
 	                        <!-- END MASTER 16 -->
+                            
+                            <!-- 17? -->
 
 	                        <!-- MASTER 6 -->
 	                        <div class="card-course-small p-24 my-16 d-flex flex-column justify-content-start align-items-start" style="border-color: var(--current-color);">
@@ -184,14 +190,16 @@ Creation Date: 12/20/2018
 	                                <br /><?php echo $sottotitolo_master_6[ICL_LANGUAGE_CODE] ?></h6>
 	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_6[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_6[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
 	                                <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_master_6[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
 	                            </div>
 	                        </div>
 	                        <!-- END MASTER 6 -->
+                            
+                            <!-- 7? -->
 
 	                        <!-- MASTER 4 -->
 	                        <div class="card-course-small p-24 my-16 d-flex flex-column justify-content-start align-items-start" style="border-color: var(--current-color);">
@@ -200,7 +208,7 @@ Creation Date: 12/20/2018
 	                                <br /><?php echo $sottotitolo_master_4[ICL_LANGUAGE_CODE] ?></h6>
 	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_4[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_4[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
@@ -216,8 +224,8 @@ Creation Date: 12/20/2018
 	                                <br /><?php echo $sottotitolo_master_5[ICL_LANGUAGE_CODE] ?></h6>
 	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_5[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_5[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
 	                                <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_master_5[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
@@ -232,31 +240,32 @@ Creation Date: 12/20/2018
 	                                <br /><?php echo $sottotitolo_master_8[ICL_LANGUAGE_CODE] ?></h6>
 	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_8[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_8[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
 	                                <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_master_8[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
 	                            </div>
 	                        </div>
 	                        <!-- END MASTER 8 -->
-
-	                        <!-- MASTER 3 -->
+<!--
+	                        MASTER 3
 	                        <div class="card-course-small p-24 my-16 d-flex flex-column justify-content-start align-items-start" style="border-color: var(--current-color);">
 	                            <span class="meta text-uppercase color__grey"><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                            <h6 class="py-24 mb-0"><?php echo $titolo_master_3[ICL_LANGUAGE_CODE] ?>
 	                                <br /><?php echo $sottotitolo_master_3[ICL_LANGUAGE_CODE] ?></h6>
 	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_3[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_3[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
 	                                <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_master_3[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
 	                            </div>
 	                        </div>
-	                        <!-- END MASTER 3 -->
-
+	                        END MASTER 3
+-->
+                            
 	                        <!-- MASTER 37 -->
 	                        <div class="card-course-small p-24 my-16 d-flex flex-column justify-content-start align-items-start" style="border-color: var(--current-color);">
 	                            <span class="meta text-uppercase color__grey"><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
@@ -264,8 +273,8 @@ Creation Date: 12/20/2018
 	                                <br /><?php echo $sottotitolo_master_37[ICL_LANGUAGE_CODE] ?></h6>
 	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_37[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_37[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
 	                                <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_master_37[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
@@ -280,14 +289,18 @@ Creation Date: 12/20/2018
 	                                <br /><?php echo $sottotitolo_master_22[ICL_LANGUAGE_CODE] ?></h6>
 	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_22[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_22[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
 	                                <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_master_22[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
 	                            </div>
 	                        </div>
 	                        <!-- END MASTER 22 -->
+                            
+                            <!-- 23 -->
+                            
+                            <!-- 2 -->
 
 	                        <!-- MASTER 1 -->
 	                        <div class="card-course-small p-24 my-16 d-flex flex-column justify-content-start align-items-start" style="border-color: var(--current-color);">
@@ -312,7 +325,7 @@ Creation Date: 12/20/2018
 	                                <br /><?php echo $sottotitolo_master_9[ICL_LANGUAGE_CODE] ?></h6>
 	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_9[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_9[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
@@ -320,6 +333,10 @@ Creation Date: 12/20/2018
 	                            </div>
 	                        </div>
 	                        <!-- END MASTER 9 -->
+                            
+                            <!-- 12 -->
+                            
+                            <!-- 13 -->
 
 	                        <!-- MASTER 10 -->
 	                        <div class="card-course-small p-24 my-16 d-flex flex-column justify-content-start align-items-start" style="border-color: var(--current-color);">
@@ -328,7 +345,7 @@ Creation Date: 12/20/2018
 	                                <br /><?php echo $sottotitolo_master_10[ICL_LANGUAGE_CODE] ?></h6>
 	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_10[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_10[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
@@ -344,8 +361,8 @@ Creation Date: 12/20/2018
 	                                <br /><?php echo $sottotitolo_master_11[ICL_LANGUAGE_CODE] ?></h6>
 	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_11[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_11[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
 	                                <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_master_11[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
@@ -360,14 +377,16 @@ Creation Date: 12/20/2018
 	                                <br /><?php echo $sottotitolo_master_32[ICL_LANGUAGE_CODE] ?></h6>
 	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_32[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_32[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
 	                                <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_master_32[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
 	                            </div>
 	                        </div>
 	                        <!-- END MASTER 32 -->
+                            
+                            <!-- 33 -->
 
 	                        <!-- MASTER 31 -->
 	                        <div class="card-course-small p-24 my-16 d-flex flex-column justify-content-start align-items-start" style="border-color: var(--current-color);">
@@ -376,8 +395,8 @@ Creation Date: 12/20/2018
 	                                <br /><?php echo $sottotitolo_master_31[ICL_LANGUAGE_CODE] ?></h6>
 	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_31[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_31[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
 	                                <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_master_31[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
@@ -392,14 +411,16 @@ Creation Date: 12/20/2018
 	                                <br /><?php echo $sottotitolo_master_25[ICL_LANGUAGE_CODE] ?></h6>
 	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_25[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_25[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
 	                                <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_master_25[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
 	                            </div>
 	                        </div>
 	                        <!-- END MASTER 25 -->
+                            
+                            <!-- 26 -->
 
 	                        <!-- MASTER 29 -->
 	                        <div class="card-course-small p-24 my-16 d-flex flex-column justify-content-start align-items-start" style="border-color: var(--current-color);">
@@ -408,8 +429,8 @@ Creation Date: 12/20/2018
 	                                <br /><?php echo $sottotitolo_master_29[ICL_LANGUAGE_CODE] ?></h6>
 	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_29[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_29[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
 	                                <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_master_29[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
@@ -424,14 +445,16 @@ Creation Date: 12/20/2018
 	                                <br /><?php echo $sottotitolo_master_27[ICL_LANGUAGE_CODE] ?></h6>
 	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_27[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_27[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
 	                                <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_master_27[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
 	                            </div>
 	                        </div>
 	                        <!-- END MASTER 27 -->
+                            
+                            <!-- 28 -->
 
 	                        <!-- MASTER 30 -->
 	                        <div class="card-course-small p-24 my-16 d-flex flex-column justify-content-start align-items-start" style="border-color: var(--current-color);">
@@ -440,8 +463,8 @@ Creation Date: 12/20/2018
 	                                <br /><?php echo $sottotitolo_master_30[ICL_LANGUAGE_CODE] ?></h6>
 	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_30[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_30[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
 	                                <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_master_30[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
@@ -456,8 +479,8 @@ Creation Date: 12/20/2018
 	                                <br /><?php echo $sottotitolo_master_38[ICL_LANGUAGE_CODE] ?></h6>
 	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_38[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_38[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
 	                                <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_master_38[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
@@ -472,8 +495,8 @@ Creation Date: 12/20/2018
 	                                <br /><?php echo $sottotitolo_master_41[ICL_LANGUAGE_CODE] ?></h6>
 	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_41[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_41[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
 	                                <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_master_41[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
@@ -488,8 +511,8 @@ Creation Date: 12/20/2018
 	                                <br /><?php echo $sottotitolo_master_39[ICL_LANGUAGE_CODE] ?></h6>
 	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_39[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_39[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
 	                                <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_master_39[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
@@ -504,8 +527,8 @@ Creation Date: 12/20/2018
 	                                <br /><?php echo $sottotitolo_master_40[ICL_LANGUAGE_CODE] ?></h6>
 	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_40[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_40[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
 	                                <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_master_40[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
@@ -520,8 +543,8 @@ Creation Date: 12/20/2018
 	                                <br /><?php echo $sottotitolo_master_42[ICL_LANGUAGE_CODE] ?></h6>
 	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_42[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_42[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
 	                                <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_master_42[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
@@ -536,8 +559,8 @@ Creation Date: 12/20/2018
 	                                <br /><?php echo $sottotitolo_master_19[ICL_LANGUAGE_CODE] ?></h6>
 	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_19[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_19[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
 	                                <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_master_19[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
@@ -552,14 +575,30 @@ Creation Date: 12/20/2018
 	                                <br /><?php echo $sottotitolo_master_20[ICL_LANGUAGE_CODE] ?></h6>
 	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_20[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_20[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
 	                                <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_master_20[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
 	                            </div>
 	                        </div>
 	                        <!-- END MASTER 20 -->
+                            
+                            <!-- MASTER 35 -->
+	                        <div class="card-course-small p-24 my-16 d-flex flex-column justify-content-start align-items-start" style="border-color: var(--current-color);">
+	                            <span class="meta text-uppercase color__grey"><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
+	                            <h6 class="py-24 mb-0"><?php echo $titolo_master_35[ICL_LANGUAGE_CODE] ?>
+	                                <br /><?php echo $sottotitolo_master_20[ICL_LANGUAGE_CODE] ?></h6>
+	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_35[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
+	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
+	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_35[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
+	                                <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_master_35[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
+	                            </div>
+	                        </div>
+	                        <!-- END MASTER 35 -->
 
 	                    </div>
 
@@ -577,8 +616,8 @@ Creation Date: 12/20/2018
 	                                <br /><?php echo $sottotitolo_master_45[ICL_LANGUAGE_CODE] ?></h6>
 	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_45[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_45[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
 	                                <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_master_45[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
@@ -591,10 +630,10 @@ Creation Date: 12/20/2018
 	                            <span class="meta text-uppercase color__grey"><?php echo $secondo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                            <h6 class="py-24 mb-0"><?php echo $titolo_master_50[ICL_LANGUAGE_CODE] ?>
 	                                <br /><?php echo $sottotitolo_master_50[ICL_LANGUAGE_CODE] ?></h6>
-	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_part[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_50[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_50[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
 	                                <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_master_50[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
@@ -609,7 +648,7 @@ Creation Date: 12/20/2018
 	                                <br /><?php echo $sottotitolo_master_24[ICL_LANGUAGE_CODE] ?></h6>
 	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_24[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_24[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
@@ -625,8 +664,8 @@ Creation Date: 12/20/2018
 	                                <br /><?php echo $sottotitolo_master_46[ICL_LANGUAGE_CODE] ?></h6>
 	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_46[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_46[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
 	                                <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_master_46[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
@@ -639,10 +678,10 @@ Creation Date: 12/20/2018
 	                            <span class="meta text-uppercase color__grey"><?php echo $secondo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                            <h6 class="py-24 mb-0"><?php echo $titolo_master_47[ICL_LANGUAGE_CODE] ?>
 	                                <br /><?php echo $sottotitolo_master_47[ICL_LANGUAGE_CODE] ?></h6>
-	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_part[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_47[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_47[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
 	                                <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_master_47[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
@@ -655,10 +694,10 @@ Creation Date: 12/20/2018
 	                            <span class="meta text-uppercase color__grey"><?php echo $secondo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                            <h6 class="py-24 mb-0"><?php echo $titolo_master_48[ICL_LANGUAGE_CODE] ?>
 	                                <br /><?php echo $sottotitolo_master_48[ICL_LANGUAGE_CODE] ?></h6>
-	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_part[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_48[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_48[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
 	                                <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_master_48[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
@@ -671,10 +710,10 @@ Creation Date: 12/20/2018
 	                            <span class="meta text-uppercase color__grey"><?php echo $secondo_livello[ICL_LANGUAGE_CODE] ?></span>
 	                            <h6 class="py-24 mb-0"><?php echo $titolo_master_49[ICL_LANGUAGE_CODE] ?>
 	                                <br /><?php echo $sottotitolo_master_49[ICL_LANGUAGE_CODE] ?></h6>
-	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_part[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_49[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_49[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
 	                                <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_master_49[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
@@ -689,8 +728,8 @@ Creation Date: 12/20/2018
 	                                <br /><?php echo $sottotitolo_master_44[ICL_LANGUAGE_CODE] ?></h6>
 	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_44[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_44[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
 	                                <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_master_44[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
@@ -705,8 +744,8 @@ Creation Date: 12/20/2018
 	                                <br /><?php echo $sottotitolo_master_43[ICL_LANGUAGE_CODE] ?></h6>
 	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_43[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_43[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
 	                                <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_master_43[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
@@ -758,11 +797,11 @@ Creation Date: 12/20/2018
 	                        <!-- PROGRAMMA A3 -->
 	                        <div class="card-course-small card__blue p-24 my-16 d-flex flex-column justify-content-start align-items-start" style="border-color: var(--current-color);">
 	                            <span class="meta text-uppercase color__grey"><?php echo $altaformazione[ICL_LANGUAGE_CODE] ?></span>
-	                            <h6 class="py-24 mb-0"><?php echo $titolo_programma_a1[ICL_LANGUAGE_CODE] ?>
+	                            <h6 class="py-24 mb-0"><?php echo $titolo_programma_a3[ICL_LANGUAGE_CODE] ?>
 	                                <br /><?php echo $sottotitolo_programma_a3[ICL_LANGUAGE_CODE] ?></h6>
 	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_part_6[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_programma_a1[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_programma_a3[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary button__blue my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_siteprogramma_a3[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
@@ -778,7 +817,7 @@ Creation Date: 12/20/2018
 	                                <br /><?php echo $sottotitolo_programma_a4[ICL_LANGUAGE_CODE] ?></h6>
 	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full_3[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_programma_a3[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_programma_a4[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary button__blue my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_siteprogramma_a4[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
@@ -810,8 +849,8 @@ Creation Date: 12/20/2018
 	                            <h6 class="py-24 mb-0"><?php echo $titolo_master_18[ICL_LANGUAGE_CODE] ?>
 	                                <br /><?php echo $sottotitolo_master_18[ICL_LANGUAGE_CODE] ?></h6>
 	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_am_mi[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_18[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_18[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
@@ -826,9 +865,9 @@ Creation Date: 12/20/2018
 	                            <h6 class="py-24 mb-0"><?php echo $titolo_master_23[ICL_LANGUAGE_CODE] ?>
 	                                <br /><?php echo $sottotitolo_master_23[ICL_LANGUAGE_CODE] ?></h6>
 	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_mi[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_23[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_23[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
 	                                <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_master_23[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
@@ -842,8 +881,8 @@ Creation Date: 12/20/2018
 	                            <h6 class="py-24 mb-0"><?php echo $titolo_master_2[ICL_LANGUAGE_CODE] ?>
 	                                <br /><?php echo $sottotitolo_master_2[ICL_LANGUAGE_CODE] ?></h6>
 	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_mi[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_2[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_2[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
@@ -858,9 +897,9 @@ Creation Date: 12/20/2018
 	                            <h6 class="py-24 mb-0"><?php echo $titolo_master_12[ICL_LANGUAGE_CODE] ?>
 	                                <br /><?php echo $sottotitolo_master_12[ICL_LANGUAGE_CODE] ?></h6>
 	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_mi[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_12[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_12[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
 	                                <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_master_12[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
@@ -874,9 +913,9 @@ Creation Date: 12/20/2018
 	                            <h6 class="py-24 mb-0"><?php echo $titolo_master_33[ICL_LANGUAGE_CODE] ?>
 	                                <br /><?php echo $sottotitolo_master_33[ICL_LANGUAGE_CODE] ?></h6>
 	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_mi[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_33[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_33[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
 	                                <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_master_33[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
@@ -890,9 +929,9 @@ Creation Date: 12/20/2018
 	                            <h6 class="py-24 mb-0"><?php echo $titolo_master_26[ICL_LANGUAGE_CODE] ?>
 	                                <br /><?php echo $sottotitolo_master_26[ICL_LANGUAGE_CODE] ?></h6>
 	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_mi[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_26[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_26[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
 	                                <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_master_26[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
@@ -923,9 +962,9 @@ Creation Date: 12/20/2018
 	                            <h6 class="py-24 mb-0"><?php echo $titolo_master_17[ICL_LANGUAGE_CODE] ?>
 	                                <br /><?php echo $sottotitolo_master_17[ICL_LANGUAGE_CODE] ?></h6>
 	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_be[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_17[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_17[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
 	                                <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_master_17[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
@@ -939,9 +978,9 @@ Creation Date: 12/20/2018
 	                            <h6 class="py-24 mb-0"><?php echo $titolo_master_7[ICL_LANGUAGE_CODE] ?>
 	                                <br /><?php echo $sottotitolo_master_7[ICL_LANGUAGE_CODE] ?></h6>
 	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_be[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_7[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_7[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
 	                                <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_master_7[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
@@ -955,9 +994,9 @@ Creation Date: 12/20/2018
 	                            <h6 class="py-24 mb-0"><?php echo $titolo_master_36[ICL_LANGUAGE_CODE] ?>
 	                                <br /><?php echo $sottotitolo_master_36[ICL_LANGUAGE_CODE] ?></h6>
 	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_be[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_36[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_36[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
 	                                <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_master_36[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
@@ -971,9 +1010,9 @@ Creation Date: 12/20/2018
 	                            <h6 class="py-24 mb-0"><?php echo $titolo_master_13[ICL_LANGUAGE_CODE] ?>
 	                                <br /><?php echo $sottotitolo_master_13[ICL_LANGUAGE_CODE] ?></h6>
 	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_be[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_13[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_13[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
 	                                <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_master_13[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>
@@ -987,9 +1026,9 @@ Creation Date: 12/20/2018
 	                            <h6 class="py-24 mb-0"><?php echo $titolo_master_28[ICL_LANGUAGE_CODE] ?>
 	                                <br /><?php echo $sottotitolo_master_28[ICL_LANGUAGE_CODE] ?></h6>
 	                            <p class="big mb-8"><strong><?php echo $titolo_durata[ICL_LANGUAGE_CODE] ?></strong> <?php echo $durata_full[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_1[ICL_LANGUAGE_CODE] ?></p>
-	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_sede[ICL_LANGUAGE_CODE] ?></strong> <?php echo $sede_be[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_master_28[ICL_LANGUAGE_CODE] ?></p>
+	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
 	                                <a class="button button__secondary my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_master_28[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
 	                                <a class="button button__primary my-8 m-md-0" href="<?php echo $link_brochure_master_28[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a>

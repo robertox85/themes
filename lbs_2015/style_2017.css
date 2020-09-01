@@ -3908,12 +3908,13 @@ a img {
     float: none;
     display: block;
     padding: 20px 28px;
-    border-bottom: 1px solid #3c3c3c;
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
     position: relative
 }
 
 #menu-main .sub-menu li a:after {
-    color: #F7F7F7;
+    color: #003a70;
     content: "\203A";
     position: absolute;
     right: 14px
@@ -3921,18 +3922,32 @@ a img {
 
 #menu-main .sub-menu li a:hover {
     color: #fff;
-    background: rgba(60, 60, 60, 0.5);
+    background-color: #003a70;
     text-decoration: none
 }
 
+#menu-main .sub-menu li a:hover:after {
+    color: #fff;
+}
+
 #nav-main .searchbar {
-    border-left: 1px solid #333;
+    border-left: 1px solid #003a70;
     position: absolute;
     right: 0;
     top: 1px;
     float: right;
     display: block
 }
+
+@media screen and (min-width: 992px) and (max-width:1199px) {
+
+#nav-main .searchbar {
+    border-top: 1px solid #003a70;
+    position: absolute;
+    top: 58px;
+}
+
+    }
 
 #nav-main .searchbar a {
     padding: 20px 22px;
@@ -8736,33 +8751,6 @@ body.theme-blue .sub-menu li a {
     }
 }
 
-
-@media screen and (min-width: 1440px) {
-    .sub-menu {
-        width: 120% !important;
-    }
-}
-
-@media screen and (min-width: 1200px) and (max-width: 1439px) {
-    .sub-menu {
-        width: 110.35% !important;
-    }
-}
-
-@media screen and (max-width: 1199px) {
-    .sub-menu {
-        width: 100.2% !important;
-    }
-
-}
-
-@media screen and (min-width: 991px) and (max-width: 1199px) {
-    #menu-main {
-        width: 94%;
-    }
-
-}
-
 /* CORREZIONI HEADER 2 (CAMBIO IN HP) */
 
 #logo-bs {
@@ -8816,6 +8804,10 @@ body.theme-blue .sub-menu li a {
     border-bottom: 1px solid #e8e8e8;
 }
 
+#menu-main-container .sub-menu {
+    width: calc(100% + 2px);
+}
+
 @media screen and (min-width: 992px) {
 
     .hp-nav-fix:not(.scrolled) #menu-main li a,
@@ -8828,6 +8820,44 @@ body.theme-blue .sub-menu li a {
     }
 
 }
+
+/* CORREZIONI SEARCH BAR E NAVBAR */
+
+@media screen and (min-width: 992px) {
+#menu-main-container {
+        display: block !important;
+        position: relative;
+        left: 0;
+        background: transparent;
+        padding: 0;
+        width: 100%;
+}
+}
+
+.gsc-search-button {
+    height: 5rem !important;
+    width: 16px !important;
+}
+
+.gsc-input-box {
+    margin: 0 0 0 16px !important;
+}
+
+.gsib_b {
+    display: none !important;
+}
+
+button.gsc-search-button.gsc-search-button-v2 {
+    display: none !important;
+}
+
+body.theme-blue #menu-main .current-menu-item a {
+    background-color: #003a70;
+    color: #ffffff;
+}
+
+/* FINE */
+
 
 /* COLORI */
 

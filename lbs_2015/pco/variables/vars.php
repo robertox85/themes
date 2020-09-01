@@ -121,48 +121,48 @@ $titolo_durata[ 'en' ] = 'Duration';
 
 <?php $durata_12 = array();
 $durata_12[ 'it' ] = '12 mesi';
-$durata_12[ 'en' ] = '12 months';
+$durata_12[ 'en' ] = '12 Months';
 ?>
 
 
 <?php $durata_16 = array();
 $durata_16[ 'it' ] = '16 mesi';
-$durata_16[ 'en' ] = '16 months';
+$durata_16[ 'en' ] = '16 Months';
 ?>
 
 <?php $durata_17 = array();
 $durata_17[ 'it' ] = '17 mesi';
-$durata_17[ 'en' ] = '17 months';
+$durata_17[ 'en' ] = '17 Months';
 ?>
 
 <?php $durata_22 = array();
-$durata_22[ 'it' ] = '17 mesi';
-$durata_22[ 'en' ] = '17 months';
+$durata_22[ 'it' ] = '22 mesi';
+$durata_22[ 'en' ] = '22 Months';
 ?>
 
 	<?php $durata_full = array();
 $durata_full[ 'it' ] = '12 mesi Full-time';
-$durata_full[ 'en' ] = '12 months Full-time study';
+$durata_full[ 'en' ] = '12 Months of Full-time study';
 ?>
 
 	<?php $durata_full_11 = array();
 $durata_full_11[ 'it' ] = '11 mesi Full-time';
-$durata_full_11[ 'en' ] = '11 months Full-time study';
+$durata_full_11[ 'en' ] = '11 Months of Full-time study';
 ?>
 
 	<?php $durata_full_3 = array();
-$durata_full_11[ 'it' ] = '3 mesi Full-time';
-$durata_full_11[ 'en' ] = '3 months Full-time study';
+$durata_full_3[ 'it' ] = '3 mesi Full-time';
+$durata_full_3[ 'en' ] = '3 Months of Full-time study';
 ?>
 
 	<?php $durata_part = array();
 $durata_part[ 'it' ] = '12 mesi part-time';
-$durata_part[ 'en' ] = '12 months of part-time study';
+$durata_part[ 'en' ] = '12 Months of Part-time study';
 ?>
 
 <?php $durata_part_6 = array();
 $durata_part_6[ 'it' ] = '6 mesi part-time';
-$durata_part_6[ 'en' ] = '6 months of part-time study';
+$durata_part_6[ 'en' ] = '6 Months of Part-time study';
 ?>
 
 	<!-- INIZIO -->
@@ -191,6 +191,11 @@ $sede_rm[ 'en' ] = 'Rome';
 	<?php $sede_mi = array();
 $sede_mi[ 'it' ] = 'Milano';
 $sede_mi[ 'en' ] = 'Milan';
+?>
+
+	<?php $sede_am_mi = array();
+$sede_am_mi[ 'it' ] = 'Milano e Amsterdam';
+$sede_am_mi[ 'en' ] = 'Milan and Amsterdam';
 ?>
 
 	<?php $sede_be = array();
@@ -570,7 +575,7 @@ $sottotitolo_master_8[ 'en' ] = 'Major of the Master in Master in Financial Mana
 ?>
 	<!-- Inizio -->
 	<?php $inizio_master_8 = array();
-$inizio_master_8[ 'it' ] = '26 Oct, 2020';
+$inizio_master_8[ 'it' ] = '26 Ott 2020';
 $inizio_master_8[ 'en' ] = 'Oct 26, 2020';
 ?>
 	<!-- Programma -->
@@ -682,8 +687,8 @@ $sottotitolo_master_12[ 'en' ] = 'Major of the Master in Management and Technolo
 ?>
 	<!-- Inizio -->
 	<?php $inizio_master_12 = array();
-$inizio_master_12[ 'it' ] = 'Nov 2020';
-$inizio_master_12[ 'en' ] = 'Nov 2020';
+$inizio_master_12[ 'it' ] = '3 Nov 2020';
+$inizio_master_12[ 'en' ] = 'Nov 3, 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_12 = array();
@@ -822,8 +827,8 @@ $sottotitolo_master_17[ 'en' ] = 'Major of the Master in Fashion, Luxury and Tou
 ?>
 	<!-- Inizio -->
 	<?php $inizio_master_17 = array();
-$inizio_master_17[ 'it' ] = '21 Set 2020';
-$inizio_master_17[ 'en' ] = 'Set 21, 2020';
+$inizio_master_17[ 'it' ] = '9 Nov 2020';
+$inizio_master_17[ 'en' ] = 'Nov 9, 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_17 = array();
@@ -850,18 +855,18 @@ $sottotitolo_master_18[ 'en' ] = 'Major of the Master in Fashion, Luxury and Tou
 ?>
 	<!-- Inizio -->
 	<?php $inizio_master_18 = array();
-$inizio_master_18[ 'it' ] = 'TBD';
-$inizio_master_18[ 'en' ] = 'TBD';
+$inizio_master_18[ 'it' ] = '26 Nov 2020';
+$inizio_master_18[ 'en' ] = 'Nov 26, 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_18 = array();
-$link_site_master_18[ 'it' ] = '';
-$link_site_master_18[ 'en' ] = '';
+$link_site_master_18[ 'it' ] = site_url().'/fashion-and-luxury-business/';
+$link_site_master_18[ 'en' ] = site_url().'/fashion-and-luxury-business/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_18 = array();
-$link_brochure_master_18[ 'it' ] = '';
-$link_brochure_master_18[ 'en' ] = '';
+$link_brochure_master_18[ 'it' ] = site_url().'/fashion-and-luxury-business/download-brochure/';
+$link_brochure_master_18[ 'en' ] = site_url().'/fashion-and-luxury-business/download-brochure/';
 ?>
 
 	<!-- Master 19 -->
@@ -934,8 +939,8 @@ $sottotitolo_master_21[ 'en' ] = '';
 ?>
 	<!-- Inizio -->
 	<?php $inizio_master_21 = array();
-$inizio_master_21[ 'it' ] = 'TBD';
-$inizio_master_21[ 'en' ] = 'TBD';
+$inizio_master_21[ 'it' ] = '20 Mar 2020';
+$inizio_master_21[ 'en' ] = 'Mar 20, 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_21 = array();
@@ -990,8 +995,8 @@ $sottotitolo_master_23[ 'en' ] = '';
 ?>
 	<!-- Inizio -->
 	<?php $inizio_master_23 = array();
-$inizio_master_23[ 'it' ] = 'Nov 2020';
-$inizio_master_23[ 'en' ] = 'Nov 2020';
+$inizio_master_23[ 'it' ] = '3 Nov 2020';
+$inizio_master_23[ 'en' ] = 'Nov 3, 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_23 = array();
@@ -1074,8 +1079,8 @@ $sottotitolo_master_26[ 'en' ] = 'Major of the Master in Marketing Management';
 ?>
 	<!-- Inizio -->
 	<?php $inizio_master_26 = array();
-$inizio_master_26[ 'it' ] = 'Nov 2020';
-$inizio_master_26[ 'en' ] = 'Nov 2020';
+$inizio_master_26[ 'it' ] = '3 Nov 2020';
+$inizio_master_26[ 'en' ] = 'Nov 3, 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_26 = array();
@@ -1159,7 +1164,7 @@ $sottotitolo_master_29[ 'en' ] = 'Major of the Master in Marketing Management';
 	<!-- Inizio -->
 	<?php $inizio_master_29 = array();
 $inizio_master_29[ 'it' ] = '26 Ott 2020';
-$inizio_master_29[ 'en' ] = 'oct 26, 2020';
+$inizio_master_29[ 'en' ] = 'Oct 26, 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_29 = array();
@@ -1187,7 +1192,7 @@ $sottotitolo_master_30[ 'en' ] = 'Major of the Master in Marketing Management';
 	<!-- Inizio -->
 	<?php $inizio_master_30 = array();
 $inizio_master_30[ 'it' ] = '26 Ott 2020';
-$inizio_master_30[ 'en' ] = 'oct 26, 2020';
+$inizio_master_30[ 'en' ] = 'Oct 26, 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_30 = array();
@@ -1242,8 +1247,8 @@ $sottotitolo_master_32[ 'en' ] = 'Major of the Master in Marketing Management';
 ?>
 	<!-- Inizio -->
 	<?php $inizio_master_32 = array();
-$inizio_master_32[ 'it' ] = 'Nov 2020';
-$inizio_master_32[ 'en' ] = 'Nov 2020';
+$inizio_master_32[ 'it' ] = '26 Ott 2020';
+$inizio_master_32[ 'en' ] = 'Oct 26, 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_32 = array();
@@ -1266,12 +1271,12 @@ $titolo_master_33[ 'en' ] = 'Corporate Event: Management, PR and Communication';
 	<!-- Sottotitolo -->
 	<?php $sottotitolo_master_33 = array();
 $sottotitolo_master_33[ 'it' ] = 'Major del Master in Marketing Management';
-$sottotitolo_master_33[ 'en' ] = 'Major of the Master in Marketing Managemen';
+$sottotitolo_master_33[ 'en' ] = 'Major of the Master in Marketing ManagemenT';
 ?>
 	<!-- Inizio -->
 	<?php $inizio_master_33 = array();
-$sottotitolo_master_33[ 'it' ] = 'Major del Master in Marketing Management';
-$sottotitolo_master_33[ 'en' ] = 'Major of the Master in Marketing Management';
+$inizio_master_33[ 'it' ] = '3 Nov 2020';
+$inizio_master_33[ 'en' ] = 'Nov 3, 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_33 = array();
@@ -1316,8 +1321,8 @@ $link_brochure_master_34[ 'en' ] = site_url().'/mabda/download-brochure/';
 
 	<!-- Titolo -->
 	<?php $titolo_master_35 = array();
-$titolo_master_35[ 'it' ] = '';
-$titolo_master_35[ 'en' ] = '';
+$titolo_master_35[ 'it' ] = 'Consulente Legale d\'Impresa';
+$titolo_master_35[ 'en' ] = 'Consulente Legale d\'Impresa';
 ?>
 	<!-- Sottotitolo -->
 	<?php $sottotitolo_master_35 = array();
@@ -1326,13 +1331,13 @@ $sottotitolo_master_35[ 'en' ] = '';
 ?>
 	<!-- Inizio -->
 	<?php $inizio_master_35 = array();
-$inizio_master_9[ 'it' ] = '';
-$inizio_master_9[ 'en' ] = '';
+$inizio_master_9[ 'it' ] = '26 Ott 2020';
+$inizio_master_9[ 'en' ] = 'Oct 26, 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_35 = array();
-$link_site_master_35[ 'it' ] = '';
-$link_site_master_35[ 'en' ] = '';
+$link_site_master_35[ 'it' ] = site_url().'/consulente-legale-impresa/';
+$link_site_master_35[ 'en' ] = site_url().'/consulente-legale-impresa/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_35 = array();
@@ -1354,8 +1359,8 @@ $sottotitolo_master_36[ 'en' ] = '';
 ?>
 	<!-- Inizio -->
 	<?php $inizio_master_36 = array();
-$inizio_master_36[ 'it' ] = 'Nov 2020';
-$inizio_master_36[ 'en' ] = 'Nov 2020';
+$inizio_master_36[ 'it' ] = '9 Nov 2020';
+$inizio_master_36[ 'en' ] = 'Nov 9, 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_36 = array();

@@ -201,8 +201,8 @@ header#masthead .lang_selector li a.active {
 
 #nav-main .searchbar a {
   padding: 16px 22px;
-  background-color: #003A70;
-  color: #fff;
+  background-color: transparent;
+  color: #003A70;
   
 }
 

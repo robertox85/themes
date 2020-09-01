@@ -13289,13 +13289,8 @@ body.theme-blue #menu-main li a {
 }
 
 body.theme-blue #menu-main .current-menu-item a {
-  color: #cc8a00;
-}
-
-body.theme-blue #nav-main .searchbar a {
-  background-color: transparent;
-  padding: 16px 22px;
-  color: #cc8a00;
+  background-color: #003a70;
+  color: #ffffff;
 }
 
 body.theme-blue #nav-main .drop-open a {
@@ -14144,6 +14139,7 @@ body.theme-blue .list-unstyled.secondary-nav li a {
 body.theme-blue #nav-main .searchbar a {
   padding: 16px 22px;
   color: #003a70;
+background-color:transparent;
 }
 
 body.theme-blue #nav-main .drop-open a {
@@ -14181,11 +14177,16 @@ body.theme-blue #menu-main #menu-item-34570 {
   display: none !important;
 }
 
-/* CORREZIONI SEARCH BAR */
+/* CORREZIONI SEARCH BAR E NAVBAR */
 
 @media screen and (min-width: 992px) {
 #menu-main-container {
-  display: block !important;
+        display: block !important;
+        position: relative;
+        left: 0;
+        background: transparent;
+        padding: 0;
+        width: 100%;
 }
 }
 
