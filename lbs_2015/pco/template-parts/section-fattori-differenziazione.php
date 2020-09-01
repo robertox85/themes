@@ -80,7 +80,7 @@ $fattori['en']="The differentiation factors";
                 </div>
             </div>
             <div class="col-lg-5">
-                <img src="//businessschool.luiss.it/wp-content/uploads/2018/06/img_perche450x650.png" alt="" class="my-48" style="object-fit:contain;">
+                <img src="//businessschool.luiss.it/wp-content/uploads/2018/06/img_perche450x650.png" alt="" class="my-48" style="object-fit:contain; width:100%;">
             </div>
         </div>
     </div>

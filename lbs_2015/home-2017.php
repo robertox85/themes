@@ -91,7 +91,7 @@ $testo3 = get_field('testo_visore_3');
 
 <div class="item-centre box-cover-home" style="background-image:url(<?php echo $img1['url']; ?>)">
     <div class="container">
-        <div class="row centre mt-128 pt-128">
+        <div class="row centre">
             <div class="col-md-12">
             <h1><?php echo $desc1; ?></h1>
             <h2><span class="bg__gold"><?php echo $testo1; ?></span></h2>
@@ -266,7 +266,7 @@ if (!(empty($news))) {
  
  ?>
                 <article itemscope itemtype="http://schema.org/Article">
-                    <div class="row d-flex flex-row align-items-center justify-content-between my-16 px-16">
+                    <div class="d-flex flex-row align-items-center justify-content-between my-16">
                         <div class="col-xs-4 p-0">
                             <span itemscope itemtype='http://schema.org/ImageObject'>
                                 <?php 
@@ -317,7 +317,7 @@ if (!(empty($events))) {
  ?>
 
                 <article itemscope itemtype="http://schema.org/Article">
-                    <div class="row d-flex flex-row align-items-center justify-content-between my-16 px-16">
+                    <div class="d-flex flex-row align-items-center justify-content-between my-16">
                         <div class="col-xs-4 bg__white box-event-date d-flex flex-row align-items-center justify-content-center">
                             <h6 class="my-0"><?php echo get_date($data_inizio,"events",ICL_LANGUAGE_CODE) ?></h6>
                         </div>

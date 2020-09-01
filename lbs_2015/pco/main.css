@@ -14265,12 +14265,13 @@ position:relative;
 }
 
 .box-cover-home {
-  min-height: 65vh;
+  min-height: 85vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   background-color: rgba(0, 58, 112, 0.3);
   background-blend-mode: multiply;
+    padding-top: 45vh;
 }
 
 /* SECONDARY NAV MOBILE E MODIFICHE ALLA MAIN */

@@ -130,8 +130,8 @@ header#masthead .lang_selector li a.active {
 }
 
 .fixed .breadcrumb .home {
-  background-image: url('/wp-content/themes/lbs_2015/img/logo-new-2.png')!important;
   background-size: cover;
+    background-position: left center;
   background-repeat: no-repeat;
   color: transparent!important;
   width: 77px!important;
@@ -182,6 +182,7 @@ header#masthead .lang_selector li a.active {
     border-bottom: 1px solid #e8e8e8;
     padding: 16px 0;
     margin: 0;
+    border-radius: 0px;
 }
 
 #nav-main,
