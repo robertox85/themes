@@ -62,7 +62,7 @@ header#masthead .lang_selector li a.active {
 #menu-main{
   border: 1px solid #003A70;
 }
-
+/*
 @media (max-width: 1040px) {
   #menu-main li a {
     display: block !important;
@@ -93,6 +93,7 @@ header#masthead .lang_selector li a.active {
     display: none !important;
   }
 }
+*/
 
 #menu-main li {
   font-family: 'Luiss Sans', sans-serif !important;
