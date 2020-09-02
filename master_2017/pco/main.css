@@ -20766,6 +20766,10 @@ a.accordion-toggle {
     
     }
 
+#menu-main .sub-menu li {
+    font-size: 1rem !important;
+}
+
 
 .footer #mc_embed_signup input[type=email] {
     width:60% !important;
