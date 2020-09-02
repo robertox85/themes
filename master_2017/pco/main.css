@@ -14741,7 +14741,7 @@ body.theme-blue #menu-main li {
 }
 
 body.theme-blue #menu-main li > a {
-    font-size: 1rem;
+    font-size: .85rem;
 }
 
 @media screen and (min-width: 992px) {
@@ -15735,7 +15735,7 @@ body.theme-light_blue #menu-main li {
 }
 
 body.theme-light_blue #menu-main li > a {
-    font-size: 1rem;
+    font-size: .85rem;
 }
 
 @media screen and (min-width: 992px) {
@@ -16729,7 +16729,7 @@ body.theme-green #menu-main li {
 }
 
 body.theme-green #menu-main li > a {
-    font-size: 1rem;
+    font-size: .85rem;
 }
 
 @media screen and (min-width: 992px) {
@@ -17723,7 +17723,7 @@ body.theme-red #menu-main li {
 }
 
 body.theme-red #menu-main li > a {
-    font-size: 1rem;
+    font-size: .85rem;
 }
 
 @media screen and (min-width: 992px) {
@@ -18717,7 +18717,7 @@ body.theme-orange #menu-main li {
 }
 
 body.theme-orange #menu-main li > a {
-    font-size: 1rem;
+    font-size: .85rem;
 }
 
 @media screen and (min-width: 992px) {
@@ -19711,7 +19711,7 @@ body.theme-gold #menu-main li {
 }
 
 body.theme-gold #menu-main li > a {
-    font-size: 1rem;
+    font-size: .85rem;
 }
 
 @media screen and (min-width: 992px) {
