@@ -26,8 +26,8 @@ $contatti['en'] = 'Contact Information';
 </div>
 
 <div class="container">
-    <div class="row">
-        <main id="main" class="site-main">
+    <main id="main" class="site-main">
+        <div class="row">
             <div id="page-content" class="col-md-8">
                 <?php
 while (have_posts()): the_post();
@@ -42,27 +42,27 @@ endwhile; // end of the loop.
             </div>
             <div id="sidebar-menu" class="col-md-3 offset-md-1">
 
-               <?php
+                <?php
 if (ICL_LANGUAGE_CODE == 'it'):
-?> 
-     
-<?php
+?>
+
+                <?php
     wp_nav_menu(array(
         'menu' => 'Roma'
     ));
 ?>
 
-<?php
+                <?php
 elseif (ICL_LANGUAGE_CODE == 'en'):
 ?>
-  
- <?php
+
+                <?php
     wp_nav_menu(array(
         'menu' => 'Rome'
     ));
 ?>
- 
-<?php endif; ?> 
+
+                <?php endif; ?>
                 <div class="">
                     <h5 class="color__gold mt-48"><?php echo $contatti[ICL_LANGUAGE_CODE]; ?></h5>
                     <p class="title"><strong>Luiss Business School</strong></p>
@@ -72,8 +72,8 @@ elseif (ICL_LANGUAGE_CODE == 'en'):
                     </p>
                 </div>
             </div>
-        </main>
-    </div>
+        </div>
+    </main>
     <!--END .row -->
     <p><?php edit_post_link('<strong>Modifica Pagina</strong>', ''); ?></p>
 </div>

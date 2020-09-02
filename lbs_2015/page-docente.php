@@ -18,8 +18,8 @@ get_header(2017);
     <!--END .container -->
 </header>
 <div class="container">
-    <div class="row">
-        <main id="main" class="site-main" role="main">
+    <main id="main" class="site-main" role="main">
+        <div class="row">
             <div id="page-content" class="col-md-8 columns  space">
                 <?php while ( have_posts() ) : the_post(); 
 		$post_id = get_the_ID();?>
@@ -42,8 +42,8 @@ get_header(2017);
                 <div class="block">
                     <div class="content row">
                         <div class="col-xs-12">
-                        <h2><?php echo the_title(); ?></h2>
-                        <p><?php echo get_post_meta($post->ID, 'classificazione', true); ?> <br /> <?php echo get_post_meta($post->ID, 'insegnamento', true); ?> <br /> <a href="mailto: . <?php echo get_post_meta($post->ID, 'email', true); ?>  . " /> <?php echo get_post_meta($post->ID, 'email', true); ?></p>
+                            <h2><?php echo the_title(); ?></h2>
+                            <p><?php echo get_post_meta($post->ID, 'classificazione', true); ?> <br /> <?php echo get_post_meta($post->ID, 'insegnamento', true); ?> <br /> <a href="mailto: . <?php echo get_post_meta($post->ID, 'email', true); ?>  . " /> <?php echo get_post_meta($post->ID, 'email', true); ?></p>
                         </div>
                     </div>
                 </div>
@@ -51,10 +51,8 @@ get_header(2017);
                     <div class="content row"> <?php echo do_shortcode('[ssba]'); ?> </div>
                 </div>
             </aside>
-        </main>
-
-
-    </div>
+        </div>
+    </main>
     <!--END .row -->
 </div>
 <!--END .container -->

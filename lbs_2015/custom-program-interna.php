@@ -18,23 +18,23 @@ $contatti['en'] = 'Contact Information';
     <div class="container">
         <div class="row centre mt-128 pt-80">
             <div class="col-md-8">
-            <h1><?php echo the_title(); ?></h1>
+                <h1><?php echo the_title(); ?></h1>
             </div>
         </div>
     </div>
 </div>
 
 <div class="container">
-    <div class="row">
-        <main id="main" class="site-main">
+    <main id="main" class="site-main">
+        <div class="row">
             <div id="page-content" class="col-md-8">
-<?php
+                <?php
 while (have_posts()): the_post();
 $post_id = get_the_ID();
 ?>
-<?php the_content(''); ?>
+                <?php the_content(''); ?>
 
-<?php
+                <?php
 endwhile; // end of the loop. 
 ?>
 
@@ -42,25 +42,25 @@ endwhile; // end of the loop.
             <div id="sidebar-menu" class="col-md-3 offset-md-1">
                 <?php
           if (ICL_LANGUAGE_CODE == 'it'):
-          ?> 
-              
-          <?php
+          ?>
+
+                <?php
               wp_nav_menu(array(
                   'menu' => 'Offerta Formativa'
               ));
           ?>
 
-          <?php
+                <?php
           elseif (ICL_LANGUAGE_CODE == 'en'):
           ?>
-            
-          <?php
+
+                <?php
               wp_nav_menu(array(
                   'menu' => 'Educational Portfolio'
               ));
           ?>
- 
-<?php endif; ?> 
+
+                <?php endif; ?>
 
                 <div class="">
                     <h5 class="color__gold mt-48"><?php echo $contatti[ICL_LANGUAGE_CODE]; ?></h5>
@@ -72,8 +72,8 @@ endwhile; // end of the loop.
                         <br />Email: <a href="mailto:luissbs@luiss.it" class="">luissbs@luiss.it</a></p>
                 </div>
             </div>
-        </main>
-    </div>
+        </div>
+    </main>
     <!--END .row -->
     <p><?php edit_post_link('<strong>Modifica Pagina</strong>', ''); ?></p>
 </div>

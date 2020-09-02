@@ -18,30 +18,30 @@ $contatti['en'] = 'Contact Information';
     <div class="container">
         <div class="row centre mt-128 pt-80">
             <div class="col-md-12">
-            <h1><?php echo the_title(); ?></h1>
-            <h2><span class="bg__gold"><?php echo $titolo_centro[ICL_LANGUAGE_CODE];?></span></h2>
+                <h1><?php echo the_title(); ?></h1>
+                <h2><span class="bg__gold"><?php echo $titolo_centro[ICL_LANGUAGE_CODE];?></span></h2>
             </div>
         </div>
     </div>
 </div>
 
 <div class="container">
-    <div class="row">
-        <main id="main" class="site-main">
+    <main id="main" class="site-main">
+        <div class="row">
             <div id="page-content" class="col-md-8">
-<?php
+                <?php
 while (have_posts()): the_post();
 $post_id = get_the_ID();
 ?>
-<?php the_content(''); ?>
+                <?php the_content(''); ?>
 
-<?php
+                <?php
 endwhile; // end of the loop. 
 ?>
 
-<p><?php if (is_page("attivita-culturali-luiss")) { ?>
-<?php get_template_part('attivitarss'); ?>
-<?php } ?></p>
+                <p><?php if (is_page("attivita-culturali-luiss")) { ?>
+                    <?php get_template_part('attivitarss'); ?>
+                    <?php } ?></p>
 
             </div>
             <div id="sidebar-menu" class="col-md-3 offset-md-1">
@@ -56,29 +56,29 @@ $link_centro['en'] = '/en/service-facilities/';
 ?>
 
                 <a title="<?php echo $centro[ICL_LANGUAGE_CODE];?>" href="<?php echo $link_centro[ICL_LANGUAGE_CODE]; ?>">
-                <h5 class="color__gold mt-48"><?php echo $centro[ICL_LANGUAGE_CODE];?></h5>
+                    <h5 class="color__gold mt-48"><?php echo $centro[ICL_LANGUAGE_CODE];?></h5>
                 </a>
                 <?php
 if (ICL_LANGUAGE_CODE == 'it'):
-?> 
-     
-<?php
+?>
+
+                <?php
     wp_nav_menu(array(
         'menu' => 'Segreteria Studenti'
     ));
 ?>
 
-<?php
+                <?php
 elseif (ICL_LANGUAGE_CODE == 'en'):
 ?>
-  
- <?php
+
+                <?php
     wp_nav_menu(array(
         'menu' => 'Student Office'
     ));
 ?>
- 
-<?php endif; ?> 
+
+                <?php endif; ?>
 
                 <div class="">
                     <h5 class="color__gold mt-48"><?php echo $contatti[ICL_LANGUAGE_CODE]; ?></h5>
@@ -90,8 +90,8 @@ elseif (ICL_LANGUAGE_CODE == 'en'):
                         <br />Email: <a href="mailto:luissbs@luiss.it" class="">luissbs@luiss.it</a></p>
                 </div>
             </div>
-        </main>
-    </div>
+        </div>
+    </main>
     <!--END .row -->
     <p><?php edit_post_link('<strong>Modifica Pagina</strong>', ''); ?></p>
 </div>

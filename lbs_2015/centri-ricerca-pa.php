@@ -26,8 +26,8 @@ $contatti['en'] = 'Contact Information';
 </div>
 
 <div class="container">
-    <div class="row">
-        <main id="main" class="site-main">
+    <main id="main" class="site-main">
+        <div class="row">
             <div id="page-content" class="col-md-8">
                 <?php
 while (have_posts()): the_post();
@@ -41,7 +41,7 @@ endwhile; // end of the loop.
 
             </div>
             <div id="sidebar-menu" class="col-md-3 offset-md-1">
-    
+
                 <?php wp_nav_menu(array('menu' => 'Public Administration')); ?>
 
                 <div class="">
@@ -55,8 +55,9 @@ endwhile; // end of the loop.
                         <br /><a href="mailto:pa@luiss.it">pa@luiss.it</a></p>
                 </div>
             </div>
-        </main>
-    </div>
+        </div>
+    </main>
+
     <!--END .row -->
     <p><?php edit_post_link('<strong>Modifica Pagina</strong>', ''); ?></p>
 </div>

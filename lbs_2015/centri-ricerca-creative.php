@@ -26,8 +26,8 @@ $contatti['en'] = 'Contact Information';
 </div>
 
 <div class="container">
-    <div class="row">
-        <main id="main" class="site-main">
+    <main id="main" class="site-main">
+        <div class="row">
             <div id="page-content" class="col-md-8">
                 <?php
 while (have_posts()): the_post();
@@ -77,8 +77,9 @@ endif;
                         Email: <a href="mailto:lcbc@luiss.it" class="">lcbc@luiss.it</a></p>
                 </div>
             </div>
-        </main>
-    </div>
+        </div>
+    </main>
+
     <!--END .row -->
     <p><?php edit_post_link('<strong>Modifica Pagina</strong>', ''); ?></p>
 </div>

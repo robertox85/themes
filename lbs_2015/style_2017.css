@@ -9413,3 +9413,19 @@ li.secondary-nav-item#menu-item-38273 > a {
     cursor:default !important;
     background-color: #fff !important;
 }
+
+/* JUICER */
+
+.juicer-feed .j-paginate,
+.juicer-feed .j-paginate:hover {
+  border: 0px !important;
+  font-family: 'Luiss Sans', Arial, Helvetica, sans-serif !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  color: #fff !important;
+  text-align: center !important;
+  padding: 16px 32px !important;
+  background-color: #003a70 !important;
+  width: 300px !important;
+  text-transform: uppercase !important;
+}

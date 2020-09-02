@@ -37,8 +37,9 @@ $contatti['en'] = 'Contact Information';
 <?php else : ?>
 
 <div class="container">
-    <div class="row">
+    
         <main id="main" class="site-main">
+            <div class="row">
             <div id="page-content" class="col-md-8">
 <?php
 while (have_posts()): the_post();
@@ -112,8 +113,9 @@ endif;
                 </div>
             </div>
             <?php endif; ?>
+                </div>
         </main>
-    </div>
+    
     <!--END .row -->
     <p><?php edit_post_link('<strong>Modifica Pagina</strong>', ''); ?></p>
 </div>

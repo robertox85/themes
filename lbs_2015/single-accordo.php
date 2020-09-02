@@ -20,8 +20,8 @@ get_header(2017);
 </header>
 
 <div class="container">
-    <div class="row">
-        <main id="main" class="site-main" role="main">
+    <main id="main" class="site-main" role="main">
+        <div class="row">
             <div id="page-content" class="col-md-8">
                 <?php while ( have_posts() ) : the_post(); 
 		$post_id = get_the_ID();?>
@@ -51,9 +51,8 @@ get_header(2017);
                     </div>
                 </div>
             </aside>
-        </main>
-
-    </div>
+        </div>
+    </main>
     <!--END .row -->
 </div>
 <!--END .container -->

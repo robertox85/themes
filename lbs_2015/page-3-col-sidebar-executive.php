@@ -25,8 +25,8 @@ $contatti['en'] = 'Contact Information';
 </div>
 
 <div class="container">
-    <div class="row">
-        <main id="main" class="site-main">
+    <main id="main" class="site-main">
+        <div class="row">
             <div id="page-content" class="col-md-8">
                 <?php
 while (have_posts()): the_post();
@@ -51,7 +51,7 @@ $link_centro['en'] = '/en/programs/executive-program/real-estate/';
 ?>
 
                 <a title="<?php echo $centro[ICL_LANGUAGE_CODE];?>" href="<?php echo $link_centro[ICL_LANGUAGE_CODE]; ?>">
-                <h5 class="color__gold mt-48"><?php echo $centro[ICL_LANGUAGE_CODE];?></h5>
+                    <h5 class="color__gold mt-48"><?php echo $centro[ICL_LANGUAGE_CODE];?></h5>
                 </a>
                 <?php
 if (ICL_LANGUAGE_CODE == 'it'):
@@ -72,7 +72,7 @@ elseif (ICL_LANGUAGE_CODE == 'en'):
         'menu' => 'Educational Portfolio'
     ));
 ?>
-<?php endif; ?>
+                <?php endif; ?>
                 <div class="">
                     <h5 class="color__gold mt-48"><?php echo $contatti[ICL_LANGUAGE_CODE]; ?></h5>
                     <p class="title"><strong>Luiss Business School</strong></p>
@@ -83,8 +83,8 @@ elseif (ICL_LANGUAGE_CODE == 'en'):
                         <br />Email: <a href="mailto:luissbs@luiss.it" class="">luissbs@luiss.it</a></p>
                 </div>
             </div>
-        </main>
-    </div>
+        </div>
+    </main>
     <!--END .row -->
     <p><?php edit_post_link('<strong>Modifica Pagina</strong>', ''); ?></p>
 </div>

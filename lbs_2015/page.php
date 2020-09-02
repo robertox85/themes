@@ -17,8 +17,8 @@ get_header(); ?>
     <!--END .container -->
 </header>
 <div class="container">
-    <div class="row">
-        <main id="main" class="site-main" role="main">
+    <main id="main" class="site-main" role="main">
+        <div class="row">
             <div id="page-content" class="col-md-8 columns  space">
                 <?php while ( have_posts() ) : the_post(); 
 		$post_id = get_the_ID();?>
@@ -30,8 +30,8 @@ get_header(); ?>
                     <div class="content row"> <?php echo do_shortcode('[ssba]'); ?> </div>
                 </div>
             </aside>
-        </main>
-    </div>
+        </div>
+    </main>
     <!--END .row -->
 </div>
 <!--END .container -->

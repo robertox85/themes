@@ -43,8 +43,8 @@ $data_termine = get_post_meta( $post->ID, 'data_termine', true);
 $new_format_start = date('M/j/Y',strtotime($data_termine));
 ?>
 <div class="container">
-    <div class="row">
-        <main id="main" class="site-main" role="main">
+    <main id="main" class="site-main" role="main">
+        <div class="row">
             <div id="page-content" class="col-md-8">
                 <p><i class="fa fa-calendar"></i> <?php echo get_date($data_inizio,"events",ICL_LANGUAGE_CODE) ?>
                     <?  if(get_field('data_termine')!= get_field('data_inizio') ) { echo '- ' .get_date($data_termine,"events",ICL_LANGUAGE_CODE); }?>
@@ -110,9 +110,8 @@ if (!(empty($news))) {
                     </div>
                 </div>
             </aside>
-        </main>
-
-    </div>
+        </div>
+    </main>
     <!--END .row -->
 </div>
 <!--END .container -->
