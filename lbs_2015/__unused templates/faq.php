@@ -19,14 +19,14 @@ get_header();
 <div class="container">
   <div class="row">
     <main id="main" class="site-main" role="main">
-      <div id="page-content" class="col-md-8 columns  space">
+      <div id="page-content" class="col-md-8">
         <?php while ( have_posts() ) : the_post(); 
 		$post_id = get_the_ID();?>
         <?php the_content(''); ?>
         <?php endwhile; // end of the loop. ?>
       </div>
     </main>
-    <aside id="sidebar" class="col-md-3 columns col-md-push-1 space col-xs-12">
+    <aside id="sidebar" class="col-md-3 offset-md-1">
       <div  class="block">
         <div class="content row"> <?php echo do_shortcode('[ssba]'); ?> </div>
       </div>

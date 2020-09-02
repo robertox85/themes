@@ -26,7 +26,7 @@ $titolo_centro['en'] = 'Knowledge Centre & Lab';
 <div class="container">
   <div class="row">
     <main id="main" class="site-main centre">
-      <div id="page-content" class="col-md-8 columns  space">
+      <div id="page-content" class="col-md-8">
         <?php while ( have_posts() ) : the_post(); 
 		$post_id = get_the_ID();?>
         <?php the_content(''); ?>

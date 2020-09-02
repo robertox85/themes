@@ -19,7 +19,7 @@ get_header(2017)
 <div class="container">
   <div class="row">
     <main id="main" class="site-main" role="main">
-      <div id="page-content" class="col-md-8 columns  space">
+      <div id="page-content" class="col-md-8">
         <?php  
 
 $course_name =($_GET['course_name'])  ? ($_GET['course_name']) : '';
@@ -144,7 +144,7 @@ $query->the_post();
 		?>
       </div>
     </main>
-    <aside id="sidebar" class="col-md-3 columns col-md-push-1 space col-xs-12">
+    <aside id="sidebar" class="col-md-3 offset-md-1">
     
     
     <div  class="block">
