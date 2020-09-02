@@ -113,9 +113,6 @@ wp_nav_menu(array(
                     <h3><?php the_field('titolo_extra_ind');?></h3>
 
 
-
-
-
                     <?php }?>
 
                     <?php if (get_field('extra_ind')) {?>
@@ -587,7 +584,6 @@ wp_nav_menu(array(
 <?php
 //get_main_site_footer();
 ?>
-
 <?php get_footer() ?>
 
 <!-- MODAL -->
