@@ -25,7 +25,13 @@ while (have_posts()): the_post();
     }
 }
 </style>
-<?php $image = get_field('images');?>
+<?php 
+
+// get the home page ID
+$home_page_id = get_option('page_on_front');
+$image = get_field('images', $home_page_id);
+
+?>
 <div class="container-fluid container-header px-md-0 py-40"
     style="min-height:480px; background-image:url(<?php echo $image['url']; ?>); background-repeat:no-repeat; background-size: cover;background-position:center;">
     <div class="container">

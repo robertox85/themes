@@ -352,6 +352,15 @@ bloginfo('name');
             <nav id="breadcrumb-top-2" class="d-none d-lg-block">
                 <div class="container px-0">
                     <div class="row breadcrumb px-0 pt-24 pb-16">
+<<<<<<< HEAD
+                        <?php 
+                            // if (function_exists('bcn_display')) {
+                            //   bcn_display();
+                            // }
+                            // $back_to_top_text = array();
+                            // $back_to_top_text['it'] = 'Torna su';
+                            // $back_to_top_text['en'] = 'Back to top';
+=======
                         <//?php 
                             //if (function_exists('bcn_display')) {
                             //bcn_display();
@@ -359,11 +368,16 @@ bloginfo('name');
                             //$back_to_top_text = array();
                             //$back_to_top_text['it'] = 'Torna su';
                             //$back_to_top_text['en'] = 'Back to top';
+>>>>>>> 5785055ba268a752a054a0c1cf0037b4e0ffaac3
 
                           ?>
                         <span class="back-to-top"><a id="backtotop" href="javascript:void(0)"><i
                                     class="fa fa-angle-up"></i>
+<<<<<<< HEAD
+                                <?php //echo $back_to_top_text[ICL_LANGUAGE_CODE] ?></a></span>
+=======
                                 <//?php //echo $back_to_top_text[ICL_LANGUAGE_CODE] ?></a></span>
+>>>>>>> 5785055ba268a752a054a0c1cf0037b4e0ffaac3
                     </div>
                 </div>
             </nav>

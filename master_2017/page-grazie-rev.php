@@ -18,7 +18,8 @@ while ( have_posts() ) : the_post();
       </div>
        <div class="col-md-8">
    <?php 
-   $image = get_field('images');
+   $home_page_id = get_option('page_on_front');
+   $image = get_field('images', $home_page_id);
    
 if( !empty($image) ): ?>
 
