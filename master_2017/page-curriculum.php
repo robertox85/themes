@@ -39,7 +39,7 @@ $home_page_id = get_option('page_on_front');
 $image = get_field('images', $home_page_id);
 
 ?>
-<div class="container-fluid container-header px-0 py-40"
+<div class="container-fluid container-header px-24 px-md-0 py-48"
     style="min-height:480px; background-image:url(<?php echo $image['url']; ?>); background-repeat:no-repeat; background-size: cover;background-position:center;">
     <div class="container">
         <header id="header-master" class="row">
