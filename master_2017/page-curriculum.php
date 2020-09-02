@@ -104,7 +104,7 @@ wp_nav_menu(array(
 
 
 
-                <div class="col-md-12 col-sm-12"><?php the_field('struttura_del_programma_description');?></div>
+                <div class="col-md-12 col-sm-12 px-0"><?php the_field('struttura_del_programma_description');?></div>
                 <div class="clearfix"></div>
 
 
