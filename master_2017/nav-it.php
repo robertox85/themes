@@ -51,13 +51,9 @@
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29196"><a
                                     href="https://businessschool.luiss.it/offerta-formativa/executive-program/">Programmi
                                     Executive</a></li>
-                            <li id="menu-item-111"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111"><a
-                                    href="https://businessschool.luiss.it/offerta-formativa/corsi-di-laurea/">Lauree
-                                    Triennali e Magistrali</a></li>
                             <li id="menu-item-114"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-114"><a
-                                    href="https://businessschool.luiss.it/offerta-formativa/formazione-specialistica/">Programmi
+                                    href="https://businessschool.luiss.it/offerta-formativa/master/#altaformazione">Programmi
                                     di alta formazione</a></li>
                             <li id="menu-item-16068"
                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16068"><a
@@ -67,9 +63,12 @@
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19448"><a
                                     href="https://businessschool.luiss.it/offerta-formativa/custom-programmes/">Programmi
                                     Custom</a></li>
-                            <li id="menu-item-112"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112"><a
-                                    href="https://businessschool.luiss.it/offerta-formativa/doctoral/">PHD</a></li>
+                            <li id="menu-item-19448"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19448"><a
+                                    href="https://businessschool.luiss.it/open-consulting/">Open Consulting</a></li>
+                            <li id="menu-item-19448"
+                                class="empty-item menu-item menu-item-type-post_type menu-item-object-page menu-item-19448"><a
+                                    href="https://businessschool.luiss.it/open-consulting/">Open Consulting</a></li>
                         </ul>
                     </li>
                     <li id="menu-item-18867"
@@ -88,7 +87,7 @@
                                     href="https://businessschool.luiss.it/faculty-research/visiting-professor/">Visiting
                                     Professor</a></li>
                             <li id="menu-item-27833"
-                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27833"><a
+                                class="empty-item menu-item menu-item-type-custom menu-item-object-custom menu-item-27833"><a
                                     href="#">Link</a></li>
                         </ul>
                     </li>
