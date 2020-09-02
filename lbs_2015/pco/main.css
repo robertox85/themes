@@ -14324,6 +14324,19 @@ position:relative;
 
 /* SECONDARY NAV MOBILE E MODIFICHE ALLA MAIN */
 
+.list-unstyled.secondary-nav {
+  border-top: 7px solid #a1a1a1 !important;
+}
+
+.list-unstyled.secondary-nav li a {
+  display: block !important;
+  padding: 14px 12px !important;
+  color: #003a70 !important;
+  float: none !important;
+  border-bottom: 1px solid #a1a1a1 !important;
+  background: #fff !important;
+}
+
 li#menu-item-36564 > a,
 li#menu-item-36565 > a{
     font-weight: bold;
