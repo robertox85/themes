@@ -3899,7 +3899,7 @@ a img {
 #menu-main .sub-menu li {
     float: none;
     display: inline;
-    text-transform: none
+    text-transform: none;
 }
 
 #menu-main .sub-menu li a {
