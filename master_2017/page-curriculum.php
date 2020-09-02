@@ -39,26 +39,22 @@ $home_page_id = get_option('page_on_front');
 $image = get_field('images', $home_page_id);
 
 ?>
-<div class="container-fluid container-header px-24 px-md-0 py-48"
+<div class="container-fluid container-header px-0 px-lg-1"
     style="min-height:480px; background-image:url(<?php echo $image['url']; ?>); background-repeat:no-repeat; background-size: cover;background-position:center;">
-    <div class="container">
-        <header id="header-master" class="row">
+    <div class="container px-24 px-md-0 py-lg-48">
+        <header id="header-master" class="row px-md-0">
             <h1 class="col-md-12 small">
                 <?php
-                      global $blog_id;
-                      $current_blog_details = get_blog_details(array('blog_id' => $blog_id));
-                      
-
-                      echo $current_blog_details->blogname;
-                    ?>
+                global $blog_id;
+                $current_blog_details = get_blog_details(array('blog_id' => $blog_id));
+                echo $current_blog_details->blogname;
+            ?>
             </h1>
             <p class="col-md-6">
                 <?php echo get_field('paragrafo') ?>
             </p>
             <div class="clearfix"></div>
             <!--END .row -->
-
-
         </header>
     </div>
 </div>
@@ -565,7 +561,7 @@ wp_nav_menu(array(
 
                     <p><?php edit_post_link('<strong>Modifica Pagina</strong>', '');?></p>
 
-        <aside class="col-lg-3 col-md-4 col-sm-12 space sidebar-master">
+        <aside class="col-lg-3 col-md-3 space sidebar-master">
 
             <?php get_sidebar();?>
 
