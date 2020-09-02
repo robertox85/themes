@@ -5143,7 +5143,7 @@ hr {
 }
 
 .footer {
-    background: none repeat scroll 0 0 #f7f7f7;
+    background: none repeat scroll 0 0 #fff;
     padding: 40px 0;
     font-family: 'Luiss Sans', Arial, Helvetica, sans-serif
 }
@@ -9405,4 +9405,11 @@ li.secondary-nav-item#menu-item-38268 > a,
 li.secondary-nav-item#menu-item-38272 > a,
 li.secondary-nav-item#menu-item-38273 > a {
     font-weight: bold;
+}
+
+#menu-main li.empty-item,
+#menu-main li.empty-item:hover,
+#menu-main li.empty-item:hover a {
+    cursor:default !important;
+    background-color: #fff !important;
 }

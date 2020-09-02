@@ -53,10 +53,10 @@ Summer School (specialistici) - 133/134
             <div class="col-xs-12 col-lg-8"><h1 class="color__white"><?php the_title();?></h1></div>
         </div>
         <div class="row">
-            <div class="col-md-6 intro-exarea">
+            <div class="col-lg-9 intro-exarea">
                 <p class="color__white"><?php echo get_field('intro_left') ?></p>
             </div>
-            <div class="col-md-6 intro-exarea">
+            <div class="col-lg-9 intro-exarea">
                 <p><?php echo get_field('intro_right') ?></p>
             </div>
         </div>
@@ -67,7 +67,7 @@ Summer School (specialistici) - 133/134
     <section>
         <!-- CONTENUTO -->
             <!-- FLEX -->
-                <div class="d-flex flex-row flex-wrap justify-content-between align-items-stretch px-0 pt-24">
+                <div class="d-flex flex-row flex-wrap justify-content-start align-items-stretch px-0 pt-24">
                     <?php
 			$query_tax_value = 25;
 			$tax_query = array();

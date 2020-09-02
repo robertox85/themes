@@ -43,10 +43,14 @@
 <?php else : ?>
 <?php endif; ?>
 
-<div class="card-course-small p-24 my-16 d-flex flex-column justify-content-start align-items-start" style="border-color:var(--current-color);">
+<div class="card-course-small p-24 mx-0 mx-md-16 my-16 d-flex flex-column justify-content-between align-items-start" style="border-color:var(--current-color);">
+    <div class="first-block">
     <span class="meta text-uppercase color__grey"><?php the_terms($post->ID, 'lunghezza_corsi', $before = '', $sep = ', ', $after = ''); ?></span>
 
     <h6 class="py-24 mb-0 each-word"><?php the_title(); ?></h6>
+    </div>
+    
+    <div class="second-block">
 
     <!-- Durata -->
     <?php if(get_field('durata') ) : ?>
@@ -70,7 +74,7 @@
         <strong><?php the_field('online'); ?></strong>
         </p>
     <?php endif; ?>
-
+        
     <!-- Sede Roma -->
     <?php if(get_field('testo_inizio') ) : ?>
 
@@ -174,3 +178,4 @@
         <?php the_field(strip_tags('brochure')); ?>
     </div>
 </div>
+    </div>

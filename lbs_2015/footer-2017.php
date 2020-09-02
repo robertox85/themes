@@ -34,49 +34,56 @@ $current_blog_id = get_query_var( 'current_blog_id' );
                         <h3 class="color__blue pb-48"><?php echo $certificazioni_riconoscimenti[ICL_LANGUAGE_CODE]; ?>
                         </h3>
                         <ul style="display:flex; flex-direction: row; justify-content: space-between; flex-wrap: wrap;">
-                            <li class="equis"><a
-                                    href="<?php echo site_url() ?>/perche-luiss-bs/certificazioni-e-riconoscimenti/"
-                                    target="_blank">Equis</a></li>
+                            <li> <a href="<?php echo site_url() ?>/perche-luiss-bs/certificazioni-e-riconoscimenti/"
+                                    target="_blank"><img
+                                        src="<?php echo site_url() ?>/wp-content/themes/lbs_2015/pco/images/footer-loghi/amba.png"
+                                        alt="Amba Accredited" class="img-responsive" /></a>
+                            </li>
                             <li><a href="<?php echo site_url() ?>/perche-luiss-bs/certificazioni-e-riconoscimenti/"
                                     target="_blank"><img
-                                        src="<?php echo site_url() ?>/wp-content/uploads/2018/01/ISO_9001_2015_BW.jpg"
+                                        src="<?php echo site_url() ?>/wp-content/themes/lbs_2015/pco/images/footer-loghi/equis.png"
+                                        alt="Equis Accredited"
+                                        class="img-responsive" /></a></li>
+                            <li><a href="<?php echo site_url() ?>/perche-luiss-bs/certificazioni-e-riconoscimenti/"
+                                    target="_blank"><img
+                                        src="<?php echo site_url() ?>/wp-content/themes/lbs_2015/pco/images/footer-loghi/ISO_9001_2015_BW.png"
                                         alt="Azienda con sistema di Gestione qualità certificato da DNV GL iISO 9001"
                                         class="img-responsive" /></a></li>
                             <li> <a href="<?php echo site_url() ?>/perche-luiss-bs/certificazioni-e-riconoscimenti/"
                                     target="_blank"><img
-                                        src="<?php echo site_url() ?>/wp-content/uploads/2015/05/asfor-ordinario-footer-bw.jpg"
+                                        src="<?php echo site_url() ?>/wp-content/themes/lbs_2015/pco/images/footer-loghi/asfor-ordinario-footer-bw.png"
                                         alt="LUISS Business School è socio ASFOR (Associazione per la Formazione alla Direzione Aziendale)."
                                         width="100" class="img-responsive" /></a></li>
                             <li> <a href="<?php echo site_url() ?>/perche-luiss-bs/certificazioni-e-riconoscimenti/"
                                     target="_blank"><img
-                                        src="<?php echo site_url() ?>/wp-content/uploads/2015/05/rep-luiss-footer-bw.jpg"
-                                        alt="LUISS Business School è REP – Registrated Education Provider del PMI, il Project Management Institute."
+                                        src="<?php echo site_url() ?>/wp-content/themes/lbs_2015/pco/images/footer-loghi/rep-luiss-footer-bw.png"
+                                        alt="Luiss Business School è REP – Registrated Education Provider del PMI, il Project Management Institute."
                                         width="100" class="img-responsive" /></a></li>
                             <li> <a href="<?php echo site_url() ?>/perche-luiss-bs/certificazioni-e-riconoscimenti/"
                                     target="_blank"><img
-                                        src="<?php echo site_url() ?>/wp-content/uploads/2015/05/regione-lazi-footero-bw.jpg"
+                                        src="<?php echo site_url() ?>/wp-content/themes/lbs_2015/pco/images/footer-loghi/regione-lazio-footer-bw.png"
                                         alt="LUISS Business School è struttura accreditata presso la Regione Lazio per le attività di formazione."
                                         width="100" class="img-responsive" /></a></li>
                             <li> <a href="<?php echo site_url() ?>/perche-luiss-bs/certificazioni-e-riconoscimenti/"
                                     target="_blank"><img
-                                        src="<?php echo site_url() ?>/wp-content/uploads/2018/06/grli_BW.png"
-                                        alt="LUISS Business School è partner GRLI – Globally Responsible Leadership Initiative"
+                                        src="<?php echo site_url() ?>/wp-content/themes/lbs_2015/pco/images/footer-loghi/grli_BW.png"
+                                        alt="Luiss Business School è partner GRLI – Globally Responsible Leadership Initiative"
                                         width="100" class="img-responsive" /></a></li>
                             <li> <a href="<?php echo site_url() ?>/perche-luiss-bs/certificazioni-e-riconoscimenti/"
                                     target="_blank"><img
-                                        src="<?php echo site_url() ?>/wp-content/uploads/2018/06/prme_BW_rev.png"
-                                        alt="LUISS Business School è membro PRME – United Nations Principles for Responsible Management Education (PRME)."
+                                        src="<?php echo site_url() ?>/wp-content/themes/lbs_2015/pco/images/footer-loghi/prme_BW_rev.png"
+                                        alt="Luiss Business School è membro PRME – United Nations Principles for Responsible Management Education (PRME)."
                                         width="100" class="img-responsive" /></a></li>
 
                             <li> <a href="<?php echo site_url() ?>/perche-luiss-bs/certificazioni-e-riconoscimenti/"
                                     target="_blank"><img
-                                        src="<?php echo site_url() ?>/wp-content/uploads/2019/01/business-educational-alliance-logoBN.png"
-                                        alt="LUISS Business School è membro  AACSB " width="100 "
+                                        src="<?php echo site_url() ?>/wp-content/themes/lbs_2015/pco/images/footer-loghi/business-educational-alliance-logoBN.png"
+                                        alt="Luiss Business School è membro  AACSB " width="100 "
                                         class="img-responsive" /></a></li>
                             <li> <a href="<?php echo site_url() ?>/perche-luiss-bs/certificazioni-e-riconoscimenti/"
                                     target="_blank"><img
-                                        src="<?php echo site_url() ?>/wp-content/uploads/2019/08/GBSN-150.png"
-                                        alt="Global Business School Network" width="150 " class="img-responsive" /></a>
+                                        src="<?php echo site_url() ?>/wp-content/themes/lbs_2015/pco/images/footer-loghi/GBSN-150.png"
+                                        alt="Global Business School Network" width="100" class="img-responsive" /></a>
                             </li>
                         </ul>
                     </div>

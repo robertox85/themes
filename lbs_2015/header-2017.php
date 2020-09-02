@@ -255,6 +255,8 @@ bloginfo('name');
 
     .fixed .breadcrumb .home {
         background-image: url(<?php echo $logo_url_blue; ?>) !important;
+        margin-top: 16px;
+        margin-right: 8px;
     }
 </style>
 

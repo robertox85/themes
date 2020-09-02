@@ -13316,6 +13316,17 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
     border-radius: 0px;
 }
 
+.footer #mc_embed_signup input[type=email] {
+    width:60% !important;
+}
+
+@media screen and (max-width: 767px) {
+    
+.footer #mc_embed_signup input[type=email] {
+    width:100% !important;
+}
+}
+
 .footer #mc_embed_signup .button {
     clear: both;
     background-color: inherit;
@@ -13456,24 +13467,25 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
 @media screen and (max-width: 456px) {
 
     .card-off-big {
-        height: 500px;
+        height: 250px;
+        min-height: 250px;
     }
 
     .card-off-big:before {
-        height: 500px;
+        height: 250px;
     }
-
 
 }
 
 @media screen and (min-width: 457px) and (max-width: 767px) {
 
     .card-off-big {
-        height: 400px;
+        height: 250px;
+        min-height: 250px;
     }
 
     .card-off-big:before {
-        height: 400px;
+        height: 250px;
     }
 
 }
@@ -14004,6 +14016,7 @@ ul.exarea-list > li > a:hover {
     color: #fff !important;
     line-height: 1.625rem;
     font-size: 1.125rem;
+    margin-bottom: 0px;
 }
 
 .each-word {
@@ -14188,7 +14201,7 @@ body.theme-blue .lang_selector {
 }
 
 body.theme-blue #menu-main li:hover a {
-    background-color: #003a70 !important;
+    background-color: #003a70;
     color: #ffffff;
 }
 

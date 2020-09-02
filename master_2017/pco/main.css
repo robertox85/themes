@@ -14586,9 +14586,10 @@ h6,
     }
     
 .modal .modal-content {
-    width: 100%;
+    width: 90%;
     padding: 1.5rem;
     border-color: #fff !important;
+    margin: 1rem auto;
     }
 }
 
@@ -20767,4 +20768,16 @@ a.accordion-toggle {
 
 #menu-main .sub-menu li {
     text-transform: uppercase !important;
+}
+
+
+.footer #mc_embed_signup input[type=email] {
+    width:60% !important;
+}
+
+@media screen and (max-width: 767px) {
+    
+.footer #mc_embed_signup input[type=email] {
+    width:100% !important;
+}
 }
