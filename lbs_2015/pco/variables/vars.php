@@ -725,13 +725,13 @@ $inizio_master_13[ 'en' ] = 'Nov 9, 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_13 = array();
-$link_site_master_13[ 'it' ] = site_url().'/digital-business-strategy-belluno/download-brochure/';
-$link_site_master_13[ 'en' ] = site_url().'/digital-business-strategy-belluno/download-brochure/';
+$link_site_master_13[ 'it' ] = site_url().'/digital-business-strategy-belluno/';
+$link_site_master_13[ 'en' ] = site_url().'/digital-business-strategy-belluno/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_13 = array();
-$link_brochure_master_13[ 'it' ] = site_url().'/digital-business-strategy-belluno//';
-$link_brochure_master_13[ 'en' ] = site_url().'/digital-business-strategy-belluno/';
+$link_brochure_master_13[ 'it' ] = site_url().'/digital-business-strategy-belluno/download-brochure/';
+$link_brochure_master_13[ 'en' ] = site_url().'/digital-business-strategy-belluno/download-brochure/';
 ?>
 
 	<!-- Master 14 -->
