@@ -20740,3 +20740,31 @@ a.accordion-toggle {
     line-height: 34px !important;
     text-decoration:none !important;
 }
+
+@media screen and (min-width: 992px) {
+
+#page-content h1 {
+    font-size: 48px !important;
+    line-height: 54px !important;
+    }
+    
+#page-content h2 {
+    font-size: 36px !important;
+    line-height: 42px !important;
+    }
+    
+#page-content h3 {
+    font-size: 30px !important;
+    line-height: 36px !important;
+    }
+    
+#page-content h4 {
+    font-size: 24px !important;
+    line-height: 34px !important;
+    }
+    
+    }
+
+#menu-main .sub-menu li {
+    text-transform: uppercase !important;
+}

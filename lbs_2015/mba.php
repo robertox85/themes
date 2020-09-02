@@ -115,7 +115,7 @@ $sub_home['en'] = 'Based on team working and action learning, our teaching devel
 <!-- MBA 4 -->
 <div class="card-course-big my-16 p-24 d-flex flex-column justify-content-center align-items-start" style="border-color: var(--current-color);">
     <span class="meta text-uppercase color__grey"><?php echo $mba[ICL_LANGUAGE_CODE] ?></span>
-    <h6 class="py-24 mb-0"><?php echo $titolo_mba_1[ICL_LANGUAGE_CODE] ?>
+    <h6 class="py-24 mb-0"><?php echo $titolo_mba_4[ICL_LANGUAGE_CODE] ?>
         <br /><?php echo $sottotitolo_mba_4[ICL_LANGUAGE_CODE] ?></h6>
     <div class="w-100 d-flex flex-row justify-content-between flex-wrap flex-md-nowrap align-items-stretch">
         <div class="first-block w-50">

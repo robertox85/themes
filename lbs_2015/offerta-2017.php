@@ -50,9 +50,9 @@ _4 = Programmi Executive
 _5 = Programmi Custom - N.B. EDITARE IN PAGINA AL POSTO DI PHD
 _6 = Programmi di alta formazione - non utilizzato
             <!-- Box MBA -->
-            <div class="card-course-big p-24 m-16 d-flex flex-column align-items-stretch justify-content-between" style="border-color:#00968f;">
-                <h2 class="color__green"><?php echo get_field('home_launch_box_title_2'); ?></h2>
-                <p class="big"><?php echo get_field('home_launch_box_excerpt_2'); ?></p>
+            <div class="card-off-big p-24 m-16 d-flex flex-column align-items-stretch justify-content-center" style="border-color:#00968f;">
+                <h2 class="color__green pb-24"><?php echo get_field('home_launch_box_title_2'); ?></h2>
+                <p class="big pb-24"><?php echo get_field('home_launch_box_excerpt_2'); ?></p>
                 <!-- Pulsanti -->
                 <div class="row">
                     <div class="col-xs-12">
@@ -62,9 +62,9 @@ _6 = Programmi di alta formazione - non utilizzato
             </div>
 
             <!-- Box Master -->
-            <div class="card-course-big p-24 m-16 d-flex flex-column align-items-start justify-content-between" style="border-color:#d50032;">
-                <h2 class="color__red"><?php echo get_field('home_launch_box_title_3'); ?></h2>
-                <p class="big"><?php echo get_field('home_launch_box_excerpt_3'); ?></p>
+            <div class="card-off-big p-24 m-16 d-flex flex-column align-items-start justify-content-center" style="border-color:#d50032;">
+                <h2 class="color__red pb-24"><?php echo get_field('home_launch_box_title_3'); ?></h2>
+                <p class="big pb-24"><?php echo get_field('home_launch_box_excerpt_3'); ?></p>
                 <!-- Pulsanti -->
                 <div class="row">
                     <div class="col-xs-12">
@@ -74,9 +74,9 @@ _6 = Programmi di alta formazione - non utilizzato
             </div>
 
             <!-- Box Programmi Executive -->
-            <div class="card-course-big p-24 m-16 d-flex flex-column align-items-start justify-content-between" style="border-color: #0077c8;">
-                <h2 class="color__light_blue"><?php echo get_field('home_launch_box_title_4'); ?></h2>
-                <p class="big"><?php echo get_field('home_launch_box_excerpt_4'); ?></p>
+            <div class="card-off-big p-24 m-16 d-flex flex-column align-items-start justify-content-center" style="border-color: #0077c8;">
+                <h2 class="color__light_blue pb-24"><?php echo get_field('home_launch_box_title_4'); ?></h2>
+                <p class="big pb-24"><?php echo get_field('home_launch_box_excerpt_4'); ?></p>
                 <!-- Pulsanti -->
                 <div class="row">
                     <div class="col-xs-12">
@@ -86,9 +86,9 @@ _6 = Programmi di alta formazione - non utilizzato
             </div>
 
             <!-- Box Programmi Custom -->
-            <div class="card-course-big p-24 m-16 d-flex flex-column align-items-start justify-content-between" style="border-color: #d45d00;">
-                <h2 class="color__orange"><?php echo get_field('home_launch_box_title_5'); ?></h2>
-                <p class="big"><?php echo get_field('home_launch_box_excerpt_5'); ?></p>
+            <div class="card-off-big p-24 m-16 d-flex flex-column align-items-start justify-content-center" style="border-color: #d45d00;">
+                <h2 class="color__orange pb-24"><?php echo get_field('home_launch_box_title_5'); ?></h2>
+                <p class="big pb-24"><?php echo get_field('home_launch_box_excerpt_5'); ?></p>
                 <!-- Pulsanti -->
                 <div class="row">
                     <div class="col-xs-12">
