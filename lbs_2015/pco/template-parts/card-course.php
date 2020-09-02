@@ -52,7 +52,7 @@
     <?php if(get_field('durata') ) : ?>
     <p class="big mb-8">
             <?php if (ICL_LANGUAGE_CODE=='it') : ?>Durata
-            <?php elseif (ICL_LANGUAGE_CODE=='en' ) :?>Duration
+            <?php elseif (ICL_LANGUAGE_CODE=='en' ) : ?>Duration
             <?php else : ?>
             <?php endif; ?>
         <strong><?php the_field('durata'); ?></strong>
@@ -64,7 +64,7 @@
 
     <p class="big mb-8">
             <?php if (ICL_LANGUAGE_CODE=='it') : ?>Sede
-            <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Location
+            <?php elseif ( ICL_LANGUAGE_CODE=='en' ) : ?>Location
             <?php else : ?>
             <?php endif; ?>
         <strong><?php the_field('online'); ?></strong>
@@ -76,7 +76,7 @@
 
     <p class="big mb-8">
             <?php if (ICL_LANGUAGE_CODE=='it') : ?>Sede
-            <?php elseif (ICL_LANGUAGE_CODE=='en' ) :?>Location
+            <?php elseif (ICL_LANGUAGE_CODE=='en' ) : ?>Location
             <?php else : ?>
             <?php endif; ?>
         <strong><?php the_field('testo_inizio'); ?></strong>
@@ -91,7 +91,7 @@
         // Output current date in custom format.
         ?><span>   -   </span>
             <?php if (ICL_LANGUAGE_CODE=='it') : ?>Inizio
-            <?php elseif (ICL_LANGUAGE_CODE=='en' ) :?>Start
+            <?php elseif (ICL_LANGUAGE_CODE=='en' ) : ?>Start
             <?php else : ?>
             <?php endif; ?>
         <strong><?php echo $date_rome->format('j M Y'); ?></strong></p>
@@ -102,7 +102,7 @@
 
     <p class="big mb-8">
             <?php if (ICL_LANGUAGE_CODE=='it') : ?>Sede
-            <?php elseif (ICL_LANGUAGE_CODE=='en' ) :?>Location
+            <?php elseif (ICL_LANGUAGE_CODE=='en' ) : ?>Location
             <?php else : ?>
             <?php endif; ?>
         <strong><?php the_field('data_inizio_testuale'); ?></strong>
@@ -117,7 +117,7 @@
         // Output current date in custom format.
         ?><span>   -   </span>
             <?php if (ICL_LANGUAGE_CODE=='it') : ?>Inizio
-            <?php elseif (ICL_LANGUAGE_CODE=='en' ) :?>Start
+            <?php elseif (ICL_LANGUAGE_CODE=='en' ) : ?>Start
             <?php else : ?>
             <?php endif; ?>
         <strong><?php echo $date_mi->format('j M Y'); ?></strong></p>
@@ -128,7 +128,7 @@
 
     <p class="big mb-8">
             <?php if (ICL_LANGUAGE_CODE=='it') : ?>Sede
-            <?php elseif (ICL_LANGUAGE_CODE=='en' ) :?>Location
+            <?php elseif (ICL_LANGUAGE_CODE=='en' ) : ?>Location
             <?php else : ?>
             <?php endif; ?>
         <strong><?php the_field('veneto'); ?></strong>
@@ -143,7 +143,7 @@
         // Output current date in custom format.
         ?><span>   -   </span>
             <?php if (ICL_LANGUAGE_CODE=='it') : ?>Inizio
-            <?php elseif (ICL_LANGUAGE_CODE=='en' ) :?>Start
+            <?php elseif (ICL_LANGUAGE_CODE=='en' ) : ?>Start
             <?php else : ?>
             <?php endif; ?>
         <strong><?php echo $date_be->format('j M Y'); ?></strong></p>
@@ -151,7 +151,7 @@
     
     <!-- Lingua -->
     <p class="big mb-8"><?php if (ICL_LANGUAGE_CODE=='it') : ?>Lingua
-            <?php elseif (ICL_LANGUAGE_CODE=='en' ) :?>Language
+            <?php elseif (ICL_LANGUAGE_CODE=='en' ) : ?>Language
             <?php else : ?>
             <?php endif; ?><strong><?php $terms = get_the_terms($post->ID, 'lingue');
             foreach ( $terms as $term ) {

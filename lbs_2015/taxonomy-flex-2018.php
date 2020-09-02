@@ -69,7 +69,7 @@ Summer School (specialistici) - 133/134
             <!-- FLEX -->
                 <div class="d-flex flex-row flex-wrap justify-content-between align-items-stretch px-0 pt-24">
                     <?php
-			$query_tax_value = 154;
+			$query_tax_value = 25;
 			$tax_query = array();
 			$tax_query[] = array(
 				'taxonomy' => 'lunghezza_corsi',
