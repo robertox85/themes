@@ -353,17 +353,17 @@ bloginfo('name');
                 <div class="container px-0">
                     <div class="row breadcrumb px-0 pt-24 pb-16">
                         <?php 
-                            if (function_exists('bcn_display')) {
-                              bcn_display();
-                            }
-                            $back_to_top_text = array();
-                            $back_to_top_text['it'] = 'Torna su';
-                            $back_to_top_text['en'] = 'Back to top';
+                            // if (function_exists('bcn_display')) {
+                            //   bcn_display();
+                            // }
+                            // $back_to_top_text = array();
+                            // $back_to_top_text['it'] = 'Torna su';
+                            // $back_to_top_text['en'] = 'Back to top';
 
                           ?>
                         <span class="back-to-top"><a id="backtotop" href="javascript:void(0)"><i
                                     class="fa fa-angle-up"></i>
-                                <?php echo $back_to_top_text[ICL_LANGUAGE_CODE] ?></a></span>
+                                <?php //echo $back_to_top_text[ICL_LANGUAGE_CODE] ?></a></span>
                     </div>
                 </div>
             </nav>

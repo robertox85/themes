@@ -16,7 +16,10 @@ get_main_site_header(); while ( have_posts() ) : the_post();
         </p>
       </div>
       <div class="col-md-8">
-        <?php $image=get_field( 'images'); if( !empty($image) ): ?>
+        <?php 
+        $home_page_id = get_option('page_on_front');
+        $image = get_field('images', $home_page_id);
+        if( !empty($image) ): ?>
 
         <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="img-responsive" />
 

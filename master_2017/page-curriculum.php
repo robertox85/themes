@@ -30,7 +30,15 @@ while (have_posts()): the_post();?>
 
 
 
-<?php $image = get_field('images');?>
+<?php 
+
+
+
+// get the home page ID
+$home_page_id = get_option('page_on_front');
+$image = get_field('images', $home_page_id);
+
+?>
 <div class="container-fluid container-header px-0 py-40"
     style="min-height:480px; background-image:url(<?php echo $image['url']; ?>); background-repeat:no-repeat; background-size: cover;background-position:center;">
     <div class="container">
@@ -39,6 +47,8 @@ while (have_posts()): the_post();?>
                 <?php
                       global $blog_id;
                       $current_blog_details = get_blog_details(array('blog_id' => $blog_id));
+                      
+
                       echo $current_blog_details->blogname;
                     ?>
             </h1>
