@@ -220,7 +220,7 @@ get_template_part( 'pco/template-parts/content', 'keyfacts' );
                 </p>
         </main>
 
-        <aside class="col-lg-3 space sidebar-master">
+        <aside class="col-lg-3 col-md-3 space sidebar-master">
 
             <?php get_sidebar();?>
 

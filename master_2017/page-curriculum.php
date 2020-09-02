@@ -561,7 +561,7 @@ wp_nav_menu(array(
 
                     <p><?php edit_post_link('<strong>Modifica Pagina</strong>', '');?></p>
 
-        <aside class="col-lg-3 col-md-4 col-sm-12 space sidebar-master">
+        <aside class="col-lg-3 col-md-3 space sidebar-master">
 
             <?php get_sidebar();?>
 
