@@ -82,7 +82,17 @@
             <?php elseif (ICL_LANGUAGE_CODE=='en' ) :?>Start
             <?php else : ?>
             <?php endif; ?>
-        <strong><?php echo $date_rome->format('j M Y'); ?></strong></p>
+        <strong>
+            
+        <?php
+        
+        if(!empty($date_string_rome)){
+            echo $date_rome->format('j M Y'); 
+        }
+        
+        ?>
+    
+    </strong></p>
 
     <?php endif; ?>
     <!-- Sede Milano -->
