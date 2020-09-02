@@ -94,13 +94,8 @@ wp_nav_menu(array(
 
 
 
-                <div class="col-md-12 col-sm-12 px-0"><?php the_field('struttura_del_programma_description');?></div>
-                <div class="clearfix"></div>
-
-
-
-
-                <div class="row">
+                <?php the_field('struttura_del_programma_description');?>
+                
 
                     <?php if (get_field('titolo_extra_ind')) {?>
 
@@ -119,13 +114,6 @@ wp_nav_menu(array(
                     <p><?php the_field('extra_ind');?></p>
 
                     <?php }?>
-
-                </div>
-
-
-
-
-                <div class="row">
 
                     
                     <div class="panel-group accordion" id="accordion-curriculum" role="tablist" aria-multiselectable="true">
@@ -570,7 +558,6 @@ wp_nav_menu(array(
 
                     <p><?php edit_post_link('<strong>Modifica Pagina</strong>', '');?></p>
 
-        </main>
         <aside class="col-lg-3 col-md-4 col-sm-12 space sidebar-master">
 
             <?php get_sidebar();?>
@@ -581,7 +568,6 @@ wp_nav_menu(array(
         <div class="col-md-1 col-sm-1 nopadding"></div>
 
         <div class="clearfix"></div>
-    </div>
     <!--END .row -->
 
 </div>
