@@ -256,7 +256,7 @@ bloginfo('name');
             <header id="masthead" class="d-none d-lg-block">
                 <div class="container px-0 pt-16 pb-24">
                     <div class="d-flex flex-row align-items-center justify-content-between">
-                        <div class="header-first-block">
+                        <div class="header-first-block d-flex align-items-center flex-row justify-content-start">
                             <div class="" id="logo">
                                 <a href="<?php echo network_home_url() ?>" title="Home page">
                                     <img src="<?php echo site_url(); ?>/wp-content/themes/master_2017/img/logo-new-2.png"
@@ -285,7 +285,7 @@ bloginfo('name');
             <header id="masthead" class="d-lg-none">
                 <div class="container px-0 py-16">
                     <div class="d-flex align-items-center flex-row justify-content-between">
-                        <div class="header-first-block">
+                        <div class="header-first-block d-flex align-items-center flex-row justify-content-start">
                             <a class="main-menu-toggle hamburger  hamburger--collapse" type="button">
                                 <span class="hamburger-box">
                                     <span class="hamburger-inner"></span>
@@ -352,18 +352,18 @@ bloginfo('name');
             <nav id="breadcrumb-top-2" class="d-none d-lg-block">
                 <div class="container px-0">
                     <div class="row breadcrumb px-0 pt-24 pb-16">
-                        <?php 
-                            if (function_exists('bcn_display')) {
-                              bcn_display();
-                            }
-                            $back_to_top_text = array();
-                            $back_to_top_text['it'] = 'Torna su';
-                            $back_to_top_text['en'] = 'Back to top';
+                        <//?php 
+                            //if (function_exists('bcn_display')) {
+                            //bcn_display();
+                            //}
+                            //$back_to_top_text = array();
+                            //$back_to_top_text['it'] = 'Torna su';
+                            //$back_to_top_text['en'] = 'Back to top';
 
                           ?>
                         <span class="back-to-top"><a id="backtotop" href="javascript:void(0)"><i
                                     class="fa fa-angle-up"></i>
-                                <?php echo $back_to_top_text[ICL_LANGUAGE_CODE] ?></a></span>
+                                <//?php //echo $back_to_top_text[ICL_LANGUAGE_CODE] ?></a></span>
                     </div>
                 </div>
             </nav>
