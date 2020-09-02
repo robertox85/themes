@@ -14792,7 +14792,7 @@ body.theme-blue .border-bottom-share {
         padding: 14px 12px;
         color: #fff;
         float: none;
-        border-bottom: 1px solid #e8e8e8;
+        border-bottom: 1px solid #e8e8e8 !important;
         background: #fff !important;
     }
 
@@ -14873,7 +14873,7 @@ body.theme-blue #menu-main .current-page-ancestor a {
 }
 
 body.theme-blue .list-unstyled.secondary-nav {
-    border-top: 8px solid #e8e8e8;
+    border-top: 8px solid #e8e8e8 !important;
 }
 
 body.theme-blue .list-unstyled.secondary-nav li a {
@@ -14881,7 +14881,7 @@ body.theme-blue .list-unstyled.secondary-nav li a {
     padding: 14px 12px;
     color: #003A70;
     float: none;
-    border-bottom: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8 !important;
     background: #fff !important;
 }
 
@@ -15233,7 +15233,7 @@ body.theme-blue .sidebar_navigation li a i {
 }
 
 body.theme-blue .sidebar_navigation li:not(:last-of-type) {
-    border-bottom: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8 !important;
 }
 
 body.theme-blue .sidebar_navigation li:hover {
@@ -15786,7 +15786,7 @@ body.theme-light_blue .border-bottom-share {
         padding: 14px 12px;
         color: #fff;
         float: none;
-        border-bottom: 1px solid #e8e8e8;
+        border-bottom: 1px solid #e8e8e8 !important;
         background: #fff !important;
     }
 
@@ -15867,7 +15867,7 @@ body.theme-light_blue #menu-main .current-page-ancestor a {
 }
 
 body.theme-light_blue .list-unstyled.secondary-nav {
-    border-top: 8px solid #e8e8e8;
+    border-top: 8px solid #e8e8e8 !important;
 }
 
 body.theme-light_blue .list-unstyled.secondary-nav li a {
@@ -15875,7 +15875,7 @@ body.theme-light_blue .list-unstyled.secondary-nav li a {
     padding: 14px 12px;
     color: #003A70;
     float: none;
-    border-bottom: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8 !important;
     background: #fff !important;
 }
 
@@ -16227,7 +16227,7 @@ body.theme-light_blue .sidebar_navigation li a i {
 }
 
 body.theme-light_blue .sidebar_navigation li:not(:last-of-type) {
-    border-bottom: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8 !important;
 }
 
 body.theme-light_blue .sidebar_navigation li:hover {
@@ -16780,7 +16780,7 @@ body.theme-green .border-bottom-share {
         padding: 14px 12px;
         color: #fff;
         float: none;
-        border-bottom: 1px solid #e8e8e8;
+        border-bottom: 1px solid #e8e8e8 !important;
         background: #fff !important;
     }
 
@@ -16861,7 +16861,7 @@ body.theme-green #menu-main .current-page-ancestor a {
 }
 
 body.theme-green .list-unstyled.secondary-nav {
-    border-top: 8px solid #e8e8e8;
+    border-top: 8px solid #e8e8e8 !important;
 }
 
 body.theme-green .list-unstyled.secondary-nav li a {
@@ -16869,7 +16869,7 @@ body.theme-green .list-unstyled.secondary-nav li a {
     padding: 14px 12px;
     color: #003A70;
     float: none;
-    border-bottom: 1px solid #A1A1A1;
+    border-bottom: 1px solid #e8e8e8 !important;
     background: #fff !important;
 }
 
@@ -17221,7 +17221,7 @@ body.theme-green .sidebar_navigation li a i {
 }
 
 body.theme-green .sidebar_navigation li:not(:last-of-type) {
-    border-bottom: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8 !important;
 }
 
 body.theme-green .sidebar_navigation li:hover {
@@ -17774,7 +17774,7 @@ body.theme-red .border-bottom-share {
         padding: 14px 12px;
         color: #fff;
         float: none;
-        border-bottom: 1px solid #e8e8e8;
+        border-bottom: 1px solid #e8e8e8 !important;
         background: #fff !important;
     }
 
@@ -17855,7 +17855,7 @@ body.theme-red #menu-main .current-page-ancestor a {
 }
 
 body.theme-red .list-unstyled.secondary-nav {
-    border-top: 8px solid #e8e8e8;
+    border-top: 8px solid #e8e8e8 !important;
 }
 
 body.theme-red .list-unstyled.secondary-nav li a {
@@ -17863,7 +17863,7 @@ body.theme-red .list-unstyled.secondary-nav li a {
     padding: 14px 12px;
     color: #003A70;
     float: none;
-    border-bottom: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8 !important;
     background: #fff !important;
 }
 
@@ -18215,7 +18215,7 @@ body.theme-red .sidebar_navigation li a i {
 }
 
 body.theme-red .sidebar_navigation li:not(:last-of-type) {
-    border-bottom: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8 !important;
 }
 
 body.theme-red .sidebar_navigation li:hover {
@@ -18768,7 +18768,7 @@ body.theme-orange .border-bottom-share {
         padding: 14px 12px;
         color: #fff;
         float: none;
-        border-bottom: 1px solid #e8e8e8;
+        border-bottom: 1px solid #e8e8e8 !important;
         background: #fff !important;
     }
 
@@ -18849,7 +18849,7 @@ body.theme-orange #menu-main .current-page-ancestor a {
 }
 
 body.theme-orange .list-unstyled.secondary-nav {
-    border-top: 8px solid #e8e8e8;
+    border-top: 8px solid #e8e8e8 !important;
 }
 
 body.theme-orange .list-unstyled.secondary-nav li a {
@@ -18857,7 +18857,7 @@ body.theme-orange .list-unstyled.secondary-nav li a {
     padding: 14px 12px;
     color: #003A70;
     float: none;
-    border-bottom: 1px solid #A1A1A1;
+    border-bottom: 1px solid #e8e8e8 !important;
     background: #fff !important;
 }
 
@@ -19209,7 +19209,7 @@ body.theme-orange .sidebar_navigation li a i {
 }
 
 body.theme-orange .sidebar_navigation li:not(:last-of-type) {
-    border-bottom: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8 !important;
 }
 
 body.theme-orange .sidebar_navigation li:hover {
@@ -19762,7 +19762,7 @@ body.theme-gold .border-bottom-share {
         padding: 14px 12px;
         color: #fff;
         float: none;
-        border-bottom: 1px solid #e8e8e8;
+        border-bottom: 1px solid #e8e8e8 !important;
         background: #fff !important;
     }
 
@@ -19843,7 +19843,7 @@ body.theme-gold #menu-main .current-page-ancestor a {
 }
 
 body.theme-gold .list-unstyled.secondary-nav {
-    border-top: 8px solid #e8e8e8;
+    border-top: 8px solid #e8e8e8 !important;
 }
 
 body.theme-gold .list-unstyled.secondary-nav li a {
@@ -19851,7 +19851,7 @@ body.theme-gold .list-unstyled.secondary-nav li a {
     padding: 14px 12px;
     color: #003A70;
     float: none;
-    border-bottom: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8 !important;
     background: #fff !important;
 }
 
@@ -20203,7 +20203,7 @@ body.theme-gold .sidebar_navigation li a i {
 }
 
 body.theme-gold .sidebar_navigation li:not(:last-of-type) {
-    border-bottom: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8 !important;
 }
 
 body.theme-gold .sidebar_navigation li:hover {
