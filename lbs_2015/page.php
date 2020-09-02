@@ -1,9 +1,11 @@
 <?php
 /**
+Template Name: Template standard
  * The template for displaying pages
  */
 wp_enqueue_style('Bootstrap_Styles','https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css');
-get_header(); ?>
+get_header(2017); 
+?>
 
 <header id="content-title" class="wide-row">
     <div class="container">
@@ -19,13 +21,14 @@ get_header(); ?>
 <div class="container">
     <main id="main" class="site-main" role="main">
         <div class="row">
-            <div id="page-content" class="col-md-8 columns  space">
+            <div id="page-content" class="col-md-8">
                 <?php while ( have_posts() ) : the_post(); 
 		$post_id = get_the_ID();?>
                 <?php the_content(''); ?>
+                <?php edit_post_link('<strong>Modifica Pagina</strong>', ''); ?>
                 <?php endwhile; // end of the loop. ?>
             </div>
-            <aside id="sidebar" class="col-md-3 columns col-md-push-1 space col-xs-12">
+            <aside id="sidebar" class="col-md-3 offset-md-1">
                 <div class="block">
                     <div class="content row"> <?php echo do_shortcode('[ssba]'); ?> </div>
                 </div>
@@ -37,6 +40,6 @@ get_header(); ?>
 <!--END .container -->
 <?php 
 
-get_footer(ICL_LANGUAGE_CODE);
+get_footer(2017);
 
 ?>

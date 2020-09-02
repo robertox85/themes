@@ -1274,4 +1274,3 @@ function wpb_hook_javascript_footer() {
     <?php
 }
 add_action('wp_footer', 'wpb_hook_javascript_footer');
-

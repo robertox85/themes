@@ -20,7 +20,7 @@ get_header(2017);
 <div class="container">
     <main id="main" class="site-main" role="main">
         <div class="row">
-            <div id="page-content" class="col-md-8 columns  space">
+            <div id="page-content" class="col-md-8">
                 <?php while ( have_posts() ) : the_post(); 
 		$post_id = get_the_ID();?>
                 <?php the_content(''); ?>
