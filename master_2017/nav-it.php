@@ -63,12 +63,12 @@
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19448"><a
                                     href="https://businessschool.luiss.it/offerta-formativa/custom-programmes/">Programmi
                                     Custom</a></li>
-                            <li id="menu-item-19448"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19448"><a
+                            <li id="menu-item-37114"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37114"><a
                                     href="https://businessschool.luiss.it/open-consulting/">Open Consulting</a></li>
-                            <li id="menu-item-19448"
-                                class="empty-item menu-item menu-item-type-post_type menu-item-object-page menu-item-19448"><a
-                                    href="https://businessschool.luiss.it/open-consulting/">Open Consulting</a></li>
+                            <li id="menu-item-37115"
+                                class="empty-item menu-item menu-item-type-custom menu-item-object-custom menu-item-37115"><a
+                                    href="#">Link</a></li>
                         </ul>
                     </li>
                     <li id="menu-item-18867"

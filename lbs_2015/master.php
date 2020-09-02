@@ -35,6 +35,12 @@ Creation Date: 12/20/2018
 
 	<?php include(dirname(__DIR__).'/lbs_2015/pco/variables/vars.php'); ?>
 
+<?php
+$text_svolgono = array();
+$text_svolgono[ 'it' ] = 'Tutti i Master che si svolgono a ';
+$text_svolgono[ 'en' ] = 'All Masters taking place in ';
+?>
+
 	<!-- Inizio Template -->
 
 	<style>
@@ -106,11 +112,11 @@ Creation Date: 12/20/2018
 	            <div class="tab-pane fade active in show" id="roma" role="tabpanel" aria-labelledby="roma-tab">
 	                <div class="row">
 	                    <div class="col-xs-12 col-lg-8">
-	                        <p>Tutti i Master che si svolgono a <?php echo $sede_rm[ICL_LANGUAGE_CODE] ?>.</p>
+	                        <p><?php echo $text_svolgono[ICL_LANGUAGE_CODE] ?><?php echo $sede_rm[ICL_LANGUAGE_CODE] ?>.</p>
                             <ul>
-                                <li><a href="#primolivello-roma"><strong>Master di primo livello a Roma</strong></a></li>
-                                <li><a href="#secondolivello-roma"><strong>Master di secondo livello a Roma</strong></a></li>
-                                <li><a href="#altaformazione"><strong>Programmi di Alta Formazione a Roma</strong></a></li>
+                                <li><a href="#primolivello-roma"><strong><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></strong></a></li>
+                                <li><a href="#secondolivello-roma"><strong><?php echo $secondo_livello[ICL_LANGUAGE_CODE] ?></strong></a></li>
+                                <li><a href="#altaformazione"><strong><?php echo $altaformazione[ICL_LANGUAGE_CODE] ?></strong></a></li>
                             </ul>
 	                    </div>
 	                </div>
@@ -862,7 +868,7 @@ Creation Date: 12/20/2018
 	            <div class="tab-pane p-4 fade" id="milano" role="tabpanel" aria-labelledby="milano-tab">
 	                <div class="row">
 	                    <div class="col-xs-12 col-lg-8 mb-48 mb-md-64">
-	                        <p>Tutti i Master che si svolgono a <?php echo $sede_mi[ICL_LANGUAGE_CODE] ?>.</p>
+	                        <p><?php echo $text_svolgono[ICL_LANGUAGE_CODE] ?><?php echo $sede_mi[ICL_LANGUAGE_CODE] ?>.</p>
 	                    </div>
 	                </div>
 	                <div class="row">
@@ -974,7 +980,7 @@ Creation Date: 12/20/2018
 	            <div class="tab-pane p-4 fade" id="belluno" role="tabpanel" aria-labelledby="belluno-tab">
 	                <div class="row">
 	                    <div class="col-xs-12 col-lg-8 mb-48 mb-md-64">
-	                        <p>Tutti i Master che si svolgono a <?php echo $sede_be[ICL_LANGUAGE_CODE] ?>.</p>
+	                        <p><?php echo $text_svolgono[ICL_LANGUAGE_CODE] ?><?php echo $sede_be[ICL_LANGUAGE_CODE] ?>.</p>
 	                    </div>
 	                </div>
 	                <div class="row">
@@ -982,7 +988,7 @@ Creation Date: 12/20/2018
 	                    <div class="col-xs-12 mb-0">
 	                        <h3><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></h3></div>
 	                    </div>
-	                    <div class="d-flex flex-row px-0 pt-24 align-items-stretch justify-content-between  flex-wrap">
+	                    <div class="d-flex flex-row px-0 pt-24 align-items-stretch justify-content-start flex-wrap">
 	                        <!-- MASTER 17 -->
 	                        <div class="card-course-small p-24 mx-0 mx-md-16 my-16 d-flex flex-column justify-content-between align-items-start" style="border-color: var(--current-color);">
 	                            <div class="first-block"><span class="meta text-uppercase color__grey"><?php echo $primo_livello[ICL_LANGUAGE_CODE] ?></span>
