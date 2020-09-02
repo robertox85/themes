@@ -14,9 +14,9 @@ $home_page_id = get_option('page_on_front');
 $image = get_field('images', $home_page_id);
 
 ?>
-<div class="container-fluid container-header px-24 px-md-0 py-48"
+<div class="container-fluid container-header px-0 px-lg-1"
     style="min-height:480px; background-image:url(<?php echo $image['url']; ?>); background-repeat:no-repeat; background-size: cover;background-position:center;">
-    <div class="container">
+    <div class="container px-24 px-md-0 py-lg-48">
         <header id="header-master" class="row px-md-0">
             <h1 class="col-md-12 small">
                 <?php
