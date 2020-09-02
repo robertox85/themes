@@ -55,6 +55,18 @@
         <strong><?php the_field('durata'); ?></strong>
     </p>
     <?php endif; ?>
+    
+    <!-- Sede Flex -->
+    <?php if( get_field('online') ): ?>
+
+    <p class="big mb-8">
+            <?php if (ICL_LANGUAGE_CODE=='it') : ?>Sede
+            <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?>Location
+            <?php else : ?>
+            <?php endif; ?>
+        <strong><?php the_field('online'); ?></strong>
+        </p>
+    <?php endif; ?>
 
     <!-- Sede Roma -->
     <?php if( get_field('testo_inizio') ): ?>
