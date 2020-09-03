@@ -1111,7 +1111,7 @@ $link_brochure_50[ 'en' ] = '';
             </div>
 
             <!-- MILANO -->
-            <div class="tab-pane p-4 fade" id="milano" role="tabpanel" aria-labelledby="milano-tab">
+            <div class="tab-pane fade" id="milano" role="tabpanel" aria-labelledby="milano-tab">
                 <div class="row">
                     <div class="col-12 col-lg-8">
                         <h2><?php echo ?></h2>
@@ -1122,7 +1122,7 @@ $link_brochure_50[ 'en' ] = '';
             </div>
 
             <!-- BELLUNO -->
-            <div class="tab-pane p-4 fade" id="belluno" role="tabpanel" aria-labelledby="belluno-tab">
+            <div class="tab-pane fade" id="belluno" role="tabpanel" aria-labelledby="belluno-tab">
                 <div class="row">
                     <div class="col-12 col-lg-8">
                         <h2><?php echo ?></h2>

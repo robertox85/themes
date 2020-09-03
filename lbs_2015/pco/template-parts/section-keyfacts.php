@@ -45,7 +45,7 @@
         </div>
          <div class="col-xs-12 col-lg-4 block">
                         <div class="share_links">
-                <?php get_template_part('pco/template-parts/content', 'share')?>
+                <?php get_template_part('pco/template-parts/content', 'share-white')?>
             </div>
                         <div class="textwidget keyfacts-box">
                         <?php

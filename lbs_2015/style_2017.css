@@ -4325,13 +4325,13 @@ li#menu-item-34007 a {
 }
 
 aside#sidebar {
-    background: #3c3c3c;
-    color: #ddd;
     font-size: 16px;
-    ;
-    padding-top: 40px;
+    line-height: 22px;
+    color: #003A70;
     position: relative;
-    min-height: 200px
+    background-color: #F7F9FA;
+    padding: 16px 24px 48px 24px;
+    border-top: 1px solid #003A70;
 }
 
 .space {
@@ -7598,17 +7598,8 @@ ul.docente-features li:first-child {
     padding-bottom: 10px
 }
 
-aside#sidebar {
-    background: #3c3c3c;
-    padding-top: 40px;
-    font-size: 16px;
-    line-height: 22px;
-    color: #ddd;
-    position: relative
-}
-
 aside#sidebar a {
-    color: #fff;
+    color: #003A70;
     font-family: 'Luiss Sans', Arial, Helvetica, sans-serif;
 }
 
@@ -7616,7 +7607,8 @@ aside#sidebar a.button {
     font-family: 'Luiss Sans', Arial, Helvetica, sans-serif;
     font-weight: 700;
     width: 100%;
-    color: #202020;
+    color: #fff;
+    background-color: #003A70;
     text-decoration: none
 }
 
@@ -7630,8 +7622,8 @@ aside#sidebar .block .content {
 }
 
 aside#sidebar h2 {
-    color: #fff;
-    font-weight: 700;
+    color: #cc8a00;
+    font-weight: 400;
     font-size: 24px;
     margin: 0;
     padding-bottom: 20px;
@@ -7640,14 +7632,15 @@ aside#sidebar h2 {
 
 aside#sidebar .block a h5,
 aside#sidebar .block h5 a {
-    color: #fff;
-    font-size: 24px;
-    line-height: 28px;
+    color: #003A70;
+    font-size: 18px;
+    line-height: 24px;
     font-family: 'Luiss Sans', Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 aside#sidebar .block {
-    border-bottom: 1px #000 solid
+    border-bottom: 1px #e8e8e8 solid;
 }
 
 aside#sidebar .block .content ul {
@@ -7669,21 +7662,21 @@ aside#sidebar .block .content .number ul {
 }
 
 aside#sidebar .block .content .number ul li {
-    font-family: "Droid Sans Mono W01", "courier", monospace;
+    font-family: 'Luiss Sans', Arial, Helvetica, sans-serif;
     font-size: 20px;
     padding-top: 5px;
     padding-left: 0;
     list-style: outside none none;
-    color: #fdbb4d
+    color: #cc8a00;
 }
 
 aside#sidebar .block .content .number p {
-    font-family: "Droid Sans Mono W01", "courier", monospace;
+    font-family: 'Luiss Sans', Arial, Helvetica, sans-serif;
     font-size: 30px;
     padding-top: 5px;
     padding-left: 0;
     list-style: outside none none;
-    color: #fdbb4d
+    color: #cc8a00;
 }
 
 aside#sidebar .block .content ul li:before {
@@ -7693,20 +7686,19 @@ aside#sidebar .block .content ul li:before {
     color: #fff;
     margin: auto 3px 3px 5px;
     font-size: 12px;
-    vertical-align: middle
+    vertical-align: middle;
 }
 
 aside#sidebar .block .content ul li a {
     font-size: 18px;
-    font-weight: 700
+    font-weight: 700;
 }
 
 aside#sidebar .block .content h3 {
     font-family: 'Luiss Serif', Georgia, 'Times New Roman', serif;
-    font-size: 19px;
-    text-transform: uppercase;
-    color: #FFF;
-    font-weight: 400
+    font-size: 18px;
+    color: #cc8a00;
+    font-weight: 400;
 }
 
 aside#sidebar .block .article,
@@ -7725,7 +7717,7 @@ aside#sidebar .block p {
     font-style: normal;
     font-family: 'Luiss Sans', Arial, Helvetica, sans-serif;
     text-transform: none;
-    color: #ccc;
+    color: #003A70;
     line-height: 22px;
 }
 
@@ -8286,11 +8278,6 @@ h4:before {
         padding: 0 10px
     }
 
-    aside#sidebar {
-        margin: 20px 0;
-        padding-top: 20px
-    }
-
     #offerta-nav li {
         border-bottom: 1px solid #313131
     }
@@ -8451,13 +8438,7 @@ h4:before {
         margin: -20px 0 100px;
     }
 
-    /*
-    aside#sidebar {
-        margin: 350px 0 20px;
-    }
-*/
-    
-    .menu-public-administration-container {
+.menu-public-administration-container {
         margin: 50px 0 20px;
     }
 

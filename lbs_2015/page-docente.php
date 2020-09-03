@@ -20,7 +20,7 @@ get_header(2017);
 <div class="container">
     <main id="main" class="site-main" role="main">
         <div class="row">
-            <div id="page-content" class="col-md-8">
+            <div id="page-content" class="col-lg-8">
                 <?php while ( have_posts() ) : the_post(); 
 		$post_id = get_the_ID();?>
                 <?php the_content(''); ?>
@@ -38,7 +38,7 @@ get_header(2017);
 ?>
 
             </div>
-            <aside id="sidebar" class="col-md-3 offset-md-1">
+            <aside id="sidebar" class="col-lg-3 offset-md-1">
                 <div class="block">
                     <div class="content row">
                         <div class="col-xs-12">
@@ -47,9 +47,14 @@ get_header(2017);
                         </div>
                     </div>
                 </div>
+                <div class="share_links">
+                <?php get_template_part('pco/template-parts/content', 'share')?>
+        </div>
+                <!--
                 <div class="block">
-                    <div class="content row"> <?php echo do_shortcode('[ssba]'); ?> </div>
+                    <div class="content row"> <?//php echo do_shortcode('[ssba]'); ?> </div>
                 </div>
+-->
             </aside>
         </div>
     </main>

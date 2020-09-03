@@ -27,8 +27,13 @@ get_header(); ?>
                 <?php endwhile; // end of the loop. ?>
             </div>
             <aside id="sidebar" class="col-md-3 columns col-md-push-1 space col-xs-12">
+                <div class="share_links">
+                <?php get_template_part('pco/template-parts/content', 'share')?>
+                <!--
                 <div class="block">
-                    <div class="content row"> <?php echo do_shortcode('[ssba]'); ?> </div>
+                    <div class="content row"> <?//php echo do_shortcode('[ssba]'); ?> </div>
+                </div>
+-->
                 </div>
             </aside>
         </div>

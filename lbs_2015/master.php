@@ -865,7 +865,7 @@ $text_svolgono[ 'en' ] = 'All Masters taking place in ';
 	                </div>
 
 	            <!-- MILANO -->
-	            <div class="tab-pane p-4 fade" id="milano" role="tabpanel" aria-labelledby="milano-tab">
+	            <div class="tab-pane fade" id="milano" role="tabpanel" aria-labelledby="milano-tab">
 	                <div class="row">
 	                    <div class="col-xs-12 col-lg-8 mb-48 mb-md-64">
 	                        <p><?php echo $text_svolgono[ICL_LANGUAGE_CODE] ?><?php echo $sede_mi[ICL_LANGUAGE_CODE] ?>.</p>
@@ -977,7 +977,7 @@ $text_svolgono[ 'en' ] = 'All Masters taking place in ';
 	                </div>
 	            
                 <!-- BELLUNO -->
-	            <div class="tab-pane p-4 fade" id="belluno" role="tabpanel" aria-labelledby="belluno-tab">
+	            <div class="tab-pane fade" id="belluno" role="tabpanel" aria-labelledby="belluno-tab">
 	                <div class="row">
 	                    <div class="col-xs-12 col-lg-8 mb-48 mb-md-64">
 	                        <p><?php echo $text_svolgono[ICL_LANGUAGE_CODE] ?><?php echo $sede_be[ICL_LANGUAGE_CODE] ?>.</p>

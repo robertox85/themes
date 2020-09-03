@@ -163,7 +163,7 @@ Summer School (specialistici) - 133
             </div>
 
             <!-- PROGRAMME -->
-            <div class="tab-pane p-4 fade active in show" id="exprogrammes" role="tabpanel" aria-labelledby="exprogrammes-tab">
+            <div class="tab-pane fade active in show" id="exprogrammes" role="tabpanel" aria-labelledby="exprogrammes-tab">
                 <div class="row">
                     <div class="col-12 col-lg-8">
                         <p><?php echo get_field('campo_executive_program') ?></p>
@@ -231,7 +231,7 @@ Summer School (specialistici) - 133
             </div>
 
             <!-- FLEX -->
-            <div class="tab-pane p-4 fade" id="exflexprogrammes" role="tabpanel" aria-labelledby="exflexprogrammes-tab">
+            <div class="tab-pane fade" id="exflexprogrammes" role="tabpanel" aria-labelledby="exflexprogrammes-tab">
                 <div class="row">
                     <div class="col-12 col-lg-8">
                     </div>
@@ -299,7 +299,7 @@ Summer School (specialistici) - 133
 
 
             <!-- COURSES -->
-            <div class="tab-pane p-4 fade" id="excourses" role="tabpanel" aria-labelledby="excourses-tab">
+            <div class="tab-pane fade" id="excourses" role="tabpanel" aria-labelledby="excourses-tab">
                 <div class="row">
                     <div class="col-12 col-lg-8">
                         <p><?php echo get_field('campo_short_course') ?></p>
@@ -367,7 +367,7 @@ Summer School (specialistici) - 133
             </div>
 
             <!-- LABS -->
-            <div class="tab-pane p-4 fade" id="exlabs" role="tabpanel" aria-labelledby="exlabs-tab">
+            <div class="tab-pane fade" id="exlabs" role="tabpanel" aria-labelledby="exlabs-tab">
                 <p><?php echo get_field('campo_executive_skill_lab') ?></p>
                 <?php get_template_part( 'pco/template-parts/section-skill-lab', get_post_format() ); ?>
             </div>

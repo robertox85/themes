@@ -19,17 +19,23 @@ get_header();
 <div class="container">
   <div class="row">
     <main id="main" class="site-main" role="main">
-      <div id="page-content" class="col-md-8">
+      <div id="page-content" class="col-lg-8">
         <?php while ( have_posts() ) : the_post(); 
 		$post_id = get_the_ID();?>
         <?php the_content(''); ?>
         <?php endwhile; // end of the loop. ?>
       </div>
     </main>
-    <aside id="sidebar" class="col-md-3 offset-md-1">
+    <aside id="sidebar" class="col-lg-3 offset-md-1">
+        <div class="share_links">
+                <?php get_template_part('pco/template-parts/content', 'share')?>
+        </div>
+        
+        <!--
       <div  class="block">
-        <div class="content row"> <?php echo do_shortcode('[ssba]'); ?> </div>
+        <div class="content row"> <?//php echo do_shortcode('[ssba]'); ?> </div>
       </div>
+-->
       <?php get_sidebar( 'faq' ); ?>
     </aside>
   </div>

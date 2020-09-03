@@ -42,7 +42,7 @@ $label_button['en']='Find out more';
 <div class="container">
     <div class="row">
         <main class="site-main">
-            <div id="page-content" class="col-md-8">
+            <div id="page-content" class="col-lg-8">
             <div class="row">
             <?php $my_query = new WP_Query('posts_per_page=-1&&post_type=accordo');
   while ($my_query->have_posts()) : $my_query->the_post();

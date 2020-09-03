@@ -29,7 +29,7 @@ $contatti['en'] = 'Contact Information';
 
     <main id="main" class="site-main">
         <div class="row">
-            <div id="page-content" class="col-md-8">
+            <div id="page-content" class="col-lg-8">
                 <?php
 while (have_posts()): the_post();
 $post_id = get_the_ID();
