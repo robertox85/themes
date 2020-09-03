@@ -277,7 +277,7 @@ bloginfo('name');
                     <div class="container px-0 pt-16 pb-24">
                         <div class="d-flex flex-row align-items-center justify-content-between">
                             <div class="header-first-block">
-                                <a href="https://staging-lbs.local/" title="Home page">
+                                <a href="https://businessschool.luiss.it/" title="Home page">
                                     <div id="logo-bs"></div>
                                 </a>
                             </div>
@@ -308,7 +308,7 @@ bloginfo('name');
                                         <span class="hamburger-inner"></span>
                                     </span>
                                 </a>
-                                <a href="https://staging-lbs.local/" title="Home page">
+                                <a href="https://businessschool.luiss.it/" title="Home page">
                                     <div id="logo-bs"></div>
                                 </a>
                             </div>
