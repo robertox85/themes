@@ -103,8 +103,13 @@
         <?php
         
         if(!empty($date_string_rome)){
-            echo $date_rome->format('j M Y'); 
+            
+            echo date_i18n('j M Y', strtotime($date_rome->format('j M Y')));
+            // echo $date_rome->format('j M Y')
+
         }
+        
+
         
         ?>
     
@@ -134,7 +139,17 @@
             <?php elseif (ICL_LANGUAGE_CODE=='en' ) : ?>Start
             <?php else : ?>
             <?php endif; ?>
-        <strong><?php echo $date_mi->format('j M Y'); ?></strong></p>
+        <strong>
+        
+        <?php 
+        
+        if(!empty($date_string_mi)){
+            echo date_i18n('j M Y', strtotime($date_mi->format('j M Y')));
+            // echo $date_mi->format('j M Y');
+        }
+        ?>
+        
+        </strong></p>
     <?php endif; ?>
 
     <!-- Sede Belluno -->
@@ -160,7 +175,17 @@
             <?php elseif (ICL_LANGUAGE_CODE=='en' ) : ?>Start
             <?php else : ?>
             <?php endif; ?>
-        <strong><?php echo $date_be->format('j M Y'); ?></strong></p>
+        <strong>
+        <?php 
+        
+        if(!empty($date_string_be)){
+            echo date_i18n('j M Y', strtotime($date_be->format('j M Y')));
+            // echo $date_be->format('j M Y'); 
+        }
+        
+        
+        ?>
+        </strong></p>
     <?php endif; ?>
     
     <!-- Lingua -->
@@ -169,7 +194,7 @@
             <?php else : ?>
             <?php endif; ?><strong><?php $terms = get_the_terms($post->ID, 'lingue');
             foreach ( $terms as $term ) {
-                echo strip_tags(term_description($term->term_id, 'lingue'));
+                echo '<span class="text-capitalize">' . strip_tags(term_description($term->term_id, 'lingue')) . '</span>';
             } ?></strong></p>
 
     <!-- Pulsanti -->
