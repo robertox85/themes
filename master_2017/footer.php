@@ -200,14 +200,20 @@ $current_blog_id = get_query_var( 'current_blog_id' );
                             Email: <a href="mailto:luissbs@luiss.it" class="">luissbs@luiss.it </a>
                         </address>
 
-                        <ul class="footer-socials list-inline">
-                            <li><a href="https://www.facebook.com/pages/LUISS-Business-School/152306674798769"><span class="social-icon icon-facebook"></span></a></li>
-                            <li><a href="https://twitter.com/LUISSBusiness"><span class="social-icon icon-twitter"></span></a></li>
-                            <li><a href="https://instagram.com/luissbusiness/"><span class="social-icon icon-instagram "></span></a> </li>
-                            <li><a href="https://www.flickr.com/photos/luissbusiness/albums"><span class="social-icon icon-flickr"></span></a> </li>
-                            <li><a href="https://www.youtube.com/user/luissmba"><span class="social-icon icon-youtube"></span></a> </li>
-                            <li><a href="https://www.linkedin.com/school/luiss-business-school/"><span class="social-icon icon-linkedin"></span></a></li>
-                        </ul>
+                        <div class="d-flex flex-row justify-content-start flex-nowrap my-24">
+                            <a href="https://www.facebook.com/pages/LUISS-Business-School/152306674798769">
+                                <i class="fab fa-facebook-f fa-lg mr-16 mr-md-24 color__white"></i></a>
+                            <a href="https://twitter.com/LUISSBusiness">
+                                <i class="fab fa-twitter fa-lg mr-16 mr-md-24 color__white"></i></a>
+                            <a href="https://instagram.com/luissbusiness/">
+                                <i class="fab fa-instagram fa-lg mr-16 mr-md-24 color__white"></i></a>
+                            <a href="https://www.flickr.com/photos/luissbusiness/albums">
+                                <i class="fab fa-flickr fa-lg mr-16 mr-md-24 color__white"></i></a>
+                            <a href="https://www.youtube.com/user/luissmba">
+                                <i class="fab fa-youtube fa-lg mr-16 mr-md-24 color__white"></i></a>
+                            <a href="https://www.linkedin.com/school/luiss-business-school/">
+                                <i class="fab fa-linkedin-in fa-lg mr-16 mr-md-24 color__white"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>

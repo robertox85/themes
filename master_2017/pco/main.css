@@ -20781,3 +20781,9 @@ a.accordion-toggle {
     width:100% !important;
 }
 }
+
+/* FORMSTACK */
+
+.fsSubmit input.fsSubmitButton {
+    width: 100% !important;
+}

@@ -561,6 +561,11 @@ wp_nav_menu(array(
 
                     <p><?php edit_post_link('<strong>Modifica Pagina</strong>', '');?></p>
 
+    <!--END .row -->
+
+</div>
+<!--END .container -->
+</main>
         <aside class="col-lg-3 col-md-3 space sidebar-master">
 
             <?php get_sidebar();?>
@@ -568,14 +573,6 @@ wp_nav_menu(array(
 
 
         </aside>
-        <div class="col-md-1 col-sm-1 nopadding"></div>
-
-        <div class="clearfix"></div>
-    <!--END .row -->
-
-</div>
-<!--END .container -->
-</main>
 <?php endwhile; // end of the loop. ?>
 <?php
 //get_main_site_footer();

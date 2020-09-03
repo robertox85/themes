@@ -2,16 +2,8 @@
 /*
 Template Name: Risultati di ricerca Course Finder
 */
-wp_enqueue_style('Bootstrap_Styles','https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css');
 get_header(2017)
 ?>
-
-<style>
-    :root {
-        --current-color: #003A70;
-    }
-</style>
-
 <header id="content-title" class="wide-row">
   <div class="container">
     <div class="row">
@@ -25,6 +17,9 @@ get_header(2017)
   <!--END .container --> 
 </header>
 <div class="container">
+    <main id="main" class="site-main" role="main">
+          <div class="row">
+      <div id="page-content" class="col-md-8">
         <?php  
 
 $course_name =($_GET['course_name'])  ? ($_GET['course_name']) : '';
@@ -86,27 +81,51 @@ $query = new WP_Query($args);
 //echo '<h2>Last query</h2><p>'.$wpdb->last_query.'</p>';
 
 if ( $query->have_posts() ) {
-
-$label_button=array();	 		
-$label_button['it']='Scopri';
-$label_button['en']='Find out more';
+	
 ?>
-        <section class="py-48">
-            <div class="d-flex flex-row flex-wrap align-items-stretch justify-content-between">
+        <section class="cards courses-cards">
           <?php while ( $query->have_posts() ) {
 $query->the_post();
-
  ?>
-          <div class="p-24 w-30 m-16" style="border: 1px solid #e8e8e8;">
-            <h6 class="pb-24"><?php the_title(); ?></h6> 
-            <a class="button button__secondary color__blue" href="<?php the_permalink(); ?>"><?php  echo $label_button[ICL_LANGUAGE_CODE]; ?></a>
-            </div>
+          <div class="col-md-12 columns panel panel-search-result">
+            <article> <a title="<?php the_title(); ?>" href="<?php the_permalink(); ?>">
+              <h2 class="course-name">
+                <?php the_title(); ?>
+              </h2>
+              <hr class="yellow">
+              <div class="col-md-6 nopadding">
+                <dl>
+                  <?php  
+		   $t = 0;
+	$custom_taxonomies = corsi_get_taxonomies( array('lingue' , 'lunghezza_corsi' , 'tematiche'));
+		   foreach ($custom_taxonomies as $taxonomy ) { 
+		   
+		   $t++;
+		     ?>
+                  <dt><?php echo $taxonomy[ICL_LANGUAGE_CODE]['label'] ?></dt>
+                  <dd><?php echo corso_writetaxonomy($taxonomy[ICL_LANGUAGE_CODE]['name']) ?>&nbsp;</dd>
+                  <?php if ($t==3) { ?>
+                </dl>
+              </div>
+              <div class="col-md-6 nopadding">
+                <dl>
+                  <?php } ?>
+                  <?php } ?>
+                  <dt><?php echo get_field('testo_inizio'); ?></dt>
+                  <dd><?php echo get_date(get_field('data_inizio'),"standard"); ?>&nbsp;</dd>
+                  <dt><?php echo get_field('titolo_durata'); ?></dt>
+                  <dd><?php echo get_field('durata'); ?>&nbsp;</dd>
+                  <dt><?php echo get_field('titolo_costo'); ?></dt>
+                  <dd><?php echo get_field('costo'); ?>&nbsp;</dd>
+                </dl>
+              </div>
+              </a> </article>
+          </div>
           <?php
 	}	
 
 	wp_reset_postdata();
 ?>
-                </div>
         </section>
         <?php } else  {?>
         <?php if (ICL_LANGUAGE_CODE =='it') { ?>
@@ -124,17 +143,24 @@ $query->the_post();
 		
 		?>
       </div>
+
+    <aside id="sidebar" class="col-md-3 offset-md-1">
+    
+    
+    <div  class="block">
+      <div class="content row"> <?php echo do_shortcode('[ssba]'); ?> </div>
+      </div>
+    
+    
+      <?php get_template_part('course-finder-widget-new'); ?>
+      
+      
+    </aside>
+  </div>
+            </main>
   <!--END .row --> 
+</div>
 <!--END .container -->
-
-<section class="offerta">
-	<div class="container">
-
-		<div id="course-finder-wrapper">
-			<?php get_template_part('course-finder-widget-new'); ?>
-		</div>
-	</div>
-</section>
 <?php 
 
 get_footer(2017);

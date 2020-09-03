@@ -26,7 +26,7 @@ get_header(2017);
         font-size: 4rem;
         line-height: 4.2rem;
     }
-    
+
     #page-content h1,
     #page-content h2,
     #page-content h3,
@@ -37,7 +37,7 @@ get_header(2017);
         margin-top: 32px;
         margin-bottom: 16px;
     }
-    
+
     #page-content h1:first-letter,
     #page-content h2:first-letter,
     #page-content h3:first-letter,
@@ -46,23 +46,43 @@ get_header(2017);
     #page-content h6:first-letter {
         text-transform: uppercase;
     }
-    
+
     @media screen and (max-width: 991px) {
-        
+
         #page-content {
-        border-bottom: 1px solid #e8e8e8;
-        border-right: 0;
-            }
+            border-bottom: 1px solid #e8e8e8;
+            border-right: 0;
+        }
     }
-    
+
     @media screen and (min-width: 992px) {
-        
+
         #page-content {
-        border-bottom: 0;
-        border-right: 1px solid #e8e8e8;
-            }
+            border-bottom: 0;
+            border-right: 1px solid #e8e8e8;
+        }
+
+        #page-content h1 {
+            font-size: 48px !important;
+            line-height: 54px !important;
+        }
+
+        #page-content h2 {
+            font-size: 36px !important;
+            line-height: 42px !important;
+        }
+
+        #page-content h3 {
+            font-size: 30px !important;
+            line-height: 36px !important;
+        }
+
+        #page-content h4 {
+            font-size: 24px !important;
+            line-height: 34px !important;
+        }
+
     }
-    
 </style>
 
 <!-- Includo le variabili comuni -->
@@ -99,15 +119,15 @@ get_header(2017);
             bg__blue
             <?php endif; ?>
             ">
-	    <div class="container">
-	        <div class="row">
-                <div class="col-xs-12 col-lg-8 pt-48">
-	            <h1 class="color__white"><?php the_title();?></h1>
-                </div>
-	        </div>
-	    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-lg-8 pt-48">
+                <h1 class="color__white"><?php the_title();?></h1>
+            </div>
+        </div>
     </div>
-    <div class="container-fluid px-0
+</div>
+<div class="container-fluid px-0
             <?php if($executive_cat) : ?>
             bg__light_blue
             <?php elseif($corso_cat) : ?>
@@ -117,13 +137,13 @@ get_header(2017);
             <?php endif; ?>
             ">
     <?php get_template_part( 'pco/template-parts/section-keyfacts', get_post_format() ); ?>
-    </div>
+</div>
 
 
 <div class="container">
     <p><?php edit_post_link('<strong>Modifica Pagina</strong>', ''); ?></p>
     <div class="row">
-        <main id="main" role="main" class="col-xs-12 col-md-8" >
+        <main id="main" role="main" class="col-xs-12 col-md-8">
             <div id="page-content" class="pt-0 pb-80 pr-md-48 pr-0">
                 <?php while ( have_posts() ) : the_post(); ?>
                 <?php the_content(''); ?>

@@ -805,7 +805,7 @@ $text_svolgono[ 'en' ] = 'All Masters taking place in ';
 	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_programma_a1[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
-	                                <a class="button button__secondary button__blue my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_siteprogramma_a1[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
+	                                <a class="button button__secondary button__blue my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_programma_a1[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
 	                                <a class="button button__primary button__blue my-8 m-md-0" href="<?php echo $link_brochure_programma_a1[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                            </div>
 	                        </div>
@@ -821,7 +821,7 @@ $text_svolgono[ 'en' ] = 'All Masters taking place in ';
 	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_programma_a2[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_en[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
-	                                <a class="button button__secondary button__blue my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_siteprogramma_a2[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
+	                                <a class="button button__secondary button__blue my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_programma_a2[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
 	                                <a class="button button__primary button__blue my-8 m-md-0" href="<?php echo $link_brochure_programma_a2[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                            </div>
 	                        </div>
@@ -837,7 +837,7 @@ $text_svolgono[ 'en' ] = 'All Masters taking place in ';
 	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_programma_a3[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
-	                                <a class="button button__secondary button__blue my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_siteprogramma_a3[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
+	                                <a class="button button__secondary button__blue my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_programma_a3[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
 	                                <a class="button button__primary button__blue my-8 m-md-0" href="<?php echo $link_brochure_programma_a3[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                            </div>
 	                        </div>
@@ -853,7 +853,7 @@ $text_svolgono[ 'en' ] = 'All Masters taking place in ';
 	                            <p class="big mb-8"><strong><?php echo $titolo_inizio[ICL_LANGUAGE_CODE] ?></strong> <?php echo $inizio_programma_a4[ICL_LANGUAGE_CODE] ?></p>
 	                            <p class="big mb-8"><strong><?php echo $lingua[ICL_LANGUAGE_CODE] ?></strong> <?php echo $lingua_corso_it[ICL_LANGUAGE_CODE] ?></p>
 	                            <div class="mt-24 d-flex flex-row justify-content-between align-items-center flex-wrap flex-lg-nowrap ctas">
-	                                <a class="button button__secondary button__blue my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_siteprogramma_a4[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
+	                                <a class="button button__secondary button__blue my-8 mr-sm-16 mr-md-0 mr-lg-16" href="<?php echo $link_site_programma_a4[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_site[ICL_LANGUAGE_CODE] ?></a>
 	                                <a class="button button__primary button__blue my-8 m-md-0" href="<?php echo $link_brochure_programma_a4[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                            </div>
 	                        </div>

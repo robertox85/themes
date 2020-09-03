@@ -169,7 +169,7 @@
             <?php else : ?>
             <?php endif; ?><strong><?php $terms = get_the_terms($post->ID, 'lingue');
             foreach ( $terms as $term ) {
-                echo '<span class="text-capitalize-custom">' . strip_tags(term_description($term->term_id, 'lingue')) . '</span>';
+                echo strip_tags(term_description($term->term_id, 'lingue'));
             } ?></strong></p>
 
     <!-- Pulsanti -->

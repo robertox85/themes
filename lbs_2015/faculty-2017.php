@@ -87,9 +87,9 @@ get_header( 2017 );
                 </p>
             </div>
         </div>
-                <form style="align-items:baseline; width: 100%" action="/faculty-research/docenti/" method="get" class="d-flex flex-row align-items-stretch justify-content-between">
-                <input type="text" class="live-search" name="docente" id="search-query" value="" style="width:75%; height:auto" />
-                <button type="submit" class="hp button button__primary bg__white color__blue" style="width: 20%; margin-bottom:0;">
+                <form style="align-items:baseline; width: 100%" action="/faculty-research/docenti/" method="get" class="d-flex flex-row align-items-stretch justify-content-between flex-nowrap">
+                <input type="text" class="live-search" name="docente" id="search-query" value="" style="width:55%; height:auto" />
+                <button type="submit" class="hp button button__primary bg__white color__blue" style="width: 40%; margin-bottom:0;">
                 <?php echo $search_button_text[ICL_LANGUAGE_CODE]  ?>
                 </button>
                 <div id="live-search-output"></div>

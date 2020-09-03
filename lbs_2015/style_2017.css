@@ -9416,11 +9416,11 @@ li.secondary-nav-item#menu-item-38273 > a {
     background-color: #fff !important;
 }
 
-span.text-capitalize-custom {
+.text-capitalize-custom {
     text-transform: lowercase !important;
 }
 
-span.text-capitalize-custom::first-letter {
+.text-capitalize-custom::first-letter {
     text-transform: uppercase !important;
 }
 

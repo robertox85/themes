@@ -67,9 +67,9 @@ $custom_taxonomies = corsi_get_taxonomies($selected_taxonomies);
        
         <p class="mt-48"><button class="finder-send-button" type="submit"><?php echo $finder_button_button_send[ICL_LANGUAGE_CODE]; ?></button>
         </form>
-        
-        <p><button class="finder-button" type="button"><?php echo $finder_button_open[ICL_LANGUAGE_CODE]; ?></button></p>
-
+        <!--
+        <p><button class="finder-button close-finder-form" type="button"><?php echo $finder_button_open[ICL_LANGUAGE_CODE]; ?></button></p>
+-->
     </div>
 
 
