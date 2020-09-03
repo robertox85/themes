@@ -1,7 +1,7 @@
 <?php
  /**
      * Template Name: Lingua
-     * @file page-overview.php
+     * @file page-language.php
      */
 get_header(); 
 ?>
@@ -86,7 +86,7 @@ if( !empty($image) ): ?>
   <!--END .row --> 
 </div>
 <!--END .container --> 
-<?php endwhile; // end of the loop. ?>
+
 <?php 
 get_main_site_footer();
 ?>

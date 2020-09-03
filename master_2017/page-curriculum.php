@@ -558,7 +558,6 @@ wp_nav_menu(array(
                     <?php }?>
 
 
-
                     <p><?php edit_post_link('<strong>Modifica Pagina</strong>', '');?></p>
 
     <!--END .row -->
@@ -570,9 +569,9 @@ wp_nav_menu(array(
 
             <?php get_sidebar();?>
 
-
-
         </aside>
+    </div>
+</div>
 <?php endwhile; // end of the loop. ?>
 <?php
 //get_main_site_footer();

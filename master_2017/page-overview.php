@@ -218,6 +218,7 @@ get_template_part( 'pco/template-parts/content', 'keyfacts' );
                 <p>
                     <?php edit_post_link('<strong>Modifica Pagina</strong>', '');?>
                 </p>
+            </div>
         </main>
 
         <aside class="col-lg-3 col-md-3 space sidebar-master">
@@ -226,13 +227,8 @@ get_template_part( 'pco/template-parts/content', 'keyfacts' );
 
         </aside>
 
-        <div class="col-md-1 col-sm-1 nopadding"></div>
-
     </div>
 
-
-
-    <div class="clearfix"></div>
 </div>
 <!--END .container -->
 <?php endwhile; // end of the loop. ?>
