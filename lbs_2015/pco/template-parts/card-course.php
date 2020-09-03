@@ -53,7 +53,7 @@
     <div class="second-block">
 
     <!-- Durata -->
-    <?php if(get_field('durata') ) : ?>
+    <?php if ( !empty ( get_field( 'durata' ) ) ) : ?>
     <p class="big mb-8">
             <?php if (ICL_LANGUAGE_CODE=='it') : ?>Durata
             <?php elseif (ICL_LANGUAGE_CODE=='en' ) : ?>Duration
@@ -64,7 +64,7 @@
     <?php endif; ?>
     
     <!-- Sede Flex -->
-    <?php if( get_field('online') ): ?>
+    <?php if ( !empty ( get_field( 'online' ) ) ) : ?>
 
     <p class="big mb-8">
             <?php if (ICL_LANGUAGE_CODE=='it') : ?>Sede
@@ -76,7 +76,7 @@
     <?php endif; ?>
         
     <!-- Sede Roma -->
-    <?php if(get_field('testo_inizio') ) : ?>
+    <?php if ( !empty ( get_field( 'testo_inizio' ) ) || !empty( get_field ( 'online' ) ) ) : ?>
 
     <p class="big mb-8">
             <?php if (ICL_LANGUAGE_CODE=='it') : ?>Sede
@@ -117,7 +117,7 @@
 
     <?php endif; ?>
     <!-- Sede Milano -->
-    <?php if(get_field('data_inizio_testuale') ) : ?>
+    <?php if ( !empty ( get_field( 'data_inizio_testuale' ) ) ) : ?>
 
     <p class="big mb-8">
             <?php if (ICL_LANGUAGE_CODE=='it') : ?>Sede
@@ -153,7 +153,7 @@
     <?php endif; ?>
 
     <!-- Sede Belluno -->
-    <?php if(get_field('veneto') ) : ?>
+    <?php if ( !empty ( get_field( 'veneto' ) ) ) : ?>
 
     <p class="big mb-8">
             <?php if (ICL_LANGUAGE_CODE=='it') : ?>Sede
