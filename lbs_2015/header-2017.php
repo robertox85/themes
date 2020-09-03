@@ -240,8 +240,8 @@ bloginfo('name');
 <!-- <body class="home page-template page-template-home page-template-home-php page">-->
 
 <?php
-            $logo_url_blue = site_url().'/wp-content/themes/lbs_2015/pco/images/logo-new-blue.png';
-            $logo_url_white = site_url().'/wp-content/themes/lbs_2015/pco/images/logo-new-white.png';
+            $logo_url_blue = site_url().'/wp-content/themes/lbs_2015/pco/images/logo/logo-new-blue.png';
+            $logo_url_white = site_url().'/wp-content/themes/lbs_2015/pco/images/logo/logo-new-white.png';
 ?>
 
 <style>

@@ -8,8 +8,8 @@ $executive_flex_desc['en'] = '';
 ?>
 
 <?php $executive_flex_img_link = array();
-$executive_flex_img_link[ 'it' ] = '../images/flex-programme.jpg';
-$executive_flex_img_link[ 'en' ] = '../images/flex-programme.jpg';
+$executive_flex_img_link[ 'it' ] = '../images/offerta-formativa/flex-jumbotron.jpg';
+$executive_flex_img_link[ 'en' ] = '../images/offerta-formativa/flex-jumbotron.jpg';
 ?>
 
 <?php $executive_flex_link = array();

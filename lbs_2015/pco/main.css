@@ -13448,8 +13448,8 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-position: center center;
     -webkit-mask-size: cover;
-    -webkit-mask-image: url(images/pattern.svg);
-    mask-image: url(images/pattern.svg);
+    -webkit-mask-image: url(images/pattern/pattern.svg);
+    mask-image: url(images/pattern/pattern.svg);
     mask-repeat: no-repeat;
     mask-position: center center;
     mask-size: cover;
@@ -13563,8 +13563,8 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-position: center center;
     -webkit-mask-size: cover;
-    -webkit-mask-image: url(images/pattern.svg);
-    mask-image: url(images/pattern.svg);
+    -webkit-mask-image: url(images/pattern/pattern.svg);
+    mask-image: url(images/pattern/pattern.svg);
     mask-repeat: no-repeat;
     mask-position: center center;
     mask-size: cover;
@@ -13641,8 +13641,8 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-position: center center;
     -webkit-mask-size: cover;
-    -webkit-mask-image: url(images/pattern.svg);
-    mask-image: url(images/pattern.svg);
+    -webkit-mask-image: url(images/pattern/pattern.svg);
+    mask-image: url(images/pattern/pattern.svg);
     mask-repeat: no-repeat;
     mask-position: center center;
     mask-size: cover;
@@ -13885,8 +13885,8 @@ body.theme-blue #nav-main .gsc-search-box-tools .gsc-search-box .gsc-input {
     -webkit-mask-repeat: repeat-x;
     -webkit-mask-position: top left;
     -webkit-mask-size: cover;
-    -webkit-mask-image: url(images/pattern-long.svg);
-    mask-image: url(images/pattern-long.svg);
+    -webkit-mask-image: url(images/pattern/pattern-long.svg);
+    mask-image: url(images/pattern/pattern-long.svg);
     mask-repeat: repeat-x;
     mask-position: top left;
     mask-size: cover;
@@ -13943,12 +13943,12 @@ ul.exarea-list > li > a:hover {
 }
 
 .flex-cover {
-    background-image: url('images/flex-programme.jpg');
+    background-image: url('images/offerta-formativa/flex-jumbotron.jpg');
     min-height: 150px !important;
 }
 
 .executive-cover {
-    background-image: url('images/programmi-executive.jpg');
+    background-image: url('images/offerta-formativa/programmi-executive.jpg');
 }
 
 .accounting-cover {

@@ -95,7 +95,7 @@ $current_blog_id = get_query_var( 'current_blog_id' );
         <?php if( $current_blog_id === 1 ): ?>
         <div class="container-fluid">
             <div class="row"
-                style="background-image:url(<?php echo get_stylesheet_directory_uri() ?>/pco/images/social-wall-bg.png);background-repat:no-repeat;background-size:cover;backgroun-position:center">
+                style="background-image:url(<?php echo get_stylesheet_directory_uri() ?>/pco/images/varie/social-wall-bg.png);background-repat:no-repeat;background-size:cover;backgroun-position:center">
                 <div class="col-xs-12">
                     <h3 class="text-center mt-80 mb-48">Social Wall</h3>
                     <div class="container">
