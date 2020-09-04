@@ -1,4 +1,31 @@
-<div class="container-fluid colonna_key_facts">
+<?php
+
+
+
+$page_slug = get_post_field( 'post_name' );
+$pages = array('download-brochure', 'brochure', 'download-brochure-master-macofin', 'scarica-la-brochure', 'downlaod-brochure', 'download-brochre', 'compila-il-form', 'richiedi-informazioni', 'download-brchure', 'download-drochure');
+$found = false;
+foreach ($pages as $page) {
+    if ($page_slug === $page) {
+        $found = true;
+        break;
+    }
+}
+$is_page_download_brochure = ($found) ? 'is_page_download_brochure' : '';
+
+?>
+
+<style>
+.colonna_key_facts.is_page_download_brochure .colonna_key_facts-container .featured-links{
+    display: none;
+}
+
+.colonna_key_facts.is_page_download_brochure .share_links:not(.share_links-fixed){
+    top: 8rem;
+}
+</style>
+
+<div class="container-fluid colonna_key_facts <?php echo $is_page_download_brochure ?>">
     <div class="container">
         <!-- questa riga la vediamo quando non c'è scroll -->
         <div id="toast-container" class="toast toast-top-right fade toast-success" aria-live="polite" role="alert" aria-atomic="true" data-delay="1500">
