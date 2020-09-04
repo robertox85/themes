@@ -243,6 +243,29 @@ $current_blog_id = get_query_var( 'current_blog_id' );
 </div>
 <!-- END #site-wrapper -->
 
+<!-- Element where you set your API key and insert your custom templates --> 
+<!-- Element where you set your API key and insert your custom templates -->
+<div hidden id="snipcart" data-api-key="Mjc0M2I5NGUtMmViNi00ZmRhLWJmYWUtOTZkODk4NDFiODhkNjM3Mjg0MTQ3OTIxMjgwNTM1">
+    <billing section="bottom">
+        <fieldset class="snipcart-form__set">
+            <div class="snipcart-form__field">
+                <snipcart-label class="snipcart__font--tiny" for="phoneNumber">
+                    Numero di telefono
+                </snipcart-label>
+                <snipcart-input name="phoneNumber" required></snipcart-input>
+            </div>
+            <div class="snipcart-form__field">
+                <snipcart-label class="snipcart__font--tiny" for="vatNumber">
+                    Codice Fiscale/P.IVA
+                </snipcart-label>
+                <snipcart-input name="vatNumber"></snipcart-input>
+            </div>
+        </fieldset>
+    </billing>
+</div>
+<script src="https://cdn.snipcart.com/themes/v3.0.16/default/snipcart.js"></script>
+<script src="https://businessschool.luiss.it/wp-content/themes/lbs_2015/js/snipcart-customizations.js"></script>
+
 <script async data-main="<?php echo get_bloginfo('template_url') ?>/js/app" src="<?php echo get_bloginfo('template_url') ?>/js/require.js"></script>
 
 <script type="text/javascript">
