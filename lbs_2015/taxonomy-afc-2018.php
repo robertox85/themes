@@ -88,7 +88,7 @@ Summer School (specialistici) - 133/134
         <!-- CONTENUTO -->
         <div class="tab-content my-0 my-md-48" id="ProgramType">
             <!-- MASTER -->
-            <div class="tab-pane fade active in show show" id="exmasters" role="tabpanel" aria-labelledby="exmasters-tab">
+            <div class="tab-pane fade active in show" id="exmasters" role="tabpanel" aria-labelledby="exmasters-tab">
                 <div class="row">
                     <div class="col-12 col-lg-8">
                         <p><?php echo get_field('campo_executive_master') ?></p>

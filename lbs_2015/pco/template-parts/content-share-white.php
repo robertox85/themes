@@ -1,5 +1,5 @@
 <div class="row d-none d-lg-block py-16 mx-0 mb-16" style="border-bottom: 1px solid #fff;">
-    <div class="d-flex flex-row justify-content-between align-items-center">
+    <div class="w-100 d-flex flex-row justify-content-between align-items-center">
         <p class="w-25 m-0 color__white text-uppercase">Share</p>
         <ul class="m-0 w-75 list-unstyled d-flex flex-row justify-content-between align-items-center">
             <li><a href="https://www.facebook.com/sharer.php?s=100&p[url]=urlencode(get_permalink()) ?>', '<?php get_the_title() ?>' , 'facebook' )" id="facebook"><i class="fab fa-facebook-f color__white"></i></a></li>
