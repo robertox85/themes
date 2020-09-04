@@ -1,7 +1,5 @@
 <?php
 
-
-
 $page_slug = get_post_field( 'post_name' );
 $pages = array('download-brochure', 'brochure', 'download-brochure-master-macofin', 'scarica-la-brochure', 'downlaod-brochure', 'download-brochre', 'compila-il-form', 'richiedi-informazioni', 'download-brchure', 'download-drochure');
 $found = false;
@@ -16,7 +14,8 @@ $is_page_download_brochure = ($found) ? 'is_page_download_brochure' : '';
 ?>
 
 <style>
-.colonna_key_facts.is_page_download_brochure .colonna_key_facts-container .featured-links{
+.colonna_key_facts.is_page_download_brochure .colonna_key_facts-container .featured-links,
+.colonna_key_facts.is_page_download_brochure .download-brocure.shadow-top{
     display: none;
 }
 
