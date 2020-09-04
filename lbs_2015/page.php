@@ -1,8 +1,7 @@
 <?php
-/**
-Template Name: Template standard
- * The template for displaying pages
- */
+/*
+Template Name: 2 colonne
+*/
 wp_enqueue_style('Bootstrap_Styles','https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css');
 get_header(2017); 
 ?>
@@ -29,14 +28,12 @@ get_header(2017);
                 <?php endwhile; // end of the loop. ?>
             </div>
             <aside id="sidebar" class="col-lg-3 offset-md-1">
-            
-            <div class="share_links">
+                <div class="share_links">
                 <?php get_template_part('pco/template-parts/content', 'share')?>
-        </div>
-                
+            </div>
                 <!--
                 <div class="block">
-                    <div class="content row"> <?//php echo do_shortcode('[ssba]'); ?> </div>
+                    <div class="content row"> <//?php echo do_shortcode('[ssba]'); ?> </div>
                 </div>
 -->
             </aside>

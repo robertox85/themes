@@ -70,11 +70,11 @@ Summer School (specialistici) - 133/134
     <section>
         <!-- NAVIGAZIONE -->
         <ul class="nav nav-tabs auto mx-0 px-0 d-flex flex-row flex-wrap flex-lg-nowrap flex-xl-nowrap" id="program-type" role="tablist">
-            <!-- MASTER -->
-            <li class="nav-item active"><a class="nav-link active" id="tab1-tab" data-toggle="tab" href="#exmasters" role="tab" aria-controls="tab1" aria-selected="true"><?php echo $executive_master_label[ICL_LANGUAGE_CODE] ?></a></li>
-
+            <!-- MASTER 
+            <li class="nav-item"><a class="nav-link" id="tab1-tab" data-toggle="tab" href="#exmasters" role="tab" aria-controls="tab1" aria-selected="true"><?php echo $executive_master_label[ICL_LANGUAGE_CODE] ?></a></li>
+-->
             <!-- PROGRAMME -->
-            <li class="nav-item"><a class="nav-link" id="tab2-tab" data-toggle="tab" href="#exprogrammes" role="tab" aria-controls="tab2" aria-selected="false"><?php echo $executive_programme_label[ICL_LANGUAGE_CODE] ?></a></li>
+            <li class="nav-item active"><a class="nav-link active" id="tab2-tab" data-toggle="tab" href="#exprogrammes" role="tab" aria-controls="tab2" aria-selected="false"><?php echo $executive_programme_label[ICL_LANGUAGE_CODE] ?></a></li>
 
             <!-- FLEX -->
             <li class="nav-item"><a class="nav-link" id="tab3-tab" data-toggle="tab" href="#exflexprogrammes" role="tab" aria-controls="tab3" aria-selected="false"><?php echo $executive_flex_label[ICL_LANGUAGE_CODE] ?></a></li>
@@ -89,7 +89,7 @@ Summer School (specialistici) - 133/134
         <!-- CONTENUTO -->
         <div class="tab-content my-0 my-md-48" id="ProgramType">
             <!-- MASTER -->
-            <div class="tab-pane fade active in show" id="exmasters" role="tabpanel" aria-labelledby="exmasters-tab">
+            <div class="tab-pane fade" id="exmasters" role="tabpanel" aria-labelledby="exmasters-tab">
                 <div class="row">
                     <div class="col-12 col-lg-8">
                         <p><?php echo get_field('campo_executive_master') ?></p>
@@ -162,7 +162,7 @@ Summer School (specialistici) - 133/134
             </div>
 
             <!-- PROGRAMME -->
-            <div class="tab-pane fade" id="exprogrammes" role="tabpanel" aria-labelledby="exprogrammes-tab">
+            <div class="tab-pane fade active in show" id="exprogrammes" role="tabpanel" aria-labelledby="exprogrammes-tab">
                 <div class="row">
                     <div class="col-12 col-lg-8">
                         <p><?php echo get_field('campo_executive_program') ?></p>
@@ -368,7 +368,7 @@ Summer School (specialistici) - 133/134
 
             <!-- LABS -->
             <div class="tab-pane fade" id="exlabs" role="tabpanel" aria-labelledby="exlabs-tab">
-                <p><?php echo get_field('campo_executive_skill_lab') ?></p>
+                
                 <?php get_template_part( 'pco/template-parts/section-skill-lab', get_post_format() ); ?>
             </div>
         </div>

@@ -26,7 +26,7 @@ $titolo_centro['en'] = 'Knowledge Centre & Lab';
 <div class="container">
   <div class="row">
     <main id="main" class="site-main centre">
-      <div id="page-content" class="col-lg-8">
+      <div id="page-content" class="col-md-8 columns  space">
         <?php while ( have_posts() ) : the_post(); 
 		$post_id = get_the_ID();?>
         <?php the_content(''); ?>
@@ -64,14 +64,9 @@ $titolo_centro['en'] = 'Knowledge Centre & Lab';
       <?php // wp_nav_menu( array( 'menu' => 'Centri' )); ?>
     </div>
     <aside class="col-md-3 columns col-md-push-1 space col-xs-12">
-        <div class="share_links">
-                <?php get_template_part('pco/template-parts/content', 'share')?>
-        </div>
-        <!--
       <div  class="block">
-        <div class="content row"> <?//php echo do_shortcode('[ssba]'); ?> </div>
+        <div class="content row"> <?php echo do_shortcode('[ssba]'); ?> </div>
       </div>
--->
     </aside>
   </div>
   <!--END .row --> 

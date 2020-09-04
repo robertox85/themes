@@ -47,7 +47,8 @@
     <div class="first-block">
     <span class="meta text-uppercase color__grey"><?php the_terms($post->ID, 'lunghezza_corsi', $before = '', $sep = ', ', $after = ''); ?></span>
 
-    <h6 class="py-24 mb-0 each-word"><?php the_title(); ?></h6>
+        <!-- PER fare in modo che i titoli abbiano solo la prima lettera maiuscola inserire la classe each-word in h6 -->
+    <h6 class="py-24 mb-0"><?php the_title(); ?></h6>
     </div>
     
     <div class="second-block">
@@ -203,4 +204,4 @@
         <?php the_field(strip_tags('brochure')); ?>
     </div>
 </div>
-</div>
+    </div>

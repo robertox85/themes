@@ -429,7 +429,7 @@ bloginfo('name');
                     </div>
                     <!-- .END container -->
                 </nav>
-                <?php endif;?>
+                <?php endif; ?>
             </div>
             <script>
                 jQuery(function($) {

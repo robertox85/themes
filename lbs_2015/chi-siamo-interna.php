@@ -32,7 +32,7 @@ $contatti['en'] = 'Contact Information';
     </div>
 </div>
 
-<?php if(is_page('17586')) : ?>
+<?php if(is_page(array('17586', '17588'))) : ?>
 <?php get_template_part( 'pco/template-parts/section-progetti-speciali', get_post_format() ); ?>
 <?php else : ?>
 
@@ -57,7 +57,7 @@ endwhile; // end of the loop.
 <?php endif; ?>
 
             </div>
-            <?php if(is_page('17586')) : ?>
+            <?php if(is_page(array('17586', '17588'))) : ?>
             <?php else : ?>
             <div id="sidebar-menu" class="col-md-3 offset-md-1">
                 <?php

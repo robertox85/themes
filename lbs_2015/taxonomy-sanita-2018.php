@@ -76,8 +76,9 @@ Summer School (specialistici) - 133/134
             <!-- PROGRAMME -->
             <li class="nav-item"><a class="nav-link" id="tab2-tab" data-toggle="tab" href="#exprogrammes" role="tab" aria-controls="tab2" aria-selected="false"><?php echo $executive_programme_label[ICL_LANGUAGE_CODE] ?></a></li>
 
-            <!-- FLEX -->
+            <!-- FLEX 
             <li class="nav-item"><a class="nav-link" id="tab3-tab" data-toggle="tab" href="#exflexprogrammes" role="tab" aria-controls="tab3" aria-selected="false"><?php echo $executive_flex_label[ICL_LANGUAGE_CODE] ?></a></li>
+-->
 
             <!-- COURSES -->
             <li class="nav-item"><a class="nav-link" id="tab4-tab" data-toggle="tab" href="#excourses" role="tab" aria-controls="tab4" aria-selected="false">Executive Courses</a></li>
@@ -366,7 +367,6 @@ Summer School (specialistici) - 133/134
 
             <!-- LABS -->
             <div class="tab-pane fade" id="exlabs" role="tabpanel" aria-labelledby="exlabs-tab">
-                <p><?php echo get_field('campo_executive_skill_lab') ?></p>
                 <?php get_template_part( 'pco/template-parts/section-skill-lab', get_post_format() ); ?>
             </div>
         </div>

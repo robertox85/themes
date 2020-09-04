@@ -41,7 +41,7 @@ $image = get_field('images', $home_page_id);
 ?>
 <div class="container-fluid container-header px-0 px-lg-1"
     style="min-height:480px; background-image:url(<?php echo $image['url']; ?>); background-repeat:no-repeat; background-size: cover;background-position:center;">
-    <div class="container px-24 px-md-0 py-lg-48">
+    <div class="container px-16 py-lg-48">
         <header id="header-master" class="row px-md-0">
             <h1 class="col-md-12 small">
                 <?php
@@ -71,7 +71,7 @@ get_template_part( 'pco/template-parts/content', 'keyfacts' );
 <div class="container-fluid colonna_main">
     <div class="row">
 
-        <nav class="col-lg-3 col-md-3">
+        <nav class="col-md-3">
 
             <?php
 
@@ -92,7 +92,7 @@ wp_nav_menu(array(
 
 								?>
         </nav>
-        <main id="main" class="site-main site-master col-lg-6 col-md-6" role="main">
+        <main id="main" class="site-main site-master col-md-6" role="main">
             <div id="page-content" class="columns  space">
 
                     <h2 class="page-title"><?php echo the_title(); ?></h2>
@@ -565,7 +565,7 @@ wp_nav_menu(array(
 </div>
 <!--END .container -->
 </main>
-        <aside class="col-lg-3 col-md-3 space sidebar-master">
+        <aside class="col-md-3 space sidebar-master">
 
             <?php get_sidebar();?>
 

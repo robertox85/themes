@@ -32,7 +32,7 @@
       <div class="row">
         <?php edit_post_link('<p class="button arr featured-links">Modifica Pagina</p>', ''); ?>
          <div class="col-md-8 sx">
-            <img  src="<?php echo get_site_url() ?>/wp-content/uploads/2018/06/Finanza-Aziendale_Landing.jpg" alt="Prendi-il-controllo-della-tua-carriera"  class="img-responsive"/>
+            <img  src="/wp-content/uploads/2018/06/Finanza-Aziendale_Landing.jpg" alt="Prendi-il-controllo-della-tua-carriera"  class="img-responsive"/>
          </div>
          <div class="col-md-4 grid-row-quotes grid-col">
             <p><?php

@@ -5,6 +5,11 @@
 <!-- Inizio template -->
 
 <div class="row">
+    <div class="col-12 col-lg-8">
+        <p><?php echo get_field('campo_executive_skill_lab') ?></p>
+    </div>
+</div>
+<div class="d-flex flex-row flex-wrap justify-content-start align-items-stretch px-0 pt-24">
     <?php
 
 			//var_dump($tax_query);
@@ -43,14 +48,16 @@
 			
 			if ( $query->have_posts() )  : while ( $query->have_posts() ) : $query->the_post(); ?>
 
-				
-    			<?php get_template_part( 'pco/template-parts/card', 'course' ); ?>
 
-    			<?php wp_reset_postdata(); ?>
+    <?php get_template_part( 'pco/template-parts/card', 'course' ); ?>
+
+    <?php wp_reset_postdata(); ?>
 
     <?php endwhile; else : ?>
     <?php if (ICL_LANGUAGE_CODE=='it') : ?><div class="col-12">Non ci sono ancora programmi.</div>
-    <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?><div class="col-12"><div class="col-12">There are no programmes yet.</div></div>
+    <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?><div class="col-12">
+        <div class="col-12">There are no programmes yet.</div>
+    </div>
     <?php else : ?>
     <?php endif; ?>
 

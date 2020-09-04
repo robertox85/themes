@@ -368,7 +368,7 @@ Summer School (specialistici) - 133/134
 
             <!-- LABS -->
             <div class="tab-pane fade" id="exlabs" role="tabpanel" aria-labelledby="exlabs-tab">
-                <p><?php echo get_field('campo_executive_skill_lab') ?></p>
+                
                 <?php get_template_part( 'pco/template-parts/section-skill-lab', get_post_format() ); ?>
             </div>
         </div>

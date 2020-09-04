@@ -403,5 +403,3 @@ if (!(empty($events))) {
 
 set_query_var( 'current_blog_id', get_current_blog_id(  ) );
 get_footer(2017); 
-
-?>

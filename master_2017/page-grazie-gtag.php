@@ -20,7 +20,7 @@ while (have_posts()): the_post();
     ?>
 <div class="container-fluid container-header px-0 px-lg-1"
     style="min-height:480px; background-image:url(<?php echo $image['url']; ?>); background-repeat:no-repeat; background-size: cover;background-position:center;">
-    <div class="container px-24 px-md-0 py-lg-48">
+    <div class="container px-16 py-lg-48">
         <header id="header-master" class="row px-md-0">
             <h1 class="col-md-12 small">
                 <?php
@@ -90,7 +90,7 @@ while (have_posts()): the_post();
             </div>
             <p><?php edit_post_link('<strong>Modifica Pagina</strong>', '');?></p>
         </main>
-        <aside class="col-lg-3 col-md-3 space sidebar-master">
+        <aside class="col-md-3 space sidebar-master">
 
             <?php get_sidebar();?>
 

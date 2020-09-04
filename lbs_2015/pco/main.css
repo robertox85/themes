@@ -13229,10 +13229,12 @@ body.theme-blue header .col-nav {
     justify-content: flex-end;
 }
 
+/*
 #menu-main #menu-item-25941,
 #menu-main #menu-item-34570 {
     display: none !important;
 }
+*/
 
 body.theme-blue #menu-main {
     border-color: #003a70;
@@ -14301,11 +14303,12 @@ body.theme-blue #secondary-nav a {
     color: #003a70;
 }
 
+/*
 body.theme-blue #menu-main #menu-item-25941,
 body.theme-blue #menu-main #menu-item-34570 {
     display: none !important;
 }
-
+*/
 /* CORREZIONI SEARCH BAR E NAVBAR */
 
 @media screen and (min-width: 992px) {
@@ -14480,9 +14483,26 @@ li.secondary-nav-item > a {
     font-size: 1rem !important;
 }
 
+/* ID DI STAGING MILANO E BELLUNO */
 li.secondary-nav-item#menu-item-38267 > a,
 li.secondary-nav-item#menu-item-38268 > a,
 li.secondary-nav-item#menu-item-38272 > a,
 li.secondary-nav-item#menu-item-38273 > a {
+    font-weight: bold;
+}
+
+
+/* ID DI PRODUZIONE MEET US ONLINE*/
+li#menu-item-36564 > a,
+li#menu-item-36565 > a,
+ {
+    font-weight: bold;
+}
+
+/* ID DI PRODUZIONE MILANO BELLUNO */
+li.secondary-nav-item#menu-item-25941 > a,
+li.secondary-nav-item#menu-item-34570 > a,
+li.secondary-nav-item#menu-item-39538 > a,
+li.secondary-nav-item#menu-item-39539 > a {
     font-weight: bold;
 }
