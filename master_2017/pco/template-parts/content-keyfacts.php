@@ -16,7 +16,7 @@ $is_page_download_brochure = ($found) ? 'is_page_download_brochure' : '';
 <style>
 .colonna_key_facts.is_page_download_brochure .colonna_key_facts-container .featured-links,
 .colonna_key_facts.is_page_download_brochure .download-brocure.shadow-top{
-    display: none;
+    display: none!important;
 }
 
 .colonna_key_facts.is_page_download_brochure .share_links:not(.share_links-fixed){
