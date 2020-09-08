@@ -12,21 +12,21 @@ get_header(2017); ?>
 </style>
 
 <header id="content-title" class="wide-row">
-  <div class="container">
-    <div class="row">
-      <div class="sommario col-md-8">
-        <h1><?php echo the_title(); ?></h1>
-      </div>
+    <div class="container">
+        <div class="row">
+            <div class="sommario col-md-8">
+                <h1><?php echo the_title(); ?></h1>
+            </div>
+        </div>
+        <!--END .row -->
     </div>
-    <!--END .row --> 
-  </div>
-  <!--END .container --> 
+    <!--END .container -->
 </header>
 
 <section>
-<div class="container">
-<div class="row">
-<?php
+    <div class="container">
+        <div class="row d-flex align-items-stretch">
+            <?php
 
 $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;   
 $news_cat=array();	 		
@@ -51,47 +51,50 @@ if ( $news_list->have_posts() ) {
 while ( $news_list->have_posts() ) {
 $news_list->the_post(); 
  ?>
- 
- <?php $leggi = array();
+
+            <?php $leggi = array();
 $leggi[ 'it' ] = 'Leggi di più';
 $leggi[ 'en' ] = 'Read more';
 ?>
- 
-    
-    <div class="col-12 col-lg-6 my-16" style="border: 1px solid #e8e8e8;">
-            <article itemscope="" itemtype="http://schema.org/Article">
-                    <div class="d-flex flex-row align-items-center justify-content-between my-16">
+
+
+            <div class="col-12 col-lg-6 my-16" style="border: 1px solid #e8e8e8;">
+                <article itemscope="" itemtype="http://schema.org/Article">
+                    <div class="d-flex flex-row align-items-start justify-content-between my-16">
                         <div class="col-xs-4">
                             <span itemscope itemtype='http://schema.org/ImageObject'>
-						<?php 
+                                <?php 
 	$img_attr = array(
 	'class'	=> "img-responsive",
 );
 	echo get_the_post_thumbnail($news->ID, 'thumbnail',$img_attr);
 	
 	?>
-					</span>
+                            </span>
                         </div>
-                        <div class="col-xs-8">
-                            <h6 class="my-0" itemprop="name headline"><?php echo the_title() ?></h6>
-                            <p>
-						<?php echo the_excerpt() ?>
-					</p>
-                            <a class="button button__secondary" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php
+                        <div class="col-xs-8 d-flex flex-column align-items-start justify-content-between">
+                            <div class="first-block">
+                                <h6 class="my-0" itemprop="name headline"><?php echo the_title() ?></h6>
+                                <p>
+                                    <?php echo the_excerpt() ?>
+                                </p>
+                            </div>
+                            <div class="second-block">
+                                <a class="button button__secondary" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php
 echo $leggi[ICL_LANGUAGE_CODE]; ?></a>
-   
+                            </div>
                         </div>
                     </div>
                 </article>
             </div>
 
-<?php 
+            <?php 
 } // END foreach
 
 } // END if ?>
-    </div>
-<nav class="pagination-nav">
-  <?php
+        </div>
+        <nav class="pagination-nav">
+            <?php
 
 $next_label['it']= '<span class="text-uppercase color__white strong">News più vecchie <i class="fal fa-angle-right"></i></span>';
 $next_label['en']= '<span class="text-uppercase color__white strong">Older News <i class="fal fa-angle-right"></i></span>';
@@ -104,15 +107,15 @@ previous_posts_link($prev_label[ICL_LANGUAGE_CODE]);
 next_posts_link($next_label[ICL_LANGUAGE_CODE], $news_list->max_num_pages );
 
 ?>
-</nav>
-<?php 
+        </nav>
+        <?php 
 // clean up after the query and pagination
 wp_reset_postdata(); 
 ?>
 
-<!--END .row -->
+        <!--END .row -->
 
-</div>
+    </div>
 </section>
 <!--END .container -->
 <?php 

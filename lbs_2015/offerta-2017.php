@@ -40,7 +40,8 @@ document.write('<iframe src="https://9105818.fls.doubleclick.net/activityi;src=9
 
 <section class="py-24 pt-md-48 pb-md-80" style="border-bottom: 1px solid #e8e8e8;">
     <div class="container px-0">
-        <div class="px-0 d-flex flex-row flex-wrap align-items-center justify-content-between">
+        <p><?php edit_post_link('<p>Modifica Pagina</p>', ''); ?></p>
+        <div class="px-0 d-flex flex-row flex-wrap align-items-stretch justify-content-between">
             <!-- Box delle tipologia di corso -->
             <!--
 _1 = Lauree Triennali e magistrali  - non utilizzato

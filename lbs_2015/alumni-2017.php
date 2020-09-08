@@ -107,8 +107,8 @@ $s++
 
 ?>
 
-            <div class="col-md-6 col-lg-3 accordion-card my-24 my-md-48 px-0">
-
+            <div class="col-md-6 col-lg-3 accordion-card my-24 my-md-48 px-0 d-flex flex-column align-items-start justify-content-between">
+<div class="first-block">
                 <?php
 	$img_attr = array(
 	'class'	=> "img-card",
@@ -117,12 +117,15 @@ $s++
 	echo get_the_post_thumbnail($storia->ID, 'thumbnail',$img_attr);
 	
 	?>
-                <div class="card-content p-24">
+                <div class="p-24">   
                     <h6 class="pb-16"><?php echo $storia->post_title ?></h6>
                     <p><?php echo $storia->post_excerpt ?></p>
-                    <a class="button button__secondary mt-32" href="<?php echo get_permalink($storia->ID) ?>"><?php echo $label_button[ICL_LANGUAGE_CODE] ?></a>
+    </div>
+                    </div>
+                    <div class="second-block p-24">
+                    <a class="button button__secondary" href="<?php echo get_permalink($storia->ID) ?>"><?php echo $label_button[ICL_LANGUAGE_CODE] ?></a>
+                    </div>
                 </div>
-            </div>
 
 
             <?php endforeach; // END foreach ?>

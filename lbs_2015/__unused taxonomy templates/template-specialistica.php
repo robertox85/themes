@@ -33,7 +33,7 @@ get_header();
           </div>
         </div>
         <div class="col-md-8 nopadding">
-          <div class="sub-home-item-info"> <img  src="<?php echo get_site_url() ?>/wp-content/uploads/2015/05/Rafforza-il-tuo-background-specialistico.jpg" alt="Rafforza il tuo background specialistico"  class="img-responsive"/> </div>
+          <div class="sub-home-item-info"> <img  src="/wp-content/uploads/2015/05/Rafforza-il-tuo-background-specialistico.jpg" alt="Rafforza il tuo background specialistico"  class="img-responsive"/> </div>
         </div>
       </div>
     </div>

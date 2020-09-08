@@ -172,12 +172,22 @@ Summer School (specialistici) - 133/134
                 <div class="d-flex flex-row flex-wrap justify-content-start align-items-stretch px-0 pt-24">
                     <?php
                     $query_tax_value = 25;
-                    $tax_query = array();
-                    $tax_query[] = array(
-                    'taxonomy' => 'lunghezza_corsi',
-                    'field' => 'id',
-                    'terms' => ( int )$query_tax_value
-                    );
+            $query_tax_value_to_exclude = 154;
+			$tax_query = array();
+			$tax_query[] = array(
+                'relation' => 'AND',
+                array(
+				'taxonomy' => 'lunghezza_corsi',
+				'field' => 'id',
+				'terms' => ( int )$query_tax_value,
+                    ),
+                array(
+				'taxonomy' => 'lunghezza_corsi',
+				'field' => 'id',
+				'terms' => ( int )$query_tax_value_to_exclude,
+                    'operator' => 'NOT IN'
+                    ),
+			);
             
                     $query_tax_value = 30;
                     $tax_query[] = array(

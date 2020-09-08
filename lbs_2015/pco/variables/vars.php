@@ -944,8 +944,8 @@ $sottotitolo_master_21[ 'en' ] = '';
 ?>
 	<!-- Inizio -->
 	<?php $inizio_master_21 = array();
-$inizio_master_21[ 'it' ] = '20 Mar 2020';
-$inizio_master_21[ 'en' ] = 'Mar 20, 2020';
+$inizio_master_21[ 'it' ] = '20 Mar 2021';
+$inizio_master_21[ 'en' ] = 'Mar 20, 2021';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_21 = array();
@@ -1324,31 +1324,7 @@ $link_brochure_master_34[ 'en' ] = site_url().'/mabda/download-brochure/';
 
 	<!-- Master 35 -->
 
-	<!-- Titolo -->
-	<?php $titolo_master_35 = array();
-$titolo_master_35[ 'it' ] = 'Consulente Legale d\'Impresa';
-$titolo_master_35[ 'en' ] = 'Consulente Legale d\'Impresa';
-?>
-	<!-- Sottotitolo -->
-	<?php $sottotitolo_master_35 = array();
-$sottotitolo_master_35[ 'it' ] = '';
-$sottotitolo_master_35[ 'en' ] = '';
-?>
-	<!-- Inizio -->
-	<?php $inizio_master_35 = array();
-$inizio_master_9[ 'it' ] = '26 Ott 2020';
-$inizio_master_9[ 'en' ] = 'Oct 26, 2020';
-?>
-	<!-- Programma -->
-	<?php $link_site_master_35 = array();
-$link_site_master_35[ 'it' ] = site_url().'/consulente-legale-impresa/';
-$link_site_master_35[ 'en' ] = site_url().'/consulente-legale-impresa/';
-?>
-	<!-- Brochure -->
-	<?php $link_brochure_master_35 = array();
-$link_brochure_master_35[ 'it' ] = '';
-$link_brochure_master_35[ 'en' ] = '';
-?>
+	<!-- ERA UN MASTER POI TOLTO -->
 
 	<!-- Master 36 BELLUNO -->
 
@@ -1383,7 +1359,7 @@ $link_brochure_master_36[ 'en' ] = site_url().'/food-and-wine-business-belluno/d
 	<!-- Titolo -->
 	<?php $titolo_master_37 = array();
 $titolo_master_37[ 'it' ] = 'Food and Wine Business';
-$titolo_master_37[ 'en' ] = 'in Food and Wine Business';
+$titolo_master_37[ 'en' ] = 'Food and Wine Business';
 ?>
 	<!-- Sottotitolo -->
 	<?php $sottotitolo_master_37 = array();
@@ -1481,13 +1457,13 @@ $inizio_master_40[ 'en' ] = 'Jan 2021';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_40 = array();
-$link_site_master_40[ 'it' ] = '';
-$link_site_master_40[ 'en' ] = '';
+$link_site_master_40[ 'it' ] = '/master-sport-management/';
+$link_site_master_40[ 'en' ] = '/master-sport-management/';
 ?>
 	<!-- Brochure -->
 	<?php $link_brochure_master_40 = array();
-$link_brochure_master_40[ 'it' ] = '';
-$link_brochure_master_40[ 'en' ] = '';
+$link_brochure_master_40[ 'it' ] = '/master-sport-management/download-brochure/';
+$link_brochure_master_40[ 'en' ] = '/master-sport-management/download-brochure/';
 ?>
 
 	<!-- Master 41 -->
@@ -1616,7 +1592,7 @@ $sottotitolo_master_45[ 'en' ] = '';
 ?>
 	<!-- Inizio -->
 	<?php $inizio_master_9 = array();
-$inizio_master_45[ 'it' ] = '23 ott 2020';
+$inizio_master_45[ 'it' ] = '23 Ott 2020';
 $inizio_master_45[ 'en' ] = 'Oct 23, 2020';
 ?>
 	<!-- Programma -->
@@ -1769,6 +1745,37 @@ $link_site_master_50[ 'en' ] = 'https://sog.luiss.it/graduate-programs/comunicaz
 $link_brochure_master_50[ 'it' ] = '';
 $link_brochure_master_50[ 'en' ] = '';
 ?>
+
+
+<!-- Master 51 -->
+
+	<!-- Titolo -->
+	<?php $titolo_master_51 = array();
+$titolo_master_51[ 'it' ] = 'International Management';
+$titolo_master_51[ 'en' ] = 'International Management';
+?>
+	<!-- Sottotitolo -->
+	<?php $sottotitolo_master_51 = array();
+$sottotitolo_master_51[ 'it' ] = 'Major del Master in International Management';
+$sottotitolo_master_51[ 'en' ] = 'Major of the Master in International Management';
+?>
+	<!-- Inizio -->
+	<?php $inizio_master_51 = array();
+$inizio_master_51[ 'it' ] = '26 Nov 2020';
+$inizio_master_51[ 'en' ] = 'Nov 26, 2020';
+?>
+	<!-- Programma -->
+	<?php $link_site_master_51 = array();
+$link_site_master_51[ 'it' ] = '/international-management-milan-amsterdam/';
+$link_site_master_51[ 'en' ] = '/international-management-milan-amsterdam/';
+?>
+	<!-- Brochure -->
+	<?php $link_brochure_master_51 = array();
+$link_brochure_master_51[ 'it' ] = '/international-management-milan-amsterdam/download-brochure/';
+$link_brochure_master_51[ 'en' ] = '/international-management-milan-amsterdam/download-brochure/';
+?>
+
+
 
 <!-- PROGRAMMI DI ALTA FORMAZIONE -->
 

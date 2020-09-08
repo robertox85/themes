@@ -32,7 +32,7 @@ the_title();
       <div class="col-md-8 sx">
        
        <?php edit_post_link('<p class="button arr featured-links">Modifica Pagina</p>', ''); ?>
-        <img  src="<?php echo get_site_url() ?>/wp-content/uploads/2015/07/public-sector-healthcare-and-no-profit.jpg" alt="Prendi-il-controllo-della-tua-carriera"  class="img-responsive"/>
+        <img  src="/wp-content/uploads/2015/07/public-sector-healthcare-and-no-profit.jpg" alt="Prendi-il-controllo-della-tua-carriera"  class="img-responsive"/>
        
      
       </div>

@@ -67,9 +67,9 @@ Summer School (specialistici) - 133/134
     <section>
         <!-- CONTENUTO -->
             <!-- FLEX -->
-                <div class="d-flex flex-row flex-wrap justify-content-start align-items-stretch px-0 pt-24">
+                <div class="d-flex flex-row flex-wrap justify-content-start align-items-stretch px-0 py-24">
                     <?php
-			$query_tax_value = 25;
+			$query_tax_value = 154;
 			$tax_query = array();
 			$tax_query[] = array(
 				'taxonomy' => 'lunghezza_corsi',
@@ -126,6 +126,19 @@ Summer School (specialistici) - 133/134
                 </div>
     </section>
 </div>
+
+
+<!-- MODULI DEI FLEX -->
+<div class="container my-24">
+		<div class="row">
+			<div class="col-12">
+				<h3><?php echo get_field('etichetta_short_course') ?></h3>
+            </div>
+        </div>
+				<div class="short-course d-flex flex-row px-0 py-24 align-items-stretch justify-content-start  flex-wrap"><?php echo get_field('campo_short_course') ?>
+			</div>
+	</div>
+
 
 <!-- OFFERTA COMPLETA -->
 <?php get_template_part( 'pco/template-parts/section-executive-by-tematica', get_post_format() ); ?>

@@ -31,56 +31,18 @@ $current_blog_id = get_query_var( 'current_blog_id' );
                     <div class="footer-logos w-100">
                         <h3 class="color__blue pb-48"><?php echo $certificazioni_riconoscimenti['it']; ?></h3>
                         <ul style="display:flex; flex-direction: row; justify-content: space-between; flex-wrap: wrap;">
-                            <li> <a href="<?php echo site_url() ?>/perche-luiss-bs/certificazioni-e-riconoscimenti/"
-                                    target="_blank"><img
-                                        src="<?php echo site_url() ?>/wp-content/themes/lbs_2015/pco/images/footer-loghi/amba.png"
-                                        alt="Amba Accredited" class="img-responsive" /></a>
+                            <li> <a href="<?php echo site_url() ?>/perche-luiss-bs/certificazioni-e-riconoscimenti/" target="_blank"><img src="<?php echo site_url() ?>/wp-content/themes/lbs_2015/pco/images/footer-loghi/amba.png" alt="Amba Accredited" class="img-responsive" /></a>
                             </li>
-                            <li><a href="<?php echo site_url() ?>/perche-luiss-bs/certificazioni-e-riconoscimenti/"
-                                    target="_blank"><img
-                                        src="<?php echo site_url() ?>/wp-content/themes/lbs_2015/pco/images/footer-loghi/equis.png"
-                                        alt="Equis Accredited"
-                                        class="img-responsive" /></a></li>
-                            <li><a href="<?php echo site_url() ?>/perche-luiss-bs/certificazioni-e-riconoscimenti/"
-                                    target="_blank"><img
-                                        src="<?php echo site_url() ?>/wp-content/themes/lbs_2015/pco/images/footer-loghi/ISO_9001_2015_BW.png"
-                                        alt="Azienda con sistema di Gestione qualità certificato da DNV GL iISO 9001"
-                                        class="img-responsive" /></a></li>
-                            <li> <a href="<?php echo site_url() ?>/perche-luiss-bs/certificazioni-e-riconoscimenti/"
-                                    target="_blank"><img
-                                        src="<?php echo site_url() ?>/wp-content/themes/lbs_2015/pco/images/footer-loghi/asfor-ordinario-footer-bw.png"
-                                        alt="LUISS Business School è socio ASFOR (Associazione per la Formazione alla Direzione Aziendale)."
-                                        width="100" class="img-responsive" /></a></li>
-                            <li> <a href="<?php echo site_url() ?>/perche-luiss-bs/certificazioni-e-riconoscimenti/"
-                                    target="_blank"><img
-                                        src="<?php echo site_url() ?>/wp-content/themes/lbs_2015/pco/images/footer-loghi/rep-luiss-footer-bw.png"
-                                        alt="Luiss Business School è REP – Registrated Education Provider del PMI, il Project Management Institute."
-                                        width="100" class="img-responsive" /></a></li>
-                            <li> <a href="<?php echo site_url() ?>/perche-luiss-bs/certificazioni-e-riconoscimenti/"
-                                    target="_blank"><img
-                                        src="<?php echo site_url() ?>/wp-content/themes/lbs_2015/pco/images/footer-loghi/regione-lazio-footer-bw.png"
-                                        alt="LUISS Business School è struttura accreditata presso la Regione Lazio per le attività di formazione."
-                                        width="100" class="img-responsive" /></a></li>
-                            <li> <a href="<?php echo site_url() ?>/perche-luiss-bs/certificazioni-e-riconoscimenti/"
-                                    target="_blank"><img
-                                        src="<?php echo site_url() ?>/wp-content/themes/lbs_2015/pco/images/footer-loghi/grli_BW.png"
-                                        alt="Luiss Business School è partner GRLI – Globally Responsible Leadership Initiative"
-                                        width="100" class="img-responsive" /></a></li>
-                            <li> <a href="<?php echo site_url() ?>/perche-luiss-bs/certificazioni-e-riconoscimenti/"
-                                    target="_blank"><img
-                                        src="<?php echo site_url() ?>/wp-content/themes/lbs_2015/pco/images/footer-loghi/prme_BW_rev.png"
-                                        alt="Luiss Business School è membro PRME – United Nations Principles for Responsible Management Education (PRME)."
-                                        width="100" class="img-responsive" /></a></li>
+                            <li><a href="<?php echo site_url() ?>/perche-luiss-bs/certificazioni-e-riconoscimenti/" target="_blank"><img src="<?php echo site_url() ?>/wp-content/themes/lbs_2015/pco/images/footer-loghi/equis.png" alt="Equis Accredited" class="img-responsive" /></a></li>
+                            <li><a href="<?php echo site_url() ?>/perche-luiss-bs/certificazioni-e-riconoscimenti/" target="_blank"><img src="<?php echo site_url() ?>/wp-content/themes/lbs_2015/pco/images/footer-loghi/ISO_9001_2015_BW.png" alt="Azienda con sistema di Gestione qualità certificato da DNV GL iISO 9001" class="img-responsive" /></a></li>
+                            <li> <a href="<?php echo site_url() ?>/perche-luiss-bs/certificazioni-e-riconoscimenti/" target="_blank"><img src="<?php echo site_url() ?>/wp-content/themes/lbs_2015/pco/images/footer-loghi/asfor-ordinario-footer-bw.png" alt="LUISS Business School è socio ASFOR (Associazione per la Formazione alla Direzione Aziendale)." width="100" class="img-responsive" /></a></li>
+                            <li> <a href="<?php echo site_url() ?>/perche-luiss-bs/certificazioni-e-riconoscimenti/" target="_blank"><img src="<?php echo site_url() ?>/wp-content/themes/lbs_2015/pco/images/footer-loghi/rep-luiss-footer-bw.png" alt="Luiss Business School è REP – Registrated Education Provider del PMI, il Project Management Institute." width="100" class="img-responsive" /></a></li>
+                            <li> <a href="<?php echo site_url() ?>/perche-luiss-bs/certificazioni-e-riconoscimenti/" target="_blank"><img src="<?php echo site_url() ?>/wp-content/themes/lbs_2015/pco/images/footer-loghi/regione-lazio-footer-bw.png" alt="LUISS Business School è struttura accreditata presso la Regione Lazio per le attività di formazione." width="100" class="img-responsive" /></a></li>
+                            <li> <a href="<?php echo site_url() ?>/perche-luiss-bs/certificazioni-e-riconoscimenti/" target="_blank"><img src="<?php echo site_url() ?>/wp-content/themes/lbs_2015/pco/images/footer-loghi/grli_BW.png" alt="Luiss Business School è partner GRLI – Globally Responsible Leadership Initiative" width="100" class="img-responsive" /></a></li>
+                            <li> <a href="<?php echo site_url() ?>/perche-luiss-bs/certificazioni-e-riconoscimenti/" target="_blank"><img src="<?php echo site_url() ?>/wp-content/themes/lbs_2015/pco/images/footer-loghi/prme_BW_rev.png" alt="Luiss Business School è membro PRME – United Nations Principles for Responsible Management Education (PRME)." width="100" class="img-responsive" /></a></li>
 
-                            <li> <a href="<?php echo site_url() ?>/perche-luiss-bs/certificazioni-e-riconoscimenti/"
-                                    target="_blank"><img
-                                        src="<?php echo site_url() ?>/wp-content/themes/lbs_2015/pco/images/footer-loghi/business-educational-alliance-logoBN.png"
-                                        alt="Luiss Business School è membro  AACSB " width="100 "
-                                        class="img-responsive" /></a></li>
-                            <li> <a href="<?php echo site_url() ?>/perche-luiss-bs/certificazioni-e-riconoscimenti/"
-                                    target="_blank"><img
-                                        src="<?php echo site_url() ?>/wp-content/themes/lbs_2015/pco/images/footer-loghi/GBSN-150.png"
-                                        alt="Global Business School Network" width="100" class="img-responsive" /></a>
+                            <li> <a href="<?php echo site_url() ?>/perche-luiss-bs/certificazioni-e-riconoscimenti/" target="_blank"><img src="<?php echo site_url() ?>/wp-content/themes/lbs_2015/pco/images/footer-loghi/business-educational-alliance-logoBN.png" alt="Luiss Business School è membro  AACSB " width="100 " class="img-responsive" /></a></li>
+                            <li> <a href="<?php echo site_url() ?>/perche-luiss-bs/certificazioni-e-riconoscimenti/" target="_blank"><img src="<?php echo site_url() ?>/wp-content/themes/lbs_2015/pco/images/footer-loghi/GBSN-150.png" alt="Global Business School Network" width="100" class="img-responsive" /></a>
                             </li>
                         </ul>
                     </div>
@@ -147,10 +109,11 @@ $current_blog_id = get_query_var( 'current_blog_id' );
                             <form action="https://luiss.us4.list-manage.com/subscribe/post?u=fbe9a604a26369735b564dc99&amp;id=5e790bb539" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate px-0 pt-0 pb-32" target="_blank" novalidate>
                                 <div id="mc_embed_signup_scroll">
                                     <h3 class="color__white pb-24"><?php echo $mailing['it']; ?></h3>
-                                    <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
                                     <div class="mc-field-group">
                                         <label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label>
                                         <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                                        <div class="indicates-required" style="text-align:left;"><span class="asterisk">*</span> indicates required
+                                        </div>
                                     </div>
                                     <div id="mergeRow-gdpr" class="mergeRow gdpr-mergeRow content__gdprBlock mc-field-group">
                                         <div class="content__gdpr">
@@ -243,7 +206,7 @@ $current_blog_id = get_query_var( 'current_blog_id' );
 </div>
 <!-- END #site-wrapper -->
 
-<!-- Element where you set your API key and insert your custom templates --> 
+<!-- Element where you set your API key and insert your custom templates -->
 <!-- Element where you set your API key and insert your custom templates -->
 <div hidden id="snipcart" data-api-key="Mjc0M2I5NGUtMmViNi00ZmRhLWJmYWUtOTZkODk4NDFiODhkNjM3Mjg0MTQ3OTIxMjgwNTM1">
     <billing section="bottom">
