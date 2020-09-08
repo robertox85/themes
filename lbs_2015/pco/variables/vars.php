@@ -1368,8 +1368,8 @@ $sottotitolo_master_37[ 'en' ] = '';
 ?>
 	<!-- Inizio -->
 	<?php $inizio_master_37 = array();
-$inizio_master_37[ 'it' ] = 'Gen 2021';
-$inizio_master_37[ 'en' ] = 'Jan 2021';
+$inizio_master_37[ 'it' ] = '18 Gen 2021';
+$inizio_master_37[ 'en' ] = 'Jan 18, 2021';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_37 = array();
@@ -1396,8 +1396,8 @@ $sottotitolo_master_38[ 'en' ] = '';
 ?>
 	<!-- Inizio -->
 	<?php $inizio_master_38 = array();
-$inizio_master_38[ 'it' ] = 'Gen 2021';
-$inizio_master_38[ 'en' ] = 'Jan 2021';
+$inizio_master_38[ 'it' ] = '18 Gen 2021';
+$inizio_master_38[ 'en' ] = 'Jan 18, 2021';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_38= array();
@@ -1424,8 +1424,8 @@ $sottotitolo_master_39[ 'en' ] = 'Major of the Master in Media Entertainment ';
 ?>
 	<!-- Inizio -->
 	<?php $inizio_master_39 = array();
-$inizio_master_39[ 'it' ] = 'Gen 2021';
-$inizio_master_39[ 'en' ] = 'Jan 2021';
+$inizio_master_39[ 'it' ] = '25 Gen 2021';
+$inizio_master_39[ 'en' ] = 'Jan 25, 2021';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_39 = array();
@@ -1452,8 +1452,8 @@ $sottotitolo_master_40[ 'en' ] = 'Major of the Master in Media Entertainment ';
 ?>
 	<!-- Inizio -->
 	<?php $inizio_master_40 = array();
-$inizio_master_40[ 'it' ] = 'Gen 2021';
-$inizio_master_40[ 'en' ] = 'Jan 2021';
+$inizio_master_40[ 'it' ] = '1 Gen 2021';
+$inizio_master_40[ 'en' ] = 'Jan 1, 2021';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_40 = array();
@@ -1480,8 +1480,8 @@ $sottotitolo_master_41[ 'en' ] = 'Major of the Master in Media Entertainment ';
 ?>
 	<!-- Inizio -->
 	<?php $inizio_master_41 = array();
-$inizio_master_41[ 'it' ] = 'Gen 2021';
-$inizio_master_41[ 'en' ] = 'Jan 2021';
+$inizio_master_41[ 'it' ] = '15 Gen 2021';
+$inizio_master_41[ 'en' ] = 'Jan 25, 2021';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_41 = array();
@@ -1508,8 +1508,8 @@ $sottotitolo_master_39[ 'en' ] = 'Major of the Master in Media Entertainment ';
 ?>
 	<!-- Inizio -->
 	<?php $inizio_master_42 = array();
-$inizio_master_42[ 'it' ] = 'Gen 2021';
-$inizio_master_42[ 'en' ] = 'Jan 2021';
+$inizio_master_42[ 'it' ] = '21 Gen 2021';
+$inizio_master_42[ 'en' ] = 'Jan 21, 021';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_42 = array();
