@@ -1,0 +1,61 @@
+body.theme-blue {
+    color: #003a70;
+  }
+  
+  body.theme-blue a {
+    color: #003a70;
+  }
+  
+  body.theme-blue a,
+  body.theme-blue p {
+    color: #003a70;
+  }
+  
+  body.theme-blue .cta {
+    color: #003a70;
+  }
+  
+  body.theme-blue .meta {
+    color: #003a70;
+  }
+  
+  body.theme-blue h1 {
+    color: #003a70;
+  }
+  
+  body.theme-blue h2 {
+    color: #003a70;
+  }
+  
+  body.theme-blue h3 {
+    color: #003a70;
+  }
+  
+  body.theme-blue h4 {
+    color: #003a70;
+  }
+  
+  body.theme-blue h5 {
+    color: #003a70;
+  }
+  
+  body.theme-blue h6 {
+    color: #003a70;
+  }
+  
+  body.theme-blue .button.button__primary {
+    background: #003a70;
+    color: #ffffff;
+  }
+  
+  body.theme-blue .button.button__primary:hover {
+    background: #ffffff;
+    border: 1px solid #003a70;
+    color: #003a70;
+  }
+  
+  body.theme-blue .button.button__secondary {
+    border: 1px solid #003a70;
+    color: #003a70;
+  }
+  

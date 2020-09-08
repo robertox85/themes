@@ -1,0 +1,61 @@
+
+body.theme-light_blue {
+  color: #0077c8;
+}
+
+body.theme-light_blue a {
+  color: #0077c8;
+}
+
+body.theme-light_blue a,
+body.theme-light_blue p {
+  color: #0077c8;
+}
+
+body.theme-light_blue .cta {
+  color: #0077c8;
+}
+
+body.theme-light_blue .meta {
+  color: #0077c8;
+}
+
+body.theme-light_blue h1 {
+  color: #0077c8;
+}
+
+body.theme-light_blue h2 {
+  color: #0077c8;
+}
+
+body.theme-light_blue h3 {
+  color: #0077c8;
+}
+
+body.theme-light_blue h4 {
+  color: #0077c8;
+}
+
+body.theme-light_blue h5 {
+  color: #0077c8;
+}
+
+body.theme-light_blue h6 {
+  color: #0077c8;
+}
+
+body.theme-light_blue .button.button__primary {
+  background: #0077c8;
+  color: #ffffff;
+}
+
+body.theme-light_blue .button.button__primary:hover {
+  background: #ffffff;
+  border: 1px solid #0077c8;
+  color: #0077c8;
+}
+
+body.theme-light_blue .button.button__secondary {
+  border: 1px solid #0077c8;
+  color: #0077c8;
+}

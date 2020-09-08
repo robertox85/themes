@@ -1,0 +1,62 @@
+body.theme-green {
+    color: #00968F;
+  }
+  
+  body.theme-green a {
+    color: #00968F;
+  }
+  
+  body.theme-green a,
+  body.theme-green p {
+    color: #00968F;
+  }
+  
+  body.theme-green .cta {
+    color: #00968F;
+  }
+  
+  body.theme-green .meta {
+    color: #00968F;
+  }
+  
+  body.theme-green h1 {
+    color: #00968F;
+  }
+  
+  body.theme-green h2 {
+    color: #00968F;
+  }
+  
+  body.theme-green h3 {
+    color: #00968F;
+  }
+  
+  body.theme-green h4 {
+    color: #00968F;
+  }
+  
+  body.theme-green h5 {
+    color: #00968F;
+  }
+  
+  body.theme-green h6 {
+    color: #00968F;
+  }
+  
+  body.theme-green .button.button__primary {
+    background: #00968F;
+    color: #ffffff;
+  }
+  
+  body.theme-green .button.button__primary:hover {
+    background: #ffffff;
+    border: 1px solid #00968F;
+    color: #00968F;
+  }
+  
+  body.theme-green .button.button__secondary {
+    border: 1px solid #00968F;
+    color: #00968F;
+  }
+  
+  

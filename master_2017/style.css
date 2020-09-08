@@ -1,0 +1,75 @@
+/*
+Theme Name: Master 2017
+Theme URI: http://businessschool.luiss.it/
+Author: Roberto e Fabrizio  (ev)
+Author URI: http://businessschool.luiss.it/
+Version: 1.0.beta
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+
+*/
+
+/* commento */
+/* commento 2 */
+
+@import url("../lbs_2015/style_2017.css");
+
+.widget li:before {
+    display: none;
+}
+
+.textwidget p {
+  font-family:inherit;
+  font-size:18px;
+  font-weight:400;
+  line-height:1.6;
+  margin:0 0 20px;
+  text-rendering:optimizeLegibility;
+}
+
+
+.block-dark  {
+  background:#3C3C3C;
+  color:#DDDDDD;
+  font-size:14px;
+  margin:62px 0 20px;
+  padding-top:40px;
+  position:relative;
+}
+
+
+ 
+.lang_sel_list ul {
+  line-height:14px;
+  list-style:none;
+}
+
+.fixed .breadcrumb .home {
+    background-image:none;
+    display: block;
+    float: left;
+    height: 32px;
+    margin-top: 0;
+	width: 100%
+}
+
+.fixed .breadcrumb .home span {
+    display: inline;
+}
+
+.fixed .breadcrumb div {
+    margin-top: 0px;
+}
+
+.header-master-brochure {
+	background: #fff;
+    padding: 50px 0 30px 50px;
+    color: #2a2a2a; 
+ }
+
+.fsSubmit input.fsSubmitButton {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    width: 100% !important;
+}
