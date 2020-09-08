@@ -1,7 +1,7 @@
 <?php
 
 $page_slug = get_post_field( 'post_name' );
-$pages = array('download-brochure', 'brochure', 'download-brochure-master-macofin', 'scarica-la-brochure', 'downlaod-brochure', 'download-brochre', 'compila-il-form', 'richiedi-informazioni', 'download-brchure', 'download-drochure');
+$pages = get_download_brochure_pages();
 $found = false;
 foreach ($pages as $page) {
     if ($page_slug === $page) {

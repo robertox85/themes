@@ -302,26 +302,30 @@ function theme_color_class( $classes ) {
     $blog_id = get_current_blog_id();
     $color   = get_theme_mod( 'theme_color' );
     
-    $theme_blue_ids         = array(8,49,58,95);
-    $theme_light_blue_ids   = array(5,13,14,15,17,18,19,20,25,27,30,32,34,42,43,44,47,50,53,55,57,63,65,67,68,69,70,72,75,76,77,79,84,86,91,93,96,97,98,99,103,104,105,106,107,108,110,111,112,113,114,115,117,118,120,124,126,127,128,129,130,133,134,135,106,109,139,140,142,143,148);
-    $theme_green_ids        = array(51,52,54,100,144);
-    $theme_red_ids          = array(2,3,4,6,7,9,11,12,13,16,21,22,23,24,33,35,36,37,38,39,41,56,57,59,60,61,66,71,74,78,94,101,121,122,123,141,145,150);
-    $theme_orange_ids       = array();
-    $theme_gold_ids         = array(26,29,31,83,137);
-    
-    $theme_colors = array(
-        'theme-blue' => $theme_blue_ids,
-        'theme-light_blue' => $theme_light_blue_ids,
-        'theme-green' => $theme_green_ids,
-        'theme-red' => $theme_red_ids,
-        'theme-orange' => $theme_orange_ids,
-        'theme-gold' => $theme_gold_ids
-    );
-   
-    foreach($theme_colors as $key => $value){
-        if(in_array($blog_id,$value)){
-            $classes[] = $key;
+    if(empty($color)){
+        $theme_blue_ids         = array(8,49,58,95);
+        $theme_light_blue_ids   = array(5,13,14,15,17,18,19,20,25,27,30,32,34,42,43,44,47,50,53,55,57,63,65,67,68,69,70,72,75,76,77,79,84,86,91,93,96,97,98,99,103,104,105,106,107,108,110,111,112,113,114,115,117,118,120,124,126,127,128,129,130,133,134,135,106,109,139,140,142,143,148);
+        $theme_green_ids        = array(51,52,54,100,144);
+        $theme_red_ids          = array(2,3,4,6,7,9,11,12,13,16,21,22,23,24,33,35,36,37,38,39,41,56,57,59,60,61,66,71,74,78,94,101,121,122,123,141,145,150);
+        $theme_orange_ids       = array();
+        $theme_gold_ids         = array(26,29,31,83,137);
+        
+        $theme_colors = array(
+            'theme-blue' => $theme_blue_ids,
+            'theme-light_blue' => $theme_light_blue_ids,
+            'theme-green' => $theme_green_ids,
+            'theme-red' => $theme_red_ids,
+            'theme-orange' => $theme_orange_ids,
+            'theme-gold' => $theme_gold_ids
+        );
+       
+        foreach($theme_colors as $key => $value){
+            if(in_array($blog_id,$value)){
+                $classes[] = $key;
+            }
         }
+    }else{
+        $classes[] = $color;
     }
 
     return $classes;
@@ -362,4 +366,8 @@ class Walker_Nav_Menu_Dropdown extends Walker_Nav_Menu{
     public function end_el(&$output, $item, $depth){
       $output .= "</option>\n";
     }
+}
+
+function get_download_brochure_pages(){
+    return array('scarica-la-brochure', 'download-brochure', 'brochure', 'download-brochure-master-macofin', 'scarica-la-brochure', 'downlaod-brochure', 'download-brochre', 'compila-il-form', 'richiedi-informazioni', 'download-brchure', 'download-drochure');
 }
