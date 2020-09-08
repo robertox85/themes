@@ -33,7 +33,7 @@ $is_page_download_brochure = ($found) ? 'is_page_download_brochure' : '';
         <div class="row row-default">
             
             <div class="col-md-12 py-32 w-100">
-                <h5>Key Facts</h5>
+                <h5 id="key_facts_title">Key Facts</h5>
                 <div class="share_links">
 
 

@@ -111,3 +111,9 @@ jQuery(document).ready(function ($) {
     $(".main-menu-toggle").toggleClass("main-menu-toggle-active");
   });
 });
+
+var col = document.getElementsByClassName("colonna_key_facts-container");
+var key_facts_title = document.getElementById('key_facts_title');
+if(col[0].childElementCount === 0	|| col[0].childElementCount < 3 ){
+	key_facts_title.style.opacity = '0';
+}
