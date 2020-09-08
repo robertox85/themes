@@ -914,7 +914,7 @@ $text_svolgono[ 'en' ] = 'All Masters taking place in ';
 	                    </div>
 	                <!-- END PROGRAMMA A3 -->
 
-	                <!-- PROGRAMMA A4 -->
+	                <!-- PROGRAMMA A4 
 	                <div class="card-course-small card__blue p-24 mx-0 mx-md-16 my-16 d-flex flex-column justify-content-between align-items-start">
 	                    <div class="first-block"><span class="meta text-uppercase color__grey"><?php echo $altaformazione[ICL_LANGUAGE_CODE] ?></span>
 	                        <h6 class="py-24 mb-0"><?php echo $titolo_programma_a4[ICL_LANGUAGE_CODE] ?>
@@ -930,7 +930,7 @@ $text_svolgono[ 'en' ] = 'All Masters taking place in ';
 	                            <a class="button button__primary button__blue my-8 m-md-0" href="<?php echo $link_brochure_programma_a4[ICL_LANGUAGE_CODE] ?>"><?php echo $titolo_link_brochure[ICL_LANGUAGE_CODE] ?></a></div>
 	                    </div>
 	                </div>
-	            <!-- END PROGRAMMA A4 -->
+	             END PROGRAMMA A4 -->
 
 
 	        </div>
