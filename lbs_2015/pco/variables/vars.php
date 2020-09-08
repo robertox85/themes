@@ -607,9 +607,9 @@ $sottotitolo_master_9[ 'it' ] = 'Major del Master in Management and Technology';
 $sottotitolo_master_9[ 'en' ] = 'Major of the Master in Management and Technology';
 ?>
 	<!-- Inizio -->
-	<?php $inizio_master_9 = array();
-$inizio_master_9[ 'it' ] = '21 Set 2020';
-$inizio_master_9[ 'en' ] = 'Set 21, 2020';
+	<?php $inizio_master_9b = array();
+$inizio_master_9b[ 'it' ] = '21 Set 2020';
+$inizio_master_9b[ 'en' ] = 'Set 21, 2020';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_9 = array();
