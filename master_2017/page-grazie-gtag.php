@@ -9,17 +9,34 @@
 get_header();
 while (have_posts()): the_post();
     ?>
+<style type="text/css">
+.mobileShow {
+    display: none;
+}
 
+/* Smartphone Portrait and Landscape */
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .mobileShow {
+        display: inline;
+    }
 
-    <?php 
-    // get the home page ID
-    $home_page_id = get_option('page_on_front');
-    $image = get_field('images', $home_page_id);
+    .all {
+        width: 100%;
+        padding-top: 2%;
+        text-transform: uppercase
+    }
+}
+</style>
+<?php 
 
-    ?>
-<div class="container-fluid container-header px-0 px-lg-1"
-    style="min-height:480px; background-image:url(<?php echo $image['url']; ?>); background-repeat:no-repeat; background-size: cover;background-position:center;">
+// get the home page ID
+$home_page_id = get_option('page_on_front');
+$image = get_field('images', $home_page_id);
+
+?>
+<div class="container-fluid container-header py-24 py-md-48 px-0 px-lg-1"
+    style="height:100%; background-image:url(<?php echo $image['url']; ?>); background-repeat:no-repeat; background-size: cover;background-position:center;">
     <div class="container px-16 py-lg-48">
         <header id="header-master" class="row px-md-0">
             <h1 class="col-md-12 small">
@@ -27,97 +44,68 @@ while (have_posts()): the_post();
                 global $blog_id;
                 $current_blog_details = get_blog_details(array('blog_id' => $blog_id));
                 echo $current_blog_details->blogname;
-                ?>
+            ?>
             </h1>
-            <p class="col-md-6">
-                <?php echo get_field('paragrafo') ?>
-            </p>
             <div class="clearfix"></div>
             <!--END .row -->
         </header>
     </div>
 </div>
-
-    <?php 
-    // KEY FACTS
-    set_query_var('site_name', $current_blog_details->blogname);
-    get_template_part('pco/template-parts/content', 'keyfacts');
-    
-    ?>
-
-</div>
-
-</div>
 <!--END .container -->
 
 <div class="container-fluid colonna_main">
-    <div class="row">
 
-        <nav class="col-lg-3 col-md-3">
+
+    <div class="row">
+        <nav class="col-md-3 pl-md-0">
+
 
             <?php
-
-            wp_nav_menu(
-                array(
+			
+            wp_nav_menu(array(
                 'menu' => 'Master',
                 'container_class' => 'd-block d-lg-none text-center pt-32',
                 'walker'         => new Walker_Nav_Menu_Dropdown(),
                 'items_wrap'     => '<select class="select w-100"><option disabled selected>Menu</option>%3$s</select>',
-                )
-            );
+              ));
+			  
 
-            wp_nav_menu(
-                array(
-                'menu' => 'Master',
-                'container_id' => '',
-                'container_class' => 'bg__white d-none d-lg-block',
-                'container' => 'div',
-                'menu_class' => 'list-unstyled sidebar_navigation ',
-                )
-            );
+								wp_nav_menu(array(
+									'menu' => 'Master',
+									'container_id' => '',
+									'container_class' => 'bg__white d-none d-lg-block',
+									'container' => 'div',
+									'menu_class' => 'list-unstyled sidebar_navigation ',
+								));
 
-            ?>
+								?>
         </nav>
-        <main id="main" class="site-main site-master col-lg-6 col-md-6" role="main">
+
+        <main id="main" class="site-main site-master col-md-6" role="main">
             <div id="page-content" class="columns  space">
-
-                <?php if (!is_front_page()) {?>
-                <h2 class="page-title"><?php echo the_title(); ?></h2>
-                <?php }  ?>
-
+                
                 <?php the_content('');?>
 
+                <p>
+                    <?php edit_post_link('<strong>Modifica Pagina</strong>', '');?>
+                </p>
             </div>
-            <p><?php edit_post_link('<strong>Modifica Pagina</strong>', '');?></p>
         </main>
+
         <aside class="col-md-3 space sidebar-master">
 
             <?php get_sidebar();?>
 
-
-
         </aside>
 
-
-        <div class="col-md-1 col-sm-1 nopadding"></div>
-
-        <div class="clearfix"></div>
-
-
-
     </div>
-    <!--END .row -->
+
+
 </div>
 <!--END .container -->
 <?php endwhile; // end of the loop. ?>
-<?php
 
-// get_footer(it);
-
-// get_main_site_footer();
-
-?>
-
+<?php //get_main_site_footer();?>
 <?php get_footer() ?>
 
 <!-- MODAL -->

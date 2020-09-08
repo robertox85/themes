@@ -158,11 +158,11 @@ $current_blog_id = get_query_var( 'current_blog_id' );
                                 class="validate px-0 pt-0 pb-32" target="_blank" novalidate>
                                 <div id="mc_embed_signup_scroll">
                                     <h3 class="color__white pb-24"><?php echo $mailing[ICL_LANGUAGE_CODE]; ?></h3>
-                                    <div class="indicates-required"><span class="asterisk">*</span> indicates required
-                                    </div>
                                     <div class="mc-field-group">
                                         <label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label>
                                         <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                                        <div class="indicates-required" style="text-align:left;"><span class="asterisk">*</span> indicates required
+                                    </div>
                                     </div>
                                     <div id="mergeRow-gdpr"
                                         class="mergeRow gdpr-mergeRow content__gdprBlock mc-field-group">

@@ -55,7 +55,7 @@ $is_page_download_brochure = ($found) ? 'is_page_download_brochure' : '';
             <div class="col-md-12 py-0">
                 <div class="colonna_key_facts-container colonna_key_facts-fixed">
                     
-                    <a class="mr-24 border-right-white" href="<?php echo site_url() ?>" title="Home page">
+                    <a class="mr-24 my-16 border-right-white" href="<?php echo site_url() ?>" title="Home page">
                         <img src="<?php echo site_url() ?>/wp-content/themes/master_2017/img/lbs-bianco.png" alt="Luiss Business School Logo" id="logo-img" />
                     </a>
 

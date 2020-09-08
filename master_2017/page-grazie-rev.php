@@ -1,99 +1,119 @@
 <?php
-/** * Template Name: Thank You HAVAS
-* @file page-grazie-rev.php */ 
+/**
+ * The template for displaying pages
+ */
+get_header();
+while (have_posts()): the_post();
+    ?>
+<style type="text/css">
+.mobileShow {
+    display: none;
+}
 
+/* Smartphone Portrait and Landscape */
 
-get_header(2019); 
-while ( have_posts() ) : the_post();
-  ?>
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .mobileShow {
+        display: inline;
+    }
 
-  <div class="container">
-	<header id="header-master" class="row">
+    .all {
+        width: 100%;
+        padding-top: 2%;
+        text-transform: uppercase
+    }
+}
+</style>
+<?php 
+
+// get the home page ID
+$home_page_id = get_option('page_on_front');
+$image = get_field('images', $home_page_id);
+
+?>
+<div class="container-fluid container-header py-24 py-md-48 px-0 px-lg-1"
+    style="height:100%; background-image:url(<?php echo $image['url']; ?>); background-repeat:no-repeat; background-size: cover;background-position:center;">
+    <div class="container px-16 py-lg-48">
+        <header id="header-master" class="row px-md-0">
+            <h1 class="col-md-12 small">
+                <?php
+                global $blog_id;
+                $current_blog_details = get_blog_details(array('blog_id' => $blog_id));
+                echo $current_blog_details->blogname;
+            ?>
+            </h1>
+            <div class="clearfix"></div>
+            <!--END .row -->
+        </header>
+    </div>
+</div>
+<!--END .container -->
+
+<div class="container-fluid colonna_main">
+
 
     <div class="row">
-      <div class="col-md-4">
-         <span class="master-name"><?php bloginfo('name'); ?></span>
-         <h1><?php the_title () ?></h1>
-          <p><?php echo get_field('paragrafo') ?></p>
-      </div>
-       <div class="col-md-8">
-   <?php 
-   $home_page_id = get_option('page_on_front');
-   $image = get_field('images', $home_page_id);
-   
-if( !empty($image) ): ?>
+        <nav class="col-md-3 pl-md-0">
 
-	<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="img-responsive" />
 
-<?php endif; ?> 
-      </div>
+            <?php
+			
+            wp_nav_menu(array(
+                'menu' => 'Master',
+                'container_class' => 'd-block d-lg-none text-center pt-32',
+                'walker'         => new Walker_Nav_Menu_Dropdown(),
+                'items_wrap'     => '<select class="select w-100"><option disabled selected>Menu</option>%3$s</select>',
+              ));
+			  
+
+								wp_nav_menu(array(
+									'menu' => 'Master',
+									'container_id' => '',
+									'container_class' => 'bg__white d-none d-lg-block',
+									'container' => 'div',
+									'menu_class' => 'list-unstyled sidebar_navigation ',
+								));
+
+								?>
+        </nav>
+
+        <main id="main" class="site-main site-master col-md-6" role="main">
+            <div id="page-content" class="columns  space">
+                
+                <?php the_content('');?>
+
+                <p>
+                    <?php edit_post_link('<strong>Modifica Pagina</strong>', '');?>
+                </p>
+            </div>
+        </main>
+
+        <aside class="col-md-3 space sidebar-master">
+
+            <?php get_sidebar();?>
+
+        </aside>
+
     </div>
-    <div class="clearfix"></div>
-    <!--END .row --> 
 
- <div class="menu-master-toggle-container">
-<span class="navbar-toggle"  data-toggle="collapse" data-target="#menu-master-container" aria-expanded="false" aria-controls="navbar">
-<span class="sr-only">Toggle navigation</span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-</span>
-</div>
-</header>
-  </div>
-  <!--END .container --> 
-<div class="container">
-<div class="row">
-<nav class="navbar navbar-default navbar-master">
 
-<?php wp_nav_menu(array(
-'menu' => 'Master',
-'container_id'    => 'menu-master-container',
-'container_class'    => 'menu-master-container navbar-collapse collapse',
-'container' => 'div',
-'menu_class' => 'menu-master nav navbar-nav',
-));           ?>
-</nav>
 </div>
-</div>
-
-<div class="container">
-  <div class="row">
-    <main id="main" class="site-main site-master col-lg-9 col-md-8" role="main">
-      <div id="page-content" class="columns  space">
-      
-  <?php    
-if ( is_front_page() ) { ?> 
-<?php  } else { ?>
-<h2><?php echo the_title(); ?></h2>
-<?php  } ?>
-     
-
-        <?php the_content(''); ?>
- 
-      </div>
-     <p><?php edit_post_link('<strong>Modifica Pagina</strong>', ''); ?></p>
-</main>
-    <aside  class="col-lg-3 col-md-4 col-sm-12 space sidebar-master">
-     
-        <?php get_sidebar(); ?>
-        
-     
-    
-    </aside>
-    
-    
-        <div class="col-md-1 col-sm-1 nopadding"></div>
-       <div class="col-md-12 col-sm-12"><?php the_field('javascript'); ?></div>
-		<div class="clearfix"></div>
-    
-    
-    
-  </div>
-  <!--END .row --> 
-</div>
-<!--END .container --> 
+<!--END .container -->
 <?php endwhile; // end of the loop. ?>
-<?php 
-get_footer(2017);
-?>
+
+<?php //get_main_site_footer();?>
+<?php get_footer() ?>
+
+<!-- MODAL -->
+<?php get_template_part('pco/template-parts/content', 'modal')?>
+
+
+
+
+
+
+
+
+
+
+

@@ -4784,7 +4784,7 @@ button,
     font-size: 16px;
     font-weight: 400;
     line-height: normal;
-    margin: 0 0 19px;
+    margin: 0 0 16px;
     padding: 16px 32px;
     position: relative;
     text-align: center;
@@ -6828,7 +6828,7 @@ li.menu-item-language-current a{font-weight:700!important;padding:0!important;ma
 
     .centre h2 {
         font-size: 24px;
-        line-height: 32px;
+        line-height: 36px;
         color: #fff;
     }
 }
@@ -7753,6 +7753,7 @@ aside#sidebar .block p {
 
 /* Aggiunti tempalte 2018 */
 
+/*
 h4:before {
     content: "\A";
     width: 10px;
@@ -7761,6 +7762,7 @@ h4:before {
     display: inline-block;
     margin: 2px 10px;
 }
+*/
 
 .body-section h4 {
     color: #3c3c3c;
@@ -8765,10 +8767,10 @@ body.theme-blue .sub-menu li a {
     border-bottom: 1px solid #fff;
 }
 
-.hp-nav-fix:not(.scrolled) #menu-main .current-menu-item a,
+/*.hp-nav-fix:not(.scrolled) #menu-main .current-menu-item a,
 .hp-nav-fix:not(.scrolled) #menu-main .current-page-ancestor a {
     color: #003a70;
-}
+}*/
 
 .hp-nav-fix:not(.scrolled) #nav-main .searchbar a {
     color: #fff;
@@ -9419,4 +9421,9 @@ li.secondary-nav-item#menu-item-38273 > a {
   background-color: #003a70 !important;
   width: 300px !important;
   text-transform: uppercase !important;
+}
+
+h3 a,
+h3 a:hover {
+    font-size: 1.75rem;
 }

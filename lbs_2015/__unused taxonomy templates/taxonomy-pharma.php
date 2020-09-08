@@ -30,7 +30,7 @@ the_title();
   <div class="container">
     <div class="row">
       <div class="col-md-8 sx">
-        <iframe width="919" height="474" src="<?php echo get_site_url() ?>/wp-content/uploads/2015/07/public-sector-healthcare-and-no-profit.jpg" frameborder="0" allowfullscreen wmode="Opaque">
+        <iframe width="919" height="474" src="/wp-content/uploads/2015/07/public-sector-healthcare-and-no-profit.jpg" frameborder="0" allowfullscreen wmode="Opaque">
 
       </div>
       <div class="col-md-4 grid-row-quotes grid-col">

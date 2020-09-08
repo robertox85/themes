@@ -1,6 +1,6 @@
 <?php 
 /** * Template Name: Career Service 
-* @file page-certificazioni.php */ 
+* @file page-career-service.php */ 
 get_main_site_header(); while ( have_posts() ) : the_post(); 
 ?>
 

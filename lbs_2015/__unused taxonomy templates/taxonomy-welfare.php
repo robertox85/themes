@@ -29,7 +29,7 @@ get_header();
           </div>
         </div>
         <div class="col-md-8 nopadding">
-          <div class="sub-home-item-info"> <img  src="<?php echo get_site_url() ?>/wp-content/uploads/2015/07/welfare.jpg" alt="Formare figure professionali specializzate nella gestione e nell’organizzazione dei processi tipici delle forme di welfare"  class="img-responsive"/> </div>
+          <div class="sub-home-item-info"> <img  src="/wp-content/uploads/2015/07/welfare.jpg" alt="Formare figure professionali specializzate nella gestione e nell’organizzazione dei processi tipici delle forme di welfare"  class="img-responsive"/> </div>
         </div>
       </div>
     </div>

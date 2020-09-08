@@ -3,116 +3,115 @@
      * Template Name: Brochure No image
      * @file page-brochure.php
      */
-get_main_site_header();
-while ( have_posts() ) : the_post();  ?>
- 
- 
-  <style type="text/css">
-.header-master-brochure {
-	background: #fff;
-    padding: 50px 0 30px 50px;
-    color: #2a2a2a; 
- }
-	  
-	  
-	.fsSubmit input.fsSubmitButton {
-    padding: 10px;
-    margin: 0 auto;
-    clear: both;
-    width: auto;
-}  
-	  
-	  .fsSubmitButton {
-    cursor: pointer;
-    width: auto;
+get_header();
+while (have_posts()): the_post();
+    ?>
+<style type="text/css">
+.mobileShow {
+    display: none;
 }
-	  
-.fsBody .fsEmbed {
-    padding: 0px;;
-	margin: 0px;
+
+/* Smartphone Portrait and Landscape */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .mobileShow {
+        display: inline;
+    }
+
+    .all {
+        width: 100%;
+        padding-top: 2%;
+        text-transform: uppercase
+    }
 }
-	  
-	@media (max-width: 767px) {
-.hidden-xs {
-	display: none !important;
-}
-}  
-	  
-	  @media (min-width: 1200px) {
-.hidden-lg {
-	display: none !important;
-}
-}
- </style>
+</style>
+<?php 
+
+// get the home page ID
+$home_page_id = get_option('page_on_front');
+$image = get_field('images', $home_page_id);
+
+?>
+<div class="container-fluid container-header px-0 px-lg-1 container-fluid container-header py-24 py-md-48 px-0 px-lg-1"
+    style="height:auto; background-image:url(<?php echo $image['url']; ?>); background-repeat:no-repeat; background-size: cover;background-position:center;">
+    <div class="container px-16 py-lg-48">
+        <header id="header-master" class="row px-md-0">
+            <h1 class="col-md-12 small">
+                <?php
+                global $blog_id;
+                $current_blog_details = get_blog_details(array('blog_id' => $blog_id));
+                echo $current_blog_details->blogname;
+            ?>
+            </h1>
+            <div class="clearfix"></div>
+            <!--END .row -->
+        </header>
+    </div>
+</div>
+<!--END .container -->
+
+
+<?php 
+// KEY FACTS
+set_query_var('site_name', $current_blog_details->blogname);
+get_template_part( 'pco/template-parts/content', 'keyfacts' );
  
- 
- 
-  <div class="container">
-	<header id="header-master-brochure" class="row">
+?>
+
+<div class="container-fluid colonna_main">
 
 
     <div class="row">
-      <div class="col-md-12">
-         <h1 style="color: #2a2a2a; text-transform: uppercase; padding: 0.5rem; margin:1.5rem 0"><?php bloginfo('name'); ?></h1>
-  
-          <p class="hidden-xs"><?php echo get_field('paragrafo') ?></p>
-      </div>
-       
+        <nav class="col-md-3 pl-md-0">
+
+
+            <?php
+			
+            wp_nav_menu(array(
+                'menu' => 'Master',
+                'container_class' => 'd-block d-lg-none text-center pt-32',
+                'walker'         => new Walker_Nav_Menu_Dropdown(),
+                'items_wrap'     => '<select class="select w-100"><option disabled selected>Menu</option>%3$s</select>',
+              ));
+			  
+
+								wp_nav_menu(array(
+									'menu' => 'Master',
+									'container_id' => '',
+									'container_class' => 'bg__white d-none d-lg-block',
+									'container' => 'div',
+									'menu_class' => 'list-unstyled sidebar_navigation ',
+								));
+
+								?>
+        </nav>
+
+        <main id="main" class="site-main site-master col-md-6" role="main">
+            <div id="page-content" class="columns  space">
+                
+                <?php the_content('');?>
+
+                <p>
+                    <?php edit_post_link('<strong>Modifica Pagina</strong>', '');?>
+                </p>
+            </div>
+        </main>
+
+        <aside class="col-md-3 space sidebar-master">
+
+            <?php get_sidebar();?>
+
+        </aside>
+
     </div>
-    <div class="clearfix"></div>
-    <!--END .row --> 
 
- <div class="menu-master-toggle-container">
-<span class="navbar-toggle"  data-toggle="collapse" data-target="#menu-master-container" aria-expanded="false" aria-controls="navbar">
-<span class="sr-only">Toggle navigation</span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-</span>
-</div>
-</header>
-  </div>
-  <!--END .container --> 
-<div class="container hidden-xs">
-<div class="row">
-<nav class="navbar navbar-default navbar-master">
 
-<?php wp_nav_menu(array(
-'menu' => 'Master',
-'container_id'    => 'menu-master-container',
-'container_class'    => 'menu-master-container navbar-collapse collapse',
-'container' => 'div',
-'menu_class' => 'menu-master nav navbar-nav',
-));           ?>
-</nav>
 </div>
-</div>
-
-<div class="container">
-  <div class="row">
-    <main id="main" class="site-main site-master col-lg-9 col-md-8" role="main">
-      <div id="page-content" class="columns  space">
-      
-      <h2><?php echo the_title(); ?></h2>
- 
-        <?php the_content(''); ?>
-        
-       
-      </div>
-     <p><?php edit_post_link('<strong>Modifica Pagina</strong>', ''); ?></p>
-</main>
-    <aside  class="col-lg-3 col-md-4 col-sm-12 space sidebar-master">
-     
-        <?php get_sidebar(); ?>
-        
-     
-    
-    </aside>
-  </div>
-  <!--END .row --> 
-</div>
-<!--END .container --> 
+<!--END .container -->
 <?php endwhile; // end of the loop. ?>
-<?php 
-get_main_site_footer();
-?>
+
+<?php //get_main_site_footer();?>
+<?php get_footer() ?>
+
+<!-- MODAL -->
+<?php get_template_part('pco/template-parts/content', 'modal')?>

@@ -81,11 +81,6 @@ $year = substr($data_inizio,0,4); ?>
                         </div>
                         <div class="col-xs-8 box-event-title">
                             <h6 class="my-0" itemprop="name headline"><a href="<?php echo get_permalink($event->ID) ?>" title="<?php echo $event->post_title ?>" title="<?php echo $event->post_title ?>"><?php echo $event->post_title ?></a></h6>
-                            <p>
-						<?php echo $event->post_excerpt ?>
-                        <?php echo $event->programma?>
-                        <?php echo $event->tipo_evento?>
-					</p>
                         </div>
                     </div>
                 </article>
