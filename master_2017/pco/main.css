@@ -20825,3 +20825,29 @@ a.accordion-toggle {
 .hidden-xs {
     display: none;
 }
+
+/* AGGIUNTE COLORE LINK IN PAGINA */
+
+body.theme-blue #main a,
+body.theme-gold #main a
+{
+    color: #CC8A00 !important;
+}
+
+body.theme-light_blue #main a {
+    color: #0077C8 !important;
+}
+
+body.theme-red #main a {
+    color: #d50032 !important;
+}
+
+body.theme-green #main a {
+    color: #00968f !important;
+}
+
+body.theme-orange #main a {
+    color: #d45d00 !important;
+}
+
+
