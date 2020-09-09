@@ -1,7 +1,10 @@
 <!-- Modal -->
 <?php
+if(!is_download_brochure_page()){
+
 
 $pages = get_download_brochure_pages();
+
 $found = false;
 foreach ($pages as $page) {
     $post = get_page_by_path($page);
@@ -49,4 +52,9 @@ foreach ($pages as $page) {
 	});
 </script>
 
-<?php endif;?>
+<?php endif;
+
+
+
+}
+?>
