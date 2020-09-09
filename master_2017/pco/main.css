@@ -20850,4 +20850,17 @@ body.theme-orange #main a {
     color: #d45d00 !important;
 }
 
-
+body.theme-red #main button.button__primary:not(:hover),
+body.theme-red #main a.button__primary:not(:hover),
+body.theme-light_blue #main button.button__primary:not(:hover),
+body.theme-light_blue #main a.button__primary:not(:hover),
+body.theme-blue #main button.button__primary:not(:hover),
+body.theme-blue #main a.button__primary:not(:hover),
+body.theme-gold #main button.button__primary:not(:hover),
+body.theme-gold #main a.button__primary:not(:hover),
+body.theme-orange #main button.button__primary:not(:hover),
+body.theme-orange #main a.button__primary:not(:hover),
+body.theme-green #main button.button__primary:not(:hover),
+body.theme-green #main a.button__primary:not(:hover) {
+    color: #fff !important;
+}
