@@ -270,8 +270,8 @@ bloginfo('name');
                                     <li><a href="https://www.luiss.it/">Luiss.it</a></li>
                                     <li><a href="https://www.luiss.it/network">Luiss Network</a>
                                     </li>
-                                    <li><a href="https://businesschool.luiss.it/milano"><strong>Milano</strong></a></li>
-                                    <li><a href="https://businesschool.luiss.it/belluno"><strong>Belluno</strong></a></li>
+                                    <li><a href="<?php echo network_home_url() ?>milano"><strong>Milano</strong></a></li>
+                                    <li><a href="<?php echo network_home_url() ?>belluno"><strong>Belluno</strong></a></li>
                                 </ul>
                             </nav>
                             <?php language_selector_flags();?>
