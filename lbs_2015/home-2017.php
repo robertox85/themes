@@ -119,6 +119,10 @@ $img_link_mob_1['en'] = get_stylesheet_directory_uri() . '/pco/images/banner/fle
 $img_link_mob_2 = array();
 $img_link_mob_2['it'] = get_stylesheet_directory_uri() . '/pco/images/banner/meet-us-online-ita-mob.png';
 $img_link_mob_2['en'] = get_stylesheet_directory_uri() . '/pco/images/banner/meet-us-online-eng-mob.png';
+    
+$button_label = array();
+$button_label['it'] = 'Scopri';
+$button_label['en'] = 'Find out more';
 ?>
 
 <div class="container">
@@ -174,7 +178,7 @@ _6 = Programmi di alta formazione - non utilizzato
                 <!-- Pulsanti -->
                 <div class="row">
                     <div class="col-xs-12">
-                        <a class="button button__primary bg__green hp" href="<?php echo get_field('home_launch_box_url_2'); ?>">Scopri</a>
+                        <a class="button button__primary bg__green hp" href="<?php echo get_field('home_launch_box_url_2'); ?>"><?php echo $button_label[ICL_LANGUAGE_CODE]; ?></a>
                     </div>
                 </div>
             </div>
@@ -186,7 +190,7 @@ _6 = Programmi di alta formazione - non utilizzato
                 <!-- Pulsanti -->
                 <div class="row">
                     <div class="col-xs-12">
-                        <a class="button button__primary bg__red hp" href="<?php echo get_field('home_launch_box_url_3'); ?>">Scopri</a>
+                        <a class="button button__primary bg__red hp" href="<?php echo get_field('home_launch_box_url_3'); ?>"><?php echo $button_label[ICL_LANGUAGE_CODE]; ?></a>
                     </div>
                 </div>
             </div>
@@ -198,7 +202,7 @@ _6 = Programmi di alta formazione - non utilizzato
                 <!-- Pulsanti -->
                 <div class="row">
                     <div class="col-xs-12">
-                        <a class="button button__primary bg__light_blue hp" href="<?php echo get_field('home_launch_box_url_4'); ?>">Scopri</a>
+                        <a class="button button__primary bg__light_blue hp" href="<?php echo get_field('home_launch_box_url_4'); ?>"><?php echo $button_label[ICL_LANGUAGE_CODE]; ?></a>
                     </div>
                 </div>
             </div>
@@ -210,7 +214,7 @@ _6 = Programmi di alta formazione - non utilizzato
                 <!-- Pulsanti -->
                 <div class="row">
                     <div class="col-xs-12">
-                        <a class="button button__primary bg__orange hp" href="<?php echo get_field('home_launch_box_url_5'); ?>">Scopri</a>
+                        <a class="button button__primary bg__orange hp" href="<?php echo get_field('home_launch_box_url_5'); ?>"><?php echo $button_label[ICL_LANGUAGE_CODE]; ?></a>
                     </div>
                 </div>
             </div>
