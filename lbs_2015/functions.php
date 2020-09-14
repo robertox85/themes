@@ -1170,6 +1170,7 @@ function pco_style()
     wp_enqueue_style('pco_hamburger', get_stylesheet_directory_uri() . '/pco/vendor/hamburger/hamburgers.min.css', array(), time(), 'all' );
     if(is_page_template(array(
         'corso.php',
+        'alumni-2017.php',
         'home-2017.php',
         'offerta-2017.php',
         'master.php',

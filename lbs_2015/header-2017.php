@@ -137,7 +137,8 @@ bloginfo('name');
         }
 
         .snipcart * {
-            font-family: "ITC Officina Sans W01";
+            font-family: 'Luiss Sans', Arial, Helvetica, sans-serif !important;
+                font-weight: 400;
         }
 
         .snipcart-modal__container {
@@ -149,15 +150,15 @@ bloginfo('name');
         }
 
         .snipcart__icon--blue-light path {
-            fill: #fdbb4d;
+            fill: #CC8A00;
         }
 
         .snipcart__icon--blue-dark path {
-            fill: #fdbb4d;
+            fill: #CC8A00;
         }
 
         .snipcart-payment-form--focused {
-            border: 1px solid #fdbb4d !important;
+            border: 1px solid #CC8A00 !important;
         }
 
         @media screen and (max-width: 800px) {
@@ -167,7 +168,7 @@ bloginfo('name');
         }
 
         .snipcart-discount-box__form {
-            border: 1px solid #fdbb4d;
+            border: 1px solid #CC8A00;
         }
 
         .snipcart-discount-box__form .snipcart-input {
@@ -179,57 +180,91 @@ bloginfo('name');
         }
 
         .snipcart-discount-box__form .snipcart-discount-box__submit {
-            color: #fdbb4d;
+            color: #CC8A00;
         }
 
         .snipcart__box--badge-highlight {
-            background: #fdbb4d;
+            background: #CC8A00;
         }
 
         .snipcart__font--subtitle {
-            font-family: "ITC Officina Sans W01 Bold";
+            font-family: 'Luiss Sans', Arial, Helvetica, sans-serif !important;
         }
 
         .snipcart-input {
-            outline-color: #fdbb4d;
+            outline-color: #CC8A00;
         }
 
         .snipcart-input:focus-within {
-            border: 1px solid #fdbb4d;
+            border: 1px solid #CC8A00;
         }
 
         .snipcart-form__select:focus {
-            border: 1px solid #fdbb4d;
+            border: 1px solid #CC8A00;
         }
 
         .snipcart-typeahead__suggestions {
-            border: 1px solid #fdbb4d;
+            border: 1px solid #CC8A00;
         }
 
         .snipcart-textbox--focus {
-            border: 1px solid #fdbb4d;
+            border: 1px solid #CC8A00;
         }
 
         .snipcart-checkbox:checked+label:before {
-            border: 1px solid #fdbb4d;
-            background-color: #fdbb4d;
+            border: 1px solid #CC8A00;
+            background-color: #CC8A00;
         }
 
         .snipcart-checkbox:focus+label:before,
         .snipcart-checkbox:hover+label:before {
-            border: 1px solid #fdbb4d;
+            border: 1px solid #CC8A00;
         }
 
         .snipcart-cart-button {
-            font-family: "Droid Sans Mono W01";
+            font-family: 'Luiss Sans', Arial, Helvetica, sans-serif !important;
+            text-transform: uppercase;
+            font-weight:600;
         }
 
         .snipcart-cart-button.snipcart-cart-button--highlight {
-            background-image: linear-gradient(90deg, #fdbb4d, #fdbb4d);
+            background-image: linear-gradient(90deg, #CC8A00, #CC8A00);
         }
 
         .snipcart__actions--link {
-            color: #fdbb4d;
+            color: #CC8A00;
+        }
+        
+           /* Aggiunte */
+
+        .snipcart__box--badge, .snipcart__font--subtitle, .snipcart__font--xlarge {
+        font-size: 24px !important;
+        line-height: 32px !important;
+        font-weight: 600 !important;
+        }
+
+        .snipcart-item-description {
+        max-width: 500px;
+        line-height: 28px !important;
+        font-size: 18px !important;
+        }
+        
+        .snipcart,
+        .snipcart h3,
+        .snipcart h3 a,
+        .snipcart h3 a:hover {
+        font-size: 18px;
+        line-height:28px;
+        }
+        
+        .snipcart-form__label {
+            font-size: 16px;
+            line-height:24px;
+        font-weight: 400;
+        }
+        
+        .snipcart__font--tiny {
+            font-weight: 400;
         }
     </style>
     <!--FONTAWESOME -->

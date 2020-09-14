@@ -135,105 +135,140 @@ bloginfo('name');
     <!-- Snipcart stylesheet -->
     <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.16/default/snipcart.css" />
     <style type="text/css">
-    input[type="text"] {
-        border: none;
-    }
-
-    .snipcart * {
-        font-family: "ITC Officina Sans W01";
-    }
-
-    .snipcart-modal__container {
-        z-index: 1000;
-    }
-
-    .snipcart-input__input:-webkit-autofill {
-        background-color: transparent !important;
-    }
-
-    .snipcart__icon--blue-light path {
-        fill: #fdbb4d;
-    }
-
-    .snipcart__icon--blue-dark path {
-        fill: #fdbb4d;
-    }
-
-    .snipcart-payment-form--focused {
-        border: 1px solid #fdbb4d !important;
-    }
-
-    @media screen and (max-width: 800px) {
-        .snipcart-item-line__title {
-            padding: 0 10px;
+        input[type="text"] {
+            border: none;
         }
-    }
 
-    .snipcart-discount-box__form {
-        border: 1px solid #fdbb4d;
-    }
+        .snipcart * {
+            font-family: 'Luiss Sans', Arial, Helvetica, sans-serif !important;
+                font-weight: 400;
+        }
 
-    .snipcart-discount-box__form .snipcart-input {
-        outline: none;
-    }
+        .snipcart-modal__container {
+            z-index: 1000;
+        }
 
-    .snipcart-discount-box__form .snipcart-input:focus-within {
-        border: none;
-    }
+        .snipcart-input__input:-webkit-autofill {
+            background-color: transparent !important;
+        }
 
-    .snipcart-discount-box__form .snipcart-discount-box__submit {
-        color: #fdbb4d;
-    }
+        .snipcart__icon--blue-light path {
+            fill: #CC8A00;
+        }
 
-    .snipcart__box--badge-highlight {
-        background: #fdbb4d;
-    }
+        .snipcart__icon--blue-dark path {
+            fill: #CC8A00;
+        }
 
-    .snipcart__font--subtitle {
-        font-family: "ITC Officina Sans W01 Bold";
-    }
+        .snipcart-payment-form--focused {
+            border: 1px solid #CC8A00 !important;
+        }
 
-    .snipcart-input {
-        outline-color: #fdbb4d;
-    }
+        @media screen and (max-width: 800px) {
+            .snipcart-item-line__title {
+                padding: 0 10px;
+            }
+        }
 
-    .snipcart-input:focus-within {
-        border: 1px solid #fdbb4d;
-    }
+        .snipcart-discount-box__form {
+            border: 1px solid #CC8A00;
+        }
 
-    .snipcart-form__select:focus {
-        border: 1px solid #fdbb4d;
-    }
+        .snipcart-discount-box__form .snipcart-input {
+            outline: none;
+        }
 
-    .snipcart-typeahead__suggestions {
-        border: 1px solid #fdbb4d;
-    }
+        .snipcart-discount-box__form .snipcart-input:focus-within {
+            border: none;
+        }
 
-    .snipcart-textbox--focus {
-        border: 1px solid #fdbb4d;
-    }
+        .snipcart-discount-box__form .snipcart-discount-box__submit {
+            color: #CC8A00;
+        }
 
-    .snipcart-checkbox:checked+label:before {
-        border: 1px solid #fdbb4d;
-        background-color: #fdbb4d;
-    }
+        .snipcart__box--badge-highlight {
+            background: #CC8A00;
+        }
 
-    .snipcart-checkbox:focus+label:before,
-    .snipcart-checkbox:hover+label:before {
-        border: 1px solid #fdbb4d;
-    }
+        .snipcart__font--subtitle {
+            font-family: 'Luiss Sans', Arial, Helvetica, sans-serif !important;
+        }
 
-    .snipcart-cart-button {
-        font-family: "Droid Sans Mono W01";
-    }
+        .snipcart-input {
+            outline-color: #CC8A00;
+        }
 
-    .snipcart-cart-button.snipcart-cart-button--highlight {
-        background-image: linear-gradient(90deg, #fdbb4d, #fdbb4d);
-    }
+        .snipcart-input:focus-within {
+            border: 1px solid #CC8A00;
+        }
 
-    .snipcart__actions--link {
-        color: #fdbb4d;
-    }
+        .snipcart-form__select:focus {
+            border: 1px solid #CC8A00;
+        }
+
+        .snipcart-typeahead__suggestions {
+            border: 1px solid #CC8A00;
+        }
+
+        .snipcart-textbox--focus {
+            border: 1px solid #CC8A00;
+        }
+
+        .snipcart-checkbox:checked+label:before {
+            border: 1px solid #CC8A00;
+            background-color: #CC8A00;
+        }
+
+        .snipcart-checkbox:focus+label:before,
+        .snipcart-checkbox:hover+label:before {
+            border: 1px solid #CC8A00;
+        }
+
+        .snipcart-cart-button {
+            font-family: 'Luiss Sans', Arial, Helvetica, sans-serif !important;
+            text-transform: uppercase;
+            font-weight:600;
+        }
+
+        .snipcart-cart-button.snipcart-cart-button--highlight {
+            background-image: linear-gradient(90deg, #CC8A00, #CC8A00);
+        }
+
+        .snipcart__actions--link {
+            color: #CC8A00;
+        }
+        
+           /* Aggiunte */
+
+        .snipcart__box--badge, .snipcart__font--subtitle, .snipcart__font--xlarge {
+        font-size: 24px !important;
+        line-height: 32px !important;
+        font-weight: 600 !important;
+        }
+
+        .snipcart-item-description {
+        max-width: 500px;
+        line-height: 28px !important;
+        font-size: 18px !important;
+        }
+        
+        .snipcart,
+        .snipcart h3,
+        .snipcart h3 a,
+        .snipcart h3 a:hover {
+        font-size: 18px;
+        line-height:28px;
+        }
+        
+        .snipcart-form__label {
+            font-size: 16px;
+            line-height:24px;
+        font-weight: 400;
+        }
+        
+        .snipcart__font--tiny {
+            font-weight: 400;
+        }
     </style>
 
     <!-- Snipcart custom script -->
