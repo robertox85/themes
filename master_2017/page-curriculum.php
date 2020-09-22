@@ -573,10 +573,10 @@ wp_nav_menu(array(
     </div>
 </div>
 <?php endwhile; // end of the loop. ?>
+<!-- MODAL -->
+<?php get_template_part('pco/template-parts/content', 'modal'); ?>
 <?php
 //get_main_site_footer();
 ?>
 <?php get_footer() ?>
 
-<!-- MODAL -->
-<?php get_template_part('pco/template-parts/content', 'modal'); ?>

@@ -418,11 +418,10 @@ function get_download_brochure_pages()
 function is_download_brochure_page()
 {
     $pages = get_download_brochure_pages();
-
+    
     $found = false;
     foreach ($pages as $page) {
-        $post = get_page_by_path($page);
-        if ($post) {
+        if (is_page($page)) {
             $found = true;
             break;
         }
