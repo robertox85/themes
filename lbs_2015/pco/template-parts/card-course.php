@@ -188,6 +188,42 @@
         ?>
         </strong></p>
     <?php endif; ?>
+        
+    <!-- Sede Avellino -->
+    <?php if ( !empty ( get_field( 'avellino' ) ) ) : ?>
+
+    <p class="big mb-8">
+            <?php if (ICL_LANGUAGE_CODE=='it') : ?>Sede
+            <?php elseif (ICL_LANGUAGE_CODE=='en' ) : ?>Location
+            <?php else : ?>
+            <?php endif; ?>
+        <strong><?php the_field('avellino'); ?></strong>
+
+    <!-- Inizio Avellino -->
+
+        <?php 
+        // Load field value.
+        $date_string_be = get_field('data_avellino');
+        // Create DateTime object from value (formats must match).
+        $date_be = DateTime::createFromFormat('Ymd', $date_string_be);
+        // Output current date in custom format.
+        ?><span>   -   </span>
+            <?php if (ICL_LANGUAGE_CODE=='it') : ?>Inizio
+            <?php elseif (ICL_LANGUAGE_CODE=='en' ) : ?>Start
+            <?php else : ?>
+            <?php endif; ?>
+        <strong>
+        <?php 
+        
+        if(!empty($date_string_be)){
+            echo date_i18n('j M Y', strtotime($date_be->format('j M Y')));
+            // echo $date_be->format('j M Y'); 
+        }
+        
+        
+        ?>
+        </strong></p>
+    <?php endif; ?>
     
     <!-- Lingua -->
     <p class="big mb-8"><?php if (ICL_LANGUAGE_CODE=='it') : ?>Lingua

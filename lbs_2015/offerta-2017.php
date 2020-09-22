@@ -38,6 +38,14 @@ document.write('<iframe src="https://9105818.fls.doubleclick.net/activityi;src=9
     </div>
 </div>
 
+<?php 
+
+$button_label = array();
+$button_label['it'] = 'Scopri';
+$button_label['en'] = 'Find out more';
+    
+?>
+
 <section class="py-24 pt-md-48 pb-md-80" style="border-bottom: 1px solid #e8e8e8;">
     <div class="container px-0">
         <p><?php edit_post_link('<p>Modifica Pagina</p>', ''); ?></p>
@@ -57,7 +65,7 @@ _6 = Programmi di alta formazione - non utilizzato
                 <!-- Pulsanti -->
                 <div class="row">
                     <div class="col-xs-12">
-                        <a class="button button__primary bg__green hp" href="<?php echo get_field('home_launch_box_url_2'); ?>">Scopri</a>
+                        <a class="button button__primary bg__green hp" href="<?php echo get_field('home_launch_box_url_2'); ?>"><?php echo $button_label[ICL_LANGUAGE_CODE]; ?></a>
                     </div>
                 </div>
             </div>
@@ -69,7 +77,7 @@ _6 = Programmi di alta formazione - non utilizzato
                 <!-- Pulsanti -->
                 <div class="row">
                     <div class="col-xs-12">
-                        <a class="button button__primary bg__red hp" href="<?php echo get_field('home_launch_box_url_3'); ?>">Scopri</a>
+                        <a class="button button__primary bg__red hp" href="<?php echo get_field('home_launch_box_url_3'); ?>"><?php echo $button_label[ICL_LANGUAGE_CODE]; ?></a>
                     </div>
                 </div>
             </div>
@@ -81,7 +89,7 @@ _6 = Programmi di alta formazione - non utilizzato
                 <!-- Pulsanti -->
                 <div class="row">
                     <div class="col-xs-12">
-                        <a class="button button__primary bg__light_blue hp" href="<?php echo get_field('home_launch_box_url_4'); ?>">Scopri</a>
+                        <a class="button button__primary bg__light_blue hp" href="<?php echo get_field('home_launch_box_url_4'); ?>"><?php echo $button_label[ICL_LANGUAGE_CODE]; ?></a>
                     </div>
                 </div>
             </div>
@@ -93,7 +101,7 @@ _6 = Programmi di alta formazione - non utilizzato
                 <!-- Pulsanti -->
                 <div class="row">
                     <div class="col-xs-12">
-                        <a class="button button__primary bg__orange hp" href="<?php echo get_field('home_launch_box_url_5'); ?>">Scopri</a>
+                        <a class="button button__primary bg__orange hp" href="<?php echo get_field('home_launch_box_url_5'); ?>"><?php echo $button_label[ICL_LANGUAGE_CODE]; ?></a>
                     </div>
                 </div>
             </div>
