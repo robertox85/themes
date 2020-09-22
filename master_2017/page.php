@@ -33,8 +33,8 @@ $home_page_id = get_option('page_on_front');
 $image = get_field('images', $home_page_id);
 
 ?>
-<div class="container-fluid container-header px-0 px-lg-1"
-    style="min-height:480px; background-image:url(<?php echo $image['url']; ?>); background-repeat:no-repeat; background-size: cover;background-position:center;">
+<div class="container-fluid container-header py-24 py-md-48 px-0 px-lg-1"
+    style="height:100%; background-image:url(<?php echo $image['url']; ?>); background-repeat:no-repeat; background-size: cover;background-position:center;">
     <div class="container px-16 py-lg-48">
         <header id="header-master" class="row px-md-0">
             <h1 class="col-md-12 small">
@@ -92,8 +92,10 @@ get_template_part( 'pco/template-parts/content', 'keyfacts' );
 
         <main id="main" class="site-main site-master col-md-6" role="main">
             <div id="page-content" class="columns  space">
-                
-                <?php the_content('');?>
+
+                    <h2 class="page-title"><?php echo the_title(); ?></h2>
+
+                    <?php the_content('');?>
 
                 <p>
                     <?php edit_post_link('<strong>Modifica Pagina</strong>', '');?>
@@ -119,14 +121,3 @@ get_template_part( 'pco/template-parts/content', 'keyfacts' );
 
 <!-- MODAL -->
 <?php get_template_part('pco/template-parts/content', 'modal')?>
-
-
-
-
-
-
-
-
-
-
-

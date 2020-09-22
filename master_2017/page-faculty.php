@@ -6,6 +6,7 @@
 get_header();
 while (have_posts()): the_post();
     ?>
+
 <style type="text/css">
 .mobileShow {
     display: none;
@@ -92,128 +93,9 @@ get_template_part( 'pco/template-parts/content', 'keyfacts' );
         <main id="main" class="site-main site-master col-md-6" role="main">
             <div id="page-content" class="columns  space">
 
-                <?php if (!is_front_page()) {?>
                     <h2 class="page-title"><?php echo the_title(); ?></h2>
-                <?php }?>
-
-                <?php if(is_page('executive-experience')): ?>
-                    <p>L’offerta formativa Executive Education della Luiss Business School, si caratterizza per un approccio
-                        metodologico fortemente interattivo ed esperienziale che coinvolge il partecipante ben oltre la
-                        didattica tradizionale.</p>
-
-                    <p>L’esperienza di apprendimento è costruita intorno alla persona, con l’obiettivo di ampliarne il
-                        network, e promuoverne lo sviluppo professionale e personale, fornendo strumenti immediatamente
-                        applicabili nel proprio contesto organizzativo per coglierne in maniera efficace le sfide. Ad ogni
-                        percorso di apprendimento sono associati attività e servizi che si sviluppano, prima, durante e dopo
-                        la fase di aula.
-                    </p>
-                <?php 
-						
-						$array = array(
-							
-							array(
-								'area' => 'Metodologia didattica',
-								'programmi' => array(
-
-									array(
-										'icona'	 => 'https://businessschool.luiss.it/executive-human-resource-management/wp-content/uploads/sites/62/2018/12/Pre_Program.png',
-										'titolo' => 'Pre-Program',
-										'contenuto'	 => 'Prevede lo svolgimento di attività propedeutiche prima dell’inizio del programma, quali la somministrazione di materiali didattici e test di autovalutazione, volti a facilitare e contemporaneamente massimizzare l’apprendimento in aula.'
-									),
-									array(
-										'icona'	 => 'https://businessschool.luiss.it/executive-human-resource-management/wp-content/uploads/sites/62/2018/12/Experimental_learning.png',
-										'titolo' => 'Experiential learning',
-										'contenuto'	 => 'L’approccio seguito è definito Evidence Based Training ed è fondato sulle tre fasi briefing-simulazione-debriefing. I briefing applicano le teorie Team-Gain e Good-Judgement. I partecipanti, saranno coinvolti in laboratori e business case, in cui dovranno fare leva sulle proprie competenze per analizzare le problematiche, stabilire le priorità e riorganizzare le risorse a disposizione per il raggiungimento degli obiettivi fissati. L’apprendimento esperienziale, permettendo di affrontare in un contesto protetto situazioni di complessità, consente di migliorare le capacità di Problem Solving, il Critical Thinking e le Creatività.'
-									),
-
-								)
-							),
-
-							array(
-								'area' => 'Sviluppo professionale e networking',
-								'programmi' => array(
-
-									array(
-										'icona'	 => 'https://businessschool.luiss.it/leadership-in-action/wp-content/uploads/sites/68/2020/02/NetworkingActivities-e1582113726490.png',
-										'titolo' => 'Networking activities',
-										'contenuto'	 => 'Attraverso il percorso di individual coaching con un professionista qualificato dalle migliori associazioni internazionali, in un contesto non valutativo e confidenziale, i partecipanti potranno personalizzare l’apprendimento in aula applicandolo al proprio contesto, integrando la loro storia professionale con gli obiettivi futuri e acquisendo una migliore consapevolezza delle proprie risorse, aree di forza e di sviluppo.'
-									),
-
-								)
-							),
-
-							array(
-								'area' => 'Business impact',
-								'programmi' => array(
-
-									array(
-										'icona'	 => 'https://businessschool.luiss.it/executive-human-resource-management/wp-content/uploads/sites/62/2018/12/Executive_follow_up.png',
-										'titolo' => 'Executive follow Up',
-										'contenuto'	 => 'I partecipanti avranno l’opportunità di un successivo momento di confronto con la faculty per verificare l’applicazione di quanto appreso in aula.'
-									),
-
-								)
-							),
-                        );
-                        
-                        $i = 0;
-
-					?>
-
-                <?php foreach($array as $area):  
-					$area_id = strtolower(str_replace(' ','_',$area['area']));
-					
-					?>
-                <div class="panel-group accordion" id="<?php echo $area_id ?>" role="tablist"
-                    aria-multiselectable="true">
-                    <h2 class="h2"><?php echo $area['area'] ?></h2>
-                    <?php if(isset($area['programmi'])): ?>
-                    <?php foreach($area['programmi'] as $programma): 
-							$expanded = ($i == 0) ? 'true':'false';
-							$in = ($i == 0) ? 'show':'';
-							$collapsed = ($i == 0) ? '':'collapsed';
-							?>
-                    <div class="panel-accordion mt-32">
-                        <div class="panel-heading" role="tab" id="headingOne">
-                            <h6 class="panel-title">
-                                 
-                                <a role="button" data-toggle="collapse" data-parent="#<?php echo $area_id ?>"
-                                    href="#accordion-content-<?php echo $i ?>" aria-expanded="<?php echo $expanded  ?>"
-                                    aria-controls="accordion-content-<?php echo $i ?>"
-                                    class="accordion-toggle page-default <?php echo $collapsed ?>">
-                                    <!-- Titolo -->
-                                    <img class="mr-48" src="<?php echo $programma['icona'] ?>" alt="" width="100" height="100">   
-                                    <?php echo $programma['titolo'] ?>
-                                </a>
-                            </h6>
-                        </div>
-                        <div id="accordion-content-<?php echo $i ?>" class="panel-collapse collapse <?php echo $in ?>"
-                            role="tabpanel" aria-labelledby="headingOne">
-                            <div class="panel-body">
-
-                                <!-- Contenuto -->
-                                <?php echo $programma['contenuto'] ?>
-
-                            </div>
-                        </div>
-                    </div>
-                    <?php 
-						$i++; 
-						endforeach; ?>
-                    <?php endif; ?>
-                </div>
-                <?php endforeach; ?>
-
-
-
-                <?php else: ?>
-
 
                     <?php the_content('');?>
-
-
-                <?php endif; ?>
-
 
                 <p>
                     <?php edit_post_link('<strong>Modifica Pagina</strong>', '');?>
@@ -226,8 +108,10 @@ get_template_part( 'pco/template-parts/content', 'keyfacts' );
             <?php get_sidebar();?>
 
         </aside>
-            
+
     </div>
+
+
 </div>
 <!--END .container -->
 <?php endwhile; // end of the loop. ?>

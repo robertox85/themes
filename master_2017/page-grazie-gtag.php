@@ -46,12 +46,23 @@ $image = get_field('images', $home_page_id);
                 echo $current_blog_details->blogname;
             ?>
             </h1>
+            <p class="col-md-6">
+                <?php echo get_field('paragrafo') ?>
+            </p>
             <div class="clearfix"></div>
             <!--END .row -->
         </header>
     </div>
 </div>
 <!--END .container -->
+
+
+<?php 
+// KEY FACTS
+set_query_var('site_name', $current_blog_details->blogname);
+get_template_part( 'pco/template-parts/content', 'keyfacts' );
+ 
+?>
 
 <div class="container-fluid colonna_main">
 
@@ -83,8 +94,10 @@ $image = get_field('images', $home_page_id);
 
         <main id="main" class="site-main site-master col-md-6" role="main">
             <div id="page-content" class="columns  space">
-                
-                <?php the_content('');?>
+
+                    <h2 class="page-title"><?php echo the_title(); ?></h2>
+
+                    <?php the_content('');?>
 
                 <p>
                     <?php edit_post_link('<strong>Modifica Pagina</strong>', '');?>

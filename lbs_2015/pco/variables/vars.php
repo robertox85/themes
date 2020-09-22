@@ -1452,8 +1452,8 @@ $sottotitolo_master_40[ 'en' ] = 'Major of the Master in Media Entertainment ';
 ?>
 	<!-- Inizio -->
 	<?php $inizio_master_40 = array();
-$inizio_master_40[ 'it' ] = '1 Gen 2021';
-$inizio_master_40[ 'en' ] = 'Jan 1, 2021';
+$inizio_master_40[ 'it' ] = '25 Gen 2021';
+$inizio_master_40[ 'en' ] = 'Jan 25, 2021';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_40 = array();
@@ -1480,7 +1480,7 @@ $sottotitolo_master_41[ 'en' ] = 'Major of the Master in Media Entertainment ';
 ?>
 	<!-- Inizio -->
 	<?php $inizio_master_41 = array();
-$inizio_master_41[ 'it' ] = '15 Gen 2021';
+$inizio_master_41[ 'it' ] = '25 Gen 2021';
 $inizio_master_41[ 'en' ] = 'Jan 25, 2021';
 ?>
 	<!-- Programma -->
@@ -1508,8 +1508,8 @@ $sottotitolo_master_39[ 'en' ] = 'Major of the Master in Media Entertainment ';
 ?>
 	<!-- Inizio -->
 	<?php $inizio_master_42 = array();
-$inizio_master_42[ 'it' ] = '21 Gen 2021';
-$inizio_master_42[ 'en' ] = 'Jan 21, 021';
+$inizio_master_42[ 'it' ] = '25 Gen 2021';
+$inizio_master_42[ 'en' ] = 'Jan 25, 021';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_42 = array();
