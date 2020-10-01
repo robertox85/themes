@@ -6,9 +6,11 @@ if(!is_download_brochure_page()){
 $pages = get_download_brochure_pages();
 
 $found = false;
+$post_id = 0;
 foreach ($pages as $page) {
     $post = get_page_by_path($page);
     if ($post) {
+        $post_id = $post->ID;
         $found = true;
         break;
     }
@@ -16,7 +18,18 @@ foreach ($pages as $page) {
 
 ?>
 
-<?php if ($found): ?>
+<?php if ($found): 
+
+
+$javascript = get_field('javascript', $post_id);
+
+if ( $shfs_post_meta != '' ) {
+    echo $shfs_post_meta['synth_header_script'], "\n";
+}
+
+?>
+
+
 <div class="modal fade" id="downloadBrochure" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -28,6 +41,7 @@ foreach ($pages as $page) {
             </div>
             <div class="modal-body">
                 <?php echo $post->post_content ?>
+                <p class="modal-javascript mb-0"><?php echo($javascript); ?></p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="button button--negative button--primary" data-dismiss="modal">Close</button>

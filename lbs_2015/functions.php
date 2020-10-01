@@ -831,7 +831,7 @@ function docenti_make_json()
             //print_r($docenti_list);
             //die();
             $listings['list'] = $docenti_list;
-            $path = "/server/sites/businessschool.it/wp-content/themes/lbs_2015/json/";
+            $path = WP_CONTENT_DIR. "/themes/lbs_2015/json/";
             $fp = fopen($path . 'docenti-it.json', 'w');
 
             if (fwrite($fp, json_encode($listings)) === false) {
@@ -870,7 +870,7 @@ function docenti_make_json()
             //print_r($docenti_list);
             //die();
             $listings['list'] = $docenti_list;
-            $path = "/home/sito/htdocs/businessschool.it/wp-content/themes/lbs_2015/json/";
+            $path = WP_CONTENT_DIR. "themes/lbs_2015/json/";
             $fp = fopen($path . 'docenti-en.json', 'w');
 
             if (fwrite($fp, json_encode($listings)) === false) {
