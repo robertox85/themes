@@ -45,7 +45,8 @@ get_header(); ?>
       <h2><?php echo the_title(); ?></h2>
       <hr />
         <?php while ( have_posts() ) : the_post(); 
-		$post_id = get_the_ID();?>
+		    $post_id = get_the_ID();?>
+       
         <?php the_content(''); ?>
         
         <p><?php echo($javascript); ?></p>

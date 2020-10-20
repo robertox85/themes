@@ -31,6 +31,7 @@ while (have_posts()): the_post();
 $home_page_id = get_option('page_on_front');
 $image = get_field('images', $home_page_id);
 
+$blog_id = get_current_blog_id();
 ?>
 <div class="container-fluid container-header py-24 py-md-48 px-0 px-lg-1"
     style="height:100%; background-image:url(<?php echo $image['url']; ?>); background-repeat:no-repeat; background-size: cover;background-position:center;">
@@ -92,18 +93,88 @@ get_template_part( 'pco/template-parts/content', 'keyfacts' );
         <main id="main" class="site-main site-master col-md-6" role="main">
             <div id="page-content" class="columns  space">
 
-                    <h2 class="page-title"><?php echo the_title(); ?></h2>
+                <h2 class="page-title"><?php echo the_title(); ?></h2>
 
-                    <p>L’offerta formativa Executive Education della Luiss Business School, si caratterizza per un approccio
-                        metodologico fortemente interattivo ed esperienziale che coinvolge il partecipante ben oltre la
-                        didattica tradizionale.</p>
+                <?php if(($blog_id === 124) && get_the_ID() === 86): ?>
 
-                    <p>L’esperienza di apprendimento è costruita intorno alla persona, con l’obiettivo di ampliarne il
-                        network, e promuoverne lo sviluppo professionale e personale, fornendo strumenti immediatamente
-                        applicabili nel proprio contesto organizzativo per coglierne in maniera efficace le sfide. Ad ogni
-                        percorso di apprendimento sono associati attività e servizi che si sviluppano, prima, durante e dopo
-                        la fase di aula.
-                    </p>
+                    <?php  
+                        $repeatable_fields = carbon_get_post_meta(get_the_ID(), 'crb_gruppi');
+                        
+
+                        the_content();
+
+                        if(!empty($repeatable_fields)){
+                            $i = 0;
+                            foreach($repeatable_fields as $block){
+                                $area_id = strtolower(str_replace(' ','_',$block['nome_gruppo']));
+                                ?>
+                                <h2 class="h2"><?php echo $block['nome_gruppo'] ?></h2>
+                                <div class="panel-group accordion" id="<?php echo $area_id ?>" role="tablist" aria-multiselectable="true">
+
+                                <?php 
+                                
+                                foreach($block['elementi_gruppo'] as $elemento){
+                                    $expanded = ($i == 0) ? 'true':'false';
+                                    $in = ($i == 0) ? 'show':'';
+                                    $collapsed = ($i == 0) ? '':'collapsed';
+                                    ?>
+                                    <div class="panel-accordion mt-32">
+                                        <div class="panel-heading" role="tab" id="headingOne">
+                                            <h6 class="panel-title">
+                                                
+                                                <a  role="button"
+                                                    data-toggle="collapse" 
+                                                    data-parent="#<?php echo $area_id ?>"
+                                                    href="#accordion-content-<?php echo $i ?>" 
+                                                    aria-expanded="<?php echo $expanded  ?>"
+                                                    aria-controls="accordion-content-<?php echo $i ?>"
+                                                    class="accordion-toggle page-default <?php echo $collapsed ?>">
+                                                    <!-- Titolo -->
+                                                    <img class="mr-48" src="<?php echo wp_get_attachment_image_src( $elemento['icona'] )[0] ?>" alt="" width="100"
+                                                        height="100">
+                                                    <?php echo $elemento['titolo'] ?>
+                                                </a>
+                                                
+                                            </h6>
+                                        </div>
+
+                                        <div id="accordion-content-<?php echo $i ?>" class="panel-collapse collapse <?php echo $in ?>"
+                                            role="tabpanel" aria-labelledby="headingOne">
+                                            <div class="panel-body">
+
+                                                <!-- Contenuto -->
+                                                <?php echo $elemento['contenuto'] ?>
+
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                    <?php 
+                                    $i++;  
+                                }
+                                ?>
+                                </div>
+                                <?php
+                                
+                            }
+                        }?>
+
+
+                <?php else: ?>
+
+                <p>L’offerta formativa Executive Education della Luiss Business School, si caratterizza per un approccio
+                    metodologico fortemente interattivo ed esperienziale che coinvolge il partecipante ben oltre la
+                    didattica tradizionale.</p>
+
+                <p>L’esperienza di apprendimento è costruita intorno alla persona, con l’obiettivo di ampliarne il
+                    network, e promuoverne lo sviluppo professionale e personale, fornendo strumenti immediatamente
+                    applicabili nel proprio contesto organizzativo per coglierne in maniera efficace le sfide. Ad ogni
+                    percorso di apprendimento sono associati attività e servizi che si sviluppano, prima, durante e dopo
+                    la fase di aula.
+                </p>
+
+
                 <?php 
 						
 						$array = array(
@@ -159,10 +230,8 @@ get_template_part( 'pco/template-parts/content', 'keyfacts' );
 
                 <?php foreach($array as $area):  
 					$area_id = strtolower(str_replace(' ','_',$area['area']));
-					
 					?>
-                <div class="panel-group accordion" id="<?php echo $area_id ?>" role="tablist"
-                    aria-multiselectable="true">
+                <div class="panel-group accordion" id="<?php echo $area_id ?>" role="tablist" aria-multiselectable="true">
                     <h2 class="h2"><?php echo $area['area'] ?></h2>
                     <?php if(isset($area['programmi'])): ?>
                     <?php foreach($area['programmi'] as $programma): 
@@ -173,15 +242,17 @@ get_template_part( 'pco/template-parts/content', 'keyfacts' );
                     <div class="panel-accordion mt-32">
                         <div class="panel-heading" role="tab" id="headingOne">
                             <h6 class="panel-title">
-                                 
+
                                 <a role="button" data-toggle="collapse" data-parent="#<?php echo $area_id ?>"
                                     href="#accordion-content-<?php echo $i ?>" aria-expanded="<?php echo $expanded  ?>"
                                     aria-controls="accordion-content-<?php echo $i ?>"
                                     class="accordion-toggle page-default <?php echo $collapsed ?>">
                                     <!-- Titolo -->
-                                    <img class="mr-48" src="<?php echo $programma['icona'] ?>" alt="" width="100" height="100">   
+                                    <img class="mr-48" src="<?php echo $programma['icona'] ?>" alt="" width="100"
+                                        height="100">
                                     <?php echo $programma['titolo'] ?>
                                 </a>
+
                             </h6>
                         </div>
                         <div id="accordion-content-<?php echo $i ?>" class="panel-collapse collapse <?php echo $in ?>"
@@ -203,7 +274,11 @@ get_template_part( 'pco/template-parts/content', 'keyfacts' );
 
 
 
-                    <?php the_content('');?>
+                <?php the_content('');?>
+
+                <?php endif; ?>
+
+
 
                 <p>
                     <?php edit_post_link('<strong>Modifica Pagina</strong>', '');?>
