@@ -204,7 +204,7 @@ Summer School (specialistici) - 133/134
 				'tax_query' => $tax_query,
 				'posts_per_page' => '-1',
 				'meta_key' => 'data_inizio',
-				'orderby' => 'meta_value_num',
+				'orderby' => 'menu_order',
 				'meta_query' => array(
 				//	array(
 				//		'key' => 'data_inizio', // which meta to query

@@ -112,6 +112,7 @@ jQuery(document).ready(function ($) {
   });
 });
 
+
 var col = document.getElementsByClassName("colonna_key_facts-container");
 var key_facts_title = document.getElementById('key_facts_title');
 if(col[0].childElementCount === 0	|| col[0].childElementCount < 3 ){

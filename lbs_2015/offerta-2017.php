@@ -9,24 +9,6 @@ if ( !defined( 'ABSPATH' ) )exit;
 wp_enqueue_style('Bootstrap_Styles','https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css');
 get_header( 2017 );
 ?>
-<script id="myn_pixel" async src="https://white.mynsystems.com/myn_pixel_fp.js?accountId=50"></script>
-<!--
-Start of Floodlight Tag: Please do not remove
-Activity name of this tag: LUISS_Offerta_Formativa
-URL of the webpage where the tag is expected to be placed: 
-This tag must be placed between the <body> and </body> tags, as close as possible to the opening tag.
-Creation Date: 12/20/2018
--->
-<script type="text/javascript">
-var axel = Math.random() + "";
-var a = axel * 10000000000000;
-document.write('<iframe src="https://9105818.fls.doubleclick.net/activityi;src=9105818;type=secti0;cat=luiss0;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;npa=;ord=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
-</script>
-<noscript>
-<iframe src="https://9105818.fls.doubleclick.net/activityi;src=9105818;type=secti0;cat=luiss0;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;npa=;ord=1?" width="1" height="1" frameborder="0" style="display:none"></iframe>
-</noscript>
-<!-- End of Floodlight Tag: Please do not remove -->
-
 <div class="item-centre box-cover-subhome" style="background-image:url(<?php echo site_url() ?>/wp-content/uploads/2018/04/offerta-formativa.jpg)">
     <div class="container">
         <div class="row centre mt-128 pt-80">
@@ -39,11 +21,11 @@ document.write('<iframe src="https://9105818.fls.doubleclick.net/activityi;src=9
 </div>
 
 <?php 
-
+    
 $button_label = array();
 $button_label['it'] = 'Scopri';
 $button_label['en'] = 'Find out more';
-    
+                
 ?>
 
 <section class="py-24 pt-md-48 pb-md-80" style="border-bottom: 1px solid #e8e8e8;">

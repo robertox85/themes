@@ -59,9 +59,8 @@ toggleNav();
 // LUISS network
 
 $('#network-offcanvas-trigger, #network-container-offcanvas button.close-menu').click(function() {
-	toggleNetwork();
+toggleNetwork();
 });
-
 
 
 
@@ -105,7 +104,3 @@ sfHover = function() {
 	}
 }
 if (window.attachEvent) window.attachEvent("onload", sfHover);
-
-
-
-

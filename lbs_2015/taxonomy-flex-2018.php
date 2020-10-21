@@ -2,7 +2,7 @@
 /*
 Template Name: Flex 2018
 */
-get_header( 2017 );?> 
+get_header( 2017 );?>
 
 <!-- Query per le pagine 
 
@@ -47,10 +47,13 @@ Summer School (specialistici) - 133/134
 
 <!-- Inizio template -->
 
-<div class="container-fluid px-0 box-cover-page d-flex flex-column align-items-start  justify-content-center flex-cover bg__light_blue">
+<div
+    class="container-fluid px-0 box-cover-page d-flex flex-column align-items-start  justify-content-center flex-cover bg__light_blue">
     <div class="container my-48">
         <div class="row">
-            <div class="col-xs-12 col-lg-8"><h1 class="color__white"><?php the_title();?></h1></div>
+            <div class="col-xs-12 col-lg-8">
+                <h1 class="color__white"><?php the_title();?></h1>
+            </div>
         </div>
         <div class="row">
             <div class="col-lg-9 intro-exarea">
@@ -66,9 +69,9 @@ Summer School (specialistici) - 133/134
 <div class="container">
     <section>
         <!-- CONTENUTO -->
-            <!-- FLEX -->
-                <div class="d-flex flex-row flex-wrap justify-content-start align-items-stretch px-0 py-24">
-                    <?php
+        <!-- FLEX -->
+        <div class="d-flex flex-row flex-wrap justify-content-start align-items-stretch px-0 py-24">
+            <?php
 			$query_tax_value = 154;
 			$tax_query = array();
 			$tax_query[] = array(
@@ -111,33 +114,34 @@ Summer School (specialistici) - 133/134
 
 			if ( $query->have_posts() )  : while ( $query->have_posts() ) : $query->the_post(); ?>
 
-                    <?php get_template_part( 'pco/template-parts/card-course', get_post_format() ); ?>
+            <?php get_template_part( 'pco/template-parts/card-course', get_post_format() ); ?>
 
-                    <?php wp_reset_postdata(); ?>
+            <?php wp_reset_postdata(); ?>
 
-                    <?php endwhile; else : ?>
-                    <?php if (ICL_LANGUAGE_CODE=='it') : ?><div class="col-12">Non ci sono ancora programmi.</div>
-                    <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?><div class="col-12">There are no programmes yet.</div>
-                    <?php else : ?>
-                    <?php endif; ?>
+            <?php endwhile; else : ?>
+            <?php if (ICL_LANGUAGE_CODE=='it') : ?><div class="col-12">Non ci sono ancora programmi.</div>
+            <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?><div class="col-12">There are no programmes yet.</div>
+            <?php else : ?>
+            <?php endif; ?>
 
-                    <?php endif; ?>
+            <?php endif; ?>
 
-                </div>
+        </div>
     </section>
 </div>
 
 
 <!-- MODULI DEI FLEX -->
 <div class="container my-24">
-		<div class="row">
-			<div class="col-12">
-				<h3><?php echo get_field('etichetta_short_course') ?></h3>
-            </div>
+    <div class="row">
+        <div class="col-12">
+            <h3><?php echo get_field('etichetta_short_course') ?></h3>
         </div>
-				<div class="short-course d-flex flex-row px-0 py-24 align-items-stretch justify-content-start  flex-wrap"><?php echo get_field('campo_short_course') ?>
-			</div>
-	</div>
+    </div>
+    <div class="short-course d-flex flex-row px-0 py-24 align-items-stretch justify-content-start  flex-wrap">
+        <?php echo get_field('campo_short_course') ?>
+    </div>
+</div>
 
 
 <!-- OFFERTA COMPLETA -->

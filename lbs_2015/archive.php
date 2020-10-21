@@ -16,7 +16,7 @@
  * @since Twenty Fifteen 1.0
  */
 
-get_header(); ?>
+get_header(2017); ?>
 
 	<section id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
@@ -61,4 +61,4 @@ get_header(); ?>
 		</main><!-- .site-main -->
 	</section><!-- .content-area -->
 
-<?php get_footer(); ?>
+<?php get_footer(2017); ?>

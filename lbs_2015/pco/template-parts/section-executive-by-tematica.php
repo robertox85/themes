@@ -44,7 +44,7 @@ $desc_3['en'] = '';
                     <li class="pt-24 px-16 pb-16"><a class="color__light_blue" href="<?php echo site_url() ?>/offerta-formativa/executive-program/communication-lobbying/">Communication & Lobbying</a></li>
                     <li class="pt-24 px-16 pb-16"><a class="color__light_blue" href="<?php echo site_url() ?>/offerta-formativa/executive-program/tax-legal/"> Governance, Risk & Compliance</a></li>
                     <li class="pt-24 px-16 pb-16"><a class="color__light_blue" href="<?php echo site_url() ?>/offerta-formativa/executive-program/marketing-sales-communication/"> Marketing & Sales</a></li>
-                    <li class="pt-24 px-16 pb-16"><a class="color__light_blue" href="<?php echo site_url() ?>/offerta-formativa/executive-program/people-and-organization-development/">People, Organization Development & Leadership</a></li>
+                    <li class="pt-24 px-16 pb-16"><a class="color__light_blue" href="<?php echo site_url() ?>/offerta-formativa/executive-program/people-and-organization-development/">People, Organisation Development & Leadership</a></li>
                     <li class="pt-24 px-16 pb-16"><a class="color__light_blue" href="<?php echo site_url() ?>/offerta-formativa/executive-program/project_management/">Project Management</a></li>
                 </ul>
             </div>

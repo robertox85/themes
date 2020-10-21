@@ -88,9 +88,9 @@ if ( !( empty( $events ) ) ) {
   $compila_form[ 'it' ] = 'Compila il form';
   $compila_form[ 'en' ] = 'Fill out the Form';
 
-  $label_evento = array();
-  $label_evento[ 'it' ] = 'Tipo evento';
-  $label_evento[ 'en' ] = 'Event type';
+ // $label_evento = array();
+ // $label_evento[ 'it' ] = 'Tipo evento';
+ // $label_evento[ 'en' ] = 'Event type';
 
   $label_registrati = array();
   $label_registrati[ 'it' ] = 'Registrati';
@@ -113,8 +113,8 @@ if ( !( empty( $events ) ) ) {
     <div class="container">
         <div class="d-flex flex-row align-items-center justify-content-start flex-wrap flex-lg-nowrap p-16">
             <div class="w-10"><h3 class="p-16">Data</h3></div>
-            <div class="w-20"><h3 class="p-16">Evento</h3></div>
-            <div class="w-20"><h3 class="p-16"><?php echo $label_evento[ICL_LANGUAGE_CODE]; ?></h3></div>
+            <div class="w-25"><h3 class="p-16">Evento</h3></div>
+<!--       <!--     <div class="w-20"><h3 class="p-16"><//?php echo $label_evento[ICL_LANGUAGE_CODE]; ?></h3></div>-->
             <div class="w-15"><h3 class="p-16"><?php echo $label_lingua[ICL_LANGUAGE_CODE]; ?></h3></div>
             <div class="w-15"><h3 class="p-16"><?php echo $label_dettagli[ICL_LANGUAGE_CODE]; ?></h3></div>
             <div class="w-20"><h3 class="p-16"><?php echo $label_registrati[ICL_LANGUAGE_CODE]; ?></h3></div>
@@ -129,12 +129,12 @@ if ( !( empty( $events ) ) ) {
         <div class="w-10 p-md-16 bg__white box-event-date d-flex flex-row align-items-center justify-content-center">
             <h6 class="my-0" style="color:var(--current-color);"><?php echo get_date($data_inizio,"events",ICL_LANGUAGE_CODE) ?></h6>
         </div>
-        <div class="w-20">
+        <div class="w-25">
             <h6 class="color__blue m-0 p-16" itemprop="name headline"><?php echo $event->post_title ?></h6>
         </div>
-        <div class="w-20">
-            <p class="m-0 p-16"><?php echo $event->tipo_evento?></p>
-        </div>
+        <!--<div class="w-20">
+            <p class="m-0 p-16"><?php // echo $event->tipo_evento?></p>
+        </div>-->
         <div class="w-15">
             <p class="m-0 p-16"><?php echo $event->lingua?></p>
         </div>

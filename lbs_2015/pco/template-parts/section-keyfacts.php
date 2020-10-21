@@ -11,7 +11,7 @@
                     if (get_field('data_inizio')) {  echo '<div class="textwidget"><p class="big color__white mt-0 mb-32"><strong>' . $date->format('d M Y') . '</strong></p></div> </div>';}
                 
 		
-                   $date_m = DateTime::createFromFormat('Ymd', get_field('data_fine'));	
+                    $date_m = DateTime::createFromFormat('Ymd', get_field('data_fine'));	
 		
                     if(get_field('data_inizio_testuale')) { echo '<div class="block pr-16 pr-lg-48"><p class="color__white text-uppercase p-0 mt-lg-32 mb-lg-16 mt-16 mb-8">' . get_field('data_inizio_testuale') . '</p>';}
 			

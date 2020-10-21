@@ -860,8 +860,8 @@ $sottotitolo_master_18[ 'en' ] = 'Major of the Master in Fashion, Luxury and Tou
 ?>
 	<!-- Inizio -->
 	<?php $inizio_master_18 = array();
-$inizio_master_18[ 'it' ] = '26 Nov 2020';
-$inizio_master_18[ 'en' ] = 'Nov 26, 2020';
+$inizio_master_18[ 'it' ] = '8 Mar 2021';
+$inizio_master_18[ 'en' ] = 'Mar 8, 2021';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_18 = array();
@@ -1186,8 +1186,8 @@ $link_brochure_master_29[ 'en' ] = site_url().'/marketing-management-retailing-e
 
 	<!-- Titolo -->
 	<?php $titolo_master_30 = array();
-$titolo_master_30[ 'it' ] = 'Trade Management';
-$titolo_master_30[ 'en' ] = 'Trade Management';
+$titolo_master_30[ 'it' ] = 'HoReCa Trade Management';
+$titolo_master_30[ 'en' ] = 'HoReCa Trade Management';
 ?>
 	<!-- Sottotitolo -->
 	<?php $sottotitolo_master_30 = array();
@@ -1761,8 +1761,8 @@ $sottotitolo_master_51[ 'en' ] = 'Major of the Master in International Managemen
 ?>
 	<!-- Inizio -->
 	<?php $inizio_master_51 = array();
-$inizio_master_51[ 'it' ] = '26 Nov 2020';
-$inizio_master_51[ 'en' ] = 'Nov 26, 2020';
+$inizio_master_51[ 'it' ] = '8 Mar 2021';
+$inizio_master_51[ 'en' ] = 'Mar 8, 2021';
 ?>
 	<!-- Programma -->
 	<?php $link_site_master_51 = array();

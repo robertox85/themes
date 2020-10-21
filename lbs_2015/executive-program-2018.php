@@ -13,9 +13,9 @@ get_header( 2017 );?>
 $sub_home['it'] = 'L’Executive Education della Luiss Business School mira a supportare i partecipanti a massimizzare il loro business impact, sostenendo la loro crescita personale e professionale, attraverso un percorso di apprendimento iper-personalizzato e una metodologia didattica innovativa.';
 $sub_home['en'] = 'Foster your career path, improve your leadership skills and your functional and technical competences. the executive programmes are aimed at managers, entrepreneurs and professionals willing to develop not-conventional skills and to learn through problem-solving and action-learning based methods, labs and the networking.';
 $sub_home_2a['it'] = 'L’offerta formativa è progettata e sviluppata in collaborazione con i Corporate Partner Luiss Business School,  fra i quali si distinguono le maggiori istituzioni, aziende, organizzazioni e imprese multinazionali in Italia.
-I programmi sono disegnati per accelerare la carriera, consolidare i punti di forza e agire sulle aree di miglioramento, ma si indirizzando anche a chi desidera reinventarsi  (ovvero cambiare ruolo, settore o funzione sviluppando';
+I programmi sono disegnati per accelerare la carriera, consolidare i punti di forza e agire sulle aree di miglioramento, ma si indirizzando anche a chi desidera reinventarsi  (ovvero cambiare ruolo,';
 $sub_home_2a['en'] = '';
-$sub_home_2b['it'] = 'le competenze  e il network necessario) o riprendere in mano il proprio percorso professionale ottenendo le competenze e gli strumenti utili per ripartire con la propria carriera. I fattori chiave che rendono unica e all’avanguardia l’esperienza Executive Luiss Business School sono l’uso di una metodologia didattica esperienziale, l’attenzione al networking e i servizi EduCare che completano il percorso formativo scelto.';
+$sub_home_2b['it'] = 'settore o funzione sviluppando le competenze  e il network necessario) o riprendere in mano il proprio percorso professionale ottenendo le competenze e gli strumenti utili per ripartire con la propria carriera. I fattori chiave che rendono unica e all’avanguardia l’esperienza Executive Luiss Business School sono l’uso di una metodologia didattica esperienziale, l’attenzione al networking e i servizi EduCare che completano il percorso formativo scelto.';
 $sub_home_2b['en'] = '';
 ?>
 
@@ -52,6 +52,8 @@ $sub_home_2b['en'] = '';
 <?php get_template_part( 'pco/template-parts/section-executive-by-tematica', get_post_format() ); ?>
 
 <?php get_template_part( 'pco/template-parts/section-flex-executive-jumbotron', get_post_format() ); ?>
+
+<?php get_template_part( 'pco/template-parts/section-executive-skill-lab', get_post_format() ); ?>
 
 <?php get_template_part( 'pco/template-parts/section-educare', get_post_format() ); ?>
 

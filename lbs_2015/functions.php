@@ -831,10 +831,11 @@ function docenti_make_json()
             //print_r($docenti_list);
             //die();
             $listings['list'] = $docenti_list;
-            $path = WP_CONTENT_DIR. "/themes/lbs_2015/json/";
+            $path = "/server/sites/businessschool.it/wp-content/themes/lbs_2015/json/";
             $fp = fopen($path . 'docenti-it.json', 'w');
 
             if (fwrite($fp, json_encode($listings)) === false) {
+                var_dump(error_get_last());
                 die("Cannot write to file");
                 exit;
             }
@@ -870,10 +871,11 @@ function docenti_make_json()
             //print_r($docenti_list);
             //die();
             $listings['list'] = $docenti_list;
-            $path = WP_CONTENT_DIR. "themes/lbs_2015/json/";
+            $path = "/server/sites/businessschool.it/wp-content/themes/lbs_2015/json/";
             $fp = fopen($path . 'docenti-en.json', 'w');
 
             if (fwrite($fp, json_encode($listings)) === false) {
+                var_dump(error_get_last());
                 die("Cannot write to file");
                 exit;
             }
@@ -1175,6 +1177,7 @@ function pco_style()
         'offerta-2017.php',
         'master.php',
         'mba.php',
+        'executive-skill-lab-2020.php',
         'executive-program-2018.php',
         'taxonomy-afc-2018.php',
         'taxonomy-banche-2018.php',
@@ -1209,6 +1212,10 @@ add_action('wp_enqueue_scripts', 'pco_style');
 
 add_filter( 'body_class', 'theme_color_class' );
 function theme_color_class( $classes ) {
+
+    $classes[] = 'page_template_'.get_page_template();
+    $classes[] = 'blog_id_'.get_current_blog_id();
+    $classes[] = 'page_id_'.get_the_ID();
     $classes[] = 'theme-blue';
     return $classes;
 }

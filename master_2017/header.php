@@ -124,7 +124,20 @@ bloginfo('name');
     }(window, document);
     obApi('track', 'PAGE_VIEW');
     </script>
-
+	<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+   ym(67761961, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/67761961" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 
     <link href="<?php bloginfo('template_directory');?>/getbootstrap.css" rel="stylesheet">
     <link href="<?php bloginfo('template_directory');?>/style.css" rel="stylesheet">
@@ -135,13 +148,13 @@ bloginfo('name');
     <!-- Snipcart stylesheet -->
     <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.16/default/snipcart.css" />
     <style type="text/css">
-        input[type="text"] {
+    input[type="text"] {
             border: none;
         }
 
         .snipcart * {
             font-family: 'Luiss Sans', Arial, Helvetica, sans-serif !important;
-                font-weight: 400;
+            font-weight: 400;
         }
 
         .snipcart-modal__container {
@@ -238,7 +251,8 @@ bloginfo('name');
             color: #CC8A00;
         }
         
-           /* Aggiunte */
+        
+        /* Aggiunte */
 
         .snipcart__box--badge, .snipcart__font--subtitle, .snipcart__font--xlarge {
         font-size: 24px !important;
@@ -260,7 +274,7 @@ bloginfo('name');
         line-height:28px;
         }
         
-        .snipcart-form__label {
+         .snipcart-form__label {
             font-size: 16px;
             line-height:24px;
         font-weight: 400;
@@ -269,6 +283,7 @@ bloginfo('name');
         .snipcart__font--tiny {
             font-weight: 400;
         }
+        
     </style>
 
     <!-- Snipcart custom script -->
