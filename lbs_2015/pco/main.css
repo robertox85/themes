@@ -12306,3 +12306,37 @@ body.page-id-28813 .container-fluid.bg__light_blue:nth-child(even) p {
 body.page-id-28813 .container-fluid.bg__light_blue:nth-child(even) hr {
     border-color: #003a70!important;
 }
+body.theme-light_blue .colonna_key_facts{
+    transition: .2s;
+}
+.row-hidden {
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+    transition: .2s;
+}
+.colonna_key_facts .download-brocure {
+    position: fixed;
+    background-color: #0077c8;
+    padding: 12px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+    transition: .2s;
+}
+.shadow-top {
+    -webkit-box-shadow: 0px -8px 24px rgba(0, 0, 0, 0.2) !important;
+    box-shadow: 0px -8px 24px rgba(0, 0, 0, 0.2) !important;
+    z-index: 1;
+}
+body.theme-blue .colonna_key_facts.fixed {
+    position: fixed;
+    background-color: #0077c8;
+    transition: .2s;
+    max-width: 100%;
+}
+
+body.theme-blue .colonna_key_facts.fixed .colonna_key_facts-container .block:not(:last-child) {
+    display: none;
+}

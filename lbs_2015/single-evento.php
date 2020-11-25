@@ -47,7 +47,7 @@ $new_format_start = date('M/j/Y',strtotime($data_termine));
         <div class="row">
             <div id="page-content" class="col-lg-8">
                 <p><i class="fa fa-calendar"></i> <?php echo get_date($data_inizio,"events",ICL_LANGUAGE_CODE) ?>
-                    <?  if(get_field('data_termine')!= get_field('data_inizio') ) { echo '- ' .get_date($data_termine,"events",ICL_LANGUAGE_CODE); }?>
+                    <?php  if(get_field('data_termine')!= get_field('data_inizio') ) { echo '- ' .get_date($data_termine,"events",ICL_LANGUAGE_CODE); }?>
                     - <?php print_custom_field('ora'); ?> </p>
                 <p><i class="fa fa-map-marker"></i> <?php print_custom_field('location'); ?></p>
                 <!--   <div class="iframe-rwd"> --><?php print_custom_field('mappa'); ?>

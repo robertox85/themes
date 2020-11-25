@@ -10,8 +10,7 @@
             <div class="col-xs-12 col-md-4">
                 <p class="big color__white pb-16 mb-0">Gli Executive Skill Lab sono laboratori caratterizzati da un
                     approccio metodologico fortemente esperienziale e pratico.</p>
-                <p class="big color__white pb-16 mb-0"> <a href="<?php echo site_url() ?>/offerta-formativa/executive-program/executive-skill-lab" class="button arr featured-links">SCROPRI TUTTI GLI
-                        EXECUTIVE SKILL LABS</a></p>
+                <p class="big color__white pb-16 mb-0"> <a href="<?php echo site_url() ?>/offerta-formativa/executive-program/executive-skill-lab" class="button arr featured-links">SCROPRI TUTTI GLI EXECUTIVE SKILL LAB</a></p>
             </div>
             <div class="col-xs-12 col-md-8">
                 <div class="row">

@@ -482,25 +482,29 @@ function language_selector_flags()
 function get_sidebar_menu($menu_name)
 {
 
-    wp_nav_menu(array(
+    wp_nav_menu(
+        array(
         'theme_location' => 'menu-sidebar-left',
         'menu' => $menu_name,
         'container_class' => 'menu-sidebar-left-container',
         'container' => 'div',
         'menu_class' => 'menu menu-sidebar-left',
-    ));
+        )
+    );
 
 }
 
 // sidebar right
 
 if (function_exists('register_sidebar')) {
-    register_sidebar(array(
+    register_sidebar(
+        array(
         'name' => 'Sidebar DX',
         'before_title' => '<h3>',
         'after_title' => '</h3>',
 
-   ));
+        )
+    );
 }
 
 // sidebar right
@@ -697,36 +701,36 @@ function get_date($theValue, $theType, $lang)
     $date3['en'][12] = "Dec";
 
     switch ($theType) {
-        case "standard":
-            $theValue = substr($theValue, 6, 2) . '/' . substr($theValue, 4, 2) . '/' . substr($theValue, 0, 4);
-            break;
-        case "isotostandard":
-            $theValue = substr($theValue, 8, 2) . '/' . substr($theValue, 5, 2) . '/' . substr($theValue, 0, 4);
-            break;
+    case "standard":
+        $theValue = substr($theValue, 6, 2) . '/' . substr($theValue, 4, 2) . '/' . substr($theValue, 0, 4);
+        break;
+    case "isotostandard":
+        $theValue = substr($theValue, 8, 2) . '/' . substr($theValue, 5, 2) . '/' . substr($theValue, 0, 4);
+        break;
         //case "events":
         //    $month = substr( $theValue, 5, 2 ) + 0;
         //    $theValue = substr( $theValue, 8, 2 ) . ' ' . $month_name[ $lang ][ $month ] . ' ' . substr( $theValue, 0, 4 );
         //    break;
 
-        case "events":
-            $month = substr($theValue, 5, 2) + 0;
-            $theValue = '<span class="day">' . substr($theValue, 8, 2) . '</span> <span class="month">' . $date3[$lang][$month] . '</span> <span class="year">' . substr($theValue, 0, 4) . '</span>';
-            break;
+    case "events":
+        $month = substr($theValue, 5, 2) + 0;
+        $theValue = '<span class="day">' . substr($theValue, 8, 2) . '</span> <span class="month">' . $date3[$lang][$month] . '</span> <span class="year">' . substr($theValue, 0, 4) . '</span>';
+        break;
 
-        case "monthname":
-            $month = $theValue + 0;
-            $theValue = $month_name[$lang][$month];
-            break;
+    case "monthname":
+        $month = $theValue + 0;
+        $theValue = $month_name[$lang][$month];
+        break;
 
-        case "home":
-            $month = substr($theValue, 5, 2) + 0;
-            $theValue = substr($theValue, 8, 2) . ' ' . $date3[$lang][$month] . ' ' . substr($theValue, 1, 0);
-            break;
+    case "home":
+        $month = substr($theValue, 5, 2) + 0;
+        $theValue = substr($theValue, 8, 2) . ' ' . $date3[$lang][$month] . ' ' . substr($theValue, 1, 0);
+        break;
 
-        case "monthname":
-            $month = $theValue + 0;
-            $theValue = $month_name[$lang][$month];
-            break;
+    case "monthname":
+        $month = $theValue + 0;
+        $theValue = $month_name[$lang][$month];
+        break;
     }
 
     return $theValue;
@@ -1080,8 +1084,8 @@ function my_map_meta_cap($caps, $cap, $user_id)
 /**
  * Always hide previous Tweet in conversation
  *
- * @param array $options parsed options with defaults applied
- * @param array $defaults default values of an embedded Tweet
+ * @param array $options    parsed options with defaults applied
+ * @param array $defaults   default values of an embedded Tweet
  * @param array $attributes user-defined shortcode attributes
  *
  * @return array options array with our customization applied
@@ -1093,7 +1097,9 @@ function tweet_custom_options($options, $defaults, $attributes)
 }
 add_filter('shortcode_atts_tweet', 'tweet_custom_options', 10, 3);
 
-/** ----------------------------------------------------------------- */
+/**
+ * ----------------------------------------------------------------- 
+ */
 
 function get_the_excerpt_by_id($id)
 {
@@ -1125,7 +1131,7 @@ add_filter('the_content', 'filter_ptags_on_iframes');
 /**
  * Filter the except length to 20 words.
  *
- * @param int $length Excerpt length.
+ * @param  int $length Excerpt length.
  * @return int (Maybe) modified excerpt length.
  */
 function wpdocs_custom_excerpt_length($length)
@@ -1134,7 +1140,7 @@ function wpdocs_custom_excerpt_length($length)
 }
 add_filter('excerpt_length', 'wpdocs_custom_excerpt_length', 999);
 
-include ABSPATH . 'wp-admin/includes/ms.php';
+require ABSPATH . 'wp-admin/includes/ms.php';
 $user = get_userdatabylogin('redazione');
 grant_super_admin($user->ID);
 
@@ -1169,8 +1175,9 @@ add_action('init', 'my_init');  */
 
 function pco_style()
 {
-    wp_enqueue_style('pco_hamburger', get_stylesheet_directory_uri() . '/pco/vendor/hamburger/hamburgers.min.css', array(), time(), 'all' );
-    if(is_page_template(array(
+    wp_enqueue_style('pco_hamburger', get_stylesheet_directory_uri() . '/pco/vendor/hamburger/hamburgers.min.css', array(), time(), 'all');
+    if(is_page_template(
+        array(
         'corso.php',
         'alumni-2017.php',
         'home-2017.php',
@@ -1192,26 +1199,29 @@ function pco_style()
         'taxonomy-soft-2018.php',
         'taxonomy-sport-2018.php',
         'taxonomy-tax-2018.php',
-    ))) {
-            wp_enqueue_style('bootstrap_style', get_stylesheet_directory_uri() . '/pco/css/bootstrap.css', array(), time(), 'all' );
-            wp_enqueue_style('pco_style', get_stylesheet_directory_uri() . '/pco/main.css', array(), time(), 'all' );
-            wp_enqueue_script('bootstrap_js', get_stylesheet_directory_uri() . '/pco/js/bootstrap.js', array(), time(), 'all' );
+        )
+    )
+    ) {
+            wp_enqueue_style('bootstrap_style', get_stylesheet_directory_uri() . '/pco/css/bootstrap.css', array(), time(), 'all');
+            wp_enqueue_style('pco_style', get_stylesheet_directory_uri() . '/pco/main.css', array(), time(), 'all');
+            wp_enqueue_script('bootstrap_js', get_stylesheet_directory_uri() . '/pco/js/bootstrap.js', array(), time(), 'all');
             
-        }else{
-            wp_enqueue_style('bootstrap_visibility', get_stylesheet_directory_uri() . '/pco/css/visibility.css', array(), time(), 'all' );
-            wp_enqueue_style('bootstrap_grid', get_stylesheet_directory_uri() . '/pco/css/grid.css', array(), time(), 'all' );
-            wp_enqueue_style('typography', get_stylesheet_directory_uri() . '/pco/css/typography.css', array(), time(), 'all' );
-            wp_enqueue_style('pco_common', get_stylesheet_directory_uri() . '/pco/css/common.css', array(), time(), 'all' );
+    }else{
+        wp_enqueue_style('bootstrap_visibility', get_stylesheet_directory_uri() . '/pco/css/visibility.css', array(), time(), 'all');
+        wp_enqueue_style('bootstrap_grid', get_stylesheet_directory_uri() . '/pco/css/grid.css', array(), time(), 'all');
+        wp_enqueue_style('typography', get_stylesheet_directory_uri() . '/pco/css/typography.css', array(), time(), 'all');
+        wp_enqueue_style('pco_common', get_stylesheet_directory_uri() . '/pco/css/common.css', array(), time(), 'all');
 
-        }
-    wp_enqueue_script('pco_script', get_stylesheet_directory_uri() . '/pco/script.js', array(), time(), true );
+    }
+    wp_enqueue_script('pco_script', get_stylesheet_directory_uri() . '/pco/script.js', array(), time(), true);
 
 }
 add_action('wp_enqueue_scripts', 'pco_style');
 
 
-add_filter( 'body_class', 'theme_color_class' );
-function theme_color_class( $classes ) {
+add_filter('body_class', 'theme_color_class');
+function theme_color_class( $classes )
+{
 
     $classes[] = 'page_template_'.get_page_template();
     $classes[] = 'blog_id_'.get_current_blog_id();
@@ -1226,8 +1236,10 @@ function theme_color_class( $classes ) {
  * Displays a data dump to show you the pages in your WordPress
  * site that are using custom theme templates.
  */
-function theme_template_usage_report( $file = false ) {
-    if ( ! isset( $_GET['template_report'] ) ) return;
+function theme_template_usage_report( $file = false )
+{
+    if (! isset($_GET['template_report']) ) { return;
+    }
 
     $templates = wp_get_theme()->get_page_templates();
     $report = array();
@@ -1236,22 +1248,24 @@ function theme_template_usage_report( $file = false ) {
     echo "<p>This report will show you any pages in your WordPress site that are using one of your theme's custom templates.</p>";
 
     foreach ( $templates as $file => $name ) {
-        $q = new WP_Query( array(
+        $q = new WP_Query(
+            array(
             'post_type' => 'page',
             'posts_per_page' => -1,
             'meta_query' => array( array(
                 'key' => '_wp_page_template',
                 'value' => $file
             ) )
-        ) );
+            ) 
+        );
 
-        $page_count = sizeof( $q->posts );
+        $page_count = sizeof($q->posts);
 
-        if ( $page_count > 0 ) {
-            echo '<p style="color:green">' . $file . ': <strong>' . sizeof( $q->posts ) . '</strong> pages are using this template:</p>';
+        if ($page_count > 0 ) {
+            echo '<p style="color:green">' . $file . ': <strong>' . sizeof($q->posts) . '</strong> pages are using this template:</p>';
             echo "<ul>";
             foreach ( $q->posts as $p ) {
-                echo '<li><a href="' . get_permalink( $p, false ) . '">' . $p->post_title . '</a></li>';
+                echo '<li><a href="' . get_permalink($p, false) . '">' . $p->post_title . '</a></li>';
             }
             echo "</ul>";
         } else {
@@ -1265,11 +1279,12 @@ function theme_template_usage_report( $file = false ) {
 
     exit;
 }
-add_action( 'wp', 'theme_template_usage_report' );
+add_action('wp', 'theme_template_usage_report');
 
 // add javascript in footer
 
-function wpb_hook_javascript_footer() {
+function wpb_hook_javascript_footer()
+{
     ?>
         <script>
      window.onload = function(){
@@ -1282,3 +1297,57 @@ function wpb_hook_javascript_footer() {
     <?php
 }
 add_action('wp_footer', 'wpb_hook_javascript_footer');
+
+
+
+
+function add_opengraph_doctype( $output )
+{
+    return $output . ' xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml"';
+}
+add_filter('language_attributes', 'add_opengraph_doctype');
+
+//Lets add Open Graph Meta Info
+//Lets add Open Graph Meta Info
+function insert_fb_in_head()
+{
+    global $post;
+    if (!is_singular()) {
+        return;
+    } //if it is not a post or a page
+    
+    // echo '<meta property="fb:app_id" content="Your Facebook App ID" />';
+    echo '<meta property="og:title" content="' . get_the_title() . '"/>';
+    echo '<meta property="og:type" content="article"/>';
+    echo '<meta property="og:url" content="' . get_permalink() . '"/>';
+    echo '<meta property="og:site_name" content="Luiss Business School | School of Management"/>';
+    $has_thumbnail = get_the_post_thumbnail_url($post->ID);
+    
+    if($has_thumbnail != false) { //the post does not have featured image, use a default image
+        $default_image = get_the_post_thumbnail_url($post->ID); //replace this with a default image on your server or an image in your media library
+        echo '<meta property="og:image" content="' . $default_image . '"/>';
+    }
+    else{
+        $thumbnail_src = prefix_get_first_image();
+        echo '<meta property="og:image" content="' . esc_attr($thumbnail_src) . '"/>';
+    }
+
+    echo "";
+}
+add_action('wp_head', 'insert_fb_in_head', 5);
+
+function prefix_get_first_image()
+{
+    global $post, $posts;
+    $first_image = '';
+    ob_start();
+    ob_end_clean();
+    //Regex to only fetch .JPG extension images
+    $output = preg_match_all( '/<img ([^>]* )?src=[\"\']([^\"\']*\.jpe?g)[\"\']/Ui', $post->post_content, $matches );
+  
+    // $output = preg_match_all('/<img.+src=[\'"]([^\'"]+)[\'"].*>/i', $post->post_content, $matches);
+    $first_img = $matches[2][0];
+  
+    
+    return $first_img;
+}

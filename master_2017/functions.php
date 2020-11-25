@@ -382,7 +382,7 @@ function theme_color_class( $classes )
 
     if(empty($color)) {
         $theme_blue_ids         = array(8,49,58,95);
-        $theme_light_blue_ids   = array(5,13,14,15,17,18,19,20,25,27,30,32,34,42,43,44,47,50,53,55,57,63,65,67,68,69,70,72,75,76,77,79,84,86,91,93,96,97,98,99,103,104,105,106,107,108,110,111,112,113,114,115,117,118,120,124,126,127,128,129,130,133,134,135,106,109,139,140,142,143,148);
+        $theme_light_blue_ids   = array(5,13,14,15,17,18,19,20,25,27,28,30,32,34,42,43,44,47,50,53,55,57,63,65,67,68,69,70,72,75,76,77,79,84,86,91,93,96,97,98,99,103,104,105,106,107,108,110,111,112,113,114,115,117,118,120,124,126,127,128,129,130,133,134,135,106,109,139,140,142,143,148);
         $theme_green_ids        = array(51,52,54,100,144);
         $theme_red_ids          = array(2,3,4,6,7,9,11,12,13,16,21,22,23,24,33,35,36,37,38,39,41,56,59,60,61,66,71,74,78,94,101,121,122,123,141,145,150);
         $theme_orange_ids       = array();
@@ -418,7 +418,7 @@ function modify_home_in_nav_menu_objects( $items, $args )
     }
     return $items;
 }
-add_filter('wp_nav_menu_objects', 'modify_home_in_nav_menu_objects', 10, 2);
+// add_filter('wp_nav_menu_objects', 'modify_home_in_nav_menu_objects', 10, 2);
 
 
 class Walker_Nav_Menu_Dropdown extends Walker_Nav_Menu
@@ -475,3 +475,31 @@ function is_download_brochure_page()
     return $found;
 
 }
+
+
+//Lets add Open Graph Meta Info
+function insert_fb_in_head()
+{
+    global $post;
+    if (!is_singular()) {
+        return;
+    } //if it is not a post or a page
+    
+    // echo '<meta property="fb:app_id" content="Your Facebook App ID" />';
+    echo '<meta property="og:title" content="' . get_the_title() . '"/>';
+    echo '<meta property="og:type" content="article"/>';
+    echo '<meta property="og:url" content="' . get_permalink() . '"/>';
+    echo '<meta property="og:site_name" content="Luiss Business School | School of Management"/>';
+    $has_thumbnail = get_the_post_thumbnail_url($post->ID);
+    if($has_thumbnail == false ) { //the post does not have featured image, use a default image
+        $default_image="https://businessschool.luiss.it/wp-content/uploads/2018/11/Immagini1_slideshow_HOME.jpg"; //replace this with a default image on your server or an image in your media library
+        echo '<meta property="og:image" content="' . $default_image . '"/>';
+    }
+    else{
+        $thumbnail_src = get_the_post_thumbnail_url($post->ID, 'full');
+        echo '<meta property="og:image" content="' . esc_attr($thumbnail_src) . '"/>';
+    }
+
+    echo "";
+}
+add_action('wp_head', 'insert_fb_in_head', 5);

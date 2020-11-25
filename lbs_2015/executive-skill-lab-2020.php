@@ -60,7 +60,7 @@ get_header(2017);?>
           
 
             <div class="col-12 mt-5">
-                <h3>Flex Courses</h3>
+                <h3>Life Skills</h3>
             </div>
                 <?php 
                 set_query_var('tag', 'life-skills');
