@@ -12,13 +12,17 @@ $titolo_centro['en'] = 'Observatories';
 $contatti       = array();
 $contatti['it'] = 'Contatti';
 $contatti['en'] = 'Contact Information';
+$current_blog_details = get_blog_details( array( 'blog_id' => $blog_id ) );
+$isEthos = ($current_blog_details->blog_id == '116') ? true : false;
+$isCesid = ($current_blog_details->blog_id == '28') ? true : false;
+$titolo = (!$isEthos && !$isCesid) ? 'Executive Compensation': get_the_title(get_the_ID());
 ?>
 
 <div class="item-centre box-cover-subhome" style="background-image:url(<?php echo site_url() ?>/wp-content/uploads/2017/04/AgevolazioniServizi.jpg)">
     <div class="container">
         <div class="row centre mt-128 pt-80">
             <div class="col-md-12">
-                <h1>Executive Compensation</h1>
+                <h1><?php echo $titolo; ?></h1>
                 <h2><span class="bg__gold"><?php echo $titolo_centro[ICL_LANGUAGE_CODE];?></span></h2>
             </div>
         </div>

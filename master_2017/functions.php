@@ -382,7 +382,7 @@ function theme_color_class( $classes )
 
     if(empty($color)) {
         $theme_blue_ids         = array(8,49,58,95);
-        $theme_light_blue_ids   = array(5,13,14,15,17,18,19,20,25,27,28,30,32,34,42,43,44,47,50,53,55,57,63,65,67,68,69,70,72,75,76,77,79,84,86,91,93,96,97,98,99,103,104,105,106,107,108,110,111,112,113,114,115,117,118,120,124,126,127,128,129,130,133,134,135,106,109,139,140,142,143,148);
+        $theme_light_blue_ids   = array(5,13,14,15,17,18,19,20,25,27,28,30,32,34,42,43,44,47,50,53,55,57,63,65,67,68,69,70,72,75,76,77,79,84,86,91,93,96,97,98,99,103,104,105,106,107,108,110,111,112,113,114,115,117,118,120,124,126,127,128,129,130,133,134,135,106,109,139,140,142,143,148,149);
         $theme_green_ids        = array(51,52,54,100,144);
         $theme_red_ids          = array(2,3,4,6,7,9,11,12,13,16,21,22,23,24,33,35,36,37,38,39,41,56,59,60,61,66,71,74,78,94,101,121,122,123,141,145,150);
         $theme_orange_ids       = array();
@@ -400,25 +400,79 @@ function theme_color_class( $classes )
         foreach($theme_colors as $key => $value){
             if(in_array($blog_id, $value)) {
                 $classes[] = $key;
+            }else{
+                $classes[] = 'theme-blue';
             }
         }
     }else{
         $classes[] = $color;
     }
 
-    
+    $classes[] = 'blog_id_'.$blog_id;
 
     return $classes;
 }
 
 function modify_home_in_nav_menu_objects( $items, $args )
 {
-    foreach ( $items as $k => $object ) {
-        $object->title = ucfirst(strtolower($object->title)).'<i class="fas fa-chevron-right"></i>';
+    $isMaster = false;
+    
+    $sites_name = [
+        '/mabda/',
+        '/entrepreneurship/',
+        '/master-of-fashion/',
+        '/master-of-luxury/',
+        '/tourism-management/',
+        '/corporare-finance-banking-major-finanza-aziendale/',
+        '/macofin/',
+        '/corporate-finance-banking-major-banking/',
+        '/master-food-wine/',
+        '/gruo/',
+        '/international-management/',
+        '/management-technology-digital-ecosystem/',
+        '/global-supply-chain-management/',
+        '/disruptive-ma/',
+        '/pr-communication-event-management/',
+        '/master-digital-export/',
+        '/marketing-management-digital-marketing/',
+        '/marketing-management-retailing-ecommerce/',
+        '/marketing-management/',
+        '/trade-management/',
+        '/master-of-art/',
+        '/gestione-produzione-cinematografica/',
+        '/master-of-music/',
+        '/master-sport-management/',
+        '/writing-school-for-television/',
+        '/project-management/',
+        '/project-management-cooperazione-internazionale/',
+        '/master-circular-economy/',
+        '/comunicazione-e-marketing-politico-ed-istituzionale/',
+        '/diritto-tributario/',
+        '/probiomed/',
+        '/management-aziende-sanitarie/',
+        '/executive-master-pharmaceutical-healthcare-administration/',
+        '/master-sperimentazione-clinica/',
+        '/openinnovation-ip/',
+        '/relazioni-istituzionali-lobby-comunicazione-impresa/',
+        '/consulente-legale-impresa/',
+        '/five-stars-hotel-management/',
+        '/executive-serie-televisiva-idea-mercato/',
+    ];
+    foreach($sites_name as $site){
+        if( strpos($_SERVER['REQUEST_URI'], $site) !== FALSE){
+            $isMaster = true;
+        }
     }
+    
+    if(!$isMaster) {
+        foreach ( $items as $k => $object ) {
+            $object->title = ucfirst(strtolower($object->title)).'<i class="fas fa-chevron-right"></i>';
+        }
+    }
+    
     return $items;
 }
-// add_filter('wp_nav_menu_objects', 'modify_home_in_nav_menu_objects', 10, 2);
+add_filter('wp_nav_menu_objects', 'modify_home_in_nav_menu_objects', 10, 2);
 
 
 class Walker_Nav_Menu_Dropdown extends Walker_Nav_Menu

@@ -6036,7 +6036,7 @@ main.site-master h3,
 main.site-master h4 {
     font-weight: 400;
     color: #FCBA4B;
-    text-transform: uppercase
+    /* text-transform: uppercase */
 }
 
 #header-master h1 {

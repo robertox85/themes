@@ -1321,18 +1321,9 @@ function insert_fb_in_head()
     echo '<meta property="og:type" content="article"/>';
     echo '<meta property="og:url" content="' . get_permalink() . '"/>';
     echo '<meta property="og:site_name" content="Luiss Business School | School of Management"/>';
-    $has_thumbnail = get_the_post_thumbnail_url($post->ID);
-    
-    if($has_thumbnail != false) { //the post does not have featured image, use a default image
-        $default_image = get_the_post_thumbnail_url($post->ID); //replace this with a default image on your server or an image in your media library
-        echo '<meta property="og:image" content="' . $default_image . '"/>';
-    }
-    else{
-        $thumbnail_src = prefix_get_first_image();
-        echo '<meta property="og:image" content="' . esc_attr($thumbnail_src) . '"/>';
-    }
+    $thumbnail_src = prefix_get_first_image();
+    echo '<meta property="og:image" content="' . esc_attr($thumbnail_src) . '"/>';
 
-    echo "";
 }
 add_action('wp_head', 'insert_fb_in_head', 5);
 

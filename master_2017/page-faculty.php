@@ -117,7 +117,11 @@ get_template_part( 'pco/template-parts/content', 'keyfacts' );
 <?php endwhile; // end of the loop. ?>
 
 <?php //get_main_site_footer();?>
-<?php get_footer() ?>
+<?php 
+
+get_footer() 
+
+?>
 
 <!-- MODAL -->
 <?php get_template_part('pco/template-parts/content', 'modal')?>

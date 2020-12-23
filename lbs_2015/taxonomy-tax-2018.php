@@ -2,7 +2,7 @@
 /*
 Template Name: Tax & Legal 2018
 */
-get_header( 2017 );?>
+get_header(2017);?>
 
 <!-- Query per le pagine 
 
@@ -43,7 +43,7 @@ Summer School (specialistici) - 133
 
 <!-- Includo le variabili comuni -->
 
-<?php include(dirname(__DIR__).'/lbs_2015/pco/variables/vars.php'); ?>
+<?php require dirname(__DIR__).'/lbs_2015/pco/variables/vars.php'; ?>
 
 <!-- Inizio template -->
 
@@ -97,62 +97,62 @@ Summer School (specialistici) - 133
                 </div>
                 <div class="d-flex flex-row flex-wrap justify-content-start align-items-stretch px-0 pt-24">
                     <?php
-			$query_tax_value = 131;
-			$tax_query = array();
-			$tax_query[] = array(
-				'taxonomy' => 'lunghezza_corsi',
-				'field' => 'id',
-				'terms' => ( int )$query_tax_value
-			);
+                    $query_tax_value = 131;
+                    $tax_query = array();
+                    $tax_query[] = array(
+                    'taxonomy' => 'lunghezza_corsi',
+                    'field' => 'id',
+                    'terms' => ( int )$query_tax_value
+                    );
                     
-            $query_tax_value = 45;
-            $tax_query[] = array(
-				'taxonomy' => 'tematiche',
-				'field' => 'id',
-				'terms' => ( int )$query_tax_value
-			);
+                    $query_tax_value = 45;
+                    $tax_query[] = array(
+                    'taxonomy' => 'tematiche',
+                    'field' => 'id',
+                    'terms' => ( int )$query_tax_value
+                    );
 
-			//var_dump($tax_query);
-			$course_cat = array();
-			$course_cat[ 'it' ] = 61;
-			$course_cat[ 'en' ] = 62;
+                    //var_dump($tax_query);
+                    $course_cat = array();
+                    $course_cat[ 'it' ] = 61;
+                    $course_cat[ 'en' ] = 62;
 
-			$args = array(
-				'post_type' => 'page',
-				'post_status' => 'publish',
-				'cat' => $course_cat[ ICL_LANGUAGE_CODE ],
-				'pagination' => true,
-				'tax_query' => $tax_query,
-				'posts_per_page' => '-1',
-				'meta_key' => 'data_inizio',
-				'orderby' => 'meta_value_num',
-				'meta_query' => array(
-				//	array(
-				//		'key' => 'data_inizio', // which meta to query
-				//		'value' => date( "Y-m-d" ),
-				//		'compare' => '>=', // method of comparison
-				//		'type' <= 'DATE'
-				//	)
-				),
-				'cache_results' => false,
-				'suppress_filters' => false,
-				'order' => 'ASC'
-			);
-			//echo '<pre>';
-			//var_dump($args);
-			//echo '</pre>';
-			wp_cache_flush();
-			$query = new WP_Query( $args );
+                    $args = array(
+                    'post_type' => 'page',
+                    'post_status' => 'publish',
+                    'cat' => $course_cat[ ICL_LANGUAGE_CODE ],
+                    'pagination' => true,
+                    'tax_query' => $tax_query,
+                    'posts_per_page' => '-1',
+                    'meta_key' => 'data_inizio',
+                    'orderby' => 'meta_value_num',
+                    'meta_query' => array(
+                    //    array(
+                    //        'key' => 'data_inizio', // which meta to query
+                    //        'value' => date( "Y-m-d" ),
+                    //        'compare' => '>=', // method of comparison
+                    //        'type' <= 'DATE'
+                    //    )
+                    ),
+                    'cache_results' => false,
+                    'suppress_filters' => false,
+                    'order' => 'ASC'
+                    );
+                    //echo '<pre>';
+                    //var_dump($args);
+                    //echo '</pre>';
+                    wp_cache_flush();
+                    $query = new WP_Query($args);
 
-			if ( $query->have_posts() )  : while ( $query->have_posts() ) : $query->the_post(); ?>
+                    if ($query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
 
-                    <?php get_template_part( 'pco/template-parts/card-course', get_post_format() ); ?>
+                                     <?php get_template_part('pco/template-parts/card-course', get_post_format()); ?>
 
-                    <?php wp_reset_postdata(); ?>
+                                     <?php wp_reset_postdata(); ?>
 
                     <?php endwhile; else : ?>
-                    <?php if (ICL_LANGUAGE_CODE=='it') : ?><div class="col-12">Non ci sono ancora programmi.</div>
-                    <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?><div class="col-12">There are no programmes yet.</div>
+                                         <?php if (ICL_LANGUAGE_CODE=='it') : ?><div class="col-12">Non ci sono ancora programmi.</div>
+                    <?php elseif (ICL_LANGUAGE_CODE=='en' ) :?><div class="col-12">There are no programmes yet.</div>
                     <?php else : ?>
                     <?php endif; ?>
 
@@ -170,67 +170,67 @@ Summer School (specialistici) - 133
                 </div>
                 <div class="d-flex flex-row flex-wrap justify-content-start align-items-stretch px-0 pt-24">
                     <?php
-			$query_tax_value = 25;
-            $query_tax_value_to_exclude = 154;
-			$tax_query = array();
-			$tax_query[] = array(
-                'relation' => 'AND',
-                array(
-				'taxonomy' => 'lunghezza_corsi',
-				'field' => 'id',
-				'terms' => ( int )$query_tax_value,
-                    ),
-                array(
-				'taxonomy' => 'lunghezza_corsi',
-				'field' => 'id',
-				'terms' => ( int )$query_tax_value_to_exclude,
-                    'operator' => 'NOT IN'
-                    ),
-			);
+                    $query_tax_value = 25;
+                    $query_tax_value_to_exclude = 154;
+                    $tax_query = array();
+                    $tax_query[] = array(
+                    'relation' => 'AND',
+						array(
+							'taxonomy' => 'lunghezza_corsi',
+							'field' => 'id',
+							'terms' => ( int )$query_tax_value,
+						),
+						array(
+							'taxonomy' => 'lunghezza_corsi',
+							'field' => 'id',
+							'terms' => ( int )$query_tax_value_to_exclude,
+							'operator' => 'NOT IN'
+						),
+                    );
             
-            $query_tax_value = 45;
-            $tax_query[] = array(
-				'taxonomy' => 'tematiche',
-				'field' => 'id',
-				'terms' => ( int )$query_tax_value
-			);
+                    $query_tax_value = 45;
+                    $tax_query[] = array(
+						'taxonomy' => 'tematiche',
+						'field' => 'id',
+						'terms' => ( int )$query_tax_value
+                    );
             
-			$args = array(
-				'post_type' => 'page',
-				'post_status' => 'publish',
-				'cat' => $course_cat[ ICL_LANGUAGE_CODE ],
-				'pagination' => true,
-				'tax_query' => $tax_query,
-				'posts_per_page' => '-1',
-				'meta_key' => 'data_inizio',
-				'orderby' => 'meta_value_num',
-				'meta_query' => array(
-				//	array(
-				//		'key' => 'data_inizio', // which meta to query
-				//		'value' => date( "Y-m-d" ),
-				//		'compare' => '>=', // method of comparison
-				//		'type' <= 'DATE'
-				//	)
-				),
-				'cache_results' => false,
-				'suppress_filters' => false,
-				'order' => 'ASC'
-			);
-			//echo '<pre>';
-			//var_dump($args);
-			//echo '</pre>';
-			wp_cache_flush();
-			$query = new WP_Query( $args );
+                    $args = array(
+						'post_type' => 'page',
+						'post_status' => 'publish',
+						'cat' => $course_cat[ ICL_LANGUAGE_CODE ],
+						'pagination' => true,
+						'tax_query' => $tax_query,
+						'posts_per_page' => '-1',
+						'meta_key' => 'data_inizio',
+						'orderby' => 'meta_value_num',
+						'meta_query' => array(
+						//    array(
+						//        'key' => 'data_inizio', // which meta to query
+						//        'value' => date( "Y-m-d" ),
+						//        'compare' => '>=', // method of comparison
+						//        'type' <= 'DATE'
+						//    )
+						),
+						'cache_results' => false,
+						'suppress_filters' => false,
+						'order' => 'ASC'
+                    );
+                    //echo '<pre>';
+                    //var_dump($args);
+                    //echo '</pre>';
+                    wp_cache_flush();
+                    $query = new WP_Query($args);
 
-			if ( $query->have_posts() )  : while ( $query->have_posts() ) : $query->the_post(); ?>
+                    if ($query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
 
-                    <?php get_template_part( 'pco/template-parts/card-course', get_post_format() ); ?>
+                                     <?php get_template_part('pco/template-parts/card-course', get_post_format()); ?>
 
-                    <?php wp_reset_postdata(); ?>
+                                     <?php wp_reset_postdata(); ?>
 
                     <?php endwhile; else : ?>
-                    <?php if (ICL_LANGUAGE_CODE=='it') : ?><div class="col-12">Non ci sono ancora programmi.</div>
-                    <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?><div class="col-12">There are no programmes yet.</div>
+                                         <?php if (ICL_LANGUAGE_CODE=='it') : ?><div class="col-12">Non ci sono ancora programmi.</div>
+                    <?php elseif (ICL_LANGUAGE_CODE=='en' ) :?><div class="col-12">There are no programmes yet.</div>
                     <?php else : ?>
                     <?php endif; ?>
 
@@ -247,57 +247,57 @@ Summer School (specialistici) - 133
                 </div>
                 <div class="d-flex flex-row flex-wrap justify-content-start align-items-stretch px-0 pt-24">
                     <?php
-			$query_tax_value = 154;
-			$tax_query = array();
-			$tax_query[] = array(
-				'taxonomy' => 'lunghezza_corsi',
-				'field' => 'id',
-				'terms' => ( int )$query_tax_value
-			);
+                    $query_tax_value = 154;
+                    $tax_query = array();
+                    $tax_query[] = array(
+                    'taxonomy' => 'lunghezza_corsi',
+                    'field' => 'id',
+                    'terms' => ( int )$query_tax_value
+                    );
 
-                $query_tax_value = 45;
-            $tax_query[] = array(
-				'taxonomy' => 'tematiche',
-				'field' => 'id',
-				'terms' => ( int )$query_tax_value
-			);
+                    $query_tax_value = 45;
+                    $tax_query[] = array(
+                    'taxonomy' => 'tematiche',
+                    'field' => 'id',
+                    'terms' => ( int )$query_tax_value
+                    );
                 
-                $args = array(
-				'post_type' => 'page',
-				'post_status' => 'publish',
-				'cat' => $course_cat[ ICL_LANGUAGE_CODE ],
-				'pagination' => true,
-				'tax_query' => $tax_query,
-				'posts_per_page' => '-1',
-				'meta_key' => 'data_inizio',
-				'orderby' => 'meta_value_num',
-				'meta_query' => array(
-				//	array(
-				//		'key' => 'data_inizio', // which meta to query
-				//		'value' => date( "Y-m-d" ),
-				//		'compare' => '>=', // method of comparison
-				//		'type' <= 'DATE'
-				//	)
-				),
-				'cache_results' => false,
-				'suppress_filters' => false,
-				'order' => 'ASC'
-			);
-			//echo '<pre>';
-			//var_dump($args);
-			//echo '</pre>';
-			wp_cache_flush();
-			$query = new WP_Query( $args );
+                    $args = array(
+                    'post_type' => 'page',
+                    'post_status' => 'publish',
+                    'cat' => $course_cat[ ICL_LANGUAGE_CODE ],
+                    'pagination' => true,
+                    'tax_query' => $tax_query,
+                    'posts_per_page' => '-1',
+                    'meta_key' => 'data_inizio',
+                    'orderby' => 'meta_value_num',
+                    'meta_query' => array(
+                    //    array(
+                    //        'key' => 'data_inizio', // which meta to query
+                    //        'value' => date( "Y-m-d" ),
+                    //        'compare' => '>=', // method of comparison
+                    //        'type' <= 'DATE'
+                    //    )
+                    ),
+                    'cache_results' => false,
+                    'suppress_filters' => false,
+                    'order' => 'ASC'
+                    );
+                    //echo '<pre>';
+                    //var_dump($args);
+                    //echo '</pre>';
+                    wp_cache_flush();
+                    $query = new WP_Query($args);
 
-			if ( $query->have_posts() )  : while ( $query->have_posts() ) : $query->the_post(); ?>
+                    if ($query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
 
-                    <?php get_template_part( 'pco/template-parts/card-course', get_post_format() ); ?>
+                                     <?php get_template_part('pco/template-parts/card-course', get_post_format()); ?>
 
-                    <?php wp_reset_postdata(); ?>
+                                     <?php wp_reset_postdata(); ?>
 
                     <?php endwhile; else : ?>
-                    <?php if (ICL_LANGUAGE_CODE=='it') : ?><div class="col-12">Non ci sono ancora programmi.</div>
-                    <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?><div class="col-12">There are no programmes yet.</div>
+                                         <?php if (ICL_LANGUAGE_CODE=='it') : ?><div class="col-12">Non ci sono ancora programmi.</div>
+                    <?php elseif (ICL_LANGUAGE_CODE=='en' ) :?><div class="col-12">There are no programmes yet.</div>
                     <?php else : ?>
                     <?php endif; ?>
 
@@ -316,57 +316,57 @@ Summer School (specialistici) - 133
                 </div>
                 <div class="d-flex flex-row flex-wrap justify-content-start align-items-stretch px-0 pt-24">
                     <?php
-			$query_tax_value = 26;
-			$tax_query = array();
-			$tax_query[] = array(
-				'taxonomy' => 'lunghezza_corsi',
-				'field' => 'id',
-				'terms' => ( int )$query_tax_value
-			);
+                    $query_tax_value = 26;
+                    $tax_query = array();
+                    $tax_query[] = array(
+                    'taxonomy' => 'lunghezza_corsi',
+                    'field' => 'id',
+                    'terms' => ( int )$query_tax_value
+                    );
                 
-                $query_tax_value = 45;
-            $tax_query[] = array(
-				'taxonomy' => 'tematiche',
-				'field' => 'id',
-				'terms' => ( int )$query_tax_value
-			);
+                    $query_tax_value = 45;
+                    $tax_query[] = array(
+                    'taxonomy' => 'tematiche',
+                    'field' => 'id',
+                    'terms' => ( int )$query_tax_value
+                    );
 
-			$args = array(
-				'post_type' => 'page',
-				'post_status' => 'publish',
-				'cat' => $course_cat[ ICL_LANGUAGE_CODE ],
-				'pagination' => true,
-				'tax_query' => $tax_query,
-				'posts_per_page' => '-1',
-				'meta_key' => 'data_inizio',
-				'orderby' => 'meta_value_num',
-				'meta_query' => array(
-				//	array(
-				//		'key' => 'data_inizio', // which meta to query
-				//		'value' => date( "Y-m-d" ),
-				//		'compare' => '>=', // method of comparison
-				//		'type' <= 'DATE'
-				//	)
-				),
-				'cache_results' => false,
-				'suppress_filters' => false,
-				'order' => 'ASC'
-			);
-			//echo '<pre>';
-			//var_dump($args);
-			//echo '</pre>';
-			wp_cache_flush();
-			$query = new WP_Query( $args );
+                    $args = array(
+                    'post_type' => 'page',
+                    'post_status' => 'publish',
+                    'cat' => $course_cat[ ICL_LANGUAGE_CODE ],
+                    'pagination' => true,
+                    'tax_query' => $tax_query,
+                    'posts_per_page' => '-1',
+                    'meta_key' => 'data_inizio',
+                    'orderby' => 'meta_value_num',
+                    'meta_query' => array(
+                    //    array(
+                    //        'key' => 'data_inizio', // which meta to query
+                    //        'value' => date( "Y-m-d" ),
+                    //        'compare' => '>=', // method of comparison
+                    //        'type' <= 'DATE'
+                    //    )
+                    ),
+                    'cache_results' => false,
+                    'suppress_filters' => false,
+                    'order' => 'ASC'
+                    );
+                    //echo '<pre>';
+                    //var_dump($args);
+                    //echo '</pre>';
+                    wp_cache_flush();
+                    $query = new WP_Query($args);
 
-			if ( $query->have_posts() )  : while ( $query->have_posts() ) : $query->the_post(); ?>
+                    if ($query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
 
-                    <?php get_template_part( 'pco/template-parts/card-course', get_post_format() ); ?>
+                                     <?php get_template_part('pco/template-parts/card-course', get_post_format()); ?>
 
-                    <?php wp_reset_postdata(); ?>
+                                     <?php wp_reset_postdata(); ?>
 
                     <?php endwhile; else : ?>
-                    <?php if (ICL_LANGUAGE_CODE=='it') : ?><div class="col-12">Non ci sono ancora programmi.</div>
-                    <?php elseif ( ICL_LANGUAGE_CODE=='en' ) :?><div class="col-12">There are no programmes yet.</div>
+                                         <?php if (ICL_LANGUAGE_CODE=='it') : ?><div class="col-12">Non ci sono ancora programmi.</div>
+                    <?php elseif (ICL_LANGUAGE_CODE=='en' ) :?><div class="col-12">There are no programmes yet.</div>
                     <?php else : ?>
                     <?php endif; ?>
 
@@ -378,21 +378,21 @@ Summer School (specialistici) - 133
             <!-- LABS -->
             <div class="tab-pane fade" id="exlabs" role="tabpanel" aria-labelledby="exlabs-tab">
                 
-                <?php get_template_part( 'pco/template-parts/section-skill-lab', get_post_format() ); ?>
+                <?php get_template_part('pco/template-parts/section-skill-lab', get_post_format()); ?>
             </div>
         </div>
     </section>
 </div>
 
 <!-- INDIVIDUAL PROGRAMME -->
-<?php get_template_part( 'pco/template-parts/section-individual-programme', get_post_format() ); ?>
+<?php get_template_part('pco/template-parts/section-individual-programme', get_post_format()); ?>
 
 <!-- OFFERTA COMPLETA -->
-<?php get_template_part( 'pco/template-parts/section-executive-by-tematica', get_post_format() ); ?>
+<?php get_template_part('pco/template-parts/section-executive-by-tematica', get_post_format()); ?>
 
 <?php edit_post_link('<p>Modifica Pagina</p>', ''); ?>
 
 
 <?php
-get_footer( 2017 );
+get_footer(2017);
 ?>

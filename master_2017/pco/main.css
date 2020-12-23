@@ -14945,7 +14945,7 @@ body.theme-blue .site-main h3,
 body.theme-blue .site-main h4,
 body.theme-blue .site-main h5,
 body.theme-blue .site-main h6 {
-    text-transform: lowercase;
+    /* text-transform: lowercase; */
 }
 
 body.theme-blue .site-main h1::first-letter,
@@ -14954,7 +14954,7 @@ body.theme-blue .site-main h3::first-letter,
 body.theme-blue .site-main h4::first-letter,
 body.theme-blue .site-main h5::first-letter,
 body.theme-blue .site-main h6::first-letter {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 body.theme-blue .site-main h3 {
@@ -15172,7 +15172,7 @@ body.theme-blue .sidebar-master a.featured-links {
 
 body.theme-blue main.site-master h3 {
     font-size: calc(1.425rem + 2.1vw);
-    text-transform: lowercase;
+    /* text-transform: lowercase; */
 }
 
 @media (min-width: 1200px) {
@@ -15182,16 +15182,16 @@ body.theme-blue main.site-master h3 {
 }
 
 body.theme-blue main.site-master h3::first-letter {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     /* Make the first letters uppercase      */
 }
 
 body.theme-blue .page-title {
-    text-transform: lowercase;
+    /* text-transform: lowercase; */
 }
 
 body.theme-blue .page-title::first-letter {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 body.theme-blue .select {
@@ -15944,7 +15944,7 @@ body.theme-light_blue .site-main h3,
 body.theme-light_blue .site-main h4,
 body.theme-light_blue .site-main h5,
 body.theme-light_blue .site-main h6 {
-    text-transform: lowercase;
+    /* text-transform: lowercase; */
 }
 
 body.theme-light_blue .site-main h1::first-letter,
@@ -15953,7 +15953,7 @@ body.theme-light_blue .site-main h3::first-letter,
 body.theme-light_blue .site-main h4::first-letter,
 body.theme-light_blue .site-main h5::first-letter,
 body.theme-light_blue .site-main h6::first-letter {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 body.theme-light_blue .site-main h3 {
@@ -16171,7 +16171,7 @@ body.theme-light_blue .sidebar-master a.featured-links {
 
 body.theme-light_blue main.site-master h3 {
     font-size: calc(1.425rem + 2.1vw);
-    text-transform: lowercase;
+    /* text-transform: lowercase; */
 }
 
 @media (min-width: 1200px) {
@@ -16181,16 +16181,16 @@ body.theme-light_blue main.site-master h3 {
 }
 
 body.theme-light_blue main.site-master h3::first-letter {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     /* Make the first letters uppercase      */
 }
 
 body.theme-light_blue .page-title {
-    text-transform: lowercase;
+    /* text-transform: lowercase; */
 }
 
 body.theme-light_blue .page-title::first-letter {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 body.theme-light_blue .select {
@@ -16942,7 +16942,7 @@ body.theme-green .site-main h3,
 body.theme-green .site-main h4,
 body.theme-green .site-main h5,
 body.theme-green .site-main h6 {
-    text-transform: lowercase;
+    /* text-transform: lowercase; */
 }
 
 body.theme-green .site-main h1::first-letter,
@@ -16951,7 +16951,7 @@ body.theme-green .site-main h3::first-letter,
 body.theme-green .site-main h4::first-letter,
 body.theme-green .site-main h5::first-letter,
 body.theme-green .site-main h6::first-letter {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 body.theme-green .site-main h3 {
@@ -17169,7 +17169,7 @@ body.theme-green .sidebar-master a.featured-links {
 
 body.theme-green main.site-master h3 {
     font-size: calc(1.425rem + 2.1vw);
-    text-transform: lowercase;
+    /* text-transform: lowercase; */
 }
 
 @media (min-width: 1200px) {
@@ -17179,16 +17179,16 @@ body.theme-green main.site-master h3 {
 }
 
 body.theme-green main.site-master h3::first-letter {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     /* Make the first letters uppercase      */
 }
 
 body.theme-green .page-title {
-    text-transform: lowercase;
+    /* text-transform: lowercase; */
 }
 
 body.theme-green .page-title::first-letter {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 body.theme-green .select {
@@ -17940,7 +17940,7 @@ body.theme-red .site-main h3,
 body.theme-red .site-main h4,
 body.theme-red .site-main h5,
 body.theme-red .site-main h6 {
-    text-transform: lowercase;
+    /* text-transform: lowercase; */
 }
 
 body.theme-red .site-main h1::first-letter,
@@ -17949,7 +17949,7 @@ body.theme-red .site-main h3::first-letter,
 body.theme-red .site-main h4::first-letter,
 body.theme-red .site-main h5::first-letter,
 body.theme-red .site-main h6::first-letter {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 body.theme-red .site-main h3 {
@@ -18167,7 +18167,7 @@ body.theme-red .sidebar-master a.featured-links {
 
 body.theme-red main.site-master h3 {
     font-size: calc(1.425rem + 2.1vw);
-    text-transform: lowercase;
+    /* text-transform: lowercase; */
 }
 
 @media (min-width: 1200px) {
@@ -18177,16 +18177,16 @@ body.theme-red main.site-master h3 {
 }
 
 body.theme-red main.site-master h3::first-letter {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     /* Make the first letters uppercase      */
 }
 
 body.theme-red .page-title {
-    text-transform: lowercase;
+    /* text-transform: lowercase; */
 }
 
 body.theme-red .page-title::first-letter {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 body.theme-red .select {
@@ -18938,7 +18938,7 @@ body.theme-orange .site-main h3,
 body.theme-orange .site-main h4,
 body.theme-orange .site-main h5,
 body.theme-orange .site-main h6 {
-    text-transform: lowercase;
+    /* text-transform: lowercase; */
 }
 
 body.theme-orange .site-main h1::first-letter,
@@ -18947,7 +18947,7 @@ body.theme-orange .site-main h3::first-letter,
 body.theme-orange .site-main h4::first-letter,
 body.theme-orange .site-main h5::first-letter,
 body.theme-orange .site-main h6::first-letter {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 body.theme-orange .site-main h3 {
@@ -19165,7 +19165,7 @@ body.theme-orange .sidebar-master a.featured-links {
 
 body.theme-orange main.site-master h3 {
     font-size: calc(1.425rem + 2.1vw);
-    text-transform: lowercase;
+    /* text-transform: lowercase; */
 }
 
 @media (min-width: 1200px) {
@@ -19175,12 +19175,12 @@ body.theme-orange main.site-master h3 {
 }
 
 body.theme-orange main.site-master h3::first-letter {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     /* Make the first letters uppercase      */
 }
 
 body.theme-orange .page-title {
-    text-transform: lowercase;
+    /* text-transform: lowercase; */
 }
 
 body.theme-orange .page-title::first-letter {
@@ -19936,7 +19936,7 @@ body.theme-gold .site-main h3,
 body.theme-gold .site-main h4,
 body.theme-gold .site-main h5,
 body.theme-gold .site-main h6 {
-    text-transform: lowercase;
+    /* text-transform: lowercase; */
 }
 
 body.theme-gold .site-main h1::first-letter,
@@ -19945,7 +19945,7 @@ body.theme-gold .site-main h3::first-letter,
 body.theme-gold .site-main h4::first-letter,
 body.theme-gold .site-main h5::first-letter,
 body.theme-gold .site-main h6::first-letter {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 body.theme-gold .site-main h3 {
@@ -20163,7 +20163,7 @@ body.theme-gold .sidebar-master a.featured-links {
 
 body.theme-gold main.site-master h3 {
     font-size: calc(1.425rem + 2.1vw);
-    text-transform: lowercase;
+    /* text-transform: lowercase; */
 }
 
 @media (min-width: 1200px) {
@@ -20173,16 +20173,16 @@ body.theme-gold main.site-master h3 {
 }
 
 body.theme-gold main.site-master h3::first-letter {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     /* Make the first letters uppercase      */
 }
 
 body.theme-gold .page-title {
-    text-transform: lowercase;
+    /* text-transform: lowercase; */
 }
 
 body.theme-gold .page-title::first-letter {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 body.theme-gold .select {

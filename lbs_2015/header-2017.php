@@ -290,8 +290,14 @@ bloginfo('name');
 <!-- <body class="home page-template page-template-home page-template-home-php page">-->
 
 <?php
+            global $blog_id;
             $logo_url_blue = site_url().'/wp-content/themes/lbs_2015/pco/images/logo/logo-new-blue.png';
             $logo_url_white = site_url().'/wp-content/themes/lbs_2015/pco/images/logo/logo-new-white.png';
+            $isFront = is_front_page();
+            $current_blog_details = get_blog_details( array( 'blog_id' => $blog_id ) );
+            $isEthos = ($current_blog_details->blog_id == '116') ? true : false;
+            $isCesid = ($current_blog_details->blog_id == '28') ? true : false;
+            $className = ($isFront && !$isEthos && !$isCesid) ? 'fixed-top hp-nav-fix': '';
 ?>
 
 <style>
@@ -317,11 +323,7 @@ bloginfo('name');
     <div id="site-wrapper">
         <div id="site-canvas">
 
-            <div class="<?php if (is_front_page()): ?>
-            fixed-top hp-nav-fix
-            <?php else : ?>
-            <?php endif; ?>
-            ">
+            <div class="<?php echo $className ?>">
                 <!-- DESKTOP -->
                 <header id="masthead" class="d-none d-lg-block">
                     <div class="container px-0 pt-16 pb-24">

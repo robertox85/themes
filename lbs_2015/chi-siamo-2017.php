@@ -49,8 +49,8 @@ $link_lab_1['it']=site_url().'/perche-luiss-bs/competence-center-big-data/';
 $link_lab_1['en']="/en/why-luiss-bs/competence-center-big-data/";
                                     
 $link_lab_2=array();
-$link_lab_2 ['it']=site_url().'/ershub/';
-$link_lab_2 ['en']=site_url().'/ershub/en/'; 
+$link_lab_2 ['it']=site_url().'/cesid/';
+$link_lab_2 ['en']=site_url().'/cesid/en/'; 
                                     
 $link_lab_4=array();
 $link_lab_4['it']=site_url().'/perche-luiss-bs/competence-center-public-administration-healthcare-and-no-profit/'; $link_lab_4['en']=site_url().'/en/'; 

@@ -1,0 +1,16 @@
+body.single-evento{
+    .card--container{
+        border: 0;
+    }
+    .featured--image{
+        margin-bottom: rem(48px);
+    }
+    .section{
+        width: rem(695px);
+        word-wrap:break-word;
+    }
+    .icons--container {
+        bottom: rem(38px);
+        position: relative;
+    }
+}
